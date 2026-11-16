@@ -1,0 +1,7 @@
+index,kind,route_id,routes,old_total,total,delta,note,seconds,new_total,arm_step,budget_route_3d_checks,budget_d56_candidate_evals,wall_seconds,best_total
+0,g4_transaction,,[115],3967,3935,-32,sweep_migrate,0.552,,,,,,
+1,g4_transaction,,[99],3935,3919,-16,sweep_migrate,0.579,,,,,,
+2,g4_transaction,,[453],3919,3897,-22,sweep_migrate,0.536,,,,,,
+3,g4_transaction,,[425],3897,3877,-20,sweep_migrate,0.575,,,,,,
+4,g4_transaction,,[432],3877,3861,-16,sweep_migrate,0.575,,,,,,
+5,g4_transaction,,"[2, 4, 8, 10, 11, 12, 14, 15, 16, 28, 37, 38, 72, 145, 202, 225, 226, 227, 232, 406, 409, 410, 422, 470, 478, 496, 571, 599, 706, 711, 743, 778]",3861,3742,-119,recreate_32_random,5.637,,,,,,

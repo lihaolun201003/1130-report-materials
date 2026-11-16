@@ -1,0 +1,139 @@
+{
+ "schema": "g4_multi_arc_stage0_audit_v1",
+ "g3": {
+  "dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+  "sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+  "crossings": 1322,
+  "multi_arc_routes": 197,
+  "multi_arc_regions": 202,
+  "multi_arc_arcs": 548,
+  "routes": 1024,
+  "flat_arcs": 1788,
+  "flat_lines": 4203,
+  "transition_parts": 1926,
+  "total_length_mm": 156996.320802,
+  "routes_with_crossings": 588,
+  "max_route_crossings": 19
+ },
+ "converted": {
+  "dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\1130-report-materials\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\01_convert",
+  "sha256": "1707e189c271c94723af2a7ba304a2cd1deb52955216eff7e063851b964eb15f",
+  "crossings": 3967,
+  "multi_arc_routes": 0,
+  "multi_arc_regions": 0,
+  "routes": 1024,
+  "flat_arcs": 1900,
+  "flat_lines": 4595,
+  "transition_parts": 1922,
+  "total_length_mm": 165104.033821,
+  "routes_with_crossings": 677,
+  "max_route_crossings": 45
+ },
+ "delta_total_independent": 2645,
+ "delta_total_reported": 2645,
+ "replay": {
+  "order_recorded": 197,
+  "replay_crossings_final": 3967,
+  "replay_equals_converted_state": true,
+  "all_deltas_match": true,
+  "mismatched_route_ids": [],
+  "all_totals_match": true,
+  "sum_replay_delta": 2645
+ },
+ "targets": 197,
+ "converted_count": 197,
+ "residual": 0,
+ "records": 197,
+ "sum_commit_delta": 2645,
+ "by_threshold": {
+  "below_2R": {
+   "routes": 145,
+   "sum_delta": 2646,
+   "mean_delta": 18.2483,
+   "median_delta": 18,
+   "min_delta": 0,
+   "max_delta": 37,
+   "share_positive": 0.9931,
+   "share_zero": 0.0069,
+   "share_negative": 0.0
+  },
+  "at_or_above_2R": {
+   "routes": 52,
+   "sum_delta": -1,
+   "mean_delta": -0.0192,
+   "median_delta": 0.0,
+   "min_delta": -11,
+   "max_delta": 8,
+   "share_positive": 0.3846,
+   "share_zero": 0.3462,
+   "share_negative": 0.2692
+  }
+ },
+ "by_threshold_replay": {
+  "below_2R": {
+   "routes": 145,
+   "sum_delta": 2646,
+   "mean_delta": 18.2483,
+   "median_delta": 18,
+   "min_delta": 0,
+   "max_delta": 37,
+   "share_positive": 0.9931,
+   "share_zero": 0.0069,
+   "share_negative": 0.0
+  },
+  "at_or_above_2R": {
+   "routes": 52,
+   "sum_delta": -1,
+   "mean_delta": -0.0192,
+   "median_delta": 0.0,
+   "min_delta": -11,
+   "max_delta": 8,
+   "share_positive": 0.3846,
+   "share_zero": 0.3462,
+   "share_negative": 0.2692
+  }
+ },
+ "by_family": {
+  "OPP_DETOUR": 80,
+  "OPP_DETOUR_BACK": 64,
+  "OPP_Z": 39,
+  "ADJ_L": 12,
+  "ADJ_UP_LOOP": 2
+ },
+ "by_frame_kind": {
+  "opposite": 183,
+  "adjacent": 14
+ },
+ "identity": {
+  "routes_before": 1024,
+  "routes_after": 1024,
+  "same_route_id_set": true,
+  "endpoints_identical": true,
+  "endpoints_mismatch_ids": []
+ },
+ "length": {
+  "g3_total_length_mm": 156996.320802,
+  "converted_total_length_mm": 165104.033821,
+  "converted_minus_g3_mm": 8107.713019,
+  "converted_routes_length_delta_sum_mm": 8107.713021
+ },
+ "non_additivity": {
+  "sum_per_route_events_diff": 4146,
+  "global_delta": 2645,
+  "note": "sum(per-route event diffs) - global delta = number of crossing events whose BOTH routes are converted routes (each counted twice in the per-route sums)",
+  "converted_pair_events_implied": 1501
+ },
+ "planner": {
+  "max_target_layers": 3,
+  "max_lead_pairs": 2,
+  "prescreen_candidates": 160,
+  "max_candidates": 320,
+  "d56_top": 16,
+  "bodies_per_pair": 2,
+  "max_return": 4
+ },
+ "policy": {
+  "enabled": false,
+  "source": "env:G4_ENABLE_MULTI_ARC"
+ }
+}

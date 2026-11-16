@@ -1,0 +1,64 @@
+{
+ "schema": "g4_multi_arc_repair_v1",
+ "converted_block": {
+  "routes": 197,
+  "crossings_start": 4784,
+  "crossings_on": 1704,
+  "crossings_off": 3979,
+  "delta_on": -3080,
+  "delta_off": -805,
+  "multi_arc_on": 145,
+  "multi_arc_off": 0,
+  "routes_improved_on": 183,
+  "routes_worsened_on": 8,
+  "routes_improved_off": 162,
+  "routes_worsened_off": 7
+ },
+ "other_block": {
+  "routes": 699,
+  "crossings_start": 3150,
+  "crossings_on": 2714,
+  "crossings_off": 3235,
+  "delta_on": -436,
+  "delta_off": 85,
+  "multi_arc_on": 40,
+  "multi_arc_off": 0,
+  "routes_improved_on": 160,
+  "routes_worsened_on": 164,
+  "routes_improved_off": 109,
+  "routes_worsened_off": 242
+ },
+ "global_block": {
+  "routes": 896,
+  "crossings_start": 7934,
+  "crossings_on": 4418,
+  "crossings_off": 7214,
+  "delta_on": -3516,
+  "delta_off": -720,
+  "multi_arc_on": 185,
+  "multi_arc_off": 0,
+  "routes_improved_on": 343,
+  "routes_worsened_on": 172,
+  "routes_improved_off": 271,
+  "routes_worsened_off": 249
+ },
+ "restored_multi_arc_on": 145,
+ "restored_multi_arc_off": 0,
+ "converted_with_multi_arc_but_no_gain": 3,
+ "check": {
+  "start_total_from_rows": 3967,
+  "on_total_from_rows": 2209,
+  "off_total_from_rows": 3607,
+  "start_total": 3967,
+  "on_total": 2209,
+  "off_total": 3607
+ },
+ "inputs": {
+  "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\1130-report-materials\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\01_convert",
+  "on": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261130\\best_valid",
+  "off": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\best_valid",
+  "start_sha256": "1707e189c271c94723af2a7ba304a2cd1deb52955216eff7e063851b964eb15f",
+  "on_sha256": "53c7374d6aff2b478d71c145c741f369db3bb803206069418a3d66dec43a6aeb",
+  "off_sha256": "8360eacfe53e00496cba18b63900f340349075ff6083964ecece9d3f7d0fad3e"
+ }
+}

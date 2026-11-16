@@ -1,0 +1,64 @@
+{
+ "schema": "g4_multi_arc_repair_v1",
+ "converted_block": {
+  "routes": 197,
+  "crossings_start": 4784,
+  "crossings_on": 1704,
+  "crossings_off": 3987,
+  "delta_on": -3080,
+  "delta_off": -797,
+  "multi_arc_on": 158,
+  "multi_arc_off": 0,
+  "routes_improved_on": 178,
+  "routes_worsened_on": 11,
+  "routes_improved_off": 156,
+  "routes_worsened_off": 8
+ },
+ "other_block": {
+  "routes": 694,
+  "crossings_start": 3150,
+  "crossings_on": 2690,
+  "crossings_off": 3239,
+  "delta_on": -460,
+  "delta_off": 89,
+  "multi_arc_on": 44,
+  "multi_arc_off": 0,
+  "routes_improved_on": 133,
+  "routes_worsened_on": 178,
+  "routes_improved_off": 111,
+  "routes_worsened_off": 246
+ },
+ "global_block": {
+  "routes": 891,
+  "crossings_start": 7934,
+  "crossings_on": 4394,
+  "crossings_off": 7226,
+  "delta_on": -3540,
+  "delta_off": -708,
+  "multi_arc_on": 202,
+  "multi_arc_off": 0,
+  "routes_improved_on": 311,
+  "routes_worsened_on": 189,
+  "routes_improved_off": 267,
+  "routes_worsened_off": 254
+ },
+ "restored_multi_arc_on": 158,
+ "restored_multi_arc_off": 0,
+ "converted_with_multi_arc_but_no_gain": 4,
+ "check": {
+  "start_total_from_rows": 3967,
+  "on_total_from_rows": 2197,
+  "off_total_from_rows": 3613,
+  "start_total": 3967,
+  "on_total": 2197,
+  "off_total": 3613
+ },
+ "inputs": {
+  "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\1130-report-materials\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\01_convert",
+  "on": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\best_valid",
+  "off": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261116\\best_valid",
+  "start_sha256": "1707e189c271c94723af2a7ba304a2cd1deb52955216eff7e063851b964eb15f",
+  "on_sha256": "a88a229c175c70c80ebd8abe4a2fb98ae30a2f271311d21c7a1112569f64f94e",
+  "off_sha256": "0abfc85cf37e288637d90fe90d261b837d99e9116f908c11d33576056737d9d2"
+ }
+}

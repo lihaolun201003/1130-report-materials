@@ -1,0 +1,97 @@
+{
+ "arm": "G4c_free",
+ "final_crossings": 2126,
+ "crossing_pairs": 1960,
+ "start_crossings": 3967,
+ "delta_vs_start": -1841,
+ "routes_changed": 197,
+ "routes": 1024,
+ "accepts": 145,
+ "transactions": 314,
+ "seconds": 932.64,
+ "best_valid_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\a1_on_20261116\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 3780,
+  "d56_candidate_evals": 23754,
+  "xy_candidates_generated": 3168,
+  "transactions": 314,
+  "world_builds": 1,
+  "valid_candidates": 2385,
+  "rejected_3d": 807,
+  "accepted_transactions": 145,
+  "accepted_changes": 320,
+  "gain": 1841,
+  "validator_runs": 1,
+  "no_candidate": 163,
+  "rolled_back": 169,
+  "wall_seconds": 932.59
+ },
+ "stages": [
+  {
+   "stage": -1,
+   "size": 0,
+   "attempts": 157,
+   "accepts": 118,
+   "gain": 1452,
+   "seconds": 163.1,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 39
+   }
+  },
+  {
+   "stage": 0,
+   "size": 8,
+   "attempts": 31,
+   "accepts": 10,
+   "gain": 98,
+   "seconds": 164.9,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 17,
+    "target_height_occupied": 3,
+    "no_legal_xy_corridor": 1
+   }
+  },
+  {
+   "stage": 1,
+   "size": 16,
+   "attempts": 46,
+   "accepts": 11,
+   "gain": 87,
+   "seconds": 181.5,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 19,
+    "target_height_occupied": 9,
+    "no_legal_xy_corridor": 7
+   }
+  },
+  {
+   "stage": 2,
+   "size": 32,
+   "attempts": 32,
+   "accepts": 4,
+   "gain": 144,
+   "seconds": 196.9,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 14,
+    "target_height_occupied": 4,
+    "no_current_crossings": 6,
+    "no_legal_xy_corridor": 4
+   }
+  },
+  {
+   "stage": 3,
+   "size": 64,
+   "attempts": 18,
+   "accepts": 2,
+   "gain": 60,
+   "seconds": 183.5,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 9,
+    "target_height_occupied": 7
+   }
+  }
+ ],
+ "summary": null
+}

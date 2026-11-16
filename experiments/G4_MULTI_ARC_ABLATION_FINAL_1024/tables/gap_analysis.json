@@ -1,0 +1,127 @@
+{
+ "schema": "g4_multi_arc_gap_analysis_v1",
+ "seed": "20261104",
+ "blocks": {
+  "G3_start_1322": {
+   "total_events": 1322,
+   "converted_block": {
+    "routes": 197,
+    "sum": 638,
+    "mean": 3.2386,
+    "median": 3.0,
+    "max": 13,
+    "with_crossings": 152
+   },
+   "other_block": {
+    "routes": 665,
+    "sum": 2006,
+    "mean": 3.0165,
+    "median": 2.0,
+    "max": 19,
+    "with_crossings": 436
+   }
+  },
+  "start_common_3967": {
+   "total_events": 3967,
+   "converted_block": {
+    "routes": 197,
+    "sum": 4784,
+    "mean": 24.2843,
+    "median": 25.0,
+    "max": 45,
+    "with_crossings": 197
+   },
+   "other_block": {
+    "routes": 665,
+    "sum": 3150,
+    "mean": 4.7368,
+    "median": 3.0,
+    "max": 31,
+    "with_crossings": 480
+   }
+  },
+  "ON_final": {
+   "total_events": 2203,
+   "converted_block": {
+    "routes": 197,
+    "sum": 1668,
+    "mean": 8.467,
+    "median": 8.0,
+    "max": 31,
+    "with_crossings": 189
+   },
+   "other_block": {
+    "routes": 665,
+    "sum": 2738,
+    "mean": 4.1173,
+    "median": 3.0,
+    "max": 21,
+    "with_crossings": 586
+   }
+  },
+  "OFF_final": {
+   "total_events": 3583,
+   "converted_block": {
+    "routes": 197,
+    "sum": 3980,
+    "mean": 20.203,
+    "median": 20.0,
+    "max": 40,
+    "with_crossings": 197
+   },
+   "other_block": {
+    "routes": 665,
+    "sum": 3186,
+    "mean": 4.791,
+    "median": 4.0,
+    "max": 24,
+    "with_crossings": 621
+   }
+  }
+ },
+ "g3_rebuild": {
+  "converted_routes": 197,
+  "converted_routes_at_or_below_G3_level": 28,
+  "converted_routes_with_multi_arc_restored": 142,
+  "converted_mean_delta_vs_G3": 5.2284,
+  "converted_median_delta_vs_G3": 4.0,
+  "others_mean_delta_vs_G3": 1.1008,
+  "others_improved_vs_G3": 51,
+  "others_at_or_worse_vs_G3": 614
+ },
+ "height_split": {
+  "height_unchanged": {
+   "routes": 98,
+   "mean_residual": 3.1837,
+   "median_residual": 3.0,
+   "sum_residual": 312,
+   "restored_multi_arc": 57
+  },
+  "height_changed": {
+   "routes": 99,
+   "mean_residual": 7.2525,
+   "median_residual": 6.0,
+   "sum_residual": 718,
+   "restored_multi_arc": 85
+  },
+  "note": "residual = per-route crossing count in the ON final minus the G3 value; the two groups sum to the converted-block residual reported in g3_rebuild",
+  "converted_block_residual": 1030
+ },
+ "geometry": {
+  "converted": {
+   "on_identical_to_G3": 13,
+   "on_identical_to_start": 43,
+   "off_identical_to_G3": 0,
+   "off_identical_to_start": 158,
+   "on_height_differs_from_G3": 99,
+   "n": 197
+  },
+  "others": {
+   "on_identical_to_G3": 567,
+   "on_identical_to_start": 567,
+   "off_identical_to_G3": 656,
+   "off_identical_to_start": 656,
+   "n": 665
+  }
+ }
+}

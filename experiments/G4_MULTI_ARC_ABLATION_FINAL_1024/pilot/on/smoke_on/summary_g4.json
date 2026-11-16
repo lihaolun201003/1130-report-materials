@@ -1,0 +1,72 @@
+{
+ "arm": "G4c_free",
+ "final_crossings": 3742,
+ "crossing_pairs": 2842,
+ "start_crossings": 3967,
+ "delta_vs_start": -225,
+ "routes_changed": 30,
+ "routes": 1024,
+ "accepts": 6,
+ "transactions": 9,
+ "seconds": 70.83,
+ "best_valid_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_FINAL_1024\\pilot\\on\\smoke_on\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 164,
+  "d56_candidate_evals": 568,
+  "xy_candidates_generated": 95,
+  "transactions": 9,
+  "world_builds": 0,
+  "valid_candidates": 94,
+  "rejected_3d": 3,
+  "accepted_transactions": 6,
+  "accepted_changes": 37,
+  "gain": 225,
+  "validator_runs": 1,
+  "no_candidate": 2,
+  "rolled_back": 3,
+  "wall_seconds": 70.81
+ },
+ "stages": [
+  {
+   "stage": -1,
+   "size": 0,
+   "attempts": 5,
+   "accepts": 5,
+   "gain": 106,
+   "seconds": 5.3,
+   "reasons": {}
+  },
+  {
+   "stage": 0,
+   "size": 8,
+   "attempts": 1,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 6.5,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 1
+   }
+  },
+  {
+   "stage": 1,
+   "size": 16,
+   "attempts": 0,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 0.0,
+   "reasons": {}
+  },
+  {
+   "stage": 2,
+   "size": 32,
+   "attempts": 1,
+   "accepts": 1,
+   "gain": 119,
+   "seconds": 12.8,
+   "reasons": {}
+  }
+ ],
+ "summary": null
+}

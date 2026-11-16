@@ -1,0 +1,94 @@
+{
+ "arm": "G4c_free",
+ "final_crossings": 3709,
+ "crossing_pairs": 2804,
+ "start_crossings": 3967,
+ "delta_vs_start": -258,
+ "routes_changed": 23,
+ "routes": 1024,
+ "accepts": 24,
+ "transactions": 77,
+ "seconds": 309.11,
+ "best_valid_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_FINAL_1024\\pilot\\off\\pilot_off\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 816,
+  "d56_candidate_evals": 6458,
+  "xy_candidates_generated": 752,
+  "transactions": 77,
+  "world_builds": 0,
+  "valid_candidates": 614,
+  "rejected_3d": 143,
+  "accepted_transactions": 24,
+  "accepted_changes": 32,
+  "gain": 258,
+  "validator_runs": 1,
+  "no_candidate": 127,
+  "rolled_back": 53,
+  "wall_seconds": 309.09
+ },
+ "stages": [
+  {
+   "stage": -1,
+   "size": 0,
+   "attempts": 27,
+   "accepts": 18,
+   "gain": 216,
+   "seconds": 28.8,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 9
+   }
+  },
+  {
+   "stage": 0,
+   "size": 8,
+   "attempts": 13,
+   "accepts": 2,
+   "gain": 13,
+   "seconds": 56.5,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 6,
+    "target_height_occupied": 5
+   }
+  },
+  {
+   "stage": 1,
+   "size": 16,
+   "attempts": 11,
+   "accepts": 1,
+   "gain": 12,
+   "seconds": 48.0,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 6,
+    "target_height_occupied": 4
+   }
+  },
+  {
+   "stage": 2,
+   "size": 32,
+   "attempts": 9,
+   "accepts": 2,
+   "gain": 13,
+   "seconds": 62.7,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 5,
+    "no_legal_xy_corridor": 1,
+    "target_height_occupied": 1
+   }
+  },
+  {
+   "stage": 3,
+   "size": 64,
+   "attempts": 7,
+   "accepts": 1,
+   "gain": 4,
+   "seconds": 68.0,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 5,
+    "target_height_occupied": 1
+   }
+  }
+ ],
+ "summary": null
+}

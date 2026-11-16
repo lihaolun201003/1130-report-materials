@@ -1,0 +1,526 @@
+{
+ "attempts": [
+  {
+   "stage": 0,
+   "operator": "recreate",
+   "rids": [
+    141,
+    159,
+    164,
+    203,
+    212,
+    215,
+    449,
+    467
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 5.659,
+   "wall": 53.73
+  },
+  {
+   "stage": 0,
+   "operator": "component",
+   "rids": [
+    630,
+    631,
+    634,
+    638,
+    700,
+    807,
+    811
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 2.556,
+   "wall": 56.51
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    129
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 12.105,
+   "wall": 68.62
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    34
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 11.868,
+   "wall": 80.5
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    562
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 5.803,
+   "wall": 101.64
+  },
+  {
+   "stage": 0,
+   "operator": "recreate",
+   "rids": [
+    530,
+    534,
+    542,
+    554,
+    558,
+    574,
+    666,
+    670
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 5.672,
+   "wall": 107.59
+  },
+  {
+   "stage": 1,
+   "operator": "recreate",
+   "rids": [
+    139,
+    148,
+    151,
+    154,
+    161,
+    210,
+    219,
+    222,
+    231,
+    408,
+    454,
+    459,
+    462,
+    477,
+    495,
+    498
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 5.782,
+   "wall": 113.96
+  },
+  {
+   "stage": 1,
+   "operator": "migrate",
+   "rids": [
+    411
+   ],
+   "reason": "no_legal_xy_corridor",
+   "seconds": 4.923,
+   "wall": 130.77
+  },
+  {
+   "stage": 1,
+   "operator": "lift_direct",
+   "rids": [
+    524
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.14,
+   "wall": 130.91
+  },
+  {
+   "stage": 1,
+   "operator": "migrate",
+   "rids": [
+    130
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 5.784,
+   "wall": 136.69
+  },
+  {
+   "stage": 1,
+   "operator": "recreate",
+   "rids": [
+    145,
+    174,
+    176,
+    177,
+    179,
+    180,
+    182,
+    183,
+    185,
+    186,
+    188,
+    189,
+    191,
+    192,
+    194,
+    432
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 5.324,
+   "wall": 142.22
+  },
+  {
+   "stage": 1,
+   "operator": "migrate",
+   "rids": [
+    543
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 6.165,
+   "wall": 148.38
+  },
+  {
+   "stage": 1,
+   "operator": "component",
+   "rids": [
+    893,
+    897,
+    913,
+    917,
+    921,
+    925,
+    933,
+    937,
+    941,
+    945,
+    949,
+    961,
+    965
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 3.013,
+   "wall": 153.03
+  },
+  {
+   "stage": 1,
+   "operator": "lift_direct",
+   "rids": [
+    604
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 5.73,
+   "wall": 160.72
+  },
+  {
+   "stage": 2,
+   "operator": "component",
+   "rids": [
+    230,
+    294,
+    297,
+    300,
+    303,
+    306,
+    423,
+    441,
+    444,
+    447,
+    488,
+    632,
+    633,
+    770,
+    978,
+    979,
+    982,
+    983,
+    986,
+    987,
+    990,
+    991,
+    994,
+    995,
+    998
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 4.94,
+   "wall": 176.79
+  },
+  {
+   "stage": 2,
+   "operator": "migrate",
+   "rids": [
+    238
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 4.527,
+   "wall": 191.47
+  },
+  {
+   "stage": 2,
+   "operator": "migrate",
+   "rids": [
+    715
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.173,
+   "wall": 204.75
+  },
+  {
+   "stage": 2,
+   "operator": "migrate",
+   "rids": [
+    5
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.104,
+   "wall": 209.57
+  },
+  {
+   "stage": 2,
+   "operator": "component",
+   "rids": [
+    516,
+    540,
+    564,
+    568,
+    588,
+    592,
+    596,
+    600,
+    676,
+    680,
+    684,
+    688,
+    692,
+    696,
+    704,
+    708,
+    712,
+    716,
+    720,
+    724,
+    728,
+    732,
+    740,
+    744,
+    748,
+    752,
+    756,
+    760,
+    773
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 4.388,
+   "wall": 214.19
+  },
+  {
+   "stage": 3,
+   "operator": "recreate",
+   "rids": [
+    3,
+    5,
+    30,
+    31,
+    32,
+    39,
+    40,
+    99,
+    101,
+    102,
+    103,
+    104,
+    110,
+    120,
+    124,
+    129,
+    133,
+    140,
+    142,
+    143,
+    146,
+    149,
+    155,
+    158,
+    211,
+    214,
+    217,
+    220,
+    226,
+    228,
+    238,
+    335,
+    407,
+    408,
+    410,
+    421,
+    424,
+    427,
+    432,
+    434,
+    445,
+    450,
+    468,
+    469,
+    475,
+    479,
+    481,
+    482,
+    484,
+    505,
+    706,
+    711,
+    738,
+    742,
+    776,
+    777,
+    780,
+    784,
+    796,
+    800,
+    804,
+    834,
+    836,
+    860
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 24.0,
+   "wall": 253.45
+  },
+  {
+   "stage": 3,
+   "operator": "component",
+   "rids": [
+    520,
+    524,
+    528,
+    532,
+    536,
+    544,
+    548,
+    552,
+    556,
+    560,
+    572,
+    576,
+    580,
+    584,
+    604,
+    612,
+    616,
+    620,
+    624,
+    628,
+    636,
+    640,
+    644,
+    648,
+    652,
+    656,
+    660,
+    664,
+    668,
+    672,
+    835,
+    974
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 5.291,
+   "wall": 259.1
+  },
+  {
+   "stage": 3,
+   "operator": "migrate",
+   "rids": [
+    744
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.187,
+   "wall": 259.28
+  },
+  {
+   "stage": 3,
+   "operator": "migrate",
+   "rids": [
+    119
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 5.531,
+   "wall": 264.82
+  },
+  {
+   "stage": 3,
+   "operator": "lift_direct",
+   "rids": [
+    234
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 10.584,
+   "wall": 275.4
+  },
+  {
+   "stage": 3,
+   "operator": "recreate",
+   "rids": [
+    3,
+    5,
+    30,
+    31,
+    32,
+    39,
+    40,
+    99,
+    101,
+    102,
+    103,
+    104,
+    110,
+    120,
+    124,
+    129,
+    133,
+    140,
+    142,
+    143,
+    146,
+    149,
+    155,
+    158,
+    211,
+    214,
+    217,
+    220,
+    226,
+    228,
+    238,
+    335,
+    407,
+    408,
+    410,
+    421,
+    424,
+    427,
+    432,
+    434,
+    445,
+    450,
+    468,
+    469,
+    475,
+    479,
+    481,
+    482,
+    484,
+    505,
+    706,
+    711,
+    738,
+    742,
+    776,
+    777,
+    780,
+    784,
+    796,
+    800,
+    804,
+    834,
+    836,
+    860
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 24.137,
+   "wall": 304.51
+  }
+ ],
+ "count": 25
+}

@@ -1,0 +1,57 @@
+{
+ "tag": "c1_20261104",
+ "routes": 197,
+ "below_2R": {
+  "routes": 145,
+  "mean_delta_on": -19.9034,
+  "sum_delta_on": -2886,
+  "mean_delta_off": -5.4207,
+  "sum_delta_off": -786,
+  "restored_multi_arc": 137
+ },
+ "at_or_above_2R": {
+  "routes": 52,
+  "mean_delta_on": -4.4231,
+  "sum_delta_on": -230,
+  "mean_delta_off": -0.3462,
+  "sum_delta_off": -18,
+  "restored_multi_arc": 5
+ },
+ "bins": [
+  {
+   "low": 0,
+   "high": 10,
+   "n": 56,
+   "mean_on": -18.3929,
+   "mean_off": -4.9107
+  },
+  {
+   "low": 10,
+   "high": 20,
+   "n": 48,
+   "mean_on": -20.2292,
+   "mean_off": -5.9792
+  },
+  {
+   "low": 20,
+   "high": 30,
+   "n": 41,
+   "mean_on": -21.5854,
+   "mean_off": -5.4634
+  },
+  {
+   "low": 30,
+   "high": 45,
+   "n": 32,
+   "mean_on": -6.1875,
+   "mean_off": -1.75
+  },
+  {
+   "low": 45,
+   "high": 60,
+   "n": 8,
+   "mean_on": -6.5,
+   "mean_off": -1.625
+  }
+ ]
+}

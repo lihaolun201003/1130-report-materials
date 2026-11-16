@@ -1,0 +1,125 @@
+{
+ "schema": "g4_multi_arc_cases_v1",
+ "cases": [
+  {
+   "kind": "stage0",
+   "route_id": 25,
+   "note": "named sub-2R case",
+   "file": "fig_case_stage0_route0025.png",
+   "z_before": -0.15,
+   "z_after": -0.15,
+   "crossings_in_window": [
+    0,
+    14
+   ],
+   "length_before": 152.343526,
+   "length_after": 199.930864,
+   "delta_commit": 29,
+   "lateral_offset_mm": 8.75,
+   "below_2R": true,
+   "family": "OPP_DETOUR_BACK"
+  },
+  {
+   "kind": "stage0",
+   "route_id": 36,
+   "note": "named sub-2R case",
+   "file": "fig_case_stage0_route0036.png",
+   "z_before": -0.1,
+   "z_after": -0.1,
+   "crossings_in_window": [
+    0,
+    27
+   ],
+   "length_before": 152.34089,
+   "length_after": 199.926303,
+   "delta_commit": 18,
+   "lateral_offset_mm": 8.75,
+   "below_2R": true,
+   "family": "OPP_DETOUR"
+  },
+  {
+   "kind": "stage0",
+   "route_id": 115,
+   "note": "named sub-2R case",
+   "file": "fig_case_stage0_route0115.png",
+   "z_before": -0.15,
+   "z_after": -0.15,
+   "crossings_in_window": [
+    4,
+    45
+   ],
+   "length_before": 158.805565,
+   "length_after": 224.353941,
+   "delta_commit": 27,
+   "lateral_offset_mm": 26.25,
+   "below_2R": true,
+   "family": "OPP_DETOUR_BACK"
+  },
+  {
+   "kind": "stage0",
+   "route_id": 106,
+   "note": "largest measured Stage-0 cost",
+   "file": "fig_case_stage0_route0106.png",
+   "z_before": -0.15,
+   "z_after": 0.0,
+   "crossings_in_window": [
+    4,
+    44
+   ],
+   "length_before": 159.932208,
+   "length_after": 217.420857,
+   "delta_commit": 37,
+   "lateral_offset_mm": 26.25,
+   "below_2R": true,
+   "family": "OPP_DETOUR"
+  },
+  {
+   "kind": "stage0",
+   "route_id": 39,
+   "note": ">=2R control (no cost)",
+   "file": "fig_case_stage0_route0039.png",
+   "z_before": 0.2,
+   "z_after": 0.2,
+   "crossings_in_window": [
+    1,
+    11
+   ],
+   "length_before": 163.933105,
+   "length_after": 172.139301,
+   "delta_commit": 0,
+   "lateral_offset_mm": 35.0,
+   "below_2R": false,
+   "family": "OPP_Z"
+  },
+  {
+   "kind": "common_start",
+   "route_id": 106,
+   "file": "fig_case_common_start_route0106.png",
+   "crossings": {
+    "start": 44,
+    "on": 7,
+    "off": 40
+   },
+   "z": {
+    "start": 0.0,
+    "on": -0.1,
+    "off": -0.2
+   }
+  },
+  {
+   "kind": "common_start",
+   "route_id": 425,
+   "file": "fig_case_common_start_route0425.png",
+   "crossings": {
+    "start": 40,
+    "on": 6,
+    "off": 36
+   },
+   "z": {
+    "start": 0.05,
+    "on": 0.05,
+    "off": -0.25
+   }
+  }
+ ]
+}

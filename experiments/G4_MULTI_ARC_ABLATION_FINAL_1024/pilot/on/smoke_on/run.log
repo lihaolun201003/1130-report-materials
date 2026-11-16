@@ -1,0 +1,37 @@
+[2026-11-16T23:49:52] ==============================================================================
+[2026-11-16T23:49:52] [G4c] arm=G4c_free seconds=3600 seed=20261104 resume=False out=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G4_MULTI_ARC_ABLATION_FINAL_1024\pilot\on\smoke_on tag=smoke_on
+[2026-11-16T23:49:52] [arm] start C:\Users\lihao\Desktop\Graduation Project\work\1130-report-materials\G4_MULTI_ARC_ABLATION_1024\no_multi_arc\01_convert sha256=1707e189c271c94723af2a7ba304a2cd1deb52955216eff7e063851b964eb15f crossings=1322
+[2026-11-16T23:49:52] [arm] WARNING: start routes SHA256 differs from the verified G3 optimum!
+[2026-11-16T23:49:59] [arm] loaded state routes=1024 crossings=3967 (1.94s)
+[2026-11-16T23:49:59] [G4c] prior_wall=0s remaining=3600s start_stage=0
+[2026-11-16T23:49:59] [G4c] stage sizes=[8, 16, 32, 64] fractions=[0.22, 0.24, 0.26, 0.28] sweep=648s
+[2026-11-16T23:49:59] [G4c] COUNTED-BUDGET MODE d56=400 checks_guard=400 wall_safety_net=3600s
+[2026-11-16T23:50:04] [graph] 5.24s events=3967 edges=2942 nodes=677 components=25 max_degree=38 sizes=[219, 41, 44, 40, 32, 27, 28, 26]
+[2026-11-16T23:50:05] [search] arm=G4c_free manual_frozen=False routes=1024 crossings=3967 manual=368 movable=1024 stages=[(8, 0.22), (16, 0.24), (32, 0.26), (64, 0.28)] sweep=648s skip_sweep=False
+[2026-11-16T23:50:05] [search] COUNTED BUDGET d56=400 (base=0) checks_guard=400 sweep_share=0.18 (sweep d56=72)
+[2026-11-16T23:50:05] ==========================================================================
+[2026-11-16T23:50:05] [sweep] greedy forced-height migration budget=3600s total=3967
+[2026-11-16T23:50:07] [arm] checkpoint step_00001 total=3935 (14.4s)
+[2026-11-16T23:50:07] [sweep pass 1] total=3935 pass_accepts=1 attempts=1 (2s/3600s)
+[2026-11-16T23:50:10] [sweep pass 1 done] accepted=5 gain=106 total=3861 (5s, queue=240)
+[2026-11-16T23:50:10] [sweep done] attempts=5 accepts=5 gain=106 total=3861 (5s)
+[2026-11-16T23:50:10] [arm] checkpoint step_00005 total=3861 (18.0s)
+[2026-11-16T23:50:10] [search] counted stage ends [150, 227, 310, 400] (start_used=80 left=320)
+[2026-11-16T23:50:10] ==========================================================================
+[2026-11-16T23:50:10] [stage 0] neighbourhood size=8 budget=791s total=3861 counted_end=150 used=80
+[2026-11-16T23:50:17] [stage 0 done] size=8 attempts=1 accepts=0 gain=0 total=3861 (6s) ops={} reasons={'legal_but_no_crossing_improvement': 1}
+[2026-11-16T23:50:17] [arm] checkpoint step_00005 total=3861 (24.7s)
+[2026-11-16T23:50:17] ==========================================================================
+[2026-11-16T23:50:17] [stage 1] neighbourhood size=16 budget=863s total=3861 counted_end=227 used=248
+[2026-11-16T23:50:17] [stage 1 done] size=16 attempts=0 accepts=0 gain=0 total=3861 (0s) ops={} reasons={}
+[2026-11-16T23:50:17] [arm] checkpoint step_00005 total=3861 (25.0s)
+[2026-11-16T23:50:17] ==========================================================================
+[2026-11-16T23:50:17] [stage 2] neighbourhood size=32 budget=935s total=3861 counted_end=310 used=248
+[2026-11-16T23:50:30] [stage 2 done] size=32 attempts=1 accepts=1 gain=119 total=3742 (13s) ops={'recreate': 1} reasons={}
+[2026-11-16T23:50:30] [arm] checkpoint step_00006 total=3742 (38.2s)
+[2026-11-16T23:50:30] [search] finishing: total=3742 accepts=6 transactions=9 (38.2s)
+[2026-11-16T23:50:36] [graph] 5.23s events=3742 edges=2842 nodes=715 components=27 max_degree=36 sizes=[218, 40, 40, 44, 32, 27, 28, 26]
+[2026-11-16T23:50:58] [validator] C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G4_MULTI_ARC_ABLATION_FINAL_1024\pilot\on\smoke_on\validation -> exit=0 (21.5s)
+[2026-11-16T23:51:03] [arm] final saved to C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G4_MULTI_ARC_ABLATION_FINAL_1024\pilot\on\smoke_on total=3742
+[2026-11-16T23:51:03] [search] summary: {"arm": "G4c_free", "final_crossings": 3742, "crossing_pairs": 2842, "start_crossings": 3967, "delta_vs_start": -225, "routes_changed": 30, "routes": 1024, "accepts": 6, "transactions": 9, "seconds": 70.83, "best_valid_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_FINAL_1024\\pilot\\on\\smoke_on\\best_valid", "validation_pass": true, "validation_exit": 0, "ledger": {"route_3d_checks": 164, "d56_candidate_evals": 568, "xy_candidates_generated": 95, "transactions": 9, "world_builds": 0, "valid_candidates": 94, "rejected_3d": 3, "accepted_transactions": 6, "accepted_changes": 37, "gain": 225, "validator_runs": 1, "no_candidate": 2, "rolled_back": 3, "wall_seconds": 70.81}, "stages": [{"stage": -1, "size": 0, "attempts": 5, "accepts": 5, "gain": 106, "seconds": 5.3, "reasons": {}}, {"stage": 0, "size": 8, "attempts": 1, "accepts": 0, "gain": 0, "seconds": 6.5, "reasons": {"legal_but_no_crossing_improvement": 1}}, {"stage": 1, "size": 16, "attempts": 0, "accepts": 0, "gain": 0, "seconds": 0.0, "reasons": {}}, {"stage": 2, "size": 32, "attempts": 1, "accepts": 1, "gain": 119, "seconds": 12.8, "reasons": {}}], "summary":
+[2026-11-16T23:51:03] [G4c] done arm=G4c_free total=3742 accepts=6 validation_exit=0
