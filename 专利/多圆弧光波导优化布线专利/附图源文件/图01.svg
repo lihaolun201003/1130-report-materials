@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 595.28 841.89">
+<path d="M 132.6400 170.0000 L 462.6400 170.0000 L 462.6400 233.0000 L 132.6400 233.0000 Z " fill="none" stroke="rgb(0,0,0)" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="297.6400" y="196.5000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="13" text-anchor="middle">步骤1  建立主体落点与局部坐标</text>
+<text x="297.6400" y="214.5000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="13" text-anchor="middle">读取端口姿态、物理高度及半径约束</text>
+<path d="M 297.6400 233.0000 L 297.6400 285.0000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 293.9458 277.9040 L 297.6400 285.0000 L 301.3342 277.9040" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 132.6400 285.0000 L 462.6400 285.0000 L 462.6400 348.0000 L 132.6400 348.0000 Z " fill="none" stroke="rgb(0,0,0)" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="297.6400" y="311.5000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="13" text-anchor="middle">步骤2  求取偏移并构造双圆弧</text>
+<text x="297.6400" y="329.5000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="13" text-anchor="middle">计算公共切点与纵向占位</text>
+<path d="M 297.6400 348.0000 L 297.6400 400.0000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 293.9458 392.9040 L 297.6400 400.0000 L 301.3342 392.9040" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 132.6400 400.0000 L 462.6400 400.0000 L 462.6400 463.0000 L 132.6400 463.0000 Z " fill="none" stroke="rgb(0,0,0)" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="297.6400" y="426.5000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="13" text-anchor="middle">步骤3  组合并生成主体候选链</text>
+<text x="297.6400" y="444.5000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="13" text-anchor="middle">分配直线余量，闭合到目标姿态</text>
+<path d="M 297.6400 463.0000 L 297.6400 515.0000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 293.9458 507.9040 L 297.6400 515.0000 L 301.3342 507.9040" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 132.6400 515.0000 L 462.6400 515.0000 L 462.6400 578.0000 L 132.6400 578.0000 Z " fill="none" stroke="rgb(0,0,0)" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="297.6400" y="541.5000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="13" text-anchor="middle">步骤4  筛选并装配三维路径</text>
+<text x="297.6400" y="559.5000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="13" text-anchor="middle">检查同高交叉及三维净空</text>
+<path d="M 297.6400 578.0000 L 297.6400 631.0000" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 293.9458 623.9040 L 297.6400 631.0000 L 301.3342 623.9040" fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 192.6400 631.0000 L 402.6400 631.0000 L 402.6400 669.0000 L 192.6400 669.0000 Z " fill="none" stroke="rgb(0,0,0)" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="297.6400" y="654.0000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="13" text-anchor="middle">输出三维光波导布局</text>
+<text x="297.6400" y="766.0000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="15" text-anchor="middle">图1</text>
+<text x="297.6400" y="79.0000" font-family="SimHei, Microsoft YaHei, sans-serif" font-size="17" text-anchor="middle">说 明 书 附 图</text>
+</svg>
