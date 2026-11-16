@@ -1,0 +1,21 @@
+﻿G4_MULTI_ARC_ABLATION_1024 - deliverable version record
+=======================================================
+content commit : 351709e34582e73a30641165106223a2301f537f   (337 files, 130.7 MB, MANIFEST.json verified)
+repo           : experiments/G4_MULTI_ARC_ABLATION_1024/.git  (local repo created for this deliverable)
+branch         : master
+commit date    : 2026-11-16T20:01:49+08:00
+HEAD           : the commit that adds this file (run: git log -1)
+
+Parent repository state (read-only reference, nothing modified):
+  work/11.9-second-report-all-work  HEAD = 0e927d891b9dadb8193dc5c3d9e0d6d0c9fbb562
+  OpticalWaveguideRouter2D         NOT a git working tree
+
+Source change of the experiment (code_changes/g4_multi_arc.patch):
+  four_side_1024/fanout1024/layer2d.py                  +113 lines, 0 removed
+  four_side_1024/fanout1024/xyzrouter/local_reroute.py   (same patch)
+  pure addition: without G4_ENABLE_MULTI_ARC the behaviour is unchanged.
+
+Key results (all independently validated, see comparison/core_table.md):
+  G4 original (archive)  1185 crossings / 1124 pairs   PASS  0 violations
+  G4-NoMultiArc          3484 crossings / 2707 pairs   PASS  0 violations
+  G4 re-run (on control) 1202 crossings / 1143 pairs   PASS  0 violations

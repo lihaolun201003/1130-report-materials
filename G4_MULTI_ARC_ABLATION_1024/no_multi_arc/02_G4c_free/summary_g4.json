@@ -1,0 +1,100 @@
+{
+ "arm": "G4c_free",
+ "final_crossings": 3520,
+ "crossing_pairs": 2740,
+ "start_crossings": 1322,
+ "delta_vs_start": 2198,
+ "routes_changed": 63,
+ "routes": 1024,
+ "accepts": 66,
+ "transactions": 410,
+ "seconds": 1835.65,
+ "best_valid_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\02_G4c_free\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 4354,
+  "d56_candidate_evals": 35227,
+  "xy_candidates_generated": 4203,
+  "transactions": 410,
+  "world_builds": 0,
+  "valid_candidates": 2985,
+  "rejected_3d": 1230,
+  "accepted_transactions": 66,
+  "accepted_changes": 87,
+  "gain": 447,
+  "validator_runs": 1,
+  "no_candidate": 471,
+  "rolled_back": 344,
+  "wall_seconds": 1835.61
+ },
+ "stages": [
+  {
+   "stage": -1,
+   "size": 0,
+   "attempts": 147,
+   "accepts": 52,
+   "gain": 394,
+   "seconds": 324.5,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 95
+   }
+  },
+  {
+   "stage": 0,
+   "size": 8,
+   "attempts": 40,
+   "accepts": 3,
+   "gain": 21,
+   "seconds": 333.9,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 20,
+    "no_current_crossings": 9,
+    "no_legal_xy_corridor": 2,
+    "target_height_occupied": 6
+   }
+  },
+  {
+   "stage": 1,
+   "size": 16,
+   "attempts": 61,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 356.8,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 40,
+    "target_height_occupied": 13,
+    "no_current_crossings": 8
+   }
+  },
+  {
+   "stage": 2,
+   "size": 32,
+   "attempts": 77,
+   "accepts": 8,
+   "gain": 25,
+   "seconds": 385.6,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 32,
+    "target_height_occupied": 17,
+    "no_current_crossings": 14,
+    "no_legal_xy_corridor": 6
+   }
+  },
+  {
+   "stage": 3,
+   "size": 64,
+   "attempts": 58,
+   "accepts": 3,
+   "gain": 7,
+   "seconds": 382.5,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 32,
+    "no_current_crossings": 12,
+    "target_height_occupied": 10,
+    "no_legal_xy_corridor": 1
+   }
+  }
+ ],
+ "summary": null
+}

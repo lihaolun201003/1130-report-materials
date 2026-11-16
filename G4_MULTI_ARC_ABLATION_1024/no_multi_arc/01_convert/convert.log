@@ -1,0 +1,20 @@
+[2026-11-16T18:11:08] ==============================================================================
+[2026-11-16T18:11:08] [convert] multi_arc_enabled=False (source=env:G4_ENABLE_MULTI_ARC)
+[2026-11-16T18:11:08] [convert] start=outputs\manual_c4_new_connectivity\XYZ_JOINT_G123_1024\best_valid out=experiments\G4_MULTI_ARC_ABLATION_1024\no_multi_arc\01_convert
+[2026-11-16T18:11:08] [arm] start outputs\manual_c4_new_connectivity\XYZ_JOINT_G123_1024\best_valid sha256=711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077 crossings=1322
+[2026-11-16T18:11:08] [arm] start fingerprint OK (verified G3 legal optimum)
+[2026-11-16T18:11:13] [arm] loaded state routes=1024 crossings=1322 (1.45s)
+[2026-11-16T18:11:13] [convert] start crossings=1322 routes=1024
+[2026-11-16T18:11:13] [convert] routes with a planar multi-arc region in the start geometry: 197
+[2026-11-16T18:12:06] [convert] 20/197 converted=20 total=1551 residual=0 (58s)
+[2026-11-16T18:13:02] [convert] 40/197 converted=40 total=1860 residual=0 (114s)
+[2026-11-16T18:13:56] [convert] 60/197 converted=60 total=2184 residual=0 (167s)
+[2026-11-16T18:14:47] [convert] 80/197 converted=80 total=2433 residual=0 (219s)
+[2026-11-16T18:15:40] [convert] 100/197 converted=100 total=2691 residual=0 (272s)
+[2026-11-16T18:16:35] [convert] 120/197 converted=120 total=3018 residual=0 (326s)
+[2026-11-16T18:17:30] [convert] 140/197 converted=140 total=3325 residual=0 (382s)
+[2026-11-16T18:18:28] [convert] 160/197 converted=160 total=3596 residual=0 (440s)
+[2026-11-16T18:19:29] [convert] 180/197 converted=180 total=3927 residual=0 (501s)
+[2026-11-16T18:20:26] [convert] done converted=197 residual=0 multi_arc_left=0 total=1322->3967
+[2026-11-16T18:20:52] [validator] experiments\G4_MULTI_ARC_ABLATION_1024\no_multi_arc\01_convert\validation -> exit=0 (20.5s)
+[2026-11-16T18:20:52] [convert] validation exit=0 pass=True

@@ -1,0 +1,150 @@
+{
+ "schema": "g4_plots_v1",
+ "kind": "layer_suite",
+ "prefix": "NoMultiArc",
+ "run_dir": "experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\04_final",
+ "out_dir": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc",
+ "started_at": "2026-11-16 19:57:52",
+ "written": [
+  "layer_01_L2_z-0.35mm.png",
+  "layer_02_L3_z-0.30mm.png",
+  "layer_03_L4_z-0.25mm.png",
+  "layer_04_L5_z-0.20mm.png",
+  "layer_05_L6_z-0.15mm.png",
+  "layer_06_L7_z-0.10mm.png",
+  "layer_07_L20_z-0.05mm.png",
+  "layer_08_Z1_INTERFACE_z+0.00mm.png",
+  "layer_09_L8_z+0.05mm.png",
+  "layer_10_L9_z+0.10mm.png",
+  "layer_11_L10_z+0.15mm.png",
+  "layer_12_L11_z+0.20mm.png",
+  "layer_13_L12_z+0.25mm.png",
+  "layer_14_L13_z+0.30mm.png",
+  "layer_15_L14_z+0.35mm.png",
+  "layer_16_L15_z+0.40mm.png",
+  "layer_17_L16_z+0.45mm.png",
+  "layer_18_Z2_INTERFACE_z+0.50mm.png",
+  "layer_19_L17_z+0.55mm.png",
+  "layer_20_L18_z+0.60mm.png",
+  "layer_21_L19_z+0.65mm.png",
+  "NoMultiArc_21_layers_montage.png"
+ ],
+ "errors": [],
+ "generated_at": "2026-11-16 19:58:04",
+ "figures": [
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_01_L2_z-0.35mm.png",
+   "bytes": 351892
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_02_L3_z-0.30mm.png",
+   "bytes": 433238
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_03_L4_z-0.25mm.png",
+   "bytes": 405158
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_04_L5_z-0.20mm.png",
+   "bytes": 519233
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_05_L6_z-0.15mm.png",
+   "bytes": 396492
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_06_L7_z-0.10mm.png",
+   "bytes": 410895
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_07_L20_z-0.05mm.png",
+   "bytes": 392643
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_08_Z1_INTERFACE_z+0.00mm.png",
+   "bytes": 492894
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_09_L8_z+0.05mm.png",
+   "bytes": 413261
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_10_L9_z+0.10mm.png",
+   "bytes": 299043
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_11_L10_z+0.15mm.png",
+   "bytes": 438647
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_12_L11_z+0.20mm.png",
+   "bytes": 402025
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_13_L12_z+0.25mm.png",
+   "bytes": 412071
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_14_L13_z+0.30mm.png",
+   "bytes": 406014
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_15_L14_z+0.35mm.png",
+   "bytes": 265374
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_16_L15_z+0.40mm.png",
+   "bytes": 283300
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_17_L16_z+0.45mm.png",
+   "bytes": 252645
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_18_Z2_INTERFACE_z+0.50mm.png",
+   "bytes": 343743
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_19_L17_z+0.55mm.png",
+   "bytes": 276847
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_20_L18_z+0.60mm.png",
+   "bytes": 259049
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\layer_21_L19_z+0.65mm.png",
+   "bytes": 291682
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\NoMultiArc_21_layers_montage.png",
+   "bytes": 809644
+  }
+ ],
+ "source_files": [
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\04_final\\routes_l3d.json",
+   "bytes": 3807100,
+   "sha256": "7e3674c5add9f17463e355ec47b587871288111750c72fc2d3d675cc882f76ca"
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\04_final\\crossing_stats.json",
+   "bytes": 497082,
+   "sha256": "92066b3c8f5b4f7d53b9983347fb97939a0aba97ffa752eceffd55da944bea05"
+  },
+  {
+   "path": "experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\04_final\\assignment_1024.csv",
+   "bytes": 126300,
+   "sha256": "49ae54873fcbdcfb3e135bb684c76bd7cc0cbc54941dc24b97fc698a66d29380"
+  }
+ ],
+ "stats": {
+  "routes": 1024,
+  "manual_routes": 368,
+  "crossing_total": 3484,
+  "crossing_total_stats_file": 3484,
+  "heights": 21
+ },
+ "stats_json": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\NoMultiArc_layer_stats.json",
+ "layers_md": "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\NoMultiArc\\NoMultiArc_LAYERS.md"
+}

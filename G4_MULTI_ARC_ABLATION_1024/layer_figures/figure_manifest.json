@@ -1,0 +1,24 @@
+{
+ "baseline": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\11.9-second-report-all-work\\g4_xyz_joint_1024\\03_best_valid",
+ "nomat": "experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\04_final",
+ "written": [
+  "layer_figures/G4_baseline_suite",
+  "layer_figures/NoMultiArc_suite",
+  "experiments\\G4_MULTI_ARC_ABLATION_1024\\layer_figures\\per_layer_crossings_bar.png",
+  "layer_figures/hotspots_G4_baseline",
+  "layer_figures/hotspots_NoMultiArc",
+  "comparison/per_layer",
+  "experiments\\G4_MULTI_ARC_ABLATION_1024\\comparison\\overview_3d_both_arms.png",
+  "experiments\\G4_MULTI_ARC_ABLATION_1024\\comparison\\local_geometry\\geometry_contrast_route0025_z-0.15.png",
+  "experiments\\G4_MULTI_ARC_ABLATION_1024\\comparison\\local_geometry\\geometry_contrast_route0036_z-0.10.png",
+  "experiments\\G4_MULTI_ARC_ABLATION_1024\\comparison\\local_geometry\\geometry_contrast_route0115_z-0.15.png",
+  "comparison/per_layer_crossings_compare.csv",
+  "comparison/crossing_events.csv",
+  "comparison/unique_crossing_pairs_per_layer.csv"
+ ],
+ "tables": {
+  "rows": 21,
+  "crossing_events": 4669,
+  "unique_pair_rows": 3831
+ }
+}

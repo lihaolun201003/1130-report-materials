@@ -1,0 +1,27 @@
+{
+ "arm": "on",
+ "multi_arc": "1",
+ "start_dir": "outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+ "seed": 20261104,
+ "g4c_seconds": 1800,
+ "g4d_seconds": 1200,
+ "final_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\04_final",
+ "stages": [
+  {
+   "stage": "G4c_free",
+   "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\02_G4c_free",
+   "search_seconds": 1854.66,
+   "validation_seconds": 33.63,
+   "validation": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\02_G4c_free\\validation\\validation.json"
+  },
+  {
+   "stage": "G4d",
+   "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\03_G4d",
+   "search_seconds": 1264.6,
+   "validation_seconds": 33.69,
+   "validation": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\03_G4d\\validation\\validation.json"
+  }
+ ],
+ "finished_at": "2026-11-16T19:14:56",
+ "final_materialized_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\04_final"
+}

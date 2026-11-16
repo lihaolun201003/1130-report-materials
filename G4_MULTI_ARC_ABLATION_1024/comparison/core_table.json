@@ -1,0 +1,225 @@
+{
+ "schema": "g4_multi_arc_ablation_core_table_v1",
+ "arms": {
+  "G4_original_archived": {
+   "stats": {
+    "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\11.9-second-report-all-work\\g4_xyz_joint_1024\\03_best_valid",
+    "stats_source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\11.9-second-report-all-work\\g4_xyz_joint_1024\\03_best_valid\\crossing_stats.json",
+    "routes": 1024,
+    "routed": 1024,
+    "failed": 0,
+    "crossings": 1185,
+    "crossing_pairs": 1124,
+    "routes_with_crossings": 593,
+    "max_route_crossings": 19,
+    "per_route_max": 19,
+    "total_length_mm": 156735.562044,
+    "flat_arcs": 1798,
+    "transitions": 1924,
+    "multi_arc_regions": 208,
+    "multi_arc_routes": 202
+   },
+   "validation": {
+    "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\11.9-second-report-all-work\\g4_xyz_joint_1024\\03_best_valid\\validation\\validation.json",
+    "validation_pass": true,
+    "violations": 0,
+    "crossing_events": 1185,
+    "crossing_pairs": 1124,
+    "min_3d_clearance": 0.060877381,
+    "routed": 1024,
+    "failed": 0,
+    "total_length": 156735.562044,
+    "flat_arcs": 1798,
+    "transitions": 1924,
+    "policy": "fully_optimizable",
+    "policy_violations": 0
+   },
+   "ledger": {},
+   "search_seconds": null,
+   "note": "archived G4 final legal solution (read-only reference)"
+  },
+  "G4_rerun_multi_arc": {
+   "stats": {
+    "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\04_final",
+    "stats_source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\04_final\\crossing_stats.json",
+    "routes": 1024,
+    "routed": 1024,
+    "failed": 0,
+    "crossings": 1202,
+    "crossing_pairs": 1143,
+    "routes_with_crossings": 588,
+    "max_route_crossings": 19,
+    "per_route_max": 19,
+    "total_length_mm": 156777.44491,
+    "flat_arcs": 1794,
+    "transitions": 1922,
+    "multi_arc_regions": 204,
+    "multi_arc_routes": 199
+   },
+   "validation": {
+    "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\04_final\\validation\\validation.json",
+    "validation_pass": true,
+    "violations": 0,
+    "crossing_events": 1202,
+    "crossing_pairs": 1143,
+    "min_3d_clearance": 0.060877381,
+    "routed": 1024,
+    "failed": 0,
+    "total_length": 156777.44491,
+    "flat_arcs": 1794,
+    "transitions": 1922,
+    "policy": "fully_optimizable",
+    "policy_violations": 0
+   },
+   "ledger": {
+    "route_3d_checks": 8162,
+    "d56_candidate_evals": 66962,
+    "xy_candidates_generated": 8098,
+    "transactions": 436,
+    "world_builds": 0,
+    "valid_candidates": 5568,
+    "rejected_3d": 2532,
+    "accepted_transactions": 26,
+    "accepted_changes": 32,
+    "gain": 120,
+    "validator_runs": 2,
+    "no_candidate": 390,
+    "rolled_back": 410,
+    "wall_seconds": 3117.59
+   },
+   "search_seconds": 3119.26,
+   "stages": [
+    {
+     "stage": "G4c_free",
+     "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\02_G4c_free",
+     "search_seconds": 1854.66,
+     "validation_seconds": 33.63
+    },
+    {
+     "stage": "G4d",
+     "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\baseline_rerun\\03_G4d",
+     "search_seconds": 1264.6,
+     "validation_seconds": 33.69
+    }
+   ],
+   "note": "re-run with the same code / seed / budget as the ablation arm"
+  },
+  "G4_NoMultiArc": {
+   "stats": {
+    "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\04_final",
+    "stats_source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\04_final\\crossing_stats.json",
+    "routes": 1024,
+    "routed": 1024,
+    "failed": 0,
+    "crossings": 3484,
+    "crossing_pairs": 2707,
+    "routes_with_crossings": 848,
+    "max_route_crossings": 41,
+    "per_route_max": 41,
+    "total_length_mm": 165059.113564,
+    "flat_arcs": 1888,
+    "transitions": 1916,
+    "multi_arc_regions": 0,
+    "multi_arc_routes": 0
+   },
+   "validation": {
+    "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\04_final\\validation\\validation.json",
+    "validation_pass": true,
+    "violations": 0,
+    "crossing_events": 3484,
+    "crossing_pairs": 2707,
+    "min_3d_clearance": 0.068629474,
+    "routed": 1024,
+    "failed": 0,
+    "total_length": 165059.113564,
+    "flat_arcs": 1888,
+    "transitions": 1916,
+    "policy": "fully_optimizable",
+    "policy_violations": 0
+   },
+   "ledger": {
+    "route_3d_checks": 4774,
+    "d56_candidate_evals": 40403,
+    "xy_candidates_generated": 4614,
+    "transactions": 419,
+    "world_builds": 0,
+    "valid_candidates": 3177,
+    "rejected_3d": 1449,
+    "accepted_transactions": 75,
+    "accepted_changes": 96,
+    "gain": 483,
+    "validator_runs": 1,
+    "no_candidate": 471,
+    "rolled_back": 344,
+    "wall_seconds": 1992.9899999999998
+   },
+   "search_seconds": 1994.1,
+   "stages": [
+    {
+     "stage": "01_convert",
+     "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\01_convert",
+     "search_seconds": null,
+     "validation_seconds": null
+    },
+    {
+     "stage": "G4c_free",
+     "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\02_G4c_free",
+     "search_seconds": 1836.2,
+     "validation_seconds": 20.38
+    },
+    {
+     "stage": "G4d",
+     "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\03_G4d",
+     "search_seconds": 157.9,
+     "validation_seconds": null
+    }
+   ],
+   "note": "re-run with the same code / seed / budget as the ablation arm"
+  },
+  "G4_NoMultiArc_stage0": {
+   "stats": {
+    "routes": 1024,
+    "routed": 1024,
+    "failed": 0,
+    "crossings": 3967,
+    "crossing_pairs": null,
+    "total_length_mm": 165104.033821,
+    "flat_arcs": null,
+    "transitions": null,
+    "multi_arc_regions": 0,
+    "multi_arc_routes": 0
+   },
+   "validation": {
+    "exit_code": 0,
+    "seconds": 20.52,
+    "validation_pass": true
+   },
+   "ledger": {
+    "route_3d_checks": 2297,
+    "d56_candidate_evals": 24448,
+    "xy_candidates_generated": 2100,
+    "transactions": 197,
+    "world_builds": 0,
+    "valid_candidates": 1917,
+    "rejected_3d": 183,
+    "accepted_transactions": 197,
+    "accepted_changes": 197,
+    "gain": 62,
+    "validator_runs": 0,
+    "no_candidate": 425,
+    "rolled_back": 0,
+    "wall_seconds": 0
+   },
+   "search_seconds": 583.47,
+   "note": "stage-0 conversion of the 197 inherited multi-arc routes"
+  }
+ },
+ "conversion": {
+  "routes": 197,
+  "converted": 197,
+  "residual": 0,
+  "crossings_before": 1322,
+  "crossings_after": 3967,
+  "delta": 2645
+ }
+}

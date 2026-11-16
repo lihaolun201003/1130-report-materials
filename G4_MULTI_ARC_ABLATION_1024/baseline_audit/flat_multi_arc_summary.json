@@ -1,0 +1,22 @@
+{
+ "NoMultiArc_final": {
+  "run_dir": "experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\03_G4d\\best_valid",
+  "routes": 1024,
+  "routed": 1024,
+  "routes_with_flat_multi_arc": 0,
+  "flat_arcs": 1888,
+  "flat_lines": 4582,
+  "arc_runs": 1770,
+  "single_arc": 1652,
+  "s_pair": 0,
+  "multi_arc": 0,
+  "multi_arc_arcs": 0,
+  "same_circle_split": 118,
+  "same_sign_multi": 0,
+  "transition_parts": 1916,
+  "transition_length_mm": 6054.574537,
+  "total_length_mm": 165059.113564,
+  "per_route_s_max": 0,
+  "routes_sha256": "7e3674c5add9f17463e355ec47b587871288111750c72fc2d3d675cc882f76ca"
+ }
+}

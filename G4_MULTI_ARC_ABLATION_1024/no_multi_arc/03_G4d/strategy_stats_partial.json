@@ -1,0 +1,72 @@
+{
+ "arm": "G4d",
+ "stage_stats": [
+  {
+   "stage": -1,
+   "kind": "sweep",
+   "size": 0,
+   "started_at": "2026-11-16T19:46:10",
+   "seconds_budget": 144.0,
+   "attempts": 81,
+   "accepts": 9,
+   "gain": 36,
+   "seconds_used": 146.4,
+   "attempts_by_op": {
+    "sweep": 81
+   },
+   "accepts_by_op": {
+    "sweep": 9
+   },
+   "gain_by_op": {
+    "sweep": 36
+   },
+   "reasons": {
+    "legal_but_no_crossing_improvement": 72
+   },
+   "final_total": 3484,
+   "stage_gain": 36,
+   "passes": 1
+  }
+ ],
+ "operator_stats": {
+  "sweep": {
+   "attempts": 81,
+   "accepts": 9,
+   "gain": 36,
+   "seconds": 143.83799999999994,
+   "failures": {
+    "legal_but_no_crossing_improvement": 72
+   }
+  }
+ },
+ "reason_totals": {
+  "legal_but_no_crossing_improvement": 72
+ },
+ "weights": {
+  "migrate": 3.0,
+  "lift_direct": 1.0,
+  "recreate": 1.0,
+  "component": 0.8,
+  "direct_plane": 0.0,
+  "sweep": 0.6876683937823835
+ },
+ "accepts": 9,
+ "total": 3484,
+ "seconds": 157.92,
+ "ledger": {
+  "route_3d_checks": 420,
+  "d56_candidate_evals": 5176,
+  "xy_candidates_generated": 411,
+  "transactions": 9,
+  "world_builds": 0,
+  "valid_candidates": 192,
+  "rejected_3d": 219,
+  "accepted_transactions": 9,
+  "accepted_changes": 9,
+  "gain": 36,
+  "validator_runs": 0,
+  "no_candidate": 0,
+  "rolled_back": 0,
+  "wall_seconds": 157.38
+ }
+}

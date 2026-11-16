@@ -1,0 +1,159 @@
+--- a/four_side_1024/fanout1024/layer2d.py
++++ b/four_side_1024/fanout1024/layer2d.py
+@@ -61,6 +61,7 @@
+ import hashlib
+ import json
+ import math
++import os
+ import time
+ from collections import Counter, OrderedDict, defaultdict
+ from pathlib import Path
+@@ -204,6 +205,100 @@
+ def _rounded(value, digits=6):
+     out = round(float(value), digits)
+     return 0.0 if out == 0.0 else out
++
++
++# ---------------------------------------------------------------------------
++# planar multi-arc policy (single variable of the G4 multi-arc ablation)
++# ---------------------------------------------------------------------------
++# The frozen D56 grammar admits exactly *one* **local planar** multi-arc
++# combination: the two-arc R15 ``short-S`` (move ``('S', shift)``) -- two
++# tangent circular arcs with opposite sweep signs and no straight line between
++# them, used to shift the path sideways inside one local turn / avoidance
++# region.  Everything else is NOT a multi-arc combination:
++#
++# * ``Z`` / staircase families put their arcs at *different corners* with a
++#   straight line between them (independent corners, always allowed);
++# * a ``middle = 0`` U-turn stores one and the same circle in two arc records
++#   (``same_circle_split``, storage only -- always allowed);
++# * the 3-D ``z`` S-transition of a route is a *transition* primitive, not a
++#   planar body chain, and is never touched by this policy.
++#
++# ``G4_ENABLE_MULTI_ARC=0`` (or ``cfg['enable_multi_arc']=False``) removes the
++# local multi-arc degree of freedom from the planar candidate generator.  It is
++# the single changed variable of ``experiments/G4_MULTI_ARC_ABLATION_1024``.
++MULTI_ARC_POLICY = dict(
++    enabled=str(os.environ.get('G4_ENABLE_MULTI_ARC', '1')).strip().lower()
++    not in ('0', 'false', 'no', 'off'),
++    source=('env:G4_ENABLE_MULTI_ARC' if 'G4_ENABLE_MULTI_ARC' in os.environ
++            else 'default:enabled'),
++)
++
++
++def multi_arc_enabled(cfg=None):
++    """Effective policy: explicit ``cfg['enable_multi_arc']`` wins over env."""
++    if isinstance(cfg, dict) and cfg.get('enable_multi_arc') is not None:
++        return bool(cfg['enable_multi_arc'])
++    return bool(MULTI_ARC_POLICY['enabled'])
++
++
++def local_multi_arc_regions(primitives, tol=1e-6):
++    """Maximal tangent-continuous arc runs that combine >1 arc *locally*.
++
++    Returns a list of ``dict(first, n_arcs, kind, signs)``; ``kind`` is
++
++    ``multi_arc``        opposite sweep signs (the real planar multi-arc freedom)
++    ``same_sign_multi``  same sign but different centres (cannot occur for
++                         equal-radius tangent arcs; kept as a guard)
++
++    A run of one arc (``single_arc``) and a run that stores one single circle
++    in several records (``same_circle_split``) are deliberately **not**
++    reported: neither adds a geometric degree of freedom.
++    """
++    prims = [prim for prim in (primitives or ())]
++    total = len(prims)
++    found = []
++    index = 0
++    while index < total:
++        prim = prims[index]
++        if prim.get('kind') != 'arc':
++            index += 1
++            continue
++        run = [prim]
++        cursor = index
++        while cursor + 1 < total and prims[cursor + 1].get('kind') == 'arc':
++            left, right = prims[cursor], prims[cursor + 1]
++            if (_dist(left['p1'], right['p0']) > tol
++                    or _tangent_gap(_end_tangent(left),
++                                    _start_tangent(right)) > 1e-6):
++                break
++            run.append(right)
++            cursor += 1
++        index = cursor + 1
++        if len(run) < 2:
++            continue
++        signs = [1 if float(p['sweep']) >= 0.0 else -1 for p in run]
++        centres = [(float(p['center'][0]), float(p['center'][1])) for p in run]
++        same_centre = all(_dist(c, centres[0]) <= tol for c in centres)
++        if same_centre:
++            continue                      # one circle stored in several records
++        kind = 'multi_arc' if len(set(signs)) > 1 else 'same_sign_multi'
++        found.append(dict(first=int(index - len(run)), n_arcs=len(run),
++                          kind=kind, signs=signs,
++                          start=[float(run[0]['p0'][0]), float(run[0]['p0'][1])],
++                          end=[float(run[-1]['p1'][0]),
++                               float(run[-1]['p1'][1])]))
++    return found
++
++
++def spec_uses_multi_arc(spec):
++    """Cheap ``('S', ...)`` prefilter of one candidate spec (build-free)."""
++    moves = spec.get('moves')
++    if moves:
++        return any(str(op) == 'S' for op, _argument in moves)
++    primitives = spec.get('primitives')
++    if primitives:
++        return bool(local_multi_arc_regions(primitives))
++    return False
+ 
+ 
+ # ---------------------------------------------------------------------------
+@@ -1116,6 +1211,10 @@
+         self.z_mm = float(z_mm)
+         self.cfg = dict(DEFAULT_CFG, **(cfg or {}))
+         self.log = log
++        #: planar multi-arc policy of this router (see MULTI_ARC_POLICY)
++        self.enable_multi_arc = multi_arc_enabled(self.cfg)
++        self._multi_arc_skipped_specs = 0
++        self._multi_arc_rejected_candidates = 0
+         self.tasks = OrderedDict()
+         for task in tasks:
+             route_id = int(task['route_id'])
+@@ -1209,6 +1308,11 @@
+             return
+         tiers = OrderedDict()
+         for spec in self._specs(route_id, frame, phase):
++            if not self.enable_multi_arc and spec_uses_multi_arc(spec):
++                self._multi_arc_skipped_specs += 1
++                self.stats['multi_arc_skipped_specs'] = \
++                    self._multi_arc_skipped_specs
++                continue
+             tier = _family_tier(spec['family'])
+             families = tiers.setdefault(tier, OrderedDict())
+             families.setdefault(spec['family'], []).append(spec)
+@@ -1227,6 +1331,14 @@
+                     world, reason = _build_candidate(spec, frame)
+                     if reason is not None:
+                         self._rejection_counts[reason] += 1
++                        continue
++                    if not self.enable_multi_arc and local_multi_arc_regions(world):
++                        # exact geometric gate: never emit a planar chain that
++                        # combines several arcs inside one local region
++                        self._multi_arc_rejected_candidates += 1
++                        self.stats['multi_arc_rejected_candidates'] = \
++                            self._multi_arc_rejected_candidates
++                        self._rejection_counts['multi_arc_forbidden'] += 1
+                         continue
+                     signature = _signature(world)
+                     if signature in seen_signatures:
+--- a/four_side_1024/fanout1024/xyzrouter/local_reroute.py
++++ b/four_side_1024/fanout1024/xyzrouter/local_reroute.py
+@@ -123,6 +123,7 @@
+     initial = state.plane_routes(z_key, exclude_route=rid)
+     obstacles = state.obstacles_for_z(z_key)
+     router_cfg = dict(L2.DEFAULT_CFG)
++    router_cfg['enable_multi_arc'] = L2.multi_arc_enabled(cfg)
+     if cfg.get('_prescreen'):
+         router_cfg.update(PRESCREEN_CFG)
+     router = L2._LayerRouter(int(layer_id), float(z_mm), [task], obstacles,

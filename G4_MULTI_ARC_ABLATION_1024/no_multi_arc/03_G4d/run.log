@@ -1,0 +1,21 @@
+[2026-11-16T19:45:59] ==============================================================================
+[2026-11-16T19:45:59] [G4d] seconds=1200 seed=20261104 resume=False out=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G4_MULTI_ARC_ABLATION_1024\no_multi_arc\03_G4d start=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G4_MULTI_ARC_ABLATION_1024\no_multi_arc\02_G4c_free\best_valid tag=ablation_off
+[2026-11-16T19:45:59] [arm] start C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G4_MULTI_ARC_ABLATION_1024\no_multi_arc\02_G4c_free\best_valid sha256=44700e971c0e5e577dcb0f338087744d07f97ad59d9c022f3c774e8c378641ec crossings=1322
+[2026-11-16T19:45:59] [arm] WARNING: start routes SHA256 differs from the verified G3 optimum!
+[2026-11-16T19:46:05] [arm] loaded state routes=1024 crossings=3520 (1.79s)
+[2026-11-16T19:46:05] [G4d] prior_wall=0s remaining=1200s start_stage=0
+[2026-11-16T19:46:05] [G4d] stage sizes=[16, 32, 64, 96] fractions=[0.2, 0.24, 0.26, 0.3] sweep=144s
+[2026-11-16T19:46:10] [graph] 5.37s events=3520 edges=2740 nodes=853 components=28 max_degree=36 sizes=[175, 33, 37, 50, 61, 32, 39, 39]
+[2026-11-16T19:46:10] [search] arm=G4d manual_frozen=False routes=1024 crossings=3520 manual=368 movable=1024 stages=[(16, 0.2), (32, 0.24), (64, 0.26), (96, 0.3)] sweep=144s skip_sweep=False
+[2026-11-16T19:46:10] ==========================================================================
+[2026-11-16T19:46:10] [sweep] greedy forced-height migration budget=144s total=3520
+[2026-11-16T19:46:14] [sweep pass 1] total=3520 pass_accepts=0 attempts=1 (4s/144s)
+[2026-11-16T19:46:18] [arm] checkpoint step_00001 total=3517 (18.8s)
+[2026-11-16T19:47:14] [sweep pass 1] total=3492 pass_accepts=7 attempts=33 (64s/144s)
+[2026-11-16T19:48:16] [sweep pass 1] total=3488 pass_accepts=8 attempts=71 (126s/144s)
+[2026-11-16T19:48:37] [sweep pass 1 done] accepted=9 gain=36 total=3484 (146s, queue=240)
+[2026-11-16T19:48:37] [sweep done] attempts=81 accepts=9 gain=36 total=3484 (146s)
+[2026-11-16T19:48:37] [arm] checkpoint step_00009 total=3484 (157.9s)
+[2026-11-16T19:48:37] ==========================================================================
+[2026-11-16T19:48:37] [stage 0] neighbourhood size=16 budget=211s total=3484
+[2026-11-16T19:48:48] [graph] 10.25s events=3484 edges=2707 nodes=848 components=28 max_degree=37 sizes=[173, 32, 32, 41, 40, 57, 61, 28]

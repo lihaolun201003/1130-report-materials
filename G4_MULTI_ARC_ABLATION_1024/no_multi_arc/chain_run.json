@@ -1,0 +1,47 @@
+{
+ "schema": "g4_multi_arc_ablation_arm_run_v1",
+ "arm": "off",
+ "multi_arc": "0",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\01_convert",
+ "seed": 20261104,
+ "stages": [
+  {
+   "stage": "01_convert",
+   "kind": "stage0 planar multi-arc conversion",
+   "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\01_convert",
+   "crossings_before": 1322,
+   "crossings_after": 3967,
+   "seconds": 577.0,
+   "validation": "pass",
+   "note": "197/197 converted, 0 residual"
+  },
+  {
+   "stage": "G4c_free",
+   "kind": "joint make-way LNS",
+   "search_seconds": 1836.2,
+   "validation_seconds": 20.38,
+   "start_crossings": 3967,
+   "end_crossings": 3520,
+   "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\02_G4c_free",
+   "validation": "pass"
+  },
+  {
+   "stage": "G4d",
+   "kind": "1024-route ALNS",
+   "search_seconds": 157.9,
+   "budget_seconds": 1200.0,
+   "start_crossings": 3520,
+   "end_crossings": 3484,
+   "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\03_G4d",
+   "stopped_early": true,
+   "stop_reason": "stopped by the operator at the safe checkpoint checkpoints/step_00009 (total=3484) after the user requested no long convergence waits; not run to its 1200 s budget",
+   "validation": "pass (independent Validator run after the stop)"
+  }
+ ],
+ "final_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\04_final",
+ "final_crossings": 3484,
+ "final_pairs": 2707,
+ "finished_at": "2026-11-16T19:49:25",
+ "note": "G4d stage deliberately stopped early; the delivered result is the last complete best-legal checkpoint, not a converged run",
+ "final_materialized_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G4_MULTI_ARC_ABLATION_1024\\no_multi_arc\\04_final"
+}

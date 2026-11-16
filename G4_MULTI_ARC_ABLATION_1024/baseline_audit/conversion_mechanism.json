@@ -1,0 +1,39 @@
+{
+ "schema": "g4_multi_arc_conversion_mechanism_v1",
+ "converted": 197,
+ "total_delta": 2645,
+ "by_offset_threshold": {
+  "|bx| < 2R (sub-30 mm offset)": {
+   "routes": 145,
+   "mean_delta": 18.248,
+   "median_delta": 18.0,
+   "max_delta": 37,
+   "min_delta": 0,
+   "sum_delta": 2646,
+   "share_positive": 0.9931
+  },
+  "|bx| >= 2R": {
+   "routes": 52,
+   "mean_delta": -0.019,
+   "median_delta": 0.0,
+   "max_delta": 8,
+   "min_delta": -11,
+   "sum_delta": -1,
+   "share_positive": 0.3846
+  }
+ },
+ "by_family": {
+  "OPP_DETOUR": 80,
+  "OPP_DETOUR_BACK": 64,
+  "OPP_Z": 39,
+  "ADJ_L": 12,
+  "ADJ_UP_LOOP": 2
+ },
+ "by_frame_kind": {
+  "opposite": 183,
+  "adjacent": 14
+ },
+ "delta_positive": 164,
+ "delta_zero": 19,
+ "delta_negative": 14
+}

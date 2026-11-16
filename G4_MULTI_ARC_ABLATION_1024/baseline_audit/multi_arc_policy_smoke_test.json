@@ -1,0 +1,257 @@
+{
+ "policy": {
+  "enabled": true,
+  "source": "default:enabled"
+ },
+ "kinds": {
+  "task_1_opposite": {
+   "enabled": {
+    "kind": "opposite",
+    "candidates": 151,
+    "families": [
+     [
+      "OPP_DETOUR_BACK",
+      112
+     ],
+     [
+      "OPP_SHORT_S",
+      38
+     ],
+     [
+      "OPP_STRAIGHT",
+      1
+     ]
+    ],
+    "arc_regions": {
+     "multi_arc": 10
+    },
+    "examples": [
+     {
+      "family": "OPP_DETOUR_BACK",
+      "first": 0,
+      "n_arcs": 4,
+      "kind": "multi_arc",
+      "signs": [
+       -1,
+       1,
+       1,
+       -1
+      ]
+     },
+     {
+      "family": "OPP_DETOUR_BACK",
+      "first": 1,
+      "n_arcs": 4,
+      "kind": "multi_arc",
+      "signs": [
+       -1,
+       1,
+       1,
+       -1
+      ]
+     },
+     {
+      "family": "OPP_DETOUR_BACK",
+      "first": 1,
+      "n_arcs": 4,
+      "kind": "multi_arc",
+      "signs": [
+       -1,
+       1,
+       1,
+       -1
+      ]
+     }
+    ]
+   },
+   "disabled": {
+    "kind": "opposite",
+    "candidates": 105,
+    "families": [
+     [
+      "OPP_DETOUR_BACK",
+      104
+     ],
+     [
+      "OPP_STRAIGHT",
+      1
+     ]
+    ],
+    "arc_regions": {},
+    "examples": []
+   }
+  },
+  "task_2_same": {
+   "enabled": {
+    "kind": "same",
+    "candidates": 91,
+    "families": [
+     [
+      "U_QUARTER_PAIR",
+      91
+     ]
+    ],
+    "arc_regions": {},
+    "examples": []
+   },
+   "disabled": {
+    "kind": "same",
+    "candidates": 91,
+    "families": [
+     [
+      "U_QUARTER_PAIR",
+      91
+     ]
+    ],
+    "arc_regions": {},
+    "examples": []
+   }
+  },
+  "task_3_adjacent": {
+   "enabled": {
+    "kind": "adjacent",
+    "candidates": 643,
+    "families": [
+     [
+      "ADJ_DOWN_LOOP",
+      384
+     ],
+     [
+      "ADJ_L",
+      1
+     ],
+     [
+      "ADJ_TURN_SHIFT",
+      18
+     ],
+     [
+      "ADJ_UP_LOOP",
+      216
+     ],
+     [
+      "ADJ_Z_TURN",
+      24
+     ]
+    ],
+    "arc_regions": {
+     "multi_arc": 67
+    },
+    "examples": [
+     {
+      "family": "ADJ_TURN_SHIFT",
+      "first": 1,
+      "n_arcs": 3,
+      "kind": "multi_arc",
+      "signs": [
+       -1,
+       1,
+       -1
+      ]
+     },
+     {
+      "family": "ADJ_DOWN_LOOP",
+      "first": 1,
+      "n_arcs": 3,
+      "kind": "multi_arc",
+      "signs": [
+       -1,
+       -1,
+       1
+      ]
+     },
+     {
+      "family": "ADJ_UP_LOOP",
+      "first": 0,
+      "n_arcs": 2,
+      "kind": "multi_arc",
+      "signs": [
+       -1,
+       1
+      ]
+     }
+    ]
+   },
+   "disabled": {
+    "kind": "adjacent",
+    "candidates": 576,
+    "families": [
+     [
+      "ADJ_DOWN_LOOP",
+      368
+     ],
+     [
+      "ADJ_L",
+      1
+     ],
+     [
+      "ADJ_UP_LOOP",
+      184
+     ],
+     [
+      "ADJ_Z_TURN",
+      23
+     ]
+    ],
+    "arc_regions": {},
+    "examples": []
+   }
+  },
+  "task_4_same": {
+   "enabled": {
+    "kind": "same",
+    "candidates": 96,
+    "families": [
+     [
+      "U_SHORT_SHIFT",
+      96
+     ]
+    ],
+    "arc_regions": {
+     "multi_arc": 96
+    },
+    "examples": [
+     {
+      "family": "U_SHORT_SHIFT",
+      "first": 0,
+      "n_arcs": 3,
+      "kind": "multi_arc",
+      "signs": [
+       1,
+       -1,
+       -1
+      ]
+     },
+     {
+      "family": "U_SHORT_SHIFT",
+      "first": 1,
+      "n_arcs": 3,
+      "kind": "multi_arc",
+      "signs": [
+       1,
+       -1,
+       -1
+      ]
+     },
+     {
+      "family": "U_SHORT_SHIFT",
+      "first": 1,
+      "n_arcs": 3,
+      "kind": "multi_arc",
+      "signs": [
+       1,
+       -1,
+       -1
+      ]
+     }
+    ]
+   },
+   "disabled": {
+    "kind": "same",
+    "candidates": 0,
+    "families": [],
+    "arc_regions": {},
+    "examples": []
+   }
+  }
+ }
+}
