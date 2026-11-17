@@ -1,0 +1,367 @@
+--- a/alns.py
++++ b/alns.py
+@@ -80,8 +80,13 @@
+     enable_direct_plane=False,      # interface-direct-body plane operator (G4d)
+     direct_orders=2,                # re-create orders per direct-plane attempt
+     failed_attempts_cap=4000,
+     verbose_every_seconds=60.0,
++    #: equal-counted-budget mode: share of the counted budget given to the
++    #: greedy forced-height sweep (mirrors the legacy ``sweep_ratio=0.18``).
++    counted_sweep_fraction=0.18,
++    #: hard cap of the in-memory attempt history written to strategy_stats
++    history_records_cap=4000,
+ )
+ 
+ 
+ def log_default(message):
+@@ -170,8 +175,18 @@
+         self._stop = False
+         self.started = spec.started
+         self.start_stage = int(start_stage or 0)
+         self.total_transactions = 0
++        #: equal-counted-budget mode (``None`` = legacy wall-clock schedule).
++        #: ``counted_target`` is the frozen ``d56_candidate_evals`` cap of the
++        #: whole arm, ``counted_base`` the ledger value at the search start, and
++        #: ``_counted_stage_end`` the absolute ledger value that ends the
++        #: currently running stage.  Both arms of the ablation use exactly the
++        #: same numbers; only ``enable_multi_arc`` differs.
++        self.counted_target = None
++        self.counted_base = 0
++        self._counted_stage_end = None
++        self.counted_checks_guard = None
+ 
+     # ------------------------------------------------------------------ aux
+     def _existing_best_total(self):
+         path = Path(self.spec.out_dir) / 'best_valid' / 'summary.json'
+@@ -189,8 +204,26 @@
+             limit = budget.get(key)
+             if limit is not None and self.ledger.data.get(key, 0) >= int(limit):
+                 return False
+         return True
++
++    # -- equal-counted-budget mode ----------------------------------------
++    def counted_used(self, key='d56_candidate_evals'):
++        """Ledger units consumed since the start of this arm."""
++        return int(self.ledger.data.get(key, 0)) - int(self.counted_base)
++
++    def _counted_exhausted(self, stage_end=None):
++        """True when the frozen counted budget of the arm (or the stage) is out."""
++        if self.counted_target is None:
++            return False
++        if self.counted_used() >= int(self.counted_target):
++            return True
++        if self.counted_checks_guard is not None and \
++                self.counted_used('route_3d_checks') >= int(self.counted_checks_guard):
++            return True
++        if stage_end is not None and self.counted_used() >= int(stage_end):
++            return True
++        return False
+ 
+     # ---------------------------------------------------------------- graph
+     def refresh_graph(self, force=False):
+         """Rebuild the exact conflict graph + cheap blocker index (~4.2 s)."""
+@@ -281,9 +314,9 @@
+         rows.sort(key=lambda row: (-row[1], row[0]))
+         limit = int(limit if limit is not None else self.cfg['sweep_max_routes'])
+         return [rid for rid, _count in rows[:limit]]
+ 
+-    def _run_sweep(self, seconds, budget):
++    def _run_sweep(self, seconds, budget, counted_end=None):
+         """Greedy forced-height migration sweep (highest gain / lowest cost).
+ 
+         Every route is probed at the quietest planes of the *current* state and
+         the single best exact-delta candidate is committed; the graph is
+@@ -299,8 +332,10 @@
+         self.stage_stats.append(stage)
+         self._current_stage = -1
+         started = time.time()
+         initial_total = int(self.state.total)
++        initial_counted = self.counted_used()
++        initial_checks = self.counted_used('route_3d_checks')
+         passes = 0
+         self.log('=' * 74)
+         self.log('[sweep] greedy forced-height migration budget=%.0fs total=%d'
+                  % (float(seconds), self.state.total))
+@@ -315,8 +350,12 @@
+             if not self._budget_left(budget):
+                 stage['stopped'] = 'counted_budget'
+                 self.reason_totals[MW.R_BUDGET] += 1
+                 break
++            if counted_end is not None and \
++                    self.counted_used() >= int(counted_end):
++                stage['stopped'] = 'counted_budget'
++                break
+             if passes > 0:
+                 self.refresh_graph(force=True)
+             passes += 1
+             min_gain = int(self.cfg['sweep_min_gain']) if passes == 1 \
+@@ -332,8 +371,11 @@
+                     break
+                 if not self._budget_left(budget):
+                     break
+                 if self.elapsed() >= float(budget['wall_seconds']):
++                    break
++                if counted_end is not None and \
++                        self.counted_used() >= int(counted_end):
+                     break
+                 result = self._safe_operator('sweep', lambda: MW.sweep_route(
+                     self.jw, rid, n_heights=int(self.cfg['sweep_heights']),
+                     min_gain=min_gain,
+@@ -360,16 +402,21 @@
+                 break
+         # optional stronger-candidate quality pass on the hottest remaining routes
+         quality_routes = int(self.cfg.get('sweep_quality_routes', 0) or 0)
+         if quality_routes and not self._stop and \
+-                time.time() - started < float(seconds) * 0.7:
++                time.time() - started < float(seconds) * 0.7 and \
++                not (counted_end is not None
++                     and self.counted_used() >= int(counted_end)):
+             self.refresh_graph(force=True)
+             queue = self._sweep_seeds(limit=quality_routes)
+             self.log('[sweep] quality pass on %d routes' % len(queue))
+             for rid in queue:
+                 if time.time() - started >= float(seconds):
+                     break
+                 if not self._budget_left(budget):
++                    break
++                if counted_end is not None and \
++                        self.counted_used() >= int(counted_end):
+                     break
+                 result = self._safe_operator('sweep', lambda: MW.sweep_route(
+                     self.jw, rid, n_heights=10,
+                     min_gain=int(self.cfg['sweep_retry_min_gain']),
+@@ -379,8 +426,11 @@
+         stage['seconds_used'] = round(time.time() - started, 1)
+         stage['final_total'] = int(self.state.total)
+         stage['stage_gain'] = int(initial_total - self.state.total)
+         stage['passes'] = passes
++        stage['counted_d56'] = int(self.counted_used() - initial_counted)
++        stage['counted_checks'] = int(self.counted_used('route_3d_checks')
++                                      - initial_checks)
+         self.log('[sweep done] attempts=%d accepts=%d gain=%d total=%d (%.0fs)' % (
+             stage['attempts'], stage['accepts'], stage['stage_gain'],
+             self.state.total, time.time() - started))
+         self.ledger.data['wall_seconds'] = round(self.elapsed(), 2)
+@@ -664,8 +714,14 @@
+             strategy=str(result.get('strategy') or ''),
+             reason=str(result.get('reason') or ''),
+             seconds=round(seconds, 3), wall=round(self.elapsed(), 2),
+             total=int(self.state.total),
++            # cumulative ledger counters at this attempt: the three cost axes of
++            # the search-progress figures (d56 candidate evals / true-3-D route
++            # checks / wall clock)
++            d56=int(self.ledger.data.get('d56_candidate_evals', 0)),
++            r3d=int(self.ledger.data.get('route_3d_checks', 0)),
++            xy=int(self.ledger.data.get('xy_candidates_generated', 0)),
+             best_total=int(self.best.best_total or self.state.total)))
+         if accepted:
+             self.best.consider(self.state, note='%s gain=%d' % (op_name, gain))
+             self.jw.maybe_rebuild_world()
+@@ -721,9 +777,19 @@
+             self.log('[warn] checkpoint failed: %s' % error)
+ 
+     # ------------------------------------------------------------------ run
+     def run(self, wall_seconds, stage_sizes, stage_fractions, sweep_seconds=0.0,
+-            skip_sweep=False):
++            skip_sweep=False, counted_d56=None, counted_checks_guard=None):
++        """Run one arm.
++
++        ``counted_d56`` switches on the **equal counted-budget** schedule: the
++        arm stops as soon as ``d56_candidate_evals`` grows by that many units
++        since the start of the search, and the greedy sweep plus the four
++        neighbourhood stages receive *fractions of that counted budget*
++        instead of fractions of the wall clock.  ``counted_checks_guard`` is a
++        secondary hard cap on ``route_3d_checks`` (the exact true-3-D route
++        evaluations) and is reported, never silently substituted.
++        """
+         self._current_stage = 0
+         self.maybe_refresh()
+         self.best.consider(self.state, note='start')
+         self.log('[search] arm=%s manual_frozen=%s routes=%d crossings=%d '
+@@ -735,34 +801,77 @@
+                      float(sweep_seconds), skip_sweep))
+         budget = dict(self.spec.budget)
+         budget['wall_seconds'] = float(wall_seconds)
+         sweep_seconds = max(0.0, min(float(sweep_seconds), float(wall_seconds) * 0.9))
++        # -- equal counted-budget schedule ---------------------------------
++        if counted_d56 is not None:
++            self.counted_target = int(counted_d56)
++            self.counted_base = int(self.ledger.data.get('d56_candidate_evals', 0))
++            self.counted_checks_guard = (None if counted_checks_guard is None
++                                         else int(counted_checks_guard))
++            sweep_counted = int(round(float(self.cfg['counted_sweep_fraction'])
++                                      * self.counted_target))
++            self.log('[search] COUNTED BUDGET d56=%d (base=%d) checks_guard=%s '
++                     'sweep_share=%.2f (sweep d56=%d)' % (
++                         self.counted_target, self.counted_base,
++                         self.counted_checks_guard,
++                         float(self.cfg['counted_sweep_fraction']),
++                         sweep_counted))
++            sweep_seconds = float(wall_seconds)   # wall is a pure safety net
++        else:
++            sweep_counted = None
+         sweep_used = 0.0
+         if sweep_seconds > 0 and self.start_stage == 0 and not skip_sweep:
+-            stage = self._run_sweep(sweep_seconds, budget)
++            stage = self._run_sweep(
++                sweep_seconds, budget,
++                counted_end=(None if sweep_counted is None else sweep_counted))
+             sweep_used = float((stage or {}).get('seconds_used') or 0.0)
+         # unused sweep budget flows into the neighbourhood stages
+         stage_pool = max(1.0, float(wall_seconds) - sweep_used)
++        counted_ends = None
++        if counted_d56 is not None:
++            # fixed absolute ledger marks: the remaining counted budget is split
++            # by the frozen stage fractions, so the four stages together spend
++            # exactly what the sweep left (no share is silently dropped)
++            remaining = max(0, int(self.counted_target) - self.counted_used())
++            start_used = self.counted_used()
++            cumulative = 0
++            counted_ends = []
++            for fraction in stage_fractions:
++                cumulative += int(round(remaining * float(fraction)))
++                counted_ends.append(min(int(self.counted_target),
++                                        start_used + cumulative))
++            self.log('[search] counted stage ends %s (start_used=%d left=%d)' % (
++                counted_ends, start_used, remaining))
+         for stage_index, (size, fraction) in enumerate(
+                 zip(stage_sizes, stage_fractions)):
+             if stage_index < self.start_stage:
+                 continue
+             stage_seconds = stage_pool * float(fraction)
++            if self._counted_exhausted():
++                self.log('[search] counted budget exhausted before stage %d'
++                         % stage_index)
++                break
+             if not self._budget_left(budget):
+                 self.log('[search] counted budget exhausted before stage %d' % stage_index)
+                 break
+             if self.elapsed() >= float(wall_seconds):
+                 self.log('[search] wall budget exhausted before stage %d' % stage_index)
+                 break
+-            self._run_stage(stage_index, int(size), stage_seconds, budget)
++            counted_end = (None if counted_ends is None
++                           else counted_ends[int(stage_index)])
++            self._run_stage(stage_index, int(size), stage_seconds, budget,
++                            counted_end=counted_end)
++            if self._counted_exhausted():
++                break
+             if not self._budget_left(budget):
+                 break
+             if self.elapsed() >= float(wall_seconds):
+                 break
+         self._write_partial()
+         return self.finish()
+ 
+-    def _run_stage(self, stage_index, size, seconds, budget):
++    def _run_stage(self, stage_index, size, seconds, budget, counted_end=None):
+         self._current_stage = stage_index
+         self.rng = random.Random(int(self.spec.seed) + int(stage_index) * 101)
+         stage = dict(stage=int(stage_index), size=int(size),
+                      started_at=time.strftime('%Y-%m-%dT%H:%M:%S'),
+@@ -772,26 +881,34 @@
+                      gain_by_op=Counter(), reasons=Counter())
+         self.stage_stats.append(stage)
+         started = time.time()
+         initial_total = int(self.state.total)
++        initial_counted = self.counted_used()
++        initial_checks = self.counted_used('route_3d_checks')
+         self.log('=' * 74)
+-        self.log('[stage %d] neighbourhood size=%d budget=%.0fs total=%d' % (
+-            stage_index, size, seconds, self.state.total))
++        self.log('[stage %d] neighbourhood size=%d budget=%.0fs total=%d '
++                 'counted_end=%s used=%d' % (
++                     stage_index, size, seconds, self.state.total,
++                     counted_end, self.counted_used()))
+         forced = self._forced_schedule(size)
+         min_recreate = int(self.cfg.get('min_recreate_attempts', 3))
+         recreate_attempts = 0
+         while True:
+             if self._stop:
+                 stage['stopped'] = 'interrupted'
+                 break
+             if time.time() - started >= seconds:
++                stage['stopped'] = 'stage_seconds'
+                 break
+             if self.elapsed() >= float(budget['wall_seconds']):
+                 stage['stopped'] = 'wall_budget'
+                 break
+             if not self._budget_left(budget):
+                 stage['stopped'] = 'counted_budget'
+                 self.reason_totals[MW.R_BUDGET] += 1
++                break
++            if counted_end is not None and self.counted_used() >= int(counted_end):
++                stage['stopped'] = 'stage_counted_budget'
+                 break
+             self.maybe_refresh()
+             if forced:
+                 op_name = forced.pop(0)
+@@ -815,8 +932,11 @@
+                 self._log_progress(stage, started, initial_total, seconds)
+         stage['seconds_used'] = round(time.time() - started, 1)
+         stage['final_total'] = int(self.state.total)
+         stage['stage_gain'] = int(initial_total - self.state.total)
++        stage['counted_d56'] = int(self.counted_used() - initial_counted)
++        stage['counted_checks'] = int(self.counted_used('route_3d_checks')
++                                      - initial_checks)
+         self.log('[stage %d done] size=%d attempts=%d accepts=%d gain=%d '
+                  'total=%d (%.0fs) ops=%s reasons=%s' % (
+                      stage_index, size, stage['attempts'], stage['accepts'],
+                      stage['stage_gain'], self.state.total,
+@@ -893,15 +1013,17 @@
+                     validation=validation, out_dir=str(self.spec.out_dir))
+ 
+     def extra_payload(self, validation=None):
+         graph_summary = self.graph.summary() if self.graph is not None else {}
++        start_total = int(getattr(self.state, 'start_total',
++                                  GP.START_CROSSINGS))
+         return dict(
+             schema='g4_strategy_stats_v1',
+             arm=self.spec.arm,
+             manual_frozen=bool(self.spec.manual_frozen),
+-            start_crossings=int(GP.START_CROSSINGS),
++            start_crossings=start_total,
+             final_crossings=int(self.state.total),
+-            delta_vs_start=int(self.state.total) - int(GP.START_CROSSINGS),
++            delta_vs_start=int(self.state.total) - start_total,
+             accepts=int(self._accepted),
+             transactions=len(self.jw.transaction_history),
+             transaction_history=self.jw.transaction_history[-400:],
+             stage_stats=[_count_jsonable(stage) for stage in self.stage_stats],
+@@ -910,11 +1032,20 @@
+             reason_totals=dict(self.reason_totals),
+             weights=dict(self.weights),
+             graph_summary=graph_summary,
+             cfg=dict(self.cfg),
++            counted_budget=dict(
++                d56_target=self.counted_target,
++                d56_base=int(self.counted_base),
++                checks_guard=self.counted_checks_guard,
++                d56_used=(None if self.counted_target is None
++                          else int(self.counted_used())),
++                checks_used=int(self.counted_used('route_3d_checks')),
++                sweep_fraction=float(self.cfg['counted_sweep_fraction'])),
+             ledger=self.ledger.summary(),
+             validation=validation,
+-            history_records=self.history_records[-800:],
++            history_records=self.history_records[
++                -int(self.cfg.get('history_records_cap', 4000)):],
+         )
+ 
+     def _write_summary(self, extra, validation):
+         stats = None
+@@ -939,10 +1070,12 @@
+         payload = dict(
+             arm=self.spec.arm,
+             final_crossings=int(self.state.total),
+             crossing_pairs=int(self.state.pairs),
+-            start_crossings=int(GP.START_CROSSINGS),
+-            delta_vs_start=int(self.state.total) - int(GP.START_CROSSINGS),
++            start_crossings=int(getattr(self.state, 'start_total',
++                                        GP.START_CROSSINGS)),
++            delta_vs_start=int(self.state.total)
++            - int(getattr(self.state, 'start_total', GP.START_CROSSINGS)),
+             routes_changed=int(changed),
+             routes=len(self.state.routes),
+             accepts=int(self._accepted),
+             transactions=len(self.jw.transaction_history),

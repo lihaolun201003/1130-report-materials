@@ -1,0 +1,102 @@
+{
+ "alns.py": {
+  "added": [
+   {
+    "kind": "def",
+    "name": "G4Search.counted_used",
+    "line": 210,
+    "args": [
+     "self",
+     "key"
+    ]
+   },
+   {
+    "kind": "def",
+    "name": "G4Search._counted_exhausted",
+    "line": 214,
+    "args": [
+     "self",
+     "stage_end"
+    ]
+   },
+   {
+    "kind": "def",
+    "name": "G4Search._run_sweep",
+    "line": 318,
+    "args": [
+     "self",
+     "seconds",
+     "budget",
+     "counted_end"
+    ]
+   },
+   {
+    "kind": "def",
+    "name": "G4Search.run",
+    "line": 780,
+    "args": [
+     "self",
+     "wall_seconds",
+     "stage_sizes",
+     "stage_fractions",
+     "sweep_seconds",
+     "skip_sweep",
+     "counted_d56",
+     "counted_checks_guard"
+    ]
+   },
+   {
+    "kind": "def",
+    "name": "G4Search._run_stage",
+    "line": 873,
+    "args": [
+     "self",
+     "stage_index",
+     "size",
+     "seconds",
+     "budget",
+     "counted_end"
+    ]
+   }
+  ],
+  "removed": [
+   {
+    "kind": "def",
+    "name": "G4Search._run_sweep",
+    "line": 285,
+    "args": [
+     "self",
+     "seconds",
+     "budget"
+    ]
+   },
+   {
+    "kind": "def",
+    "name": "G4Search.run",
+    "line": 724,
+    "args": [
+     "self",
+     "wall_seconds",
+     "stage_sizes",
+     "stage_fractions",
+     "sweep_seconds",
+     "skip_sweep"
+    ]
+   },
+   {
+    "kind": "def",
+    "name": "G4Search._run_stage",
+    "line": 764,
+    "args": [
+     "self",
+     "stage_index",
+     "size",
+     "seconds",
+     "budget"
+    ]
+   }
+  ],
+  "total_trusted": 41,
+  "total_current": 43
+ }
+}

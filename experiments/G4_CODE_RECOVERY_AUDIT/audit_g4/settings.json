@@ -1,0 +1,87 @@
+{
+ "alns.py": {
+  "all": {
+   "trusted": {
+    "DEFAULT_CFG": "DEFAULT_CFG = dict(\n    graph_refresh_seconds=100.0,    # exact conflict graph rebuild period\n    graph_refresh_accepts=45,       # ... or after this many accepts\n    index_refresh_accepts=30,       # rebuild the cheap blocker index\n    checkpoint_seconds=600.0,       # SPEC: every 10 min\n    checkpoint_accepts=50,          # SPEC: or every 50 accepts\n    min_seed_crossings=2,           # ignore routes below this crossing count\n    probe_limit_small=3,            # heights probed per migrate (stage 8)\n    probe_limit_large=2,\n    beam_small=2,                   # order strategies per make-way\n    beam_large=2,\n    max_blockers=3,\n    recreate_free_max_size=16,      # free height re-create up to this size\n    recreate_seed_pins=2,           # hottest members pinned to a ranked height\n    min_recreate_attempts=3,        # guaranteed recreate coverage per stage\n    lift_direct_ratio=0.10,         # probability of the interface operator\n    sweep_top_k=36,                 # greedy sweep: routes per batch/round\n    sweep_max_routes=240,           # greedy sweep: full ranked queue per pass\n    sweep_heights=7,                # greedy sweep: quiet plane candidates\n    sweep_min_gain=2,               # greedy sweep: minimum accepted gain\n    sweep_retry_min_gain=1,         # greedy sweep: later passes accept gain 1\n    sweep_max_passes=3,             # greedy sweep: full passes over the queue\n    sweep_quality_routes=60,        # greedy sweep: stronger cfg on top routes\n    sweep_early_delta=-6,           # greedy sweep: stop probing at this gain\n    enable_direct_plane=False,      # interface-direct-body plane operator (G4d)\n    direct_orders=2,                # re-create orders per direct-plane attempt\n    failed_attempts_cap=4000,\n    verbose_every_seconds=60.0,\n)"
+   },
+   "current": {
+    "DEFAULT_CFG": "DEFAULT_CFG = dict(\n    graph_refresh_seconds=100.0,    # exact conflict graph rebuild period\n    graph_refresh_accepts=45,       # ... or after this many accepts\n    index_refresh_accepts=30,       # rebuild the cheap blocker index\n    checkpoint_seconds=600.0,       # SPEC: every 10 min\n    checkpoint_accepts=50,          # SPEC: or every 50 accepts\n    min_seed_crossings=2,           # ignore routes below this crossing count\n    probe_limit_small=3,            # heights probed per migrate (stage 8)\n    probe_limit_large=2,\n    beam_small=2,                   # order strategies per make-way\n    beam_large=2,\n    max_blockers=3,\n    recreate_free_max_size=16,      # free height re-create up to this size\n    recreate_seed_pins=2,           # hottest members pinned to a ranked height\n    min_recreate_attempts=3,        # guaranteed recreate coverage per stage\n    lift_direct_ratio=0.10,         # probability of the interface operator\n    sweep_top_k=36,                 # greedy sweep: routes per batch/round\n    sweep_max_routes=240,           # greedy sweep: full ranked queue per pass\n    sweep_heights=7,                # greedy sweep: quiet plane candidates\n    sweep_min_gain=2,               # greedy sweep: minimum accepted gain\n    sweep_retry_min_gain=1,         # greedy sweep: later passes accept gain 1\n    sweep_max_passes=3,             # greedy sweep: full passes over the queue\n    sweep_quality_routes=60,        # greedy sweep: stronger cfg on top routes\n    sweep_early_delta=-6,           # greedy sweep: stop probing at this gain\n    enable_direct_plane=False,      # interface-direct-body plane operator (G4d)\n    direct_orders=2,                # re-create orders per direct-plane attempt\n    failed_attempts_cap=4000,\n    verbose_every_seconds=60.0,\n    #: equal-counted-budget mode: share of the counted budget given to the\n    #: greedy forced-height sweep (mirrors the legacy ``sweep_ratio=0.18``).\n    counted_sweep_fraction=0.18,\n    #: hard cap of the in-memory attempt history written to strategy_stats\n    history_records_cap=4000,\n)"
+   }
+  },
+  "changed": {
+   "DEFAULT_CFG": {
+    "trusted": "DEFAULT_CFG = dict(\n    graph_refresh_seconds=100.0,    # exact conflict graph rebuild period\n    graph_refresh_accepts=45,       # ... or after this many accepts\n    index_refresh_accepts=30,       # rebuild the cheap blocker index\n    checkpoint_seconds=600.0,       # SPEC: every 10 min\n    checkpoint_accepts=50,          # SPEC: or every 50 accepts\n    min_seed_crossings=2,           # ignore routes below this crossing count\n    probe_limit_small=3,            # heights probed per migrate (stage 8)\n    probe_limit_large=2,\n    beam_small=2,                   # order strategies per make-way\n    beam_large=2,\n    max_blockers=3,\n    recreate_free_max_size=16,      # free height re-create up to this size\n    recreate_seed_pins=2,           # hottest members pinned to a ranked height\n    min_recreate_attempts=3,        # guaranteed recreate coverage per stage\n    lift_direct_ratio=0.10,         # probability of the interface operator\n    sweep_top_k=36,                 # greedy sweep: routes per batch/round\n    sweep_max_routes=240,           # greedy sweep: full ranked queue per pass\n    sweep_heights=7,                # greedy sweep: quiet plane candidates\n    sweep_min_gain=2,               # greedy sweep: minimum accepted gain\n    sweep_retry_min_gain=1,         # greedy sweep: later passes accept gain 1\n    sweep_max_passes=3,             # greedy sweep: full passes over the queue\n    sweep_quality_routes=60,        # greedy sweep: stronger cfg on top routes\n    sweep_early_delta=-6,           # greedy sweep: stop probing at this gain\n    enable_direct_plane=False,      # interface-direct-body plane operator (G4d)\n    direct_orders=2,                # re-create orders per direct-plane attempt\n    failed_attempts_cap=4000,\n    verbose_every_seconds=60.0,\n)",
+    "current": "DEFAULT_CFG = dict(\n    graph_refresh_seconds=100.0,    # exact conflict graph rebuild period\n    graph_refresh_accepts=45,       # ... or after this many accepts\n    index_refresh_accepts=30,       # rebuild the cheap blocker index\n    checkpoint_seconds=600.0,       # SPEC: every 10 min\n    checkpoint_accepts=50,          # SPEC: or every 50 accepts\n    min_seed_crossings=2,           # ignore routes below this crossing count\n    probe_limit_small=3,            # heights probed per migrate (stage 8)\n    probe_limit_large=2,\n    beam_small=2,                   # order strategies per make-way\n    beam_large=2,\n    max_blockers=3,\n    recreate_free_max_size=16,      # free height re-create up to this size\n    recreate_seed_pins=2,           # hottest members pinned to a ranked height\n    min_recreate_attempts=3,        # guaranteed recreate coverage per stage\n    lift_direct_ratio=0.10,         # probability of the interface operator\n    sweep_top_k=36,                 # greedy sweep: routes per batch/round\n    sweep_max_routes=240,           # greedy sweep: full ranked queue per pass\n    sweep_heights=7,                # greedy sweep: quiet plane candidates\n    sweep_min_gain=2,               # greedy sweep: minimum accepted gain\n    sweep_retry_min_gain=1,         # greedy sweep: later passes accept gain 1\n    sweep_max_passes=3,             # greedy sweep: full passes over the queue\n    sweep_quality_routes=60,        # greedy sweep: stronger cfg on top routes\n    sweep_early_delta=-6,           # greedy sweep: stop probing at this gain\n    enable_direct_plane=False,      # interface-direct-body plane operator (G4d)\n    direct_orders=2,                # re-create orders per direct-plane attempt\n    failed_attempts_cap=4000,\n    verbose_every_seconds=60.0,\n    #: equal-counted-budget mode: share of the counted budget given to the\n    #: greedy forced-height sweep (mirrors the legacy ``sweep_ratio=0.18``).\n    counted_sweep_fraction=0.18,\n    #: hard cap of the in-memory attempt history written to strategy_stats\n    history_records_cap=4000,\n)"
+   }
+  }
+ },
+ "joint_world.py": {
+  "all": {
+   "trusted": {
+    "PLAN_CFG": "PLAN_CFG = dict(\n    max_target_layers=3,      # free-height options besides the current height\n    max_lead_pairs=2,\n    prescreen_candidates=160,\n    max_candidates=320,\n    d56_top=16,\n    bodies_per_pair=2,\n    max_return=4,             # candidates returned per route (best first)\n)"
+   },
+   "current": {
+    "PLAN_CFG": "PLAN_CFG = dict(\n    max_target_layers=3,      # free-height options besides the current height\n    max_lead_pairs=2,\n    prescreen_candidates=160,\n    max_candidates=320,\n    d56_top=16,\n    bodies_per_pair=2,\n    max_return=4,             # candidates returned per route (best first)\n)"
+   }
+  },
+  "changed": {}
+ },
+ "make_way.py": {
+  "all": {
+   "trusted": {
+    "PROBE_CFG": "PROBE_CFG = dict(max_target_layers=0, max_lead_pairs=2,\n                 prescreen_candidates=80, max_candidates=110, d56_top=8,\n                 bodies_per_pair=1, max_return=1, allow_direct=True,\n                 allow_xy_only=False)",
+    "TARGET_CFG": "TARGET_CFG = dict(PROBE_CFG)",
+    "BLOCKER_CFG": "BLOCKER_CFG = dict(max_target_layers=0, max_lead_pairs=1,\n                   prescreen_candidates=60, max_candidates=80, d56_top=6,\n                   bodies_per_pair=1, max_return=1, allow_direct=True,\n                   allow_xy_only=False)",
+    "SWEEP_CFG": "SWEEP_CFG = dict(max_target_layers=0, max_lead_pairs=1,\n                 prescreen_candidates=70, max_candidates=90, d56_top=8,\n                 bodies_per_pair=1, max_return=2, allow_direct=True,\n                 allow_xy_only=False)",
+    "SWEEP_QUALITY_CFG": "SWEEP_QUALITY_CFG = dict(max_target_layers=0, max_lead_pairs=2,\n                         prescreen_candidates=110, max_candidates=150,\n                         d56_top=16, bodies_per_pair=2, max_return=3,\n                         allow_direct=True, allow_xy_only=False)"
+   },
+   "current": {
+    "PROBE_CFG": "PROBE_CFG = dict(max_target_layers=0, max_lead_pairs=2,\n                 prescreen_candidates=80, max_candidates=110, d56_top=8,\n                 bodies_per_pair=1, max_return=1, allow_direct=True,\n                 allow_xy_only=False)",
+    "TARGET_CFG": "TARGET_CFG = dict(PROBE_CFG)",
+    "BLOCKER_CFG": "BLOCKER_CFG = dict(max_target_layers=0, max_lead_pairs=1,\n                   prescreen_candidates=60, max_candidates=80, d56_top=6,\n                   bodies_per_pair=1, max_return=1, allow_direct=True,\n                   allow_xy_only=False)",
+    "SWEEP_CFG": "SWEEP_CFG = dict(max_target_layers=0, max_lead_pairs=1,\n                 prescreen_candidates=70, max_candidates=90, d56_top=8,\n                 bodies_per_pair=1, max_return=2, allow_direct=True,\n                 allow_xy_only=False)",
+    "SWEEP_QUALITY_CFG": "SWEEP_QUALITY_CFG = dict(max_target_layers=0, max_lead_pairs=2,\n                         prescreen_candidates=110, max_candidates=150,\n                         d56_top=16, bodies_per_pair=2, max_return=3,\n                         allow_direct=True, allow_xy_only=False)"
+   }
+  },
+  "changed": {}
+ },
+ "paths.py": {
+  "all": {
+   "trusted": {
+    "DEFAULT_BUDGET": "DEFAULT_BUDGET = dict(\n    route_3d_checks=30000,     # route geometries checked in the true 3D World\n    d56_candidate_evals=120000,  # exact strict-D56 candidate evaluations\n    wall_seconds=1800,         # hard wall-clock cap (search only, no validation)\n)",
+    "ARM_BUDGETS": "ARM_BUDGETS = {\n    'C0': dict(DEFAULT_BUDGET, wall_seconds=1200),\n    'G4a': dict(DEFAULT_BUDGET, wall_seconds=1200),\n    'G4b': dict(DEFAULT_BUDGET, wall_seconds=1200),\n    'G4c_frozen': dict(DEFAULT_BUDGET, wall_seconds=1800),\n    'G4c_free': dict(DEFAULT_BUDGET, wall_seconds=1800),\n    'G4d': dict(DEFAULT_BUDGET, wall_seconds=3600),\n}"
+   },
+   "current": {
+    "DEFAULT_BUDGET": "DEFAULT_BUDGET = dict(\n    route_3d_checks=30000,     # route geometries checked in the true 3D World\n    d56_candidate_evals=120000,  # exact strict-D56 candidate evaluations\n    wall_seconds=1800,         # hard wall-clock cap (search only, no validation)\n)",
+    "ARM_BUDGETS": "ARM_BUDGETS = {\n    'C0': dict(DEFAULT_BUDGET, wall_seconds=1200),\n    'G4a': dict(DEFAULT_BUDGET, wall_seconds=1200),\n    'G4b': dict(DEFAULT_BUDGET, wall_seconds=1200),\n    'G4c_frozen': dict(DEFAULT_BUDGET, wall_seconds=1800),\n    'G4c_free': dict(DEFAULT_BUDGET, wall_seconds=1800),\n    'G4d': dict(DEFAULT_BUDGET, wall_seconds=3600),\n}"
+   }
+  },
+  "changed": {}
+ },
+ "run_g4c.py": {
+  "all": {
+   "trusted": {
+    "STAGE_SIZES": "STAGE_SIZES = (8, 16, 32, 64)",
+    "STAGE_FRACTIONS": "STAGE_FRACTIONS = (0.22, 0.24, 0.26, 0.28)"
+   },
+   "current": {
+    "STAGE_SIZES": "STAGE_SIZES = (8, 16, 32, 64)",
+    "STAGE_FRACTIONS": "STAGE_FRACTIONS = (0.22, 0.24, 0.26, 0.28)"
+   }
+  },
+  "changed": {}
+ },
+ "run_g4d.py": {
+  "all": {
+   "trusted": {
+    "STAGE_SIZES": "STAGE_SIZES = (16, 32, 64, 96)",
+    "STAGE_FRACTIONS": "STAGE_FRACTIONS = (0.20, 0.24, 0.26, 0.30)"
+   },
+   "current": {
+    "STAGE_SIZES": "STAGE_SIZES = (16, 32, 64, 96)",
+    "STAGE_FRACTIONS": "STAGE_FRACTIONS = (0.20, 0.24, 0.26, 0.30)"
+   }
+  },
+  "changed": {}
+ }
+}

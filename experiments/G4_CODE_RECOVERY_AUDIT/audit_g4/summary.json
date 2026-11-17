@@ -1,0 +1,164 @@
+{
+ "schema": "g4_code_recovery_audit_v1",
+ "trusted_source": {
+  "repo": "11.9-second-report-all-work",
+  "commit": "833a009b411c",
+  "path": "g4_xyz_joint_1024/08_code/g4",
+  "manifest_generated_at": "2026-11-04 20:10:14",
+  "manifest_all_match_source": true,
+  "file_count": 25,
+  "total_bytes": 949763
+ },
+ "snapshot_self_check": {
+  "files": 25,
+  "ok": 25,
+  "failed": []
+ },
+ "counts": {
+  "trusted_files": 24,
+  "current_files": 24,
+  "identical": 18,
+  "modified": 6,
+  "missing_in_current": 0,
+  "added_in_current": 0
+ },
+ "modified_files": [
+  {
+   "file": "alns.py",
+   "added": 146,
+   "removed": 13
+  },
+  {
+   "file": "arm_base.py",
+   "added": 9,
+   "removed": 2
+  },
+  {
+   "file": "artifacts.py",
+   "added": 6,
+   "removed": 3
+  },
+  {
+   "file": "run_g4_engine.py",
+   "added": 6,
+   "removed": 0
+  },
+  {
+   "file": "run_g4c.py",
+   "added": 15,
+   "removed": 1
+  },
+  {
+   "file": "run_g4d.py",
+   "added": 5,
+   "removed": 1
+  }
+ ],
+ "signature_changes": {
+  "alns.py": {
+   "added": [
+    {
+     "kind": "def",
+     "name": "G4Search.counted_used",
+     "line": 210,
+     "args": [
+      "self",
+      "key"
+     ]
+    },
+    {
+     "kind": "def",
+     "name": "G4Search._counted_exhausted",
+     "line": 214,
+     "args": [
+      "self",
+      "stage_end"
+     ]
+    },
+    {
+     "kind": "def",
+     "name": "G4Search._run_sweep",
+     "line": 318,
+     "args": [
+      "self",
+      "seconds",
+      "budget",
+      "counted_end"
+     ]
+    },
+    {
+     "kind": "def",
+     "name": "G4Search.run",
+     "line": 780,
+     "args": [
+      "self",
+      "wall_seconds",
+      "stage_sizes",
+      "stage_fractions",
+      "sweep_seconds",
+      "skip_sweep",
+      "counted_d56",
+      "counted_checks_guard"
+     ]
+    },
+    {
+     "kind": "def",
+     "name": "G4Search._run_stage",
+     "line": 873,
+     "args": [
+      "self",
+      "stage_index",
+      "size",
+      "seconds",
+      "budget",
+      "counted_end"
+     ]
+    }
+   ],
+   "removed": [
+    {
+     "kind": "def",
+     "name": "G4Search._run_sweep",
+     "line": 285,
+     "args": [
+      "self",
+      "seconds",
+      "budget"
+     ]
+    },
+    {
+     "kind": "def",
+     "name": "G4Search.run",
+     "line": 724,
+     "args": [
+      "self",
+      "wall_seconds",
+      "stage_sizes",
+      "stage_fractions",
+      "sweep_seconds",
+      "skip_sweep"
+     ]
+    },
+    {
+     "kind": "def",
+     "name": "G4Search._run_stage",
+     "line": 764,
+     "args": [
+      "self",
+      "stage_index",
+      "size",
+      "seconds",
+      "budget"
+     ]
+    }
+   ],
+   "total_trusted": 41,
+   "total_current": 43
+  }
+ },
+ "settings_changes": {
+  "alns.py": [
+   "DEFAULT_CFG"
+  ]
+ }
+}

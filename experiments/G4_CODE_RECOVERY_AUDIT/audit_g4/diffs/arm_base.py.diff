@@ -1,0 +1,32 @@
+--- a/arm_base.py
++++ b/arm_base.py
+@@ -95,8 +95,13 @@
+         snap = self.state.per_route_counts()
+         self.start_crossings = {int(rid): int(count)
+                                 for rid, count in snap[0].items()}
+         self.state.start_crossings = dict(self.start_crossings)
++        #: exact crossing total of *this* start state (the G3 default is 1322,
++        #: but an ablation arm may start from a converted state).  Written into
++        #: the arm metadata so ``delta_vs_start`` is never taken against the
++        #: wrong baseline.
++        self.state.start_total = int(self.state.total)
+         self.log('[arm] loaded state routes=%d crossings=%d (%.2fs)' % (
+             len(self.state.routes), self.state.total, self.state.build_time))
+         return self
+ 
+@@ -160,11 +165,13 @@
+             self.out_dir, self.state.total))
+         return self.out_dir
+ 
+     def summary(self):
++        start_total = int(getattr(self.state, 'start_total',
++                                  GP.START_CROSSINGS))
+         return dict(arm=self.spec.arm, total=int(self.state.total),
+-                    start_crossings=dict(GP.START_CROSSINGS),
+-                    delta=int(self.state.total) - int(GP.START_CROSSINGS),
++                    start_crossings=start_total,
++                    delta=int(self.state.total) - start_total,
+                     routes=len(self.state.routes),
+                     ledger=self.ledger.summary(),
+                     seconds=round(self.spec.elapsed(), 2),
+                     resumed=bool(self.resumed))

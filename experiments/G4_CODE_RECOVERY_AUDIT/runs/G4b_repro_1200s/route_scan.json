@@ -1,0 +1,2055 @@
+{
+ "route_count": 20,
+ "routes": {
+  "779": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 0,
+     "kind": "migrate",
+     "xy_crossings": 8,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 11,
+     "z": 0.2,
+     "label": "L11",
+     "delta": 2,
+     "kind": "migrate",
+     "xy_crossings": 10,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 4,
+     "kind": "migrate",
+     "xy_crossings": 12,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 9,
+     "kind": "migrate",
+     "xy_crossings": 17,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 9,
+     "kind": "migrate",
+     "xy_crossings": 17,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 26,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 21,
+     "kind": "migrate",
+     "xy_crossings": 29,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 5,
+     "z": -0.2,
+     "label": "L5",
+     "delta": 21,
+     "kind": "migrate",
+     "xy_crossings": 29,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 4.68
+  },
+  "407": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 5,
+     "z": -0.2,
+     "label": "L5",
+     "delta": -6,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": -4,
+     "kind": "migrate",
+     "xy_crossings": 2,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 20,
+     "z": -0.05,
+     "label": "L20",
+     "delta": 3,
+     "kind": "migrate",
+     "xy_crossings": 9,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 6,
+     "kind": "migrate",
+     "xy_crossings": 12,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 7,
+     "z": -0.1,
+     "label": "L7",
+     "delta": 6,
+     "kind": "migrate",
+     "xy_crossings": 12,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 6,
+     "z": -0.15,
+     "label": "L6",
+     "delta": 6,
+     "kind": "migrate",
+     "xy_crossings": 12,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 6,
+     "kind": "migrate",
+     "xy_crossings": 12,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 3,
+     "z": -0.3,
+     "label": "L3",
+     "delta": 10,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 2,
+     "z": -0.35,
+     "label": "L2",
+     "delta": 10,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 4,
+     "z": -0.25,
+     "label": "L4",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 24,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 2.79
+  },
+  "773": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 0,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    },
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": 1,
+     "kind": "migrate",
+     "xy_crossings": 7,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    },
+    {
+     "layer": 11,
+     "z": 0.2,
+     "label": "L11",
+     "delta": 6,
+     "kind": "migrate",
+     "xy_crossings": 12,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    },
+    {
+     "layer": 20,
+     "z": -0.05,
+     "label": "L20",
+     "delta": 7,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 7,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    },
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 11,
+     "kind": "migrate",
+     "xy_crossings": 17,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 11,
+     "kind": "migrate",
+     "xy_crossings": 17,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 15,
+     "kind": "migrate",
+     "xy_crossings": 21,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    },
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 24,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 25,
+     "kind": "migrate",
+     "xy_crossings": 31,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 26,
+     "kind": "migrate",
+     "xy_crossings": 32,
+     "lead_s": 1.4857731405840298,
+     "lead_t": 1.4857731405840298
+    }
+   ],
+   "seconds": 2.86
+  },
+  "774": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 2,
+     "kind": "migrate",
+     "xy_crossings": 8,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 7,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 10,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 13,
+     "kind": "migrate",
+     "xy_crossings": 19,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 13,
+     "kind": "migrate",
+     "xy_crossings": 19,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 11,
+     "z": 0.2,
+     "label": "L11",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 6,
+     "z": -0.15,
+     "label": "L6",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 15,
+     "kind": "migrate",
+     "xy_crossings": 21,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 24,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 5,
+     "z": -0.2,
+     "label": "L5",
+     "delta": 23,
+     "kind": "migrate",
+     "xy_crossings": 29,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 24,
+     "kind": "migrate",
+     "xy_crossings": 30,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 27,
+     "kind": "migrate",
+     "xy_crossings": 33,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 2.95
+  },
+  "776": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 4,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 0,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": 3,
+     "kind": "migrate",
+     "xy_crossings": 9,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 7,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 10,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 12,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 13,
+     "kind": "migrate",
+     "xy_crossings": 19,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 17,
+     "kind": "migrate",
+     "xy_crossings": 23,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 22,
+     "kind": "migrate",
+     "xy_crossings": 28,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 28,
+     "kind": "migrate",
+     "xy_crossings": 34,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 2.6
+  },
+  "796": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 2,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 2.7506918245816694,
+     "lead_t": 2.7506918245816694
+    },
+    {
+     "layer": 7,
+     "z": -0.1,
+     "label": "L7",
+     "delta": 2,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 2.7506918245816694,
+     "lead_t": 2.7506918245816694
+    },
+    {
+     "layer": 20,
+     "z": -0.05,
+     "label": "L20",
+     "delta": 6,
+     "kind": "migrate",
+     "xy_crossings": 10,
+     "lead_s": 2.7506918245816694,
+     "lead_t": 2.7506918245816694
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 12,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 2.7506918245816694,
+     "lead_t": 2.7506918245816694
+    },
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 2.7506918245816694,
+     "lead_t": 2.7506918245816694
+    },
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 2.7506918245816694,
+     "lead_t": 2.7506918245816694
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 15,
+     "kind": "migrate",
+     "xy_crossings": 19,
+     "lead_s": 2.7506918245816694,
+     "lead_t": 2.7506918245816694
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 16,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 2.7506918245816694,
+     "lead_t": 2.7506918245816694
+    }
+   ],
+   "seconds": 2.85
+  },
+  "775": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 3,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 3,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 5,
+     "kind": "migrate",
+     "xy_crossings": 8,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 9,
+     "kind": "migrate",
+     "xy_crossings": 12,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 12,
+     "kind": "migrate",
+     "xy_crossings": 15,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 6,
+     "z": -0.15,
+     "label": "L6",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 21,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 20,
+     "kind": "migrate",
+     "xy_crossings": 23,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 25,
+     "kind": "migrate",
+     "xy_crossings": 28,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 5,
+     "z": -0.2,
+     "label": "L5",
+     "delta": 26,
+     "kind": "migrate",
+     "xy_crossings": 29,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 26,
+     "kind": "migrate",
+     "xy_crossings": 29,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 30,
+     "kind": "migrate",
+     "xy_crossings": 33,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 2.88
+  },
+  "777": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 1,
+     "kind": "migrate",
+     "xy_crossings": 4,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 3,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 10,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 13,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 17,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 15,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 19,
+     "kind": "migrate",
+     "xy_crossings": 22,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 22,
+     "kind": "migrate",
+     "xy_crossings": 25,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 23,
+     "kind": "migrate",
+     "xy_crossings": 26,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 25,
+     "kind": "migrate",
+     "xy_crossings": 28,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 2.83
+  },
+  "800": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 1,
+     "kind": "migrate",
+     "xy_crossings": 4,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 3,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 4,
+     "kind": "migrate",
+     "xy_crossings": 7,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 10,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 11,
+     "kind": "migrate",
+     "xy_crossings": 14,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 12,
+     "kind": "migrate",
+     "xy_crossings": 15,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 15,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 25,
+     "kind": "migrate",
+     "xy_crossings": 28,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 31,
+     "kind": "migrate",
+     "xy_crossings": 34,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 2.65
+  },
+  "804": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 1,
+     "kind": "migrate",
+     "xy_crossings": 4,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 3,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": 3,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 4,
+     "kind": "migrate",
+     "xy_crossings": 7,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 8,
+     "kind": "migrate",
+     "xy_crossings": 11,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 9,
+     "kind": "migrate",
+     "xy_crossings": 12,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 9,
+     "kind": "migrate",
+     "xy_crossings": 12,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 10,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 25,
+     "kind": "migrate",
+     "xy_crossings": 28,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 2.9
+  },
+  "288": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 4,
+     "z": -0.25,
+     "label": "L4",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 3,
+     "z": -0.3,
+     "label": "L3",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 2,
+     "z": -0.35,
+     "label": "L2",
+     "delta": 0,
+     "kind": "migrate",
+     "xy_crossings": 2,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": 3,
+     "kind": "migrate",
+     "xy_crossings": 5,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 11,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 20,
+     "z": -0.05,
+     "label": "L20",
+     "delta": 11,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 11,
+     "z": 0.2,
+     "label": "L11",
+     "delta": 12,
+     "kind": "migrate",
+     "xy_crossings": 14,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 7,
+     "z": -0.1,
+     "label": "L7",
+     "delta": 16,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 6,
+     "z": -0.15,
+     "label": "L6",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 5,
+     "z": -0.2,
+     "label": "L5",
+     "delta": 28,
+     "kind": "migrate",
+     "xy_crossings": 30,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    }
+   ],
+   "seconds": 2.75
+  },
+  "291": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 4,
+     "z": -0.25,
+     "label": "L4",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 3,
+     "z": -0.3,
+     "label": "L3",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 2,
+     "z": -0.35,
+     "label": "L2",
+     "delta": 0,
+     "kind": "migrate",
+     "xy_crossings": 2,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": 3,
+     "kind": "migrate",
+     "xy_crossings": 5,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 11,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 20,
+     "z": -0.05,
+     "label": "L20",
+     "delta": 11,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 11,
+     "z": 0.2,
+     "label": "L11",
+     "delta": 12,
+     "kind": "migrate",
+     "xy_crossings": 14,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 7,
+     "z": -0.1,
+     "label": "L7",
+     "delta": 16,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 6,
+     "z": -0.15,
+     "label": "L6",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    },
+    {
+     "layer": 5,
+     "z": -0.2,
+     "label": "L5",
+     "delta": 28,
+     "kind": "migrate",
+     "xy_crossings": 30,
+     "lead_s": 1.6674585583309987,
+     "lead_t": 1.6674585583309987
+    }
+   ],
+   "seconds": 2.96
+  },
+  "295": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 5,
+     "z": -0.2,
+     "label": "L5",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 0.9542840918260262,
+     "lead_t": 0.9542840918260262
+    },
+    {
+     "layer": 2,
+     "z": -0.35,
+     "label": "L2",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 0.9542840918260262,
+     "lead_t": 0.9542840918260262
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 2,
+     "kind": "migrate",
+     "xy_crossings": 4,
+     "lead_s": 0.9542840918260262,
+     "lead_t": 0.9542840918260262
+    },
+    {
+     "layer": 11,
+     "z": 0.2,
+     "label": "L11",
+     "delta": 4,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.9542840918260262,
+     "lead_t": 0.9542840918260262
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 6,
+     "kind": "migrate",
+     "xy_crossings": 8,
+     "lead_s": 0.9542840918260262,
+     "lead_t": 0.9542840918260262
+    },
+    {
+     "layer": 20,
+     "z": -0.05,
+     "label": "L20",
+     "delta": 8,
+     "kind": "migrate",
+     "xy_crossings": 10,
+     "lead_s": 0.9542840918260262,
+     "lead_t": 0.9542840918260262
+    },
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": 8,
+     "kind": "migrate",
+     "xy_crossings": 10,
+     "lead_s": 0.9542840918260262,
+     "lead_t": 0.9542840918260262
+    },
+    {
+     "layer": 7,
+     "z": -0.1,
+     "label": "L7",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.9542840918260262,
+     "lead_t": 0.9542840918260262
+    },
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 24,
+     "kind": "migrate",
+     "xy_crossings": 26,
+     "lead_s": 0.9542840918260262,
+     "lead_t": 0.9542840918260262
+    },
+    {
+     "layer": 3,
+     "z": -0.3,
+     "label": "L3",
+     "delta": 29,
+     "kind": "migrate",
+     "xy_crossings": 31,
+     "lead_s": 0.9542840918260262,
+     "lead_t": 0.9542840918260262
+    }
+   ],
+   "seconds": 2.8
+  },
+  "405": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 5,
+     "z": -0.2,
+     "label": "L5",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 0.7120756398423995,
+     "lead_t": 0.7120756398423995
+    },
+    {
+     "layer": 11,
+     "z": 0.2,
+     "label": "L11",
+     "delta": 1,
+     "kind": "migrate",
+     "xy_crossings": 3,
+     "lead_s": 0.7120756398423995,
+     "lead_t": 0.7120756398423995
+    },
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 2,
+     "kind": "migrate",
+     "xy_crossings": 4,
+     "lead_s": 0.7120756398423995,
+     "lead_t": 0.7120756398423995
+    },
+    {
+     "layer": 20,
+     "z": -0.05,
+     "label": "L20",
+     "delta": 6,
+     "kind": "migrate",
+     "xy_crossings": 8,
+     "lead_s": 0.7120756398423995,
+     "lead_t": 0.7120756398423995
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 10,
+     "kind": "migrate",
+     "xy_crossings": 12,
+     "lead_s": 0.7120756398423995,
+     "lead_t": 0.7120756398423995
+    },
+    {
+     "layer": 3,
+     "z": -0.3,
+     "label": "L3",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.7120756398423995,
+     "lead_t": 0.7120756398423995
+    },
+    {
+     "layer": 2,
+     "z": -0.35,
+     "label": "L2",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.7120756398423995,
+     "lead_t": 0.7120756398423995
+    },
+    {
+     "layer": 4,
+     "z": -0.25,
+     "label": "L4",
+     "delta": 15,
+     "kind": "migrate",
+     "xy_crossings": 17,
+     "lead_s": 0.7120756398423995,
+     "lead_t": 0.7120756398423995
+    },
+    {
+     "layer": 7,
+     "z": -0.1,
+     "label": "L7",
+     "delta": 16,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 0.7120756398423995,
+     "lead_t": 0.7120756398423995
+    },
+    {
+     "layer": 6,
+     "z": -0.15,
+     "label": "L6",
+     "delta": 16,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 0.7120756398423995,
+     "lead_t": 0.7120756398423995
+    }
+   ],
+   "seconds": 2.7
+  },
+  "778": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 6,
+     "kind": "migrate",
+     "xy_crossings": 8,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 11,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 17,
+     "kind": "migrate",
+     "xy_crossings": 19,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 23,
+     "kind": "migrate",
+     "xy_crossings": 25,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 6,
+     "z": -0.15,
+     "label": "L6",
+     "delta": 25,
+     "kind": "migrate",
+     "xy_crossings": 27,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 5,
+     "z": -0.2,
+     "label": "L5",
+     "delta": 27,
+     "kind": "migrate",
+     "xy_crossings": 29,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 27,
+     "kind": "migrate",
+     "xy_crossings": 29,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 28,
+     "kind": "migrate",
+     "xy_crossings": 30,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 2.94
+  },
+  "780": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 2,
+     "kind": "migrate",
+     "xy_crossings": 4,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 4,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 11,
+     "kind": "migrate",
+     "xy_crossings": 13,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 13,
+     "kind": "migrate",
+     "xy_crossings": 15,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 16,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 20,
+     "kind": "migrate",
+     "xy_crossings": 22,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 22,
+     "kind": "migrate",
+     "xy_crossings": 24,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 26,
+     "kind": "migrate",
+     "xy_crossings": 28,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 32,
+     "kind": "migrate",
+     "xy_crossings": 34,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 2.88
+  },
+  "782": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 5,
+     "kind": "migrate",
+     "xy_crossings": 7,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 11,
+     "z": 0.2,
+     "label": "L11",
+     "delta": 8,
+     "kind": "migrate",
+     "xy_crossings": 10,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 14,
+     "kind": "migrate",
+     "xy_crossings": 16,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 16,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 17,
+     "kind": "migrate",
+     "xy_crossings": 19,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    }
+   ],
+   "seconds": 2.95
+  },
+  "783": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 15,
+     "kind": "migrate",
+     "xy_crossings": 17,
+     "lead_s": 3.0878613309429976,
+     "lead_t": 3.0878613309429976
+    },
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 15,
+     "kind": "migrate",
+     "xy_crossings": 17,
+     "lead_s": 3.0878613309429976,
+     "lead_t": 3.0878613309429976
+    }
+   ],
+   "seconds": 2.31
+  },
+  "784": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 9,
+     "z": 0.1,
+     "label": "L9",
+     "delta": 2,
+     "kind": "migrate",
+     "xy_crossings": 4,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 4,
+     "kind": "migrate",
+     "xy_crossings": 6,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 13,
+     "z": 0.3,
+     "label": "L13",
+     "delta": 5,
+     "kind": "migrate",
+     "xy_crossings": 7,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 8,
+     "z": 0.05,
+     "label": "L8",
+     "delta": 12,
+     "kind": "migrate",
+     "xy_crossings": 14,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": 13,
+     "kind": "migrate",
+     "xy_crossings": 15,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 13,
+     "kind": "migrate",
+     "xy_crossings": 15,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 15,
+     "kind": "migrate",
+     "xy_crossings": 17,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 15,
+     "z": 0.4,
+     "label": "L15",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 20,
+     "kind": "migrate",
+     "xy_crossings": 22,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 25,
+     "kind": "migrate",
+     "xy_crossings": 27,
+     "lead_s": 0.25,
+     "lead_t": 0.25
+    }
+   ],
+   "seconds": 3.0
+  },
+  "786": {
+   "total": 1322,
+   "targets": [
+    {
+     "layer": 10,
+     "z": 0.15,
+     "label": "L10",
+     "delta": -2,
+     "kind": "migrate",
+     "xy_crossings": 0,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 12,
+     "z": 0.25,
+     "label": "L12",
+     "delta": 5,
+     "kind": "migrate",
+     "xy_crossings": 7,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 11,
+     "z": 0.2,
+     "label": "L11",
+     "delta": 8,
+     "kind": "migrate",
+     "xy_crossings": 10,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 18,
+     "z": 0.6,
+     "label": "L18",
+     "delta": 9,
+     "kind": "migrate",
+     "xy_crossings": 11,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 14,
+     "z": 0.35,
+     "label": "L14",
+     "delta": 15,
+     "kind": "migrate",
+     "xy_crossings": 17,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 16,
+     "z": 0.45,
+     "label": "L16",
+     "delta": 16,
+     "kind": "migrate",
+     "xy_crossings": 18,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 17,
+     "z": 0.55,
+     "label": "L17",
+     "delta": 17,
+     "kind": "migrate",
+     "xy_crossings": 19,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    },
+    {
+     "layer": 19,
+     "z": 0.65,
+     "label": "L19",
+     "delta": 18,
+     "kind": "migrate",
+     "xy_crossings": 20,
+     "lead_s": 2.3717426501570174,
+     "lead_t": 2.3717426501570174
+    }
+   ],
+   "seconds": 2.65
+  }
+ }
+}

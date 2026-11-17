@@ -1,0 +1,488 @@
+{
+ "schema": "g4_chain_provenance_v1",
+ "source": {
+  "repo": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\11.9-second-report-all-work",
+  "commit": "833a009b411c"
+ },
+ "arms": {
+  "01_arm_C0": {
+   "config": {
+    "arm": "C0",
+    "seed": 20261104,
+    "budget": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1200.0
+    },
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "start_crossings": 1322,
+    "started_at": "2026-11-04T19:04:50",
+    "cfg": {
+     "engine": "xyzrouter.optimizer.Optimizer (legacy G3 engine, unchanged)",
+     "new_degrees_of_freedom": false,
+     "route_order": "all 1024 routes by descending current crossings",
+     "max_sweeps": 4,
+     "min_delta": 1,
+     "d56_observable": false,
+     "d56_budget_enforced": false,
+     "route_3d_checks_semantics": "one bump per RouteWorld.evaluate_candidate call = one route geometry checked against the true 3D World",
+     "note": "C0 = existing G3 optimizer continues from the G3 optimum; no new degree of freedom is added"
+    }
+   },
+   "ledger": {
+    "route_3d_checks": 2324,
+    "d56_candidate_evals": null,
+    "accepted_transactions": 31,
+    "gain": 63,
+    "wall_seconds": 1208.76,
+    "written_at": "2026-11-04T19:04:50"
+   },
+   "final_crossings": 1259,
+   "final_pairs": 1209,
+   "delta_vs_start": -63,
+   "total_length_mm": 156879.600005,
+   "best_valid_routes_sha256": "09aeb1baa5d9ea870091298f46fecf50fdf1be309db08a1f1ef94fe767d9917e",
+   "best_valid_routes_bytes": 3687109
+  },
+  "02_arm_G4a": {
+   "config": {
+    "arm": "G4a",
+    "seed": 20261104,
+    "budget": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1200.0
+    },
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "start_crossings": 1322,
+    "started_at": "2026-11-04T18:59:02",
+    "cfg": {
+     "arm": "G4a",
+     "quick": false,
+     "plan_std": {
+      "max_lead_pairs": 2,
+      "prescreen_candidates": 120,
+      "max_candidates": 200,
+      "d56_top": 10,
+      "bodies_per_pair": 2,
+      "max_return": 3
+     },
+     "plan_wide": {
+      "max_lead_pairs": 3,
+      "prescreen_candidates": 180,
+      "max_candidates": 280,
+      "d56_top": 14,
+      "bodies_per_pair": 2,
+      "max_return": 4
+     },
+     "max_rounds": 6,
+     "attempts_per_group_round": 4,
+     "max_group_attempts": 12,
+     "max_retries": 1,
+     "partial_fallback": true,
+     "tune_rounds": 2,
+     "tune_size": 10,
+     "tag": "formal_run1",
+     "spec": "experiments/xyz_joint_g4_1024/SPEC_G4.md"
+    }
+   },
+   "ledger": {
+    "route_3d_checks": 6208,
+    "d56_candidate_evals": 43004,
+    "accepted_transactions": 1,
+    "gain": 2,
+    "wall_seconds": 1018.74,
+    "written_at": "2026-11-04T18:59:02"
+   },
+   "final_crossings": 1320,
+   "final_pairs": 1252,
+   "delta_vs_start": -2,
+   "total_length_mm": 157020.430115,
+   "best_valid_routes_sha256": "d12346cf42f783d1bcc799c48dc1e533c0725851d827d392206b0d74fd4374fa",
+   "best_valid_routes_bytes": 3694801
+  },
+  "03_arm_G4b": {
+   "config": {
+    "arm": "G4b",
+    "seed": 20261104,
+    "budget": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1200.0
+    },
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "start_crossings": 1322,
+    "started_at": "2026-11-04T19:04:59",
+    "cfg": {
+     "arm": "G4b",
+     "quick": false,
+     "scan_cfg": {
+      "max_target_layers": 19,
+      "max_lead_pairs": 1,
+      "prescreen_candidates": 48,
+      "max_candidates": 100,
+      "d56_top": 6,
+      "bodies_per_pair": 1,
+      "max_return": 2,
+      "allow_direct": false,
+      "allow_xy_only": false
+     },
+     "scan_routes": 20,
+     "singles": 14,
+     "single_targets": 3,
+     "xy_tune": 14,
+     "swaps": 10,
+     "clusters": 6,
+     "cluster_size": 6,
+     "splits": 4,
+     "split_size": 8,
+     "reorg": 4,
+     "reorg_size": 8,
+     "tune": 12,
+     "tune_size": 3,
+     "tag": "formal_run1",
+     "spec": "experiments/xyz_joint_g4_1024/SPEC_G4.md"
+    }
+   },
+   "ledger": {
+    "route_3d_checks": 1538,
+    "d56_candidate_evals": 11552,
+    "accepted_transactions": 11,
+    "gain": 28,
+    "wall_seconds": 1099.82,
+    "written_at": "2026-11-04T19:04:59"
+   },
+   "final_crossings": 1294,
+   "final_pairs": 1234,
+   "delta_vs_start": -28,
+   "total_length_mm": 156953.815828,
+   "best_valid_routes_sha256": "c72b245a240fce27dc7e1b8d41d0b432e1986d133c9c90051d097949f40a91c1",
+   "best_valid_routes_bytes": 3692008
+  },
+  "04_arm_G4c_frozen": {
+   "config": {
+    "arm": "G4c_frozen",
+    "seed": 20261104,
+    "budget": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1800.0
+    },
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "start_crossings": 1322,
+    "started_at": "2026-11-04T19:20:53",
+    "cfg": {}
+   },
+   "ledger": {
+    "route_3d_checks": 7106,
+    "d56_candidate_evals": 64342,
+    "accepted_transactions": 21,
+    "gain": 100,
+    "wall_seconds": 1847.02,
+    "written_at": "2026-11-04T19:20:53"
+   },
+   "final_crossings": 1222,
+   "final_pairs": 1149,
+   "delta_vs_start": -100,
+   "total_length_mm": 156770.531788,
+   "best_valid_routes_sha256": "4ad68b1f7e402cdcddcadbdd3241bb7f4dd004e0e19a010fcc119eb8e93eec29",
+   "best_valid_routes_bytes": 3696083
+  },
+  "05_arm_G4c_free": {
+   "config": {
+    "arm": "G4c_free",
+    "seed": 20261104,
+    "budget": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1800.0
+    },
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "start_crossings": 1322,
+    "started_at": "2026-11-04T19:20:46",
+    "cfg": {}
+   },
+   "ledger": {
+    "route_3d_checks": 6851,
+    "d56_candidate_evals": 63433,
+    "accepted_transactions": 33,
+    "gain": 133,
+    "wall_seconds": 1840.36,
+    "written_at": "2026-11-04T19:20:46"
+   },
+   "final_crossings": 1189,
+   "final_pairs": 1128,
+   "delta_vs_start": -133,
+   "total_length_mm": 156730.937862,
+   "best_valid_routes_sha256": "ce7ca9a9210a5206db9753294d3e0d1dea88c0ec892a13de512fecb16c0e390e",
+   "best_valid_routes_bytes": 3701263
+  },
+  "06_arm_G4d": {
+   "config": {
+    "arm": "G4d",
+    "seed": 20261104,
+    "budget": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1200.0
+    },
+    "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "start_crossings": 1322,
+    "started_at": "2026-11-04T19:31:10",
+    "cfg": {}
+   },
+   "ledger": {
+    "route_3d_checks": 4400,
+    "d56_candidate_evals": 35815,
+    "accepted_transactions": 23,
+    "gain": 110,
+    "wall_seconds": 106.3,
+    "written_at": "2026-11-04T19:31:10"
+   },
+   "final_crossings": 1212,
+   "final_pairs": 1148,
+   "delta_vs_start": -110,
+   "total_length_mm": 156770.515781,
+   "best_valid_routes_sha256": "6c7043632e1596aaefb80bfc2588a512bd6f752c5cd1573df0f6ee725ccaa703",
+   "best_valid_routes_bytes": 3699483
+  },
+  "06b_G4d_warm_from_1189": {
+   "config": {
+    "arm": "G4d",
+    "seed": 20261105,
+    "budget": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1000.0
+    },
+    "start_dir": "experiments\\xyz_joint_g4_1024\\05_arm_G4c_free\\best_valid",
+    "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "start_crossings": 1322,
+    "started_at": "2026-11-04T19:42:53",
+    "cfg": {}
+   },
+   "ledger": {
+    "route_3d_checks": 4003,
+    "d56_candidate_evals": 29196,
+    "accepted_transactions": 0,
+    "gain": 0,
+    "wall_seconds": 1061.44,
+    "written_at": "2026-11-04T19:42:53"
+   },
+   "final_crossings": 1189,
+   "final_pairs": 1128,
+   "delta_vs_start": -133,
+   "total_length_mm": 156730.937862,
+   "best_valid_routes_sha256": "ce7ca9a9210a5206db9753294d3e0d1dea88c0ec892a13de512fecb16c0e390e",
+   "best_valid_routes_bytes": 3701263
+  }
+ },
+ "chain_links": {
+  "00_link_G3_start": {
+   "routes_l3d_json": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+   "assignment_1024_csv": "1e98b9a15b4ed04e66a9c4b25a3b52357b5755c1e7681b89c0d78f1c4baaf089"
+  },
+  "01_link_best_G4ab": {
+   "routes_l3d_json": "c72b245a240fce27dc7e1b8d41d0b432e1986d133c9c90051d097949f40a91c1",
+   "assignment_1024_csv": "56f92d33dc6cdb03a3d6f305f7709a8dd069c68fe4ec310a4e77308b52b99b86"
+  },
+  "02_link_G4c": {
+   "routes_l3d_json": "eca597904049599097afc6fbf9d5f53222ab1b9d751842e778513a8ed5938094",
+   "assignment_1024_csv": "a007839506b016ead15e03d2b24a086260830034033181543314bc61ac4e203b",
+   "crossing_stats_json": "2570a1f999ffe96fb9004abee67ef8ee6f4f919102f7c524ce617577afa71a47",
+   "geometry_changes_json": "869821cf60f98a6667b603eff0775d77ccea6134180bac3a2703ef7fb6bb3e1b",
+   "manual_u_changes_json": "c56be2f04dac114d4e89e57907b3dc8b3f268556db77dcc13b7a57d876d6e69a",
+   "summary_json": "fb323bb73d7a13642898f72f44ff24f536c8a425cf0accc6cdc919f7b66808df"
+  },
+  "02b_link_best_G4c": {
+   "assignment_1024_csv": "db2e7b5d8e49c736bfacba6443f928be56e28f4990a61ca293c696733397dd56",
+   "routes_l3d_json": "ce7ca9a9210a5206db9753294d3e0d1dea88c0ec892a13de512fecb16c0e390e"
+  },
+  "03_link_G4d": {
+   "routes_l3d_json": "22b0c5fecca0524561e247e1bf969d41a60f633703f28038d1dfaf588196ceef",
+   "assignment_1024_csv": "2d7363ec8f42c7c191cda3d4bdc8c29efd7fd4c7bdba090c09df98d01eaccf9f",
+   "crossing_stats_json": "c526abdaabe2296a797f0c443340bb74a0ba5e114334d6306b4fbd6649f73e97",
+   "geometry_changes_json": "d00fcd27b4687f81bad4c690d8606de6ca3502b200518b9bce4af22c6bdfe5f6",
+   "manual_u_changes_json": "e13a0fbf3d7e914e05fa47d12a080888b435885d61801953560bed4f249670fb",
+   "summary_json": "13b6e2d92e40cd7ceea09351124e54cf391336bfb9ce4ddd8f5711e9f3f30ca5"
+  }
+ },
+ "chain_table": {
+  "schema": "g4_progressive_chain_v1",
+  "generated_at": "2026-11-04T20:05:03",
+  "seed": 20261104,
+  "common_start": {
+   "dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+   "sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+   "crossings": 1322
+  },
+  "links": [
+   {
+    "index": 0,
+    "label": "G3 公共起点",
+    "source_arm": "G3",
+    "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\00_link_G3_start",
+    "start_crossings": 1322,
+    "end_crossings": 1322,
+    "delta": 0,
+    "budget": {
+     "route_3d_checks": 0,
+     "d56_candidate_evals": 0,
+     "wall_seconds": 0.0
+    },
+    "wall_seconds": 0.0,
+    "seed": 20261104,
+    "end_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+    "validation_pass": null,
+    "violations": null,
+    "status": "ok",
+    "note": "所有臂与链的共同起点（已核验 G3 合法最优解，交叉 1322）"
+   },
+   {
+    "index": 1,
+    "label": "best(G4a, G4b) 检查点",
+    "source_arm": "G4b",
+    "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\01_link_best_G4ab",
+    "start_crossings": 1322,
+    "end_crossings": 1294,
+    "delta": -28,
+    "budget": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1200.0
+    },
+    "wall_seconds": 1099.82,
+    "seed": 20261104,
+    "end_sha256": "c72b245a240fce27dc7e1b8d41d0b432e1986d133c9c90051d097949f40a91c1",
+    "validation_pass": true,
+    "violations": 0,
+    "status": "ok",
+    "note": "按独立验收的交叉数选择 G4a/G4b 中更优者作为 G4c 起点",
+    "start_checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid"
+   },
+   {
+    "index": 2,
+    "label": "链段 G4c 重跑（从 link1 1294 起）",
+    "source_arm": "G4c_free",
+    "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\02_link_G4c\\best_valid",
+    "start_crossings": 1294,
+    "end_crossings": 1204,
+    "delta": -90,
+    "budget": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 700.0
+    },
+    "wall_seconds": 740.52,
+    "seed": 20261104,
+    "end_sha256": "252bbfd2c712e59e6337d6ce531f63bfcca45bf68ae585bc7be24fed33c9aef3",
+    "validation_pass": true,
+    "violations": 0,
+    "status": "ok",
+    "note": "从上一链段最佳合法检查点继承的真实运行结果",
+    "start_checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\01_link_best_G4ab"
+   },
+   {
+    "index": 3,
+    "label": "最佳 G4c 检查点（来自 A 类 G4c_free 臂）",
+    "source_arm": "G4c_free",
+    "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\02b_link_best_G4c",
+    "start_crossings": 1294,
+    "end_crossings": 1189,
+    "delta": -105,
+    "budget": {},
+    "wall_seconds": 0.0,
+    "seed": 20261104,
+    "end_sha256": "ce7ca9a9210a5206db9753294d3e0d1dea88c0ec892a13de512fecb16c0e390e",
+    "validation_pass": true,
+    "violations": 0,
+    "status": "ok",
+    "note": "继承\"最佳合法检查点\"（SPEC B 类允许）：该 1189 检查点来自 A 类正式臂 G4c_free 的 best_valid（routes/assignment/validation 已复制），不是链段重跑值；链段重跑值见上一链段（仅作对照）。本段不消耗链段搜索预算（0s），其收益 −105 的因果归属注明为\"来自 A 类 G4c_free 臂 + link1 起点\"。",
+    "start_checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\01_link_best_G4ab"
+   },
+   {
+    "index": 4,
+    "label": "链段 G4d（从 1189 最佳 G4c 检查点起）",
+    "source_arm": "G4d",
+    "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\03_link_G4d\\best_valid",
+    "start_crossings": 1189,
+    "end_crossings": 1185,
+    "delta": -4,
+    "budget": {
+     "route_3d_checks": 30000,
+     "d56_candidate_evals": 120000,
+     "wall_seconds": 1200.0
+    },
+    "wall_seconds": 1229.96,
+    "seed": 20261104,
+    "end_sha256": "a0bf4c705014ce33c08ab908bf41991c9c65fb51a46e1016faa3d9af3634110e",
+    "validation_pass": true,
+    "violations": 0,
+    "status": "ok",
+    "note": "从上一链段最佳合法检查点继承的真实运行结果",
+    "start_checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\02b_link_best_G4c"
+   },
+   {
+    "index": 5,
+    "label": "G4d warm-start（06b，seed 20261105，B 类平行探索）",
+    "source_arm": "G4d_warm",
+    "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\06b_G4d_warm_from_1189\\best_valid",
+    "start_crossings": 1189,
+    "end_crossings": 1189,
+    "delta": 0,
+    "budget": {},
+    "wall_seconds": 0.0,
+    "seed": 20261105,
+    "end_sha256": "ce7ca9a9210a5206db9753294d3e0d1dea88c0ec892a13de512fecb16c0e390e",
+    "validation_pass": true,
+    "violations": 0,
+    "status": "ok",
+    "note": "B 类平行 warm-start 探索（与 link3 使用不同 seed=20261105），两条不同 seed 的 B 类探索最终取最优合法者；其起点为 1189（G4c_free best_valid）。",
+    "start_checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\05_arm_G4c_free\\best_valid"
+   }
+  ],
+  "attribution_note": "链的累计收益 = 各段增量收益之和；每段收益只归因于该段所用的臂/检查点起点，不得把链的累计收益全部归因于最后一个算法。pending 环节表示该链段尚未真实运行，不得估算或补造。"
+ },
+ "published": {
+  "summary": {
+   "selected_from": "chain_link3_G4d",
+   "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\outputs\\manual_c4_new_connectivity\\XYZ_JOINT_G123_1024\\best_valid",
+   "start_routes_sha256": "711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077",
+   "start_crossings": 1322,
+   "final_crossings": 1185,
+   "final_crossing_pairs": 1124,
+   "max_route_crossings": 19,
+   "routes_with_crossings": 593,
+   "routes": 1024,
+   "routed": 1024,
+   "routes_sha256": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+   "validation_pass": true,
+   "validation_violations": 0,
+   "source_validation": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\xyz_joint_g4_1024\\08_progressive_chain\\03_link_G4d\\best_valid\\validation\\validation.json",
+   "independent_validator_sha_match": true
+  },
+  "declared": {
+   "assignment_1024.csv": "2d7363ec8f42c7c191cda3d4bdc8c29efd7fd4c7bdba090c09df98d01eaccf9f",
+   "crossing_stats.json": "c526abdaabe2296a797f0c443340bb74a0ba5e114334d6306b4fbd6649f73e97",
+   "geometry_changes.json": "297cc15447416e2280065f9d6263fd5b4f469da68fc4c202c1dc8171a75aece5",
+   "manual_u_changes.json": "1ca76ee65227b457449313bfc9ba3202381c9fa77f41954b8419015110388ba4",
+   "routes_l3d.json": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+   "summary.json": "76b3cd8501491ad22913265d814ab925bcb925b767f50e9dc6e6719dcdf6ca81"
+  },
+  "routes_l3d_json_sha256": "b74ae51185edcef43419c3157d07e24237bf05f10e50321310b554f487e9e77a",
+  "routes_bytes": 3700364
+ },
+ "notes": [
+  "every arm in 06_arms starts from the same G3 start (start_crossings 1322, routes sha256 711cf910...); they are independent A-class arms, not a chain",
+  "the chain in 07_chain inherits real checkpoints: link1 = G4b best_valid, link2b = G4c_free best_valid, link3 = G4d run started from link2b",
+  "the published 03_best_valid declares selected_from=chain_link3_G4d and its route file hash is b74ae511...",
+  "the chain link directories kept only SHA256.json + validation/, so the link-3 route file itself is not in the archive; the link records 22b0c5fe... and the chain table reports a0bf4c70..., which cannot be reconciled byte-wise from the archive alone",
+  "the assignment hash recorded for link3 (2d7363ec...) equals the published assignment hash, and the crossing_stats hash (c526abda...) equals the published one, so link3 and the published file describe the same solution"
+ ]
+}

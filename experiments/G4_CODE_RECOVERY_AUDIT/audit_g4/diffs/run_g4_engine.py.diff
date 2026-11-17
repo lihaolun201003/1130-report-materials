@@ -1,0 +1,26 @@
+--- a/run_g4_engine.py
++++ b/run_g4_engine.py
+@@ -38,8 +38,10 @@
+     parser.add_argument('--beam', type=int, default=None)
+     parser.add_argument('--probe-limit', type=int, default=None)
+     parser.add_argument('--sweep-seconds', type=float, default=None)
+     parser.add_argument('--sweep-ratio', type=float, default=None)
++    parser.add_argument('--counted-d56-budget', type=int, default=None)
++    parser.add_argument('--counted-checks-guard', type=int, default=None)
+     parser.add_argument('--tag', default='')
+     parser.add_argument('--list-arms', action='store_true')
+     return parser.parse_args(argv)
+ 
+@@ -69,8 +71,12 @@
+     if args.sweep_seconds is not None:
+         argv.extend(['--sweep-seconds', str(args.sweep_seconds)])
+     if args.sweep_ratio is not None:
+         argv.extend(['--sweep-ratio', str(args.sweep_ratio)])
++    if args.counted_d56_budget is not None:
++        argv.extend(['--counted-d56-budget', str(args.counted_d56_budget)])
++    if args.counted_checks_guard is not None:
++        argv.extend(['--counted-checks-guard', str(args.counted_checks_guard)])
+     if args.tag:
+         argv.extend(['--tag', str(args.tag)])
+     return argv
+ 

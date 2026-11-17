@@ -1,0 +1,29 @@
+--- a/artifacts.py
++++ b/artifacts.py
+@@ -41,9 +41,10 @@
+     payload['route_count'] = 1024
+     payload['routed'] = len(state.routes)
+     payload['failed'] = 0
+     payload['routes'] = [state.routes[rid] for rid in sorted(state.routes)]
+-    payload['g4_start_crossings'] = int(GP.START_CROSSINGS)
++    payload['g4_start_crossings'] = int(getattr(state, 'start_total',
++                                                GP.START_CROSSINGS))
+     return payload
+ 
+ 
+ def assignment_rows(state, baseline):
+@@ -99,10 +100,12 @@
+             max_route_crossings=int(stats['totals']['max_route_crossings']),
+             total_length_mm=round(float(state.total_length()), 6),
+             mid_transitions=int(state.mid_transition_count()),
+             routes=int(len(state.routes)),
+-            start_crossings=int(GP.START_CROSSINGS),
+-            delta_vs_start=int(stats['totals']['crossings']) - int(GP.START_CROSSINGS),
++            start_crossings=int(getattr(state, 'start_total',
++                                        GP.START_CROSSINGS)),
++            delta_vs_start=int(stats['totals']['crossings'])
++            - int(getattr(state, 'start_total', GP.START_CROSSINGS)),
+             plane_counts={str(z): dict(events=int(v[0]), pairs=int(v[1]),
+                                        routes=len(state.plane_prims.get(z, {})))
+                           for z, v in sorted(state.plane_counts.items())})
+         GP.write_json(out_dir / 'summary.json', summary)

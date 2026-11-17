@@ -1,0 +1,252 @@
+[11:43:38     0.00s] ==============================================================================
+[11:43:38     0.00s] [g4b] start: budget=1200s seed=20261104 quick=False
+[11:43:38     0.06s] [arm] start C:\Users\lihao\Desktop\Graduation Project\work\G4_CODE_RECOVERY_AUDIT\probe_current_code\outputs\manual_c4_new_connectivity\XYZ_JOINT_G123_1024\best_valid sha256=711cf910d5c75ea788be877ef88b588fe3d59a90a2ae2d3636bb5b5896834077 crossings=1322
+[11:43:38     0.06s] [arm] start fingerprint OK (verified G3 legal optimum)
+[11:43:44     5.63s] [arm] loaded state routes=1024 crossings=1322 (1.48s)
+[11:43:44     5.64s] [g4b] loading start facts ...
+[11:43:52    13.45s] [g4b] start total=1322 MM=2 MN=107 NN=1213 manual_floor=1213 clusters=20
+[11:43:52    13.46s] [g4b] P1: per-route clean scan of the highest-crossing routes
+[11:44:49    70.61s] [g4b] P1 done: scanned=20 (65s)
+[11:44:49    71.09s] [g4b] round 1: total=1322 crossing_routes=50 elapsed=65s fraction=0.06
+[11:44:51    72.50s] [grp] Z2-U1 -> L14  try0 order=crossing_desc accepted=True placed=1/1 delta=-2 gain=2 reason=accepted 1.4s
+[11:44:51    73.00s] [g4b] accepted single_migrate Z2-U1 -> L14 gain=2 total=1320
+[11:44:53    74.54s] [grp] Z1-U4 -> L5   try0 order=crossing_desc accepted=True placed=1/1 delta=-6 gain=6 reason=accepted 1.1s
+[11:44:53    74.54s] [g4b] accepted single_migrate Z1-U4 -> L5 gain=6 total=1314
+[11:44:57    78.87s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:45:01    82.57s] [grp] Z2-U2 -> L13  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:45:04    86.29s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:45:08    89.95s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:45:12    93.88s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:45:16    97.57s] [grp] Z2-U1 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:45:17    99.01s] [grp] Z2-U2 -> L9   try0 order=crossing_desc accepted=True placed=1/1 delta=-2 gain=2 reason=accepted 1.4s
+[11:45:18    99.49s] [g4b] accepted single_migrate Z2-U2 -> L9 gain=2 total=1312
+[11:45:22   103.90s] [grp] Z2-U2 -> L5   try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.8s
+[11:45:26   107.42s] [grp] Z2-U2 -> L4   try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.4s
+[11:45:29   111.18s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.4s
+[11:45:33   114.81s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:45:37   118.55s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:45:40   122.14s] [grp] Z2-U1 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:45:42   124.16s] [grp] Z2-U2 -> L19  try0 order=crossing_desc accepted=True placed=1/1 delta=-2 gain=2 reason=accepted 1.6s
+[11:45:43   124.64s] [g4b] accepted single_xy_replan Z2-U2 -> L19 gain=2 total=1310
+[11:45:47   128.61s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.5s
+[11:45:51   132.42s] [grp] Z2-U1 -> L14  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:45:54   135.98s] [grp] Z2-U2 -> L9   try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:45:58   139.58s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:46:00   142.02s] [grp] Z1-U3 -> L9   try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 2.4s
+[11:46:03   144.64s] [grp] Z1-U3 -> L9   try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 2.6s
+[11:46:06   148.15s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.5s
+[11:46:08   149.52s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=True placed=1/1 delta=-2 gain=2 reason=accepted 1.4s
+[11:46:08   149.99s] [g4b] accepted single_xy_replan Z2-U2 -> L11 gain=2 total=1308
+[11:46:12   154.21s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:46:16   157.77s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.5s
+[11:46:17   158.83s] [grp] Z1-U1 -> L12  try0 order=crossing_desc accepted=True placed=1/1 delta=-2 gain=2 reason=accepted 1.1s
+[11:46:17   158.83s] [g4b] accepted single_xy_replan Z1-U1 -> L12 gain=2 total=1306
+[11:46:20   161.68s] [grp] Z1-U4 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 2.4s
+[11:46:24   165.38s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:47:17   218.64s] [grp] Z2-U1 -> L16  try0 order=crossing_desc accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.6s
+[11:47:23   225.33s] [grp] Z2-U1 -> L16  try1 order=risk_desc     accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 6.7s
+[11:47:28   229.58s] [grp] Z2-U1 -> L19  try0 order=crossing_desc accepted=False placed=0/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.1s
+[11:47:32   233.87s] [grp] Z2-U1 -> L19  try1 order=risk_desc     accepted=False placed=0/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.1s
+[11:47:36   238.24s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/6 delta=0 gain=0 reason=transition_3d_conflict 4.0s
+[11:47:43   244.95s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 6.7s
+[11:47:47   248.73s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=0/6 delta=0 gain=0 reason=no_legal_xy_corridor 3.7s
+[11:47:51   253.34s] [grp] Z2-U1 -> L13  try1 order=risk_desc     accepted=False placed=1/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.4s
+[11:47:56   257.84s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=2/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.4s
+[11:48:02   263.93s] [grp] Z2-U2 -> L12  try1 order=risk_desc     accepted=False placed=3/6 delta=0 gain=0 reason=no_legal_xy_corridor 5.7s
+[11:48:07   268.47s] [grp] Z2-U2 -> L13  try0 order=crossing_desc accepted=False placed=2/6 delta=0 gain=0 reason=transition_3d_conflict 4.4s
+[11:48:13   275.26s] [grp] Z2-U2 -> L13  try1 order=risk_desc     accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 6.8s
+[11:48:18   279.69s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=3/3 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.4s
+[11:48:23   284.92s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=3/3 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.2s
+[11:48:27   288.51s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=0/3 delta=0 gain=0 reason=no_legal_xy_corridor 3.5s
+[11:48:31   292.52s] [grp] Z2-U1 -> L13  try1 order=risk_desc     accepted=False placed=0/3 delta=0 gain=0 reason=no_legal_xy_corridor 3.6s
+[11:48:34   296.21s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=0/3 delta=0 gain=0 reason=transition_3d_conflict 3.5s
+[11:48:39   301.19s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=3/3 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.0s
+[11:48:43   304.91s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=0/3 delta=0 gain=0 reason=transition_3d_conflict 3.6s
+[11:48:48   309.79s] [grp] Z2-U1 -> L13  try1 order=risk_desc     accepted=False placed=2/3 delta=0 gain=0 reason=no_legal_xy_corridor 4.7s
+[11:48:53   315.26s] [grp] Z2-U1 -> L11  try0 order=crossing_desc accepted=False placed=5/8 delta=0 gain=0 reason=transition_3d_conflict 5.3s
+[11:49:01   322.86s] [grp] Z2-U1 -> L11  try1 order=risk_desc     accepted=False placed=8/8 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.6s
+[11:49:05   327.22s] [grp] Z2-U1 -> L2   try0 order=crossing_desc accepted=False placed=0/8 delta=0 gain=0 reason=transition_3d_conflict 4.2s
+[11:49:10   331.40s] [grp] Z2-U1 -> L2   try1 order=risk_desc     accepted=False placed=0/8 delta=0 gain=0 reason=no_legal_xy_corridor 4.0s
+[11:49:14   335.61s] [grp] Z2-U1 -> L4   try0 order=crossing_desc accepted=False placed=0/8 delta=0 gain=0 reason=transition_3d_conflict 4.0s
+[11:49:19   340.43s] [grp] Z2-U1 -> L4   try1 order=risk_desc     accepted=False placed=0/8 delta=0 gain=0 reason=transition_3d_conflict 4.4s
+[11:49:24   346.05s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=5/8 delta=0 gain=0 reason=transition_3d_conflict 5.5s
+[11:49:32   353.93s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=8/8 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.9s
+[11:49:36   357.78s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:49:40   361.52s] [grp] Z2-U1 -> L16  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:49:43   365.22s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:49:47   369.10s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:49:51   372.69s] [grp] Z2-U2 -> L5   try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.5s
+[11:49:53   375.37s] [grp] Z1-U3 -> L5   try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 2.7s
+[11:49:56   378.08s] [grp] Z1-U3 -> L5   try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 2.7s
+[11:50:00   381.96s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:50:04   385.65s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:50:07   389.17s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.4s
+[11:50:09   390.47s] [grp] Z1-U4 -> L5   try0 order=crossing_desc accepted=True placed=1/1 delta=-2 gain=2 reason=accepted 1.3s
+[11:50:09   390.95s] [g4b] accepted height_tune Z1-U4 -> L5 gain=2 total=1304
+[11:50:13   395.13s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:50:14   395.60s] [g4b] round 1 done accepted=7 total=1304 (390s)
+[11:50:14   396.32s] [arm] checkpoint step_00000 total=1304 (396.3s)
+[11:50:14   396.32s] [checkpoint] total=1304 ledger={'route_3d_checks': 582, 'd56_candidate_evals': 4272, 'xy_candidates_generated': 575, 'transactions': 80, 'world_builds': 0, 'valid_candidates': 418, 'rejected_3d': 157, 'accepted_transactions': 7, 'accepted_changes': 7, 'gain': 18, 'validator_runs': 0, 'no_candidate': 56, 'rolled_back': 73, 'wall_seconds': 389.49}
+[11:50:15   396.78s] [g4b] round 2: total=1304 crossing_routes=48 elapsed=391s fraction=0.35
+[11:50:19   400.51s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:50:22   404.18s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:50:26   407.83s] [grp] Z2-U1 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:50:30   411.68s] [grp] Z2-U1 -> L14  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:50:34   415.46s] [grp] Z2-U1 -> L17  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:50:37   419.24s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:50:41   423.19s] [grp] Z2-U2 -> L13  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.0s
+[11:50:44   426.00s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 2.8s
+[11:50:46   427.85s] [grp] Z2-U2 -> L9   try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 1.9s
+[11:50:49   431.06s] [grp] Z2-U2 -> L5   try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.1s
+[11:50:53   434.94s] [grp] Z2-U2 -> L4   try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.8s
+[11:50:54   436.12s] [grp] Z1-U3 -> L12  try0 order=crossing_desc accepted=True placed=1/1 delta=-3 gain=3 reason=accepted 1.2s
+[11:50:55   436.67s] [g4b] accepted single_migrate Z1-U3 -> L12 gain=3 total=1301
+[11:50:56   438.36s] [grp] Z1-U3 -> L4   try0 order=crossing_desc accepted=True placed=1/1 delta=-3 gain=3 reason=accepted 1.2s
+[11:50:56   438.36s] [g4b] accepted single_migrate Z1-U3 -> L4 gain=3 total=1298
+[11:51:01   442.75s] [grp] Z2-U2 -> L13  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:51:05   446.54s] [grp] Z2-U2 -> L16  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:51:09   450.57s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.5s
+[11:51:13   454.41s] [grp] Z2-U1 -> L14  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:51:16   458.02s] [grp] Z2-U2 -> L19  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:51:20   461.63s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:51:23   465.12s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.5s
+[11:51:27   468.87s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:51:31   472.43s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:51:34   476.01s] [grp] Z2-U2 -> L9   try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:51:38   479.48s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.5s
+[11:51:41   483.21s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:51:45   486.85s] [grp] Z2-U1 -> L15  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:51:49   490.43s] [grp] Z2-U1 -> L17  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:51:52   494.17s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:51:56   497.82s] [grp] Z2-U1 -> L15  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.6s
+[11:52:58   559.60s] [grp] Z2-U1 -> L16  try0 order=crossing_desc accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.5s
+[11:53:05   566.64s] [grp] Z2-U1 -> L16  try1 order=risk_desc     accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.0s
+[11:53:09   570.82s] [grp] Z2-U1 -> L19  try0 order=crossing_desc accepted=False placed=0/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.0s
+[11:53:13   575.25s] [grp] Z2-U1 -> L19  try1 order=risk_desc     accepted=False placed=0/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.2s
+[11:53:18   579.77s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/6 delta=0 gain=0 reason=transition_3d_conflict 4.3s
+[11:53:25   586.76s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.0s
+[11:53:29   590.68s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=0/6 delta=0 gain=0 reason=no_legal_xy_corridor 3.8s
+[11:53:34   595.54s] [grp] Z2-U1 -> L13  try1 order=risk_desc     accepted=False placed=1/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.6s
+[11:53:38   600.19s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.3s
+[11:53:44   606.29s] [grp] Z2-U2 -> L12  try1 order=risk_desc     accepted=False placed=3/6 delta=0 gain=0 reason=no_legal_xy_corridor 5.6s
+[11:53:49   610.74s] [grp] Z2-U2 -> L13  try0 order=crossing_desc accepted=False placed=1/6 delta=0 gain=0 reason=transition_3d_conflict 4.3s
+[11:53:56   617.80s] [grp] Z2-U2 -> L13  try1 order=risk_desc     accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.1s
+[11:54:01   622.44s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=3/3 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.6s
+[11:54:06   627.90s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=3/3 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.5s
+[11:54:10   631.61s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=0/3 delta=0 gain=0 reason=no_legal_xy_corridor 3.6s
+[11:54:14   635.63s] [grp] Z2-U1 -> L13  try1 order=risk_desc     accepted=False placed=0/3 delta=0 gain=0 reason=no_legal_xy_corridor 3.8s
+[11:54:18   639.66s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=0/3 delta=0 gain=0 reason=transition_3d_conflict 3.9s
+[11:54:23   644.83s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=3/3 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.2s
+[11:54:27   648.69s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=0/3 delta=0 gain=0 reason=transition_3d_conflict 3.7s
+[11:54:32   653.79s] [grp] Z2-U1 -> L13  try1 order=risk_desc     accepted=False placed=2/3 delta=0 gain=0 reason=no_legal_xy_corridor 4.9s
+[11:54:38   659.57s] [grp] Z2-U1 -> L11  try0 order=crossing_desc accepted=False placed=5/8 delta=0 gain=0 reason=transition_3d_conflict 5.6s
+[11:54:46   667.60s] [grp] Z2-U1 -> L11  try1 order=risk_desc     accepted=False placed=8/8 delta=0 gain=0 reason=legal_but_no_crossing_improvement 8.0s
+[11:54:50   671.89s] [grp] Z2-U1 -> L2   try0 order=crossing_desc accepted=False placed=0/8 delta=0 gain=0 reason=transition_3d_conflict 4.1s
+[11:54:55   676.45s] [grp] Z2-U1 -> L2   try1 order=risk_desc     accepted=False placed=0/8 delta=0 gain=0 reason=no_legal_xy_corridor 4.4s
+[11:55:00   682.33s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=5/8 delta=0 gain=0 reason=transition_3d_conflict 5.7s
+[11:55:09   690.48s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=8/8 delta=0 gain=0 reason=legal_but_no_crossing_improvement 8.2s
+[11:55:13   694.82s] [grp] Z2-U1 -> L3   try0 order=crossing_desc accepted=False placed=0/8 delta=0 gain=0 reason=no_legal_xy_corridor 4.2s
+[11:55:17   699.09s] [grp] Z2-U1 -> L3   try1 order=risk_desc     accepted=False placed=0/8 delta=0 gain=0 reason=no_legal_xy_corridor 4.1s
+[11:55:21   702.84s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:55:25   706.87s] [grp] Z2-U1 -> L16  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.0s
+[11:55:29   710.67s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:55:33   714.40s] [grp] Z2-U2 -> L5   try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.6s
+[11:55:37   718.38s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.0s
+[11:55:40   722.13s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:55:44   725.83s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.6s
+[11:55:48   729.71s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:55:52   733.75s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.0s
+[11:55:56   737.58s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:56:00   741.43s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:56:04   745.46s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=transition_3d_conflict 3.6s
+[11:56:04   745.46s] [g4b] round 2 done accepted=2 total=1298 (740s)
+[11:56:04   745.96s] [arm] checkpoint step_00001 total=1298 (746.0s)
+[11:56:04   745.96s] [checkpoint] total=1298 ledger={'route_3d_checks': 846, 'd56_candidate_evals': 6368, 'xy_candidates_generated': 837, 'transactions': 160, 'world_builds': 0, 'valid_candidates': 641, 'rejected_3d': 196, 'accepted_transactions': 9, 'accepted_changes': 9, 'gain': 24, 'validator_runs': 0, 'no_candidate': 56, 'rolled_back': 151, 'wall_seconds': 739.82}
+[11:56:05   746.43s] [g4b] round 3: total=1298 crossing_routes=46 elapsed=741s fraction=0.67
+[11:56:08   750.14s] [grp] Z2-U1 -> L14  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:56:12   754.00s] [grp] Z2-U1 -> L17  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:56:16   758.04s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.0s
+[11:56:20   761.75s] [grp] Z2-U2 -> L5   try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.6s
+[11:56:24   765.45s] [grp] Z2-U2 -> L4   try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.6s
+[11:56:28   769.52s] [grp] Z2-U2 -> L16  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.1s
+[11:56:31   773.30s] [grp] Z2-U2 -> L16  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:56:35   777.04s] [grp] Z2-U2 -> L9   try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:56:37   778.62s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=True placed=1/1 delta=-2 gain=2 reason=accepted 1.6s
+[11:56:37   779.35s] [g4b] accepted single_migrate Z2-U1 -> L10 gain=2 total=1296
+[11:56:42   783.61s] [grp] Z2-U2 -> L15  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:56:46   787.40s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:56:47   788.88s] [grp] Z2-U3 -> L12  try0 order=crossing_desc accepted=True placed=1/1 delta=-2 gain=2 reason=accepted 1.5s
+[11:56:47   788.88s] [g4b] accepted single_migrate Z2-U3 -> L12 gain=2 total=1294
+[11:56:52   793.40s] [grp] Z2-U3 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.0s
+[11:56:55   797.17s] [grp] Z2-U3 -> L15  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:56:59   801.11s] [grp] Z2-U3 -> L16  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:57:04   805.46s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:57:07   809.33s] [grp] Z2-U1 -> L14  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:57:11   813.02s] [grp] Z2-U2 -> L19  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:57:15   816.80s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:57:19   820.73s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:57:23   824.44s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:57:26   828.13s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:57:30   831.91s] [grp] Z2-U2 -> L9   try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:57:34   835.84s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[11:57:38   839.57s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:57:41   843.36s] [grp] Z2-U1 -> L17  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:57:45   847.08s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[11:57:49   851.03s] [grp] Z2-U1 -> L15  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.0s
+[11:57:53   854.82s] [grp] Z2-U1 -> L17  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[11:58:57   918.62s] [grp] Z2-U1 -> L16  try0 order=crossing_desc accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 6.0s
+[11:59:04   925.70s] [grp] Z2-U1 -> L16  try1 order=risk_desc     accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.1s
+[11:59:08   930.12s] [grp] Z2-U1 -> L19  try0 order=crossing_desc accepted=False placed=0/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.0s
+[11:59:13   934.45s] [grp] Z2-U1 -> L19  try1 order=risk_desc     accepted=False placed=0/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.1s
+[11:59:17   938.39s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=0/6 delta=0 gain=0 reason=transition_3d_conflict 3.8s
+[11:59:23   945.31s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 6.9s
+[11:59:28   949.49s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=0/6 delta=0 gain=0 reason=transition_3d_conflict 4.0s
+[11:59:32   954.26s] [grp] Z2-U1 -> L13  try1 order=risk_desc     accepted=False placed=1/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.3s
+[11:59:37   958.55s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/6 delta=0 gain=0 reason=no_legal_xy_corridor 4.2s
+[11:59:43   964.56s] [grp] Z2-U2 -> L12  try1 order=risk_desc     accepted=False placed=3/6 delta=0 gain=0 reason=no_legal_xy_corridor 5.8s
+[11:59:47   969.18s] [grp] Z2-U2 -> L13  try0 order=crossing_desc accepted=False placed=1/6 delta=0 gain=0 reason=transition_3d_conflict 4.2s
+[11:59:54   975.97s] [grp] Z2-U2 -> L13  try1 order=risk_desc     accepted=False placed=6/6 delta=0 gain=0 reason=legal_but_no_crossing_improvement 6.8s
+[11:59:56   977.91s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=0/3 delta=0 gain=0 reason=transition_3d_conflict 1.8s
+[11:59:59   980.42s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=3/3 delta=0 gain=0 reason=legal_but_no_crossing_improvement 2.5s
+[12:00:00   982.27s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=0/3 delta=0 gain=0 reason=transition_3d_conflict 1.8s
+[12:00:03   985.18s] [grp] Z2-U1 -> L13  try1 order=risk_desc     accepted=False placed=2/3 delta=0 gain=0 reason=no_legal_xy_corridor 2.7s
+[12:00:07   989.09s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=2/2 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[12:00:12   993.79s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=2/2 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.7s
+[12:00:16   997.67s] [grp] Z2-U1 -> L13  try0 order=crossing_desc accepted=False placed=2/2 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[12:00:20  1002.32s] [grp] Z2-U1 -> L13  try1 order=risk_desc     accepted=False placed=2/2 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.7s
+[12:00:26  1007.82s] [grp] Z2-U1 -> L11  try0 order=crossing_desc accepted=False placed=4/8 delta=0 gain=0 reason=transition_3d_conflict 5.1s
+[12:00:34  1015.73s] [grp] Z2-U1 -> L11  try1 order=risk_desc     accepted=False placed=8/8 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.9s
+[12:00:38  1020.01s] [grp] Z2-U1 -> L2   try0 order=crossing_desc accepted=False placed=0/8 delta=0 gain=0 reason=transition_3d_conflict 4.1s
+[12:00:43  1024.50s] [grp] Z2-U1 -> L2   try1 order=risk_desc     accepted=False placed=0/8 delta=0 gain=0 reason=no_legal_xy_corridor 4.3s
+[12:00:48  1029.85s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=4/8 delta=0 gain=0 reason=transition_3d_conflict 5.2s
+[12:00:56  1038.19s] [grp] Z2-U1 -> L12  try1 order=risk_desc     accepted=False placed=8/8 delta=0 gain=0 reason=legal_but_no_crossing_improvement 8.3s
+[12:01:00  1042.27s] [grp] Z2-U1 -> L3   try0 order=crossing_desc accepted=False placed=0/8 delta=0 gain=0 reason=no_legal_xy_corridor 4.0s
+[12:01:05  1046.72s] [grp] Z2-U1 -> L3   try1 order=risk_desc     accepted=False placed=0/8 delta=0 gain=0 reason=no_legal_xy_corridor 4.3s
+[12:01:09  1050.47s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[12:01:12  1054.28s] [grp] Z2-U1 -> L15  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[12:01:16  1058.16s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[12:01:20  1062.09s] [grp] Z2-U2 -> L5   try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.8s
+[12:01:24  1065.83s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.7s
+[12:01:28  1069.64s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[12:01:32  1073.53s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=0/1 delta=0 gain=0 reason=no_legal_xy_corridor 3.8s
+[12:01:36  1077.38s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.9s
+[12:01:39  1081.18s] [grp] Z2-U1 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[12:01:43  1085.01s] [grp] Z2-U2 -> L12  try0 order=crossing_desc accepted=False placed=1/1 delta=0 gain=0 reason=legal_but_no_crossing_improvement 3.8s
+[12:01:43  1085.01s] [g4b] round 3 done accepted=2 total=1294 (1079s)
+[12:01:44  1085.75s] [arm] checkpoint step_00002 total=1294 (1085.8s)
+[12:01:44  1085.76s] [checkpoint] total=1294 ledger={'route_3d_checks': 1113, 'd56_candidate_evals': 8388, 'xy_candidates_generated': 1102, 'transactions': 238, 'world_builds': 0, 'valid_candidates': 867, 'rejected_3d': 235, 'accepted_transactions': 11, 'accepted_changes': 11, 'gain': 28, 'validator_runs': 0, 'no_candidate': 56, 'rolled_back': 227, 'wall_seconds': 1079.37}
+[12:02:14  1115.82s] [g4b] search finished total=1294 accepted_events=11 elapsed=1110s
+[12:02:42  1143.71s] [g4b] state.validate_all: valid=1024 violations=0 kinds={}
+[12:02:59  1161.19s] [arm] final saved to C:\Users\lihao\Desktop\Graduation Project\work\G4_CODE_RECOVERY_AUDIT\runs\G4b_current_code_1200s total=1294
+[12:02:59  1161.21s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\work\G4_CODE_RECOVERY_AUDIT\runs\G4b_current_code_1200s\group_attempts.json
+[12:02:59  1161.21s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\work\G4_CODE_RECOVERY_AUDIT\runs\G4b_current_code_1200s\group_migration.json
+[12:02:59  1161.22s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\work\G4_CODE_RECOVERY_AUDIT\runs\G4b_current_code_1200s\migration_matrix.csv
+[12:02:59  1161.22s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\work\G4_CODE_RECOVERY_AUDIT\runs\G4b_current_code_1200s\new_grouping.json
+[12:02:59  1161.22s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\work\G4_CODE_RECOVERY_AUDIT\runs\G4b_current_code_1200s\xy_evidence.json
+[12:02:59  1161.22s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\work\G4_CODE_RECOVERY_AUDIT\runs\G4b_current_code_1200s\final_route_scan.json
+[12:02:59  1161.22s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\work\G4_CODE_RECOVERY_AUDIT\runs\G4b_current_code_1200s\failure_taxonomy.json
+[12:02:59  1161.22s] [final] running independent validator (fully_optimizable) ...
+[12:03:36  1197.66s] [validator] C:\Users\lihao\Desktop\Graduation Project\work\G4_CODE_RECOVERY_AUDIT\runs\G4b_current_code_1200s\validation -> exit=0 (36.4s)
+[12:03:36  1197.67s] [final] validation: {"validation_pass": true, "violations": 0, "routed": 1024, "failed": 0, "crossings": 1294, "crossing_pairs": 1234, "mid_transitions": 72, "min_3d_clearance_mm": 0.063595846, "total_length_mm": 156953.815828, "manual_policy": "fully_optimizable", "policy_violations": 0}
+[12:03:36  1197.68s] [g4b] DONE final_crossings=1294 start=1322 delta=-28 validation={"validation_pass": true, "violations": 0, "routed": 1024, "failed": 0, "crossings": 1294, "crossing_pairs": 1234, "mid_transitions": 72, "min_3d_clearance_mm": 0.063595846, "total_length_mm": 156953.815828, "manual_policy": "fully_optimizable", "policy_violations": 0}
+[12:03:36  1197.68s] ==============================================================================
