@@ -1,0 +1,66 @@
+{
+ "schema": "20h_l6_multi_arc_compare_zh_v1",
+ "generated_at": "2026-11-18T22:21:47",
+ "script": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\tools\\plots_ablation_zh.py",
+ "command": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\tools\\plots_ablation_zh.py",
+ "a": {
+  "label": "启用组合圆弧",
+  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\best_valid",
+  "routes_sha256": "1569d3c156783f40deb2457b86358ac7ccb7624d672c4ee43d0fcb532612dc33",
+  "crossing_stats": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\crossing_stats.json",
+  "crossing_stats_sha256": "b17feaae44f0a6ceda657b34974a757db54d31bf8d27b8d46ddf626c965de7ce"
+ },
+ "b": {
+  "label": "禁用组合圆弧",
+  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\best_valid",
+  "routes_sha256": "a9a7ba1bcf1701499e0f9f9686c8d77dba74157405a9c509d6fbf0dc87ede58a",
+  "crossing_stats": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\crossing_stats.json",
+  "crossing_stats_sha256": "bd06e0d894ab0c291564734a48acba15064380abaeac5ee0417284473a5cab4e"
+ },
+ "counts": {
+  "plane_label": "L6",
+  "plane_id": 6,
+  "z_mm": -0.125,
+  "a_events": 108,
+  "a_pairs": 99,
+  "a_body_routes": 41,
+  "b_events": 399,
+  "b_pairs": 276,
+  "b_body_routes": 44
+ },
+ "expected": {
+  "a_events": 108,
+  "a_pairs": 99,
+  "a_body_routes": 41,
+  "b_events": 399,
+  "b_pairs": 276,
+  "b_body_routes": 44
+ },
+ "data_check": "PASS",
+ "output": {
+  "png": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\patent_zh\\L6_combo_arc_ON_vs_OFF_zh.png",
+  "svg": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\patent_zh\\L6_combo_arc_ON_vs_OFF_zh.svg",
+  "png_sha256": "f05e23200e9dd538404b271216aac569c8c18fc7190289c0ea9678e06f929bb7",
+  "svg_sha256": "c50e5a6b7b6af007a71119dbed22d620f2b425f53c2ee841d546e09aeb136c1b",
+  "dpi": 300
+ },
+ "labels": {
+  "title": "20 层 1024 通道组合圆弧消融：物理高度 L6 布线对比",
+  "left": "启用组合圆弧",
+  "right": "禁用组合圆弧",
+  "axis": [
+   "x 坐标 (mm)",
+   "y 坐标 (mm)"
+  ],
+  "legend": [
+   "人工 U 组（Z1-U1…Z2-U4）",
+   "Z1 其余对侧线路",
+   "Z2 其余相邻侧线路",
+   "接口直连本体（本层布线）",
+   "冻结接口引出线（其他线路）",
+   "端口及内向刻度",
+   "交叉点（真实几何）"
+  ],
+  "footer": "两图使用同一 150 × 150 mm 板面、同一坐标范围与比例；红色 × 为真实同层交叉点；数值由原始实验交叉统计读取并核对。"
+ }
+}
