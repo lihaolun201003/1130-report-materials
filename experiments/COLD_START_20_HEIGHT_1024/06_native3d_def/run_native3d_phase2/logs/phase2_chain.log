@@ -1,0 +1,34 @@
+23:10:00 [native3d-def] driver start: 20-height Native-3D Phase 2 (D/E/F)
+23:10:00 [native3d-def] def run: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\06_native3d_def\run_native3d_phase2
+23:10:00 [native3d-def] stage intervals: crossing-interval analysis of the 20H pre-native baseline (candidate pool consumed by D and blocker_analysis)
+23:10:00 [native3d-def]   cmd: python -m four_side_1024.fanout1024.native3d.crossing_intervals --baseline-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\04_initial_3d_and_e5_repair\nonc4_programme\E5_joint_repair_final --out-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\06_native3d_def\run_native3d_phase2
+23:11:27 [native3d-def] stage intervals done in 87.3 s
+23:11:27 [native3d-def] stage blockers: D0/E0 blocker analysis (true-3D rejection reasons of the 20H pool)
+23:11:27 [native3d-def]   cmd: python -m four_side_1024.fanout1024.native3d.blocker_analysis --baseline-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\04_initial_3d_and_e5_repair\nonc4_programme\E5_joint_repair_final --native-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\05_native3d_abc\run_native3d_phase1 --out-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\06_native3d_def\run_native3d_phase2 --min-net 3 --extra-route 129 --extra-net 16 --validation-limit 60
+23:16:14 [native3d-def] stage blockers done in 286.1 s
+23:16:14 [native3d-def] stage d: D: multi-route joint make-way reroute of the screened candidates
+23:16:14 [native3d-def]   cmd: python -m four_side_1024.fanout1024.native3d.run_d --screen 80 --repairs 30 --max-joint 3 --time-budget 260 --max-accept 12
+23:21:15 [native3d-def] stage d done in 301.1 s
+23:21:15 [native3d-def] stage e: E: arc-region local 3D rebuild (E_A / E_B / E_C)
+23:21:15 [native3d-def]   cmd: python -m four_side_1024.fanout1024.native3d.run_e --routes 16 --time-budget 300 --max-accept 15
+23:22:34 [native3d-def] stage e done in 79.5 s
+23:22:34 [native3d-def] stage f: F: global joint crossing optimisation (plain / arc_span / joint sweeps)
+23:22:34 [native3d-def]   cmd: python -m four_side_1024.fanout1024.native3d.run_f --sweeps 2 --time-budget 560 --joint-per-sweep 10
+23:33:18 [native3d-def] stage f done in 644.0 s
+23:33:18 [native3d-def] stage fplus_1: F+ sweep 1: multi-excursion plain-batch engine on best_valid
+23:33:18 [native3d-def]   cmd: python -m four_side_1024.fanout1024.native3d.run_f_plus --time-budget 210
+23:37:34 [native3d-def] stage fplus_1 done in 255.7 s
+23:37:34 [native3d-def] stage fplus_2: F+ sweep 2: multi-excursion plain-batch engine on best_valid
+23:37:34 [native3d-def]   cmd: python -m four_side_1024.fanout1024.native3d.run_f_plus --time-budget 210
+23:41:47 [native3d-def] stage fplus_2 done in 253.3 s
+23:41:47 [native3d-def] stage nearmiss_1: near-miss refinement pass 1 on best_valid (D0 near-miss pool)
+23:41:47 [native3d-def]   cmd: python -m four_side_1024.fanout1024.native3d.run_f_nearmiss --routes 250 --time-budget 300 --max-accept 25
+23:48:40 [native3d-def] stage nearmiss_1 done in 413.1 s
+23:48:40 [native3d-def] stage nearmiss_2: near-miss refinement pass 2 on best_valid (D0 near-miss pool)
+23:48:40 [native3d-def]   cmd: python -m four_side_1024.fanout1024.native3d.run_f_nearmiss --routes 250 --time-budget 300 --max-accept 25
+23:53:57 [native3d-def] stage nearmiss_2 done in 316.6 s
+23:53:57 [native3d-def] stage finalize: finalise Phase 2: independent 20H validation, plots, reports, MANIFEST, archive
+23:53:57 [native3d-def]   cmd: python -m four_side_1024.fanout1024.native3d.finalize_phase2
+23:54:30 [native3d-def] stage finalize done in 33.3 s
+23:54:30 [native3d-def] ALL STAGES DONE -- outputs under C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\06_native3d_def\run_native3d_phase2
+23:54:30 [native3d-def] chain status: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\06_native3d_def\run_native3d_phase2\logs\phase2_chain_status.json

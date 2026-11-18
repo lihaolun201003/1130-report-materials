@@ -1,0 +1,2326 @@
+{
+ "schema": "reheight21_experiment_e_v1",
+ "experiment": "E",
+ "input_routes": 1024,
+ "attempted_routes": 1024,
+ "successful_routes": 1024,
+ "failed_routes": 0,
+ "failure_reasons": {},
+ "per_plane": {
+  "2": {
+   "plane_id": 2,
+   "label": "L2",
+   "z_mm": -0.325,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "3": {
+   "plane_id": 3,
+   "label": "L3",
+   "z_mm": -0.275,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "4": {
+   "plane_id": 4,
+   "label": "L4",
+   "z_mm": -0.225,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "5": {
+   "plane_id": 5,
+   "label": "L5",
+   "z_mm": -0.175,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "6": {
+   "plane_id": 6,
+   "label": "L6",
+   "z_mm": -0.125,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "7": {
+   "plane_id": 7,
+   "label": "L7",
+   "z_mm": -0.075,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "20": {
+   "plane_id": 20,
+   "label": "L20",
+   "z_mm": -0.025,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "1001": {
+   "plane_id": 1001,
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.025,
+   "kind": "interface_body",
+   "assigned": 52,
+   "routed": 52,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "8": {
+   "plane_id": 8,
+   "label": "L8",
+   "z_mm": 0.075,
+   "kind": "body",
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "9": {
+   "plane_id": 9,
+   "label": "L9",
+   "z_mm": 0.125,
+   "kind": "body",
+   "assigned": 56,
+   "routed": 56,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "10": {
+   "plane_id": 10,
+   "label": "L10",
+   "z_mm": 0.175,
+   "kind": "body",
+   "assigned": 16,
+   "routed": 16,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "11": {
+   "plane_id": 11,
+   "label": "L11",
+   "z_mm": 0.225,
+   "kind": "body",
+   "assigned": 16,
+   "routed": 16,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "12": {
+   "plane_id": 12,
+   "label": "L12",
+   "z_mm": 0.275,
+   "kind": "body",
+   "assigned": 40,
+   "routed": 40,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "13": {
+   "plane_id": 13,
+   "label": "L13",
+   "z_mm": 0.325,
+   "kind": "body",
+   "assigned": 40,
+   "routed": 40,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "14": {
+   "plane_id": 14,
+   "label": "L14",
+   "z_mm": 0.375,
+   "kind": "body",
+   "assigned": 56,
+   "routed": 56,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "15": {
+   "plane_id": 15,
+   "label": "L15",
+   "z_mm": 0.425,
+   "kind": "body",
+   "assigned": 56,
+   "routed": 56,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "16": {
+   "plane_id": 16,
+   "label": "L16",
+   "z_mm": 0.475,
+   "kind": "body",
+   "assigned": 56,
+   "routed": 56,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "1002": {
+   "plane_id": 1002,
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.525,
+   "kind": "interface_body",
+   "assigned": 48,
+   "routed": 48,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "17": {
+   "plane_id": 17,
+   "label": "L17",
+   "z_mm": 0.575,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "failed_routes": []
+  },
+  "18": {
+   "plane_id": 18,
+   "label": "L18",
+   "z_mm": 0.625,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 64,
+   "failed": 0,
+   "failed_routes": []
+  }
+ },
+ "iterations": [
+  {
+   "iteration": 1,
+   "routed_2d": 1021,
+   "assembled": 1021,
+   "world_valid": 1021,
+   "violations": 0,
+   "violation_kinds": {},
+   "assembly_failures": 3,
+   "lead_repair": false,
+   "budget": 600,
+   "layer_stats": {
+    "2": {
+     "layer_id": 2,
+     "z_mm": -0.325,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.652174711227417,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 1056,
+     "candidates_built": 32,
+     "d56_evaluations": 1056,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 540,
+      "tangent_touch": 452
+     },
+     "obstacle_samples_total": 14464,
+     "obstacle_samples_active": 13568,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "3": {
+     "layer_id": 3,
+     "z_mm": -0.275,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.4085276126861572,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 544,
+     "candidates_built": 16,
+     "d56_evaluations": 544,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 260,
+      "tangent_touch": 220
+     },
+     "obstacle_samples_total": 26752,
+     "obstacle_samples_active": 25600,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "4": {
+     "layer_id": 4,
+     "z_mm": -0.225,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.6580171585083008,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 1056,
+     "candidates_built": 32,
+     "d56_evaluations": 1056,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 304,
+      "tangent_touch": 688
+     },
+     "obstacle_samples_total": 35072,
+     "obstacle_samples_active": 33536,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "5": {
+     "layer_id": 5,
+     "z_mm": -0.175,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.4410731792449951,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 544,
+     "candidates_built": 16,
+     "d56_evaluations": 544,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 260,
+      "tangent_touch": 220
+     },
+     "obstacle_samples_total": 41152,
+     "obstacle_samples_active": 39200,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "6": {
+     "layer_id": 6,
+     "z_mm": -0.125,
+     "input": 52,
+     "attempted": 54,
+     "success": 52,
+     "failed": 0,
+     "seconds": 0.59659743309021,
+     "families": {
+      "OPP_STRAIGHT": 4,
+      "OPP_DETOUR": 14,
+      "OPP_DETOUR_BACK": 10,
+      "OPP_Z": 24
+     },
+     "candidates_evaluated": 229,
+     "candidates_built": 118,
+     "d56_evaluations": 424,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 207,
+      "outside_board": 499,
+      "tangent_touch": 66,
+      "double_cross": 47,
+      "spacing": 57,
+      "overlap": 7
+     },
+     "obstacle_samples_total": 47184,
+     "obstacle_samples_active": 44768,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 1,
+       "gained": 0,
+       "routed": 51,
+       "failed": 1
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 12104,
+     "multi_arc_rejected_candidates": 207,
+     "pending_failures": {}
+    },
+    "7": {
+     "layer_id": 7,
+     "z_mm": -0.075,
+     "input": 52,
+     "attempted": 52,
+     "success": 52,
+     "failed": 0,
+     "seconds": 0.4402463436126709,
+     "families": {
+      "OPP_STRAIGHT": 8,
+      "OPP_DETOUR_BACK": 16,
+      "OPP_DETOUR": 8,
+      "OPP_Z": 20
+     },
+     "candidates_evaluated": 233,
+     "candidates_built": 6,
+     "d56_evaluations": 233,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "outside_board": 276,
+      "multi_arc_forbidden": 192,
+      "tangent_touch": 62,
+      "double_cross": 45,
+      "spacing": 66,
+      "overlap": 8
+     },
+     "obstacle_samples_total": 58848,
+     "obstacle_samples_active": 55120,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 10752,
+     "multi_arc_rejected_candidates": 192,
+     "pending_failures": {}
+    },
+    "8": {
+     "layer_id": 8,
+     "z_mm": 0.075,
+     "input": 48,
+     "attempted": 52,
+     "success": 48,
+     "failed": 0,
+     "seconds": 0.9015641212463379,
+     "families": {
+      "OPP_STRAIGHT": 8,
+      "OPP_DETOUR": 27,
+      "OPP_DETOUR_BACK": 4,
+      "OPP_Z": 12
+     },
+     "candidates_evaluated": 351,
+     "candidates_built": 10,
+     "d56_evaluations": 463,
+     "obstacle_rejections": 2,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 504,
+      "tangent_touch": 143,
+      "double_cross": 69,
+      "spacing": 70,
+      "outside_board": 206,
+      "obstacle": 2,
+      "overlap": 16
+     },
+     "obstacle_samples_total": 45488,
+     "obstacle_samples_active": 41616,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 1,
+       "gained": 1,
+       "routed": 48,
+       "failed": 0
+      },
+      {
+       "round": 2,
+       "pending": 0,
+       "gained": 0,
+       "routed": 48,
+       "failed": 0
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 12028,
+     "multi_arc_rejected_candidates": 504,
+     "pending_failures": {}
+    },
+    "9": {
+     "layer_id": 9,
+     "z_mm": 0.125,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.6046040058135986,
+     "families": {
+      "ADJ_L": 36,
+      "ADJ_Z_TURN": 4,
+      "ADJ_UP_LOOP": 16
+     },
+     "candidates_evaluated": 627,
+     "candidates_built": 56,
+     "d56_evaluations": 627,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 226,
+      "overlap": 54,
+      "tangent_touch": 343,
+      "spacing": 167,
+      "double_cross": 7
+     },
+     "obstacle_samples_total": 13264,
+     "obstacle_samples_active": 12528,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 608,
+     "multi_arc_rejected_candidates": 226,
+     "pending_failures": {}
+    },
+    "10": {
+     "layer_id": 10,
+     "z_mm": 0.175,
+     "input": 16,
+     "attempted": 16,
+     "success": 16,
+     "failed": 0,
+     "seconds": 0.05479311943054199,
+     "families": {
+      "U_QUARTER_PAIR": 16
+     },
+     "candidates_evaluated": 40,
+     "candidates_built": 4,
+     "d56_evaluations": 40,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "tangent_touch": 16,
+      "spacing": 8
+     },
+     "obstacle_samples_total": 14368,
+     "obstacle_samples_active": 13920,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "11": {
+     "layer_id": 11,
+     "z_mm": 0.225,
+     "input": 16,
+     "attempted": 16,
+     "success": 16,
+     "failed": 0,
+     "seconds": 0.05558180809020996,
+     "families": {
+      "U_QUARTER_PAIR": 16
+     },
+     "candidates_evaluated": 40,
+     "candidates_built": 4,
+     "d56_evaluations": 40,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 8,
+      "tangent_touch": 16
+     },
+     "obstacle_samples_total": 15952,
+     "obstacle_samples_active": 15024,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "12": {
+     "layer_id": 12,
+     "z_mm": 0.275,
+     "input": 40,
+     "attempted": 40,
+     "success": 40,
+     "failed": 0,
+     "seconds": 0.30789637565612793,
+     "families": {
+      "U_QUARTER_PAIR": 40
+     },
+     "candidates_evaluated": 420,
+     "candidates_built": 20,
+     "d56_evaluations": 420,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 130,
+      "tangent_touch": 250
+     },
+     "obstacle_samples_total": 19968,
+     "obstacle_samples_active": 18960,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "13": {
+     "layer_id": 13,
+     "z_mm": 0.325,
+     "input": 40,
+     "attempted": 40,
+     "success": 40,
+     "failed": 0,
+     "seconds": 0.31293177604675293,
+     "families": {
+      "U_QUARTER_PAIR": 40
+     },
+     "candidates_evaluated": 420,
+     "candidates_built": 20,
+     "d56_evaluations": 420,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 130,
+      "tangent_touch": 250
+     },
+     "obstacle_samples_total": 27104,
+     "obstacle_samples_active": 25856,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "14": {
+     "layer_id": 14,
+     "z_mm": 0.375,
+     "input": 56,
+     "attempted": 58,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.6870791912078857,
+     "families": {
+      "ADJ_L": 43,
+      "ADJ_Z_TURN": 4,
+      "ADJ_UP_LOOP": 9
+     },
+     "candidates_evaluated": 269,
+     "candidates_built": 244,
+     "d56_evaluations": 689,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 184,
+      "tangent_touch": 98,
+      "overlap": 40,
+      "spacing": 46,
+      "double_cross": 29,
+      "solver_pose_mismatch": 20
+     },
+     "obstacle_samples_total": 35392,
+     "obstacle_samples_active": 33600,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 1,
+       "gained": 0,
+       "routed": 55,
+       "failed": 1
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 628,
+     "multi_arc_rejected_candidates": 184,
+     "pending_failures": {}
+    },
+    "15": {
+     "layer_id": 15,
+     "z_mm": 0.425,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.48545026779174805,
+     "families": {
+      "ADJ_L": 50,
+      "ADJ_Z_TURN": 3,
+      "ADJ_UP_LOOP": 3
+     },
+     "candidates_evaluated": 173,
+     "candidates_built": 1,
+     "d56_evaluations": 173,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "overlap": 20,
+      "multi_arc_forbidden": 10,
+      "tangent_touch": 71,
+      "spacing": 20,
+      "double_cross": 6
+     },
+     "obstacle_samples_total": 48128,
+     "obstacle_samples_active": 45360,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 550,
+     "multi_arc_rejected_candidates": 10,
+     "pending_failures": {}
+    },
+    "16": {
+     "layer_id": 16,
+     "z_mm": 0.475,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.26353955268859863,
+     "families": {
+      "ADJ_L": 56
+     },
+     "candidates_evaluated": 56,
+     "candidates_built": 1,
+     "d56_evaluations": 56,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {},
+     "obstacle_samples_total": 78192,
+     "obstacle_samples_active": 76192,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 616,
+     "pending_failures": {}
+    },
+    "17": {
+     "layer_id": 17,
+     "z_mm": 0.575,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.2434074878692627,
+     "families": {
+      "ADJ_L": 58,
+      "ADJ_Z_TURN": 3,
+      "ADJ_UP_LOOP": 3
+     },
+     "candidates_evaluated": 130,
+     "candidates_built": 22,
+     "d56_evaluations": 130,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 21,
+      "double_cross": 28,
+      "tangent_touch": 20,
+      "overlap": 17,
+      "spacing": 1
+     },
+     "obstacle_samples_total": 53968,
+     "obstacle_samples_active": 51248,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 1354,
+     "multi_arc_rejected_candidates": 21,
+     "pending_failures": {}
+    },
+    "18": {
+     "layer_id": 18,
+     "z_mm": 0.625,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.10489940643310547,
+     "families": {
+      "ADJ_L": 64
+     },
+     "candidates_evaluated": 64,
+     "candidates_built": 1,
+     "d56_evaluations": 64,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {},
+     "obstacle_samples_total": 14848,
+     "obstacle_samples_active": 13952,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 1434,
+     "pending_failures": {}
+    },
+    "20": {
+     "layer_id": 20,
+     "z_mm": -0.025,
+     "input": 52,
+     "attempted": 109,
+     "success": 49,
+     "failed": 3,
+     "seconds": 4.049185514450073,
+     "families": {
+      "OPP_STRAIGHT": 4,
+      "OPP_DETOUR_BACK": 16,
+      "OPP_DETOUR": 42,
+      "OPP_Z": 15
+     },
+     "candidates_evaluated": 602,
+     "candidates_built": 42,
+     "d56_evaluations": 3809,
+     "obstacle_rejections": 21,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "outside_board": 3909,
+      "multi_arc_forbidden": 1021,
+      "spacing": 192,
+      "obstacle": 10,
+      "tangent_touch": 177,
+      "double_cross": 91,
+      "overlap": 55
+     },
+     "obstacle_samples_total": 86192,
+     "obstacle_samples_active": 84600,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 11,
+       "gained": 2,
+       "routed": 43,
+       "failed": 9
+      },
+      {
+       "round": 2,
+       "pending": 9,
+       "gained": 0,
+       "routed": 43,
+       "failed": 9
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 28126,
+     "multi_arc_rejected_candidates": 1021,
+     "pending_failures": {
+      "103": "candidate_budget_exhausted",
+      "424": "candidate_budget_exhausted",
+      "425": "candidate_budget_exhausted"
+     }
+    },
+    "1001": {
+     "layer_id": 1001,
+     "z_mm": 0.025,
+     "input": 52,
+     "attempted": 76,
+     "success": 52,
+     "failed": 0,
+     "seconds": 1.7304108142852783,
+     "families": {
+      "OPP_STRAIGHT": 8,
+      "OPP_DETOUR": 30,
+      "OPP_DETOUR_BACK": 16,
+      "OPP_Z": 12
+     },
+     "candidates_evaluated": 354,
+     "candidates_built": 19,
+     "d56_evaluations": 1562,
+     "obstacle_rejections": 3,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 794,
+      "tangent_touch": 126,
+      "spacing": 103,
+      "double_cross": 45,
+      "outside_board": 938,
+      "obstacle": 3,
+      "overlap": 11
+     },
+     "obstacle_samples_total": 70904,
+     "obstacle_samples_active": 69232,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 6,
+       "gained": 4,
+       "routed": 50,
+       "failed": 2
+      },
+      {
+       "round": 2,
+       "pending": 2,
+       "gained": 0,
+       "routed": 50,
+       "failed": 2
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 18470,
+     "multi_arc_rejected_candidates": 794,
+     "pending_failures": {}
+    },
+    "1002": {
+     "layer_id": 1002,
+     "z_mm": 0.525,
+     "input": 48,
+     "attempted": 48,
+     "success": 48,
+     "failed": 0,
+     "seconds": 0.11774826049804688,
+     "families": {
+      "ADJ_L": 48
+     },
+     "candidates_evaluated": 48,
+     "candidates_built": 1,
+     "d56_evaluations": 48,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {},
+     "obstacle_samples_total": 72448,
+     "obstacle_samples_active": 70800,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 1480,
+     "pending_failures": {}
+    }
+   },
+   "failed_route_ids": [
+    103,
+    424,
+    425
+   ]
+  },
+  {
+   "iteration": 2,
+   "routed_2d": 1023,
+   "assembled": 1023,
+   "world_valid": 1023,
+   "violations": 0,
+   "violation_kinds": {},
+   "assembly_failures": 1,
+   "lead_repair": true,
+   "budget": 1200,
+   "layer_stats": {
+    "2": {
+     "layer_id": 2,
+     "z_mm": -0.325,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.629706859588623,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 1056,
+     "candidates_built": 32,
+     "d56_evaluations": 1056,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 528,
+      "tangent_touch": 464
+     },
+     "obstacle_samples_total": 14464,
+     "obstacle_samples_active": 13568,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "3": {
+     "layer_id": 3,
+     "z_mm": -0.275,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.4024989604949951,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 544,
+     "candidates_built": 16,
+     "d56_evaluations": 544,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 260,
+      "tangent_touch": 220
+     },
+     "obstacle_samples_total": 26752,
+     "obstacle_samples_active": 25600,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "4": {
+     "layer_id": 4,
+     "z_mm": -0.225,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.6712462902069092,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 1056,
+     "candidates_built": 32,
+     "d56_evaluations": 1056,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 308,
+      "tangent_touch": 684
+     },
+     "obstacle_samples_total": 35072,
+     "obstacle_samples_active": 33536,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "5": {
+     "layer_id": 5,
+     "z_mm": -0.175,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.3969244956970215,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 544,
+     "candidates_built": 16,
+     "d56_evaluations": 544,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 260,
+      "tangent_touch": 220
+     },
+     "obstacle_samples_total": 41152,
+     "obstacle_samples_active": 39200,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "6": {
+     "layer_id": 6,
+     "z_mm": -0.125,
+     "input": 52,
+     "attempted": 62,
+     "success": 52,
+     "failed": 0,
+     "seconds": 0.7725040912628174,
+     "families": {
+      "OPP_Z": 25,
+      "OPP_DETOUR": 16,
+      "OPP_DETOUR_BACK": 13,
+      "OPP_STRAIGHT": 4
+     },
+     "candidates_evaluated": 234,
+     "candidates_built": 19,
+     "d56_evaluations": 650,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "double_cross": 45,
+      "tangent_touch": 58,
+      "spacing": 72,
+      "multi_arc_forbidden": 264,
+      "outside_board": 816,
+      "overlap": 1
+     },
+     "obstacle_samples_total": 47184,
+     "obstacle_samples_active": 44768,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 2,
+       "gained": 0,
+       "routed": 50,
+       "failed": 2
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 14344,
+     "multi_arc_rejected_candidates": 264,
+     "pending_failures": {}
+    },
+    "7": {
+     "layer_id": 7,
+     "z_mm": -0.075,
+     "input": 52,
+     "attempted": 64,
+     "success": 52,
+     "failed": 0,
+     "seconds": 0.9017853736877441,
+     "families": {
+      "OPP_Z": 24,
+      "OPP_DETOUR_BACK": 16,
+      "OPP_DETOUR": 13,
+      "OPP_STRAIGHT": 8
+     },
+     "candidates_evaluated": 367,
+     "candidates_built": 18,
+     "d56_evaluations": 679,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "tangent_touch": 95,
+      "spacing": 125,
+      "double_cross": 79,
+      "outside_board": 867,
+      "multi_arc_forbidden": 256,
+      "overlap": 7
+     },
+     "obstacle_samples_total": 58848,
+     "obstacle_samples_active": 55120,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 3,
+       "gained": 3,
+       "routed": 52,
+       "failed": 0
+      },
+      {
+       "round": 2,
+       "pending": 0,
+       "gained": 0,
+       "routed": 52,
+       "failed": 0
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 13244,
+     "multi_arc_rejected_candidates": 256,
+     "pending_failures": {}
+    },
+    "8": {
+     "layer_id": 8,
+     "z_mm": 0.075,
+     "input": 48,
+     "attempted": 48,
+     "success": 48,
+     "failed": 0,
+     "seconds": 0.3895258903503418,
+     "families": {
+      "OPP_Z": 12,
+      "OPP_DETOUR_BACK": 12,
+      "OPP_DETOUR": 16,
+      "OPP_STRAIGHT": 8
+     },
+     "candidates_evaluated": 160,
+     "candidates_built": 1,
+     "d56_evaluations": 160,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "tangent_touch": 46,
+      "spacing": 35,
+      "multi_arc_forbidden": 448,
+      "outside_board": 4,
+      "double_cross": 28,
+      "overlap": 3
+     },
+     "obstacle_samples_total": 45488,
+     "obstacle_samples_active": 41616,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 11008,
+     "multi_arc_rejected_candidates": 448,
+     "pending_failures": {}
+    },
+    "9": {
+     "layer_id": 9,
+     "z_mm": 0.125,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.7629961967468262,
+     "families": {
+      "ADJ_L": 32,
+      "ADJ_Z_TURN": 2,
+      "ADJ_UP_LOOP": 20,
+      "ADJ_DOWN_LOOP": 2
+     },
+     "candidates_evaluated": 948,
+     "candidates_built": 1,
+     "d56_evaluations": 948,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "tangent_touch": 535,
+      "multi_arc_forbidden": 414,
+      "spacing": 336,
+      "double_cross": 17,
+      "overlap": 4
+     },
+     "obstacle_samples_total": 13264,
+     "obstacle_samples_active": 12528,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 642,
+     "multi_arc_rejected_candidates": 414,
+     "pending_failures": {}
+    },
+    "10": {
+     "layer_id": 10,
+     "z_mm": 0.175,
+     "input": 16,
+     "attempted": 16,
+     "success": 16,
+     "failed": 0,
+     "seconds": 0.05889463424682617,
+     "families": {
+      "U_QUARTER_PAIR": 16
+     },
+     "candidates_evaluated": 40,
+     "candidates_built": 4,
+     "d56_evaluations": 40,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "tangent_touch": 18,
+      "spacing": 6
+     },
+     "obstacle_samples_total": 14368,
+     "obstacle_samples_active": 13920,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "11": {
+     "layer_id": 11,
+     "z_mm": 0.225,
+     "input": 16,
+     "attempted": 16,
+     "success": 16,
+     "failed": 0,
+     "seconds": 0.07303309440612793,
+     "families": {
+      "U_QUARTER_PAIR": 16
+     },
+     "candidates_evaluated": 40,
+     "candidates_built": 4,
+     "d56_evaluations": 40,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 6,
+      "tangent_touch": 18
+     },
+     "obstacle_samples_total": 15952,
+     "obstacle_samples_active": 15024,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "12": {
+     "layer_id": 12,
+     "z_mm": 0.275,
+     "input": 40,
+     "attempted": 40,
+     "success": 40,
+     "failed": 0,
+     "seconds": 0.5438046455383301,
+     "families": {
+      "U_QUARTER_PAIR": 40
+     },
+     "candidates_evaluated": 420,
+     "candidates_built": 20,
+     "d56_evaluations": 420,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 128,
+      "tangent_touch": 252
+     },
+     "obstacle_samples_total": 19968,
+     "obstacle_samples_active": 18960,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "13": {
+     "layer_id": 13,
+     "z_mm": 0.325,
+     "input": 40,
+     "attempted": 40,
+     "success": 40,
+     "failed": 0,
+     "seconds": 0.30066585540771484,
+     "families": {
+      "U_QUARTER_PAIR": 40
+     },
+     "candidates_evaluated": 420,
+     "candidates_built": 20,
+     "d56_evaluations": 420,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 128,
+      "tangent_touch": 252
+     },
+     "obstacle_samples_total": 27104,
+     "obstacle_samples_active": 25856,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "14": {
+     "layer_id": 14,
+     "z_mm": 0.375,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.3782010078430176,
+     "families": {
+      "ADJ_L": 46,
+      "ADJ_Z_TURN": 2,
+      "ADJ_UP_LOOP": 8
+     },
+     "candidates_evaluated": 303,
+     "candidates_built": 1,
+     "d56_evaluations": 303,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "tangent_touch": 161,
+      "multi_arc_forbidden": 140,
+      "overlap": 19,
+      "double_cross": 15,
+      "spacing": 52
+     },
+     "obstacle_samples_total": 35392,
+     "obstacle_samples_active": 33600,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 636,
+     "multi_arc_rejected_candidates": 140,
+     "pending_failures": {}
+    },
+    "15": {
+     "layer_id": 15,
+     "z_mm": 0.425,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.3082902431488037,
+     "families": {
+      "ADJ_L": 49,
+      "ADJ_UP_LOOP": 4,
+      "ADJ_Z_TURN": 3
+     },
+     "candidates_evaluated": 116,
+     "candidates_built": 1,
+     "d56_evaluations": 116,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 8,
+      "tangent_touch": 44,
+      "spacing": 11,
+      "overlap": 5
+     },
+     "obstacle_samples_total": 48128,
+     "obstacle_samples_active": 45360,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 574,
+     "multi_arc_rejected_candidates": 8,
+     "pending_failures": {}
+    },
+    "16": {
+     "layer_id": 16,
+     "z_mm": 0.475,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.2738218307495117,
+     "families": {
+      "ADJ_L": 56
+     },
+     "candidates_evaluated": 56,
+     "candidates_built": 1,
+     "d56_evaluations": 56,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {},
+     "obstacle_samples_total": 78192,
+     "obstacle_samples_active": 76192,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 628,
+     "pending_failures": {}
+    },
+    "17": {
+     "layer_id": 17,
+     "z_mm": 0.575,
+     "input": 64,
+     "attempted": 68,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.55983567237854,
+     "families": {
+      "ADJ_L": 64,
+      "ADJ_DOWN_LOOP": 1,
+      "ADJ_Z_TURN": 2
+     },
+     "candidates_evaluated": 143,
+     "candidates_built": 1,
+     "d56_evaluations": 721,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 128,
+      "solver_pose_mismatch": 60,
+      "double_cross": 73,
+      "spacing": 2,
+      "tangent_touch": 1
+     },
+     "obstacle_samples_total": 53968,
+     "obstacle_samples_active": 51248,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 1,
+       "gained": 1,
+       "routed": 64,
+       "failed": 0
+      },
+      {
+       "round": 2,
+       "pending": 0,
+       "gained": 0,
+       "routed": 64,
+       "failed": 0
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 1415,
+     "multi_arc_rejected_candidates": 128,
+     "pending_failures": {}
+    },
+    "18": {
+     "layer_id": 18,
+     "z_mm": 0.625,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.10489821434020996,
+     "families": {
+      "ADJ_L": 64
+     },
+     "candidates_evaluated": 64,
+     "candidates_built": 1,
+     "d56_evaluations": 64,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {},
+     "obstacle_samples_total": 14848,
+     "obstacle_samples_active": 13952,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 1428,
+     "pending_failures": {}
+    },
+    "20": {
+     "layer_id": 20,
+     "z_mm": -0.025,
+     "input": 52,
+     "attempted": 56,
+     "success": 51,
+     "failed": 1,
+     "seconds": 1.077035665512085,
+     "families": {
+      "OPP_Z": 12,
+      "OPP_DETOUR": 24,
+      "OPP_DETOUR_BACK": 11,
+      "OPP_STRAIGHT": 4
+     },
+     "candidates_evaluated": 327,
+     "candidates_built": 104,
+     "d56_evaluations": 847,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 448,
+      "outside_board": 999,
+      "spacing": 101,
+      "tangent_touch": 84,
+      "double_cross": 83,
+      "overlap": 8
+     },
+     "obstacle_samples_total": 86192,
+     "obstacle_samples_active": 84600,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 2,
+       "gained": 0,
+       "routed": 50,
+       "failed": 2
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 14352,
+     "multi_arc_rejected_candidates": 448,
+     "pending_failures": {
+      "412": "candidate_budget_exhausted"
+     }
+    },
+    "1001": {
+     "layer_id": 1001,
+     "z_mm": 0.025,
+     "input": 52,
+     "attempted": 61,
+     "success": 52,
+     "failed": 0,
+     "seconds": 1.1649160385131836,
+     "families": {
+      "OPP_Z": 13,
+      "OPP_DETOUR_BACK": 15,
+      "OPP_DETOUR": 22,
+      "OPP_STRAIGHT": 8
+     },
+     "candidates_evaluated": 253,
+     "candidates_built": 7,
+     "d56_evaluations": 653,
+     "obstacle_rejections": 3,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 50,
+      "outside_board": 286,
+      "multi_arc_forbidden": 608,
+      "tangent_touch": 94,
+      "double_cross": 45,
+      "overlap": 3,
+      "obstacle": 3
+     },
+     "obstacle_samples_total": 70904,
+     "obstacle_samples_active": 69232,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 2,
+       "gained": 1,
+       "routed": 51,
+       "failed": 1
+      },
+      {
+       "round": 2,
+       "pending": 1,
+       "gained": 1,
+       "routed": 52,
+       "failed": 0
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 14732,
+     "multi_arc_rejected_candidates": 608,
+     "pending_failures": {}
+    },
+    "1002": {
+     "layer_id": 1002,
+     "z_mm": 0.525,
+     "input": 48,
+     "attempted": 48,
+     "success": 48,
+     "failed": 0,
+     "seconds": 0.11320185661315918,
+     "families": {
+      "ADJ_L": 48
+     },
+     "candidates_evaluated": 48,
+     "candidates_built": 1,
+     "d56_evaluations": 48,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {},
+     "obstacle_samples_total": 72448,
+     "obstacle_samples_active": 70800,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 1500,
+     "pending_failures": {}
+    }
+   },
+   "failed_route_ids": [
+    412
+   ]
+  },
+  {
+   "iteration": 3,
+   "routed_2d": 1021,
+   "assembled": 1021,
+   "world_valid": 1021,
+   "violations": 0,
+   "violation_kinds": {},
+   "assembly_failures": 3,
+   "lead_repair": true,
+   "budget": 1800,
+   "layer_stats": {
+    "2": {
+     "layer_id": 2,
+     "z_mm": -0.325,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.6199452877044678,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 1056,
+     "candidates_built": 32,
+     "d56_evaluations": 1056,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 524,
+      "tangent_touch": 468
+     },
+     "obstacle_samples_total": 14464,
+     "obstacle_samples_active": 13568,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "3": {
+     "layer_id": 3,
+     "z_mm": -0.275,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.3903682231903076,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 544,
+     "candidates_built": 16,
+     "d56_evaluations": 544,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 263,
+      "tangent_touch": 217
+     },
+     "obstacle_samples_total": 26752,
+     "obstacle_samples_active": 25600,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "4": {
+     "layer_id": 4,
+     "z_mm": -0.225,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.6452624797821045,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 1056,
+     "candidates_built": 32,
+     "d56_evaluations": 1056,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 304,
+      "tangent_touch": 688
+     },
+     "obstacle_samples_total": 35072,
+     "obstacle_samples_active": 33536,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "5": {
+     "layer_id": 5,
+     "z_mm": -0.175,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.39087510108947754,
+     "families": {
+      "U_QUARTER_PAIR": 64
+     },
+     "candidates_evaluated": 544,
+     "candidates_built": 16,
+     "d56_evaluations": 544,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 262,
+      "tangent_touch": 218
+     },
+     "obstacle_samples_total": 41152,
+     "obstacle_samples_active": 39200,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "6": {
+     "layer_id": 6,
+     "z_mm": -0.125,
+     "input": 52,
+     "attempted": 63,
+     "success": 52,
+     "failed": 0,
+     "seconds": 1.0767972469329834,
+     "families": {
+      "OPP_STRAIGHT": 4,
+      "OPP_DETOUR": 17,
+      "OPP_DETOUR_BACK": 12,
+      "OPP_Z": 25
+     },
+     "candidates_evaluated": 388,
+     "candidates_built": 347,
+     "d56_evaluations": 1108,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 272,
+      "outside_board": 885,
+      "tangent_touch": 181,
+      "double_cross": 71,
+      "overlap": 20,
+      "spacing": 58
+     },
+     "obstacle_samples_total": 47184,
+     "obstacle_samples_active": 44768,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 3,
+       "gained": 2,
+       "routed": 51,
+       "failed": 1
+      },
+      {
+       "round": 2,
+       "pending": 1,
+       "gained": 0,
+       "routed": 51,
+       "failed": 1
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 14244,
+     "multi_arc_rejected_candidates": 272,
+     "pending_failures": {}
+    },
+    "7": {
+     "layer_id": 7,
+     "z_mm": -0.075,
+     "input": 52,
+     "attempted": 52,
+     "success": 52,
+     "failed": 0,
+     "seconds": 0.409451961517334,
+     "families": {
+      "OPP_STRAIGHT": 8,
+      "OPP_DETOUR_BACK": 16,
+      "OPP_DETOUR": 8,
+      "OPP_Z": 20
+     },
+     "candidates_evaluated": 211,
+     "candidates_built": 1,
+     "d56_evaluations": 211,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "outside_board": 258,
+      "multi_arc_forbidden": 192,
+      "tangent_touch": 56,
+      "spacing": 61,
+      "double_cross": 36,
+      "overlap": 6
+     },
+     "obstacle_samples_total": 58848,
+     "obstacle_samples_active": 55120,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 10752,
+     "multi_arc_rejected_candidates": 192,
+     "pending_failures": {}
+    },
+    "8": {
+     "layer_id": 8,
+     "z_mm": 0.075,
+     "input": 48,
+     "attempted": 48,
+     "success": 48,
+     "failed": 0,
+     "seconds": 0.7176563739776611,
+     "families": {
+      "OPP_STRAIGHT": 8,
+      "OPP_DETOUR": 22,
+      "OPP_DETOUR_BACK": 6,
+      "OPP_Z": 12
+     },
+     "candidates_evaluated": 255,
+     "candidates_built": 2,
+     "d56_evaluations": 255,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 448,
+      "tangent_touch": 72,
+      "double_cross": 72,
+      "overlap": 8,
+      "spacing": 55,
+      "outside_board": 65
+     },
+     "obstacle_samples_total": 45488,
+     "obstacle_samples_active": 41616,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 11008,
+     "multi_arc_rejected_candidates": 448,
+     "pending_failures": {}
+    },
+    "9": {
+     "layer_id": 9,
+     "z_mm": 0.125,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.5877735614776611,
+     "families": {
+      "ADJ_L": 38,
+      "ADJ_Z_TURN": 3,
+      "ADJ_UP_LOOP": 15
+     },
+     "candidates_evaluated": 602,
+     "candidates_built": 53,
+     "d56_evaluations": 602,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 224,
+      "tangent_touch": 306,
+      "overlap": 111,
+      "spacing": 113,
+      "double_cross": 16
+     },
+     "obstacle_samples_total": 13264,
+     "obstacle_samples_active": 12528,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 644,
+     "multi_arc_rejected_candidates": 224,
+     "pending_failures": {}
+    },
+    "10": {
+     "layer_id": 10,
+     "z_mm": 0.175,
+     "input": 16,
+     "attempted": 16,
+     "success": 16,
+     "failed": 0,
+     "seconds": 0.05400347709655762,
+     "families": {
+      "U_QUARTER_PAIR": 16
+     },
+     "candidates_evaluated": 40,
+     "candidates_built": 4,
+     "d56_evaluations": 40,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 8,
+      "tangent_touch": 16
+     },
+     "obstacle_samples_total": 14368,
+     "obstacle_samples_active": 13920,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "11": {
+     "layer_id": 11,
+     "z_mm": 0.225,
+     "input": 16,
+     "attempted": 16,
+     "success": 16,
+     "failed": 0,
+     "seconds": 0.05579996109008789,
+     "families": {
+      "U_QUARTER_PAIR": 16
+     },
+     "candidates_evaluated": 40,
+     "candidates_built": 4,
+     "d56_evaluations": 40,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 8,
+      "tangent_touch": 16
+     },
+     "obstacle_samples_total": 15952,
+     "obstacle_samples_active": 15024,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "12": {
+     "layer_id": 12,
+     "z_mm": 0.275,
+     "input": 40,
+     "attempted": 40,
+     "success": 40,
+     "failed": 0,
+     "seconds": 0.30546140670776367,
+     "families": {
+      "U_QUARTER_PAIR": 40
+     },
+     "candidates_evaluated": 420,
+     "candidates_built": 20,
+     "d56_evaluations": 420,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 124,
+      "tangent_touch": 256
+     },
+     "obstacle_samples_total": 19968,
+     "obstacle_samples_active": 18960,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "13": {
+     "layer_id": 13,
+     "z_mm": 0.325,
+     "input": 40,
+     "attempted": 40,
+     "success": 40,
+     "failed": 0,
+     "seconds": 0.3216855525970459,
+     "families": {
+      "U_QUARTER_PAIR": 40
+     },
+     "candidates_evaluated": 420,
+     "candidates_built": 20,
+     "d56_evaluations": 420,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "spacing": 124,
+      "tangent_touch": 256
+     },
+     "obstacle_samples_total": 27104,
+     "obstacle_samples_active": 25856,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "pending_failures": {}
+    },
+    "14": {
+     "layer_id": 14,
+     "z_mm": 0.375,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.3884718418121338,
+     "families": {
+      "ADJ_L": 44,
+      "ADJ_Z_TURN": 4,
+      "ADJ_UP_LOOP": 8
+     },
+     "candidates_evaluated": 282,
+     "candidates_built": 34,
+     "d56_evaluations": 282,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 113,
+      "tangent_touch": 144,
+      "overlap": 31,
+      "spacing": 42,
+      "double_cross": 9
+     },
+     "obstacle_samples_total": 35392,
+     "obstacle_samples_active": 33600,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 662,
+     "multi_arc_rejected_candidates": 113,
+     "pending_failures": {}
+    },
+    "15": {
+     "layer_id": 15,
+     "z_mm": 0.425,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.353196382522583,
+     "families": {
+      "ADJ_L": 49,
+      "ADJ_Z_TURN": 3,
+      "ADJ_UP_LOOP": 4
+     },
+     "candidates_evaluated": 185,
+     "candidates_built": 1,
+     "d56_evaluations": 185,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "tangent_touch": 89,
+      "multi_arc_forbidden": 10,
+      "spacing": 32,
+      "overlap": 4,
+      "double_cross": 4
+     },
+     "obstacle_samples_total": 48128,
+     "obstacle_samples_active": 45360,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 606,
+     "multi_arc_rejected_candidates": 10,
+     "pending_failures": {}
+    },
+    "16": {
+     "layer_id": 16,
+     "z_mm": 0.475,
+     "input": 56,
+     "attempted": 56,
+     "success": 56,
+     "failed": 0,
+     "seconds": 0.25067877769470215,
+     "families": {
+      "ADJ_L": 56
+     },
+     "candidates_evaluated": 56,
+     "candidates_built": 1,
+     "d56_evaluations": 56,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {},
+     "obstacle_samples_total": 78192,
+     "obstacle_samples_active": 76192,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 670,
+     "pending_failures": {}
+    },
+    "17": {
+     "layer_id": 17,
+     "z_mm": 0.575,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.2998042106628418,
+     "families": {
+      "ADJ_L": 62,
+      "ADJ_UP_LOOP": 1,
+      "ADJ_DOWN_LOOP": 1
+     },
+     "candidates_evaluated": 203,
+     "candidates_built": 1,
+     "d56_evaluations": 203,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 76,
+      "double_cross": 75,
+      "spacing": 41,
+      "overlap": 23
+     },
+     "obstacle_samples_total": 53968,
+     "obstacle_samples_active": 51248,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 1350,
+     "multi_arc_rejected_candidates": 76,
+     "pending_failures": {}
+    },
+    "18": {
+     "layer_id": 18,
+     "z_mm": 0.625,
+     "input": 64,
+     "attempted": 64,
+     "success": 64,
+     "failed": 0,
+     "seconds": 0.10571050643920898,
+     "families": {
+      "ADJ_L": 64
+     },
+     "candidates_evaluated": 64,
+     "candidates_built": 1,
+     "d56_evaluations": 64,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {},
+     "obstacle_samples_total": 14848,
+     "obstacle_samples_active": 13952,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 1430,
+     "pending_failures": {}
+    },
+    "20": {
+     "layer_id": 20,
+     "z_mm": -0.025,
+     "input": 52,
+     "attempted": 70,
+     "success": 49,
+     "failed": 3,
+     "seconds": 1.7938997745513916,
+     "families": {
+      "OPP_STRAIGHT": 4,
+      "OPP_DETOUR": 28,
+      "OPP_DETOUR_BACK": 15,
+      "OPP_Z": 12
+     },
+     "candidates_evaluated": 424,
+     "candidates_built": 144,
+     "d56_evaluations": 1648,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 624,
+      "outside_board": 1692,
+      "spacing": 117,
+      "tangent_touch": 119,
+      "double_cross": 108,
+      "overlap": 21
+     },
+     "obstacle_samples_total": 86192,
+     "obstacle_samples_active": 84600,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 4,
+       "gained": 0,
+       "routed": 48,
+       "failed": 4
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 18248,
+     "multi_arc_rejected_candidates": 624,
+     "pending_failures": {
+      "104": "candidate_budget_exhausted",
+      "106": "candidate_budget_exhausted",
+      "232": "candidate_budget_exhausted"
+     }
+    },
+    "1001": {
+     "layer_id": 1001,
+     "z_mm": 0.025,
+     "input": 52,
+     "attempted": 57,
+     "success": 52,
+     "failed": 0,
+     "seconds": 0.7129824161529541,
+     "families": {
+      "OPP_STRAIGHT": 8,
+      "OPP_DETOUR": 23,
+      "OPP_DETOUR_BACK": 12,
+      "OPP_Z": 12
+     },
+     "candidates_evaluated": 220,
+     "candidates_built": 115,
+     "d56_evaluations": 428,
+     "obstacle_rejections": 1,
+     "self_rejections": 0,
+     "rejection_counts": {
+      "multi_arc_forbidden": 544,
+      "tangent_touch": 46,
+      "spacing": 63,
+      "overlap": 10,
+      "outside_board": 301,
+      "double_cross": 45,
+      "obstacle": 1
+     },
+     "obstacle_samples_total": 70904,
+     "obstacle_samples_active": 69232,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [
+      {
+       "round": 1,
+       "pending": 1,
+       "gained": 0,
+       "routed": 51,
+       "failed": 1
+      }
+     ],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 13660,
+     "multi_arc_rejected_candidates": 544,
+     "pending_failures": {}
+    },
+    "1002": {
+     "layer_id": 1002,
+     "z_mm": 0.525,
+     "input": 48,
+     "attempted": 48,
+     "success": 48,
+     "failed": 0,
+     "seconds": 0.1094825267791748,
+     "families": {
+      "ADJ_L": 48
+     },
+     "candidates_evaluated": 48,
+     "candidates_built": 1,
+     "d56_evaluations": 48,
+     "obstacle_rejections": 0,
+     "self_rejections": 0,
+     "rejection_counts": {},
+     "obstacle_samples_total": 72448,
+     "obstacle_samples_active": 70800,
+     "initial_routes": 0,
+     "initial_routes_remapped": 0,
+     "rrr": [],
+     "frame_errors": {},
+     "multi_arc_skipped_specs": 1464,
+     "pending_failures": {}
+    }
+   },
+   "failed_route_ids": [
+    104,
+    106,
+    232
+   ]
+  },
+  {
+   "stage": "local_insert",
+   "repaired": 1,
+   "world_valid": 1024
+  }
+ ],
+ "validation": {
+  "world_valid": 1024,
+  "violations": 0,
+  "strict_clearance_mm": 0.05,
+  "status": "passed"
+ },
+ "artifact": "routes_l3d.json"
+}

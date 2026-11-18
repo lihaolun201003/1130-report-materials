@@ -1,0 +1,32 @@
+{
+ "schema": "coldstart20_height_config_sha256_v1",
+ "generated_at": "2026-11-17T22:54:44",
+ "algorithm": "sha256",
+ "description": "sha256 of every file of the 01_height_config deliverable (the generator script is included for reproducibility; this SHA256.json is not hashed into itself).",
+ "files": {
+  "height_table_20.json": {
+   "sha256": "e931f80102aaf9bad768349d053bac293f9c7b04d729d588254e447b133100d9",
+   "bytes": 21737
+  },
+  "height_table_20.md": {
+   "sha256": "b561d2456c43920af043f4b06fec33bcefa3996cd0b53525336a6ed79954dcac",
+   "bytes": 6786
+  },
+  "profile.json": {
+   "sha256": "fb37b8b136b9ef98221948ab31bf05da15ecf72677a6094330f72af7ce6def2e",
+   "bytes": 3932
+  },
+  "height_table_21_vs_20.md": {
+   "sha256": "e81323723b4c6e7a92532736bf059843ff42fe418cbb990ae06009e9021f0841",
+   "bytes": 3915
+  },
+  "model20_selfcheck.txt": {
+   "sha256": "46b0c4ed2d0019180f619787cc5ffed0d4daa102a53f3d6f24e6b7f79b6756a5",
+   "bytes": 1594
+  },
+  "build_height_config.py": {
+   "sha256": "d98e037f98cc93f0dcec69ec7daff159366c80672e3a867710e166a80bac6b9a",
+   "bytes": 30823
+  }
+ }
+}

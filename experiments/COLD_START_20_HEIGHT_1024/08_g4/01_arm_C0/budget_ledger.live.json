@@ -1,0 +1,129 @@
+{
+ "schema": "g4_budget_ledger_v1",
+ "written_at": "2026-11-18T01:13:57",
+ "route_3d_checks": 1092,
+ "d56_candidate_evals": null,
+ "xy_candidates_generated": 5661,
+ "transactions": 527,
+ "world_builds": 1,
+ "valid_candidates": 1052,
+ "rejected_3d": 40,
+ "accepted_transactions": 7,
+ "accepted_changes": 7,
+ "gain": 12,
+ "validator_runs": 1,
+ "no_candidate": 520,
+ "rolled_back": 0,
+ "wall_seconds": 638.74,
+ "extras": {
+  "engine": "xyzrouter.optimizer.Optimizer (legacy G3 engine)",
+  "arm_class": "C0_control_no_new_dof",
+  "seed": 20261104,
+  "budget": {
+   "route_3d_checks": 30000,
+   "d56_candidate_evals": 120000,
+   "wall_seconds": 600.0
+  },
+  "budget_enforced": {
+   "wall_seconds": 600.0,
+   "route_3d_checks": 30000,
+   "d56_candidate_evals": null
+  },
+  "d56_candidate_evals_proxy": {
+   "value": 83104,
+   "name": "d56_index_evaluate_calls_proxy",
+   "definition": "observed four_side_1024.d56.index.D56Index.evaluate invocations during the C0 search",
+   "comparable": false,
+   "why": "the legacy G3 engine does not book its exact strict-D56 candidate evaluations in the shared Ledger, so the SPEC main counter is null; this proxy uses a different counting convention than the G4 ledger (d56_top per plan_candidates call) and is therefore NOT used as a fair-budget axis"
+  },
+  "route_3d_checks_definition": "RouteWorld.evaluate_candidate calls (one full true-3D World geometric check of one candidate route each)",
+  "world_builds": {
+   "value": 1,
+   "definition": "fresh RouteWorld._world_all() builds"
+  },
+  "start_crossings": 1395,
+  "final_crossings": 1383,
+  "delta_vs_start": -12,
+  "start_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+  "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+  "search_seconds": 604.62,
+  "setup_seconds": 17.8,
+  "process_seconds_before_validation": 622.81,
+  "rounds": [
+   {
+    "label": "c0_r1",
+    "seconds": 600.41,
+    "accepted": 7,
+    "candidates_tried": 527,
+    "total_after": 1383,
+    "gain": 12,
+    "stats": {
+     "tried": 527,
+     "targets": 2559,
+     "xy_generated": 5661,
+     "built": 1092,
+     "rejected_3d": 40,
+     "evaluated": 1092,
+     "combos_pre": 2559,
+     "combos_eval": 536,
+     "no_gain": 520,
+     "accepted": 7,
+     "gain": 12,
+     "budget_stop": 1
+    },
+    "reasons": {
+     "no_xy_candidate": 268,
+     "transition_vs_flat": 30,
+     "flat_vs_transition": 4,
+     "transition_vs_transition": 6,
+     "no_current_crossings": 1
+    }
+   }
+  ],
+  "sweeps": 1,
+  "max_sweeps": 4,
+  "wall_budget_seconds": 600.0,
+  "remaining_wall_seconds": 0.0,
+  "resumed": false,
+  "prior_search_seconds": 0.0,
+  "snapshot_interval": 120.0,
+  "snapshots": 5,
+  "rng_note": "legacy optimizer is deterministic: the seed is recorded as a contract field but the engine consumes no RNG",
+  "budget_stop_reason": null,
+  "accepted_routes": [
+   157,
+   228,
+   432,
+   778,
+   426,
+   423,
+   221
+  ],
+  "failed_attempts_count": 0,
+  "note": "C0 only accepts strictly improving single-route changes (min_delta=1), so the final state is the arm best state",
+  "validation": {
+   "validator": "four_side_1024.fanout1024.xyzrouter.validate_xyz",
+   "manual_policy": "fully_optimizable",
+   "validation_pass": true,
+   "violations": 0,
+   "routes_file_sha256": "9390d7bd1f7732fdfc2b10b0a3a90549265705deb5938eb7311c89655de29783",
+   "matches_best_valid": true,
+   "runtime_seconds": 27.04,
+   "exit_code": 0,
+   "seconds": 27.47,
+   "counts": {
+    "routed": 1024,
+    "failed": 0,
+    "crossings": 1383,
+    "crossing_pairs": 1318,
+    "manual_route_count": 368,
+    "mid_transitions": 86,
+    "min_3d_clearance_mm": 0.062212557,
+    "total_length_mm": 156726.179911,
+    "geometry_pass": true,
+    "contract_pass": true
+   }
+  },
+  "process_total_seconds": 656.51
+ }
+}

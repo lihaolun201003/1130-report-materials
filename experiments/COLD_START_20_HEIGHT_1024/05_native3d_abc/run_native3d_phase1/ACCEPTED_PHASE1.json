@@ -1,0 +1,27 @@
+{
+ "schema": "coldstart20_native3d_phase1_accepted_v1",
+ "profile": "20_height_raised",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\05_native3d_abc\\run_native3d_phase1",
+ "source_experiment": "experiment_C",
+ "input_legal_solution": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E5_joint_repair_final",
+ "copied": [
+  "routes_l3d.json",
+  "crossing_stats.json",
+  "transition_stats.json",
+  "failed_attempts.json",
+  "summary.json",
+  "optimization_history.csv",
+  "assignment_1024.csv",
+  "layer_planes.json",
+  "process_rules.json",
+  "physical_layer_stack.json"
+ ],
+ "routes_sha256": "ea7808d70a5255194df25f70bf055185a15cca6f8dac9dfe1748bfa210a31253",
+ "plane_count": 20,
+ "body_plane_count": 18,
+ "interfaces": {
+  "z1": 0.025,
+  "z2": 0.525
+ },
+ "note": "mid-body R15 S-curve layer changes (Native 3D Phase 1)"
+}

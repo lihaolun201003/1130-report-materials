@@ -1,0 +1,85 @@
+{
+ "manual_route_count": 368,
+ "body_xy_signature_changed_count": 10,
+ "body_xy_signature_changed_fraction": 0.0272,
+ "r15_arc_parameter_changed_count": 10,
+ "r15_arc_count_changed_routes": 0,
+ "full_route_signature_changed_count": 10,
+ "primary_height_changed_routes": 10,
+ "mean_body_xy_displacement_mm": 2.3401,
+ "median_body_xy_displacement_mm": 2.2945,
+ "max_body_xy_displacement_mm": 5.7258,
+ "changed_routes": [
+  {
+   "route_id": 72,
+   "displacement_mm": 1.2358,
+   "old_group": "Z1-U2",
+   "old_height_label": "L10",
+   "new_height_label": "L3"
+  },
+  {
+   "route_id": 288,
+   "displacement_mm": 1.4175,
+   "old_group": "Z1-U3",
+   "old_height_label": "L9",
+   "new_height_label": "L4"
+  },
+  {
+   "route_id": 291,
+   "displacement_mm": 0.8518,
+   "old_group": "Z1-U3",
+   "old_height_label": "L9",
+   "new_height_label": "L4"
+  },
+  {
+   "route_id": 294,
+   "displacement_mm": 0.9602,
+   "old_group": "Z1-U3",
+   "old_height_label": "L9",
+   "new_height_label": "L4"
+  },
+  {
+   "route_id": 334,
+   "displacement_mm": 1.2358,
+   "old_group": "Z1-U2",
+   "old_height_label": "L10",
+   "new_height_label": "L3"
+  },
+  {
+   "route_id": 773,
+   "displacement_mm": 3.7541,
+   "old_group": "Z2-U2",
+   "old_height_label": "L11",
+   "new_height_label": "L18"
+  },
+  {
+   "route_id": 774,
+   "displacement_mm": 2.2945,
+   "old_group": "Z2-U1",
+   "old_height_label": "Z2_INTERFACE",
+   "new_height_label": "L8"
+  },
+  {
+   "route_id": 776,
+   "displacement_mm": 3.5774,
+   "old_group": "Z2-U2",
+   "old_height_label": "L11",
+   "new_height_label": "L9"
+  },
+  {
+   "route_id": 778,
+   "displacement_mm": 2.3481,
+   "old_group": "Z2-U1",
+   "old_height_label": "L15",
+   "new_height_label": "L8"
+  },
+  {
+   "route_id": 780,
+   "displacement_mm": 5.7258,
+   "old_group": "Z2-U2",
+   "old_height_label": "L11",
+   "new_height_label": "L9"
+  }
+ ],
+ "changed_routes_truncated": false
+}

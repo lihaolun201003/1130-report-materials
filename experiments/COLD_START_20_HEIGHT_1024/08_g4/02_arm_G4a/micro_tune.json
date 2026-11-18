@@ -1,0 +1,897 @@
+{
+ "arm": "G4a",
+ "rounds": 2,
+ "attempts": [
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1395,
+   "total": 1395,
+   "reasons": {},
+   "per_plane": {
+    "0.175": {
+     "old": 85,
+     "new": 138
+    },
+    "0.425": {
+     "old": 110,
+     "new": 96
+    },
+    "0.525": {
+     "old": 108,
+     "new": 102
+    }
+   },
+   "repaired": true,
+   "seconds": 5.61,
+   "note": "Z2-U1->L10[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U1",
+   "target_label": "L10",
+   "target_layer": 10,
+   "target_z": 0.175,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "Z2_INTERFACE": 1,
+    "L10": 8,
+    "L15": 7
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1395,
+   "total": 1395,
+   "reasons": {},
+   "per_plane": {
+    "0.175": {
+     "old": 85,
+     "new": 134
+    },
+    "0.425": {
+     "old": 110,
+     "new": 96
+    },
+    "0.525": {
+     "old": 108,
+     "new": 102
+    }
+   },
+   "repaired": true,
+   "seconds": 7.34,
+   "note": "Z2-U1->L10[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U1",
+   "target_label": "L10",
+   "target_layer": 10,
+   "target_z": 0.175,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "Z2_INTERFACE": 1,
+    "L10": 8,
+    "L15": 7
+   }
+  },
+  {
+   "accepted": true,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": -2,
+   "gain": 2,
+   "old_total": 1395,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.225": {
+     "old": 151,
+     "new": 149
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": false,
+   "seconds": 4.48,
+   "note": "Z2-U2->L11[crossing_desc]",
+   "failure_reason": "accepted",
+   "group": "Z2-U2",
+   "target_label": "L11",
+   "target_layer": 11,
+   "target_z": 0.225,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L11": 16
+   },
+   "new_heights": {
+    "L11": 16
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.325": {
+     "old": 35,
+     "new": 53
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": true,
+   "seconds": 5.42,
+   "note": "Z2-U4->L13[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U4",
+   "target_label": "L13",
+   "target_layer": 13,
+   "target_z": 0.325,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L13": 40
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.325": {
+     "old": 35,
+     "new": 55
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": true,
+   "seconds": 7.28,
+   "note": "Z2-U4->L13[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U4",
+   "target_label": "L13",
+   "target_layer": 13,
+   "target_z": 0.325,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L13": 40
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "-0.325": {
+     "old": 21,
+     "new": 21
+    },
+    "0.025": {
+     "old": 76,
+     "new": 76
+    }
+   },
+   "repaired": true,
+   "seconds": 4.56,
+   "note": "Z1-U1->L2[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z1-U1",
+   "target_label": "L2",
+   "target_layer": 2,
+   "target_z": -0.325,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L2": 33,
+    "L5": 27,
+    "L4": 4
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "-0.325": {
+     "old": 21,
+     "new": 21
+    },
+    "0.025": {
+     "old": 76,
+     "new": 76
+    }
+   },
+   "repaired": true,
+   "seconds": 5.92,
+   "note": "Z1-U1->L2[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z1-U1",
+   "target_label": "L2",
+   "target_layer": 2,
+   "target_z": -0.325,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L2": 33,
+    "L5": 27,
+    "L4": 4
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 7,
+   "members": 7,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.275": {
+     "old": 19,
+     "new": 45
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": true,
+   "seconds": 4.51,
+   "note": "Z2-U3->L12[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U3",
+   "target_label": "L12",
+   "target_layer": 12,
+   "target_z": 0.275,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L12": 40
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 7,
+   "members": 7,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.275": {
+     "old": 19,
+     "new": 45
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": true,
+   "seconds": 5.96,
+   "note": "Z2-U3->L12[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U3",
+   "target_label": "L12",
+   "target_layer": 12,
+   "target_z": 0.275,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 1,
+   "old_heights": {
+    "L12": 40
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.175": {
+     "old": 85,
+     "new": 138
+    },
+    "0.425": {
+     "old": 110,
+     "new": 96
+    },
+    "0.525": {
+     "old": 108,
+     "new": 102
+    }
+   },
+   "repaired": true,
+   "seconds": 5.61,
+   "note": "Z2-U1->L10[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U1",
+   "target_label": "L10",
+   "target_layer": 10,
+   "target_z": 0.175,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "Z2_INTERFACE": 1,
+    "L10": 8,
+    "L15": 7
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.175": {
+     "old": 85,
+     "new": 134
+    },
+    "0.425": {
+     "old": 110,
+     "new": 96
+    },
+    "0.525": {
+     "old": 108,
+     "new": 102
+    }
+   },
+   "repaired": true,
+   "seconds": 7.41,
+   "note": "Z2-U1->L10[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U1",
+   "target_label": "L10",
+   "target_layer": 10,
+   "target_z": 0.175,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "Z2_INTERFACE": 1,
+    "L10": 8,
+    "L15": 7
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.225": {
+     "old": 149,
+     "new": 149
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": true,
+   "seconds": 5.51,
+   "note": "Z2-U2->L11[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U2",
+   "target_label": "L11",
+   "target_layer": 11,
+   "target_z": 0.225,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L11": 16
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.225": {
+     "old": 149,
+     "new": 149
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": true,
+   "seconds": 7.1,
+   "note": "Z2-U2->L11[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U2",
+   "target_label": "L11",
+   "target_layer": 11,
+   "target_z": 0.225,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L11": 16
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.325": {
+     "old": 35,
+     "new": 53
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": true,
+   "seconds": 5.49,
+   "note": "Z2-U4->L13[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U4",
+   "target_label": "L13",
+   "target_layer": 13,
+   "target_z": 0.325,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L13": 40
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.325": {
+     "old": 35,
+     "new": 55
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": true,
+   "seconds": 7.23,
+   "note": "Z2-U4->L13[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U4",
+   "target_label": "L13",
+   "target_layer": 13,
+   "target_z": 0.325,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L13": 40
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "-0.325": {
+     "old": 21,
+     "new": 21
+    },
+    "0.025": {
+     "old": 76,
+     "new": 76
+    }
+   },
+   "repaired": true,
+   "seconds": 4.72,
+   "note": "Z1-U1->L2[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z1-U1",
+   "target_label": "L2",
+   "target_layer": 2,
+   "target_z": -0.325,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L2": 33,
+    "L5": 27,
+    "L4": 4
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 10,
+   "members": 10,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "-0.325": {
+     "old": 21,
+     "new": 21
+    },
+    "0.025": {
+     "old": 76,
+     "new": 76
+    }
+   },
+   "repaired": true,
+   "seconds": 6.29,
+   "note": "Z1-U1->L2[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z1-U1",
+   "target_label": "L2",
+   "target_layer": 2,
+   "target_z": -0.325,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L2": 33,
+    "L5": 27,
+    "L4": 4
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 7,
+   "members": 7,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.275": {
+     "old": 19,
+     "new": 45
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": true,
+   "seconds": 4.66,
+   "note": "Z2-U3->L12[crossing_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U3",
+   "target_label": "L12",
+   "target_layer": 12,
+   "target_z": 0.275,
+   "order": "crossing_desc",
+   "cfg": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "attempt_index": 0,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L12": 40
+   }
+  },
+  {
+   "accepted": false,
+   "placed": 7,
+   "members": 7,
+   "failed_rid": null,
+   "failed_at": null,
+   "delta": 0,
+   "gain": 0,
+   "old_total": 1393,
+   "total": 1393,
+   "reasons": {},
+   "per_plane": {
+    "0.275": {
+     "old": 19,
+     "new": 45
+    },
+    "0.525": {
+     "old": 108,
+     "new": 108
+    }
+   },
+   "repaired": true,
+   "seconds": 5.76,
+   "note": "Z2-U3->L12[risk_desc]",
+   "failure_reason": "legal_but_no_crossing_improvement",
+   "group": "Z2-U3",
+   "target_label": "L12",
+   "target_layer": 12,
+   "target_z": 0.275,
+   "order": "risk_desc",
+   "cfg": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "attempt_index": 1,
+   "kind": "micro_tune",
+   "tune_round": 2,
+   "old_heights": {
+    "L12": 40
+   }
+  }
+ ],
+ "accepted": 1
+}

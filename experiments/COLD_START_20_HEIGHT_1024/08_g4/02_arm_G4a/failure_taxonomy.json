@@ -1,0 +1,73 @@
+{
+ "schema": "g4_failure_taxonomy_v1",
+ "spec_section": "SPEC_G4.md §6",
+ "failure_classes": {
+  "no_legal_xy_corridor": {
+   "count": 12,
+   "observed": true,
+   "note": ""
+  },
+  "target_height_occupied": {
+   "count": 2,
+   "observed": true,
+   "note": ""
+  },
+  "r15_geometry_rejected": {
+   "count": 0,
+   "observed": false,
+   "note": ""
+  },
+  "transition_3d_conflict": {
+   "count": 7,
+   "observed": true,
+   "note": ""
+  },
+  "lead_below_minimum": {
+   "count": 0,
+   "observed": false,
+   "note": ""
+  },
+  "joint_rebuild_failed": {
+   "count": 15,
+   "observed": true,
+   "note": "member candidate exists on its own but the joint transaction could not place the whole set (3D conflict with the already re-planned members) -- legacy records may carry the old \"ok\" tag"
+  },
+  "legal_but_no_crossing_improvement": {
+   "count": 50,
+   "observed": true,
+   "note": ""
+  },
+  "budget_exhausted": {
+   "count": 1,
+   "observed": true,
+   "note": "search stopped because the wall-clock / counted budget cap was reached; the remaining planned attempts were not executed"
+  },
+  "no_current_crossings": {
+   "count": 0,
+   "observed": false,
+   "note": ""
+  },
+  "structure_error": {
+   "count": 0,
+   "observed": false,
+   "note": ""
+  }
+ },
+ "observed_class_count": 6,
+ "total_failed_attempts": 89,
+ "extra_bookkeeping_keys": {
+  "already_at_height": 2
+ },
+ "nested_candidate_diagnoses": {
+  "transition_3d_conflict": 11,
+  "no_legal_xy_corridor": 10
+ },
+ "failed_attempts_by_kind": {
+  "": 70,
+  "micro_tune": 18
+ },
+ "note": "every arm failure record is mapped onto exactly one of the eight SPEC §6 classes; classes with count=0 were not triggered by the accepted-search stream (the corresponding moves were either pre-filtered by the geometric necessity conditions or absent for this start point)",
+ "arm": "G4a",
+ "search_wall_seconds": 816.71,
+ "budget_cap_seconds": 900.0
+}

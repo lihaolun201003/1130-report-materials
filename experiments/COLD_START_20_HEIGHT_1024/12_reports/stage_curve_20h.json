@@ -1,0 +1,475 @@
+{
+ "schema": "coldstart20_stage_curve_v1",
+ "profile": "20_height_raised",
+ "plane_count": 20,
+ "body_plane_count": 18,
+ "interfaces": {
+  "z1": 0.025,
+  "z2": 0.525
+ },
+ "reference_21h": [
+  {
+   "stage": "21H initial fanout-first baseline",
+   "crossings": 11890
+  },
+  {
+   "stage": "21H E5 joint repair",
+   "crossings": 2606
+  },
+  {
+   "stage": "21H Native 3D Phase 1",
+   "crossings": 2440
+  },
+  {
+   "stage": "21H Native 3D Phase 2",
+   "crossings": 2409
+  },
+  {
+   "stage": "21H G3",
+   "crossings": 1322
+  },
+  {
+   "stage": "21H G4 best legal",
+   "crossings": 1185
+  }
+ ],
+ "stages": [
+  {
+   "stage": "S03_initial_cold_start",
+   "label": "03 initial fanout-first + D56 multi-arc + 3D (cold assignment)",
+   "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\03_fanout_and_xy\\run_initial_20h",
+   "exists": true,
+   "crossing": {
+    "available": true,
+    "crossings": 12338,
+    "crossing_pairs": 10133,
+    "routed": 1024,
+    "failed": 0,
+    "per_route_distribution": {
+     "max": 83,
+     "p95": 68.0,
+     "mean": 38.55625,
+     "routes_with_crossings": 640
+    }
+   },
+   "validation": {
+    "available": true,
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "validator": "four_side_1024.fanout1024.reheight21.validate21",
+    "routes_sha256": "2eb3a14cc208b6681c876e5aaf849db435228ed1ad20d5daa689bf02c15d0a7c"
+   },
+   "final_stats": {
+    "available": true,
+    "routed": 1024,
+    "failed": 0,
+    "direct_routes": 100,
+    "transition_routes": 924,
+    "total_transitions": 1848,
+    "total_length_mm": 157368.795,
+    "max_route_length_mm": 282.322,
+    "min_3d_clearance_mm": 0.05,
+    "radius_mm": 15.0,
+    "world_violations": 0,
+    "mid_transitions": null,
+    "routes_with_mid_transitions": null
+   },
+   "transition": {
+    "available": false
+   },
+   "multi_arc": {
+    "available": true,
+    "planar_arc_primitives": 1700,
+    "routes_with_two_or_more_planar_arcs": 646
+   },
+   "routes_sha256": "2eb3a14cc208b6681c876e5aaf849db435228ed1ad20d5daa689bf02c15d0a7c",
+   "crossings": 12338,
+   "crossing_pairs": 10133,
+   "routed": 1024,
+   "failed": 0,
+   "status": "available"
+  },
+  {
+   "stage": "S04_E5_joint_repair",
+   "label": "04 from-scratch annealing + joint repair (accepted E5)",
+   "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E5_joint_repair_final",
+   "exists": true,
+   "crossing": {
+    "available": true,
+    "crossings": 3275,
+    "crossing_pairs": 2774,
+    "routed": 1024,
+    "failed": 0,
+    "per_route_distribution": {
+     "max": 49,
+     "p95": 28.0,
+     "mean": 11.196581,
+     "routes_with_crossings": 585
+    }
+   },
+   "validation": {
+    "available": true,
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "validator": "four_side_1024.fanout1024.reheight21.validate21",
+    "routes_sha256": "9da7924caaf61bcef0e63b0d40428882fe43763ef8a010c8869d16cd8956c877"
+   },
+   "final_stats": {
+    "available": true,
+    "routed": 1024,
+    "failed": 0,
+    "direct_routes": 91,
+    "transition_routes": 933,
+    "total_transitions": 1866,
+    "total_length_mm": 157448.209,
+    "max_route_length_mm": 282.322,
+    "min_3d_clearance_mm": 0.106265934,
+    "radius_mm": 15.0,
+    "world_violations": 0,
+    "mid_transitions": null,
+    "routes_with_mid_transitions": null
+   },
+   "transition": {
+    "available": false
+   },
+   "multi_arc": {
+    "available": true,
+    "planar_arc_primitives": 1584,
+    "routes_with_two_or_more_planar_arcs": 592
+   },
+   "routes_sha256": "9da7924caaf61bcef0e63b0d40428882fe43763ef8a010c8869d16cd8956c877",
+   "crossings": 3275,
+   "crossing_pairs": 2774,
+   "routed": 1024,
+   "failed": 0,
+   "status": "available",
+   "delta_crossings": -9063
+  },
+  {
+   "stage": "S05_native3d_phase1",
+   "label": "05 Native 3D Phase 1 (A/B/C mid-body R15 layer change)",
+   "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\05_native3d_abc\\run_native3d_phase1",
+   "exists": true,
+   "crossing": {
+    "available": true,
+    "crossings": 3103,
+    "crossing_pairs": 2733,
+    "routed": 1024,
+    "failed": 0,
+    "per_route_distribution": {
+     "max": 49,
+     "p95": 27.0,
+     "mean": 10.572402,
+     "routes_with_crossings": 587
+    }
+   },
+   "validation": {
+    "available": true,
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+    "routes_sha256": "ea7808d70a5255194df25f70bf055185a15cca6f8dac9dfe1748bfa210a31253"
+   },
+   "final_stats": {
+    "available": true,
+    "routed": 1024,
+    "failed": 0,
+    "direct_routes": 91,
+    "transition_routes": null,
+    "total_transitions": 1998,
+    "total_length_mm": 157448.425026,
+    "max_route_length_mm": 282.321952412,
+    "min_3d_clearance_mm": 0.068629474,
+    "radius_mm": 15.0,
+    "world_violations": null,
+    "mid_transitions": 132,
+    "routes_with_mid_transitions": 60
+   },
+   "transition": {
+    "available": true,
+    "mid_transitions": 132,
+    "routes_with_mid": 60
+   },
+   "multi_arc": {
+    "available": true,
+    "planar_arc_primitives": 1584,
+    "routes_with_two_or_more_planar_arcs": 592
+   },
+   "routes_sha256": "ea7808d70a5255194df25f70bf055185a15cca6f8dac9dfe1748bfa210a31253",
+   "crossings": 3103,
+   "crossing_pairs": 2733,
+   "routed": 1024,
+   "failed": 0,
+   "status": "available",
+   "delta_crossings": -172
+  },
+  {
+   "stage": "S06_native3d_phase2",
+   "label": "06 Native 3D Phase 2 (D/E/F joint make-way + arc rebuild)",
+   "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2",
+   "exists": true,
+   "crossing": {
+    "available": true,
+    "crossings": 3061,
+    "crossing_pairs": 2705,
+    "routed": 1024,
+    "failed": 0,
+    "per_route_distribution": {
+     "max": 49,
+     "p95": 26.55,
+     "mean": 10.376271,
+     "routes_with_crossings": 590
+    }
+   },
+   "validation": {
+    "available": true,
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+    "routes_sha256": "1498023dd4fe71d711131c6632620aaec2e98941f3682b2060d6a7f0b304f265"
+   },
+   "final_stats": {
+    "available": true,
+    "routed": 1024,
+    "failed": 0,
+    "direct_routes": 91,
+    "transition_routes": null,
+    "total_transitions": 2022,
+    "total_length_mm": 157448.464291,
+    "max_route_length_mm": 282.321952412,
+    "min_3d_clearance_mm": 0.068629474,
+    "radius_mm": 15.0,
+    "world_violations": null,
+    "mid_transitions": 156,
+    "routes_with_mid_transitions": 68
+   },
+   "transition": {
+    "available": true,
+    "mid_transitions": 156,
+    "routes_with_mid": 68
+   },
+   "multi_arc": {
+    "available": true,
+    "planar_arc_primitives": 1584,
+    "routes_with_two_or_more_planar_arcs": 592
+   },
+   "routes_sha256": "5d1eb633de63a12220bf28f37855c3d9b6a5ceddc3887005fafc16007cf53c0a",
+   "crossings": 3061,
+   "crossing_pairs": 2705,
+   "routed": 1024,
+   "failed": 0,
+   "status": "available",
+   "delta_crossings": -42
+  },
+  {
+   "stage": "S07_G123",
+   "label": "07 XYZ joint optimisation G1/G2a/G2b/G3",
+   "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+   "exists": true,
+   "crossing": {
+    "available": true,
+    "crossings": 1395,
+    "crossing_pairs": 1325,
+    "routed": 1024,
+    "failed": 0,
+    "per_route_distribution": {
+     "max": 0,
+     "p95": 0.0,
+     "mean": 0.0,
+     "routes_with_crossings": 0
+    }
+   },
+   "validation": {
+    "available": false
+   },
+   "final_stats": {
+    "available": false,
+    "routed": null,
+    "failed": null,
+    "direct_routes": null,
+    "transition_routes": null,
+    "total_transitions": 1952,
+    "total_length_mm": null,
+    "max_route_length_mm": 287.071945971,
+    "min_3d_clearance_mm": null,
+    "radius_mm": null,
+    "world_violations": null,
+    "mid_transitions": null,
+    "routes_with_mid_transitions": null
+   },
+   "transition": {
+    "available": false
+   },
+   "multi_arc": {
+    "available": true,
+    "planar_arc_primitives": 1844,
+    "routes_with_two_or_more_planar_arcs": 652
+   },
+   "routes_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+   "crossings": 1395,
+   "crossing_pairs": 1325,
+   "routed": 1024,
+   "failed": 0,
+   "status": "available",
+   "delta_crossings": -1666
+  },
+  {
+   "stage": "S08_G4_arms_best",
+   "label": "08 G4 best independent arm (G4c-free)",
+   "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\05_arm_G4c_free\\best_valid",
+   "exists": true,
+   "crossing": {
+    "available": false
+   },
+   "validation": {
+    "available": false
+   },
+   "final_stats": {
+    "available": false,
+    "routed": null,
+    "failed": null,
+    "direct_routes": null,
+    "transition_routes": null,
+    "total_transitions": 1950,
+    "total_length_mm": null,
+    "max_route_length_mm": 282.321952412,
+    "min_3d_clearance_mm": null,
+    "radius_mm": null,
+    "world_violations": null,
+    "mid_transitions": null,
+    "routes_with_mid_transitions": null
+   },
+   "transition": {
+    "available": false
+   },
+   "multi_arc": {
+    "available": true,
+    "planar_arc_primitives": 1850,
+    "routes_with_two_or_more_planar_arcs": 654
+   },
+   "routes_sha256": "0011ab2d3735da0203784d19aafb6e51d2861bd6ba70e1558cae939a91ef78c7",
+   "crossings": null,
+   "crossing_pairs": null,
+   "routed": null,
+   "failed": null,
+   "status": "not run yet"
+  },
+  {
+   "stage": "S08_G4_chain",
+   "label": "08 G4 progressive chain (best link)",
+   "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\03_link_G4d",
+   "exists": true,
+   "crossing": {
+    "available": true,
+    "crossings": 1283,
+    "crossing_pairs": 1221,
+    "routed": 1024,
+    "failed": 0,
+    "per_route_distribution": {
+     "max": 0,
+     "p95": 0.0,
+     "mean": 0.0,
+     "routes_with_crossings": 0
+    }
+   },
+   "validation": {
+    "available": false
+   },
+   "final_stats": {
+    "available": false,
+    "routed": null,
+    "failed": null,
+    "direct_routes": null,
+    "transition_routes": null,
+    "total_transitions": 1950,
+    "total_length_mm": null,
+    "max_route_length_mm": 282.321952412,
+    "min_3d_clearance_mm": null,
+    "radius_mm": null,
+    "world_violations": null,
+    "mid_transitions": null,
+    "routes_with_mid_transitions": null
+   },
+   "transition": {
+    "available": false
+   },
+   "multi_arc": {
+    "available": true,
+    "planar_arc_primitives": 1848,
+    "routes_with_two_or_more_planar_arcs": 658
+   },
+   "routes_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+   "crossings": 1283,
+   "crossing_pairs": 1221,
+   "routed": 1024,
+   "failed": 0,
+   "status": "available"
+  },
+  {
+   "stage": "S10_final_best",
+   "label": "final best legal 20-height solution (frozen)",
+   "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+   "exists": true,
+   "crossing": {
+    "available": true,
+    "crossings": 1283,
+    "crossing_pairs": 1221,
+    "routed": 1024,
+    "failed": 0,
+    "per_route_distribution": {
+     "max": 0,
+     "p95": 0.0,
+     "mean": 0.0,
+     "routes_with_crossings": 0
+    }
+   },
+   "validation": {
+    "available": true,
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "violation_count": 0,
+    "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+    "routes_sha256": "d407a88e9c84c9a533826ed9a7439afe3eb1e6856b029a6c30e67eb65ac97702"
+   },
+   "final_stats": {
+    "available": true,
+    "routed": 1024,
+    "failed": 0,
+    "direct_routes": 92,
+    "transition_routes": null,
+    "total_transitions": 1950,
+    "total_length_mm": 156597.221522,
+    "max_route_length_mm": 282.321952412,
+    "min_3d_clearance_mm": 0.062212557,
+    "radius_mm": 15.0,
+    "world_violations": null,
+    "mid_transitions": null,
+    "routes_with_mid_transitions": null
+   },
+   "transition": {
+    "available": false
+   },
+   "multi_arc": {
+    "available": true,
+    "planar_arc_primitives": 1848,
+    "routes_with_two_or_more_planar_arcs": 658
+   },
+   "routes_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+   "crossings": 1283,
+   "crossing_pairs": 1221,
+   "routed": 1024,
+   "failed": 0,
+   "status": "available",
+   "delta_crossings": 0
+  }
+ ]
+}

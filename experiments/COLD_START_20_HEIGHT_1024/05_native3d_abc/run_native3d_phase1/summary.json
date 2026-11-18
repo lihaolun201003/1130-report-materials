@@ -1,0 +1,1330 @@
+{
+ "schema": "native3d_experiment_c_summary_v1",
+ "strategy": "B4_multi_excursion",
+ "start_total": 2606,
+ "final_crossings": 3103,
+ "crossing_pairs": 2733,
+ "routes": 1024,
+ "routes_with_mid_transitions": 60,
+ "mid_transitions": 132,
+ "total_length_mm": 157448.425,
+ "baseline_length_mm": 157448.209,
+ "validation": {
+  "valid": 1024,
+  "violations": 0,
+  "violation_kinds": {},
+  "examples": [],
+  "seconds": 15.83
+ },
+ "min_3d_clearance": {
+  "min_3d_clearance_mm": 0.068629474,
+  "lower_bound_mm": 0.05,
+  "seconds": 2.02
+ },
+ "stages": {
+  "C1_top10": {
+   "sweeps": 1,
+   "total": 3275,
+   "best_total": 3275,
+   "applied_total": 0,
+   "net_total": 0,
+   "seconds": 1.3
+  },
+  "C2_top50": {
+   "sweeps": 1,
+   "total": 3264,
+   "best_total": 3264,
+   "applied_total": 4,
+   "net_total": -11,
+   "seconds": 12.1
+  },
+  "C3_all": {
+   "sweeps": 3,
+   "total": 3103,
+   "best_total": 3103,
+   "applied_total": 62,
+   "net_total": -161,
+   "seconds": 366.80000000000007
+  }
+ },
+ "history": [
+  {
+   "stage": "C1_top10",
+   "sweep": 1,
+   "start_total": 3275,
+   "end_total": 3275,
+   "net": 0,
+   "applied": 0,
+   "routes": 10,
+   "seconds": 1.3,
+   "reasons": {
+    "shadow_crossing": 12
+   },
+   "improvements": []
+  },
+  {
+   "stage": "C2_top50",
+   "sweep": 1,
+   "start_total": 3275,
+   "end_total": 3264,
+   "net": -11,
+   "applied": 4,
+   "routes": 50,
+   "seconds": 12.1,
+   "reasons": {
+    "shadow_crossing": 266,
+    "no_gain": 5,
+    "guard_combined": 1,
+    "guard:world": 1
+   },
+   "improvements": [
+    {
+     "route_id": 8,
+     "delta": -1,
+     "crossings_after": 3274,
+     "excursions": [
+      {
+       "target_plane": 6,
+       "target_z": -0.125,
+       "from_z": -0.075,
+       "s0": 89.79392615929031,
+       "s1": 99.70607384070969,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 6.449489742783186,
+       "cluster_count": 1,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 32,
+     "delta": -4,
+     "crossings_after": 3270,
+     "excursions": [
+      {
+       "target_plane": 6,
+       "target_z": -0.125,
+       "from_z": -0.075,
+       "s0": 171.04392615929032,
+       "s1": 182.95607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 8.449489742783157,
+       "cluster_count": 4,
+       "delta": -4
+      }
+     ]
+    },
+    {
+     "route_id": 496,
+     "delta": -3,
+     "crossings_after": 3267,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.075,
+       "s0": 146.29392615929032,
+       "s1": 166.70607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 16.94948974278317,
+       "cluster_count": 8,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 16,
+     "delta": -3,
+     "crossings_after": 3264,
+     "excursions": [
+      {
+       "target_plane": 6,
+       "target_z": -0.125,
+       "from_z": -0.075,
+       "s0": 182.79392615929032,
+       "s1": 192.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 6.199489742783158,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "stage": "C3_all",
+   "sweep": 1,
+   "start_total": 3264,
+   "end_total": 3117,
+   "net": -147,
+   "applied": 56,
+   "routes": 585,
+   "seconds": 177.8,
+   "reasons": {
+    "shadow_crossing": 10518,
+    "d56": 335,
+    "guard:world": 122,
+    "no_gain": 988,
+    "guard:metadata": 99,
+    "guard_combined": 6
+   },
+   "improvements": [
+    {
+     "route_id": 157,
+     "delta": -4,
+     "crossings_after": 3260,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 180.29392615929032,
+       "s1": 192.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 8.699489742783157,
+       "cluster_count": 4,
+       "delta": -4
+      }
+     ]
+    },
+    {
+     "route_id": 495,
+     "delta": -4,
+     "crossings_after": 3256,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.025,
+       "s0": 141.79392615929032,
+       "s1": 166.70607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 21.44948974278317,
+       "cluster_count": 7,
+       "delta": -4
+      }
+     ]
+    },
+    {
+     "route_id": 497,
+     "delta": -1,
+     "crossings_after": 3255,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.025,
+       "s0": 141.79392615929032,
+       "s1": 168.20607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 22.949489742783157,
+       "cluster_count": 7,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 133,
+     "delta": -3,
+     "crossings_after": 3252,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.125,
+       "s0": 130.07780747850433,
+       "s1": 148.92219252149567,
+       "footprint_mm": 2.447447650104071,
+       "middle_mm": 13.949489742783207,
+       "cluster_count": 6,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 475,
+     "delta": -4,
+     "crossings_after": 3248,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.075,
+       "s0": 137.07780747850433,
+       "s1": 158.67219252149567,
+       "footprint_mm": 2.447447650104071,
+       "middle_mm": 16.699489742783214,
+       "cluster_count": 8,
+       "delta": -4
+      }
+     ]
+    },
+    {
+     "route_id": 7,
+     "delta": -3,
+     "crossings_after": 3245,
+     "excursions": [
+      {
+       "target_plane": 6,
+       "target_z": -0.125,
+       "from_z": -0.075,
+       "s0": 174.04392615929032,
+       "s1": 183.70607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 6.1994897427831575,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 164,
+     "delta": -5,
+     "crossings_after": 3240,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": -0.025,
+       "s0": 132.52900747529267,
+       "s1": 152.22099252470733,
+       "footprint_mm": 2.996247653315728,
+       "middle_mm": 13.6994897427832,
+       "cluster_count": 5,
+       "delta": -5
+      }
+     ]
+    },
+    {
+     "route_id": 165,
+     "delta": -1,
+     "crossings_after": 3239,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": -0.025,
+       "s0": 131.02900747529267,
+       "s1": 150.72099252470733,
+       "footprint_mm": 2.996247653315728,
+       "middle_mm": 13.6994897427832,
+       "cluster_count": 5,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 216,
+     "delta": -4,
+     "crossings_after": 3235,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 172.29392615929032,
+       "s1": 184.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 8.699489742783157,
+       "cluster_count": 4,
+       "delta": -4
+      }
+     ]
+    },
+    {
+     "route_id": 493,
+     "delta": -3,
+     "crossings_after": 3232,
+     "excursions": [
+      {
+       "target_plane": 6,
+       "target_z": -0.125,
+       "from_z": -0.075,
+       "s0": 174.79392615929032,
+       "s1": 182.95607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.699489742783158,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 170,
+     "delta": -3,
+     "crossings_after": 3229,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.025,
+       "s0": 169.04392615929032,
+       "s1": 184.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 11.949489742783157,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 481,
+     "delta": -3,
+     "crossings_after": 3226,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.075,
+       "s0": 115.29392615929031,
+       "s1": 142.70607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 23.94948974278317,
+       "cluster_count": 8,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 125,
+     "delta": -3,
+     "crossings_after": 3223,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.125,
+       "s0": 123.57780747850434,
+       "s1": 142.42219252149567,
+       "footprint_mm": 2.447447650104071,
+       "middle_mm": 13.949489742783193,
+       "cluster_count": 6,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 171,
+     "delta": -1,
+     "crossings_after": 3222,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.025,
+       "s0": 170.54392615929032,
+       "s1": 184.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 10.449489742783157,
+       "cluster_count": 2,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 454,
+     "delta": -4,
+     "crossings_after": 3218,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.075,
+       "s0": 128.57780747850433,
+       "s1": 148.92219252149567,
+       "footprint_mm": 2.447447650104071,
+       "middle_mm": 15.449489742783214,
+       "cluster_count": 8,
+       "delta": -4
+      }
+     ]
+    },
+    {
+     "route_id": 36,
+     "delta": -2,
+     "crossings_after": 3216,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.075,
+       "s0": 110.79392615929031,
+       "s1": 138.20607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 23.94948974278317,
+       "cluster_count": 6,
+       "delta": -2
+      }
+     ]
+    },
+    {
+     "route_id": 142,
+     "delta": -5,
+     "crossings_after": 3211,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": 0.075,
+       "s0": 126.54392615929031,
+       "s1": 144.20607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 14.199489742783186,
+       "cluster_count": 5,
+       "delta": -5
+      }
+     ]
+    },
+    {
+     "route_id": 210,
+     "delta": -5,
+     "crossings_after": 3206,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": 0.075,
+       "s0": 143.79392615929032,
+       "s1": 157.70607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 10.449489742783157,
+       "cluster_count": 5,
+       "delta": -5
+      }
+     ]
+    },
+    {
+     "route_id": 480,
+     "delta": -3,
+     "crossings_after": 3203,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.025,
+       "s0": 122.54392615929031,
+       "s1": 144.20607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 18.19948974278317,
+       "cluster_count": 7,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 482,
+     "delta": -3,
+     "crossings_after": 3200,
+     "excursions": [
+      {
+       "target_plane": 8,
+       "target_z": 0.075,
+       "from_z": -0.025,
+       "s0": 115.82780747850434,
+       "s1": 144.92219252149567,
+       "footprint_mm": 2.447447650104071,
+       "middle_mm": 24.19948974278319,
+       "cluster_count": 7,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 429,
+     "delta": -2,
+     "crossings_after": 3198,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.025,
+       "s0": 133.79392615929032,
+       "s1": 149.20607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 11.949489742783157,
+       "cluster_count": 4,
+       "delta": -2
+      }
+     ]
+    },
+    {
+     "route_id": 431,
+     "delta": -4,
+     "crossings_after": 3194,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": -0.025,
+       "s0": 132.52900747529267,
+       "s1": 151.97099252470733,
+       "footprint_mm": 2.996247653315728,
+       "middle_mm": 13.4494897427832,
+       "cluster_count": 4,
+       "delta": -4
+      }
+     ]
+    },
+    {
+     "route_id": 100,
+     "delta": -2,
+     "crossings_after": 3192,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.075,
+       "s0": 10.043926159290312,
+       "s1": 36.206073840709685,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 22.69948974278318,
+       "cluster_count": 6,
+       "delta": -2
+      }
+     ]
+    },
+    {
+     "route_id": 109,
+     "delta": -6,
+     "crossings_after": 3186,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": -0.125,
+       "s0": 6.410348920173341,
+       "s1": 38.33965107982666,
+       "footprint_mm": 3.8649062084350696,
+       "middle_mm": 24.1994897427832,
+       "cluster_count": 6,
+       "delta": -6
+      }
+     ]
+    },
+    {
+     "route_id": 154,
+     "delta": -3,
+     "crossings_after": 3183,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 175.29392615929032,
+       "s1": 183.70607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.949489742783158,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 231,
+     "delta": -5,
+     "crossings_after": 3178,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": 0.075,
+       "s0": 135.29392615929032,
+       "s1": 149.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 10.699489742783157,
+       "cluster_count": 5,
+       "delta": -5
+      }
+     ]
+    },
+    {
+     "route_id": 412,
+     "delta": -4,
+     "crossings_after": 3174,
+     "excursions": [
+      {
+       "target_plane": 6,
+       "target_z": -0.125,
+       "from_z": -0.075,
+       "s0": 116.79392615929031,
+       "s1": 137.20607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 16.949489742783186,
+       "cluster_count": 8,
+       "delta": -4
+      }
+     ]
+    },
+    {
+     "route_id": 439,
+     "delta": -2,
+     "crossings_after": 3172,
+     "excursions": [
+      {
+       "target_plane": 7,
+       "target_z": -0.075,
+       "from_z": -0.125,
+       "s0": 10.043926159290312,
+       "s1": 32.956073840709685,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 19.449489742783175,
+       "cluster_count": 6,
+       "delta": -2
+      }
+     ]
+    },
+    {
+     "route_id": 453,
+     "delta": -4,
+     "crossings_after": 3168,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.025,
+       "s0": 129.04392615929032,
+       "s1": 149.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 16.949489742783157,
+       "cluster_count": 7,
+       "delta": -4
+      }
+     ]
+    },
+    {
+     "route_id": 468,
+     "delta": -5,
+     "crossings_after": 3163,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 125.54392615929031,
+       "s1": 142.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 13.449489742783172,
+       "cluster_count": 5,
+       "delta": -5
+      }
+     ]
+    },
+    {
+     "route_id": 492,
+     "delta": -3,
+     "crossings_after": 3160,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.025,
+       "s0": 176.29392615929032,
+       "s1": 184.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.699489742783158,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 494,
+     "delta": -3,
+     "crossings_after": 3157,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": -0.025,
+       "s0": 176.29392615929032,
+       "s1": 184.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.6994897427831575,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 2,
+     "delta": -3,
+     "crossings_after": 3154,
+     "excursions": [
+      {
+       "target_plane": 6,
+       "target_z": -0.125,
+       "from_z": -0.075,
+       "s0": 123.54392615929031,
+       "s1": 135.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 8.449489742783172,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 35,
+     "delta": -1,
+     "crossings_after": 3153,
+     "excursions": [
+      {
+       "target_plane": 7,
+       "target_z": -0.075,
+       "from_z": -0.125,
+       "s0": 9.793926159290312,
+       "s1": 22.70607384070969,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 9.449489742783179,
+       "cluster_count": 5,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 99,
+     "delta": -1,
+     "crossings_after": 3152,
+     "excursions": [
+      {
+       "target_plane": 7,
+       "target_z": -0.075,
+       "from_z": -0.125,
+       "s0": 123.04392615929031,
+       "s1": 135.95607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 9.449489742783172,
+       "cluster_count": 5,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 107,
+     "delta": -1,
+     "crossings_after": 3151,
+     "excursions": [
+      {
+       "target_plane": 7,
+       "target_z": -0.075,
+       "from_z": -0.125,
+       "s0": 127.54392615929031,
+       "s1": 140.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 9.449489742783172,
+       "cluster_count": 5,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 118,
+     "delta": -1,
+     "crossings_after": 3150,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.125,
+       "s0": 7.82780747850434,
+       "s1": 24.92219252149566,
+       "footprint_mm": 2.447447650104071,
+       "middle_mm": 12.199489742783179,
+       "cluster_count": 4,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 223,
+     "delta": -3,
+     "crossings_after": 3147,
+     "excursions": [
+      {
+       "target_plane": 7,
+       "target_z": -0.075,
+       "from_z": -0.125,
+       "s0": 112.29392615929031,
+       "s1": 134.95607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 19.19948974278317,
+       "cluster_count": 5,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 463,
+     "delta": -1,
+     "crossings_after": 3146,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.125,
+       "s0": 109.82780747850434,
+       "s1": 135.42219252149567,
+       "footprint_mm": 2.447447650104071,
+       "middle_mm": 20.699489742783204,
+       "cluster_count": 5,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 423,
+     "delta": -3,
+     "crossings_after": 3143,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 135.04392615929032,
+       "s1": 149.20607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 10.699489742783157,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 434,
+     "delta": -2,
+     "crossings_after": 3141,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": 0.075,
+       "s0": 12.043926159290312,
+       "s1": 25.45607384070969,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 9.949489742783172,
+       "cluster_count": 2,
+       "delta": -2
+      }
+     ]
+    },
+    {
+     "route_id": 151,
+     "delta": -3,
+     "crossings_after": 3138,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 167.79392615929032,
+       "s1": 175.70607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.449489742783158,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 444,
+     "delta": -3,
+     "crossings_after": 3135,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 128.54392615929032,
+       "s1": 142.70607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 10.699489742783157,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 458,
+     "delta": -1,
+     "crossings_after": 3134,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 41.043926159290315,
+       "s1": 49.456073840709685,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.949489742783172,
+       "cluster_count": 1,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 422,
+     "delta": -1,
+     "crossings_after": 3133,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 41.793926159290315,
+       "s1": 50.206073840709685,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.949489742783172,
+       "cluster_count": 1,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 26,
+     "delta": -3,
+     "crossings_after": 3130,
+     "excursions": [
+      {
+       "target_plane": 6,
+       "target_z": -0.125,
+       "from_z": -0.075,
+       "s0": 115.29392615929031,
+       "s1": 133.20607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 14.449489742783172,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 127,
+     "delta": -1,
+     "crossings_after": 3129,
+     "excursions": [
+      {
+       "target_plane": 6,
+       "target_z": -0.125,
+       "from_z": -0.075,
+       "s0": 14.793926159290312,
+       "s1": 37.956073840709685,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 19.699489742783157,
+       "cluster_count": 3,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 487,
+     "delta": -3,
+     "crossings_after": 3126,
+     "excursions": [
+      {
+       "target_plane": 7,
+       "target_z": -0.075,
+       "from_z": -0.125,
+       "s0": 16.29392615929031,
+       "s1": 34.956073840709685,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 15.199489742783175,
+       "cluster_count": 3,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 227,
+     "delta": -1,
+     "crossings_after": 3125,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 105.54392615929031,
+       "s1": 113.95607384070969,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.949489742783186,
+       "cluster_count": 1,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 419,
+     "delta": -1,
+     "crossings_after": 3124,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": 0.075,
+       "s0": 131.04392615929032,
+       "s1": 139.70607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 5.1994897427831575,
+       "cluster_count": 2,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 437,
+     "delta": -1,
+     "crossings_after": 3123,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 34.543926159290315,
+       "s1": 42.956073840709685,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.949489742783172,
+       "cluster_count": 1,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 461,
+     "delta": -1,
+     "crossings_after": 3122,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": 0.075,
+       "s0": 10.043926159290312,
+       "s1": 18.45607384070969,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.9494897427831575,
+       "cluster_count": 1,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 484,
+     "delta": -2,
+     "crossings_after": 3120,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.075,
+       "s0": 127.04392615929031,
+       "s1": 138.20607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 7.699489742783172,
+       "cluster_count": 2,
+       "delta": -2
+      }
+     ]
+    },
+    {
+     "route_id": 416,
+     "delta": -1,
+     "crossings_after": 3119,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 34.543926159290315,
+       "s1": 42.956073840709685,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.949489742783165,
+       "cluster_count": 1,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 440,
+     "delta": -1,
+     "crossings_after": 3118,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": 0.075,
+       "s0": 129.04392615929032,
+       "s1": 137.45607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.9494897427831575,
+       "cluster_count": 2,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 464,
+     "delta": -1,
+     "crossings_after": 3117,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": 0.075,
+       "s0": 127.54392615929031,
+       "s1": 135.95607384070968,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.949489742783186,
+       "cluster_count": 1,
+       "delta": -1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "stage": "C3_all",
+   "sweep": 2,
+   "start_total": 3117,
+   "end_total": 3103,
+   "net": -14,
+   "applied": 6,
+   "routes": 585,
+   "seconds": 98.9,
+   "reasons": {
+    "shadow_crossing": 6697,
+    "d56": 313,
+    "no_gain": 595,
+    "guard:world": 120,
+    "guard:metadata": 99
+   },
+   "improvements": [
+    {
+     "route_id": 100,
+     "delta": -6,
+     "crossings_after": 3111,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": -0.075,
+       "s0": 70.56693183545028,
+       "s1": 101.68306816454972,
+       "footprint_mm": 3.4583232931581276,
+       "middle_mm": 24.199489742783186,
+       "cluster_count": 6,
+       "delta": -6
+      }
+     ]
+    },
+    {
+     "route_id": 109,
+     "delta": -3,
+     "crossings_after": 3108,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.125,
+       "s0": 78.57780747850434,
+       "s1": 97.42219252149566,
+       "footprint_mm": 2.447447650104071,
+       "middle_mm": 13.949489742783179,
+       "cluster_count": 6,
+       "delta": -3
+      }
+     ]
+    },
+    {
+     "route_id": 439,
+     "delta": -1,
+     "crossings_after": 3107,
+     "excursions": [
+      {
+       "target_plane": 20,
+       "target_z": -0.025,
+       "from_z": -0.125,
+       "s0": 76.82780747850434,
+       "s1": 102.92219252149566,
+       "footprint_mm": 2.447447650104071,
+       "middle_mm": 21.199489742783186,
+       "cluster_count": 6,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 118,
+     "delta": -2,
+     "crossings_after": 3105,
+     "excursions": [
+      {
+       "target_plane": 7,
+       "target_z": -0.075,
+       "from_z": -0.125,
+       "s0": 90.29392615929031,
+       "s1": 110.20607384070969,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 16.449489742783186,
+       "cluster_count": 6,
+       "delta": -2
+      }
+     ]
+    },
+    {
+     "route_id": 458,
+     "delta": -1,
+     "crossings_after": 3104,
+     "excursions": [
+      {
+       "target_plane": 9,
+       "target_z": 0.125,
+       "from_z": 0.075,
+       "s0": 85.29392615929031,
+       "s1": 93.70607384070969,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 4.9494897427831575,
+       "cluster_count": 1,
+       "delta": -1
+      }
+     ]
+    },
+    {
+     "route_id": 422,
+     "delta": -1,
+     "crossings_after": 3103,
+     "excursions": [
+      {
+       "target_plane": 1001,
+       "target_z": 0.025,
+       "from_z": 0.075,
+       "s0": 55.79392615929031,
+       "s1": 68.70607384070969,
+       "footprint_mm": 1.7313289693180984,
+       "middle_mm": 9.449489742783186,
+       "cluster_count": 1,
+       "delta": -1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "stage": "C3_all",
+   "sweep": 3,
+   "start_total": 3103,
+   "end_total": 3103,
+   "net": 0,
+   "applied": 0,
+   "routes": 585,
+   "seconds": 90.1,
+   "reasons": {
+    "shadow_crossing": 6250,
+    "d56": 311,
+    "no_gain": 542,
+    "guard:world": 119,
+    "guard:metadata": 99
+   },
+   "improvements": []
+  }
+ ],
+ "seconds": 452.5
+}

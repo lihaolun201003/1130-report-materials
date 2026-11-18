@@ -1,0 +1,75 @@
+{
+ "schema": "coldstart20_stage02_annealing_v1",
+ "profile": "20_height_raised",
+ "cold_assignment": {
+  "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\03_fanout_and_xy\\run_initial_20h\\assignment_1024.csv",
+  "routed": 1024,
+  "failed": 0,
+  "crossings": 12338,
+  "note": "deterministic whole-orbit cold assignment derived from the authoritative 1024 connections (no 21H assignment inherited)"
+ },
+ "annealing": {
+  "engine": "nonc4.assign_opt (simulated annealing on the exact chord-crossing graph + k-way partition SA)",
+  "seeds_tested": [
+   11,
+   23,
+   37,
+   51
+  ],
+  "allocation_programme": "nonc4.assign_opt.optimise_allocation",
+  "note": "the annealing decides how many physical heights each direction family receives (Z1V/Z1H never share a height; opposite-corner Z2 pairs may share)"
+ },
+ "experiments": [
+  {
+   "name": "E1_family_pure",
+   "routed": 1024,
+   "failed": 0,
+   "crossings": 6803,
+   "crossing_pairs": 6319
+  },
+  {
+   "name": "E2_conflict_sharing_seed11",
+   "routed": 1021,
+   "failed": 3,
+   "crossings": 9372,
+   "crossing_pairs": 5050
+  },
+  {
+   "name": "E3_family_pure_sa_seed11",
+   "routed": 1024,
+   "failed": 0,
+   "crossings": 3275,
+   "crossing_pairs": 2774
+  },
+  {
+   "name": "E3_family_pure_sa_seed23",
+   "routed": 1022,
+   "failed": 2,
+   "crossings": 3353,
+   "crossing_pairs": 2809
+  },
+  {
+   "name": "E3_family_pure_sa_seed37",
+   "routed": 1023,
+   "failed": 1,
+   "crossings": 3346,
+   "crossing_pairs": 2809
+  },
+  {
+   "name": "E3_family_pure_sa_seed51",
+   "routed": 1024,
+   "failed": 0,
+   "crossings": 3500,
+   "crossing_pairs": 2887
+  }
+ ],
+ "accepted": {
+  "name": "E3_family_pure_sa_seed11",
+  "dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E5_joint_repair_final",
+  "routed": 1024,
+  "failed": 0,
+  "crossings": 3275,
+  "validation_pass": true,
+  "routes_sha256": "9da7924caaf61bcef0e63b0d40428882fe43763ef8a010c8869d16cd8956c877"
+ }
+}

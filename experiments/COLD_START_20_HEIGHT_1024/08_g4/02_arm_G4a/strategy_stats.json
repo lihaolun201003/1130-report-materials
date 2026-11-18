@@ -1,0 +1,129 @@
+{
+ "arm": "G4a",
+ "ledger": {
+  "route_3d_checks": 4795,
+  "d56_candidate_evals": 32390,
+  "xy_candidates_generated": 4785,
+  "transactions": 85,
+  "world_builds": 0,
+  "valid_candidates": 4043,
+  "rejected_3d": 742,
+  "accepted_transactions": 1,
+  "accepted_changes": 10,
+  "gain": 2,
+  "validator_runs": 0,
+  "no_candidate": 0,
+  "rolled_back": 84,
+  "wall_seconds": 828.55
+ },
+ "history_records": 1,
+ "transactions": 85,
+ "extra": {
+  "arm": "G4a",
+  "phase_results": {
+   "group_phase": {
+    "rounds": [
+     {
+      "round": 1,
+      "accepted": 0,
+      "attempts": 60,
+      "total": 1395,
+      "seconds": 598.6
+     }
+    ],
+    "attempts": 64,
+    "accepted": 1
+   },
+   "partial_phase": {
+    "attempts": 6,
+    "accepted": 0
+   },
+   "tune_phase": {
+    "attempts": 19,
+    "accepted": 1
+   }
+  },
+  "attempt_stats": {
+   "count": 89,
+   "accepted": 1,
+   "by_reason": {
+    "transition_3d_conflict": 7,
+    "legal_but_no_crossing_improvement": 50,
+    "no_legal_xy_corridor": 12,
+    "joint_rebuild_failed": 15,
+    "already_at_height": 2,
+    "target_height_occupied": 2,
+    "accepted": 1
+   },
+   "by_group": {
+    "Z2-U1": {
+     "attempts": 18,
+     "transition_3d_conflict": 2,
+     "legal_but_no_crossing_improvement": 15,
+     "no_legal_xy_corridor": 1
+    },
+    "Z2-U2": {
+     "attempts": 17,
+     "transition_3d_conflict": 1,
+     "legal_but_no_crossing_improvement": 12,
+     "no_legal_xy_corridor": 2,
+     "joint_rebuild_failed": 1,
+     "accepted": 2
+    },
+    "Z2-U4": {
+     "attempts": 16,
+     "no_legal_xy_corridor": 2,
+     "legal_but_no_crossing_improvement": 10,
+     "transition_3d_conflict": 1,
+     "joint_rebuild_failed": 2,
+     "already_at_height": 1
+    },
+    "Z1-U1": {
+     "attempts": 14,
+     "target_height_occupied": 1,
+     "joint_rebuild_failed": 5,
+     "legal_but_no_crossing_improvement": 7,
+     "no_legal_xy_corridor": 1
+    },
+    "Z2-U3": {
+     "attempts": 14,
+     "transition_3d_conflict": 3,
+     "legal_but_no_crossing_improvement": 6,
+     "no_legal_xy_corridor": 2,
+     "already_at_height": 1,
+     "joint_rebuild_failed": 2
+    },
+    "Z1-U3": {
+     "attempts": 10,
+     "joint_rebuild_failed": 5,
+     "no_legal_xy_corridor": 4,
+     "target_height_occupied": 1
+    }
+   }
+  },
+  "accepted_migrations": [
+   {
+    "group": "Z2-U2",
+    "target_label": "L11",
+    "target_z": 0.225,
+    "old_heights": {
+     "L11": 16
+    },
+    "new_heights": {
+     "L11": 16
+    },
+    "gain": 2,
+    "members": 10,
+    "migrated": 10,
+    "partial": false,
+    "order": "crossing_desc",
+    "seconds": 4.48
+   }
+  ],
+  "feasibility_cells": 144,
+  "outside_band_attempts": 39,
+  "final_crossings": 1393,
+  "search_wall_seconds": 816.71,
+  "tag": ""
+ }
+}

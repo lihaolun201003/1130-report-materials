@@ -1,0 +1,234 @@
+[01:03:01     0.00s] ==============================================================================
+[01:03:01     0.00s] [g4a] start: budget=900s seed=20261104 partial_fallback=True quick=False
+[01:03:01     0.06s] [arm] start C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\best_valid sha256=a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf crossings=1395
+[01:03:01     0.06s] [arm] start fingerprint OK (verified G3 legal optimum)
+[01:03:06     5.45s] [arm] loaded state routes=1024 crossings=1395 (1.87s)
+[01:03:06     5.46s] [g4a] loading start facts (manual crossings / grouping) ...
+[01:03:12    11.62s] [g4a] start total=1395 manual_events: MM=0 MN=137 NN=1258 theoretical_floor=1258
+[01:03:13    11.63s] [g4a] P1: forced-height feasibility scan over all 19 body heights
+[01:03:15    13.63s] [feas] Z1-U1  -> L2   ok=3/3 mean_delta=0.0 fail={}
+[01:03:16    14.78s] [feas] Z1-U1  -> L3   ok=3/3 mean_delta=30.0 fail={}
+[01:03:17    15.71s] [feas] Z1-U1  -> L4   ok=3/3 mean_delta=21.0 fail={}
+[01:03:17    16.56s] [feas] Z1-U1  -> L5   ok=3/3 mean_delta=-0.333 fail={}
+[01:03:18    17.60s] [feas] Z1-U1  -> L6   ok=3/3 mean_delta=14.667 fail={}
+[01:03:19    18.56s] [feas] Z1-U1  -> L7   ok=3/3 mean_delta=21.333 fail={}
+[01:03:20    19.29s] [feas] Z1-U1  -> L20  ok=3/3 mean_delta=13.333 fail={}
+[01:03:21    20.20s] [feas] Z1-U1  -> L8   ok=3/3 mean_delta=12.0 fail={}
+[01:03:22    21.29s] [feas] Z1-U1  -> L9   ok=3/3 mean_delta=26.333 fail={}
+[01:03:24    22.79s] [feas] Z1-U1  -> L10  ok=3/3 mean_delta=11.667 fail={}
+[01:03:25    23.97s] [feas] Z1-U1  -> L11  ok=0/3 mean_delta=None fail={'transition_3d_conflict': 3}
+[01:03:26    24.81s] [feas] Z1-U1  -> L12  ok=0/3 mean_delta=None fail={'no_legal_xy_corridor': 3}
+[01:03:27    26.22s] [feas] Z1-U1  -> L13  ok=0/3 mean_delta=None fail={'transition_3d_conflict': 2, 'no_legal_xy_corridor': 1}
+[01:03:29    28.13s] [feas] Z1-U1  -> L14  ok=0/3 mean_delta=None fail={'transition_3d_conflict': 3}
+[01:03:31    30.06s] [feas] Z1-U1  -> L15  ok=0/3 mean_delta=None fail={'transition_3d_conflict': 3}
+[01:03:33    32.33s] [feas] Z1-U1  -> L16  ok=0/3 mean_delta=None fail={'transition_3d_conflict': 3}
+[01:03:35    34.45s] [feas] Z1-U1  -> L17  ok=0/3 mean_delta=None fail={'transition_3d_conflict': 3}
+[01:03:38    36.93s] [feas] Z1-U1  -> L18  ok=0/3 mean_delta=None fail={'transition_3d_conflict': 3}
+[01:03:39    37.83s] [feas] Z1-U2  -> L2   ok=2/2 mean_delta=7.5 fail={}
+[01:03:39    38.51s] [feas] Z1-U2  -> L3   ok=2/2 mean_delta=-1.0 fail={}
+[01:03:40    39.25s] [feas] Z1-U2  -> L4   ok=2/2 mean_delta=17.0 fail={}
+[01:03:41    39.98s] [feas] Z1-U2  -> L5   ok=2/2 mean_delta=28.5 fail={}
+[01:03:41    40.59s] [feas] Z1-U2  -> L6   ok=2/2 mean_delta=9.5 fail={}
+[01:03:42    41.25s] [feas] Z1-U2  -> L7   ok=2/2 mean_delta=11.0 fail={}
+[01:03:43    41.77s] [feas] Z1-U2  -> L20  ok=2/2 mean_delta=13.5 fail={}
+[01:03:43    42.28s] [feas] Z1-U2  -> L8   ok=2/2 mean_delta=8.0 fail={}
+[01:03:44    42.80s] [feas] Z1-U2  -> L9   ok=2/2 mean_delta=15.0 fail={}
+[01:03:45    43.70s] [feas] Z1-U2  -> L10  ok=1/2 mean_delta=0.0 fail={'no_legal_xy_corridor': 1}
+[01:03:46    44.66s] [feas] Z1-U2  -> L11  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 2}
+[01:03:46    45.41s] [feas] Z1-U2  -> L12  ok=0/2 mean_delta=None fail={'no_legal_xy_corridor': 2}
+[01:03:47    46.08s] [feas] Z1-U2  -> L13  ok=0/2 mean_delta=None fail={'no_legal_xy_corridor': 2}
+[01:03:49    47.71s] [feas] Z1-U2  -> L14  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 2}
+[01:03:50    49.23s] [feas] Z1-U2  -> L15  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 2}
+[01:03:51    50.11s] [feas] Z1-U2  -> L16  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 1, 'no_legal_xy_corridor': 1}
+[01:03:53    51.90s] [feas] Z1-U2  -> L17  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 2}
+[01:03:54    52.83s] [feas] Z1-U2  -> L18  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 1, 'no_legal_xy_corridor': 1}
+[01:03:54    53.61s] [feas] Z1-U3  -> L2   ok=2/2 mean_delta=19.5 fail={}
+[01:03:55    54.21s] [feas] Z1-U3  -> L3   ok=2/2 mean_delta=9.0 fail={}
+[01:03:56    54.91s] [feas] Z1-U3  -> L4   ok=2/2 mean_delta=-1.0 fail={}
+[01:03:57    55.90s] [feas] Z1-U3  -> L5   ok=2/2 mean_delta=31.0 fail={}
+[01:03:58    56.68s] [feas] Z1-U3  -> L6   ok=2/2 mean_delta=21.0 fail={}
+[01:03:58    57.42s] [feas] Z1-U3  -> L7   ok=2/2 mean_delta=15.0 fail={}
+[01:03:59    58.03s] [feas] Z1-U3  -> L20  ok=2/2 mean_delta=15.0 fail={}
+[01:04:00    58.63s] [feas] Z1-U3  -> L8   ok=2/2 mean_delta=12.0 fail={}
+[01:04:00    59.29s] [feas] Z1-U3  -> L9   ok=2/2 mean_delta=1.0 fail={}
+[01:04:01    60.08s] [feas] Z1-U3  -> L10  ok=2/2 mean_delta=17.5 fail={}
+[01:04:02    61.00s] [feas] Z1-U3  -> L11  ok=2/2 mean_delta=10.5 fail={}
+[01:04:03    62.04s] [feas] Z1-U3  -> L12  ok=1/2 mean_delta=38.0 fail={'transition_3d_conflict': 1}
+[01:04:04    62.86s] [feas] Z1-U3  -> L13  ok=1/2 mean_delta=0.0 fail={'no_legal_xy_corridor': 1}
+[01:04:05    64.12s] [feas] Z1-U3  -> L14  ok=1/2 mean_delta=26.0 fail={'transition_3d_conflict': 1}
+[01:04:06    65.25s] [feas] Z1-U3  -> L15  ok=1/2 mean_delta=22.0 fail={'transition_3d_conflict': 1}
+[01:04:08    66.93s] [feas] Z1-U3  -> L16  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 2}
+[01:04:09    68.02s] [feas] Z1-U3  -> L17  ok=0/2 mean_delta=None fail={'no_legal_xy_corridor': 1, 'transition_3d_conflict': 1}
+[01:04:10    69.46s] [feas] Z1-U3  -> L18  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 2}
+[01:04:11    70.25s] [feas] Z1-U4  -> L2   ok=2/2 mean_delta=18.0 fail={}
+[01:04:12    70.93s] [feas] Z1-U4  -> L3   ok=2/2 mean_delta=16.0 fail={}
+[01:04:13    71.76s] [feas] Z1-U4  -> L4   ok=2/2 mean_delta=26.5 fail={}
+[01:04:13    72.37s] [feas] Z1-U4  -> L5   ok=2/2 mean_delta=0.0 fail={}
+[01:04:14    73.02s] [feas] Z1-U4  -> L6   ok=2/2 mean_delta=18.0 fail={}
+[01:04:15    73.80s] [feas] Z1-U4  -> L7   ok=2/2 mean_delta=14.0 fail={}
+[01:04:15    74.39s] [feas] Z1-U4  -> L20  ok=2/2 mean_delta=10.5 fail={}
+[01:04:16    74.93s] [feas] Z1-U4  -> L8   ok=2/2 mean_delta=14.5 fail={}
+[01:04:16    75.58s] [feas] Z1-U4  -> L9   ok=2/2 mean_delta=8.5 fail={}
+[01:04:17    76.37s] [feas] Z1-U4  -> L10  ok=1/2 mean_delta=10.0 fail={'no_legal_xy_corridor': 1}
+[01:04:18    77.05s] [feas] Z1-U4  -> L11  ok=1/2 mean_delta=0.0 fail={'no_legal_xy_corridor': 1}
+[01:04:19    77.95s] [feas] Z1-U4  -> L12  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 1, 'no_legal_xy_corridor': 1}
+[01:04:19    78.51s] [feas] Z1-U4  -> L13  ok=0/2 mean_delta=None fail={'no_legal_xy_corridor': 2}
+[01:04:21    80.06s] [feas] Z1-U4  -> L14  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 2}
+[01:04:22    80.77s] [feas] Z1-U4  -> L15  ok=0/2 mean_delta=None fail={'no_legal_xy_corridor': 2}
+[01:04:23    82.15s] [feas] Z1-U4  -> L16  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 2}
+[01:04:25    83.72s] [feas] Z1-U4  -> L17  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 2}
+[01:04:26    85.24s] [feas] Z1-U4  -> L18  ok=0/2 mean_delta=None fail={'transition_3d_conflict': 2}
+[01:04:28    87.45s] [feas] Z2-U1  -> L2   ok=0/3 mean_delta=None fail={'transition_3d_conflict': 3}
+[01:04:29    88.18s] [feas] Z2-U1  -> L3   ok=0/3 mean_delta=None fail={'no_legal_xy_corridor': 3}
+[01:04:32    91.18s] [feas] Z2-U1  -> L4   ok=0/3 mean_delta=None fail={'transition_3d_conflict': 3}
+[01:04:34    93.20s] [feas] Z2-U1  -> L5   ok=3/3 mean_delta=26.0 fail={}
+[01:04:36    95.03s] [feas] Z2-U1  -> L6   ok=3/3 mean_delta=12.667 fail={}
+[01:04:38    97.12s] [feas] Z2-U1  -> L7   ok=0/3 mean_delta=None fail={'transition_3d_conflict': 3}
+[01:04:40    98.95s] [feas] Z2-U1  -> L20  ok=1/3 mean_delta=11.0 fail={'transition_3d_conflict': 2}
+[01:04:41   100.09s] [feas] Z2-U1  -> L8   ok=3/3 mean_delta=5.0 fail={}
+[01:04:42   101.39s] [feas] Z2-U1  -> L9   ok=3/3 mean_delta=17.333 fail={}
+[01:04:43   102.57s] [feas] Z2-U1  -> L10  ok=3/3 mean_delta=3.333 fail={}
+[01:04:44   103.46s] [feas] Z2-U1  -> L11  ok=3/3 mean_delta=10.333 fail={}
+[01:04:45   104.61s] [feas] Z2-U1  -> L12  ok=3/3 mean_delta=5.667 fail={}
+[01:04:46   105.33s] [feas] Z2-U1  -> L13  ok=1/3 mean_delta=27.0 fail={'no_legal_xy_corridor': 2}
+[01:04:47   106.30s] [feas] Z2-U1  -> L14  ok=3/3 mean_delta=8.667 fail={}
+[01:04:48   107.14s] [feas] Z2-U1  -> L15  ok=3/3 mean_delta=4.0 fail={}
+[01:04:49   108.03s] [feas] Z2-U1  -> L16  ok=2/3 mean_delta=14.0 fail={'no_legal_xy_corridor': 1}
+[01:04:50   109.04s] [feas] Z2-U1  -> L17  ok=3/3 mean_delta=17.333 fail={}
+[01:04:51   109.87s] [feas] Z2-U1  -> L18  ok=2/3 mean_delta=17.0 fail={'no_legal_xy_corridor': 1}
+[01:04:52   110.69s] [feas] Z2-U2  -> L2   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:04:52   111.59s] [feas] Z2-U2  -> L3   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:04:53   112.50s] [feas] Z2-U2  -> L4   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:04:54   112.81s] [feas] Z2-U2  -> L5   ok=0/1 mean_delta=None fail={'no_legal_xy_corridor': 1}
+[01:04:54   113.36s] [feas] Z2-U2  -> L6   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:04:55   114.14s] [feas] Z2-U2  -> L7   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:04:56   115.07s] [feas] Z2-U2  -> L20  ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:04:56   115.49s] [feas] Z2-U2  -> L8   ok=1/1 mean_delta=15.0 fail={}
+[01:04:57   116.06s] [feas] Z2-U2  -> L9   ok=1/1 mean_delta=13.0 fail={}
+[01:04:57   116.51s] [feas] Z2-U2  -> L10  ok=1/1 mean_delta=10.0 fail={}
+[01:04:58   116.96s] [feas] Z2-U2  -> L11  ok=1/1 mean_delta=0.0 fail={}
+[01:04:58   117.24s] [feas] Z2-U2  -> L12  ok=0/1 mean_delta=None fail={'no_legal_xy_corridor': 1}
+[01:04:59   117.76s] [feas] Z2-U2  -> L13  ok=1/1 mean_delta=7.0 fail={}
+[01:04:59   118.13s] [feas] Z2-U2  -> L14  ok=1/1 mean_delta=11.0 fail={}
+[01:04:59   118.52s] [feas] Z2-U2  -> L15  ok=1/1 mean_delta=20.0 fail={}
+[01:05:00   118.84s] [feas] Z2-U2  -> L16  ok=1/1 mean_delta=12.0 fail={}
+[01:05:00   119.17s] [feas] Z2-U2  -> L17  ok=1/1 mean_delta=16.0 fail={}
+[01:05:00   119.51s] [feas] Z2-U2  -> L18  ok=1/1 mean_delta=4.0 fail={}
+[01:05:01   120.26s] [feas] Z2-U3  -> L2   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:05:01   120.51s] [feas] Z2-U3  -> L3   ok=0/1 mean_delta=None fail={'no_legal_xy_corridor': 1}
+[01:05:03   121.64s] [feas] Z2-U3  -> L4   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:05:03   122.38s] [feas] Z2-U3  -> L5   ok=1/1 mean_delta=56.0 fail={}
+[01:05:04   122.70s] [feas] Z2-U3  -> L6   ok=0/1 mean_delta=None fail={'no_legal_xy_corridor': 1}
+[01:05:04   123.52s] [feas] Z2-U3  -> L7   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:05:05   124.28s] [feas] Z2-U3  -> L20  ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:05:06   124.89s] [feas] Z2-U3  -> L8   ok=1/1 mean_delta=7.0 fail={}
+[01:05:06   125.47s] [feas] Z2-U3  -> L9   ok=1/1 mean_delta=48.0 fail={}
+[01:05:07   125.95s] [feas] Z2-U3  -> L10  ok=1/1 mean_delta=23.0 fail={}
+[01:05:07   126.25s] [feas] Z2-U3  -> L11  ok=1/1 mean_delta=33.0 fail={}
+[01:05:08   126.64s] [feas] Z2-U3  -> L12  ok=1/1 mean_delta=0.0 fail={}
+[01:05:08   127.13s] [feas] Z2-U3  -> L13  ok=1/1 mean_delta=65.0 fail={}
+[01:05:08   127.53s] [feas] Z2-U3  -> L14  ok=1/1 mean_delta=41.0 fail={}
+[01:05:09   127.87s] [feas] Z2-U3  -> L15  ok=1/1 mean_delta=8.0 fail={}
+[01:05:09   128.37s] [feas] Z2-U3  -> L16  ok=1/1 mean_delta=26.0 fail={}
+[01:05:10   128.77s] [feas] Z2-U3  -> L17  ok=1/1 mean_delta=52.0 fail={}
+[01:05:10   129.14s] [feas] Z2-U3  -> L18  ok=1/1 mean_delta=22.0 fail={}
+[01:05:11   129.95s] [feas] Z2-U4  -> L2   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:05:11   130.56s] [feas] Z2-U4  -> L3   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:05:12   131.26s] [feas] Z2-U4  -> L4   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:05:13   131.72s] [feas] Z2-U4  -> L5   ok=0/1 mean_delta=None fail={'no_legal_xy_corridor': 1}
+[01:05:13   132.40s] [feas] Z2-U4  -> L6   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:05:14   133.04s] [feas] Z2-U4  -> L7   ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:05:15   133.95s] [feas] Z2-U4  -> L20  ok=0/1 mean_delta=None fail={'transition_3d_conflict': 1}
+[01:05:15   134.26s] [feas] Z2-U4  -> L8   ok=1/1 mean_delta=40.0 fail={}
+[01:05:16   134.86s] [feas] Z2-U4  -> L9   ok=1/1 mean_delta=42.0 fail={}
+[01:05:16   135.08s] [feas] Z2-U4  -> L10  ok=1/1 mean_delta=21.0 fail={}
+[01:05:16   135.46s] [feas] Z2-U4  -> L11  ok=1/1 mean_delta=7.0 fail={}
+[01:05:17   136.01s] [feas] Z2-U4  -> L12  ok=1/1 mean_delta=63.0 fail={}
+[01:05:17   136.33s] [feas] Z2-U4  -> L13  ok=1/1 mean_delta=0.0 fail={}
+[01:05:18   136.77s] [feas] Z2-U4  -> L14  ok=1/1 mean_delta=47.0 fail={}
+[01:05:18   137.10s] [feas] Z2-U4  -> L15  ok=1/1 mean_delta=48.0 fail={}
+[01:05:18   137.45s] [feas] Z2-U4  -> L16  ok=1/1 mean_delta=40.0 fail={}
+[01:05:19   137.89s] [feas] Z2-U4  -> L17  ok=1/1 mean_delta=16.0 fail={}
+[01:05:19   138.19s] [feas] Z2-U4  -> L18  ok=1/1 mean_delta=5.0 fail={}
+[01:05:19   138.20s] [g4a] P1 done: 144 (group, height) cells, 80 outside start bands
+[01:05:19   138.20s] [g4a] P2 round 1: total=1395 elapsed=133s fraction=0.16
+[01:05:23   141.87s] [grp] Z2-U1 -> L5   try0 order=risk_desc     accepted=False placed=1/16 delta=0 gain=0 reason=transition_3d_conflict 3.2s
+[01:05:36   155.53s] [grp] Z2-U1 -> L5   try1 order=crossing_desc accepted=False placed=16/16 delta=0 gain=0 reason=legal_but_no_crossing_improvement 13.7s
+[01:05:48   166.86s] [grp] Z2-U1 -> L8   try0 order=risk_desc     accepted=False placed=2/16 delta=0 gain=0 reason=transition_3d_conflict 3.4s
+[01:05:52   170.72s] [grp] Z2-U1 -> L8   try1 order=crossing_desc accepted=False placed=2/16 delta=0 gain=0 reason=no_legal_xy_corridor 3.6s
+[01:06:04   183.10s] [grp] Z2-U1 -> L12  try0 order=risk_desc     accepted=False placed=16/16 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.8s
+[01:06:13   191.85s] [grp] Z2-U1 -> L12  try1 order=crossing_desc accepted=False placed=16/16 delta=0 gain=0 reason=legal_but_no_crossing_improvement 8.7s
+[01:06:24   203.05s] [grp] Z2-U1 -> L14  try0 order=risk_desc     accepted=False placed=16/16 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.5s
+[01:06:32   211.06s] [grp] Z2-U1 -> L14  try1 order=crossing_desc accepted=False placed=16/16 delta=0 gain=0 reason=legal_but_no_crossing_improvement 8.0s
+[01:06:41   219.95s] [grp] Z2-U2 -> L13  try0 order=risk_desc     accepted=False placed=3/16 delta=0 gain=0 reason=transition_3d_conflict 3.4s
+[01:06:49   228.18s] [grp] Z2-U2 -> L13  try1 order=crossing_desc accepted=False placed=16/16 delta=0 gain=0 reason=legal_but_no_crossing_improvement 8.2s
+[01:06:58   236.89s] [grp] Z2-U2 -> L8   try0 order=risk_desc     accepted=False placed=1/16 delta=0 gain=0 reason=no_legal_xy_corridor 2.9s
+[01:07:07   246.40s] [grp] Z2-U2 -> L8   try1 order=crossing_desc accepted=False placed=16/16 delta=0 gain=0 reason=legal_but_no_crossing_improvement 9.5s
+[01:07:16   254.85s] [grp] Z2-U2 -> L10  try0 order=risk_desc     accepted=False placed=0/16 delta=0 gain=0 reason=no_legal_xy_corridor 2.5s
+[01:07:20   259.07s] [grp] Z2-U2 -> L10  try1 order=crossing_desc accepted=False placed=5/16 delta=0 gain=0 reason=joint_rebuild_failed 4.1s
+[01:07:31   269.97s] [grp] Z2-U2 -> L18  try0 order=risk_desc     accepted=False placed=16/16 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.1s
+[01:07:38   277.30s] [grp] Z2-U2 -> L18  try1 order=crossing_desc accepted=False placed=16/16 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.3s
+[01:07:47   286.15s] [grp] Z2-U4 -> L12  try0 order=risk_desc     accepted=False placed=7/40 delta=0 gain=0 reason=no_legal_xy_corridor 3.9s
+[01:07:53   291.91s] [grp] Z2-U4 -> L12  try1 order=crossing_desc accepted=False placed=7/40 delta=0 gain=0 reason=no_legal_xy_corridor 5.6s
+[01:08:08   307.18s] [grp] Z2-U4 -> L8   try0 order=risk_desc     accepted=False placed=3/40 delta=0 gain=0 reason=transition_3d_conflict 3.3s
+[01:08:16   315.37s] [grp] Z2-U4 -> L8   try1 order=crossing_desc accepted=False placed=11/40 delta=0 gain=0 reason=joint_rebuild_failed 8.0s
+[01:08:35   334.18s] [grp] Z2-U4 -> L18  try0 order=risk_desc     accepted=False placed=26/40 delta=0 gain=0 reason=joint_rebuild_failed 7.0s
+[01:08:51   350.29s] [grp] Z2-U4 -> L18  try1 order=crossing_desc accepted=False placed=40/40 delta=0 gain=0 reason=legal_but_no_crossing_improvement 16.1s
+[01:09:05   364.09s] [grp] Z1-U1 -> L8   try0 order=risk_desc     accepted=False placed=9/64 delta=0 gain=0 reason=joint_rebuild_failed 3.6s
+[01:09:12   370.78s] [grp] Z1-U1 -> L8   try1 order=crossing_desc accepted=False placed=15/64 delta=0 gain=0 reason=joint_rebuild_failed 6.6s
+[01:09:29   388.61s] [grp] Z1-U1 -> L3   try0 order=risk_desc     accepted=False placed=8/64 delta=0 gain=0 reason=joint_rebuild_failed 3.5s
+[01:10:00   419.38s] [grp] Z1-U1 -> L3   try1 order=crossing_desc accepted=False placed=64/64 delta=0 gain=0 reason=legal_but_no_crossing_improvement 30.8s
+[01:10:19   437.69s] [grp] Z1-U1 -> L7   try0 order=risk_desc     accepted=False placed=2/64 delta=0 gain=0 reason=joint_rebuild_failed 2.5s
+[01:10:24   442.92s] [grp] Z1-U1 -> L7   try1 order=crossing_desc accepted=False placed=9/64 delta=0 gain=0 reason=joint_rebuild_failed 5.1s
+[01:10:33   452.50s] [grp] Z2-U3 -> L5   try0 order=risk_desc     accepted=False placed=4/40 delta=0 gain=0 reason=transition_3d_conflict 3.8s
+[01:10:47   465.68s] [grp] Z2-U3 -> L5   try1 order=crossing_desc accepted=False placed=10/40 delta=0 gain=0 reason=transition_3d_conflict 12.2s
+[01:11:09   488.32s] [grp] Z2-U3 -> L8   try0 order=risk_desc     accepted=False placed=14/40 delta=0 gain=0 reason=transition_3d_conflict 5.2s
+[01:11:12   491.51s] [grp] Z2-U3 -> L8   try1 order=crossing_desc accepted=False placed=1/40 delta=0 gain=0 reason=no_legal_xy_corridor 3.0s
+[01:11:29   508.00s] [grp] Z2-U3 -> L18  try0 order=risk_desc     accepted=False placed=15/40 delta=0 gain=0 reason=joint_rebuild_failed 5.1s
+[01:11:40   519.43s] [grp] Z2-U3 -> L18  try1 order=crossing_desc accepted=False placed=25/40 delta=0 gain=0 reason=joint_rebuild_failed 11.3s
+[01:11:53   532.62s] [grp] Z1-U3 -> L4   try0 order=risk_desc     accepted=False placed=19/64 delta=0 gain=0 reason=joint_rebuild_failed 4.5s
+[01:12:11   550.14s] [grp] Z1-U3 -> L4   try1 order=crossing_desc accepted=False placed=50/64 delta=0 gain=0 reason=joint_rebuild_failed 17.3s
+[01:12:18   557.09s] [grp] Z1-U3 -> L8   try0 order=risk_desc     accepted=False placed=2/64 delta=0 gain=0 reason=joint_rebuild_failed 2.5s
+[01:12:29   568.42s] [grp] Z1-U3 -> L8   try1 order=crossing_desc accepted=False placed=24/64 delta=0 gain=0 reason=no_legal_xy_corridor 11.1s
+[01:12:46   584.94s] [grp] Z1-U3 -> L7   try0 order=risk_desc     accepted=False placed=8/64 delta=0 gain=0 reason=joint_rebuild_failed 3.6s
+[01:12:52   591.15s] [grp] Z1-U3 -> L7   try1 order=crossing_desc accepted=False placed=12/64 delta=0 gain=0 reason=joint_rebuild_failed 6.1s
+[01:13:05   604.06s] [g4a] P2 round 1 done: accepted=0 total=1395 (599s)
+[01:13:05   604.06s] [g4a] P2b: partial group migration fallback (SPEC §4 allowed)
+[01:13:28   627.58s] [arm] checkpoint step_00000 total=1395 (627.6s)
+[01:13:28   627.58s] [checkpoint] total=1395 ledger={'route_3d_checks': 3521, 'd56_candidate_evals': 24362, 'xy_candidates_generated': 3521, 'transactions': 62, 'world_builds': 0, 'valid_candidates': 2828, 'rejected_3d': 693, 'accepted_transactions': 0, 'accepted_changes': 0, 'gain': 0, 'validator_runs': 0, 'no_candidate': 0, 'rolled_back': 62, 'wall_seconds': 612.36}
+[01:14:26   684.67s] [g4a] P3 micro-tune round 1
+[01:14:31   690.59s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.6s
+[01:14:39   697.93s] [grp] Z2-U1 -> L10  try1 order=risk_desc     accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.3s
+[01:14:43   702.42s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=True placed=10/10 delta=-2 gain=2 reason=accepted 4.5s
+[01:14:44   703.09s] [g4a] P3 accepted tune Z2-U2 routes=10 gain=2 total=1393
+[01:14:49   708.51s] [grp] Z2-U4 -> L13  try0 order=crossing_desc accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.4s
+[01:14:57   715.79s] [grp] Z2-U4 -> L13  try1 order=risk_desc     accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.3s
+[01:15:01   720.35s] [grp] Z1-U1 -> L2   try0 order=crossing_desc accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.6s
+[01:15:07   726.27s] [grp] Z1-U1 -> L2   try1 order=risk_desc     accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.9s
+[01:15:12   730.80s] [grp] Z2-U3 -> L12  try0 order=crossing_desc accepted=False placed=7/7 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.5s
+[01:15:18   736.76s] [grp] Z2-U3 -> L12  try1 order=risk_desc     accepted=False placed=7/7 delta=0 gain=0 reason=legal_but_no_crossing_improvement 6.0s
+[01:15:18   736.76s] [g4a] P3 micro-tune round 2
+[01:15:24   742.68s] [grp] Z2-U1 -> L10  try0 order=crossing_desc accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.6s
+[01:15:31   750.09s] [grp] Z2-U1 -> L10  try1 order=risk_desc     accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.4s
+[01:15:36   755.60s] [grp] Z2-U2 -> L11  try0 order=crossing_desc accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.5s
+[01:15:44   762.70s] [grp] Z2-U2 -> L11  try1 order=risk_desc     accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.1s
+[01:15:49   768.20s] [grp] Z2-U4 -> L13  try0 order=crossing_desc accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.5s
+[01:15:56   775.43s] [grp] Z2-U4 -> L13  try1 order=risk_desc     accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 7.2s
+[01:16:01   780.15s] [grp] Z1-U1 -> L2   try0 order=crossing_desc accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.7s
+[01:16:07   786.44s] [grp] Z1-U1 -> L2   try1 order=risk_desc     accepted=False placed=10/10 delta=0 gain=0 reason=legal_but_no_crossing_improvement 6.3s
+[01:16:12   791.10s] [grp] Z2-U3 -> L12  try0 order=crossing_desc accepted=False placed=7/7 delta=0 gain=0 reason=legal_but_no_crossing_improvement 4.7s
+[01:16:18   796.87s] [grp] Z2-U3 -> L12  try1 order=risk_desc     accepted=False placed=7/7 delta=0 gain=0 reason=legal_but_no_crossing_improvement 5.8s
+[01:16:18   796.87s] [g4a] search finished total=1393 accepted_events=1 elapsed=791s
+[01:16:37   816.54s] [g4a] state.validate_all: valid=1024 violations=0 kinds={}
+[01:16:49   828.55s] [arm] final saved to C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\02_arm_G4a total=1393
+[01:16:49   828.56s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\02_arm_G4a\group_attempts.json
+[01:16:49   828.56s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\02_arm_G4a\group_migration.json
+[01:16:49   828.56s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\02_arm_G4a\migration_matrix.csv
+[01:16:49   828.56s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\02_arm_G4a\micro_tune.json
+[01:16:49   828.56s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\02_arm_G4a\xy_evidence.json
+[01:16:49   828.56s] [final] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\02_arm_G4a\failure_taxonomy.json
+[01:16:49   828.57s] [final] running independent validator (fully_optimizable) ...
+[01:17:15   854.07s] [validator] C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\02_arm_G4a\validation -> exit=0 (25.5s)
+[01:17:15   854.08s] [final] validation: {"validation_pass": true, "violations": 0, "routed": 1024, "failed": 0, "crossings": 1393, "crossing_pairs": 1324, "mid_transitions": 90, "min_3d_clearance_mm": 0.062212557, "total_length_mm": 156717.669507, "manual_policy": "fully_optimizable", "policy_violations": 0}
+[01:17:15   854.09s] [g4a] DONE final_crossings=1393 start=1395 delta=-2 validation={"validation_pass": true, "violations": 0, "routed": 1024, "failed": 0, "crossings": 1393, "crossing_pairs": 1324, "mid_transitions": 90, "min_3d_clearance_mm": 0.062212557, "total_length_mm": 156717.669507, "manual_policy": "fully_optimizable", "policy_violations": 0}
+[01:17:15   854.09s] ==============================================================================

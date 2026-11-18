@@ -1,0 +1,13 @@
+{
+ "schema": "coldstart20_multiarc_off_infeasible_v1",
+ "generated_at": "2026-11-18T01:19:59",
+ "profile": "20_height_raised",
+ "verdict": "OFF common start does not exist for this 20H start",
+ "reasons": [
+  "residual multi-arc routes: 1 (first 20: [456])",
+  "multi-arc regions remain after conversion: 1 routes (first 20: [456]; a max-routes debug run also lands here)"
+ ],
+ "conversion_report": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\09_multi_arc_ablation\\common_start_off\\conversion_report.json",
+ "feasibility": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\09_multi_arc_ablation\\OFF_FEASIBILITY.json",
+ "rule": "pre-registered: residual > 0 or illegal route => do NOT run a diluted OFF arm; report effect A (conversion cost / residual routes) as the 20H grammar feasibility result"
+}

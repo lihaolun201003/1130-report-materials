@@ -1,0 +1,213 @@
+{
+ "schema": "g4_chain_summary_v1",
+ "generated_at": "2026-11-18T01:54:00",
+ "seed": 20261104,
+ "common_start": {
+  "dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+  "sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+  "crossings": 1395
+ },
+ "chain_class": "B_progressive_chain",
+ "attribution_note": "链的累计收益 = 各段增量收益之和；每段收益只归因于该段所用的臂/检查点起点，不得把链的累计收益全部归因于最后一个算法。pending 环节表示该链段尚未真实运行，不得估算或补造。",
+ "a_class_note": "A 类\"同起点同预算独立对照\"结果以 01-06 正式臂为准；本链是 B 类补充结果（继承上一链段最佳合法检查点），链段累计收益不得全归因于最后一个算法。",
+ "links": [
+  {
+   "index": 0,
+   "label": "G3 公共起点",
+   "source_arm": "G3",
+   "status": "ok",
+   "start_crossings": 1395,
+   "end_crossings": 1395,
+   "delta": 0,
+   "start_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+   "end_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+   "budget": {
+    "route_3d_checks": 0,
+    "d56_candidate_evals": 0,
+    "wall_seconds": 0.0
+   },
+   "config_budget": {},
+   "wall_seconds": 0.0,
+   "seed": 20261104,
+   "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\00_link_G3_start",
+   "ledger": {},
+   "validation_pass": null,
+   "violations": null,
+   "validation_sha256": null,
+   "validation_sha_match": false,
+   "validation_crossings": null,
+   "min_3d_clearance_mm": null,
+   "total_length_mm": null,
+   "mid_transitions": null,
+   "note": "所有臂与链的共同起点（已核验 G3 合法最优解，交叉 1322）"
+  },
+  {
+   "index": 1,
+   "label": "best(G4a, G4b) 检查点",
+   "source_arm": "G4b",
+   "status": "ok",
+   "start_crossings": 1395,
+   "end_crossings": 1371,
+   "delta": -24,
+   "start_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+   "end_sha256": "ec749648747d7f5dcfb0e0fcb11d5cdbb8365005c7b7d5dac4f5e5c1d30d5cc3",
+   "budget": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 900.0
+   },
+   "config_budget": {},
+   "wall_seconds": 842.32,
+   "seed": 20261104,
+   "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\01_link_best_G4ab",
+   "ledger": {},
+   "validation_pass": true,
+   "violations": 0,
+   "validation_sha256": "ec749648747d7f5dcfb0e0fcb11d5cdbb8365005c7b7d5dac4f5e5c1d30d5cc3",
+   "validation_sha_match": true,
+   "validation_crossings": 1371,
+   "min_3d_clearance_mm": 0.062212557,
+   "total_length_mm": 156711.364239,
+   "mid_transitions": 90,
+   "note": "按独立验收的交叉数选择 G4a/G4b 中更优者作为 G4c 起点"
+  },
+  {
+   "index": 2,
+   "label": "链段 G4c 重跑（从 link1 1294 起）",
+   "source_arm": "G4c_free",
+   "status": "ok",
+   "start_crossings": 1371,
+   "end_crossings": 1309,
+   "delta": -62,
+   "start_sha256": "ec749648747d7f5dcfb0e0fcb11d5cdbb8365005c7b7d5dac4f5e5c1d30d5cc3",
+   "end_sha256": "f441b332f08392aa2467015bbe2b3a9b256c21f08214fd0bdf62bfbf0453a134",
+   "budget": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 700.0
+   },
+   "config_budget": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 700.0
+   },
+   "wall_seconds": 738.9,
+   "seed": 20261104,
+   "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\02_link_G4c\\best_valid",
+   "ledger": {
+    "route_3d_checks": 2737,
+    "d56_candidate_evals": 22096,
+    "transactions": 164,
+    "valid_candidates": 1923,
+    "accepted_changes": 28,
+    "gain": 62,
+    "wall_seconds": 738.9,
+    "validator_runs": 1
+   },
+   "validation_pass": true,
+   "violations": 0,
+   "validation_sha256": "f441b332f08392aa2467015bbe2b3a9b256c21f08214fd0bdf62bfbf0453a134",
+   "validation_sha_match": true,
+   "validation_crossings": 1309,
+   "min_3d_clearance_mm": 0.062212557,
+   "total_length_mm": 156606.999322,
+   "mid_transitions": 86,
+   "note": "从上一链段最佳合法检查点继承的真实运行结果"
+  },
+  {
+   "index": 3,
+   "label": "最佳 G4c 检查点（来自 A 类 G4c_free 臂）",
+   "source_arm": "G4c_free",
+   "status": "pending",
+   "start_crossings": 1371,
+   "end_crossings": null,
+   "delta": null,
+   "start_sha256": "ec749648747d7f5dcfb0e0fcb11d5cdbb8365005c7b7d5dac4f5e5c1d30d5cc3",
+   "end_sha256": null,
+   "budget": {},
+   "config_budget": {},
+   "wall_seconds": null,
+   "seed": 20261104,
+   "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\02b_link_best_G4c",
+   "ledger": {},
+   "validation_pass": null,
+   "violations": null,
+   "validation_sha256": null,
+   "validation_sha_match": true,
+   "validation_crossings": null,
+   "min_3d_clearance_mm": null,
+   "total_length_mm": null,
+   "mid_transitions": null,
+   "note": "继承\"最佳合法检查点\"（SPEC B 类允许）：该 1189 检查点来自 A 类正式臂 G4c_free 的 best_valid（routes/assignment/validation 已复制），不是链段重跑值；链段重跑值见上一链段（仅作对照）。本段不消耗链段搜索预算（0s），其收益 −105 的因果归属注明为\"来自 A 类 G4c_free 臂 + link1 起点\"。"
+  },
+  {
+   "index": 4,
+   "label": "链段 G4d（从 1189 最佳 G4c 检查点起）",
+   "source_arm": "G4d",
+   "status": "pending",
+   "start_crossings": null,
+   "end_crossings": null,
+   "delta": null,
+   "start_sha256": null,
+   "end_sha256": null,
+   "budget": {},
+   "config_budget": {},
+   "wall_seconds": null,
+   "seed": 20261104,
+   "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\03_link_G4d",
+   "ledger": {},
+   "validation_pass": null,
+   "violations": null,
+   "validation_sha256": null,
+   "validation_sha_match": true,
+   "validation_crossings": null,
+   "min_3d_clearance_mm": null,
+   "total_length_mm": null,
+   "mid_transitions": null,
+   "note": "本链段尚未真实运行；需用支持 --start-dir 的 runner 从 C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\02b_link_best_G4c 继承检查点运行（不得修改他人 runner）"
+  }
+ ],
+ "selected_path": [
+  {
+   "index": 0,
+   "label": "G3 公共起点",
+   "source_arm": "G3",
+   "end_crossings": 1395,
+   "end_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf"
+  },
+  {
+   "index": 1,
+   "label": "best(G4a, G4b) 检查点",
+   "source_arm": "G4b",
+   "end_crossings": 1371,
+   "end_sha256": "ec749648747d7f5dcfb0e0fcb11d5cdbb8365005c7b7d5dac4f5e5c1d30d5cc3"
+  },
+  {
+   "index": 2,
+   "label": "链段 G4c 重跑（从 link1 1294 起）",
+   "source_arm": "G4c_free",
+   "end_crossings": 1309,
+   "end_sha256": "f441b332f08392aa2467015bbe2b3a9b256c21f08214fd0bdf62bfbf0453a134"
+  }
+ ],
+ "selected_best_link": {
+  "index": 2,
+  "label": "链段 G4c 重跑（从 link1 1294 起）",
+  "end_crossings": 1309,
+  "end_sha256": "f441b332f08392aa2467015bbe2b3a9b256c21f08214fd0bdf62bfbf0453a134"
+ },
+ "selected_path_deltas": [
+  -24,
+  -62
+ ],
+ "selected_path_total_delta": -86,
+ "total_delta": -86,
+ "chain_best_crossings": 1309,
+ "chain_total_delta_vs_common_start": -86,
+ "sum_link_deltas_branched": -86,
+ "branch_note": "链是分支结构（link2 重跑 / link2b 继承 / link3 / 06b 平行），除 selected_path 外各段增量不可简单相加；链 best 收益只按 selected_path 归因，不归因于最后一个算法。",
+ "notes": [
+  "G4d A 类臂（06_arm_G4d）因外部误杀分两次 session 运行：session1 1242.7s 到 1212 + session2 --resume 111.6s 补完 stage 64/96 并 validation；矩阵 wall=106.3 仅为 session2，总搜索墙钟 ≈1354s；ledger route_3d_checks=4400 / d56_candidate_evals=35815 为含 checkpoint 的累计值。",
+  "E2 起点为 E1 的 1201 快照；E1b 为 E2 的继续探索；E1/E2/E1b 均为 exploratory（非正式臂），无独立 validation 的标 not_run。"
+ ]
+}

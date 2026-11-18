@@ -1,0 +1,99 @@
+{
+ "schema": "coldstart20_xyz_g123_driver_v1",
+ "profile": "20_height_raised",
+ "model": "coldstart20.model20",
+ "command": "reports",
+ "generated_at": "2026-11-18T01:02:17",
+ "started_at": "2026-11-18T01:02:10",
+ "elapsed_s": 6.9,
+ "ok": true,
+ "error": null,
+ "project_root": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+ "experiment_root": "experiments\\COLD_START_20_HEIGHT_1024",
+ "run_root": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h",
+ "authority_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
+ "log": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\run_g123.log",
+ "budgets": {
+  "G1": "2 rounds x 1200 s, top 656",
+  "G2a": "2 rounds x 300 s, group delta budget 80",
+  "G2b": "1 round x 240 s, route delta budget 2",
+  "G3": "1 round x 500 s",
+  "G3_cold": "1 round x 1200 s"
+ },
+ "seeds": {
+  "engine_seed": 20261104,
+  "note": "the frozen engine seed is written by optimizer.py; G1/G2/G3 are deterministic per candidate order"
+ },
+ "checkpoint_scoping": {
+  "global_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\checkpoints",
+  "per_stage": "<stage out_dir>/checkpoints/<checkpoint_%04d>",
+  "note": "patch_g123.py namespaces optimizer checkpoints by stage; the frozen campaign defect (G1/G3_cold shared global dir) cannot recur"
+ },
+ "stages": [
+  "preflight",
+  "reports"
+ ],
+ "completed": [
+  "preflight",
+  "reports"
+ ],
+ "expected_search_budget_s": 0.0,
+ "records": [
+  {
+   "name": "preflight",
+   "module": null,
+   "out_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
+   "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\preflight_audit\\checkpoints",
+   "seconds": 0.0,
+   "argv": []
+  },
+  {
+   "name": "reports",
+   "module": "four_side_1024.fanout1024.xyzrouter.run_reports",
+   "out_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+   "checkpoint_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\reports\\checkpoints",
+   "seconds": 5.0,
+   "argv": [
+    "--archive",
+    "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\archive"
+   ]
+  }
+ ],
+ "final": {
+  "best_valid_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+  "best_experiment": "G3",
+  "best_crossings": 1395,
+  "best_crossing_pairs": 1325,
+  "best_baseline_crossings": 3061,
+  "best_routes_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+  "best_validation_pass": true,
+  "final_json": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid\\FINAL.json",
+  "archive": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\archive"
+ },
+ "stage_evidence": [
+  {
+   "stage": "preflight",
+   "seconds": 0.0,
+   "status": "reused",
+   "authority": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
+   "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2\\best_valid"
+  },
+  {
+   "name": "reports",
+   "out_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\reports",
+   "best_valid_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+   "best_experiment": "G3",
+   "best_crossings": 1395,
+   "best_baseline_crossings": 3061,
+   "validation_pass": true,
+   "report_metrics": [
+    "baseline",
+    "G1",
+    "G2a",
+    "G2b",
+    "G3",
+    "G3_cold"
+   ]
+  }
+ ]
+}

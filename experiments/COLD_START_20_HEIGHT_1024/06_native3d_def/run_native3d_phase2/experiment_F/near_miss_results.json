@@ -1,0 +1,18 @@
+{
+ "schema": "native3d_phase2_near_miss_v1",
+ "start_total": 3078,
+ "final_total": 3061,
+ "attempts": 958,
+ "accepted": 1,
+ "net": -17,
+ "improvements": [
+  {
+   "route_id": 707,
+   "target_z": 0.525,
+   "net": -17,
+   "predicted": 18,
+   "s0": 101.937,
+   "s1": 149.113
+  }
+ ]
+}

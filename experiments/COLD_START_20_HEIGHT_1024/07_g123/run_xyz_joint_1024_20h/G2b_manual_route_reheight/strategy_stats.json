@@ -1,0 +1,47 @@
+{
+ "rounds": [
+  {
+   "label": "g2b_r1",
+   "seconds": 240.42,
+   "accepted": 6,
+   "candidates_tried": 268,
+   "total_after": 1409,
+   "gain": 19,
+   "stats": {
+    "tried": 268,
+    "targets": 1304,
+    "xy_generated": 2770,
+    "built": 576,
+    "rejected_3d": 41,
+    "evaluated": 576,
+    "combos_pre": 1304,
+    "combos_eval": 278,
+    "no_gain": 262,
+    "accepted": 6,
+    "gain": 19,
+    "budget_stop": 1
+   },
+   "reasons": {
+    "no_xy_candidate": 208,
+    "transition_vs_flat": 34,
+    "flat_vs_transition": 1,
+    "transition_vs_transition": 6
+   }
+  }
+ ],
+ "cfg": {
+  "max_target_layers": 3,
+  "max_lead_pairs": 2,
+  "prescreen_candidates": 220,
+  "max_candidates": 420,
+  "d56_top": 24,
+  "bodies_per_pair": 2,
+  "max_eval": 2,
+  "max_combos": 2,
+  "early_stop_delta": 6,
+  "min_delta": 1,
+  "allow_direct": true,
+  "allow_xy_only": true,
+  "phase": 0.0
+ }
+}

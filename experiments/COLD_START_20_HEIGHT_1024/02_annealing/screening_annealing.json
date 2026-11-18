@@ -1,0 +1,355 @@
+{
+ "schema": "coldstart20_nonc4_screening_v1",
+ "profile": "20_height_raised",
+ "seed": 11,
+ "time_budget_s": 15.0,
+ "group_counts": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "plane_count": 12,
+ "z1_planes": [
+  6,
+  7,
+  20,
+  1001,
+  8
+ ],
+ "z2_planes": [
+  9,
+  14,
+  15,
+  16,
+  17,
+  18,
+  1002
+ ],
+ "families": [
+  "Z1V",
+  "Z1H",
+  "Z2_NE",
+  "Z2_SE",
+  "Z2_NW",
+  "Z2_SW"
+ ],
+ "family_labels": {
+  "Z1V": "Z1 opposite vertical (N<->S)",
+  "Z1H": "Z1 opposite horizontal (E<->W)",
+  "Z2_NE": "Z2 adjacent NE corner (E->N)",
+  "Z2_SE": "Z2 adjacent SE corner (E->S)",
+  "Z2_NW": "Z2 adjacent NW corner (N->W)",
+  "Z2_SW": "Z2 adjacent SW corner (S->W)"
+ },
+ "curves": {
+  "Z1V": {
+   "route_count": 128,
+   "edges": 1568,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1568,
+     "sizes": [
+      128
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 392,
+     "sizes": [
+      66,
+      62
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 134,
+     "sizes": [
+      46,
+      42,
+      40
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 52,
+     "sizes": [
+      35,
+      31,
+      31,
+      31
+     ]
+    }
+   ]
+  },
+  "Z1H": {
+   "route_count": 128,
+   "edges": 1568,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1568,
+     "sizes": [
+      128
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 392,
+     "sizes": [
+      66,
+      62
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 134,
+     "sizes": [
+      47,
+      41,
+      40
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 52,
+     "sizes": [
+      33,
+      33,
+      31,
+      31
+     ]
+    }
+   ]
+  },
+  "Z2_NE": {
+   "route_count": 100,
+   "edges": 1009,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1009,
+     "sizes": [
+      100
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 246,
+     "sizes": [
+      50,
+      50
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 80,
+     "sizes": [
+      34,
+      34,
+      32
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 30,
+     "sizes": [
+      29,
+      24,
+      24,
+      23
+     ]
+    }
+   ]
+  },
+  "Z2_SE": {
+   "route_count": 100,
+   "edges": 1009,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1009,
+     "sizes": [
+      100
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 246,
+     "sizes": [
+      50,
+      50
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 80,
+     "sizes": [
+      34,
+      34,
+      32
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 30,
+     "sizes": [
+      29,
+      24,
+      24,
+      23
+     ]
+    }
+   ]
+  },
+  "Z2_NW": {
+   "route_count": 100,
+   "edges": 1009,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1009,
+     "sizes": [
+      100
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 246,
+     "sizes": [
+      50,
+      50
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 80,
+     "sizes": [
+      34,
+      34,
+      32
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 30,
+     "sizes": [
+      29,
+      24,
+      24,
+      23
+     ]
+    }
+   ]
+  },
+  "Z2_SW": {
+   "route_count": 100,
+   "edges": 1009,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1009,
+     "sizes": [
+      100
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 246,
+     "sizes": [
+      50,
+      50
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 80,
+     "sizes": [
+      34,
+      34,
+      32
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 30,
+     "sizes": [
+      29,
+      24,
+      24,
+      23
+     ]
+    }
+   ]
+  }
+ },
+ "optimal": {
+  "cost": 746,
+  "z1v": 2,
+  "z1h": 3,
+  "ne_sw": 3,
+  "se_nw": 4
+ },
+ "allocation": {
+  "Z1V": [
+   6,
+   7
+  ],
+  "Z1H": [
+   20,
+   1001,
+   8
+  ],
+  "Z2_NE": [
+   9,
+   14,
+   15
+  ],
+  "Z2_SW": [
+   9,
+   14,
+   15
+  ],
+  "Z2_SE": [
+   16,
+   17,
+   18,
+   1002
+  ],
+  "Z2_NW": [
+   16,
+   17,
+   18,
+   1002
+  ]
+ },
+ "predicted_crossings": 746,
+ "allocation_family_pure": {
+  "Z1V": [
+   6,
+   7
+  ],
+  "Z1H": [
+   20,
+   1001,
+   8
+  ],
+  "Z2_NE": [
+   9,
+   14
+  ],
+  "Z2_SE": [
+   15,
+   16
+  ],
+  "Z2_NW": [
+   17
+  ],
+  "Z2_SW": [
+   18,
+   1002
+  ]
+ },
+ "note": "allocation = chord-crossing-graph optimum (opposite-corner families SHARE planes; the 21-height campaign measured this prediction as unrealisable by an axis-aligned R15 router).  allocation_family_pure = each direction family gets its own planes, which is the E3 design that actually performed best."
+}

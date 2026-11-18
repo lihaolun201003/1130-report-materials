@@ -1,0 +1,59 @@
+{
+ "schema": "coldstart20_g4_launch_v1",
+ "key": "a",
+ "arm": "G4a",
+ "profile": "20_height_raised",
+ "g4_root": "experiments/COLD_START_20_HEIGHT_1024/08_g4",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+ "start_routes_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+ "start_crossings": 1395,
+ "authority_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
+ "authority_source": "g4.paths.AUTHORITY_DIR",
+ "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\02_arm_G4a",
+ "seconds": 900.0,
+ "seed": 20261104,
+ "declared_budget": {
+  "route_3d_checks": 30000,
+  "d56_candidate_evals": 120000,
+  "wall_seconds": 1800
+ },
+ "arm_budget": {
+  "route_3d_checks": 30000,
+  "d56_candidate_evals": 120000,
+  "wall_seconds": 1200
+ },
+ "counted_d56_budget": null,
+ "counted_checks_guard": null,
+ "tag": "",
+ "resume": false,
+ "extra_args": "",
+ "state": "finished",
+ "argv": [
+  "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\.venv\\Scripts\\python.exe",
+  "-m",
+  "four_side_1024.fanout1024.coldstart20.run_g4",
+  "_run",
+  "--module",
+  "four_side_1024.fanout1024.xyzrouter.g4.run_g4a",
+  "--",
+  "--budget-seconds",
+  "900",
+  "--seed",
+  "20261104",
+  "--out-dir",
+  "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\02_arm_G4a"
+ ],
+ "exit_code": 0,
+ "elapsed_seconds": 854.63,
+ "finished_at": "2026-11-18T01:17:15",
+ "best_valid": {
+  "path": "experiments/COLD_START_20_HEIGHT_1024/08_g4/02_arm_G4a/best_valid/routes_l3d.json",
+  "sha256": "7ce28f1b53d1c4fab9a6d203e4dc6943f87dfbe7f3a5e7d381d9d805801a936b",
+  "artifacts": [
+   "SHA256.json",
+   "assignment_1024.csv",
+   "layer_planes.json",
+   "routes_l3d.json"
+  ]
+ }
+}

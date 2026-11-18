@@ -1,0 +1,853 @@
+{
+ "schema": "native3d_phase2_transition_stats_v1",
+ "routes_with_mid_transitions": 68,
+ "mid_transitions": 156,
+ "excursions": 78,
+ "by_from_height": {
+  "+0.075": 23,
+  "+0.575": 1,
+  "-0.025": 18,
+  "-0.075": 21,
+  "-0.125": 15
+ },
+ "per_route": {
+  "2": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 8.449489742783172,
+    "s_start_mm": 123.543926,
+    "s_end_mm": 135.456074,
+    "kind": "excursion"
+   }
+  ],
+  "7": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 6.1994897427831575,
+    "s_start_mm": 174.043926,
+    "s_end_mm": 183.706074,
+    "kind": "excursion"
+   }
+  ],
+  "8": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 6.449489742783186,
+    "s_start_mm": 89.793926,
+    "s_end_mm": 99.706074,
+    "kind": "excursion"
+   }
+  ],
+  "9": [
+   {
+    "from_z": -0.075,
+    "to_z": 0.075,
+    "footprint_mm": 2.996247653315728,
+    "middle_mm": 3.4494897427831575,
+    "s_start_mm": 61.779007,
+    "s_end_mm": 71.220993,
+    "kind": "excursion"
+   }
+  ],
+  "11": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 6.449489742783186,
+    "s_start_mm": 78.793926,
+    "s_end_mm": 88.706074,
+    "kind": "excursion"
+   }
+  ],
+  "13": [
+   {
+    "from_z": -0.075,
+    "to_z": 0.075,
+    "footprint_mm": 2.996247653315728,
+    "middle_mm": 3.4494897427831575,
+    "s_start_mm": 95.779007,
+    "s_end_mm": 105.220993,
+    "kind": "excursion"
+   }
+  ],
+  "16": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 6.199489742783158,
+    "s_start_mm": 182.793926,
+    "s_end_mm": 192.456074,
+    "kind": "excursion"
+   }
+  ],
+  "26": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 14.449489742783172,
+    "s_start_mm": 115.293926,
+    "s_end_mm": 133.206074,
+    "kind": "excursion"
+   }
+  ],
+  "32": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 8.449489742783157,
+    "s_start_mm": 171.043926,
+    "s_end_mm": 182.956074,
+    "kind": "excursion"
+   }
+  ],
+  "35": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.075,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 9.449489742783179,
+    "s_start_mm": 9.793926,
+    "s_end_mm": 22.706074,
+    "kind": "excursion"
+   }
+  ],
+  "36": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 23.94948974278317,
+    "s_start_mm": 110.793926,
+    "s_end_mm": 138.206074,
+    "kind": "excursion"
+   }
+  ],
+  "99": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.075,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 9.449489742783172,
+    "s_start_mm": 123.043926,
+    "s_end_mm": 135.956074,
+    "kind": "excursion"
+   }
+  ],
+  "100": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 22.69948974278318,
+    "s_start_mm": 10.043926,
+    "s_end_mm": 36.206074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.075,
+    "to_z": 0.125,
+    "footprint_mm": 3.4583232931581276,
+    "middle_mm": 24.199489742783186,
+    "s_start_mm": 70.566932,
+    "s_end_mm": 101.683068,
+    "kind": "excursion"
+   }
+  ],
+  "107": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.075,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 9.449489742783172,
+    "s_start_mm": 127.543926,
+    "s_end_mm": 140.456074,
+    "kind": "excursion"
+   }
+  ],
+  "109": [
+   {
+    "from_z": -0.125,
+    "to_z": 0.125,
+    "footprint_mm": 3.8649062084350696,
+    "middle_mm": 24.1994897427832,
+    "s_start_mm": 6.410349,
+    "s_end_mm": 38.339651,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.125,
+    "to_z": -0.025,
+    "footprint_mm": 2.447447650104071,
+    "middle_mm": 13.949489742783179,
+    "s_start_mm": 78.577807,
+    "s_end_mm": 97.422193,
+    "kind": "excursion"
+   }
+  ],
+  "118": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.025,
+    "footprint_mm": 2.447447650104071,
+    "middle_mm": 12.199489742783179,
+    "s_start_mm": 7.827807,
+    "s_end_mm": 24.922193,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.125,
+    "to_z": -0.075,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 16.449489742783186,
+    "s_start_mm": 90.293926,
+    "s_end_mm": 110.206074,
+    "kind": "excursion"
+   }
+  ],
+  "125": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.025,
+    "footprint_mm": 2.447447650104071,
+    "middle_mm": 13.949489742783193,
+    "s_start_mm": 123.577807,
+    "s_end_mm": 142.422193,
+    "kind": "excursion"
+   }
+  ],
+  "127": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 19.699489742783157,
+    "s_start_mm": 14.793926,
+    "s_end_mm": 37.956074,
+    "kind": "excursion"
+   }
+  ],
+  "133": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.025,
+    "footprint_mm": 2.447447650104071,
+    "middle_mm": 13.949489742783207,
+    "s_start_mm": 130.077807,
+    "s_end_mm": 148.922193,
+    "kind": "excursion"
+   }
+  ],
+  "142": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 14.199489742783186,
+    "s_start_mm": 126.543926,
+    "s_end_mm": 144.206074,
+    "kind": "excursion"
+   }
+  ],
+  "148": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 53.12388980384689,
+    "s_start_mm": 0.743987,
+    "s_end_mm": 57.330535,
+    "kind": "excursion"
+   }
+  ],
+  "151": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.449489742783158,
+    "s_start_mm": 167.793926,
+    "s_end_mm": 175.706074,
+    "kind": "excursion"
+   }
+  ],
+  "154": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.949489742783158,
+    "s_start_mm": 175.293926,
+    "s_end_mm": 183.706074,
+    "kind": "excursion"
+   }
+  ],
+  "157": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 8.699489742783157,
+    "s_start_mm": 180.293926,
+    "s_end_mm": 192.456074,
+    "kind": "excursion"
+   }
+  ],
+  "163": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 3.449489742783186,
+    "s_start_mm": 82.293926,
+    "s_end_mm": 89.206074,
+    "kind": "excursion"
+   }
+  ],
+  "164": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 3.949489742783186,
+    "s_start_mm": 132.529007,
+    "s_end_mm": 152.220993,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.025,
+    "to_z": 0.125,
+    "footprint_mm": 2.996247653315728,
+    "middle_mm": 13.6994897427832,
+    "s_start_mm": 115.043926,
+    "s_end_mm": 122.456074,
+    "kind": "excursion"
+   }
+  ],
+  "165": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 3.4494897427831717,
+    "s_start_mm": 131.029007,
+    "s_end_mm": 150.720993,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.025,
+    "to_z": 0.125,
+    "footprint_mm": 2.996247653315728,
+    "middle_mm": 13.6994897427832,
+    "s_start_mm": 60.043926,
+    "s_end_mm": 66.956074,
+    "kind": "excursion"
+   }
+  ],
+  "167": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 3.449489742783186,
+    "s_start_mm": 97.543926,
+    "s_end_mm": 104.456074,
+    "kind": "excursion"
+   }
+  ],
+  "170": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 11.949489742783157,
+    "s_start_mm": 169.043926,
+    "s_end_mm": 184.456074,
+    "kind": "excursion"
+   }
+  ],
+  "171": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 10.449489742783157,
+    "s_start_mm": 170.543926,
+    "s_end_mm": 184.456074,
+    "kind": "excursion"
+   }
+  ],
+  "210": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 10.449489742783157,
+    "s_start_mm": 143.793926,
+    "s_end_mm": 157.706074,
+    "kind": "excursion"
+   }
+  ],
+  "216": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 8.699489742783157,
+    "s_start_mm": 172.293926,
+    "s_end_mm": 184.456074,
+    "kind": "excursion"
+   }
+  ],
+  "223": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.075,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 19.19948974278317,
+    "s_start_mm": 112.293926,
+    "s_end_mm": 134.956074,
+    "kind": "excursion"
+   }
+  ],
+  "227": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.949489742783186,
+    "s_start_mm": 105.543926,
+    "s_end_mm": 113.956074,
+    "kind": "excursion"
+   }
+  ],
+  "231": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 10.699489742783157,
+    "s_start_mm": 135.293926,
+    "s_end_mm": 149.456074,
+    "kind": "excursion"
+   }
+  ],
+  "412": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 16.949489742783186,
+    "s_start_mm": 116.793926,
+    "s_end_mm": 137.206074,
+    "kind": "excursion"
+   }
+  ],
+  "415": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.075,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 20.94948974278317,
+    "s_start_mm": 110.543926,
+    "s_end_mm": 134.956074,
+    "kind": "excursion"
+   }
+  ],
+  "416": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.949489742783165,
+    "s_start_mm": 34.543926,
+    "s_end_mm": 42.956074,
+    "kind": "excursion"
+   }
+  ],
+  "419": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 5.1994897427831575,
+    "s_start_mm": 131.043926,
+    "s_end_mm": 139.706074,
+    "kind": "excursion"
+   }
+  ],
+  "422": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.949489742783172,
+    "s_start_mm": 41.793926,
+    "s_end_mm": 50.206074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 9.449489742783186,
+    "s_start_mm": 55.793926,
+    "s_end_mm": 68.706074,
+    "kind": "excursion"
+   }
+  ],
+  "423": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 10.699489742783157,
+    "s_start_mm": 135.043926,
+    "s_end_mm": 149.206074,
+    "kind": "excursion"
+   }
+  ],
+  "429": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 11.949489742783157,
+    "s_start_mm": 133.793926,
+    "s_end_mm": 149.206074,
+    "kind": "excursion"
+   }
+  ],
+  "431": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.125,
+    "footprint_mm": 2.996247653315728,
+    "middle_mm": 13.4494897427832,
+    "s_start_mm": 132.529007,
+    "s_end_mm": 151.970993,
+    "kind": "excursion"
+   }
+  ],
+  "434": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 9.949489742783172,
+    "s_start_mm": 12.043926,
+    "s_end_mm": 25.456074,
+    "kind": "excursion"
+   }
+  ],
+  "437": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.949489742783172,
+    "s_start_mm": 34.543926,
+    "s_end_mm": 42.956074,
+    "kind": "excursion"
+   }
+  ],
+  "439": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.075,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 19.449489742783175,
+    "s_start_mm": 10.043926,
+    "s_end_mm": 32.956074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.125,
+    "to_z": -0.025,
+    "footprint_mm": 2.447447650104071,
+    "middle_mm": 21.199489742783186,
+    "s_start_mm": 76.827807,
+    "s_end_mm": 102.922193,
+    "kind": "excursion"
+   }
+  ],
+  "440": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.9494897427831575,
+    "s_start_mm": 129.043926,
+    "s_end_mm": 137.456074,
+    "kind": "excursion"
+   }
+  ],
+  "444": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 10.699489742783157,
+    "s_start_mm": 128.543926,
+    "s_end_mm": 142.706074,
+    "kind": "excursion"
+   }
+  ],
+  "453": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 16.949489742783157,
+    "s_start_mm": 129.043926,
+    "s_end_mm": 149.456074,
+    "kind": "excursion"
+   }
+  ],
+  "454": [
+   {
+    "from_z": -0.075,
+    "to_z": 0.025,
+    "footprint_mm": 2.447447650104071,
+    "middle_mm": 15.449489742783214,
+    "s_start_mm": 128.577807,
+    "s_end_mm": 148.922193,
+    "kind": "excursion"
+   }
+  ],
+  "458": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.949489742783172,
+    "s_start_mm": 41.043926,
+    "s_end_mm": 49.456074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": 0.075,
+    "to_z": 0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.9494897427831575,
+    "s_start_mm": 85.293926,
+    "s_end_mm": 93.706074,
+    "kind": "excursion"
+   }
+  ],
+  "461": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.9494897427831575,
+    "s_start_mm": 10.043926,
+    "s_end_mm": 18.456074,
+    "kind": "excursion"
+   }
+  ],
+  "463": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.025,
+    "footprint_mm": 2.447447650104071,
+    "middle_mm": 20.699489742783204,
+    "s_start_mm": 109.827807,
+    "s_end_mm": 135.422193,
+    "kind": "excursion"
+   }
+  ],
+  "464": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.949489742783186,
+    "s_start_mm": 127.543926,
+    "s_end_mm": 135.956074,
+    "kind": "excursion"
+   }
+  ],
+  "468": [
+   {
+    "from_z": 0.075,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 13.449489742783172,
+    "s_start_mm": 125.543926,
+    "s_end_mm": 142.456074,
+    "kind": "excursion"
+   }
+  ],
+  "475": [
+   {
+    "from_z": -0.075,
+    "to_z": 0.025,
+    "footprint_mm": 2.447447650104071,
+    "middle_mm": 16.699489742783214,
+    "s_start_mm": 137.077807,
+    "s_end_mm": 158.672193,
+    "kind": "excursion"
+   }
+  ],
+  "480": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 18.19948974278317,
+    "s_start_mm": 122.543926,
+    "s_end_mm": 144.206074,
+    "kind": "excursion"
+   }
+  ],
+  "481": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 23.94948974278317,
+    "s_start_mm": 115.293926,
+    "s_end_mm": 142.706074,
+    "kind": "excursion"
+   }
+  ],
+  "482": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.075,
+    "footprint_mm": 2.447447650104071,
+    "middle_mm": 24.19948974278319,
+    "s_start_mm": 115.827807,
+    "s_end_mm": 144.922193,
+    "kind": "excursion"
+   }
+  ],
+  "484": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 7.699489742783172,
+    "s_start_mm": 127.043926,
+    "s_end_mm": 138.206074,
+    "kind": "excursion"
+   }
+  ],
+  "487": [
+   {
+    "from_z": -0.125,
+    "to_z": -0.075,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 15.199489742783175,
+    "s_start_mm": 16.293926,
+    "s_end_mm": 34.956074,
+    "kind": "excursion"
+   }
+  ],
+  "492": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.699489742783158,
+    "s_start_mm": 176.293926,
+    "s_end_mm": 184.456074,
+    "kind": "excursion"
+   }
+  ],
+  "493": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.125,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.699489742783158,
+    "s_start_mm": 174.793926,
+    "s_end_mm": 182.956074,
+    "kind": "excursion"
+   }
+  ],
+  "494": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 4.6994897427831575,
+    "s_start_mm": 176.293926,
+    "s_end_mm": 184.456074,
+    "kind": "excursion"
+   }
+  ],
+  "495": [
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 21.44948974278317,
+    "s_start_mm": 141.793926,
+    "s_end_mm": 166.706074,
+    "kind": "excursion"
+   }
+  ],
+  "496": [
+   {
+    "from_z": -0.075,
+    "to_z": -0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 61.873889803846886,
+    "s_start_mm": 146.293926,
+    "s_end_mm": 166.706074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.075,
+    "to_z": -0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 16.94948974278317,
+    "s_start_mm": 0.707263,
+    "s_end_mm": 66.043811,
+    "kind": "excursion"
+   }
+  ],
+  "497": [
+   {
+    "from_z": -0.025,
+    "to_z": -0.075,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 61.87388980384689,
+    "s_start_mm": 141.793926,
+    "s_end_mm": 168.206074,
+    "kind": "excursion"
+   },
+   {
+    "from_z": -0.025,
+    "to_z": 0.025,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 22.949489742783157,
+    "s_start_mm": 0.743987,
+    "s_end_mm": 66.080535,
+    "kind": "excursion"
+   }
+  ],
+  "707": [
+   {
+    "from_z": 0.575,
+    "to_z": 0.525,
+    "footprint_mm": 1.7313289693180984,
+    "middle_mm": 43.71305006136379,
+    "s_start_mm": 101.937109,
+    "s_end_mm": 149.112817,
+    "kind": "excursion"
+   }
+  ]
+ }
+}

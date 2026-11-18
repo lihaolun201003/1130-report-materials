@@ -1,0 +1,833 @@
+{
+ "screened": 46,
+ "clean": 1,
+ "histogram": {
+  "6": 17,
+  "1": 7,
+  "4": 3,
+  "0": 5,
+  "3": 7,
+  "7": 1,
+  "2": 4,
+  "5": 2
+ },
+ "manual_blocked": 27,
+ "own_geometry": 0,
+ "repair_candidates": 0,
+ "rows": [
+  {
+   "route_id": 639,
+   "target_z": -0.225,
+   "predicted_net": 42,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    765,
+    16,
+    158,
+    740,
+    763,
+    498
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 739,
+   "target_z": -0.325,
+   "predicted_net": 42,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    637
+   ],
+   "manual_ids": [
+    821
+   ]
+  },
+  {
+   "route_id": 635,
+   "target_z": -0.175,
+   "predicted_net": 36,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    953,
+    708,
+    759,
+    237,
+    492,
+    173
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 707,
+   "target_z": -0.325,
+   "predicted_net": 36,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    633
+   ],
+   "manual_ids": [
+    821
+   ]
+  },
+  {
+   "route_id": 671,
+   "target_z": -0.275,
+   "predicted_net": 35,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    765,
+    493,
+    492,
+    217,
+    744,
+    763
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 743,
+   "target_z": -0.325,
+   "predicted_net": 35,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 5,
+   "n_movable": 4,
+   "n_manual": 1,
+   "movable_ids": [
+    669,
+    216,
+    492,
+    623
+   ],
+   "manual_ids": [
+    1013
+   ]
+  },
+  {
+   "route_id": 631,
+   "target_z": -0.175,
+   "predicted_net": 30,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    14,
+    700,
+    953,
+    755,
+    957,
+    765
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 667,
+   "target_z": -0.225,
+   "predicted_net": 30,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    185
+   ]
+  },
+  {
+   "route_id": 699,
+   "target_z": -0.275,
+   "predicted_net": 30,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    629
+   ],
+   "manual_ids": [
+    821
+   ]
+  },
+  {
+   "route_id": 711,
+   "target_z": -0.325,
+   "predicted_net": 30,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    665
+   ],
+   "manual_ids": [
+    371
+   ]
+  },
+  {
+   "route_id": 535,
+   "target_z": -0.275,
+   "predicted_net": 28,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    238,
+    748,
+    763,
+    765,
+    237,
+    492
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 747,
+   "target_z": -0.325,
+   "predicted_net": 28,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    533,
+    237,
+    627
+   ],
+   "manual_ids": [
+    989
+   ]
+  },
+  {
+   "route_id": 663,
+   "target_z": -0.175,
+   "predicted_net": 25,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    237,
+    216,
+    173,
+    451,
+    211,
+    704
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 703,
+   "target_z": -0.275,
+   "predicted_net": 25,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    661,
+    210,
+    623
+   ],
+   "manual_ids": [
+    1013
+   ]
+  },
+  {
+   "route_id": 531,
+   "target_z": -0.275,
+   "predicted_net": 24,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 7,
+   "n_movable": 7,
+   "n_manual": 0,
+   "movable_ids": [
+    953,
+    765,
+    716,
+    759,
+    237,
+    216,
+    492
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 627,
+   "target_z": 0.175,
+   "predicted_net": 24,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    765
+   ],
+   "manual_ids": [
+    993
+   ]
+  },
+  {
+   "route_id": 691,
+   "target_z": 0.125,
+   "predicted_net": 24,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    625,
+    619,
+    148,
+    905,
+    559,
+    929
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 715,
+   "target_z": -0.325,
+   "predicted_net": 24,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    529,
+    627
+   ],
+   "manual_ids": [
+    989
+   ]
+  },
+  {
+   "route_id": 559,
+   "target_z": -0.275,
+   "predicted_net": 21,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    492,
+    499,
+    173,
+    752,
+    763,
+    237
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 751,
+   "target_z": -0.325,
+   "predicted_net": 21,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    557,
+    498,
+    631
+   ],
+   "manual_ids": [
+    176
+   ]
+  },
+  {
+   "route_id": 527,
+   "target_z": -0.275,
+   "predicted_net": 20,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    765,
+    733,
+    232,
+    588,
+    755,
+    237
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 587,
+   "target_z": -0.325,
+   "predicted_net": 20,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    525,
+    231,
+    627
+   ],
+   "manual_ids": [
+    989
+   ]
+  },
+  {
+   "route_id": 659,
+   "target_z": -0.175,
+   "predicted_net": 20,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    216,
+    157,
+    430,
+    696,
+    751,
+    765
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 695,
+   "target_z": 0.075,
+   "predicted_net": 20,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    657
+   ],
+   "manual_ids": [
+    1013
+   ]
+  },
+  {
+   "route_id": 835,
+   "target_z": -0.225,
+   "predicted_net": 20,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    963,
+    605,
+    593,
+    589,
+    38,
+    533
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 975,
+   "target_z": -0.325,
+   "predicted_net": 20,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    620,
+    652,
+    851
+   ],
+   "manual_ids": [
+    264
+   ]
+  },
+  {
+   "route_id": 555,
+   "target_z": -0.275,
+   "predicted_net": 18,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    953,
+    173,
+    478,
+    424,
+    720,
+    759
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 623,
+   "target_z": 0.175,
+   "predicted_net": 18,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    765,
+    733,
+    605,
+    684,
+    747,
+    965
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 683,
+   "target_z": 0.075,
+   "predicted_net": 18,
+   "clean": true,
+   "reason": "clean",
+   "n_blockers": 5,
+   "n_movable": 5,
+   "n_manual": 0,
+   "movable_ids": [
+    621,
+    619,
+    881,
+    535,
+    905
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 719,
+   "target_z": -0.325,
+   "predicted_net": 18,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 5,
+   "n_movable": 4,
+   "n_manual": 1,
+   "movable_ids": [
+    553,
+    423,
+    477,
+    631
+   ],
+   "manual_ids": [
+    176
+   ]
+  },
+  {
+   "route_id": 129,
+   "target_z": -0.225,
+   "predicted_net": 16,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    69
+   ]
+  },
+  {
+   "route_id": 523,
+   "target_z": -0.275,
+   "predicted_net": 16,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    733,
+    605,
+    564,
+    751,
+    765,
+    216
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 563,
+   "target_z": -0.175,
+   "predicted_net": 16,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    521,
+    627
+   ],
+   "manual_ids": [
+    989
+   ]
+  },
+  {
+   "route_id": 859,
+   "target_z": -0.275,
+   "predicted_net": 16,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 5,
+   "n_movable": 4,
+   "n_manual": 1,
+   "movable_ids": [
+    963,
+    605,
+    593,
+    589
+   ],
+   "manual_ids": [
+    246
+   ]
+  },
+  {
+   "route_id": 971,
+   "target_z": -0.175,
+   "predicted_net": 16,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    1024
+   ]
+  },
+  {
+   "route_id": 551,
+   "target_z": -0.275,
+   "predicted_net": 15,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    457,
+    592,
+    755,
+    765,
+    733,
+    605
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 591,
+   "target_z": -0.325,
+   "predicted_net": 15,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    549,
+    456,
+    631
+   ],
+   "manual_ids": [
+    176
+   ]
+  },
+  {
+   "route_id": 655,
+   "target_z": 0.175,
+   "predicted_net": 15,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 6,
+   "n_movable": 5,
+   "n_manual": 1,
+   "movable_ids": [
+    688,
+    747,
+    733,
+    605,
+    581
+   ],
+   "manual_ids": [
+    1015
+   ]
+  },
+  {
+   "route_id": 687,
+   "target_z": 0.175,
+   "predicted_net": 15,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    653,
+    623
+   ],
+   "manual_ids": [
+    1013
+   ]
+  },
+  {
+   "route_id": 839,
+   "target_z": -0.225,
+   "predicted_net": 15,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 3,
+   "n_movable": 2,
+   "n_manual": 1,
+   "movable_ids": [
+    967,
+    581
+   ],
+   "manual_ids": [
+    992
+   ]
+  },
+  {
+   "route_id": 951,
+   "target_z": -0.325,
+   "predicted_net": 15,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 4,
+   "n_movable": 3,
+   "n_manual": 1,
+   "movable_ids": [
+    620,
+    652,
+    851
+   ],
+   "manual_ids": [
+    75
+   ]
+  },
+  {
+   "route_id": 158,
+   "target_z": -0.225,
+   "predicted_net": 14,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    383
+   ]
+  },
+  {
+   "route_id": 217,
+   "target_z": -0.275,
+   "predicted_net": 14,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 1,
+   "n_movable": 0,
+   "n_manual": 1,
+   "movable_ids": [],
+   "manual_ids": [
+    380
+   ]
+  },
+  {
+   "route_id": 583,
+   "target_z": -0.225,
+   "predicted_net": 14,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    147,
+    166,
+    153,
+    170,
+    761,
+    601
+   ],
+   "manual_ids": []
+  },
+  {
+   "route_id": 755,
+   "target_z": -0.325,
+   "predicted_net": 14,
+   "clean": false,
+   "reason": "manual_blocker",
+   "n_blockers": 2,
+   "n_movable": 1,
+   "n_manual": 1,
+   "movable_ids": [
+    581
+   ],
+   "manual_ids": [
+    194
+   ]
+  },
+  {
+   "route_id": 737,
+   "target_z": -0.225,
+   "predicted_net": 13,
+   "clean": false,
+   "reason": "too_many_blockers",
+   "n_blockers": 6,
+   "n_movable": 6,
+   "n_manual": 0,
+   "movable_ids": [
+    142,
+    8,
+    513,
+    222,
+    411,
+    228
+   ],
+   "manual_ids": []
+  }
+ ]
+}

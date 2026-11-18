@@ -1,0 +1,27 @@
+{
+ "schema": "xyz_joint_config_v1",
+ "algorithm": "XYZ_JOINT_MOTION_PRIMITIVE_SEARCH",
+ "cfg": {
+  "max_target_layers": 3,
+  "max_lead_pairs": 2,
+  "prescreen_candidates": 220,
+  "max_candidates": 420,
+  "d56_top": 24,
+  "bodies_per_pair": 2,
+  "max_eval": 2,
+  "max_combos": 2,
+  "early_stop_delta": 6,
+  "min_delta": 1,
+  "allow_direct": true,
+  "allow_xy_only": true,
+  "phase": 0.0
+ },
+ "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\G2a_manual_group_reheight",
+ "baseline_routes_sha256": "b9dd5622026adc01901b7909bfe5118da7702372b6b2ffc01cdd574a9e1317aa",
+ "baseline_crossings": 1428,
+ "final_crossings": 1409,
+ "accepted_changes": 6,
+ "seed": 20261104,
+ "started_at": "2026-11-18T00:48:04",
+ "seconds": 251.41
+}

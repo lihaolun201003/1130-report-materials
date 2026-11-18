@@ -1,0 +1,242 @@
+{
+ "schema": "coldstart20_xyz_authority_v1",
+ "profile": "20_height_raised",
+ "model": "coldstart20.model20",
+ "generated_at": "2026-11-17T23:59:18",
+ "generated_by": "four_side_1024.fanout1024.coldstart20.run_g123",
+ "experiment_root": "experiments\\COLD_START_20_HEIGHT_1024",
+ "snapshot_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
+ "source_best_valid": "experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2\\best_valid",
+ "fallback_model_files": {},
+ "routes_sha256": "1498023dd4fe71d711131c6632620aaec2e98941f3682b2060d6a7f0b304f265",
+ "assignment_sha256": "338320e9e225067cfd73dbe27cab56bbc36194b6b673df2fe4d34a152ed526f3",
+ "layer_planes_sha256": "3b1dc7ece9a103b1bdb6ee115e2cd62a5c49c74cffbfdf73186a479a40f12c40",
+ "stored_crossings": 3061,
+ "stored_crossing_pairs": 2705,
+ "recomputed_crossings": 3061,
+ "recomputed_crossing_pairs": 2705,
+ "recomputed_routes": 1024,
+ "contract": {
+  "layout_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
+  "routes": 1024,
+  "manual_records": 368,
+  "assignment_rows": 1024,
+  "checks": {
+   "file:routes_l3d.json": {
+    "ok": true,
+    "detail": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative\\routes_l3d.json"
+   },
+   "file:assignment_1024.csv": {
+    "ok": true,
+    "detail": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative\\assignment_1024.csv"
+   },
+   "file:layer_planes.json": {
+    "ok": true,
+    "detail": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative\\layer_planes.json"
+   },
+   "routes_count_1024": {
+    "ok": true,
+    "detail": 1024
+   },
+   "payload_route_count_1024": {
+    "ok": true,
+    "detail": 1024
+   },
+   "payload_routed_1024": {
+    "ok": true,
+    "detail": 1024
+   },
+   "payload_failed_zero": {
+    "ok": true,
+    "detail": 0
+   },
+   "route_ids_unique_1024": {
+    "ok": true,
+    "detail": 1024
+   },
+   "manual_route_records_368": {
+    "ok": true,
+    "detail": 368
+   },
+   "manual_group_names": {
+    "ok": true,
+    "detail": [
+     "Z1-U1",
+     "Z1-U2",
+     "Z1-U3",
+     "Z1-U4",
+     "Z2-U1",
+     "Z2-U2",
+     "Z2-U3",
+     "Z2-U4"
+    ]
+   },
+   "flat_heights_are_20h_model_heights": {
+    "ok": true,
+    "detail": {
+     "samples": 10162,
+     "violations": 0,
+     "first": []
+    }
+   },
+   "deleted_plane_19_absent": {
+    "ok": true,
+    "detail": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     20,
+     1001,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     1002,
+     17,
+     18
+    ]
+   },
+   "layer_planes_20_planes_18_body_20h_order": {
+    "ok": true,
+    "detail": {
+     "plane_count": 20,
+     "body_plane_count": 18
+    }
+   },
+   "physical_stack_20_planes": {
+    "ok": true,
+    "detail": 20
+   },
+   "assignment_rows_1024": {
+    "ok": true,
+    "detail": 1024
+   },
+   "assignment_route_ids_match_routes": {
+    "ok": true,
+    "detail": {
+     "rows": 1024,
+     "only_rows": 0,
+     "only_routes": 0
+    }
+   },
+   "assignment_manual_rows_368": {
+    "ok": true,
+    "detail": 368
+   },
+   "assignment_manual_group_names": {
+    "ok": true,
+    "detail": [
+     "Z1-U1",
+     "Z1-U2",
+     "Z1-U3",
+     "Z1-U4",
+     "Z2-U1",
+     "Z2-U2",
+     "Z2-U3",
+     "Z2-U4"
+    ]
+   },
+   "assignment_target_layers_are_20h_planes": {
+    "ok": true,
+    "detail": {
+     "violations": 0,
+     "first": []
+    }
+   },
+   "crossing_stats_present": {
+    "ok": true,
+    "detail": {
+     "crossings": 3061,
+     "crossing_pairs": 2705
+    }
+   }
+  },
+  "stored_crossings": 3061,
+  "stored_crossing_pairs": 2705,
+  "source_validation_pass": true
+ },
+ "independent_validation": {
+  "out_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\preflight_audit\\validation_authoritative",
+  "validation_file": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\preflight_audit\\validation_authoritative\\validation.json",
+  "checks": {
+   "validation_pass": true,
+   "geometry_pass": true,
+   "contract_pass": true,
+   "violations_zero": true,
+   "routed_1024": true,
+   "failed_zero": true,
+   "manual_contract_matched": true,
+   "policy_violations_zero": true,
+   "model_plane_count_20": true,
+   "model_plane_ids_20h": true,
+   "synthetic_consistency_all_passed": true
+  },
+  "manual_policy": "frozen",
+  "model_source": "layer_planes.json",
+  "plane_count": 20,
+  "summary": {
+   "validation_pass": true,
+   "violations": 0,
+   "policy_violations": 0,
+   "routed": 1024,
+   "failed": 0,
+   "crossings": 3061,
+   "crossing_pairs": 2705,
+   "mid_transitions": 156,
+   "min_3d_clearance_mm": 0.068629474,
+   "total_length_mm": 157448.464291
+  }
+ },
+ "sha256_index": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative\\SHA256.json",
+ "sha256_index_sha256": "ca123d02184b9d51b4922409a777d8555f31f8fd59706b3097fc15718f019cef",
+ "files": {
+  "assignment_1024.csv": {
+   "bytes": 130058,
+   "sha256": "338320e9e225067cfd73dbe27cab56bbc36194b6b673df2fe4d34a152ed526f3"
+  },
+  "config.json": {
+   "bytes": 227,
+   "sha256": "7c0474f14c387a646b2f68d35ba7bd325160fb9b8dfaf9db7664d51fd0c1c8a3"
+  },
+  "crossing_stats.json": {
+   "bytes": 866484,
+   "sha256": "e71dc01efcb0dc69f573d92aa3416db362d79209d3ff5d94bd56ed19c2ea9f7a"
+  },
+  "layer_planes.json": {
+   "bytes": 7320,
+   "sha256": "3b1dc7ece9a103b1bdb6ee115e2cd62a5c49c74cffbfdf73186a479a40f12c40"
+  },
+  "physical_layer_stack.json": {
+   "bytes": 10360,
+   "sha256": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a"
+  },
+  "process_rules.json": {
+   "bytes": 3063,
+   "sha256": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592"
+  },
+  "routes_l3d.json": {
+   "bytes": 3705987,
+   "sha256": "1498023dd4fe71d711131c6632620aaec2e98941f3682b2060d6a7f0b304f265"
+  },
+  "transition_stats.json": {
+   "bytes": 18456,
+   "sha256": "d6678241c5184a822a64756eb4bf4adb2753ea59c4a80fe74d2646a31c0259fe"
+  },
+  "validation.json": {
+   "bytes": 243,
+   "sha256": "65391b483d41349e47ce6c9a0ac3642b2bbc293f548b29f813889fecfafc1d31"
+  }
+ },
+ "notes": [
+  "This directory is xyzrouter.paths.BASELINE_AUTHORITY: G1 and G3_cold start here; G2a/G2b/G3 are chained through the stage directories.",
+  "The 21-height preflight_audit.py is intentionally NOT used (it audits the frozen 2409/E5 21H provenance)."
+ ]
+}

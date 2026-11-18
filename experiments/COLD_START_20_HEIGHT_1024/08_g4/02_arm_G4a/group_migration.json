@@ -1,0 +1,559 @@
+{
+ "arm": "G4a",
+ "start_crossings": 1395,
+ "final_crossings": 1393,
+ "crossing_delta": -2,
+ "crossing_pairs": 1324,
+ "accepted_transactions": 1,
+ "accepted_whole_group_migrations": 0,
+ "accepted_partial_migrations": 0,
+ "groups": 8,
+ "manual_routes": 368,
+ "routes_changed_height": 0,
+ "xy_evidence": {
+  "manual_route_count": 368,
+  "body_xy_signature_changed_count": 7,
+  "body_xy_signature_changed_fraction": 0.019,
+  "r15_arc_parameter_changed_count": 7,
+  "r15_arc_count_changed_routes": 0,
+  "full_route_signature_changed_count": 7,
+  "primary_height_changed_routes": 0,
+  "mean_body_xy_displacement_mm": 1.1748,
+  "median_body_xy_displacement_mm": 1.1711,
+  "max_body_xy_displacement_mm": 2.3364,
+  "changed_routes": [
+   {
+    "route_id": 773,
+    "displacement_mm": 1.1792,
+    "old_group": "Z2-U2",
+    "old_height_label": "L11",
+    "new_height_label": "L11"
+   },
+   {
+    "route_id": 776,
+    "displacement_mm": 0.4573,
+    "old_group": "Z2-U2",
+    "old_height_label": "L11",
+    "new_height_label": "L11"
+   },
+   {
+    "route_id": 777,
+    "displacement_mm": 2.3364,
+    "old_group": "Z2-U2",
+    "old_height_label": "L11",
+    "new_height_label": "L11"
+   },
+   {
+    "route_id": 781,
+    "displacement_mm": 0.3067,
+    "old_group": "Z2-U2",
+    "old_height_label": "L11",
+    "new_height_label": "L11"
+   },
+   {
+    "route_id": 788,
+    "displacement_mm": 1.1711,
+    "old_group": "Z2-U2",
+    "old_height_label": "L11",
+    "new_height_label": "L11"
+   },
+   {
+    "route_id": 796,
+    "displacement_mm": 1.6018,
+    "old_group": "Z2-U2",
+    "old_height_label": "L11",
+    "new_height_label": "L11"
+   },
+   {
+    "route_id": 800,
+    "displacement_mm": 1.1711,
+    "old_group": "Z2-U2",
+    "old_height_label": "L11",
+    "new_height_label": "L11"
+   }
+  ],
+  "changed_routes_truncated": false
+ },
+ "start_group_heights": {
+  "Z1-U1": {
+   "L2": 33,
+   "L5": 27,
+   "L4": 4
+  },
+  "Z1-U2": {
+   "L3": 61,
+   "L10": 3
+  },
+  "Z1-U3": {
+   "L4": 61,
+   "L9": 3
+  },
+  "Z1-U4": {
+   "L5": 62,
+   "L11": 2
+  },
+  "Z2-U1": {
+   "Z2_INTERFACE": 1,
+   "L10": 8,
+   "L15": 7
+  },
+  "Z2-U2": {
+   "L11": 16
+  },
+  "Z2-U3": {
+   "L12": 40
+  },
+  "Z2-U4": {
+   "L13": 40
+  }
+ },
+ "final_group_heights": {
+  "Z1-U1": {
+   "L2": 33,
+   "L5": 27,
+   "L4": 4
+  },
+  "Z1-U2": {
+   "L3": 61,
+   "L10": 3
+  },
+  "Z1-U3": {
+   "L4": 61,
+   "L9": 3
+  },
+  "Z1-U4": {
+   "L5": 62,
+   "L11": 2
+  },
+  "Z2-U1": {
+   "Z2_INTERFACE": 1,
+   "L10": 8,
+   "L15": 7
+  },
+  "Z2-U2": {
+   "L11": 16
+  },
+  "Z2-U3": {
+   "L12": 40
+  },
+  "Z2-U4": {
+   "L13": 40
+  }
+ },
+ "migration_matrix": {
+  "Z1-U1": {
+   "L2": {
+    "count": 33,
+    "z_mm": -0.325,
+    "outside_start_bands": false
+   },
+   "L4": {
+    "count": 4,
+    "z_mm": -0.225,
+    "outside_start_bands": false
+   },
+   "L5": {
+    "count": 27,
+    "z_mm": -0.175,
+    "outside_start_bands": false
+   }
+  },
+  "Z1-U2": {
+   "L10": {
+    "count": 3,
+    "z_mm": 0.175,
+    "outside_start_bands": false
+   },
+   "L3": {
+    "count": 61,
+    "z_mm": -0.275,
+    "outside_start_bands": false
+   }
+  },
+  "Z1-U3": {
+   "L4": {
+    "count": 61,
+    "z_mm": -0.225,
+    "outside_start_bands": false
+   },
+   "L9": {
+    "count": 3,
+    "z_mm": 0.125,
+    "outside_start_bands": true
+   }
+  },
+  "Z1-U4": {
+   "L11": {
+    "count": 2,
+    "z_mm": 0.225,
+    "outside_start_bands": false
+   },
+   "L5": {
+    "count": 62,
+    "z_mm": -0.175,
+    "outside_start_bands": false
+   }
+  },
+  "Z2-U1": {
+   "L10": {
+    "count": 8,
+    "z_mm": 0.175,
+    "outside_start_bands": false
+   },
+   "L15": {
+    "count": 7,
+    "z_mm": 0.425,
+    "outside_start_bands": true
+   },
+   "Z2_INTERFACE": {
+    "count": 1,
+    "z_mm": 0.525,
+    "outside_start_bands": true
+   }
+  },
+  "Z2-U2": {
+   "L11": {
+    "count": 16,
+    "z_mm": 0.225,
+    "outside_start_bands": false
+   }
+  },
+  "Z2-U3": {
+   "L12": {
+    "count": 40,
+    "z_mm": 0.275,
+    "outside_start_bands": false
+   }
+  },
+  "Z2-U4": {
+   "L13": {
+    "count": 40,
+    "z_mm": 0.325,
+    "outside_start_bands": false
+   }
+  }
+ },
+ "migration_summary": {
+  "Z1-U1": {
+   "members": 64,
+   "start_heights": {
+    "L2": 33,
+    "L5": 27,
+    "L4": 4
+   },
+   "final_heights": {
+    "L2": 33,
+    "L5": 27,
+    "L4": 4
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z1-U2": {
+   "members": 64,
+   "start_heights": {
+    "L3": 61,
+    "L10": 3
+   },
+   "final_heights": {
+    "L3": 61,
+    "L10": 3
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z1-U3": {
+   "members": 64,
+   "start_heights": {
+    "L4": 61,
+    "L9": 3
+   },
+   "final_heights": {
+    "L4": 61,
+    "L9": 3
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z1-U4": {
+   "members": 64,
+   "start_heights": {
+    "L5": 62,
+    "L11": 2
+   },
+   "final_heights": {
+    "L5": 62,
+    "L11": 2
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z2-U1": {
+   "members": 16,
+   "start_heights": {
+    "Z2_INTERFACE": 1,
+    "L10": 8,
+    "L15": 7
+   },
+   "final_heights": {
+    "Z2_INTERFACE": 1,
+    "L10": 8,
+    "L15": 7
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z2-U2": {
+   "members": 16,
+   "start_heights": {
+    "L11": 16
+   },
+   "final_heights": {
+    "L11": 16
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 1
+  },
+  "Z2-U3": {
+   "members": 40,
+   "start_heights": {
+    "L12": 40
+   },
+   "final_heights": {
+    "L12": 40
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  },
+  "Z2-U4": {
+   "members": 40,
+   "start_heights": {
+    "L13": 40
+   },
+   "final_heights": {
+    "L13": 40
+   },
+   "routes_changed_height": 0,
+   "migrated": false,
+   "accepted_transactions": 0
+  }
+ },
+ "split_group_evidence": {
+  "Z1-U1": {
+   "distribution": {
+    "L2": 33,
+    "L5": 27,
+    "L4": 4
+   },
+   "height_count": 3,
+   "split": true
+  },
+  "Z1-U2": {
+   "distribution": {
+    "L3": 61,
+    "L10": 3
+   },
+   "height_count": 2,
+   "split": true
+  },
+  "Z1-U3": {
+   "distribution": {
+    "L4": 61,
+    "L9": 3
+   },
+   "height_count": 2,
+   "split": true
+  },
+  "Z1-U4": {
+   "distribution": {
+    "L5": 62,
+    "L11": 2
+   },
+   "height_count": 2,
+   "split": true
+  },
+  "Z2-U1": {
+   "distribution": {
+    "Z2_INTERFACE": 1,
+    "L10": 8,
+    "L15": 7
+   },
+   "height_count": 3,
+   "split": true
+  },
+  "Z2-U2": {
+   "distribution": {
+    "L11": 16
+   },
+   "height_count": 1,
+   "split": false
+  },
+  "Z2-U3": {
+   "distribution": {
+    "L12": 40
+   },
+   "height_count": 1,
+   "split": false
+  },
+  "Z2-U4": {
+   "distribution": {
+    "L13": 40
+   },
+   "height_count": 1,
+   "split": false
+  }
+ },
+ "attempt_stats": {
+  "count": 89,
+  "accepted": 1,
+  "by_reason": {
+   "transition_3d_conflict": 7,
+   "legal_but_no_crossing_improvement": 50,
+   "no_legal_xy_corridor": 12,
+   "joint_rebuild_failed": 15,
+   "already_at_height": 2,
+   "target_height_occupied": 2,
+   "accepted": 1
+  },
+  "by_group": {
+   "Z2-U1": {
+    "attempts": 18,
+    "transition_3d_conflict": 2,
+    "legal_but_no_crossing_improvement": 15,
+    "no_legal_xy_corridor": 1
+   },
+   "Z2-U2": {
+    "attempts": 17,
+    "transition_3d_conflict": 1,
+    "legal_but_no_crossing_improvement": 12,
+    "no_legal_xy_corridor": 2,
+    "joint_rebuild_failed": 1,
+    "accepted": 2
+   },
+   "Z2-U4": {
+    "attempts": 16,
+    "no_legal_xy_corridor": 2,
+    "legal_but_no_crossing_improvement": 10,
+    "transition_3d_conflict": 1,
+    "joint_rebuild_failed": 2,
+    "already_at_height": 1
+   },
+   "Z1-U1": {
+    "attempts": 14,
+    "target_height_occupied": 1,
+    "joint_rebuild_failed": 5,
+    "legal_but_no_crossing_improvement": 7,
+    "no_legal_xy_corridor": 1
+   },
+   "Z2-U3": {
+    "attempts": 14,
+    "transition_3d_conflict": 3,
+    "legal_but_no_crossing_improvement": 6,
+    "no_legal_xy_corridor": 2,
+    "already_at_height": 1,
+    "joint_rebuild_failed": 2
+   },
+   "Z1-U3": {
+    "attempts": 10,
+    "joint_rebuild_failed": 5,
+    "no_legal_xy_corridor": 4,
+    "target_height_occupied": 1
+   }
+  }
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "accepted": 0,
+   "attempts": 60,
+   "total": 1395,
+   "seconds": 598.6
+  }
+ ],
+ "crossing_decomposition_start": {
+  "manual_manual": 0,
+  "manual_non": 137,
+  "non_manual": 1258
+ },
+ "crossing_decomposition_final": {
+  "manual_manual": 2,
+  "manual_non": 133,
+  "non_manual": 1258
+ },
+ "theoretical_floor_manual_only": 1258,
+ "ceiling_note": "G4a only moves the 368 manual-U routes; the 1258 non-manual-only crossings are immutable in this arm (they belong to G4c/G4d).",
+ "state_validate_all": {
+  "valid": 1024,
+  "violations": 0,
+  "kinds": {}
+ },
+ "ledger": {
+  "route_3d_checks": 4795,
+  "d56_candidate_evals": 32390,
+  "xy_candidates_generated": 4785,
+  "transactions": 85,
+  "world_builds": 0,
+  "valid_candidates": 4043,
+  "rejected_3d": 742,
+  "accepted_transactions": 1,
+  "accepted_changes": 10,
+  "gain": 2,
+  "validator_runs": 0,
+  "no_candidate": 0,
+  "rolled_back": 84,
+  "wall_seconds": 791.41
+ },
+ "search_wall_seconds": 816.71,
+ "config": {
+  "arm": "G4a",
+  "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\02_arm_G4a",
+  "seed": 20261104,
+  "budget": {
+   "route_3d_checks": 30000,
+   "d56_candidate_evals": 120000,
+   "wall_seconds": 900.0
+  },
+  "manual_frozen": false,
+  "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+  "start_profile": "20_height_raised",
+  "start_routes_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+  "start_crossings": 1395,
+  "started_at": "2026-11-18T01:16:43",
+  "cfg": {
+   "arm": "G4a",
+   "quick": false,
+   "plan_std": {
+    "max_lead_pairs": 2,
+    "prescreen_candidates": 120,
+    "max_candidates": 200,
+    "d56_top": 10,
+    "bodies_per_pair": 2,
+    "max_return": 3
+   },
+   "plan_wide": {
+    "max_lead_pairs": 3,
+    "prescreen_candidates": 180,
+    "max_candidates": 280,
+    "d56_top": 14,
+    "bodies_per_pair": 2,
+    "max_return": 4
+   },
+   "max_rounds": 6,
+   "attempts_per_group_round": 4,
+   "max_group_attempts": 12,
+   "max_retries": 1,
+   "partial_fallback": true,
+   "tune_rounds": 2,
+   "tune_size": 10,
+   "tag": "",
+   "spec": "experiments/xyz_joint_g4_1024/SPEC_G4.md"
+  }
+ }
+}

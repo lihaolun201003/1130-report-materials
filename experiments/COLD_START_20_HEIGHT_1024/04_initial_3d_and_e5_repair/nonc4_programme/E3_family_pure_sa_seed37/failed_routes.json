@@ -1,0 +1,37 @@
+{
+ "total": 1,
+ "failures": [
+  {
+   "route_id": 225,
+   "plane": "z1",
+   "target_layer": 8,
+   "target_plane_label": "L8",
+   "manual_group": "",
+   "reason": "layer2d_failed:candidate_budget_exhausted",
+   "detail": {
+    "route_id": 225,
+    "reason": "candidate_budget_exhausted",
+    "evaluated": 321,
+    "rejection_counts": {
+     "double_cross": 1,
+     "obstacle": 86,
+     "spacing": 21,
+     "tangent_touch": 213
+    },
+    "blockers": [
+     201,
+     204,
+     411,
+     431,
+     441,
+     452,
+     473,
+     486,
+     512,
+     517
+    ]
+   },
+   "target_plane": 8
+  }
+ ]
+}

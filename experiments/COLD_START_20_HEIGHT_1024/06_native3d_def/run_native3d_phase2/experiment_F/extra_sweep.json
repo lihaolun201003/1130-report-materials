@@ -1,0 +1,47 @@
+{
+ "start": 3082,
+ "final": 3078,
+ "history": [
+  {
+   "stage": "plain_batch",
+   "sweep": 1,
+   "route_id": 11,
+   "delta": -1,
+   "total": 3081
+  },
+  {
+   "stage": "plain_batch",
+   "sweep": 1,
+   "route_id": 167,
+   "delta": -1,
+   "total": 3080
+  },
+  {
+   "stage": "plain_batch",
+   "sweep": 1,
+   "route_id": 9,
+   "delta": -1,
+   "total": 3079
+  },
+  {
+   "stage": "plain_batch",
+   "sweep": 1,
+   "route_id": 163,
+   "delta": -1,
+   "total": 3078
+  }
+ ],
+ "validation": {
+  "valid": 1024,
+  "violations": 0,
+  "violation_kinds": {},
+  "examples": [],
+  "seconds": 27.18,
+  "min_3d_clearance": {
+   "min_3d_clearance_mm": 0.068629474,
+   "lower_bound_mm": 0.05,
+   "seconds": 4.33
+  },
+  "validation_pass": true
+ }
+}

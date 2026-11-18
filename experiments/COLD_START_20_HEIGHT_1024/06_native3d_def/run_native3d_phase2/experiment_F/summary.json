@@ -1,0 +1,58 @@
+{
+ "schema": "native3d_phase2_experiment_f_v1",
+ "start_from": "best_valid",
+ "start_crossings": 3098,
+ "final_crossings": 3087,
+ "crossing_pairs": 2731,
+ "routes": 1024,
+ "routes_with_mid_transitions": 61,
+ "mid_transitions": 138,
+ "validation": {
+  "validation_pass": true,
+  "violations": 0
+ },
+ "min_3d_clearance": {
+  "min_3d_clearance_mm": 0.068629474,
+  "lower_bound_mm": 0.05,
+  "seconds": 4.75
+ },
+ "strategy": {
+  "plain": {
+   "attempts": 1119,
+   "accepted": 0,
+   "net": 0,
+   "best": 0
+  },
+  "arc_span": {
+   "attempts": 1085,
+   "accepted": 2,
+   "net": -11,
+   "best": -9
+  },
+  "joint": {
+   "attempts": 20,
+   "accepted": 0,
+   "net": 0,
+   "best": 0
+  }
+ },
+ "history": [
+  {
+   "stage": "arc_span",
+   "sweep": 1,
+   "route_id": 496,
+   "delta": -9,
+   "total": 3089,
+   "target_z": -0.025
+  },
+  {
+   "stage": "arc_span",
+   "sweep": 1,
+   "route_id": 497,
+   "delta": -2,
+   "total": 3087,
+   "target_z": -0.075
+  }
+ ],
+ "seconds": 640.3
+}

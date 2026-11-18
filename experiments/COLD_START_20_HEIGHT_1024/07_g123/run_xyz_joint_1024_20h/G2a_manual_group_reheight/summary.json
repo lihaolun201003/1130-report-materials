@@ -1,0 +1,768 @@
+{
+ "experiment": "G2a_manual_group_reheight",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\G1_manual_frozen",
+ "start_crossings": 1485,
+ "final_crossings": 1440,
+ "reheight_history": [
+  {
+   "round": 1,
+   "group": "Z1-U1",
+   "action": "keep",
+   "audit": [
+    {
+     "layer": 2,
+     "z": -0.325,
+     "delta": 0,
+     "crowding": 576491,
+     "unchanged": true
+    },
+    {
+     "layer": 3,
+     "z": -0.275,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 6
+     }
+    },
+    {
+     "layer": 4,
+     "z": -0.225,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 50
+     }
+    },
+    {
+     "layer": 5,
+     "z": -0.175,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 8,
+      "flat_vs_transition": 3
+     }
+    },
+    {
+     "layer": 6,
+     "z": -0.125,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 19,
+      "flat_vs_transition": 2
+     }
+    },
+    {
+     "layer": 7,
+     "z": -0.075,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 23,
+      "flat_vs_transition": 4
+     }
+    },
+    {
+     "layer": 20,
+     "z": -0.025,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 14,
+      "flat_vs_transition": 4
+     }
+    },
+    {
+     "layer": 8,
+     "z": 0.075,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_vs_transition": 22,
+      "flat_same_plane_conflict": 20
+     }
+    },
+    {
+     "layer": 9,
+     "z": 0.125,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "transition_vs_flat": 4,
+      "transition_vs_transition": 4,
+      "flat_vs_transition": 9,
+      "flat_same_plane_conflict": 22
+     }
+    },
+    {
+     "layer": 10,
+     "z": 0.175,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 24,
+      "flat_vs_transition": 6,
+      "transition_vs_transition": 2
+     }
+    },
+    {
+     "layer": 11,
+     "z": 0.225,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "transition_vs_flat": 69,
+      "transition_vs_transition": 7,
+      "flat_same_plane_conflict": 26,
+      "flat_vs_transition": 1
+     }
+    },
+    {
+     "layer": 12,
+     "z": 0.275,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "transition_vs_transition": 15,
+      "flat_same_plane_conflict": 25,
+      "transition_vs_flat": 1
+     }
+    },
+    {
+     "layer": 13,
+     "z": 0.325,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "transition_vs_transition": 21,
+      "flat_same_plane_conflict": 22,
+      "transition_vs_flat": 21
+     }
+    },
+    {
+     "layer": 14,
+     "z": 0.375,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "transition_vs_transition": 34,
+      "flat_same_plane_conflict": 14,
+      "transition_vs_flat": 20
+     }
+    }
+   ]
+  },
+  {
+   "round": 1,
+   "group": "Z1-U2",
+   "action": "keep",
+   "audit": [
+    {
+     "layer": 3,
+     "z": -0.275,
+     "delta": 0,
+     "crowding": 576491,
+     "unchanged": true
+    },
+    {
+     "layer": 4,
+     "z": -0.225,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 20
+     }
+    },
+    {
+     "layer": 5,
+     "z": -0.175,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 56
+     }
+    },
+    {
+     "layer": 6,
+     "z": -0.125,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_vs_transition": 18,
+      "flat_same_plane_conflict": 6
+     }
+    },
+    {
+     "layer": 7,
+     "z": -0.075,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 17,
+      "flat_vs_transition": 24
+     }
+    },
+    {
+     "layer": 20,
+     "z": -0.025,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 29,
+      "flat_vs_transition": 7
+     }
+    },
+    {
+     "layer": 8,
+     "z": 0.075,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 23,
+      "flat_vs_transition": 17
+     }
+    },
+    {
+     "layer": 9,
+     "z": 0.125,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_vs_transition": 26,
+      "flat_same_plane_conflict": 28
+     }
+    },
+    {
+     "layer": 10,
+     "z": 0.175,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 39,
+      "transition_vs_flat": 1,
+      "transition_vs_transition": 6,
+      "flat_vs_transition": 2
+     }
+    },
+    {
+     "layer": 11,
+     "z": 0.225,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 53,
+      "flat_vs_transition": 2,
+      "transition_vs_flat": 6,
+      "transition_vs_transition": 6
+     }
+    },
+    {
+     "layer": 12,
+     "z": 0.275,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "transition_vs_transition": 18,
+      "flat_same_plane_conflict": 40,
+      "transition_vs_flat": 2
+     }
+    },
+    {
+     "layer": 13,
+     "z": 0.325,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 50,
+      "transition_vs_flat": 11,
+      "transition_vs_transition": 14
+     }
+    }
+   ]
+  },
+  {
+   "round": 1,
+   "group": "Z1-U3",
+   "action": "keep",
+   "audit": [
+    {
+     "layer": 4,
+     "z": -0.225,
+     "delta": 0,
+     "crowding": 576491,
+     "unchanged": true
+    },
+    {
+     "layer": 5,
+     "z": -0.175,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_vs_transition": 2,
+      "flat_same_plane_conflict": 8
+     }
+    },
+    {
+     "layer": 6,
+     "z": -0.125,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 21,
+      "flat_vs_transition": 5
+     }
+    },
+    {
+     "layer": 7,
+     "z": -0.075,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 24,
+      "flat_vs_transition": 4,
+      "transition_vs_flat": 1
+     }
+    },
+    {
+     "layer": 20,
+     "z": -0.025,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 36,
+      "flat_vs_transition": 2,
+      "transition_vs_flat": 1
+     }
+    },
+    {
+     "layer": 8,
+     "z": 0.075,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 19,
+      "flat_vs_transition": 15,
+      "transition_vs_flat": 2
+     }
+    },
+    {
+     "layer": 9,
+     "z": 0.125,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 18,
+      "flat_vs_transition": 7,
+      "transition_vs_flat": 1
+     }
+    },
+    {
+     "layer": 10,
+     "z": 0.175,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_vs_transition": 12,
+      "flat_same_plane_conflict": 15,
+      "transition_vs_transition": 5
+     }
+    },
+    {
+     "layer": 11,
+     "z": 0.225,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 20,
+      "transition_vs_transition": 5
+     }
+    },
+    {
+     "layer": 12,
+     "z": 0.275,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "transition_vs_transition": 14,
+      "flat_same_plane_conflict": 25,
+      "transition_vs_flat": 30
+     }
+    }
+   ]
+  },
+  {
+   "round": 1,
+   "group": "Z1-U4",
+   "action": "keep",
+   "audit": [
+    {
+     "layer": 5,
+     "z": -0.175,
+     "delta": 0,
+     "crowding": 576491,
+     "unchanged": true
+    },
+    {
+     "layer": 6,
+     "z": -0.125,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 23,
+      "flat_vs_transition": 2
+     }
+    },
+    {
+     "layer": 7,
+     "z": -0.075,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 18,
+      "flat_vs_transition": 4
+     }
+    },
+    {
+     "layer": 20,
+     "z": -0.025,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 14,
+      "flat_vs_transition": 5
+     }
+    },
+    {
+     "layer": 8,
+     "z": 0.075,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_vs_transition": 19,
+      "flat_same_plane_conflict": 17
+     }
+    },
+    {
+     "layer": 9,
+     "z": 0.125,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 14,
+      "flat_vs_transition": 13,
+      "transition_vs_transition": 1
+     }
+    },
+    {
+     "layer": 10,
+     "z": 0.175,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_vs_transition": 8,
+      "flat_same_plane_conflict": 43,
+      "transition_vs_flat": 10,
+      "transition_vs_transition": 1
+     }
+    },
+    {
+     "layer": 11,
+     "z": 0.225,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 32,
+      "transition_vs_flat": 15,
+      "transition_vs_transition": 4,
+      "flat_vs_transition": 3
+     }
+    }
+   ]
+  },
+  {
+   "round": 1,
+   "group": "Z2-U1",
+   "action": "keep",
+   "audit": [
+    {
+     "layer": 10,
+     "z": 0.175,
+     "delta": 0,
+     "crowding": 576491,
+     "unchanged": true
+    },
+    {
+     "layer": 11,
+     "z": 0.225,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 13
+     }
+    },
+    {
+     "layer": 12,
+     "z": 0.275,
+     "delta": 73,
+     "crowding": 577099,
+     "unchanged": false
+    },
+    {
+     "layer": 13,
+     "z": 0.325,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 14
+     }
+    },
+    {
+     "layer": 14,
+     "z": 0.375,
+     "delta": 128,
+     "crowding": 577163,
+     "unchanged": false
+    },
+    {
+     "layer": 15,
+     "z": 0.425,
+     "delta": 106,
+     "crowding": 577163,
+     "unchanged": false
+    },
+    {
+     "layer": 16,
+     "z": 0.475,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 7
+     }
+    },
+    {
+     "layer": 17,
+     "z": 0.575,
+     "delta": 274,
+     "crowding": 577547,
+     "unchanged": false
+    },
+    {
+     "layer": 18,
+     "z": 0.625,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 7
+     }
+    }
+   ]
+  },
+  {
+   "round": 1,
+   "group": "Z2-U2",
+   "action": "keep",
+   "audit": [
+    {
+     "layer": 11,
+     "z": 0.225,
+     "delta": 0,
+     "crowding": 576491,
+     "unchanged": true
+    },
+    {
+     "layer": 12,
+     "z": 0.275,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 13
+     }
+    },
+    {
+     "layer": 13,
+     "z": 0.325,
+     "delta": 103,
+     "crowding": 577099,
+     "unchanged": false
+    },
+    {
+     "layer": 14,
+     "z": 0.375,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 3
+     }
+    },
+    {
+     "layer": 15,
+     "z": 0.425,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 5
+     }
+    },
+    {
+     "layer": 16,
+     "z": 0.475,
+     "delta": 144,
+     "crowding": 577035,
+     "unchanged": false
+    },
+    {
+     "layer": 17,
+     "z": 0.575,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 1
+     }
+    },
+    {
+     "layer": 18,
+     "z": 0.625,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 1
+     }
+    }
+   ]
+  },
+  {
+   "round": 1,
+   "group": "Z2-U3",
+   "action": "keep",
+   "audit": [
+    {
+     "layer": 12,
+     "z": 0.275,
+     "delta": 0,
+     "crowding": 576491,
+     "unchanged": true
+    },
+    {
+     "layer": 13,
+     "z": 0.325,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 32
+     }
+    },
+    {
+     "layer": 14,
+     "z": 0.375,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 4
+     }
+    },
+    {
+     "layer": 15,
+     "z": 0.425,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 6
+     }
+    },
+    {
+     "layer": 16,
+     "z": 0.475,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 5
+     }
+    },
+    {
+     "layer": 17,
+     "z": 0.575,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 9
+     }
+    },
+    {
+     "layer": 18,
+     "z": 0.625,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 7
+     }
+    }
+   ]
+  },
+  {
+   "round": 1,
+   "group": "Z2-U4",
+   "action": "keep",
+   "audit": [
+    {
+     "layer": 13,
+     "z": 0.325,
+     "delta": 0,
+     "crowding": 576491,
+     "unchanged": true
+    },
+    {
+     "layer": 14,
+     "z": 0.375,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 13
+     }
+    },
+    {
+     "layer": 15,
+     "z": 0.425,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 15
+     }
+    },
+    {
+     "layer": 16,
+     "z": 0.475,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 7,
+      "transition_vs_flat": 3
+     }
+    },
+    {
+     "layer": 17,
+     "z": 0.575,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 11,
+      "flat_vs_transition": 1,
+      "transition_vs_flat": 4
+     }
+    },
+    {
+     "layer": 18,
+     "z": 0.625,
+     "delta": null,
+     "skipped": "3d",
+     "kinds": {
+      "flat_same_plane_conflict": 7
+     }
+    }
+   ]
+  }
+ ],
+ "accepted_nonmanual": 16,
+ "elapsed_seconds": 416.68
+}

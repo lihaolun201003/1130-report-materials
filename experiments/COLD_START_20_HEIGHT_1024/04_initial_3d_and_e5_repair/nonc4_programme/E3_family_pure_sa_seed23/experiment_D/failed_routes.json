@@ -1,0 +1,87 @@
+{
+ "total": 2,
+ "failures": [
+  {
+   "route_id": 201,
+   "plane": "z1",
+   "target_layer": 8,
+   "target_plane_label": "L8",
+   "manual_group": "",
+   "reason": "layer2d_failed:candidate_budget_exhausted",
+   "detail": {
+    "route_id": 201,
+    "reason": "candidate_budget_exhausted",
+    "evaluated": 289,
+    "rejection_counts": {
+     "double_cross": 4,
+     "obstacle": 54,
+     "spacing": 127,
+     "tangent_touch": 104
+    },
+    "blockers": [
+     137,
+     219,
+     222,
+     233,
+     408,
+     411,
+     417,
+     428,
+     438,
+     441,
+     459,
+     462,
+     465,
+     510,
+     512,
+     649
+    ]
+   },
+   "target_plane": 8
+  },
+  {
+   "route_id": 228,
+   "plane": "z1",
+   "target_layer": 8,
+   "target_plane_label": "L8",
+   "manual_group": "",
+   "reason": "layer2d_failed:candidate_budget_exhausted",
+   "detail": {
+    "route_id": 228,
+    "reason": "candidate_budget_exhausted",
+    "evaluated": 353,
+    "rejection_counts": {
+     "crossing_window_overlap": 2,
+     "double_cross": 6,
+     "obstacle": 65,
+     "spacing": 105,
+     "tangent_touch": 175
+    },
+    "blockers": [
+     137,
+     198,
+     206,
+     215,
+     219,
+     222,
+     225,
+     233,
+     411,
+     414,
+     428,
+     432,
+     438,
+     441,
+     449,
+     459,
+     462,
+     465,
+     491,
+     510,
+     521
+    ]
+   },
+   "target_plane": 8
+  }
+ ]
+}

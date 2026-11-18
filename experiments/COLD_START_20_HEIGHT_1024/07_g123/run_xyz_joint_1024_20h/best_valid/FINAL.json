@@ -1,0 +1,24 @@
+{
+ "schema": "coldstart20_xyz_final_freeze_v1",
+ "profile": "20_height_raised",
+ "model": "coldstart20.model20",
+ "frozen_at": "2026-11-18T01:02:17",
+ "selected_experiment": "G3",
+ "source_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\G3_manual_full_xyz",
+ "crossings": 1395,
+ "crossing_pairs": 1325,
+ "stored_crossings": 1395,
+ "routes_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+ "manual_policy": "fully_optimizable",
+ "validation_pass": true,
+ "layout_contract_checks": 20,
+ "copied_model_files": [
+  "layer_planes.json",
+  "physical_layer_stack.json",
+  "process_rules.json"
+ ],
+ "notes": [
+  "best_valid is the deliverable start point of the G4 stage.",
+  "It was re-loaded and its exact crossing total re-verified against crossing_stats.json after run_reports."
+ ]
+}

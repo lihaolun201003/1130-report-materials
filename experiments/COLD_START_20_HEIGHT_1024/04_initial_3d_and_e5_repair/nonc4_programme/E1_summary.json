@@ -1,0 +1,40 @@
+{
+ "schema": "coldstart20_nonc4_e1_v1",
+ "profile": "20_height_raised",
+ "experiment": "E1_family_pure",
+ "order": "port",
+ "allocation": {
+  "Z1V": [
+   6,
+   7
+  ],
+  "Z1H": [
+   20,
+   1001,
+   8
+  ],
+  "Z2_NE": [
+   9,
+   14
+  ],
+  "Z2_SE": [
+   15,
+   16
+  ],
+  "Z2_NW": [
+   17
+  ],
+  "Z2_SW": [
+   18,
+   1002
+  ]
+ },
+ "routes": 1024,
+ "failed": 0,
+ "crossing": {
+  "crossings": 6803,
+  "crossing_pairs": 6319,
+  "routed": 1024,
+  "failed": 0
+ }
+}

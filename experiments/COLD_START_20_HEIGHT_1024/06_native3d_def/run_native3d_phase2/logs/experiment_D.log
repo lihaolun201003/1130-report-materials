@@ -1,0 +1,16 @@
+23:16:17 [D] [cache] built 1024 routes, 20 planes, total=3103 (3.1s)
+23:16:17 [D] baseline: 1024 routes, 3103 crossings, 60 native, 368 manual
+23:16:17 [D] candidate routes: 339
+23:18:57 [D] [cache] built 1024 routes, 20 planes, total=3103 (1.6s)
+23:18:57 [D] baseline: 1024 routes, 3103 crossings, 60 native, 368 manual
+23:18:57 [D] candidate routes: 339
+23:20:35 [D] D0: screened=39 clean=1 manual=22 hist={'6': 15, '1': 6, '4': 3, '0': 3, '3': 6, '7': 1, '2': 3, '5': 2} repair_candidates=0
+23:20:39 [D] [save] experiment_D: routes=1024 crossings=3103 pairs=2733
+23:21:07 [D] [guard] full validation: valid=1024 violations=0 27.7s
+23:21:11 [D] [guard] min 3D clearance = 0.068629474 mm (4.8s)
+23:21:15 [D] done: attempts=0 accepted=0 total=3103 violations=0
+23:23:19 [D] D0: screened=46 clean=1 manual=27 hist={'6': 17, '1': 7, '4': 3, '0': 5, '3': 7, '7': 1, '2': 4, '5': 2} repair_candidates=0
+23:23:22 [D] [save] experiment_D: routes=1024 crossings=3103 pairs=2733
+23:23:50 [D] [guard] full validation: valid=1024 violations=0 27.5s
+23:23:54 [D] [guard] min 3D clearance = 0.068629474 mm (4.5s)
+23:23:58 [D] done: attempts=0 accepted=0 total=3103 violations=0

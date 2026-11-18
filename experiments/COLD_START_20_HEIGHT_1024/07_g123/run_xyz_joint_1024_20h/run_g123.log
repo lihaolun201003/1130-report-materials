@@ -1,0 +1,33 @@
+====================================================================================================
+[g123] 20H XYZ joint optimisation chain G1/G2a/G2b/G3
+[g123] command=reports  profile=20_height_raised  model=coldstart20.model20  planes=20
+[g123] run root=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h
+[g123] authority=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative
+[g123] started=2026-11-18T01:02:10
+[g123] 20H wiring assertions: PASS (11 checks)
+----------------------------------------------------------------------------------------------------
+[g123] [preflight] authority snapshot of the accepted 20H Phase-2 best_valid (baseline_authoritative) + 20H data contract + independent frozen validation
+[g123] [preflight] command: in-process: coldstart20.run_g123 stage_preflight (bootstrap-first)
+[g123] [preflight] reusing the completed authority snapshot of the same source (idempotent snapshot)
+[g123] [preflight] OK in 0.0 min
+----------------------------------------------------------------------------------------------------
+[g123] [reports] reports + fair/warm comparison + best_valid + archive (run_reports)
+[g123] [reports] command: python -m four_side_1024.fanout1024.xyzrouter.run_reports --archive C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\archive
+[reports] G1: crossings=1485 routed=1024 changed=186 validator=True
+[reports] G2a: crossings=1440 routed=1024 changed=193 validator=True
+[reports] G2b: crossings=1409 routed=1024 changed=245 validator=True
+[reports] G3: crossings=1395 routed=1024 changed=248 validator=True
+[reports] G3_cold: crossings=1646 routed=1024 changed=167 validator=True
+[report] written C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\reports
+[report] written C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\reports\router_report.md
+[reports] warm chain: ['G2a', 'G2b', 'G3']
+[reports] best_valid = G3 (1395 crossings)
+[reports] archive written to C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\archive
+[g123] [reports] OK in 0.1 min
+[g123] [final] copied 20H model provenance into best_valid: layer_planes.json, physical_layer_stack.json, process_rules.json
+[state] C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\best_valid routes=1024 crossings=1395 (1.62s)
+[g123] [final] best_valid = G3 (1395 crossings, sha a6aa699728c2c431)
+[g123] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\run_g123_summary.json
+[g123] CHAIN REPORTS: PASS in 0.1 min
+[g123] stages completed: preflight, reports
+====================================================================================================

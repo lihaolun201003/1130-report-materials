@@ -1,0 +1,23 @@
+{
+ "schema": "coldstart20_native3d_phase1_summary_v1",
+ "profile": "20_height_raised",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\05_native3d_abc\\run_native3d_phase1",
+ "input": "04_initial_3d_and_e5_repair/nonc4_programme/E5_joint_repair_final",
+ "crossings": 3103,
+ "pairs": 2733,
+ "routed": 1024,
+ "failed": 0,
+ "validation": {
+  "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+  "validation_pass": true,
+  "geometry_pass": true,
+  "contract_pass": true,
+  "violations": 0,
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\05_native3d_abc\\run_native3d_phase1\\validation\\validation.json"
+ },
+ "note": "Native-3D independent validator (native3d.validate_native3d). The planar-assembly contract audit (reheight21.validate21) is archived in validation/planar_contract_validate21_validation.json; it does not apply to bodies with mid-path R15 layer changes.",
+ "native_routes": 60,
+ "mid_transitions": 132,
+ "min_3d_clearance_mm": 0.068629474,
+ "route_records": 1024
+}

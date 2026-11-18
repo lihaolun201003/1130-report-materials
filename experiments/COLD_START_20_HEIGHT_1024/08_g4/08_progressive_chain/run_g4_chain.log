@@ -1,0 +1,11 @@
+[2026-11-18T01:41:14] [chain] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\08_progressive_chain\progressive_chain.md
+[2026-11-18T01:41:14] [chain] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\08_progressive_chain\chain_summary.json and README.md
+[2026-11-18T01:41:14] [chain] built 5 links: [(0, 'ok'), (1, 'ok'), (2, 'pending'), (3, 'pending'), (4, 'pending')]
+[2026-11-18T01:41:14] [chain] link 2 arm=G4c_free start=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\08_progressive_chain\01_link_best_G4ab out=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\08_progressive_chain\02_link_G4c seconds=700
+[2026-11-18T01:41:14] [chain] link 2 argv=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_g4 _run --module four_side_1024.fanout1024.xyzrouter.g4.run_g4_engine -- --arm G4c_free --seconds 700 --seed 20261104 --start-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\08_progressive_chain\01_link_best_G4ab --out-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\08_progressive_chain\02_link_G4c --tag chain
+[2026-11-18T01:53:33] [chain] link 2 exit=0
+[2026-11-18T01:53:33] [chain] link 2 validating C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\08_progressive_chain\02_link_G4c\best_valid
+[2026-11-18T01:53:54] [chain] link 2 validation exit=0
+[2026-11-18T01:54:00] [chain] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\08_progressive_chain\progressive_chain.md
+[2026-11-18T01:54:00] [chain] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\08_g4\08_progressive_chain\chain_summary.json and README.md
+[2026-11-18T01:54:00] [chain] link 4 blocked: previous link 3 status=pending

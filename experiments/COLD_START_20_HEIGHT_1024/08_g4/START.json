@@ -1,0 +1,230 @@
+{
+ "schema": "coldstart20_g4_start_v1",
+ "generated_at": "2026-11-18T01:02:22",
+ "profile": "20_height_raised",
+ "experiment": "COLD_START_20_HEIGHT_1024",
+ "model": "coldstart20.model20",
+ "model_module": "four_side_1024.fanout1024.coldstart20.model20",
+ "start_profile": {
+  "profile": "20_height_raised",
+  "model_module": "four_side_1024.fanout1024.coldstart20.model20",
+  "model_file": "four_side_1024/fanout1024/coldstart20/model20.py",
+  "plane_count": 20,
+  "body_plane_count": 18,
+  "plane_ids": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   20,
+   1001,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   1002,
+   17,
+   18
+  ],
+  "interface_z": {
+   "z1": 0.025,
+   "z2": 0.525
+  },
+  "min_3d_clearance_mm": 0.05,
+  "min_layer_pitch_mm": 0.05,
+  "min_bend_radius_mm": 15.0,
+  "route_count": 1024,
+  "assignment_rows": 1024,
+  "manual_route_count": 368,
+  "checks": {
+   "profile_20h": true,
+   "plane_19_absent": true,
+   "flat_heights_in_model": true,
+   "target_z_in_model": true,
+   "target_layers_in_model": true,
+   "assignment_layers_in_model": true,
+   "assignment_z_in_model": true,
+   "interface_z_in_model": true,
+   "route_count_1024": true,
+   "manual_route_count_368": true
+  }
+ },
+ "g4_root": "experiments/COLD_START_20_HEIGHT_1024/08_g4",
+ "start_dir": "experiments/COLD_START_20_HEIGHT_1024/07_g123/run_xyz_joint_1024_20h/best_valid",
+ "source_dir": "experiments/COLD_START_20_HEIGHT_1024/07_g123/run_xyz_joint_1024_20h/best_valid",
+ "source_dir_abs": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+ "copied_dir": "experiments/COLD_START_20_HEIGHT_1024/08_g4/00_start_g3",
+ "routes_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+ "assignment_sha256": "4f973c083358946d13f8c6b2d26a045a87edb9ebf297dd8d8a66fa9fc57d42a9",
+ "crossings": 1395,
+ "crossing_pairs": 1325,
+ "crossings_source": "recounted_true_3d_route_world",
+ "artefact_crossings": 1395,
+ "plane_count": 20,
+ "body_plane_count": 18,
+ "plane_ids": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  20,
+  1001,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  1002,
+  17,
+  18
+ ],
+ "interface_z_mm": {
+  "z1": 0.025,
+  "z2": 0.525
+ },
+ "removed_plane_ids": [
+  19
+ ],
+ "route_count": 1024,
+ "assignment_rows": 1024,
+ "manual_route_count": 368,
+ "payload_routed": 1024,
+ "payload_failed": 0,
+ "layer_planes": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid\\layer_planes.json",
+  "plane_count": 20,
+  "height_count": 20,
+  "profile": "20_height_raised",
+  "plane_ids_match": true,
+  "heights_match": true,
+  "plane_ids": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   20,
+   1001,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   1002,
+   17,
+   18
+  ]
+ },
+ "validation": {
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid\\validation\\validation.json",
+  "validation_pass": true,
+  "violation_count": 0,
+  "routes_file_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+  "matches_start": true,
+  "manual_route_count": 368,
+  "routed": 1024,
+  "failed": 0,
+  "crossings": 1395
+ },
+ "authority": {
+  "dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
+  "dir_rel": "experiments/COLD_START_20_HEIGHT_1024/07_g123/run_xyz_joint_1024_20h/baseline_authoritative",
+  "resolved_by": "g4.paths.AUTHORITY_DIR",
+  "present": true
+ },
+ "seed": 20261104,
+ "budget_contract": {
+  "default": {
+   "route_3d_checks": 30000,
+   "d56_candidate_evals": 120000,
+   "wall_seconds": 1800
+  },
+  "arms": {
+   "C0": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1200
+   },
+   "G4a": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1200
+   },
+   "G4b": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1200
+   },
+   "G4c_frozen": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1800
+   },
+   "G4c_free": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 1800
+   },
+   "G4d": {
+    "route_3d_checks": 30000,
+    "d56_candidate_evals": 120000,
+    "wall_seconds": 3600
+   }
+  },
+  "counted_mode": {
+   "d56_candidate_evals": 24000,
+   "route_3d_checks_guard": 9000,
+   "applies_to": [
+    "G4c_frozen",
+    "G4c_free",
+    "G4d"
+   ]
+  }
+ },
+ "copy": {
+  "dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\00_start_g3",
+  "dir_rel": "experiments/COLD_START_20_HEIGHT_1024/08_g4/00_start_g3",
+  "files": {
+   "routes_l3d.json": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+   "assignment_1024.csv": "4f973c083358946d13f8c6b2d26a045a87edb9ebf297dd8d8a66fa9fc57d42a9",
+   "crossing_stats.json": "9e5f4813395326e9d96b8561bf187af4d76dc40ec08c2542ce47d89a1a46d5bb",
+   "layer_planes.json": "3b1dc7ece9a103b1bdb6ee115e2cd62a5c49c74cffbfdf73186a479a40f12c40",
+   "SHA256.json": "eed4378a496f429c273a59618c92c2fefb621c6f9b2ebbbabd07d2dc517c9e51",
+   "BEST.json": "65122f2e2a5a2f0e44e1420c5dc788774f0ad637c4d36bfc2737e31383f3d21c",
+   "summary.json": "df26fc0c12fdd7728d3ba168dbcc20e5bf64cde3e7d2b5964ba0cf288ea35102",
+   "config.json": "8644e9def5a03d5c10f812092db140672f20d4f8744aa1f9e8971cc4d49c569c",
+   "validation/validation.json": "7fd5436f234ea918ffda11d0469ca31d97cf2954cf706262176bd19f721db0cd"
+  },
+  "layer_planes_generated": false
+ },
+ "checks": {
+  "profile_20h": true,
+  "plane_19_absent": true,
+  "route_count_1024": true,
+  "assignment_rows_1024": true,
+  "manual_route_count_368": true,
+  "zero_failed": true,
+  "start_profile_guard": true,
+  "recount_matches_artefact": true,
+  "layer_planes_is_20h": true,
+  "validation_pass": true
+ }
+}

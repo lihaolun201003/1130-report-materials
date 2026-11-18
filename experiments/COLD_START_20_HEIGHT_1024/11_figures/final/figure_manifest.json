@@ -1,0 +1,1223 @@
+{
+ "schema": "coldstart20_final_figure_suite_v1",
+ "script": "four_side_1024/fanout1024/coldstart20/plot_final.py",
+ "script_sha256": "6d1788e52ec45ffe75c958f5849092d1b6d23d8f94edb8cad0f8e54a3d724ebc",
+ "label": "final best legal 20H layout (G4 progressive chain link 4)",
+ "layout": {
+  "dir": "experiments/COLD_START_20_HEIGHT_1024/10_best_valid",
+  "abs_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+  "files": {
+   "routes_l3d.json": {
+    "path": "experiments/COLD_START_20_HEIGHT_1024/10_best_valid/routes_l3d.json",
+    "bytes": 3790572,
+    "sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753"
+   },
+   "crossing_stats.json": {
+    "path": "experiments/COLD_START_20_HEIGHT_1024/10_best_valid/crossing_stats.json",
+    "bytes": 191949,
+    "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d"
+   },
+   "layer_planes.json": {
+    "path": "experiments/COLD_START_20_HEIGHT_1024/10_best_valid/layer_planes.json",
+    "bytes": 7319,
+    "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f"
+   },
+   "assignment_1024.csv": {
+    "path": "experiments/COLD_START_20_HEIGHT_1024/10_best_valid/assignment_1024.csv",
+    "bytes": 130150,
+    "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e"
+   },
+   "validation.json": {
+    "path": "experiments/COLD_START_20_HEIGHT_1024/10_best_valid/validation.json",
+    "bytes": 56993,
+    "sha256": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367"
+   }
+  }
+ },
+ "profile": {
+  "name": "20_height_raised",
+  "model": "four_side_1024.fanout1024.coldstart20.model20",
+  "plane_count": 20,
+  "body_plane_count": 18,
+  "interface_plane_ids": [
+   1001,
+   1002
+  ],
+  "plane_table": [
+   {
+    "plane_id": 2,
+    "label": "L2",
+    "z_mm": -0.325,
+    "kind": "body"
+   },
+   {
+    "plane_id": 3,
+    "label": "L3",
+    "z_mm": -0.275,
+    "kind": "body"
+   },
+   {
+    "plane_id": 4,
+    "label": "L4",
+    "z_mm": -0.225,
+    "kind": "body"
+   },
+   {
+    "plane_id": 5,
+    "label": "L5",
+    "z_mm": -0.175,
+    "kind": "body"
+   },
+   {
+    "plane_id": 6,
+    "label": "L6",
+    "z_mm": -0.125,
+    "kind": "body"
+   },
+   {
+    "plane_id": 7,
+    "label": "L7",
+    "z_mm": -0.075,
+    "kind": "body"
+   },
+   {
+    "plane_id": 20,
+    "label": "L20",
+    "z_mm": -0.025,
+    "kind": "body"
+   },
+   {
+    "plane_id": 1001,
+    "label": "Z1_INTERFACE",
+    "z_mm": 0.025,
+    "kind": "interface_body"
+   },
+   {
+    "plane_id": 8,
+    "label": "L8",
+    "z_mm": 0.075,
+    "kind": "body"
+   },
+   {
+    "plane_id": 9,
+    "label": "L9",
+    "z_mm": 0.125,
+    "kind": "body"
+   },
+   {
+    "plane_id": 10,
+    "label": "L10",
+    "z_mm": 0.175,
+    "kind": "body"
+   },
+   {
+    "plane_id": 11,
+    "label": "L11",
+    "z_mm": 0.225,
+    "kind": "body"
+   },
+   {
+    "plane_id": 12,
+    "label": "L12",
+    "z_mm": 0.275,
+    "kind": "body"
+   },
+   {
+    "plane_id": 13,
+    "label": "L13",
+    "z_mm": 0.325,
+    "kind": "body"
+   },
+   {
+    "plane_id": 14,
+    "label": "L14",
+    "z_mm": 0.375,
+    "kind": "body"
+   },
+   {
+    "plane_id": 15,
+    "label": "L15",
+    "z_mm": 0.425,
+    "kind": "body"
+   },
+   {
+    "plane_id": 16,
+    "label": "L16",
+    "z_mm": 0.475,
+    "kind": "body"
+   },
+   {
+    "plane_id": 1002,
+    "label": "Z2_INTERFACE",
+    "z_mm": 0.525,
+    "kind": "interface_body"
+   },
+   {
+    "plane_id": 17,
+    "label": "L17",
+    "z_mm": 0.575,
+    "kind": "body"
+   },
+   {
+    "plane_id": 18,
+    "label": "L18",
+    "z_mm": 0.625,
+    "kind": "body"
+   }
+  ],
+  "glass": {
+   "z_min_mm": -0.35,
+   "z_max_mm": 0.65,
+   "thickness_mm": 1.0
+  },
+  "glass_source": "layer_planes.json",
+  "min_bend_radius_mm": 15.0,
+  "min_3d_clearance_mm": 0.05,
+  "min_layer_pitch_mm": 0.05,
+  "measured_min_pitch_mm": null,
+  "provenance": null,
+  "provenance_label": null,
+  "formal_acceptance_allowed": null,
+  "source": "layer_planes.json"
+ },
+ "routes": {
+  "route_records": 1024,
+  "routed": 1024,
+  "failed": 0,
+  "body_occupancy_sum": 1024,
+  "routes_drawn": 1024,
+  "downsampled": false
+ },
+ "crossings": {
+  "source": "crossing_stats.json",
+  "authoritative_total": 1283,
+  "authoritative_pairs": 1221,
+  "recomputed_total": 1283,
+  "recomputed_pairs": 1221,
+  "exact_match": true,
+  "event_coordinates_in_source": false,
+  "per_height": {
+   "L2": {
+    "plane_id": 2,
+    "z_mm": -0.325,
+    "crossings": 2,
+    "crossing_pairs": 2,
+    "crossings_recomputed": 2,
+    "routes_with_body": 36,
+    "body_parts": 36,
+    "routes_with_geometry": 36,
+    "idle": false
+   },
+   "L3": {
+    "plane_id": 3,
+    "z_mm": -0.275,
+    "crossings": 25,
+    "crossing_pairs": 25,
+    "crossings_recomputed": 25,
+    "routes_with_body": 66,
+    "body_parts": 66,
+    "routes_with_geometry": 66,
+    "idle": false
+   },
+   "L4": {
+    "plane_id": 4,
+    "z_mm": -0.225,
+    "crossings": 0,
+    "crossing_pairs": 0,
+    "crossings_recomputed": 0,
+    "routes_with_body": 68,
+    "body_parts": 68,
+    "routes_with_geometry": 68,
+    "idle": true
+   },
+   "L5": {
+    "plane_id": 5,
+    "z_mm": -0.175,
+    "crossings": 4,
+    "crossing_pairs": 2,
+    "crossings_recomputed": 4,
+    "routes_with_body": 91,
+    "body_parts": 91,
+    "routes_with_geometry": 91,
+    "idle": false
+   },
+   "L6": {
+    "plane_id": 6,
+    "z_mm": -0.125,
+    "crossings": 102,
+    "crossing_pairs": 96,
+    "crossings_recomputed": 102,
+    "routes_with_body": 53,
+    "body_parts": 65,
+    "routes_with_geometry": 57,
+    "idle": false
+   },
+   "L7": {
+    "plane_id": 7,
+    "z_mm": -0.075,
+    "crossings": 79,
+    "crossing_pairs": 71,
+    "crossings_recomputed": 79,
+    "routes_with_body": 51,
+    "body_parts": 60,
+    "routes_with_geometry": 58,
+    "idle": false
+   },
+   "L20": {
+    "plane_id": 20,
+    "z_mm": -0.025,
+    "crossings": 73,
+    "crossing_pairs": 66,
+    "crossings_recomputed": 73,
+    "routes_with_body": 40,
+    "body_parts": 44,
+    "routes_with_geometry": 47,
+    "idle": false
+   },
+   "Z1_INTERFACE": {
+    "plane_id": 1001,
+    "z_mm": 0.025,
+    "crossings": 76,
+    "crossing_pairs": 71,
+    "crossings_recomputed": 76,
+    "routes_with_body": 43,
+    "body_parts": 43,
+    "routes_with_geometry": 512,
+    "idle": false
+   },
+   "L8": {
+    "plane_id": 8,
+    "z_mm": 0.075,
+    "crossings": 70,
+    "crossing_pairs": 60,
+    "crossings_recomputed": 70,
+    "routes_with_body": 47,
+    "body_parts": 65,
+    "routes_with_geometry": 47,
+    "idle": false
+   },
+   "L9": {
+    "plane_id": 9,
+    "z_mm": 0.125,
+    "crossings": 97,
+    "crossing_pairs": 95,
+    "crossings_recomputed": 97,
+    "routes_with_body": 49,
+    "body_parts": 49,
+    "routes_with_geometry": 58,
+    "idle": false
+   },
+   "L10": {
+    "plane_id": 10,
+    "z_mm": 0.175,
+    "crossings": 81,
+    "crossing_pairs": 74,
+    "crossings_recomputed": 81,
+    "routes_with_body": 40,
+    "body_parts": 40,
+    "routes_with_geometry": 40,
+    "idle": false
+   },
+   "L11": {
+    "plane_id": 11,
+    "z_mm": 0.225,
+    "crossings": 81,
+    "crossing_pairs": 79,
+    "crossings_recomputed": 81,
+    "routes_with_body": 40,
+    "body_parts": 40,
+    "routes_with_geometry": 40,
+    "idle": false
+   },
+   "L12": {
+    "plane_id": 12,
+    "z_mm": 0.275,
+    "crossings": 48,
+    "crossing_pairs": 45,
+    "crossings_recomputed": 48,
+    "routes_with_body": 51,
+    "body_parts": 51,
+    "routes_with_geometry": 51,
+    "idle": false
+   },
+   "L13": {
+    "plane_id": 13,
+    "z_mm": 0.325,
+    "crossings": 45,
+    "crossing_pairs": 43,
+    "crossings_recomputed": 45,
+    "routes_with_body": 50,
+    "body_parts": 50,
+    "routes_with_geometry": 50,
+    "idle": false
+   },
+   "L14": {
+    "plane_id": 14,
+    "z_mm": 0.375,
+    "crossings": 72,
+    "crossing_pairs": 72,
+    "crossings_recomputed": 72,
+    "routes_with_body": 47,
+    "body_parts": 47,
+    "routes_with_geometry": 47,
+    "idle": false
+   },
+   "L15": {
+    "plane_id": 15,
+    "z_mm": 0.425,
+    "crossings": 96,
+    "crossing_pairs": 96,
+    "crossings_recomputed": 96,
+    "routes_with_body": 54,
+    "body_parts": 54,
+    "routes_with_geometry": 54,
+    "idle": false
+   },
+   "L16": {
+    "plane_id": 16,
+    "z_mm": 0.475,
+    "crossings": 69,
+    "crossing_pairs": 69,
+    "crossings_recomputed": 69,
+    "routes_with_body": 46,
+    "body_parts": 46,
+    "routes_with_geometry": 46,
+    "idle": false
+   },
+   "Z2_INTERFACE": {
+    "plane_id": 1002,
+    "z_mm": 0.525,
+    "crossings": 89,
+    "crossing_pairs": 83,
+    "crossings_recomputed": 89,
+    "routes_with_body": 49,
+    "body_parts": 49,
+    "routes_with_geometry": 512,
+    "idle": false
+   },
+   "L17": {
+    "plane_id": 17,
+    "z_mm": 0.575,
+    "crossings": 97,
+    "crossing_pairs": 97,
+    "crossings_recomputed": 97,
+    "routes_with_body": 56,
+    "body_parts": 56,
+    "routes_with_geometry": 56,
+    "idle": false
+   },
+   "L18": {
+    "plane_id": 18,
+    "z_mm": 0.625,
+    "crossings": 77,
+    "crossing_pairs": 75,
+    "crossings_recomputed": 77,
+    "routes_with_body": 47,
+    "body_parts": 47,
+    "routes_with_geometry": 47,
+    "idle": false
+   }
+  }
+ },
+ "height_profile": [
+  {
+   "plane_id": 2,
+   "label": "L2",
+   "z_mm": -0.325,
+   "kind": "body",
+   "routes_with_body": 36,
+   "body_parts": 36,
+   "routes_with_geometry": 36,
+   "crossings": 2
+  },
+  {
+   "plane_id": 3,
+   "label": "L3",
+   "z_mm": -0.275,
+   "kind": "body",
+   "routes_with_body": 66,
+   "body_parts": 66,
+   "routes_with_geometry": 66,
+   "crossings": 25
+  },
+  {
+   "plane_id": 4,
+   "label": "L4",
+   "z_mm": -0.225,
+   "kind": "body",
+   "routes_with_body": 68,
+   "body_parts": 68,
+   "routes_with_geometry": 68,
+   "crossings": 0
+  },
+  {
+   "plane_id": 5,
+   "label": "L5",
+   "z_mm": -0.175,
+   "kind": "body",
+   "routes_with_body": 91,
+   "body_parts": 91,
+   "routes_with_geometry": 91,
+   "crossings": 4
+  },
+  {
+   "plane_id": 6,
+   "label": "L6",
+   "z_mm": -0.125,
+   "kind": "body",
+   "routes_with_body": 53,
+   "body_parts": 65,
+   "routes_with_geometry": 57,
+   "crossings": 102
+  },
+  {
+   "plane_id": 7,
+   "label": "L7",
+   "z_mm": -0.075,
+   "kind": "body",
+   "routes_with_body": 51,
+   "body_parts": 60,
+   "routes_with_geometry": 58,
+   "crossings": 79
+  },
+  {
+   "plane_id": 20,
+   "label": "L20",
+   "z_mm": -0.025,
+   "kind": "body",
+   "routes_with_body": 40,
+   "body_parts": 44,
+   "routes_with_geometry": 47,
+   "crossings": 73
+  },
+  {
+   "plane_id": 1001,
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.025,
+   "kind": "interface_body",
+   "routes_with_body": 43,
+   "body_parts": 43,
+   "routes_with_geometry": 512,
+   "crossings": 76
+  },
+  {
+   "plane_id": 8,
+   "label": "L8",
+   "z_mm": 0.075,
+   "kind": "body",
+   "routes_with_body": 47,
+   "body_parts": 65,
+   "routes_with_geometry": 47,
+   "crossings": 70
+  },
+  {
+   "plane_id": 9,
+   "label": "L9",
+   "z_mm": 0.125,
+   "kind": "body",
+   "routes_with_body": 49,
+   "body_parts": 49,
+   "routes_with_geometry": 58,
+   "crossings": 97
+  },
+  {
+   "plane_id": 10,
+   "label": "L10",
+   "z_mm": 0.175,
+   "kind": "body",
+   "routes_with_body": 40,
+   "body_parts": 40,
+   "routes_with_geometry": 40,
+   "crossings": 81
+  },
+  {
+   "plane_id": 11,
+   "label": "L11",
+   "z_mm": 0.225,
+   "kind": "body",
+   "routes_with_body": 40,
+   "body_parts": 40,
+   "routes_with_geometry": 40,
+   "crossings": 81
+  },
+  {
+   "plane_id": 12,
+   "label": "L12",
+   "z_mm": 0.275,
+   "kind": "body",
+   "routes_with_body": 51,
+   "body_parts": 51,
+   "routes_with_geometry": 51,
+   "crossings": 48
+  },
+  {
+   "plane_id": 13,
+   "label": "L13",
+   "z_mm": 0.325,
+   "kind": "body",
+   "routes_with_body": 50,
+   "body_parts": 50,
+   "routes_with_geometry": 50,
+   "crossings": 45
+  },
+  {
+   "plane_id": 14,
+   "label": "L14",
+   "z_mm": 0.375,
+   "kind": "body",
+   "routes_with_body": 47,
+   "body_parts": 47,
+   "routes_with_geometry": 47,
+   "crossings": 72
+  },
+  {
+   "plane_id": 15,
+   "label": "L15",
+   "z_mm": 0.425,
+   "kind": "body",
+   "routes_with_body": 54,
+   "body_parts": 54,
+   "routes_with_geometry": 54,
+   "crossings": 96
+  },
+  {
+   "plane_id": 16,
+   "label": "L16",
+   "z_mm": 0.475,
+   "kind": "body",
+   "routes_with_body": 46,
+   "body_parts": 46,
+   "routes_with_geometry": 46,
+   "crossings": 69
+  },
+  {
+   "plane_id": 1002,
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.525,
+   "kind": "interface_body",
+   "routes_with_body": 49,
+   "body_parts": 49,
+   "routes_with_geometry": 512,
+   "crossings": 89
+  },
+  {
+   "plane_id": 17,
+   "label": "L17",
+   "z_mm": 0.575,
+   "kind": "body",
+   "routes_with_body": 56,
+   "body_parts": 56,
+   "routes_with_geometry": 56,
+   "crossings": 97
+  },
+  {
+   "plane_id": 18,
+   "label": "L18",
+   "z_mm": 0.625,
+   "kind": "body",
+   "routes_with_body": 47,
+   "body_parts": 47,
+   "routes_with_geometry": 47,
+   "crossings": 77
+  }
+ ],
+ "layout_validation": {
+  "schema": "native3d_validation_v1",
+  "validated_at": "2026-11-18T02:10:42",
+  "validation_pass": true,
+  "geometry_pass": true,
+  "contract_pass": true,
+  "violation_count": 0
+ },
+ "figures": [
+  {
+   "file": "01_layers_all_in_one.png",
+   "sha256": "8925264d8a8ae40188f04f1d10fecad361ed92ac7021794953dddf66efe2e872",
+   "bytes": 1576268,
+   "megabytes": 1.576,
+   "dpi": 150,
+   "description": "all 1024 routes in XY coloured by physical height (20 heights on the colourbar) + routes per height",
+   "routes_drawn": 1024,
+   "colours": "physical height z (turbo norm -0.325..0.625)",
+   "second_panel": "route count per height"
+  },
+  {
+   "file": "02_3d_global.png",
+   "sha256": "f709c5555edd7702302bae2f12abaa955dbe2852ae0358140a6da5fa8ad39682",
+   "bytes": 2578081,
+   "megabytes": 2.578,
+   "dpi": 150,
+   "description": "true 3D drawing of all 1024 routes (+1 mm glass envelope), view elevation 30 deg, colour = routing height",
+   "routes_drawn": 1024,
+   "routes_skipped": 0,
+   "view": {
+    "elev": 30,
+    "azim": -60
+   },
+   "glass": {
+    "z_min_mm": -0.35,
+    "z_max_mm": 0.65,
+    "thickness_mm": 1.0
+   }
+  },
+  {
+   "file": "03_height_profile.png",
+   "sha256": "cb955216bcc1d239bbe1d3dd777bc6798941a365b1b0d1d639b417e3705e1e14",
+   "bytes": 165968,
+   "megabytes": 0.166,
+   "dpi": 150,
+   "description": "per-height occupancy (routes per body height) ordered by z + authoritative crossings per height",
+   "occupancy": {
+    "L2": 36,
+    "L3": 66,
+    "L4": 68,
+    "L5": 91,
+    "L6": 53,
+    "L7": 51,
+    "L20": 40,
+    "Z1_INTERFACE": 43,
+    "L8": 47,
+    "L9": 49,
+    "L10": 40,
+    "L11": 40,
+    "L12": 51,
+    "L13": 50,
+    "L14": 47,
+    "L15": 54,
+    "L16": 46,
+    "Z2_INTERFACE": 49,
+    "L17": 56,
+    "L18": 47
+   },
+   "crossings": {
+    "L2": 2,
+    "L3": 25,
+    "L4": 0,
+    "L5": 4,
+    "L6": 102,
+    "L7": 79,
+    "L20": 73,
+    "Z1_INTERFACE": 76,
+    "L8": 70,
+    "L9": 97,
+    "L10": 81,
+    "L11": 81,
+    "L12": 48,
+    "L13": 45,
+    "L14": 72,
+    "L15": 96,
+    "L16": 69,
+    "Z2_INTERFACE": 89,
+    "L17": 97,
+    "L18": 77
+   },
+   "idle_heights": [
+    "L4"
+   ]
+  },
+  {
+   "file": "04_crossing_hotspot_zoom.png",
+   "sha256": "a53d93d340b7edf1faf9d855eb2b1490c33d5c3feeffec4472dbc39fc9f8aff1",
+   "bytes": 291354,
+   "megabytes": 0.291,
+   "dpi": 150,
+   "description": "top-3 densest 20x20 mm same-height crossing cells with involved routes, markers, counts and idle heights",
+   "hotspots": [
+    {
+     "rank": 1,
+     "plane_id": 1002,
+     "label": "Z2_INTERFACE",
+     "z_mm": 0.525,
+     "cell_mm": [
+      100.0,
+      80.0,
+      20.0,
+      20.0
+     ],
+     "crossings_in_cell": 25,
+     "plane_crossings": 89,
+     "plane_crossing_pairs": 83,
+     "routes_involved": [
+      528,
+      532,
+      536,
+      544,
+      548,
+      552,
+      556,
+      572,
+      576,
+      580,
+      632,
+      664,
+      668
+     ],
+     "routes_drawn": 13,
+     "idle_heights": [
+      "L4"
+     ]
+    },
+    {
+     "rank": 2,
+     "plane_id": 15,
+     "label": "L15",
+     "z_mm": 0.425,
+     "cell_mm": [
+      20.0,
+      80.0,
+      20.0,
+      20.0
+     ],
+     "crossings_in_cell": 23,
+     "plane_crossings": 96,
+     "plane_crossing_pairs": 96,
+     "routes_involved": [
+      514,
+      538,
+      542,
+      562,
+      566,
+      586,
+      590,
+      698,
+      702,
+      710,
+      714
+     ],
+     "routes_drawn": 11,
+     "idle_heights": [
+      "L4"
+     ]
+    },
+    {
+     "rank": 3,
+     "plane_id": 15,
+     "label": "L15",
+     "z_mm": 0.425,
+     "cell_mm": [
+      40.0,
+      80.0,
+      20.0,
+      20.0
+     ],
+     "crossings_in_cell": 21,
+     "plane_crossings": 96,
+     "plane_crossing_pairs": 96,
+     "routes_involved": [
+      570,
+      586,
+      590,
+      594,
+      598,
+      698,
+      702,
+      710,
+      714,
+      718,
+      722,
+      726,
+      746,
+      750
+     ],
+     "routes_drawn": 14,
+     "idle_heights": [
+      "L4"
+     ]
+    }
+   ],
+   "cells_scanned": 311
+  },
+  {
+   "file": "05_multi_arc_examples.png",
+   "sha256": "24d0a9e13f84d4e98d5716ed01c7349c638565ab8d19c61bcad56f5e29497a54",
+   "bytes": 192759,
+   "megabytes": 0.193,
+   "dpi": 150,
+   "description": "three real planar multi-arc routes with annotated arc centres/radii + height profile along the path",
+   "max_planar_arcs": 5,
+   "examples": [
+    {
+     "panel": "a",
+     "category": "2 arcs, one tangent multi-arc run",
+     "fallback": false,
+     "route_id": 2,
+     "n_arcs": 2,
+     "n_regions": 1,
+     "target_plane": 7,
+     "length_mm": 152.338964566
+    },
+    {
+     "panel": "b",
+     "category": "5 arcs (3+ arc case)",
+     "fallback": false,
+     "route_id": 927,
+     "n_arcs": 5,
+     "n_regions": 1,
+     "target_plane": 11,
+     "length_mm": 66.932781881
+    },
+    {
+     "panel": "c",
+     "category": "arcs at separate corners",
+     "fallback": false,
+     "route_id": 977,
+     "n_arcs": 2,
+     "n_regions": 0,
+     "target_plane": 13,
+     "length_mm": 217.104124149
+    }
+   ]
+  },
+  {
+   "file": "06_crossing_curve_vs_stage.png",
+   "sha256": "2ec41c004dd7fc97dede9e887025d4f10415e0539a163963c7557ae7083e0d0c",
+   "bytes": 215620,
+   "megabytes": 0.216,
+   "dpi": 150,
+   "description": "20H crossing curve over the stages vs the historical 21H reference curve (not a target)",
+   "yscale": "log",
+   "stage_curve_source": "12_reports/stage_curve_20h.json",
+   "stages_20h": [
+    {
+     "key": "03 initial fanout-first + D56 multi-arc + 3D (cold assignment)",
+     "crossing": 12338,
+     "status": "available",
+     "dir": null
+    },
+    {
+     "key": "04 from-scratch annealing + joint repair (accepted E5)",
+     "crossing": 3275,
+     "status": "available",
+     "dir": null
+    },
+    {
+     "key": "05 Native 3D Phase 1 (A/B/C mid-body R15 layer change)",
+     "crossing": 3103,
+     "status": "available",
+     "dir": null
+    },
+    {
+     "key": "06 Native 3D Phase 2 (D/E/F joint make-way + arc rebuild)",
+     "crossing": 3061,
+     "status": "available",
+     "dir": null
+    },
+    {
+     "key": "07 XYZ joint optimisation G1/G2a/G2b/G3",
+     "crossing": 1395,
+     "status": "available",
+     "dir": null
+    },
+    {
+     "key": "08 G4 progressive chain (best link)",
+     "crossing": 1283,
+     "status": "available",
+     "dir": null
+    },
+    {
+     "key": "final best legal 20-height solution (frozen)",
+     "crossing": 1283,
+     "status": "available",
+     "dir": null
+    }
+   ],
+   "reference_21h": [
+    {
+     "key": "initial",
+     "crossings": 11890,
+     "crossing_pairs": 9797,
+     "status": "available",
+     "dir": "outputs/manual_c4_new_connectivity/FANOUT_FIRST_21_HEIGHT_REBALANCED_1024"
+    },
+    {
+     "key": "E5 repair",
+     "crossings": 2606,
+     "crossing_pairs": 2067,
+     "status": "available",
+     "dir": "outputs/manual_c4_new_connectivity/NON_C4_CROSSING_OPT_1024"
+    },
+    {
+     "key": "native p1",
+     "crossings": 2440,
+     "crossing_pairs": 2036,
+     "status": "available",
+     "dir": "outputs/manual_c4_new_connectivity/NATIVE_3D_CROSSING_OPT_1024"
+    },
+    {
+     "key": "native p2",
+     "crossings": 2409,
+     "crossing_pairs": 2010,
+     "status": "available",
+     "dir": "outputs/manual_c4_new_connectivity/NATIVE_3D_JOINT_OPT_1024"
+    },
+    {
+     "key": "G3",
+     "crossings": 1322,
+     "crossing_pairs": 1253,
+     "status": "available",
+     "dir": "outputs/manual_c4_new_connectivity/XYZ_JOINT_G123_1024/best_valid"
+    },
+    {
+     "key": "G4 best",
+     "crossings": 1185,
+     "crossing_pairs": 1124,
+     "status": "available",
+     "dir": "experiments/xyz_joint_g4_1024/07_best_valid"
+    }
+   ]
+  },
+  {
+   "file": "07_21h_vs_20h.png",
+   "sha256": "873e73e73daa77a3f97e0cbe6f3337cd5da999f3d15e6b6ae190f5355336b852",
+   "bytes": 144286,
+   "megabytes": 0.144,
+   "dpi": 150,
+   "description": "grouped bars: 21H historical vs 20H reachable stage positions; missing 20H stages are \"not run yet\"",
+   "stages_20h": [
+    {
+     "key": "initial",
+     "crossings": 12338,
+     "status": "available",
+     "dir": "experiments/COLD_START_20_HEIGHT_1024/03_fanout_and_xy/run_initial_20h"
+    },
+    {
+     "key": "E5 repair",
+     "crossings": 3275,
+     "status": "available",
+     "dir": "experiments/COLD_START_20_HEIGHT_1024/04_initial_3d_and_e5_repair/nonc4_programme/E5_joint_repair_final"
+    },
+    {
+     "key": "native p1",
+     "crossings": 3103,
+     "status": "available",
+     "dir": "experiments/COLD_START_20_HEIGHT_1024/05_native3d_abc/run_native3d_phase1"
+    },
+    {
+     "key": "native p2",
+     "crossings": 3061,
+     "status": "available",
+     "dir": "experiments/COLD_START_20_HEIGHT_1024/06_native3d_def/run_native3d_phase2/best_valid"
+    },
+    {
+     "key": "G3",
+     "crossings": 1395,
+     "status": "available",
+     "dir": "experiments/COLD_START_20_HEIGHT_1024/07_g123/run_xyz_joint_1024_20h/best_valid"
+    },
+    {
+     "key": "G4 best",
+     "crossings": null,
+     "status": "not run yet",
+     "dir": null
+    }
+   ],
+   "reference_21h": [
+    {
+     "key": "initial",
+     "crossings": 11890,
+     "dir": "outputs/manual_c4_new_connectivity/FANOUT_FIRST_21_HEIGHT_REBALANCED_1024"
+    },
+    {
+     "key": "E5 repair",
+     "crossings": 2606,
+     "dir": "outputs/manual_c4_new_connectivity/NON_C4_CROSSING_OPT_1024"
+    },
+    {
+     "key": "native p1",
+     "crossings": 2440,
+     "dir": "outputs/manual_c4_new_connectivity/NATIVE_3D_CROSSING_OPT_1024"
+    },
+    {
+     "key": "native p2",
+     "crossings": 2409,
+     "dir": "outputs/manual_c4_new_connectivity/NATIVE_3D_JOINT_OPT_1024"
+    },
+    {
+     "key": "G3",
+     "crossings": 1322,
+     "dir": "outputs/manual_c4_new_connectivity/XYZ_JOINT_G123_1024/best_valid"
+    },
+    {
+     "key": "G4 best",
+     "crossings": 1185,
+     "dir": "experiments/xyz_joint_g4_1024/07_best_valid"
+    }
+   ],
+   "note": "21H bars are a historical reference, not a target"
+  }
+ ],
+ "files": {
+  "01_layers_all_in_one.png": {
+   "sha256": "8925264d8a8ae40188f04f1d10fecad361ed92ac7021794953dddf66efe2e872",
+   "bytes": 1576268
+  },
+  "02_3d_global.png": {
+   "sha256": "f709c5555edd7702302bae2f12abaa955dbe2852ae0358140a6da5fa8ad39682",
+   "bytes": 2578081
+  },
+  "03_height_profile.png": {
+   "sha256": "cb955216bcc1d239bbe1d3dd777bc6798941a365b1b0d1d639b417e3705e1e14",
+   "bytes": 165968
+  },
+  "04_crossing_hotspot_zoom.png": {
+   "sha256": "a53d93d340b7edf1faf9d855eb2b1490c33d5c3feeffec4472dbc39fc9f8aff1",
+   "bytes": 291354
+  },
+  "05_multi_arc_examples.png": {
+   "sha256": "24d0a9e13f84d4e98d5716ed01c7349c638565ab8d19c61bcad56f5e29497a54",
+   "bytes": 192759
+  },
+  "06_crossing_curve_vs_stage.png": {
+   "sha256": "2ec41c004dd7fc97dede9e887025d4f10415e0539a163963c7557ae7083e0d0c",
+   "bytes": 215620
+  },
+  "07_21h_vs_20h.png": {
+   "sha256": "873e73e73daa77a3f97e0cbe6f3337cd5da999f3d15e6b6ae190f5355336b852",
+   "bytes": 144286
+  },
+  "README.md": {
+   "sha256": "deb514d03bfa98af3f785302f05de01f5132dc2a16cd05bf89387c4add6baace",
+   "bytes": 5758
+  }
+ },
+ "readme": {
+  "path": "experiments/COLD_START_20_HEIGHT_1024/11_figures/final/README.md",
+  "bytes": 5758,
+  "sha256": "deb514d03bfa98af3f785302f05de01f5132dc2a16cd05bf89387c4add6baace"
+ },
+ "stage_curve": {
+  "source": "12_reports/stage_curve_20h.json",
+  "override_file": "experiments/COLD_START_20_HEIGHT_1024/12_reports/stage_curve_20h.json",
+  "stages": {
+   "initial": {
+    "label": "initial legal 20H (fanout + XY)",
+    "status": "available",
+    "dir": "experiments/COLD_START_20_HEIGHT_1024/03_fanout_and_xy/run_initial_20h",
+    "crossings": 12338,
+    "crossing_pairs": 10133
+   },
+   "post_anneal_repair": {
+    "label": "post-annealing + E5 joint repair",
+    "status": "available",
+    "dir": "experiments/COLD_START_20_HEIGHT_1024/04_initial_3d_and_e5_repair/nonc4_programme/E5_joint_repair_final",
+    "crossings": 3275,
+    "crossing_pairs": 2774
+   },
+   "native3d_phase1": {
+    "label": "Native-3D phase 1",
+    "status": "available",
+    "dir": "experiments/COLD_START_20_HEIGHT_1024/05_native3d_abc/run_native3d_phase1",
+    "crossings": 3103,
+    "crossing_pairs": 2733
+   },
+   "native3d_phase2": {
+    "label": "Native-3D phase 2",
+    "status": "available",
+    "dir": "experiments/COLD_START_20_HEIGHT_1024/06_native3d_def/run_native3d_phase2/best_valid",
+    "crossings": 3061,
+    "crossing_pairs": 2705
+   },
+   "g3": {
+    "label": "G1/G2/G3 (manual full XYZ)",
+    "status": "available",
+    "dir": "experiments/COLD_START_20_HEIGHT_1024/07_g123/run_xyz_joint_1024_20h/best_valid",
+    "crossings": 1395,
+    "crossing_pairs": 1325
+   },
+   "g4_best": {
+    "label": "G4 best (progressive chain)",
+    "status": "not run yet",
+    "dir": null,
+    "crossings": null,
+    "crossing_pairs": null
+   }
+  },
+  "reference_21h": {
+   "initial": {
+    "label": "initial legal 20H (fanout + XY)",
+    "status": "available",
+    "dir": "outputs/manual_c4_new_connectivity/FANOUT_FIRST_21_HEIGHT_REBALANCED_1024",
+    "crossings": 11890,
+    "crossing_pairs": 9797
+   },
+   "post_anneal_repair": {
+    "label": "post-annealing + E5 joint repair",
+    "status": "available",
+    "dir": "outputs/manual_c4_new_connectivity/NON_C4_CROSSING_OPT_1024",
+    "crossings": 2606,
+    "crossing_pairs": 2067
+   },
+   "native3d_phase1": {
+    "label": "Native-3D phase 1",
+    "status": "available",
+    "dir": "outputs/manual_c4_new_connectivity/NATIVE_3D_CROSSING_OPT_1024",
+    "crossings": 2440,
+    "crossing_pairs": 2036
+   },
+   "native3d_phase2": {
+    "label": "Native-3D phase 2",
+    "status": "available",
+    "dir": "outputs/manual_c4_new_connectivity/NATIVE_3D_JOINT_OPT_1024",
+    "crossings": 2409,
+    "crossing_pairs": 2010
+   },
+   "g3": {
+    "label": "G1/G2/G3 (manual full XYZ)",
+    "status": "available",
+    "dir": "outputs/manual_c4_new_connectivity/XYZ_JOINT_G123_1024/best_valid",
+    "crossings": 1322,
+    "crossing_pairs": 1253
+   },
+   "g4_best": {
+    "label": "G4 best (progressive chain)",
+    "status": "available",
+    "dir": "experiments/xyz_joint_g4_1024/07_best_valid",
+    "crossings": 1185,
+    "crossing_pairs": 1124
+   }
+  },
+  "note": "the 21H values are a historical reference, not a target"
+ },
+ "caveats": [
+  "crossing counts: the authoritative crossing_stats.json totals (1283 events / 1221 pairs) are reproduced exactly by recomputing the real line/arc intersections of every flat part of every route (plots21.compute_crossings semantics); the per-event marker positions in the figures are those recomputed exact intersections.",
+  "crossing_stats.json of this layout stores aggregate counts only (no per-event x/y list); the crossing markers drawn here are recomputed from the real line/arc primitives."
+ ],
+ "notes": [
+  "all 1024 routes are drawn from the layout routes_l3d.json; no route, part or crossing is filtered, down-sampled or moved",
+  "figures 06/07 read the six 20H stage directories at generation time (no timestamps are embedded); if a stage is still running, rerun after it finishes to refresh the stage curve / comparison",
+  "the 21H reference values come from the frozen 21H archive and are a historical reference, not a target and not a like-for-like baseline (the 20H stack deletes plane L19 and shifts every height by +0.025 mm)"
+ ],
+ "reproduction": {
+  "command": ".venv\\Scripts\\python.exe -m four_side_1024.fanout1024.coldstart20.plot_final --layout \"C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid\" --out-dir \"C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\11_figures\\final\" --label \"final best legal 20H layout (G4 progressive chain link 4)\" --dpi 150 --yscale log",
+  "module": "four_side_1024.fanout1024.coldstart20.plot_final",
+  "arguments": {
+   "layout": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+   "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\11_figures\\final",
+   "label": "final best legal 20H layout (G4 progressive chain link 4)",
+   "compare": null,
+   "dpi": 150,
+   "yscale": "log"
+  },
+  "python": "3.10.11",
+  "matplotlib": "3.10.9",
+  "script_sha256": "6d1788e52ec45ffe75c958f5849092d1b6d23d8f94edb8cad0f8e54a3d724ebc"
+ },
+ "honesty": {
+  "all_routes_drawn": true,
+  "routes_downsampled": false,
+  "crossing_counts_from": "crossing_stats.json (authoritative)",
+  "crossing_markers": "exact line/arc intersections recomputed with plots21.compute_crossings semantics",
+  "reference_21h_is_a_target": false,
+  "missing_stages_reported_as": "not run yet",
+  "output_files_hashed": "every PNG in this directory + README.md",
+  "unhashed_diagnostics": [
+   "render_timings.json"
+  ]
+ },
+ "totals": {
+  "figure_count": 7,
+  "figure_bytes": 5164336,
+  "figure_megabytes": 5.164,
+  "max_figure_megabytes": 2.578
+ }
+}

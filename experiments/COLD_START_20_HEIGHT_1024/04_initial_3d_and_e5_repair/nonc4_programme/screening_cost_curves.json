@@ -1,0 +1,262 @@
+{
+ "schema": "coldstart20_nonc4_cost_curves_v1",
+ "profile": "20_height_raised",
+ "seed": 11,
+ "time_budget_s": 15.0,
+ "group_counts": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "families": [
+  "Z1V",
+  "Z1H",
+  "Z2_NE",
+  "Z2_SE",
+  "Z2_NW",
+  "Z2_SW"
+ ],
+ "curves": {
+  "Z1V": {
+   "route_count": 128,
+   "edges": 1568,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1568,
+     "sizes": [
+      128
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 392,
+     "sizes": [
+      66,
+      62
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 134,
+     "sizes": [
+      46,
+      42,
+      40
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 52,
+     "sizes": [
+      35,
+      31,
+      31,
+      31
+     ]
+    }
+   ]
+  },
+  "Z1H": {
+   "route_count": 128,
+   "edges": 1568,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1568,
+     "sizes": [
+      128
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 392,
+     "sizes": [
+      66,
+      62
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 134,
+     "sizes": [
+      47,
+      41,
+      40
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 52,
+     "sizes": [
+      33,
+      33,
+      31,
+      31
+     ]
+    }
+   ]
+  },
+  "Z2_NE": {
+   "route_count": 100,
+   "edges": 1009,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1009,
+     "sizes": [
+      100
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 246,
+     "sizes": [
+      50,
+      50
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 80,
+     "sizes": [
+      34,
+      34,
+      32
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 30,
+     "sizes": [
+      29,
+      24,
+      24,
+      23
+     ]
+    }
+   ]
+  },
+  "Z2_SE": {
+   "route_count": 100,
+   "edges": 1009,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1009,
+     "sizes": [
+      100
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 246,
+     "sizes": [
+      50,
+      50
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 80,
+     "sizes": [
+      34,
+      34,
+      32
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 30,
+     "sizes": [
+      29,
+      24,
+      24,
+      23
+     ]
+    }
+   ]
+  },
+  "Z2_NW": {
+   "route_count": 100,
+   "edges": 1009,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1009,
+     "sizes": [
+      100
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 246,
+     "sizes": [
+      50,
+      50
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 80,
+     "sizes": [
+      34,
+      34,
+      32
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 30,
+     "sizes": [
+      29,
+      24,
+      24,
+      23
+     ]
+    }
+   ]
+  },
+  "Z2_SW": {
+   "route_count": 100,
+   "edges": 1009,
+   "curve": [
+    {
+     "groups": 1,
+     "intra": 1009,
+     "sizes": [
+      100
+     ]
+    },
+    {
+     "groups": 2,
+     "intra": 246,
+     "sizes": [
+      50,
+      50
+     ]
+    },
+    {
+     "groups": 3,
+     "intra": 80,
+     "sizes": [
+      34,
+      34,
+      32
+     ]
+    },
+    {
+     "groups": 4,
+     "intra": 30,
+     "sizes": [
+      29,
+      24,
+      24,
+      23
+     ]
+    }
+   ]
+  }
+ }
+}

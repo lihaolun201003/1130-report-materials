@@ -1,0 +1,57 @@
+{
+ "schema": "coldstart20_multiarc_off_feasibility_v1",
+ "generated_at": "2026-11-18T01:19:59",
+ "profile": "20_height_raised",
+ "feasible": false,
+ "conversion_exit_code": 4,
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+ "start_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+ "start_crossings": 1395,
+ "converted": 212,
+ "residual": 1,
+ "residual_route_ids": [
+  456
+ ],
+ "policy_leaks": [],
+ "multi_arc_routes_before": 213,
+ "multi_arc_routes_after": 1,
+ "crossings_after": 4559,
+ "crossing_delta_from_start": 3164,
+ "total_length_mm": 164897.286606,
+ "routes_sha256": "6812f2fac434e1f4aff8e06086b6c609355e099697794ea96a2bfaa374b3819b",
+ "assignment_sha256": "e1cd211319e503bbc244f7c51545ff8733cf5ec2d5a506376afe34b5954e107b",
+ "validation_pass": true,
+ "validator": {
+  "exit_code": 0,
+  "validation_pass": true,
+  "violation_count": 0,
+  "model_plane_count": 20,
+  "validation_json": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\09_multi_arc_ablation\\common_start_off\\validation_xyz\\validation.json"
+ },
+ "effect": {
+  "name": "A",
+  "definition": "crossing delta caused by re-expressing the inherited ON geometry in the OFF grammar",
+  "crossing_delta": 3164,
+  "note": "effect A is NOT attributed to search ability (effect B)"
+ },
+ "protocol": {
+  "path": "experiments\\COLD_START_20_HEIGHT_1024\\09_multi_arc_ablation\\PROTOCOL.md",
+  "present": true,
+  "sha256": "63c303a7fd7a91f9cfb8c083f17e2ee6e53648a5a9d8ec8f8909874e01e9e916"
+ },
+ "source_snapshot": {
+  "four_side_1024\\fanout1024\\coldstart20\\run_multiarc.py": "ed38aacb7913dd44f89bd8f53fe75b2c6b5d147e805a1eed63598ac145fd7851",
+  "four_side_1024\\fanout1024\\coldstart20\\convert_multiarc20.py": "f285f6ab439396db226b80859e0cdfc7bc5c53cfb6ca9c79c2d200c4f4233d79",
+  "four_side_1024\\fanout1024\\layer2d.py": "712ebc5472e31a7b551d2dfe98e47d53c3f9fbd28a054ac537d72094ae487960",
+  "four_side_1024\\fanout1024\\xyzrouter\\local_reroute.py": "808206248cccf794ca71f39a7244f7395a901879d851d82ac30d8e2da904a30d",
+  "four_side_1024\\fanout1024\\xyzrouter\\g4\\alns.py": "c43dd040683791e2599f216f69c015c602733a612910eb881801f0557db8e1d0",
+  "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4_engine.py": "8960c0e0f6b9aafec3b367798ad87ff68f4a78a49dfcd2379a3a60fef7a86a6c",
+  "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4c.py": "c012653db960e2b1d4e9ab44f19e7050ad32585865da66c4faba9350a1ef53f6",
+  "four_side_1024\\fanout1024\\coldstart20\\bootstrap.py": "13400e727eb40eb1710307d5c4417d02249966152fc765cf12a8928a551a3a6a",
+  "four_side_1024\\fanout1024\\coldstart20\\model20.py": "3afd35b193c32bf858f55f6897246bcd332b9fd74ea68c1db1e4a41bae6fe489"
+ },
+ "reasons": [
+  "residual multi-arc routes: 1 (first 20: [456])",
+  "multi-arc regions remain after conversion: 1 routes (first 20: [456]; a max-routes debug run also lands here)"
+ ]
+}

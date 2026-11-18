@@ -1,0 +1,132 @@
+{
+ "schema": "coldstart20_nonc4_e3_v1",
+ "profile": "20_height_raised",
+ "experiment": "E2_conflict_sharing_seed11",
+ "seed": 11,
+ "order": "route_id",
+ "allocation": {
+  "Z1V": [
+   6,
+   7
+  ],
+  "Z1H": [
+   20,
+   1001,
+   8
+  ],
+  "Z2_NE": [
+   9,
+   14,
+   15
+  ],
+  "Z2_SW": [
+   9,
+   14,
+   15
+  ],
+  "Z2_SE": [
+   16,
+   17,
+   18,
+   1002
+  ],
+  "Z2_NW": [
+   16,
+   17,
+   18,
+   1002
+  ]
+ },
+ "plan_predicted_crossings": 746,
+ "plan_families": {
+  "Z1V": {
+   "planes": [
+    6,
+    7
+   ],
+   "predicted_intra": 392,
+   "sizes": {
+    "0": 66,
+    "1": 62
+   }
+  },
+  "Z1H": {
+   "planes": [
+    20,
+    1001,
+    8
+   ],
+   "predicted_intra": 134,
+   "sizes": {
+    "0": 40,
+    "1": 41,
+    "2": 47
+   }
+  },
+  "Z2_NE": {
+   "planes": [
+    9,
+    14,
+    15
+   ],
+   "predicted_intra": 80,
+   "sizes": {
+    "0": 34,
+    "1": 34,
+    "2": 32
+   }
+  },
+  "Z2_SW": {
+   "planes": [
+    9,
+    14,
+    15
+   ],
+   "predicted_intra": 80,
+   "sizes": {
+    "0": 34,
+    "1": 34,
+    "2": 32
+   }
+  },
+  "Z2_SE": {
+   "planes": [
+    16,
+    17,
+    18,
+    1002
+   ],
+   "predicted_intra": 30,
+   "sizes": {
+    "0": 24,
+    "1": 24,
+    "2": 29,
+    "3": 23
+   }
+  },
+  "Z2_NW": {
+   "planes": [
+    16,
+    17,
+    18,
+    1002
+   ],
+   "predicted_intra": 30,
+   "sizes": {
+    "0": 24,
+    "1": 24,
+    "2": 29,
+    "3": 23
+   }
+  }
+ },
+ "routes": 1021,
+ "failed": 3,
+ "crossing": {
+  "crossings": 9372,
+  "crossing_pairs": 5050,
+  "routed": 1021,
+  "failed": 3
+ },
+ "elapsed_s": 162.14
+}

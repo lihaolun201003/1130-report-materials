@@ -1,0 +1,60 @@
+{
+ "schema": "coldstart20_validation_runner_v1",
+ "profile": "20_height_raised",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\09_multi_arc_ablation\\cold_start_off",
+ "elapsed_s": 29.4,
+ "exit_code": 0,
+ "validation_pass": true,
+ "geometry_pass": true,
+ "contract_pass": true,
+ "validator_consistency_passed": true,
+ "counts": {
+  "routed": 1024,
+  "failed": 0,
+  "min_3d_clearance_mm": 0.100011178
+ },
+ "crossing_totals": {
+  "records": 1024,
+  "routed": 1024,
+  "failed": 0,
+  "routed_by_plane": {
+   "z1": 512,
+   "z2": 512
+  },
+  "direct_routes": 100,
+  "direct_by_interface_plane": {
+   "1001": 52,
+   "1002": 48
+  },
+  "non_direct_routes": 924,
+  "transitions": 1848,
+  "transition_total_length_mm": 5743.025804048,
+  "total_length_mm": 165132.229346491,
+  "max_route_length_mm": 282.321952412,
+  "flat_arc_count": 1960,
+  "min_flat_arc_radius_mm": 15.0,
+  "min_transition_sampled_radius_mm": 14.999999980101123,
+  "min_3d_clearance_mm": 0.100011178,
+  "min_3d_clearance_lower_bound_mm": 0.05,
+  "same_plane_crossings": 14233,
+  "same_plane_crossing_pairs": 10637,
+  "same_plane_crossing_violations": 0,
+  "min_non_crossing_centerline_mm": 0.088202161,
+  "per_route_crossing_distribution": {
+   "routes": 640,
+   "max": 82,
+   "p95": 70.05,
+   "mean": 44.478125,
+   "median": 52.5,
+   "routes_with_crossings": 640
+  },
+  "planes_audited": 20,
+  "min_centerline_glass_margin_mm": 0.0,
+  "min_edge_glass_margin_mm": -0.025,
+  "violation_total": 0
+ },
+ "violations_total": 0,
+ "violation_counts_by_check": {},
+ "report_path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\09_multi_arc_ablation\\cold_start_off\\validation.json",
+ "crossing_stats_path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\09_multi_arc_ablation\\cold_start_off\\crossing_stats.json"
+}

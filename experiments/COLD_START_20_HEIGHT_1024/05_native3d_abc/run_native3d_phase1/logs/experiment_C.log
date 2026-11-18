@@ -1,0 +1,26 @@
+23:00:17 [C] [cache] built 1024 routes, 20 planes, total=3275 (2.0s)
+23:00:19 [C] start: total=3275
+23:00:19 [C] [C] === C1_top10 sweep 1/1 (start total=3275) ===
+23:00:20 [C] [C] C1_top10 sweep 1: total=3275 net=+0 applied=0 routes=10 (1.3s)
+23:00:20 [C] [C] C1_top10 sweep 1 produced no improvement
+23:00:20 [C] [C] C1_top10 done: total=3275 (best validated=3275)
+23:00:20 [C] [C] === C2_top50 sweep 1/1 (start total=3275) ===
+23:00:32 [C] [C] C2_top50 sweep 1: total=3264 net=-11 applied=4 routes=50 (12.1s)
+23:00:48 [C] [C] new best legal layout: 3264 crossings (validated)
+23:00:48 [C] [C] checkpoint C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\05_native3d_abc\run_native3d_phase1\experiment_C\checkpoints\c2_top50_sweep_01_routes_l3d.json
+23:00:48 [C] [C] C2_top50 done: total=3264 (best validated=3264)
+23:00:48 [C] [C] === C3_all sweep 1/3 (start total=3264) ===
+23:03:46 [C] [C] C3_all sweep 1: total=3117 net=-147 applied=56 routes=585 (177.8s)
+23:04:03 [C] [C] new best legal layout: 3117 crossings (validated)
+23:04:03 [C] [C] checkpoint C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\05_native3d_abc\run_native3d_phase1\experiment_C\checkpoints\c3_all_sweep_01_routes_l3d.json
+23:04:03 [C] [C] === C3_all sweep 2/3 (start total=3117) ===
+23:05:42 [C] [C] C3_all sweep 2: total=3103 net=-14 applied=6 routes=585 (98.9s)
+23:05:57 [C] [C] new best legal layout: 3103 crossings (validated)
+23:05:57 [C] [C] checkpoint C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\05_native3d_abc\run_native3d_phase1\experiment_C\checkpoints\c3_all_sweep_02_routes_l3d.json
+23:05:57 [C] [C] === C3_all sweep 3/3 (start total=3103) ===
+23:07:27 [C] [C] C3_all sweep 3: total=3103 net=+0 applied=0 routes=585 (90.1s)
+23:07:27 [C] [C] C3_all sweep 3 produced no improvement
+23:07:27 [C] [C] C3_all done: total=3103 (best validated=3103)
+23:07:43 [C] [guard] full validation: valid=1024 violations=0 15.8s
+23:07:45 [C] [guard] min 3D clearance = 0.068629474 mm (2.0s)
+23:07:47 [C] [C] FINAL crossings=3103 (start 2606), routes=1024 native=60 mid_transitions=132 validation=ok min_clear=0.068629474

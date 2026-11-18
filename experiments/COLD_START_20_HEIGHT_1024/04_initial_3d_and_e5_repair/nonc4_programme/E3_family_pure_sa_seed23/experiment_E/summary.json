@@ -1,0 +1,280 @@
+{
+ "schema": "nonc4_experiment_e_v1",
+ "experiment": "E",
+ "experiment_name": "E3_family_pure_sa_seed23",
+ "input_routes": 1024,
+ "attempted_routes": 1024,
+ "successful_routes": 1022,
+ "failed_routes": 2,
+ "failure_reasons": {
+  "layer2d_failed:candidate_budget_exhausted": 2
+ },
+ "per_plane": {
+  "2": {
+   "plane_id": 2,
+   "label": "L2",
+   "z_mm": -0.325,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 128,
+   "routed_2d": 64,
+   "manual_frozen": 64,
+   "failed": -64
+  },
+  "3": {
+   "plane_id": 3,
+   "label": "L3",
+   "z_mm": -0.275,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 128,
+   "routed_2d": 64,
+   "manual_frozen": 64,
+   "failed": -64
+  },
+  "4": {
+   "plane_id": 4,
+   "label": "L4",
+   "z_mm": -0.225,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 128,
+   "routed_2d": 64,
+   "manual_frozen": 64,
+   "failed": -64
+  },
+  "5": {
+   "plane_id": 5,
+   "label": "L5",
+   "z_mm": -0.175,
+   "kind": "body",
+   "assigned": 64,
+   "routed": 128,
+   "routed_2d": 64,
+   "manual_frozen": 64,
+   "failed": -64
+  },
+  "6": {
+   "plane_id": 6,
+   "label": "L6",
+   "z_mm": -0.125,
+   "kind": "body",
+   "assigned": 67,
+   "routed": 67,
+   "routed_2d": 67,
+   "manual_frozen": 0,
+   "failed": 0
+  },
+  "7": {
+   "plane_id": 7,
+   "label": "L7",
+   "z_mm": -0.075,
+   "kind": "body",
+   "assigned": 61,
+   "routed": 61,
+   "routed_2d": 61,
+   "manual_frozen": 0,
+   "failed": 0
+  },
+  "20": {
+   "plane_id": 20,
+   "label": "L20",
+   "z_mm": -0.025,
+   "kind": "body",
+   "assigned": 41,
+   "routed": 41,
+   "routed_2d": 41,
+   "manual_frozen": 0,
+   "failed": 0
+  },
+  "1001": {
+   "plane_id": 1001,
+   "label": "Z1_INTERFACE",
+   "z_mm": 0.025,
+   "kind": "interface_body",
+   "assigned": 41,
+   "routed": 41,
+   "routed_2d": 41,
+   "manual_frozen": 0,
+   "failed": 0
+  },
+  "8": {
+   "plane_id": 8,
+   "label": "L8",
+   "z_mm": 0.075,
+   "kind": "body",
+   "assigned": 46,
+   "routed": 44,
+   "routed_2d": 44,
+   "manual_frozen": 0,
+   "failed": 2
+  },
+  "9": {
+   "plane_id": 9,
+   "label": "L9",
+   "z_mm": 0.125,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "routed_2d": 52,
+   "manual_frozen": 0,
+   "failed": 0
+  },
+  "10": {
+   "plane_id": 10,
+   "label": "L10",
+   "z_mm": 0.175,
+   "kind": "body",
+   "assigned": 16,
+   "routed": 32,
+   "routed_2d": 16,
+   "manual_frozen": 16,
+   "failed": -16
+  },
+  "11": {
+   "plane_id": 11,
+   "label": "L11",
+   "z_mm": 0.225,
+   "kind": "body",
+   "assigned": 16,
+   "routed": 32,
+   "routed_2d": 16,
+   "manual_frozen": 16,
+   "failed": -16
+  },
+  "12": {
+   "plane_id": 12,
+   "label": "L12",
+   "z_mm": 0.275,
+   "kind": "body",
+   "assigned": 40,
+   "routed": 80,
+   "routed_2d": 40,
+   "manual_frozen": 40,
+   "failed": -40
+  },
+  "13": {
+   "plane_id": 13,
+   "label": "L13",
+   "z_mm": 0.325,
+   "kind": "body",
+   "assigned": 40,
+   "routed": 80,
+   "routed_2d": 40,
+   "manual_frozen": 40,
+   "failed": -40
+  },
+  "14": {
+   "plane_id": 14,
+   "label": "L14",
+   "z_mm": 0.375,
+   "kind": "body",
+   "assigned": 48,
+   "routed": 48,
+   "routed_2d": 48,
+   "manual_frozen": 0,
+   "failed": 0
+  },
+  "15": {
+   "plane_id": 15,
+   "label": "L15",
+   "z_mm": 0.425,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "routed_2d": 52,
+   "manual_frozen": 0,
+   "failed": 0
+  },
+  "16": {
+   "plane_id": 16,
+   "label": "L16",
+   "z_mm": 0.475,
+   "kind": "body",
+   "assigned": 48,
+   "routed": 48,
+   "routed_2d": 48,
+   "manual_frozen": 0,
+   "failed": 0
+  },
+  "1002": {
+   "plane_id": 1002,
+   "label": "Z2_INTERFACE",
+   "z_mm": 0.525,
+   "kind": "interface_body",
+   "assigned": 48,
+   "routed": 48,
+   "routed_2d": 48,
+   "manual_frozen": 0,
+   "failed": 0
+  },
+  "17": {
+   "plane_id": 17,
+   "label": "L17",
+   "z_mm": 0.575,
+   "kind": "body",
+   "assigned": 100,
+   "routed": 100,
+   "routed_2d": 100,
+   "manual_frozen": 0,
+   "failed": 0
+  },
+  "18": {
+   "plane_id": 18,
+   "label": "L18",
+   "z_mm": 0.625,
+   "kind": "body",
+   "assigned": 52,
+   "routed": 52,
+   "routed_2d": 52,
+   "manual_frozen": 0,
+   "failed": 0
+  }
+ },
+ "iterations": [
+  {
+   "iteration": 1,
+   "routed_2d": 653,
+   "assembled": 1021,
+   "world_valid": 1021,
+   "violations": 0,
+   "violation_kinds": {},
+   "assembly_failures": 3,
+   "budget": 600,
+   "seconds": 14.516,
+   "failed_route_ids": [
+    201,
+    228,
+    420
+   ]
+  },
+  {
+   "iteration": 2,
+   "routed_2d": 653,
+   "assembled": 1021,
+   "world_valid": 1021,
+   "violations": 0,
+   "violation_kinds": {},
+   "assembly_failures": 3,
+   "budget": 1200,
+   "seconds": 17.609,
+   "failed_route_ids": [
+    417,
+    441,
+    549
+   ]
+  },
+  {
+   "stage": "joint_repair",
+   "repaired": 1,
+   "world_valid": 1022
+  }
+ ],
+ "validation": {
+  "world_valid": 1022,
+  "violations": 0,
+  "strict_clearance_mm": 0.05,
+  "status": "passed"
+ },
+ "artifact": "routes_l3d.json"
+}

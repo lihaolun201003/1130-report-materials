@@ -1,0 +1,67 @@
+{
+ "schema": "coldstart20_g4_launch_v1",
+ "key": "d",
+ "arm": "G4d",
+ "profile": "20_height_raised",
+ "g4_root": "experiments/COLD_START_20_HEIGHT_1024/08_g4",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+ "start_routes_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+ "start_crossings": 1395,
+ "authority_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
+ "authority_source": "g4.paths.AUTHORITY_DIR",
+ "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\03_link_G4d",
+ "seconds": 1200.0,
+ "seed": 20261104,
+ "declared_budget": {
+  "route_3d_checks": 30000,
+  "d56_candidate_evals": 120000,
+  "wall_seconds": 1800
+ },
+ "arm_budget": {
+  "route_3d_checks": 30000,
+  "d56_candidate_evals": 120000,
+  "wall_seconds": 3600
+ },
+ "counted_d56_budget": null,
+ "counted_checks_guard": null,
+ "tag": "",
+ "resume": false,
+ "extra_args": "",
+ "state": "finished",
+ "argv": [
+  "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\.venv\\Scripts\\python.exe",
+  "-m",
+  "four_side_1024.fanout1024.coldstart20.run_g4",
+  "_run",
+  "--module",
+  "four_side_1024.fanout1024.xyzrouter.g4.run_g4_engine",
+  "--",
+  "--arm",
+  "G4d",
+  "--seconds",
+  "1200",
+  "--seed",
+  "20261104",
+  "--start-dir",
+  "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\02_link_G4c",
+  "--out-dir",
+  "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\03_link_G4d",
+  "--counted-d56-budget",
+  "24000",
+  "--counted-checks-guard",
+  "9000"
+ ],
+ "exit_code": 0,
+ "elapsed_seconds": 982.5,
+ "finished_at": "2026-11-18T02:10:47",
+ "best_valid": {
+  "path": "experiments/COLD_START_20_HEIGHT_1024/08_g4/08_progressive_chain/03_link_G4d/best_valid/routes_l3d.json",
+  "sha256": "d407a88e9c84c9a533826ed9a7439afe3eb1e6856b029a6c30e67eb65ac97702",
+  "artifacts": [
+   "SHA256.json",
+   "assignment_1024.csv",
+   "layer_planes.json",
+   "routes_l3d.json"
+  ]
+ }
+}

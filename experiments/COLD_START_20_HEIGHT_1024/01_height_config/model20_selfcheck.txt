@@ -1,0 +1,25 @@
+profile: 20_height_raised
+planes: 20 distinct heights: 20 body: 18
+min pitch: 0.04999999999999993 mm
+      2 L2             -0.325 mm body            z1 z1_manual_u
+      3 L3             -0.275 mm body            z1 z1_manual_u
+      4 L4             -0.225 mm body            z1 z1_manual_u
+      5 L5             -0.175 mm body            z1 z1_manual_u
+      6 L6             -0.125 mm body            z1 z1_other
+      7 L7             -0.075 mm body            z1 z1_other
+     20 L20            -0.025 mm body            z1 z1_other
+   1001 Z1_INTERFACE   +0.025 mm interface_body  z1 interface_direct
+      8 L8             +0.075 mm body            z1 z1_other
+      9 L9             +0.125 mm body            z2 z2_other
+     10 L10            +0.175 mm body            z2 z2_manual_u
+     11 L11            +0.225 mm body            z2 z2_manual_u
+     12 L12            +0.275 mm body            z2 z2_manual_u
+     13 L13            +0.325 mm body            z2 z2_manual_u
+     14 L14            +0.375 mm body            z2 z2_other
+     15 L15            +0.425 mm body            z2 z2_other
+     16 L16            +0.475 mm body            z2 z2_other
+   1002 Z2_INTERFACE   +0.525 mm interface_body  z2 interface_direct
+     17 L17            +0.575 mm body            z2 z2_other
+     18 L18            +0.625 mm body            z2 z2_other
+stack: routing ids (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20) min pitch 0.05 interface rows {'z1': 0.025, 'z2': 0.525}
+glass headroom: low 0.024999999999999967 high 0.025000000000000022

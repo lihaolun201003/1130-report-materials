@@ -1,0 +1,46 @@
+{
+ "schema": "coldstart20_xyz_authority_sha256_v1",
+ "algorithm": "sha256",
+ "snapshot_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
+ "source_dir": "experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2\\best_valid",
+ "note": "byte copies of the accepted 20H Phase-2 best_valid; the independent-validator report is stored under preflight_audit/validation_authoritative/ (not inside this snapshot)",
+ "file_count": 9,
+ "files": {
+  "assignment_1024.csv": {
+   "bytes": 130058,
+   "sha256": "338320e9e225067cfd73dbe27cab56bbc36194b6b673df2fe4d34a152ed526f3"
+  },
+  "config.json": {
+   "bytes": 227,
+   "sha256": "7c0474f14c387a646b2f68d35ba7bd325160fb9b8dfaf9db7664d51fd0c1c8a3"
+  },
+  "crossing_stats.json": {
+   "bytes": 866484,
+   "sha256": "e71dc01efcb0dc69f573d92aa3416db362d79209d3ff5d94bd56ed19c2ea9f7a"
+  },
+  "layer_planes.json": {
+   "bytes": 7320,
+   "sha256": "3b1dc7ece9a103b1bdb6ee115e2cd62a5c49c74cffbfdf73186a479a40f12c40"
+  },
+  "physical_layer_stack.json": {
+   "bytes": 10360,
+   "sha256": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a"
+  },
+  "process_rules.json": {
+   "bytes": 3063,
+   "sha256": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592"
+  },
+  "routes_l3d.json": {
+   "bytes": 3705987,
+   "sha256": "1498023dd4fe71d711131c6632620aaec2e98941f3682b2060d6a7f0b304f265"
+  },
+  "transition_stats.json": {
+   "bytes": 18456,
+   "sha256": "d6678241c5184a822a64756eb4bf4adb2753ea59c4a80fe74d2646a31c0259fe"
+  },
+  "validation.json": {
+   "bytes": 243,
+   "sha256": "65391b483d41349e47ce6c9a0ac3642b2bbc293f548b29f813889fecfafc1d31"
+  }
+ }
+}

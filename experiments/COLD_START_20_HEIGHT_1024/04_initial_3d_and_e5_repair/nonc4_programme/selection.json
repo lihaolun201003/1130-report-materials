@@ -1,0 +1,72 @@
+{
+ "schema": "coldstart20_nonc4_selection_v1",
+ "profile": "20_height_raised",
+ "min_routed": 1024,
+ "candidates": [
+  {
+   "name": "E3_family_pure_sa_seed11",
+   "exp_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E3_family_pure_sa_seed11",
+   "routes": 1024,
+   "failed": 0,
+   "crossings": 3275,
+   "crossing_pairs": 2774,
+   "validation_pass": true,
+   "geometry_pass": true,
+   "contract_pass": true
+  },
+  {
+   "name": "E3_family_pure_sa_seed51",
+   "exp_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E3_family_pure_sa_seed51",
+   "routes": 1024,
+   "failed": 0,
+   "crossings": 3500,
+   "crossing_pairs": 2887
+  },
+  {
+   "name": "E1_family_pure",
+   "exp_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E1_family_pure",
+   "routes": 1024,
+   "failed": 0,
+   "crossings": 6803,
+   "crossing_pairs": 6319
+  },
+  {
+   "name": "E3_family_pure_sa_seed37",
+   "exp_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E3_family_pure_sa_seed37",
+   "routes": 1023,
+   "failed": 1,
+   "crossings": 3346,
+   "crossing_pairs": 2809
+  },
+  {
+   "name": "E3_family_pure_sa_seed23",
+   "exp_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E3_family_pure_sa_seed23",
+   "routes": 1022,
+   "failed": 2,
+   "crossings": 3353,
+   "crossing_pairs": 2809
+  },
+  {
+   "name": "E2_conflict_sharing_seed11",
+   "exp_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E2_conflict_sharing_seed11",
+   "routes": 1021,
+   "failed": 3,
+   "crossings": 9372,
+   "crossing_pairs": 5050
+  }
+ ],
+ "chosen": {
+  "name": "E3_family_pure_sa_seed11",
+  "exp_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E3_family_pure_sa_seed11",
+  "routes": 1024,
+  "failed": 0,
+  "crossings": 3275,
+  "crossing_pairs": 2774,
+  "validation_pass": true,
+  "geometry_pass": true,
+  "contract_pass": true
+ },
+ "accepted_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E5_joint_repair_final",
+ "accepted_routes_sha256": "9da7924caaf61bcef0e63b0d40428882fe43763ef8a010c8869d16cd8956c877",
+ "accepted_crossings": 3275
+}

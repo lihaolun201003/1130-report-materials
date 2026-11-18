@@ -1,0 +1,87 @@
+{
+ "experiment": "G1_manual_frozen",
+ "baseline_crossings": 3061,
+ "final_crossings": 1485,
+ "accepted_changes": 219,
+ "rounds": [
+  {
+   "label": "g1_r1",
+   "seconds": 859.98,
+   "accepted": 166,
+   "candidates_tried": 656,
+   "total_after": 1651,
+   "gain": 1410,
+   "stats": {
+    "tried": 656,
+    "targets": 2846,
+    "xy_generated": 6294,
+    "built": 1210,
+    "rejected_3d": 40,
+    "evaluated": 1210,
+    "combos_pre": 2846,
+    "combos_eval": 601,
+    "accepted": 166,
+    "gain": 1410,
+    "no_gain": 490
+   },
+   "reasons": {
+    "no_xy_candidate": 370,
+    "transition_vs_flat": 18,
+    "transition_vs_transition": 20,
+    "flat_vs_transition": 2,
+    "no_current_crossings": 70
+   }
+  },
+  {
+   "label": "g1_r2",
+   "seconds": 573.67,
+   "accepted": 53,
+   "candidates_tried": 656,
+   "total_after": 1485,
+   "gain": 166,
+   "stats": {
+    "tried": 656,
+    "targets": 2795,
+    "xy_generated": 6060,
+    "built": 1178,
+    "rejected_3d": 31,
+    "evaluated": 1178,
+    "combos_pre": 2795,
+    "combos_eval": 583,
+    "accepted": 53,
+    "gain": 166,
+    "no_gain": 603
+   },
+   "reasons": {
+    "no_xy_candidate": 361,
+    "transition_vs_flat": 22,
+    "flat_vs_transition": 3,
+    "transition_vs_transition": 6,
+    "no_current_crossings": 80
+   }
+  }
+ ],
+ "routes": 1024,
+ "manual_routes_checked": 368,
+ "config": {
+  "cfg": {
+   "max_target_layers": 3,
+   "max_lead_pairs": 2,
+   "prescreen_candidates": 220,
+   "max_candidates": 420,
+   "d56_top": 24,
+   "bodies_per_pair": 2,
+   "max_eval": 2,
+   "max_combos": 2,
+   "early_stop_delta": 6,
+   "min_delta": 1,
+   "allow_direct": true,
+   "allow_xy_only": true,
+   "phase": 0.0
+  },
+  "rounds": 2,
+  "round_seconds": 1200.0,
+  "top": 656
+ },
+ "elapsed_seconds": 1448.71
+}

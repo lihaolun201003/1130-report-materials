@@ -1,0 +1,17 @@
+23:21:18 [E] [cache] built 1024 routes, 20 planes, total=3103 (3.2s)
+23:21:18 [E] start from experiment_D: 3103 crossings
+23:21:22 [E] routes with arc crossings: 566; top: [(149, 19), (5, 17), (448, 16), (427, 14), (104, 13), (112, 13), (131, 13), (133, 13), (12, 12), (143, 12)]
+23:21:51 [E] ACCEPT route 148 E_A z=0.12 net=-5 total=3098 arc 11->8
+23:21:58 [E] [save] experiment_E: routes=1024 crossings=3098 pairs=2736
+23:22:26 [E] [guard] full validation: valid=1024 violations=0 27.8s
+23:22:30 [E] [guard] min 3D clearance = 0.068629474 mm (4.5s)
+23:22:34 [E] [save] best_valid: crossings=3098 (sha 7136c0eee11f6c11)
+23:22:34 [E] done: accepted=1 total=3098 violations=0
+23:24:00 [E] [cache] built 1024 routes, 20 planes, total=3098 (1.6s)
+23:24:00 [E] start from best_valid: 3098 crossings
+23:24:02 [E] routes with arc crossings: 567; top: [(149, 19), (5, 17), (448, 16), (427, 14), (104, 13), (112, 13), (131, 13), (133, 13), (12, 12), (143, 12)]
+23:24:25 [E] [save] experiment_E: routes=1024 crossings=3098 pairs=2736
+23:24:53 [E] [guard] full validation: valid=1024 violations=0 27.5s
+23:24:57 [E] [guard] min 3D clearance = 0.068629474 mm (4.8s)
+23:25:01 [E] [save] best_valid: crossings=3098 (sha 7136c0eee11f6c11)
+23:25:01 [E] done: accepted=0 total=3098 violations=0

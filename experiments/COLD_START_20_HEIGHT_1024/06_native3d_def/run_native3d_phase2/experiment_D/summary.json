@@ -1,0 +1,27 @@
+{
+ "schema": "native3d_phase2_experiment_d_v1",
+ "baseline_crossings": 3103,
+ "final_crossings": 3103,
+ "crossing_pairs": 2733,
+ "routes": 1024,
+ "blocker_screen": {
+  "screened": 46,
+  "clean": 1,
+  "histogram": {
+   "6": 17,
+   "1": 7,
+   "4": 3,
+   "0": 5,
+   "3": 7,
+   "7": 1,
+   "2": 4,
+   "5": 2
+  },
+  "manual_blocked": 27,
+  "repair_candidates": 0
+ },
+ "repair_attempts": 0,
+ "accepted": 0,
+ "net": 0,
+ "seconds": 302.5
+}

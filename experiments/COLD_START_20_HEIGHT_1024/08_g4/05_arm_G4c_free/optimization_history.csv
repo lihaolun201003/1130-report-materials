@@ -1,0 +1,13 @@
+index,kind,route_id,routes,old_total,total,delta,note,seconds,new_total,arm_step,budget_route_3d_checks,budget_d56_candidate_evals,wall_seconds,best_total
+0,g4_transaction,,[707],1395,1380,-15,sweep_migrate,1.015,,,,,,
+1,g4_transaction,,[129],1380,1369,-11,sweep_migrate,0.687,,,,,,
+2,g4_transaction,,[8],1369,1361,-8,sweep_migrate,0.674,,,,,,
+3,g4_transaction,,[158],1361,1355,-6,sweep_migrate,0.693,,,,,,
+4,g4_transaction,,[706],1355,1352,-3,sweep_migrate,0.955,,,,,,
+5,g4_transaction,,[157],1352,1349,-3,sweep_migrate,0.653,,,,,,
+6,g4_transaction,,[631],1349,1346,-3,sweep_migrate,0.948,,,,,,
+7,g4_transaction,,[635],1346,1341,-5,sweep_migrate,0.868,,,,,,
+8,g4_transaction,,[108],1341,1338,-3,sweep_migrate,0.703,,,,,,
+9,g4_transaction,,"[514, 642, 674, 678, 682, 686, 690, 694, 698, 778, 782, 786, 790, 794, 798, 802]",1338,1330,-8,recreate_16_desc,3.036,,,,,,
+10,g4_transaction,,"[148, 161, 198, 201, 204, 219, 222, 225, 228, 411, 414, 417, 432, 435, 438, 441, 456, 459, 462, 465, 483, 486, 495]",1330,1324,-6,component_23,3.524,,,,,,
+11,g4_transaction,,[291],1324,1322,-2,migrate_clean,0.607,,,,,,

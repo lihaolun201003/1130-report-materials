@@ -1,0 +1,39 @@
+{
+ "experiment": "G3_manual_full_xyz",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\G2b_manual_route_reheight",
+ "start_crossings": 1409,
+ "final_crossings": 1395,
+ "accepted_changes": 7,
+ "rounds": [
+  {
+   "label": "g3_r1",
+   "seconds": 500.49,
+   "accepted": 7,
+   "candidates_tried": 607,
+   "total_after": 1395,
+   "gain": 14,
+   "stats": {
+    "tried": 607,
+    "targets": 2946,
+    "xy_generated": 6489,
+    "built": 1262,
+    "rejected_3d": 51,
+    "evaluated": 1262,
+    "combos_pre": 2946,
+    "combos_eval": 616,
+    "no_gain": 600,
+    "accepted": 7,
+    "gain": 14,
+    "budget_stop": 1
+   },
+   "reasons": {
+    "no_xy_candidate": 330,
+    "transition_vs_flat": 42,
+    "flat_vs_transition": 3,
+    "transition_vs_transition": 6,
+    "no_current_crossings": 2
+   }
+  }
+ ],
+ "elapsed_seconds": 516.19
+}

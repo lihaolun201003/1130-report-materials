@@ -1,0 +1,222 @@
+{
+ "schema": "coldstart20_native3d_def_chain_status_v1",
+ "profile": "20_height_raised",
+ "driver": "four_side_1024.fanout1024.coldstart20.run_native3d_phase2",
+ "started": "2026-11-17T23:10:00",
+ "finished": "2026-11-17T23:54:30",
+ "passed": true,
+ "chain": [
+  "intervals",
+  "blockers",
+  "d",
+  "e",
+  "f",
+  "fplus_1",
+  "fplus_2",
+  "nearmiss_1",
+  "nearmiss_2",
+  "finalize"
+ ],
+ "stages": [
+  {
+   "stage": "intervals",
+   "status": "ok",
+   "seconds": 87.3,
+   "module": "four_side_1024.fanout1024.native3d.crossing_intervals",
+   "command": "python -m four_side_1024.fanout1024.native3d.crossing_intervals --baseline-dir C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E5_joint_repair_final --out-dir C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2"
+  },
+  {
+   "stage": "blockers",
+   "status": "ok",
+   "seconds": 286.1,
+   "module": "four_side_1024.fanout1024.native3d.blocker_analysis",
+   "command": "python -m four_side_1024.fanout1024.native3d.blocker_analysis --baseline-dir C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E5_joint_repair_final --native-dir C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\05_native3d_abc\\run_native3d_phase1 --out-dir C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2 --min-net 3 --extra-route 129 --extra-net 16 --validation-limit 60"
+  },
+  {
+   "stage": "d",
+   "status": "ok",
+   "seconds": 301.1,
+   "module": "four_side_1024.fanout1024.native3d.run_d",
+   "command": "python -m four_side_1024.fanout1024.native3d.run_d --screen 80 --repairs 30 --max-joint 3 --time-budget 260 --max-accept 12"
+  },
+  {
+   "stage": "e",
+   "status": "ok",
+   "seconds": 79.5,
+   "module": "four_side_1024.fanout1024.native3d.run_e",
+   "command": "python -m four_side_1024.fanout1024.native3d.run_e --routes 16 --time-budget 300 --max-accept 15"
+  },
+  {
+   "stage": "f",
+   "status": "ok",
+   "seconds": 644.0,
+   "module": "four_side_1024.fanout1024.native3d.run_f",
+   "command": "python -m four_side_1024.fanout1024.native3d.run_f --sweeps 2 --time-budget 560 --joint-per-sweep 10"
+  },
+  {
+   "stage": "fplus_1",
+   "status": "ok",
+   "seconds": 255.7,
+   "module": "four_side_1024.fanout1024.native3d.run_f_plus",
+   "command": "python -m four_side_1024.fanout1024.native3d.run_f_plus --time-budget 210"
+  },
+  {
+   "stage": "fplus_2",
+   "status": "ok",
+   "seconds": 253.3,
+   "module": "four_side_1024.fanout1024.native3d.run_f_plus",
+   "command": "python -m four_side_1024.fanout1024.native3d.run_f_plus --time-budget 210"
+  },
+  {
+   "stage": "nearmiss_1",
+   "status": "ok",
+   "seconds": 413.1,
+   "module": "four_side_1024.fanout1024.native3d.run_f_nearmiss",
+   "command": "python -m four_side_1024.fanout1024.native3d.run_f_nearmiss --routes 250 --time-budget 300 --max-accept 25"
+  },
+  {
+   "stage": "nearmiss_2",
+   "status": "ok",
+   "seconds": 316.6,
+   "module": "four_side_1024.fanout1024.native3d.run_f_nearmiss",
+   "command": "python -m four_side_1024.fanout1024.native3d.run_f_nearmiss --routes 250 --time-budget 300 --max-accept 25"
+  },
+  {
+   "stage": "finalize",
+   "status": "ok",
+   "seconds": 33.3,
+   "module": "four_side_1024.fanout1024.native3d.finalize_phase2",
+   "command": "python -m four_side_1024.fanout1024.native3d.finalize_phase2"
+  }
+ ],
+ "definitions": {
+  "intervals": {
+   "module": "four_side_1024.fanout1024.native3d.crossing_intervals",
+   "argv": [
+    "--baseline-dir",
+    "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E5_joint_repair_final",
+    "--out-dir",
+    "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2"
+   ]
+  },
+  "blockers": {
+   "module": "four_side_1024.fanout1024.native3d.blocker_analysis",
+   "argv": [
+    "--baseline-dir",
+    "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E5_joint_repair_final",
+    "--native-dir",
+    "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\05_native3d_abc\\run_native3d_phase1",
+    "--out-dir",
+    "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2",
+    "--min-net",
+    "3",
+    "--extra-route",
+    "129",
+    "--extra-net",
+    "16",
+    "--validation-limit",
+    "60"
+   ]
+  },
+  "d": {
+   "module": "four_side_1024.fanout1024.native3d.run_d",
+   "argv": [
+    "--screen",
+    "80",
+    "--repairs",
+    "30",
+    "--max-joint",
+    "3",
+    "--time-budget",
+    "260",
+    "--max-accept",
+    "12"
+   ]
+  },
+  "e": {
+   "module": "four_side_1024.fanout1024.native3d.run_e",
+   "argv": [
+    "--routes",
+    "16",
+    "--time-budget",
+    "300",
+    "--max-accept",
+    "15"
+   ]
+  },
+  "f": {
+   "module": "four_side_1024.fanout1024.native3d.run_f",
+   "argv": [
+    "--sweeps",
+    "2",
+    "--time-budget",
+    "560",
+    "--joint-per-sweep",
+    "10"
+   ]
+  },
+  "fplus_1": {
+   "module": "four_side_1024.fanout1024.native3d.run_f_plus",
+   "argv": [
+    "--time-budget",
+    "210"
+   ]
+  },
+  "fplus_2": {
+   "module": "four_side_1024.fanout1024.native3d.run_f_plus",
+   "argv": [
+    "--time-budget",
+    "210"
+   ]
+  },
+  "nearmiss_1": {
+   "module": "four_side_1024.fanout1024.native3d.run_f_nearmiss",
+   "argv": [
+    "--routes",
+    "250",
+    "--time-budget",
+    "300",
+    "--max-accept",
+    "25"
+   ]
+  },
+  "nearmiss_2": {
+   "module": "four_side_1024.fanout1024.native3d.run_f_nearmiss",
+   "argv": [
+    "--routes",
+    "250",
+    "--time-budget",
+    "300",
+    "--max-accept",
+    "25"
+   ]
+  },
+  "finalize": {
+   "module": "four_side_1024.fanout1024.native3d.finalize_phase2",
+   "argv": null
+  },
+  "arc_analysis": {
+   "module": "four_side_1024.fanout1024.native3d.arc_crossing_analysis",
+   "argv": [
+    "--baseline",
+    "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\05_native3d_abc\\run_native3d_phase1\\experiment_C",
+    "--out-dir",
+    "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2"
+   ]
+  },
+  "validate": {
+   "module": "four_side_1024.fanout1024.coldstart20.run_validate",
+   "argv": [
+    "--run-dir",
+    "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2\\best_valid",
+    "--out-dir",
+    "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2\\validation\\independent_20h"
+   ]
+  }
+ },
+ "paths": {
+  "def_run": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2",
+  "abc_run": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\05_native3d_abc\\run_native3d_phase1",
+  "e5_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\04_initial_3d_and_e5_repair\\nonc4_programme\\E5_joint_repair_final"
+ }
+}

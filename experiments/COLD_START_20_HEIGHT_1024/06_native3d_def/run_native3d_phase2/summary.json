@@ -1,0 +1,62 @@
+{
+ "schema": "native3d_phase2_final_summary_v1",
+ "baseline_crossings": 3103,
+ "final_crossings": 3061,
+ "routes": 1024,
+ "mid_transitions": 156,
+ "routes_with_mid_transitions": 68,
+ "validation_pass": true,
+ "violations": 0,
+ "experiment_D": {
+  "final": 3103,
+  "accepted": 0
+ },
+ "experiment_E": {
+  "final": 3098,
+  "accepted": 0
+ },
+ "experiment_F": {
+  "final": 3061,
+  "strategy": {
+   "plain": {
+    "attempts": 1119,
+    "accepted": 0,
+    "net": 0,
+    "best": 0
+   },
+   "arc_span": {
+    "attempts": 1085,
+    "accepted": 2,
+    "net": -11,
+    "best": -9
+   },
+   "joint": {
+    "attempts": 20,
+    "accepted": 0,
+    "net": 0,
+    "best": 0
+   },
+   "plain_batch": {
+    "attempts": 0,
+    "accepted": 0,
+    "net": 0,
+    "best": null
+   },
+   "near_miss": {
+    "attempts": 958,
+    "accepted": 1,
+    "net": -17,
+    "best": -17
+   }
+  }
+ },
+ "archive": {
+  "archive_root": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\06_native3d_def\\run_native3d_phase2\\archive"
+ },
+ "plots": [
+  "D0_blocker_categories.png",
+  "D0_blocker_count_histogram.png",
+  "F_strategy_contribution.png",
+  "phase2_dashboard"
+ ]
+}

@@ -1,0 +1,654 @@
+{
+ "schema": "native3d_phase2_manifest_v1",
+ "generated_at": "2026-11-17T23:58:15",
+ "experiment": "run_native3d_phase2",
+ "parent": "experiment_C/experiment_C (3103 crossings)",
+ "file_count": 129,
+ "files": [
+  {
+   "path": "analysis/arc_crossing_analysis.json",
+   "bytes": 9060057,
+   "sha256": "067aab3cf667863487584b61ebcb4e0f7da8dc5bfa7330758708d7d6329ffde9"
+  },
+  {
+   "path": "analysis/arc_crossing_report.md",
+   "bytes": 42624,
+   "sha256": "0b1fc54d15cbd9c45a28fa3454a41d1ef86820123c0967525b262fc486395fa5"
+  },
+  {
+   "path": "analysis/blocker_analysis.json",
+   "bytes": 32126740,
+   "sha256": "d791db02375608f374644be6f2fd5523129a189d385131e5521b4d0cdfc7a47a"
+  },
+  {
+   "path": "analysis/blocker_analysis_report.md",
+   "bytes": 14918,
+   "sha256": "f3cf57b12df468cffef3b862af36628b55d19da07c41ea6fa3b65e1d30df80db"
+  },
+  {
+   "path": "analysis/crossing_intervals.json",
+   "bytes": 20090376,
+   "sha256": "b895fca2730da810792632573486937785b9f9ac3c2582253f4ef7a2236bfd89"
+  },
+  {
+   "path": "analysis/crossing_intervals_report.md",
+   "bytes": 11027,
+   "sha256": "863e416df155a4ad0129a6c066888203673b1ca4f78e6340b0e80bb8e9d7e666"
+  },
+  {
+   "path": "analysis/crossing_intervals_summary_for_lead.md",
+   "bytes": 2659,
+   "sha256": "0362b7fac2bce3b7c87957e5f20cdc895307dc44c2c8d214644a66a11af2fd61"
+  },
+  {
+   "path": "analysis/plots/arc_crossing_angle_hist.png",
+   "bytes": 40929,
+   "sha256": "ce95111bf1ec350a915679aa33a8f1c0db73a1bf7ec69e7dae6a5fad4157eac5"
+  },
+  {
+   "path": "analysis/plots/arc_crossing_example_1_route_427.png",
+   "bytes": 63753,
+   "sha256": "a6656aa295dc030b132070f56ec2fa6779168814af45f0c1f70458ffb13427b8"
+  },
+  {
+   "path": "analysis/plots/arc_crossing_example_2_route_104.png",
+   "bytes": 63474,
+   "sha256": "68d74896140f68478433bf027e3519271c78a44dd4f2f2a29f993fce054f2502"
+  },
+  {
+   "path": "analysis/plots/arc_crossing_example_3_route_5.png",
+   "bytes": 62644,
+   "sha256": "04e035777b79a44fc26f25bfa3b6626b9a6869d14a126e18cc88c32a5a360b8f"
+  },
+  {
+   "path": "analysis/plots/arc_crossing_hotspot.png",
+   "bytes": 280921,
+   "sha256": "5b2a586bfa2ffd5835d880ef6db332cb9509fc4ce317c8d7a3145df9f37a34f4"
+  },
+  {
+   "path": "analysis/plots/arc_crossing_per_height.png",
+   "bytes": 46185,
+   "sha256": "de07216c637ccf93df67b723173aff232a3391e61ce34684ef98b3f00633d141"
+  },
+  {
+   "path": "analysis/plots/arc_crossing_top20_routes.png",
+   "bytes": 80639,
+   "sha256": "321f2eb342f78b49f7584b131ffb503d306a8e1a3263d05b8146951dac9c4dc0"
+  },
+  {
+   "path": "analysis/plots/blocker_count_histogram.png",
+   "bytes": 55231,
+   "sha256": "3d311768f76546ba67742236d82828afa0b9682020999f8ee01162951d98a55d"
+  },
+  {
+   "path": "analysis/plots/blocker_position_heatmap.png",
+   "bytes": 52429,
+   "sha256": "089e663439ff311f9cc7ceeb192dd3e04361a0f9c5688d627ddb275decd9f154"
+  },
+  {
+   "path": "analysis/plots/crossing_profile_route_0635.png",
+   "bytes": 25646,
+   "sha256": "28573dfab0b7b886089ef7d1c0321fcb9c1a6e483d954eb33b11398778aaefe5"
+  },
+  {
+   "path": "analysis/plots/crossing_profile_route_0639.png",
+   "bytes": 25925,
+   "sha256": "6c27c9ad8d979b885d2ee71e06a04b4346d36be23d832f61384ea7ad75357299"
+  },
+  {
+   "path": "analysis/plots/crossing_profile_route_0671.png",
+   "bytes": 25528,
+   "sha256": "8a13967f0ca684f8f5759aed02667888e1a1d0f9531180cb32e3f8a610dfdae3"
+  },
+  {
+   "path": "analysis/plots/crossing_profile_route_0707.png",
+   "bytes": 25576,
+   "sha256": "ebd78e40b050f95227bc262ec7ad1cc8b12208e0c199f6519d1aea36afec3964"
+  },
+  {
+   "path": "analysis/plots/crossing_profile_route_0739.png",
+   "bytes": 25671,
+   "sha256": "aaf8eb73666d9f613b9cdc53732be46070693069701f6ab5811b604622db6d6f"
+  },
+  {
+   "path": "analysis/plots/estimated_net_histogram.png",
+   "bytes": 35172,
+   "sha256": "1594e3224a7a19e6936d2a83d9859f90085cae24d16a4b12c2220745b8f4bdae"
+  },
+  {
+   "path": "analysis/plots/per_target_height_stats.png",
+   "bytes": 49680,
+   "sha256": "6d8ea8f24f895dc570001e424521e816c85c60dce4b842b96f528e55cf157dc5"
+  },
+  {
+   "path": "analysis/plots/plots_manifest.json",
+   "bytes": 565,
+   "sha256": "2b45e585e5d47658aa1f103f20a508fb3f59173b28065967f390d218901ce393"
+  },
+  {
+   "path": "analysis/plots/route129_detail.png",
+   "bytes": 153571,
+   "sha256": "d9f824407eeba261fac3e01a9ada8cad7c7cf88262003ce5131ef2470e8c1b3d"
+  },
+  {
+   "path": "arc_crossing_analysis.json",
+   "bytes": 9060057,
+   "sha256": "067aab3cf667863487584b61ebcb4e0f7da8dc5bfa7330758708d7d6329ffde9"
+  },
+  {
+   "path": "arc_rebuild_results.json",
+   "bytes": 9438,
+   "sha256": "6c10da5803822d3270097208b66e863117c69ef437d55b36ebc87c2b03e0a012"
+  },
+  {
+   "path": "assignment_1024.csv",
+   "bytes": 130058,
+   "sha256": "338320e9e225067cfd73dbe27cab56bbc36194b6b673df2fe4d34a152ed526f3"
+  },
+  {
+   "path": "best_valid/assignment_1024.csv",
+   "bytes": 130058,
+   "sha256": "338320e9e225067cfd73dbe27cab56bbc36194b6b673df2fe4d34a152ed526f3"
+  },
+  {
+   "path": "best_valid/config.json",
+   "bytes": 227,
+   "sha256": "7c0474f14c387a646b2f68d35ba7bd325160fb9b8dfaf9db7664d51fd0c1c8a3"
+  },
+  {
+   "path": "best_valid/crossing_stats.json",
+   "bytes": 866484,
+   "sha256": "e71dc01efcb0dc69f573d92aa3416db362d79209d3ff5d94bd56ed19c2ea9f7a"
+  },
+  {
+   "path": "best_valid/layer_planes.json",
+   "bytes": 7320,
+   "sha256": "3b1dc7ece9a103b1bdb6ee115e2cd62a5c49c74cffbfdf73186a479a40f12c40"
+  },
+  {
+   "path": "best_valid/physical_layer_stack.json",
+   "bytes": 10360,
+   "sha256": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a"
+  },
+  {
+   "path": "best_valid/process_rules.json",
+   "bytes": 3063,
+   "sha256": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592"
+  },
+  {
+   "path": "best_valid/routes_l3d.json",
+   "bytes": 3705987,
+   "sha256": "1498023dd4fe71d711131c6632620aaec2e98941f3682b2060d6a7f0b304f265"
+  },
+  {
+   "path": "best_valid/transition_stats.json",
+   "bytes": 18456,
+   "sha256": "d6678241c5184a822a64756eb4bf4adb2753ea59c4a80fe74d2646a31c0259fe"
+  },
+  {
+   "path": "best_valid/validation.json",
+   "bytes": 243,
+   "sha256": "65391b483d41349e47ce6c9a0ac3642b2bbc293f548b29f813889fecfafc1d31"
+  },
+  {
+   "path": "blocker_analysis.json",
+   "bytes": 32126740,
+   "sha256": "d791db02375608f374644be6f2fd5523129a189d385131e5521b4d0cdfc7a47a"
+  },
+  {
+   "path": "comparison.md",
+   "bytes": 396,
+   "sha256": "048d308f1279d20ca5c386ee16b592612caf1de2ae6b40d265e2202238d5bae7"
+  },
+  {
+   "path": "crossing_stats.json",
+   "bytes": 866550,
+   "sha256": "9a87e3449f022a4daf7638a185ac5964a4b9ddbd20b3da0f822f0402798c7a68"
+  },
+  {
+   "path": "experiment_D/assignment_1024.csv",
+   "bytes": 130058,
+   "sha256": "338320e9e225067cfd73dbe27cab56bbc36194b6b673df2fe4d34a152ed526f3"
+  },
+  {
+   "path": "experiment_D/blocker_map.json",
+   "bytes": 13382,
+   "sha256": "914f8dbd9b8dd1df3f88518f6c296b3b3a30d684c9410840e1c8c2a2330246ff"
+  },
+  {
+   "path": "experiment_D/crossing_stats.json",
+   "bytes": 877902,
+   "sha256": "e1aee63e0e7150f7968c0a8d29c0de9583ecd7073f6d2ac857b2f78a10ae6d03"
+  },
+  {
+   "path": "experiment_D/joint_search_history.csv",
+   "bytes": 92,
+   "sha256": "04d73d87d926e37734bffe31c54b0eea61a247f1ed7eca92a0165f27bb678606"
+  },
+  {
+   "path": "experiment_D/layer_planes.json",
+   "bytes": 7320,
+   "sha256": "3b1dc7ece9a103b1bdb6ee115e2cd62a5c49c74cffbfdf73186a479a40f12c40"
+  },
+  {
+   "path": "experiment_D/physical_layer_stack.json",
+   "bytes": 10360,
+   "sha256": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a"
+  },
+  {
+   "path": "experiment_D/process_rules.json",
+   "bytes": 3063,
+   "sha256": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592"
+  },
+  {
+   "path": "experiment_D/routes_l3d.json",
+   "bytes": 3675371,
+   "sha256": "99943f025ea449130dd7a724d62c8711ce9997a692a065c0ffbb65f51a8df6de"
+  },
+  {
+   "path": "experiment_D/summary.json",
+   "bytes": 456,
+   "sha256": "f6e645b456826e1c09164eda2e6758ee9f18539b25cb5fb91bc19df9d2e276e4"
+  },
+  {
+   "path": "experiment_D/validation.json",
+   "bytes": 243,
+   "sha256": "f0a3bd11f5139b84e3a63ad7de40b4e4140d7e4f896dfb9db5f0b810f44d7796"
+  },
+  {
+   "path": "experiment_E/arc_crossing_analysis.json",
+   "bytes": 9770,
+   "sha256": "44666fb4fad1654ba14f4e128e18c8480a70f19e55c7b8071fac6be16f3b4640"
+  },
+  {
+   "path": "experiment_E/arc_rebuild_results.json",
+   "bytes": 9438,
+   "sha256": "6c10da5803822d3270097208b66e863117c69ef437d55b36ebc87c2b03e0a012"
+  },
+  {
+   "path": "experiment_E/assignment_1024.csv",
+   "bytes": 130058,
+   "sha256": "338320e9e225067cfd73dbe27cab56bbc36194b6b673df2fe4d34a152ed526f3"
+  },
+  {
+   "path": "experiment_E/crossing_stats.json",
+   "bytes": 876511,
+   "sha256": "ca684053116fd862e33db3a8734d9b846f37ae0a53e3f1dd93fb1d2de64489a4"
+  },
+  {
+   "path": "experiment_E/layer_planes.json",
+   "bytes": 7320,
+   "sha256": "3b1dc7ece9a103b1bdb6ee115e2cd62a5c49c74cffbfdf73186a479a40f12c40"
+  },
+  {
+   "path": "experiment_E/physical_layer_stack.json",
+   "bytes": 10360,
+   "sha256": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a"
+  },
+  {
+   "path": "experiment_E/process_rules.json",
+   "bytes": 3063,
+   "sha256": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592"
+  },
+  {
+   "path": "experiment_E/routes_l3d.json",
+   "bytes": 3677967,
+   "sha256": "1ec4c3643631da1e8059ab79f10232110fbb2e4f073bb2be7b07b71b0c5aeeac"
+  },
+  {
+   "path": "experiment_E/summary.json",
+   "bytes": 236,
+   "sha256": "ea6f978eb85c50d2afc8a50e808f89423eb77994f7c6bc79766b13ee3534204b"
+  },
+  {
+   "path": "experiment_E/validation.json",
+   "bytes": 243,
+   "sha256": "ede2e1faad527ed5d97006beefcd3cc26eceae5c57fcfa8825af131f0acf209c"
+  },
+  {
+   "path": "experiment_F/assignment_1024.csv",
+   "bytes": 130058,
+   "sha256": "338320e9e225067cfd73dbe27cab56bbc36194b6b673df2fe4d34a152ed526f3"
+  },
+  {
+   "path": "experiment_F/crossing_stats.json",
+   "bytes": 866550,
+   "sha256": "9a87e3449f022a4daf7638a185ac5964a4b9ddbd20b3da0f822f0402798c7a68"
+  },
+  {
+   "path": "experiment_F/extra_sweep.json",
+   "bytes": 770,
+   "sha256": "9b403b1825cc64a5325c9809fc36095fc04851b8b8fad51bc00ddd2ad75d05ab"
+  },
+  {
+   "path": "experiment_F/layer_planes.json",
+   "bytes": 7320,
+   "sha256": "3b1dc7ece9a103b1bdb6ee115e2cd62a5c49c74cffbfdf73186a479a40f12c40"
+  },
+  {
+   "path": "experiment_F/near_miss_results.json",
+   "bytes": 296,
+   "sha256": "467ee4dc72411d21a752e17009abc6773de1f378c72f8a76ae96294606b2e35d"
+  },
+  {
+   "path": "experiment_F/physical_layer_stack.json",
+   "bytes": 10360,
+   "sha256": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a"
+  },
+  {
+   "path": "experiment_F/process_rules.json",
+   "bytes": 3063,
+   "sha256": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592"
+  },
+  {
+   "path": "experiment_F/routes_l3d.json",
+   "bytes": 3706000,
+   "sha256": "5d1eb633de63a12220bf28f37855c3d9b6a5ceddc3887005fafc16007cf53c0a"
+  },
+  {
+   "path": "experiment_F/strategy_stats.json",
+   "bytes": 294,
+   "sha256": "7fa089309f84aa3776c5888dac08bcfc12fa268596fe2b88db3e478d27ab8d4b"
+  },
+  {
+   "path": "experiment_F/summary.json",
+   "bytes": 1019,
+   "sha256": "eafe4327fc057ce2cb0ad88ac0b216b0f6682dfceeee0fbb37109104e9628940"
+  },
+  {
+   "path": "experiment_F/transition_stats.json",
+   "bytes": 16321,
+   "sha256": "dda7d0694b95639ac2a7af73ec48fe8404b9bd7b4c3235587836cdc2205ef090"
+  },
+  {
+   "path": "experiment_F/validation.json",
+   "bytes": 242,
+   "sha256": "6e0e413ec6321d7c58d64ec5c6539a6c5cd641fd1cc061bac39cf21d6918068f"
+  },
+  {
+   "path": "experiment_F/validation_extra.json",
+   "bytes": 243,
+   "sha256": "e93f1dfb20a0d5beb8c1354e0ea4bcd2a18bd7418f1826ae6769557b6632c1a9"
+  },
+  {
+   "path": "experiment_F/validation_near_miss.json",
+   "bytes": 243,
+   "sha256": "65391b483d41349e47ce6c9a0ac3642b2bbc293f548b29f813889fecfafc1d31"
+  },
+  {
+   "path": "failed_attempts.json",
+   "bytes": 757,
+   "sha256": "3141c18ac413f12dfb58e0ecc37c0feb97ac2e3220f2415a33302c3c43f84e26"
+  },
+  {
+   "path": "joint_search_history.csv",
+   "bytes": 92,
+   "sha256": "04d73d87d926e37734bffe31c54b0eea61a247f1ed7eca92a0165f27bb678606"
+  },
+  {
+   "path": "layer_planes.json",
+   "bytes": 7320,
+   "sha256": "3b1dc7ece9a103b1bdb6ee115e2cd62a5c49c74cffbfdf73186a479a40f12c40"
+  },
+  {
+   "path": "MANIFEST.json",
+   "bytes": 20614,
+   "sha256": "352ed1b48160a99c7d535df3109ac326d1d7d54d8b4a9d603705a41096de18b2"
+  },
+  {
+   "path": "optimization_history.csv",
+   "bytes": 108,
+   "sha256": "b50ac588a60ab977948129db333094acf84d18db80243d61828280201d7d6702"
+  },
+  {
+   "path": "physical_layer_stack.json",
+   "bytes": 10360,
+   "sha256": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a"
+  },
+  {
+   "path": "plots/3d_overview_1024.png",
+   "bytes": 1136884,
+   "sha256": "aad13a35b784133b5f2087c19c23e0e73d1d0a606f971bc6f2f3092fe2319ec2"
+  },
+  {
+   "path": "plots/arc_crossing_angle_hist.png",
+   "bytes": 40929,
+   "sha256": "ce95111bf1ec350a915679aa33a8f1c0db73a1bf7ec69e7dae6a5fad4157eac5"
+  },
+  {
+   "path": "plots/arc_crossing_example_1_route_427.png",
+   "bytes": 63753,
+   "sha256": "a6656aa295dc030b132070f56ec2fa6779168814af45f0c1f70458ffb13427b8"
+  },
+  {
+   "path": "plots/arc_crossing_example_2_route_104.png",
+   "bytes": 63474,
+   "sha256": "68d74896140f68478433bf027e3519271c78a44dd4f2f2a29f993fce054f2502"
+  },
+  {
+   "path": "plots/arc_crossing_example_3_route_5.png",
+   "bytes": 62644,
+   "sha256": "04e035777b79a44fc26f25bfa3b6626b9a6869d14a126e18cc88c32a5a360b8f"
+  },
+  {
+   "path": "plots/arc_crossing_hotspot.png",
+   "bytes": 280921,
+   "sha256": "5b2a586bfa2ffd5835d880ef6db332cb9509fc4ce317c8d7a3145df9f37a34f4"
+  },
+  {
+   "path": "plots/arc_crossing_per_height.png",
+   "bytes": 46185,
+   "sha256": "de07216c637ccf93df67b723173aff232a3391e61ce34684ef98b3f00633d141"
+  },
+  {
+   "path": "plots/arc_crossing_top20_routes.png",
+   "bytes": 80639,
+   "sha256": "321f2eb342f78b49f7584b131ffb503d306a8e1a3263d05b8146951dac9c4dc0"
+  },
+  {
+   "path": "plots/crossing_hotspot.png",
+   "bytes": 57810,
+   "sha256": "51dc29f6631fc9f51b20b9d1c46792933a418b2c97ecdd1c1ef60f7832540ed9"
+  },
+  {
+   "path": "plots/D0_blocker_categories.png",
+   "bytes": 36605,
+   "sha256": "7cd138d9fa88ba820ede0400d36c6116a8b58bf4709acd77a1044d9a81aae6a8"
+  },
+  {
+   "path": "plots/D0_blocker_count_histogram.png",
+   "bytes": 33627,
+   "sha256": "c9b7ccc31484431e5f41c4f7e2371caa7a3b7b0af21d9a0fe4fe4e3764918920"
+  },
+  {
+   "path": "plots/extra_length_distribution.png",
+   "bytes": 71786,
+   "sha256": "5445159effb852186b74e08d181137450144da9e23eab9e7436de31f070df283"
+  },
+  {
+   "path": "plots/F_strategy_contribution.png",
+   "bytes": 24884,
+   "sha256": "28623bb7c4abab66e9ad6897193547f8807148e1f2bfb09da5a26f3923a11b3c"
+  },
+  {
+   "path": "plots/height_01_L2.png",
+   "bytes": 148027,
+   "sha256": "f382aec48118fc16e004dd37253e994cb55d46fa020bdb402458b11ea3817cb4"
+  },
+  {
+   "path": "plots/height_02_L3.png",
+   "bytes": 135017,
+   "sha256": "c59e938171a239dcb7ee2a47f3a34d8e4a96ff26009fd388d35560397da7f661"
+  },
+  {
+   "path": "plots/height_03_L4.png",
+   "bytes": 136405,
+   "sha256": "5ae8f8f1a57775e4fefa53688ae959cfe6e085f039d5c4f9d208adc0df04b14e"
+  },
+  {
+   "path": "plots/height_04_L5.png",
+   "bytes": 135440,
+   "sha256": "65b1e00ad9bb614db8a9f3fd37d276fc547e2165624da9ead33df95a80992590"
+  },
+  {
+   "path": "plots/height_05_L6.png",
+   "bytes": 137657,
+   "sha256": "85b7b93f648c5699af9253183db2880f648e260f1bef724fedc50327f3092c52"
+  },
+  {
+   "path": "plots/height_06_L7.png",
+   "bytes": 143122,
+   "sha256": "25122a7781e3f28f303c1ea55452c8eab8458f772653f5280e3ae2f704f7c63a"
+  },
+  {
+   "path": "plots/height_07_L20.png",
+   "bytes": 122913,
+   "sha256": "19160057516bdab4972bbdc33e898278aebe41db8856a129b68a09911163c1dd"
+  },
+  {
+   "path": "plots/height_08_Z1_INTERFACE.png",
+   "bytes": 117670,
+   "sha256": "923bd9c65f3d1d912493a7ea0283f7148f764b277a719b4748899d4b9f6553ae"
+  },
+  {
+   "path": "plots/height_09_L8.png",
+   "bytes": 99455,
+   "sha256": "054ce10286e5911bcda05db2e0ebc03744a6380723661a92395ea42d72ef09a2"
+  },
+  {
+   "path": "plots/height_10_L9.png",
+   "bytes": 93442,
+   "sha256": "513ccc6c178e999a0bea1df02a220c5c21befb986173b29017b4113cf25805a9"
+  },
+  {
+   "path": "plots/height_11_L10.png",
+   "bytes": 53563,
+   "sha256": "841c23c4e94922dfd6be833ab69bf4936f89cb1958e0e77d7c31375959c7daf6"
+  },
+  {
+   "path": "plots/height_12_L11.png",
+   "bytes": 60632,
+   "sha256": "6e39d917581248c846cc8cf133ff916d4a3fc59ea4b087d43b1dbee45d8abc40"
+  },
+  {
+   "path": "plots/height_13_L12.png",
+   "bytes": 98918,
+   "sha256": "a2fcf009c0170f786cc2aa4a524397d36ed1b24140c19142474a5de944543115"
+  },
+  {
+   "path": "plots/height_14_L13.png",
+   "bytes": 98236,
+   "sha256": "ad8ed37b2b3e346f6c404ba2fcb36c814e263c19e39d95935ee1326db45f933b"
+  },
+  {
+   "path": "plots/height_15_L14.png",
+   "bytes": 85412,
+   "sha256": "d7431da1e1914a50de7a31bd81af5696de6c0eb5bd323755ebb47dbe8e1e3fe1"
+  },
+  {
+   "path": "plots/height_16_L15.png",
+   "bytes": 81481,
+   "sha256": "6c96ab3298e2f0f027c64dc09fdc915895ec6c9698f368f919a9ca537179ca24"
+  },
+  {
+   "path": "plots/height_17_L16.png",
+   "bytes": 81028,
+   "sha256": "6119c73b739735b7bcba3d2b576b5fd459570cd60a69988a914d191029877a3c"
+  },
+  {
+   "path": "plots/height_18_Z2_INTERFACE.png",
+   "bytes": 102889,
+   "sha256": "165f3d4f6c727206f0af1c71a7ffde22af0c743c88913e6e09420ffaf2653f9f"
+  },
+  {
+   "path": "plots/height_19_L17.png",
+   "bytes": 147479,
+   "sha256": "8458b193d2bec4669ad249f3650b6ac6913ef96a3cb52a6dbcd4f1f7a95b3cfd"
+  },
+  {
+   "path": "plots/height_20_L18.png",
+   "bytes": 84914,
+   "sha256": "9a5cf37d946c49c61f63dc1b424b9f9772de26fd4c60ea5c05cfa17601b8f9f0"
+  },
+  {
+   "path": "plots/mid_transition_counts.png",
+   "bytes": 32022,
+   "sha256": "dac150fa4fc1aad4e3baa109c4d251f07277b4aa99b108d6ba1602f588eb000b"
+  },
+  {
+   "path": "plots/per_layer_before_after.png",
+   "bytes": 51471,
+   "sha256": "6cfbd413a9676397a51c1942e828cb91f1c22e5f996aa25dfd7e95d395aaa5d0"
+  },
+  {
+   "path": "plots/plots_manifest.json",
+   "bytes": 16049,
+   "sha256": "6ad433d1996c8276c1854c5e73fcce571a21d6a738e82f66c5ec4e62a02a9880"
+  },
+  {
+   "path": "plots/route_height_profile_examples.png",
+   "bytes": 78278,
+   "sha256": "20127777222fa238eb74d7db77b823b69171e9c1a014c4f760cec9f477de2ec2"
+  },
+  {
+   "path": "plots/top10_routes_before_after.png",
+   "bytes": 60699,
+   "sha256": "9c1ad3aef4af1bbdf07e0cf5f5bfc90f13f4c2010d7f043bc2e2b216fbeff3f9"
+  },
+  {
+   "path": "process_rules.json",
+   "bytes": 3063,
+   "sha256": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592"
+  },
+  {
+   "path": "README.md",
+   "bytes": 1063,
+   "sha256": "756a8d18d799a8ba78b0543a9a5e6f0413cda65c2e206906ee4b70d62a0d0d88"
+  },
+  {
+   "path": "report.md",
+   "bytes": 9460,
+   "sha256": "b27eb77c0f6cdefb20ffc47ad1d94ff3029448d1617b60f125baa74889058519"
+  },
+  {
+   "path": "routes_l3d.json",
+   "bytes": 3706000,
+   "sha256": "5d1eb633de63a12220bf28f37855c3d9b6a5ceddc3887005fafc16007cf53c0a"
+  },
+  {
+   "path": "SPEC.md",
+   "bytes": 1856,
+   "sha256": "7b4c5348f245e670de7abdbb958bc28d38094be88a5af84a756a4c8d6c963ef0"
+  },
+  {
+   "path": "strategy_stats.json",
+   "bytes": 294,
+   "sha256": "7fa089309f84aa3776c5888dac08bcfc12fa268596fe2b88db3e478d27ab8d4b"
+  },
+  {
+   "path": "summary.json",
+   "bytes": 1254,
+   "sha256": "3da84280c6cbd4bc2f05ec94071c4149278162c5bea92af34ec828c8defaffce"
+  },
+  {
+   "path": "transition_stats.json",
+   "bytes": 18456,
+   "sha256": "d6678241c5184a822a64756eb4bf4adb2753ea59c4a80fe74d2646a31c0259fe"
+  },
+  {
+   "path": "validation/final/validation.json",
+   "bytes": 57171,
+   "sha256": "b6c1a2f9a45262042f5abdece775e34127ffcc227ed573c6b032a930c4f64361"
+  },
+  {
+   "path": "validation/final/validator_consistency_tests.json",
+   "bytes": 3671,
+   "sha256": "3a23f47dcb3584a3762af88eede20f08dfffc03eb88cc42d5fdc62342621b092"
+  },
+  {
+   "path": "validation.json",
+   "bytes": 57169,
+   "sha256": "714e0885ab3f00b7dba98dfef1956c9f53281fa524aea26dda11fc0a69fe992d"
+  }
+ ]
+}

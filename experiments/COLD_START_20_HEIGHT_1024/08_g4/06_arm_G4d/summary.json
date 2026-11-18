@@ -1,0 +1,113 @@
+{
+ "crossings": 1337,
+ "crossing_pairs": 1264,
+ "routes_with_crossings": 658,
+ "max_route_crossings": 18,
+ "total_length_mm": 156634.077653,
+ "mid_transitions": 86,
+ "routes": 1024,
+ "start_crossings": 1395,
+ "delta_vs_start": -58,
+ "plane_counts": {
+  "-0.325": {
+   "events": 2,
+   "pairs": 2,
+   "routes": 36
+  },
+  "-0.275": {
+   "events": 25,
+   "pairs": 25,
+   "routes": 64
+  },
+  "-0.225": {
+   "events": 0,
+   "pairs": 0,
+   "routes": 65
+  },
+  "-0.175": {
+   "events": 13,
+   "pairs": 10,
+   "routes": 91
+  },
+  "-0.125": {
+   "events": 102,
+   "pairs": 96,
+   "routes": 57
+  },
+  "-0.075": {
+   "events": 64,
+   "pairs": 58,
+   "routes": 57
+  },
+  "-0.025": {
+   "events": 73,
+   "pairs": 66,
+   "routes": 47
+  },
+  "0.025": {
+   "events": 76,
+   "pairs": 71,
+   "routes": 512
+  },
+  "0.075": {
+   "events": 50,
+   "pairs": 46,
+   "routes": 44
+  },
+  "0.125": {
+   "events": 108,
+   "pairs": 105,
+   "routes": 60
+  },
+  "0.175": {
+   "events": 85,
+   "pairs": 78,
+   "routes": 42
+  },
+  "0.225": {
+   "events": 116,
+   "pairs": 108,
+   "routes": 44
+  },
+  "0.275": {
+   "events": 33,
+   "pairs": 30,
+   "routes": 49
+  },
+  "0.325": {
+   "events": 52,
+   "pairs": 50,
+   "routes": 51
+  },
+  "0.375": {
+   "events": 95,
+   "pairs": 95,
+   "routes": 48
+  },
+  "0.425": {
+   "events": 98,
+   "pairs": 88,
+   "routes": 54
+  },
+  "0.475": {
+   "events": 83,
+   "pairs": 83,
+   "routes": 47
+  },
+  "0.525": {
+   "events": 95,
+   "pairs": 86,
+   "routes": 512
+  },
+  "0.575": {
+   "events": 97,
+   "pairs": 97,
+   "routes": 56
+  },
+  "0.625": {
+   "events": 70,
+   "pairs": 70,
+   "routes": 46
+  }
+ }
+}

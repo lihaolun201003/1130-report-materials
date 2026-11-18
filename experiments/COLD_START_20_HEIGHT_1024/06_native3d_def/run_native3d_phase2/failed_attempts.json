@@ -1,0 +1,49 @@
+{
+ "schema": "native3d_phase2_failed_attempts_v1",
+ "experiment_D": {
+  "attempts": 0,
+  "accepted": 0,
+  "blocker_screen": {
+   "screened": 46,
+   "clean": 1,
+   "histogram": {
+    "6": 17,
+    "1": 7,
+    "4": 3,
+    "0": 5,
+    "3": 7,
+    "7": 1,
+    "2": 4,
+    "5": 2
+   },
+   "manual_blocked": 27,
+   "repair_candidates": 0
+  }
+ },
+ "experiment_E": {
+  "attempts": 36,
+  "accepted": 0
+ },
+ "experiment_F": {
+  "strategy": {
+   "plain": {
+    "attempts": 1119,
+    "accepted": 0,
+    "net": 0,
+    "best": 0
+   },
+   "arc_span": {
+    "attempts": 1085,
+    "accepted": 2,
+    "net": -11,
+    "best": -9
+   },
+   "joint": {
+    "attempts": 20,
+    "accepted": 0,
+    "net": 0,
+    "best": 0
+   }
+  }
+ }
+}

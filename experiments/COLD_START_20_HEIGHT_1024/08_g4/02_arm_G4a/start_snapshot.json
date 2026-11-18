@@ -1,0 +1,194 @@
+{
+ "arm": "G4a",
+ "start_total": 1395,
+ "routes": 1024,
+ "manual_routes": 368,
+ "start_group_heights": {
+  "Z1-U1": {
+   "L2": 33,
+   "L5": 27,
+   "L4": 4
+  },
+  "Z1-U2": {
+   "L3": 61,
+   "L10": 3
+  },
+  "Z1-U3": {
+   "L4": 61,
+   "L9": 3
+  },
+  "Z1-U4": {
+   "L5": 62,
+   "L11": 2
+  },
+  "Z2-U1": {
+   "Z2_INTERFACE": 1,
+   "L10": 8,
+   "L15": 7
+  },
+  "Z2-U2": {
+   "L11": 16
+  },
+  "Z2-U3": {
+   "L12": 40
+  },
+  "Z2-U4": {
+   "L13": 40
+  }
+ },
+ "plane_loads": {
+  "-0.325": {
+   "layer": 2,
+   "z": -0.325,
+   "label": "L2",
+   "routes": 37,
+   "manual": 33,
+   "other": 4
+  },
+  "-0.275": {
+   "layer": 3,
+   "z": -0.275,
+   "label": "L3",
+   "routes": 61,
+   "manual": 61,
+   "other": 0
+  },
+  "-0.225": {
+   "layer": 4,
+   "z": -0.225,
+   "label": "L4",
+   "routes": 65,
+   "manual": 65,
+   "other": 0
+  },
+  "-0.175": {
+   "layer": 5,
+   "z": -0.175,
+   "label": "L5",
+   "routes": 89,
+   "manual": 89,
+   "other": 0
+  },
+  "-0.125": {
+   "layer": 6,
+   "z": -0.125,
+   "label": "L6",
+   "routes": 59,
+   "manual": 0,
+   "other": 59
+  },
+  "-0.075": {
+   "layer": 7,
+   "z": -0.075,
+   "label": "L7",
+   "routes": 57,
+   "manual": 0,
+   "other": 57
+  },
+  "-0.025": {
+   "layer": 20,
+   "z": -0.025,
+   "label": "L20",
+   "routes": 47,
+   "manual": 0,
+   "other": 47
+  },
+  "0.075": {
+   "layer": 8,
+   "z": 0.075,
+   "label": "L8",
+   "routes": 45,
+   "manual": 0,
+   "other": 45
+  },
+  "0.125": {
+   "layer": 9,
+   "z": 0.125,
+   "label": "L9",
+   "routes": 60,
+   "manual": 3,
+   "other": 57
+  },
+  "0.175": {
+   "layer": 10,
+   "z": 0.175,
+   "label": "L10",
+   "routes": 42,
+   "manual": 11,
+   "other": 31
+  },
+  "0.225": {
+   "layer": 11,
+   "z": 0.225,
+   "label": "L11",
+   "routes": 47,
+   "manual": 18,
+   "other": 29
+  },
+  "0.275": {
+   "layer": 12,
+   "z": 0.275,
+   "label": "L12",
+   "routes": 47,
+   "manual": 40,
+   "other": 7
+  },
+  "0.325": {
+   "layer": 13,
+   "z": 0.325,
+   "label": "L13",
+   "routes": 48,
+   "manual": 40,
+   "other": 8
+  },
+  "0.375": {
+   "layer": 14,
+   "z": 0.375,
+   "label": "L14",
+   "routes": 48,
+   "manual": 0,
+   "other": 48
+  },
+  "0.425": {
+   "layer": 15,
+   "z": 0.425,
+   "label": "L15",
+   "routes": 55,
+   "manual": 7,
+   "other": 48
+  },
+  "0.475": {
+   "layer": 16,
+   "z": 0.475,
+   "label": "L16",
+   "routes": 47,
+   "manual": 0,
+   "other": 47
+  },
+  "0.575": {
+   "layer": 17,
+   "z": 0.575,
+   "label": "L17",
+   "routes": 57,
+   "manual": 0,
+   "other": 57
+  },
+  "0.625": {
+   "layer": 18,
+   "z": 0.625,
+   "label": "L18",
+   "routes": 47,
+   "manual": 0,
+   "other": 47
+  }
+ },
+ "crossing_decomposition": {
+  "manual_manual": 0,
+  "manual_non": 137,
+  "non_manual": 1258,
+  "crossing_events": 1395,
+  "crossing_pairs": 1325
+ },
+ "theoretical_floor": 1258,
+ "ceiling_note": "manual-U-only arms can only change crossings that involve at least one manual route; the non-manual-only crossings belong to G4c/G4d"
+}

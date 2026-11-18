@@ -1,0 +1,36 @@
+{
+ "schema": "native3d_experiment_c_failures_v1",
+ "reasons_by_sweep": {
+  "C1_top10_1": {
+   "shadow_crossing": 12
+  },
+  "C2_top50_1": {
+   "shadow_crossing": 266,
+   "no_gain": 5,
+   "guard_combined": 1,
+   "guard:world": 1
+  },
+  "C3_all_1": {
+   "shadow_crossing": 10518,
+   "d56": 335,
+   "guard:world": 122,
+   "no_gain": 988,
+   "guard:metadata": 99,
+   "guard_combined": 6
+  },
+  "C3_all_2": {
+   "shadow_crossing": 6697,
+   "d56": 313,
+   "no_gain": 595,
+   "guard:world": 120,
+   "guard:metadata": 99
+  },
+  "C3_all_3": {
+   "shadow_crossing": 6250,
+   "d56": 311,
+   "no_gain": 542,
+   "guard:world": 119,
+   "guard:metadata": 99
+  }
+ }
+}

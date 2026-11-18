@@ -1,0 +1,104 @@
+{
+ "total": 3,
+ "failures": [
+  {
+   "route_id": 200,
+   "plane": "z1",
+   "target_layer": 8,
+   "target_plane_label": "L8",
+   "manual_group": "",
+   "reason": "layer2d_failed:obstacle_blocked",
+   "detail": {
+    "route_id": 200,
+    "reason": "obstacle_blocked",
+    "evaluated": 151,
+    "rejection_counts": {
+     "double_cross": 3,
+     "obstacle": 132,
+     "spacing": 16
+    },
+    "blockers": [
+     216,
+     443,
+     491,
+     510,
+     648,
+     680
+    ]
+   },
+   "target_plane": 8
+  },
+  {
+   "route_id": 224,
+   "plane": "z1",
+   "target_layer": 8,
+   "target_plane_label": "L8",
+   "manual_group": "",
+   "reason": "layer2d_failed:obstacle_blocked",
+   "detail": {
+    "route_id": 224,
+    "reason": "obstacle_blocked",
+    "evaluated": 151,
+    "rejection_counts": {
+     "crossing_window_overlap": 5,
+     "double_cross": 5,
+     "obstacle": 117,
+     "spacing": 16,
+     "tangent_touch": 8
+    },
+    "blockers": [
+     154,
+     157,
+     210,
+     237,
+     426,
+     467,
+     510,
+     516,
+     540
+    ]
+   },
+   "target_plane": 8
+  },
+  {
+   "route_id": 440,
+   "plane": "z1",
+   "target_layer": 8,
+   "target_plane_label": "L8",
+   "manual_group": "",
+   "reason": "layer2d_failed:obstacle_blocked",
+   "detail": {
+    "route_id": 440,
+    "reason": "obstacle_blocked",
+    "evaluated": 175,
+    "rejection_counts": {
+     "double_cross": 32,
+     "obstacle": 127,
+     "spacing": 4,
+     "tangent_touch": 12
+    },
+    "blockers": [
+     154,
+     213,
+     216,
+     422,
+     423,
+     426,
+     447,
+     458,
+     468,
+     510,
+     517,
+     521,
+     548,
+     572,
+     596,
+     721,
+     725,
+     729
+    ]
+   },
+   "target_plane": 8
+  }
+ ]
+}

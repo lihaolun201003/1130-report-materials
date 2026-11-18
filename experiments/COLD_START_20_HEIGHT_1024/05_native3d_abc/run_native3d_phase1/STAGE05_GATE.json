@@ -1,0 +1,21 @@
+﻿{
+    "min_sampled_radius_mm":  14.99999998,
+    "acceptance_validator":  "four_side_1024.fanout1024.native3d.validate_native3d",
+    "pairs_before":  2774,
+    "violation_total":  0,
+    "profile":  "20_height_raised",
+    "manual_mismatches":  0,
+    "crossings_before":  3275,
+    "pairs_after":  2733,
+    "stage":  "05_native3d_abc",
+    "schema":  "coldstart20_stage05_gate_v1",
+    "baseline_dir":  "04_initial_3d_and_e5_repair/nonc4_programme/E5_joint_repair_final",
+    "min_3d_clearance_mm":  0.068629474,
+    "crossings_after":  3103,
+    "note":  "The frozen independent validator for Native-3D stages. reheight21.validate21 is the planar-assembly contract validator (5-part lead/trans/body/trans/lead) and cannot be applied to bodies with mid-path R15 layer changes; its audit is archived as planar_contract_validate21_*.json for the record.",
+    "native_routes":  60,
+    "validation_pass":  true,
+    "excursions":  66,
+    "mid_transitions":  132,
+    "manual_routes_frozen":  368
+}
