@@ -1,0 +1,100 @@
+{
+ "arm": "G4d",
+ "final_crossings": 1305,
+ "crossing_pairs": 1234,
+ "start_crossings": 1305,
+ "delta_vs_start": 0,
+ "routes_changed": 0,
+ "routes": 1024,
+ "accepts": 0,
+ "transactions": 121,
+ "seconds": 1286.26,
+ "best_valid_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 2778,
+  "d56_candidate_evals": 19690,
+  "xy_candidates_generated": 2778,
+  "transactions": 121,
+  "world_builds": 0,
+  "valid_candidates": 2229,
+  "rejected_3d": 549,
+  "accepted_transactions": 0,
+  "accepted_changes": 0,
+  "gain": 0,
+  "validator_runs": 1,
+  "no_candidate": 93,
+  "rolled_back": 121,
+  "wall_seconds": 1286.24
+ },
+ "stages": [
+  {
+   "stage": -1,
+   "size": 0,
+   "attempts": 98,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 145.4,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 98
+   }
+  },
+  {
+   "stage": 0,
+   "size": 16,
+   "attempts": 18,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 211.2,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 11,
+    "no_current_crossings": 3,
+    "target_height_occupied": 4
+   }
+  },
+  {
+   "stage": 1,
+   "size": 32,
+   "attempts": 17,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 265.1,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 12,
+    "target_height_occupied": 2,
+    "no_current_crossings": 2,
+    "no_legal_xy_corridor": 1
+   }
+  },
+  {
+   "stage": 2,
+   "size": 64,
+   "attempts": 20,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 277.4,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 12,
+    "no_current_crossings": 4,
+    "no_legal_xy_corridor": 2,
+    "target_height_occupied": 2
+   }
+  },
+  {
+   "stage": 3,
+   "size": 96,
+   "attempts": 13,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 317.6,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 9,
+    "target_height_occupied": 1,
+    "no_current_crossings": 2,
+    "no_legal_xy_corridor": 1
+   }
+  }
+ ],
+ "summary": null
+}

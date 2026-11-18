@@ -1,0 +1,55 @@
+{
+ "schema": "20h_ablation_route_cases_v1",
+ "generated_at": "2026-11-18T21:59:45+0800",
+ "selection": "explicit --route-id 25",
+ "a": {
+  "label": "ON",
+  "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+  "counts_source": "authoritative"
+ },
+ "b": {
+  "label": "OFF",
+  "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid",
+  "counts_source": "authoritative"
+ },
+ "window_rule": "square window centred on the local geometry difference between the two stored bodies (points farther than 1.0 mm from the other body), else on the multi-arc region, else on the body bbox; expanded by --pad-mm, capped at --window-max-mm, clamped to the 150 x 150 mm board",
+ "cases": [
+  {
+   "route_id": 25,
+   "window_rule": "geometry-difference bbox",
+   "bodies_differ_locally": true,
+   "window_x0_mm": 0.0,
+   "window_x1_mm": 80.0,
+   "window_y0_mm": 66.3213,
+   "window_y1_mm": 146.3213,
+   "a_state": "ON",
+   "a_z_mm": -0.125,
+   "a_n_arcs": 2,
+   "a_n_lines": 1,
+   "a_n_multi_arc_regions": 1,
+   "a_multi_arc_signs": "-1|1",
+   "a_length_mm": 152.343526041,
+   "a_per_route_crossings": 0,
+   "a_crossings_in_window": 0,
+   "a_body_primitives": 3,
+   "a_n_transitions": 2,
+   "a_target_layer": 6,
+   "a_source_endpoint": "N02:1:1",
+   "a_target_endpoint": "S01:1:2",
+   "b_state": "OFF",
+   "b_z_mm": -0.125,
+   "b_n_arcs": 4,
+   "b_n_lines": 4,
+   "b_n_multi_arc_regions": 0,
+   "b_multi_arc_signs": "",
+   "b_length_mm": 199.930864042,
+   "b_per_route_crossings": 20,
+   "b_crossings_in_window": 19,
+   "b_body_primitives": 8,
+   "b_n_transitions": 2,
+   "b_target_layer": 6,
+   "b_source_endpoint": "N02:1:1",
+   "b_target_endpoint": "S01:1:2"
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\01_common_start\\conversion_report.json",
+ "feasible": true,
+ "start_crossings": 1395,
+ "crossings_after": 4548,
+ "crossing_delta": 3153,
+ "targets": 213,
+ "converted": 213,
+ "residual": 0,
+ "escalated_route_ids": [
+  456
+ ],
+ "routes_sha256": "a84acdbdbb311a674226f0df5440f1a7bb62a342e97001f1f57cce4be83a63ee",
+ "validation_pass": true,
+ "validation": {
+  "exit_code": 0,
+  "seconds": 40.71,
+  "validation_pass": true,
+  "geometry_pass": true,
+  "contract_pass": true,
+  "violation_count": 0,
+  "model_plane_count": 20,
+  "model_source": "layer_planes.json",
+  "routed": 1024,
+  "failed": 0,
+  "same_plane_crossings": 4548,
+  "crossing_pairs": 3378,
+  "min_3d_clearance_mm": 0.062212557,
+  "min_non_crossing_centerline_mm": 0.094709387,
+  "min_flat_arc_radius_mm": 15.0,
+  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\01_common_start",
+  "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\01_common_start\\validation_xyz",
+  "validation_json": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\01_common_start\\validation_xyz\\validation.json",
+  "validator_log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\01_common_start\\validation_xyz\\validator.log",
+  "manual_policy": "fully_optimizable",
+  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative"
+ },
+ "by_layer": [
+  {
+   "old_layer": 2,
+   "z_mm": -0.325,
+   "routes": 1,
+   "delta_sum": 19,
+   "delta_min": 0,
+   "delta_max": 19,
+   "new_routes": 0,
+   "delta_mean": 19.0
+  },
+  {
+   "old_layer": 6,
+   "z_mm": -0.125,
+   "routes": 34,
+   "delta_sum": 706,
+   "delta_min": -4,
+   "delta_max": 40,
+   "new_routes": 0,
+   "delta_mean": 20.765
+  },
+  {
+   "old_layer": 7,
+   "z_mm": -0.075,
+   "routes": 37,
+   "delta_sum": 752,
+   "delta_min": -2,
+   "delta_max": 35,
+   "new_routes": 0,
+   "delta_mean": 20.324
+  },
+  {
+   "old_layer": 8,
+   "z_mm": 0.075,
+   "routes": 30,
+   "delta_sum": 509,
+   "delta_min": -9,
+   "delta_max": 37,
+   "new_routes": 0,
+   "delta_mean": 16.967
+  },
+  {
+   "old_layer": 10,
+   "z_mm": 0.175,
+   "routes": 23,
+   "delta_sum": 61,
+   "delta_min": -6,
+   "delta_max": 21,
+   "new_routes": 0,
+   "delta_mean": 2.652
+  },
+  {
+   "old_layer": 11,
+   "z_mm": 0.225,
+   "routes": 21,
+   "delta_sum": 86,
+   "delta_min": -10,
+   "delta_max": 24,
+   "new_routes": 0,
+   "delta_mean": 4.095
+  },
+  {
+   "old_layer": 12,
+   "z_mm": 0.275,
+   "routes": 2,
+   "delta_sum": 2,
+   "delta_min": 0,
+   "delta_max": 2,
+   "new_routes": 0,
+   "delta_mean": 1.0
+  },
+  {
+   "old_layer": 13,
+   "z_mm": 0.325,
+   "routes": 6,
+   "delta_sum": 40,
+   "delta_min": 0,
+   "delta_max": 24,
+   "new_routes": 0,
+   "delta_mean": 6.667
+  },
+  {
+   "old_layer": 14,
+   "z_mm": 0.375,
+   "routes": 1,
+   "delta_sum": 0,
+   "delta_min": 0,
+   "delta_max": 0,
+   "new_routes": 0,
+   "delta_mean": 0.0
+  },
+  {
+   "old_layer": 15,
+   "z_mm": 0.425,
+   "routes": 1,
+   "delta_sum": 0,
+   "delta_min": 0,
+   "delta_max": 0,
+   "new_routes": 0,
+   "delta_mean": 0.0
+  },
+  {
+   "old_layer": 16,
+   "z_mm": 0.475,
+   "routes": 1,
+   "delta_sum": 0,
+   "delta_min": 0,
+   "delta_max": 0,
+   "new_routes": 0,
+   "delta_mean": 0.0
+  },
+  {
+   "old_layer": 18,
+   "z_mm": 0.625,
+   "routes": 1,
+   "delta_sum": 0,
+   "delta_min": 0,
+   "delta_max": 0,
+   "new_routes": 0,
+   "delta_mean": 0.0
+  },
+  {
+   "old_layer": 20,
+   "z_mm": -0.025,
+   "routes": 23,
+   "delta_sum": 480,
+   "delta_min": -8,
+   "delta_max": 44,
+   "new_routes": 0,
+   "delta_mean": 20.87
+  },
+  {
+   "old_layer": 1001,
+   "z_mm": 0.025,
+   "routes": 29,
+   "delta_sum": 498,
+   "delta_min": -7,
+   "delta_max": 37,
+   "new_routes": 0,
+   "delta_mean": 17.172
+  },
+  {
+   "old_layer": 1002,
+   "z_mm": 0.525,
+   "routes": 3,
+   "delta_sum": 0,
+   "delta_min": 0,
+   "delta_max": 0,
+   "new_routes": 0,
+   "delta_mean": 0.0
+  }
+ ],
+ "buckets": [
+  {
+   "bucket": "below_2R",
+   "routes": 149,
+   "delta_sum": 3138.0,
+   "delta_mean": 21.06,
+   "delta_min": -7.0,
+   "delta_max": 44.0
+  },
+  {
+   "bucket": "at_or_above_2R",
+   "routes": 64,
+   "delta_sum": 15.0,
+   "delta_mean": 0.234,
+   "delta_min": -10.0,
+   "delta_max": 24.0
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "changes": [
+  {
+   "route_id": 56,
+   "manual_group": "Z1-U1",
+   "old_layer": 5,
+   "new_layer": 5,
+   "old_z_mm": -0.175,
+   "new_z_mm": -0.175,
+   "old_transitions": 2,
+   "new_transitions": 2,
+   "old_mid_transitions": 0,
+   "new_mid_transitions": 0,
+   "old_length_mm": 135.524901,
+   "new_length_mm": 134.417616,
+   "xy_changed": true,
+   "old_crossings": 0,
+   "new_crossings": 0
+  },
+  {
+   "route_id": 706,
+   "manual_group": "",
+   "old_layer": 12,
+   "new_layer": 12,
+   "old_z_mm": 0.275,
+   "new_z_mm": 0.275,
+   "old_transitions": 2,
+   "new_transitions": 2,
+   "old_mid_transitions": 0,
+   "new_mid_transitions": 0,
+   "old_length_mm": 213.957378,
+   "new_length_mm": 214.621654,
+   "xy_changed": true,
+   "old_crossings": 11,
+   "new_crossings": 9
+  },
+  {
+   "route_id": 711,
+   "manual_group": "",
+   "old_layer": 11,
+   "new_layer": 12,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.275,
+   "old_transitions": 2,
+   "new_transitions": 2,
+   "old_mid_transitions": 0,
+   "new_mid_transitions": 0,
+   "old_length_mm": 204.714162,
+   "new_length_mm": 204.707378,
+   "xy_changed": true,
+   "old_crossings": 26,
+   "new_crossings": 15
+  },
+  {
+   "route_id": 847,
+   "manual_group": "",
+   "old_layer": 1002,
+   "new_layer": 10,
+   "old_z_mm": 0.525,
+   "new_z_mm": 0.175,
+   "old_transitions": 0,
+   "new_transitions": 2,
+   "old_mid_transitions": 0,
+   "new_mid_transitions": 0,
+   "old_length_mm": 55.578304,
+   "new_length_mm": 58.450245,
+   "xy_changed": true,
+   "old_crossings": 4,
+   "new_crossings": 3
+  }
+ ]
+}

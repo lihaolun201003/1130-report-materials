@@ -1,0 +1,101 @@
+{
+ "arm": "G4c_free",
+ "final_crossings": 1305,
+ "crossing_pairs": 1234,
+ "start_crossings": 1395,
+ "delta_vs_start": -90,
+ "routes_changed": 17,
+ "routes": 1024,
+ "accepts": 19,
+ "transactions": 308,
+ "seconds": 1868.48,
+ "best_valid_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\01_c_free\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 5570,
+  "d56_candidate_evals": 46123,
+  "xy_candidates_generated": 5551,
+  "transactions": 308,
+  "world_builds": 0,
+  "valid_candidates": 3888,
+  "rejected_3d": 1663,
+  "accepted_transactions": 19,
+  "accepted_changes": 19,
+  "gain": 90,
+  "validator_runs": 1,
+  "no_candidate": 310,
+  "rolled_back": 289,
+  "wall_seconds": 1868.44
+ },
+ "stages": [
+  {
+   "stage": -1,
+   "size": 0,
+   "attempts": 354,
+   "accepts": 19,
+   "gain": 90,
+   "seconds": 324.2,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 335
+   }
+  },
+  {
+   "stage": 0,
+   "size": 8,
+   "attempts": 41,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 327.7,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 28,
+    "no_current_crossings": 8,
+    "target_height_occupied": 4,
+    "no_legal_xy_corridor": 1
+   }
+  },
+  {
+   "stage": 1,
+   "size": 16,
+   "attempts": 39,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 366.9,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 23,
+    "target_height_occupied": 5,
+    "no_current_crossings": 10,
+    "no_legal_xy_corridor": 1
+   }
+  },
+  {
+   "stage": 2,
+   "size": 32,
+   "attempts": 54,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 384.7,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 32,
+    "no_current_crossings": 15,
+    "no_legal_xy_corridor": 2,
+    "target_height_occupied": 5
+   }
+  },
+  {
+   "stage": 3,
+   "size": 64,
+   "attempts": 31,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 393.9,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 19,
+    "target_height_occupied": 2,
+    "no_current_crossings": 6,
+    "no_legal_xy_corridor": 4
+   }
+  }
+ ],
+ "summary": null
+}

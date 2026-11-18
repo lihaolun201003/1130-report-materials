@@ -1,0 +1,15 @@
+##############################################################################
+# command: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -c import sys, runpy
+from four_side_1024.fanout1024.coldstart20 import bootstrap as _coldstart20
+_coldstart20.install()
+_coldstart20.assert_20_height_profile('multiarc-validator-child')
+sys.argv[0] = 'validate_xyz'
+runpy.run_module('four_side_1024.fanout1024.xyzrouter.validate_xyz', run_name='__main__')
+ --run-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\ablate_7a --out-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\ablate_7a\validation_xyz --baseline-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative --manual-policy fully_optimizable
+# exit=2 seconds=0.49
+##############################################################################
+==============================================================================
+[xyz] G1/G2/G3 independent validation: manual_policy=fully_optimizable
+
+--- stderr ---
+[xyz] INPUT ERROR: FileNotFoundError: routes_l3d.json not found in run dir: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\ablate_7a\routes_l3d.json

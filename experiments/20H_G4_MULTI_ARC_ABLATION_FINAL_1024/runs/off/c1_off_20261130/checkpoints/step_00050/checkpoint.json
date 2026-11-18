@@ -1,0 +1,27 @@
+{
+ "tag": "step_00050",
+ "total": 4064,
+ "history": 50,
+ "ledger": {
+  "route_3d_checks": 2079,
+  "d56_candidate_evals": 18742,
+  "xy_candidates_generated": 1951,
+  "transactions": 300,
+  "world_builds": 0,
+  "valid_candidates": 1091,
+  "rejected_3d": 871,
+  "accepted_transactions": 50,
+  "accepted_changes": 64,
+  "gain": 484,
+  "validator_runs": 0,
+  "no_candidate": 425,
+  "rolled_back": 250,
+  "wall_seconds": 1784.86
+ },
+ "seconds": 1785.36,
+ "extra": {
+  "stage": 3,
+  "accepts": 50,
+  "total": 4064
+ }
+}

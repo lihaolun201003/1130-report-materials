@@ -1,0 +1,1006 @@
+{
+ "schema": "20h_g4_multi_arc_ablation_figures_v1",
+ "script": {
+  "path": "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+  "sha256": "9a2899dfc499363dff005e824623d0d5509b31184de5d271d512d09ca77a4d05"
+ },
+ "entries": [
+  {
+   "command": "route-case",
+   "argv": [
+    "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+    "route-case",
+    "--a",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+    "--b",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid",
+    "--route-id",
+    "2",
+    "--out-dir",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off"
+   ],
+   "cwd": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+   "started_at": "2026-11-18T21:59:40+0800",
+   "finished_at": "2026-11-18T21:59:41+0800",
+   "elapsed_seconds": 1.259,
+   "sources": [
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\routes_l3d.json",
+     "bytes": 3785363,
+     "sha256": "7c207501c97bb419ae98b2f32c5cd8fa4850f5ca7fa8862d3e6981f525f7f60f",
+     "state": "ON"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\assignment_1024.csv",
+     "bytes": 130157,
+     "sha256": "9cbfe24f828386cf53d88d889549d9bdd440e9eebb229b9c1b5a7f9f0b3d9752",
+     "state": "ON"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "7c1e383f691c552447743033312524be3286d449d1c42d8f317249f1816912e5",
+     "state": "ON"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\crossing_stats.json",
+     "bytes": 195103,
+     "sha256": "753a2ea246e0e7447fe529ff832dad5588fbfb89b2f9e53c0ec1d0104466da10",
+     "state": "ON"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\summary.json",
+     "bytes": 1710,
+     "sha256": "71b592c581a9239b2a5b818602398d173c43fac3c1b9bf1ca4539fa189332325",
+     "state": "ON"
+    },
+    {
+     "role": "state:summary_g4.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\summary_g4.json",
+     "bytes": 2163,
+     "sha256": "d19f53024c231e278d72d45ba5821e5da5d302bc51d871c028252164fa00739b",
+     "state": "ON"
+    },
+    {
+     "role": "state:strategy_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\strategy_stats.json",
+     "bytes": 147588,
+     "sha256": "06c5f2568e51daedb58544aa63cbd2af44e9077a57b673c9319528f4f6db759f",
+     "state": "ON"
+    },
+    {
+     "role": "state:budget_ledger.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\budget_ledger.json",
+     "bytes": 443,
+     "sha256": "527e1db2356b26195e09a95474ef0682e7d53135d2e47822b2a15dda5057f430",
+     "state": "ON"
+    },
+    {
+     "role": "state:optimization_history.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\optimization_history.csv",
+     "bytes": 0,
+     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "state": "ON"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\geometry_changes.json",
+     "bytes": 20,
+     "sha256": "8a41565d24dbe9d22f740b06f22e63f70e912903b0d94f982ab47d5979faf75b",
+     "state": "ON"
+    },
+    {
+     "role": "state:failed_attempts.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\failed_attempts.json",
+     "bytes": 40518,
+     "sha256": "042770f44e39f3ddbd5b5211fc0a240dd22a6e0ceac7691d0e3ec92cbcd6b9f7",
+     "state": "ON"
+    },
+    {
+     "role": "state:config.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\config.json",
+     "bytes": 723,
+     "sha256": "da3c9f2212c63e1e918cdf1bc814268f98f1c60c0055c26087262744d0c4de73",
+     "state": "ON"
+    },
+    {
+     "role": "state:validation_final/validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\validation_final\\validation.json",
+     "bytes": 57018,
+     "sha256": "720c57814b332e301b4cd661a158b41970bbf7163ead955273c49842e417eb29",
+     "state": "ON"
+    },
+    {
+     "state": "ON",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\crossing_stats.json",
+     "bytes": 195103,
+     "sha256": "753a2ea246e0e7447fe529ff832dad5588fbfb89b2f9e53c0ec1d0104466da10"
+    },
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid\\routes_l3d.json",
+     "bytes": 3889784,
+     "sha256": "84b9cc2700dc8bf3b6ea902d37356c1d589cd8008b658e5039a700d5acd6f0c9",
+     "state": "OFF"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid\\assignment_1024.csv",
+     "bytes": 129975,
+     "sha256": "ab65bd0121cb5e6263ddb385de14a8d6b0569a748169ac4ed887a56501316d8a",
+     "state": "OFF"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "12a9d3a02fea4d6f79c6c312804d249818946890366cb0bc2fd64350c94dd0c0",
+     "state": "OFF"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\crossing_stats.json",
+     "bytes": 573792,
+     "sha256": "012d674de92856641f620d2486a44ec26773887f92dc89a2e747a380da693be8",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\summary.json",
+     "bytes": 1751,
+     "sha256": "4e0798736189e0985444d04ceb4a55cf81546a2b77c19d0573f55b772a15d870",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary_g4.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\summary_g4.json",
+     "bytes": 2129,
+     "sha256": "1346a9ad406c5d1ef2ce20d44c82db1aeb915f0330587f6bcaafeea5c769177d",
+     "state": "OFF"
+    },
+    {
+     "role": "state:strategy_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\strategy_stats.json",
+     "bytes": 98648,
+     "sha256": "bff415e17390790bd41b345bc7975b697e9f0f9efd56be62b582b8f1eef7daea",
+     "state": "OFF"
+    },
+    {
+     "role": "state:budget_ledger.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\budget_ledger.json",
+     "bytes": 442,
+     "sha256": "f57ef511d290e339134e3bf909e5ae98f94737a6c398dd66630265e2332e9f80",
+     "state": "OFF"
+    },
+    {
+     "role": "state:optimization_history.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\optimization_history.csv",
+     "bytes": 671,
+     "sha256": "f339efd8a03bea5068c932995122529e76ea9f2f28babfca40ab311bf7aca2bf",
+     "state": "OFF"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\geometry_changes.json",
+     "bytes": 3177,
+     "sha256": "a4d7a7b518c042c93b458d038ef0e5c399aecb4ef52d61cd827556f36d5ab3b1",
+     "state": "OFF"
+    },
+    {
+     "role": "state:failed_attempts.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\failed_attempts.json",
+     "bytes": 20626,
+     "sha256": "00636139440b64ffc46b2b23222bfc095792519d1800b5ec38239f9ffffe5397",
+     "state": "OFF"
+    },
+    {
+     "role": "state:config.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\config.json",
+     "bytes": 725,
+     "sha256": "865756ce9c506a579df848b7e636751e02699c72f92b642ffe12998cde2156c2",
+     "state": "OFF"
+    },
+    {
+     "role": "state:validation_final/validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\validation_final\\validation.json",
+     "bytes": 55199,
+     "sha256": "28c6c88ae78c062a0424cf8d98acfc4b315b001423bb83407353fa6a95c9c349",
+     "state": "OFF"
+    },
+    {
+     "state": "OFF",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\crossing_stats.json",
+     "bytes": 573792,
+     "sha256": "012d674de92856641f620d2486a44ec26773887f92dc89a2e747a380da693be8"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\route_cases\\route_case_0002.png",
+     "path_from_out_dir": "route_case_0002.png",
+     "format": "png",
+     "bytes": 216208,
+     "sha256": "1b6dca4d3f913024ef9097880613e77fe7f2191d6296927e0f87fc56e3922c02",
+     "dpi": 160,
+     "width_px": 2124,
+     "height_px": 1179
+    },
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\route_cases\\route_case_0002.svg",
+     "path_from_out_dir": "route_case_0002.svg",
+     "format": "svg",
+     "bytes": 273681,
+     "sha256": "b9cf862a95ea1fa602af5c5d66275997bffe62db9deedd674b507855e0faab83"
+    }
+   ],
+   "notes": {
+    "selection": "explicit --route-id 2",
+    "route_ids": [
+     2
+    ],
+    "pad_mm": 6.0,
+    "window_max_mm": 80.0,
+    "a": {
+     "state_label": "ON",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\_inputs\\ON_9768bf4ee5f8",
+     "staging_copied": true,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1305,
+     "crossing_pairs": 1234,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "b": {
+     "state_label": "OFF",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\_inputs\\OFF_8b84177d0a05",
+     "staging_copied": true,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 3980,
+     "crossing_pairs": 3107,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "dpi": 160,
+    "formats": [
+     "png",
+     "svg"
+    ]
+   }
+  },
+  {
+   "command": "route-case",
+   "argv": [
+    "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+    "route-case",
+    "--a",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+    "--b",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid",
+    "--route-id",
+    "456",
+    "--out-dir",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off"
+   ],
+   "cwd": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+   "started_at": "2026-11-18T21:59:42+0800",
+   "finished_at": "2026-11-18T21:59:43+0800",
+   "elapsed_seconds": 1.125,
+   "sources": [
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\routes_l3d.json",
+     "bytes": 3785363,
+     "sha256": "7c207501c97bb419ae98b2f32c5cd8fa4850f5ca7fa8862d3e6981f525f7f60f",
+     "state": "ON"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\assignment_1024.csv",
+     "bytes": 130157,
+     "sha256": "9cbfe24f828386cf53d88d889549d9bdd440e9eebb229b9c1b5a7f9f0b3d9752",
+     "state": "ON"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "7c1e383f691c552447743033312524be3286d449d1c42d8f317249f1816912e5",
+     "state": "ON"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\crossing_stats.json",
+     "bytes": 195103,
+     "sha256": "753a2ea246e0e7447fe529ff832dad5588fbfb89b2f9e53c0ec1d0104466da10",
+     "state": "ON"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\summary.json",
+     "bytes": 1710,
+     "sha256": "71b592c581a9239b2a5b818602398d173c43fac3c1b9bf1ca4539fa189332325",
+     "state": "ON"
+    },
+    {
+     "role": "state:summary_g4.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\summary_g4.json",
+     "bytes": 2163,
+     "sha256": "d19f53024c231e278d72d45ba5821e5da5d302bc51d871c028252164fa00739b",
+     "state": "ON"
+    },
+    {
+     "role": "state:strategy_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\strategy_stats.json",
+     "bytes": 147588,
+     "sha256": "06c5f2568e51daedb58544aa63cbd2af44e9077a57b673c9319528f4f6db759f",
+     "state": "ON"
+    },
+    {
+     "role": "state:budget_ledger.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\budget_ledger.json",
+     "bytes": 443,
+     "sha256": "527e1db2356b26195e09a95474ef0682e7d53135d2e47822b2a15dda5057f430",
+     "state": "ON"
+    },
+    {
+     "role": "state:optimization_history.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\optimization_history.csv",
+     "bytes": 0,
+     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "state": "ON"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\geometry_changes.json",
+     "bytes": 20,
+     "sha256": "8a41565d24dbe9d22f740b06f22e63f70e912903b0d94f982ab47d5979faf75b",
+     "state": "ON"
+    },
+    {
+     "role": "state:failed_attempts.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\failed_attempts.json",
+     "bytes": 40518,
+     "sha256": "042770f44e39f3ddbd5b5211fc0a240dd22a6e0ceac7691d0e3ec92cbcd6b9f7",
+     "state": "ON"
+    },
+    {
+     "role": "state:config.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\config.json",
+     "bytes": 723,
+     "sha256": "da3c9f2212c63e1e918cdf1bc814268f98f1c60c0055c26087262744d0c4de73",
+     "state": "ON"
+    },
+    {
+     "role": "state:validation_final/validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\validation_final\\validation.json",
+     "bytes": 57018,
+     "sha256": "720c57814b332e301b4cd661a158b41970bbf7163ead955273c49842e417eb29",
+     "state": "ON"
+    },
+    {
+     "state": "ON",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\crossing_stats.json",
+     "bytes": 195103,
+     "sha256": "753a2ea246e0e7447fe529ff832dad5588fbfb89b2f9e53c0ec1d0104466da10"
+    },
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid\\routes_l3d.json",
+     "bytes": 3889784,
+     "sha256": "84b9cc2700dc8bf3b6ea902d37356c1d589cd8008b658e5039a700d5acd6f0c9",
+     "state": "OFF"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid\\assignment_1024.csv",
+     "bytes": 129975,
+     "sha256": "ab65bd0121cb5e6263ddb385de14a8d6b0569a748169ac4ed887a56501316d8a",
+     "state": "OFF"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "12a9d3a02fea4d6f79c6c312804d249818946890366cb0bc2fd64350c94dd0c0",
+     "state": "OFF"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\crossing_stats.json",
+     "bytes": 573792,
+     "sha256": "012d674de92856641f620d2486a44ec26773887f92dc89a2e747a380da693be8",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\summary.json",
+     "bytes": 1751,
+     "sha256": "4e0798736189e0985444d04ceb4a55cf81546a2b77c19d0573f55b772a15d870",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary_g4.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\summary_g4.json",
+     "bytes": 2129,
+     "sha256": "1346a9ad406c5d1ef2ce20d44c82db1aeb915f0330587f6bcaafeea5c769177d",
+     "state": "OFF"
+    },
+    {
+     "role": "state:strategy_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\strategy_stats.json",
+     "bytes": 98648,
+     "sha256": "bff415e17390790bd41b345bc7975b697e9f0f9efd56be62b582b8f1eef7daea",
+     "state": "OFF"
+    },
+    {
+     "role": "state:budget_ledger.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\budget_ledger.json",
+     "bytes": 442,
+     "sha256": "f57ef511d290e339134e3bf909e5ae98f94737a6c398dd66630265e2332e9f80",
+     "state": "OFF"
+    },
+    {
+     "role": "state:optimization_history.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\optimization_history.csv",
+     "bytes": 671,
+     "sha256": "f339efd8a03bea5068c932995122529e76ea9f2f28babfca40ab311bf7aca2bf",
+     "state": "OFF"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\geometry_changes.json",
+     "bytes": 3177,
+     "sha256": "a4d7a7b518c042c93b458d038ef0e5c399aecb4ef52d61cd827556f36d5ab3b1",
+     "state": "OFF"
+    },
+    {
+     "role": "state:failed_attempts.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\failed_attempts.json",
+     "bytes": 20626,
+     "sha256": "00636139440b64ffc46b2b23222bfc095792519d1800b5ec38239f9ffffe5397",
+     "state": "OFF"
+    },
+    {
+     "role": "state:config.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\config.json",
+     "bytes": 725,
+     "sha256": "865756ce9c506a579df848b7e636751e02699c72f92b642ffe12998cde2156c2",
+     "state": "OFF"
+    },
+    {
+     "role": "state:validation_final/validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\validation_final\\validation.json",
+     "bytes": 55199,
+     "sha256": "28c6c88ae78c062a0424cf8d98acfc4b315b001423bb83407353fa6a95c9c349",
+     "state": "OFF"
+    },
+    {
+     "state": "OFF",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\crossing_stats.json",
+     "bytes": 573792,
+     "sha256": "012d674de92856641f620d2486a44ec26773887f92dc89a2e747a380da693be8"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\route_cases\\route_case_0456.png",
+     "path_from_out_dir": "route_case_0456.png",
+     "format": "png",
+     "bytes": 233483,
+     "sha256": "a633c4a001933c7b4dd347422dc7b4444e2c502d0cce267b788bae1b0ea053cb",
+     "dpi": 160,
+     "width_px": 2111,
+     "height_px": 1179
+    },
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\route_cases\\route_case_0456.svg",
+     "path_from_out_dir": "route_case_0456.svg",
+     "format": "svg",
+     "bytes": 317130,
+     "sha256": "4a54ab570bd65eb1e8cc18939401877d348dce98cf363d5d6071a645264819ac"
+    }
+   ],
+   "notes": {
+    "selection": "explicit --route-id 456",
+    "route_ids": [
+     456
+    ],
+    "pad_mm": 6.0,
+    "window_max_mm": 80.0,
+    "a": {
+     "state_label": "ON",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\_inputs\\ON_9768bf4ee5f8",
+     "staging_copied": true,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1305,
+     "crossing_pairs": 1234,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "b": {
+     "state_label": "OFF",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\_inputs\\OFF_8b84177d0a05",
+     "staging_copied": true,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 3980,
+     "crossing_pairs": 3107,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "dpi": 160,
+    "formats": [
+     "png",
+     "svg"
+    ]
+   }
+  },
+  {
+   "command": "route-case",
+   "argv": [
+    "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+    "route-case",
+    "--a",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+    "--b",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid",
+    "--route-id",
+    "25",
+    "--out-dir",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off"
+   ],
+   "cwd": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+   "started_at": "2026-11-18T21:59:44+0800",
+   "finished_at": "2026-11-18T21:59:45+0800",
+   "elapsed_seconds": 1.137,
+   "sources": [
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\routes_l3d.json",
+     "bytes": 3785363,
+     "sha256": "7c207501c97bb419ae98b2f32c5cd8fa4850f5ca7fa8862d3e6981f525f7f60f",
+     "state": "ON"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\assignment_1024.csv",
+     "bytes": 130157,
+     "sha256": "9cbfe24f828386cf53d88d889549d9bdd440e9eebb229b9c1b5a7f9f0b3d9752",
+     "state": "ON"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "7c1e383f691c552447743033312524be3286d449d1c42d8f317249f1816912e5",
+     "state": "ON"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\crossing_stats.json",
+     "bytes": 195103,
+     "sha256": "753a2ea246e0e7447fe529ff832dad5588fbfb89b2f9e53c0ec1d0104466da10",
+     "state": "ON"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\summary.json",
+     "bytes": 1710,
+     "sha256": "71b592c581a9239b2a5b818602398d173c43fac3c1b9bf1ca4539fa189332325",
+     "state": "ON"
+    },
+    {
+     "role": "state:summary_g4.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\summary_g4.json",
+     "bytes": 2163,
+     "sha256": "d19f53024c231e278d72d45ba5821e5da5d302bc51d871c028252164fa00739b",
+     "state": "ON"
+    },
+    {
+     "role": "state:strategy_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\strategy_stats.json",
+     "bytes": 147588,
+     "sha256": "06c5f2568e51daedb58544aa63cbd2af44e9077a57b673c9319528f4f6db759f",
+     "state": "ON"
+    },
+    {
+     "role": "state:budget_ledger.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\budget_ledger.json",
+     "bytes": 443,
+     "sha256": "527e1db2356b26195e09a95474ef0682e7d53135d2e47822b2a15dda5057f430",
+     "state": "ON"
+    },
+    {
+     "role": "state:optimization_history.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\optimization_history.csv",
+     "bytes": 0,
+     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "state": "ON"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\geometry_changes.json",
+     "bytes": 20,
+     "sha256": "8a41565d24dbe9d22f740b06f22e63f70e912903b0d94f982ab47d5979faf75b",
+     "state": "ON"
+    },
+    {
+     "role": "state:failed_attempts.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\failed_attempts.json",
+     "bytes": 40518,
+     "sha256": "042770f44e39f3ddbd5b5211fc0a240dd22a6e0ceac7691d0e3ec92cbcd6b9f7",
+     "state": "ON"
+    },
+    {
+     "role": "state:config.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\config.json",
+     "bytes": 723,
+     "sha256": "da3c9f2212c63e1e918cdf1bc814268f98f1c60c0055c26087262744d0c4de73",
+     "state": "ON"
+    },
+    {
+     "role": "state:validation_final/validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\validation_final\\validation.json",
+     "bytes": 57018,
+     "sha256": "720c57814b332e301b4cd661a158b41970bbf7163ead955273c49842e417eb29",
+     "state": "ON"
+    },
+    {
+     "state": "ON",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\crossing_stats.json",
+     "bytes": 195103,
+     "sha256": "753a2ea246e0e7447fe529ff832dad5588fbfb89b2f9e53c0ec1d0104466da10"
+    },
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid\\routes_l3d.json",
+     "bytes": 3889784,
+     "sha256": "84b9cc2700dc8bf3b6ea902d37356c1d589cd8008b658e5039a700d5acd6f0c9",
+     "state": "OFF"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid\\assignment_1024.csv",
+     "bytes": 129975,
+     "sha256": "ab65bd0121cb5e6263ddb385de14a8d6b0569a748169ac4ed887a56501316d8a",
+     "state": "OFF"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "12a9d3a02fea4d6f79c6c312804d249818946890366cb0bc2fd64350c94dd0c0",
+     "state": "OFF"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\crossing_stats.json",
+     "bytes": 573792,
+     "sha256": "012d674de92856641f620d2486a44ec26773887f92dc89a2e747a380da693be8",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\summary.json",
+     "bytes": 1751,
+     "sha256": "4e0798736189e0985444d04ceb4a55cf81546a2b77c19d0573f55b772a15d870",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary_g4.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\summary_g4.json",
+     "bytes": 2129,
+     "sha256": "1346a9ad406c5d1ef2ce20d44c82db1aeb915f0330587f6bcaafeea5c769177d",
+     "state": "OFF"
+    },
+    {
+     "role": "state:strategy_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\strategy_stats.json",
+     "bytes": 98648,
+     "sha256": "bff415e17390790bd41b345bc7975b697e9f0f9efd56be62b582b8f1eef7daea",
+     "state": "OFF"
+    },
+    {
+     "role": "state:budget_ledger.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\budget_ledger.json",
+     "bytes": 442,
+     "sha256": "f57ef511d290e339134e3bf909e5ae98f94737a6c398dd66630265e2332e9f80",
+     "state": "OFF"
+    },
+    {
+     "role": "state:optimization_history.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\optimization_history.csv",
+     "bytes": 671,
+     "sha256": "f339efd8a03bea5068c932995122529e76ea9f2f28babfca40ab311bf7aca2bf",
+     "state": "OFF"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\geometry_changes.json",
+     "bytes": 3177,
+     "sha256": "a4d7a7b518c042c93b458d038ef0e5c399aecb4ef52d61cd827556f36d5ab3b1",
+     "state": "OFF"
+    },
+    {
+     "role": "state:failed_attempts.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\failed_attempts.json",
+     "bytes": 20626,
+     "sha256": "00636139440b64ffc46b2b23222bfc095792519d1800b5ec38239f9ffffe5397",
+     "state": "OFF"
+    },
+    {
+     "role": "state:config.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\config.json",
+     "bytes": 725,
+     "sha256": "865756ce9c506a579df848b7e636751e02699c72f92b642ffe12998cde2156c2",
+     "state": "OFF"
+    },
+    {
+     "role": "state:validation_final/validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\validation_final\\validation.json",
+     "bytes": 55199,
+     "sha256": "28c6c88ae78c062a0424cf8d98acfc4b315b001423bb83407353fa6a95c9c349",
+     "state": "OFF"
+    },
+    {
+     "state": "OFF",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\crossing_stats.json",
+     "bytes": 573792,
+     "sha256": "012d674de92856641f620d2486a44ec26773887f92dc89a2e747a380da693be8"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\route_cases\\route_case_0025.png",
+     "path_from_out_dir": "route_case_0025.png",
+     "format": "png",
+     "bytes": 231674,
+     "sha256": "fa146a483ce9052e73cb29fdf0cb8093ee9c3954092c086632797d73d7335983",
+     "dpi": 160,
+     "width_px": 2120,
+     "height_px": 1179
+    },
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\route_cases\\route_case_0025.svg",
+     "path_from_out_dir": "route_case_0025.svg",
+     "format": "svg",
+     "bytes": 256484,
+     "sha256": "935c91db4100607fba3648f25b61965e15df00e183a5f213fa2d9f48ebe4a7bf"
+    }
+   ],
+   "notes": {
+    "selection": "explicit --route-id 25",
+    "route_ids": [
+     25
+    ],
+    "pad_mm": 6.0,
+    "window_max_mm": 80.0,
+    "a": {
+     "state_label": "ON",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\_inputs\\ON_9768bf4ee5f8",
+     "staging_copied": true,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1305,
+     "crossing_pairs": 1234,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "b": {
+     "state_label": "OFF",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\05_figures\\route_cases_on_off\\_inputs\\OFF_8b84177d0a05",
+     "staging_copied": true,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 3980,
+     "crossing_pairs": 3107,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "dpi": 160,
+    "formats": [
+     "png",
+     "svg"
+    ]
+   }
+  }
+ ],
+ "generated_at": "2026-11-18T21:59:45+0800",
+ "engine": {
+  "per_height_driver": "four_side_1024/fanout1024/coldstart20/plot_layers20.py",
+  "per_height_driver_sha256": "6409736c5f1dbf9b32945b1c85cb8504c0ffd9d42d5f5adbf334fe6bdd6b8639",
+  "frozen_engine": "four_side_1024/fanout1024/reheight21/plots21.py",
+  "frozen_engine_sha256": "c1e1badebf98f2a568cc1382d623679e831d19e2e295944ffe44d47a5a3bdf52",
+  "layer2d": "four_side_1024/fanout1024/layer2d.py",
+  "layer2d_sha256": "75786a7907909c38593f16413ac622f9a440d26382472411c64156dfcc892522",
+  "layer2d_r15_mm": 15.0,
+  "profile": "20_height_raised",
+  "plane_count": 20,
+  "interfaces": {
+   "z1": 0.025,
+   "z2": 0.525
+  }
+ }
+}

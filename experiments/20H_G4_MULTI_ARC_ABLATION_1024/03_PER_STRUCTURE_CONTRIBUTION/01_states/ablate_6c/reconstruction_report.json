@@ -1,0 +1,228 @@
+{
+ "schema": "g4_structure_reconstruction_v1",
+ "label": "Ablation-6c",
+ "profile": "20_height_raised",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+ "start_routes_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "start_assignment_sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+ "start_crossings": 1283,
+ "disabled_structures": [
+  "6c"
+ ],
+ "all_multi_arc": false,
+ "targets": 4,
+ "rebuilt": 4,
+ "residual": 0,
+ "residual_route_ids": [],
+ "remaining_with_disabled": [],
+ "crossings_after": 1287,
+ "crossing_delta": 4,
+ "total_length_mm": 156555.133338,
+ "seconds": 44.18,
+ "ledger": {
+  "route_3d_checks": 53,
+  "d56_candidate_evals": 448,
+  "xy_candidates_generated": 49,
+  "transactions": 4,
+  "world_builds": 0,
+  "valid_candidates": 48,
+  "rejected_3d": 1,
+  "accepted_transactions": 4,
+  "accepted_changes": 4,
+  "gain": 0,
+  "validator_runs": 0,
+  "no_candidate": 3,
+  "rolled_back": 0,
+  "wall_seconds": 0
+ },
+ "routes_sha256": "3245c72dca3972c143df815a3cd67ed901c203b045a7fc947e1729cdbb6e3c33",
+ "assignment_sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+ "records": [
+  {
+   "route_id": 5,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6c"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1285,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 10.7
+  },
+  {
+   "route_id": 32,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6c"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_Z",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1285,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 8.7
+  },
+  {
+   "route_id": 233,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6c"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1285,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 6.9
+  },
+  {
+   "route_id": 470,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6c"
+   ],
+   "new_types": [
+    "6a"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_SHORT_S",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1287,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 7.09
+  }
+ ],
+ "validation": {
+  "exit_code": 2,
+  "seconds": 0.57,
+  "validation_pass": null,
+  "geometry_pass": null,
+  "contract_pass": null,
+  "violation_count": null,
+  "model_plane_count": null,
+  "model_source": null,
+  "routed": null,
+  "failed": null,
+  "same_plane_crossings": null,
+  "crossing_pairs": null,
+  "min_3d_clearance_mm": null,
+  "min_non_crossing_centerline_mm": null,
+  "min_flat_arc_radius_mm": null,
+  "min_transition_sampled_radius_mm": null,
+  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c",
+  "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c\\validation_xyz",
+  "validation_json": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c\\validation_xyz\\validation.json",
+  "validator_log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c\\validation_xyz\\validator.log",
+  "manual_policy": "fully_optimizable",
+  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative"
+ },
+ "planner": {
+  "max_target_layers": 3,
+  "max_lead_pairs": 2,
+  "prescreen_candidates": 160,
+  "max_candidates": 320,
+  "d56_top": 16,
+  "bodies_per_pair": 2,
+  "max_return": 4
+ },
+ "planner_escalation": {
+  "max_target_layers": 20,
+  "max_lead_pairs": 6,
+  "max_return": 8,
+  "prescreen_candidates": 640,
+  "max_candidates": 2560,
+  "d56_top": 64,
+  "max_combos": 4096
+ },
+ "classifier": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\four_side_1024\\fanout1024\\patent_structures.py",
+ "structure_counters": {
+  "6a": {
+   "bodies_built": 480,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6b": {
+   "bodies_built": 960,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6c": {
+   "bodies_built": 1744,
+   "d56_valid": 0,
+   "bodies_filtered": 1744
+  },
+  "6d": {
+   "bodies_built": 3040,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7a": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7b": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7c": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  }
+ }
+}

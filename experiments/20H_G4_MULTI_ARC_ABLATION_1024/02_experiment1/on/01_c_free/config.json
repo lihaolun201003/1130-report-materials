@@ -1,0 +1,17 @@
+{
+ "arm": "G4c_free",
+ "out_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\01_c_free",
+ "seed": 20261104,
+ "budget": {
+  "route_3d_checks": 30000,
+  "d56_candidate_evals": 120000,
+  "wall_seconds": 1800.0
+ },
+ "manual_frozen": false,
+ "start_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+ "start_profile": "20_height_raised",
+ "start_routes_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+ "start_crossings": 1395,
+ "started_at": "2026-11-18T18:36:36",
+ "cfg": {}
+}

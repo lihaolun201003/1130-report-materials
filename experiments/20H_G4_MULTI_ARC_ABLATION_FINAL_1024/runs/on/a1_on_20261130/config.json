@@ -1,0 +1,17 @@
+{
+ "arm": "G4c_free",
+ "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\a1_on_20261130",
+ "seed": 20261130,
+ "budget": {
+  "route_3d_checks": 30000,
+  "d56_candidate_evals": 120000,
+  "wall_seconds": 900.0
+ },
+ "manual_frozen": false,
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\common_start_off",
+ "start_profile": "20_height_raised",
+ "start_routes_sha256": "a84acdbdbb311a674226f0df5440f1a7bb62a342e97001f1f57cce4be83a63ee",
+ "start_crossings": 4548,
+ "started_at": "2026-11-18T20:27:42",
+ "cfg": {}
+}

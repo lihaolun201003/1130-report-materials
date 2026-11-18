@@ -1,0 +1,30 @@
+
+===== 2026-11-18T18:17:33 =====
+[2026-11-18T18:17:34] [recon] profile=20_height_raised planes=20
+[2026-11-18T18:17:34] [recon] multi_arc_enabled=True disabled=['7b']
+[2026-11-18T18:17:34] [recon] start=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid out=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\ablate_7b
+[2026-11-18T18:17:34] [arm] start C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid sha256=35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753 crossings=1283
+[2026-11-18T18:17:34] [arm] WARNING: start routes SHA256 differs from the verified G3 optimum!
+[2026-11-18T18:17:45] [arm] loaded state routes=1024 crossings=1283 (3.93s)
+[2026-11-18T18:17:45] [recon] start crossings=1283 routes=1024 sha=35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753
+[2026-11-18T18:17:45] [recon] classifier=patent_structures
+[2026-11-18T18:17:45] [recon] target routes using ['7b']: 23
+[2026-11-18T18:19:05] [recon] 10/23 rebuilt=10 total=1291 residual=0 (7s)
+[2026-11-18T18:20:07] [recon] 20/23 rebuilt=20 total=1304 residual=0 (6s)
+[2026-11-18T18:20:26] [recon] done targets=23 residual=0 remaining=0 total=1283->1304 (161s)
+[2026-11-18T18:20:26] [recon] independent validator ...
+[2026-11-18T18:20:26] [recon] validator pass=None violations=None
+[2026-11-18T18:20:34] [recon] report C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\ablate_7b\reconstruction_report.json feasible=True delta=+21
+{
+ "disabled_structures": [
+  "7b"
+ ],
+ "targets": 23,
+ "rebuilt": 23,
+ "residual": 0,
+ "remaining_with_disabled": [],
+ "start_crossings": 1283,
+ "crossings_after": 1304,
+ "crossing_delta": 21,
+ "routes_sha256": "cf34743798d7a1dde199dae8aaebdec47a1802a30cda7420083185eb6bb31909"
+}

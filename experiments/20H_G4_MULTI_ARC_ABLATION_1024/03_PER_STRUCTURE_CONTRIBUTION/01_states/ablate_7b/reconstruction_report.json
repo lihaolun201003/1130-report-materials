@@ -1,0 +1,703 @@
+{
+ "schema": "g4_structure_reconstruction_v1",
+ "label": "Ablation-7b",
+ "profile": "20_height_raised",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+ "start_routes_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "start_assignment_sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+ "start_crossings": 1283,
+ "disabled_structures": [
+  "7b"
+ ],
+ "all_multi_arc": false,
+ "targets": 23,
+ "rebuilt": 23,
+ "residual": 0,
+ "residual_route_ids": [],
+ "remaining_with_disabled": [],
+ "crossings_after": 1304,
+ "crossing_delta": 21,
+ "total_length_mm": 156654.830441,
+ "seconds": 169.83,
+ "ledger": {
+  "route_3d_checks": 344,
+  "d56_candidate_evals": 3008,
+  "xy_candidates_generated": 321,
+  "transactions": 23,
+  "world_builds": 0,
+  "valid_candidates": 222,
+  "rejected_3d": 99,
+  "accepted_transactions": 23,
+  "accepted_changes": 23,
+  "gain": 4,
+  "validator_runs": 0,
+  "no_candidate": 17,
+  "rolled_back": 0,
+  "wall_seconds": 0
+ },
+ "routes_sha256": "cf34743798d7a1dde199dae8aaebdec47a1802a30cda7420083185eb6bb31909",
+ "assignment_sha256": "208e26bfe0feb21ff48ea5ac73ebbb00909119d7cd2a9dec72554d45a7aaa66f",
+ "records": [
+  {
+   "route_id": 513,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 14,
+   "new_layer": 14,
+   "old_z_mm": 0.375,
+   "new_z_mm": 0.375,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1283,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 10.28
+  },
+  {
+   "route_id": 527,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "ADJ_UP_LOOP",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1283,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 8.09
+  },
+  {
+   "route_id": 542,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 15,
+   "new_layer": 15,
+   "old_z_mm": 0.425,
+   "new_z_mm": 0.425,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1283,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 8.29
+  },
+  {
+   "route_id": 623,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1283,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 8.3
+  },
+  {
+   "route_id": 634,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [
+    "7a"
+   ],
+   "old_layer": 13,
+   "new_layer": 13,
+   "old_z_mm": 0.325,
+   "new_z_mm": 0.325,
+   "family": "ADJ_UP_LOOP",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1283,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 8.14
+  },
+  {
+   "route_id": 638,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 13,
+   "new_layer": 11,
+   "old_z_mm": 0.325,
+   "new_z_mm": 0.225,
+   "family": "ADJ_UP_LOOP",
+   "delta": 10,
+   "commit_delta": 10,
+   "total_after": 1293,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 7.68
+  },
+  {
+   "route_id": 691,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [
+    "7a"
+   ],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_UP_LOOP",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1295,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 7.55
+  },
+  {
+   "route_id": 699,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [
+    "7a"
+   ],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_UP_LOOP",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 1293,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 7.51
+  },
+  {
+   "route_id": 707,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 12,
+   "new_layer": 12,
+   "old_z_mm": 0.275,
+   "new_z_mm": 0.275,
+   "family": "ADJ_Z_TURN",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 1291,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 7.92
+  },
+  {
+   "route_id": 708,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 13,
+   "new_layer": 13,
+   "old_z_mm": 0.325,
+   "new_z_mm": 0.325,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1291,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 6.59
+  },
+  {
+   "route_id": 740,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 13,
+   "new_layer": 13,
+   "old_z_mm": 0.325,
+   "new_z_mm": 0.325,
+   "family": "ADJ_UP_LOOP",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1291,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 6.95
+  },
+  {
+   "route_id": 834,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1291,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 8.07
+  },
+  {
+   "route_id": 835,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 1002,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1291,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 7.67
+  },
+  {
+   "route_id": 839,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 1002,
+   "new_layer": 1002,
+   "old_z_mm": 0.525,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1291,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 6.79
+  },
+  {
+   "route_id": 843,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 1002,
+   "new_layer": 1002,
+   "old_z_mm": 0.525,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1291,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 6.06
+  },
+  {
+   "route_id": 847,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 1002,
+   "new_layer": 1002,
+   "old_z_mm": 0.525,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1291,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 3,
+     "legal": 3
+    }
+   ],
+   "seconds": 3.14
+  },
+  {
+   "route_id": 859,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 1002,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": 5,
+   "commit_delta": 5,
+   "total_after": 1296,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 7.14
+  },
+  {
+   "route_id": 863,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1298,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 6.75
+  },
+  {
+   "route_id": 873,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 15,
+   "new_layer": 15,
+   "old_z_mm": 0.425,
+   "new_z_mm": 0.425,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1298,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 7,
+     "legal": 7
+    }
+   ],
+   "seconds": 3.2
+  },
+  {
+   "route_id": 883,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_DOWN_LOOP",
+   "delta": 6,
+   "commit_delta": 6,
+   "total_after": 1304,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 6.19
+  },
+  {
+   "route_id": 972,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1304,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 6.24
+  },
+  {
+   "route_id": 973,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1304,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.22
+  },
+  {
+   "route_id": 976,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "7b"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1304,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 6.17
+  }
+ ],
+ "validation": {
+  "exit_code": 2,
+  "seconds": 0.45,
+  "validation_pass": null,
+  "geometry_pass": null,
+  "contract_pass": null,
+  "violation_count": null,
+  "model_plane_count": null,
+  "model_source": null,
+  "routed": null,
+  "failed": null,
+  "same_plane_crossings": null,
+  "crossing_pairs": null,
+  "min_3d_clearance_mm": null,
+  "min_non_crossing_centerline_mm": null,
+  "min_flat_arc_radius_mm": null,
+  "min_transition_sampled_radius_mm": null,
+  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b",
+  "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b\\validation_xyz",
+  "validation_json": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b\\validation_xyz\\validation.json",
+  "validator_log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b\\validation_xyz\\validator.log",
+  "manual_policy": "fully_optimizable",
+  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative"
+ },
+ "planner": {
+  "max_target_layers": 3,
+  "max_lead_pairs": 2,
+  "prescreen_candidates": 160,
+  "max_candidates": 320,
+  "d56_top": 16,
+  "bodies_per_pair": 2,
+  "max_return": 4
+ },
+ "planner_escalation": {
+  "max_target_layers": 20,
+  "max_lead_pairs": 6,
+  "max_return": 8,
+  "prescreen_candidates": 640,
+  "max_candidates": 2560,
+  "d56_top": 64,
+  "max_combos": 4096
+ },
+ "classifier": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\four_side_1024\\fanout1024\\patent_structures.py",
+ "structure_counters": {
+  "6a": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6b": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6c": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6d": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7a": {
+   "bodies_built": 1859,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7b": {
+   "bodies_built": 6191,
+   "d56_valid": 0,
+   "bodies_filtered": 6191
+  },
+  "7c": {
+   "bodies_built": 24,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  }
+ }
+}

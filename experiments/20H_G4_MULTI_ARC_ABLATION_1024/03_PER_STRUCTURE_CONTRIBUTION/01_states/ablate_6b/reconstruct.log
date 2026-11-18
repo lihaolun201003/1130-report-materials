@@ -1,0 +1,18 @@
+[2026-11-18T18:17:34] [recon] profile=20_height_raised planes=20
+[2026-11-18T18:17:34] [recon] multi_arc_enabled=True disabled=['6b']
+[2026-11-18T18:17:34] [recon] start=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid out=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\ablate_6b
+[2026-11-18T18:17:34] [arm] start C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid sha256=35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753 crossings=1283
+[2026-11-18T18:17:34] [arm] WARNING: start routes SHA256 differs from the verified G3 optimum!
+[2026-11-18T18:17:44] [arm] loaded state routes=1024 crossings=1283 (3.84s)
+[2026-11-18T18:17:45] [recon] start crossings=1283 routes=1024 sha=35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753
+[2026-11-18T18:17:45] [recon] classifier=patent_structures
+[2026-11-18T18:17:45] [recon] target routes using ['6b']: 56
+[2026-11-18T18:19:05] [recon] 10/56 rebuilt=10 total=1304 residual=0 (7s)
+[2026-11-18T18:20:18] [recon] 20/56 rebuilt=20 total=1317 residual=0 (7s)
+[2026-11-18T18:21:14] [recon] 30/56 rebuilt=30 total=1338 residual=0 (5s)
+[2026-11-18T18:22:14] [recon] 40/56 rebuilt=40 total=1337 residual=0 (6s)
+[2026-11-18T18:23:11] [recon] 50/56 rebuilt=50 total=1338 residual=0 (5s)
+[2026-11-18T18:23:42] [recon] done targets=56 residual=0 remaining=0 total=1283->1339 (358s)
+[2026-11-18T18:23:42] [recon] independent validator ...
+[2026-11-18T18:23:43] [recon] validator pass=None violations=None
+[2026-11-18T18:23:50] [recon] report C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\ablate_6b\reconstruction_report.json feasible=True delta=+56

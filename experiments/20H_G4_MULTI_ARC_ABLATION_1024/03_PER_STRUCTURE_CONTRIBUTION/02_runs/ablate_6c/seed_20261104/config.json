@@ -1,0 +1,17 @@
+{
+ "arm": "G4c_free",
+ "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\02_runs\\ablate_6c\\seed_20261104",
+ "seed": 20261104,
+ "budget": {
+  "route_3d_checks": 30000,
+  "d56_candidate_evals": 120000,
+  "wall_seconds": 5400.0
+ },
+ "manual_frozen": false,
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c",
+ "start_profile": "20_height_raised",
+ "start_routes_sha256": "3245c72dca3972c143df815a3cd67ed901c203b045a7fc947e1729cdbb6e3c33",
+ "start_crossings": 1287,
+ "started_at": "2026-11-18T21:00:09",
+ "cfg": {}
+}

@@ -1,0 +1,97 @@
+{
+ "arm": "G4c_free",
+ "final_crossings": 4216,
+ "crossing_pairs": 3215,
+ "start_crossings": 4548,
+ "delta_vs_start": -332,
+ "routes_changed": 29,
+ "routes": 1024,
+ "accepts": 29,
+ "transactions": 113,
+ "seconds": 966.55,
+ "best_valid_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\a1_off_20261104\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 1200,
+  "d56_candidate_evals": 10196,
+  "xy_candidates_generated": 1136,
+  "transactions": 113,
+  "world_builds": 0,
+  "valid_candidates": 822,
+  "rejected_3d": 318,
+  "accepted_transactions": 29,
+  "accepted_changes": 32,
+  "gain": 332,
+  "validator_runs": 1,
+  "no_candidate": 138,
+  "rolled_back": 84,
+  "wall_seconds": 966.54
+ },
+ "stages": [
+  {
+   "stage": -1,
+   "size": 0,
+   "attempts": 57,
+   "accepts": 26,
+   "gain": 314,
+   "seconds": 163.4,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 31
+   }
+  },
+  {
+   "stage": 0,
+   "size": 8,
+   "attempts": 15,
+   "accepts": 2,
+   "gain": 9,
+   "seconds": 172.2,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 6,
+    "no_current_crossings": 4,
+    "target_height_occupied": 3
+   }
+  },
+  {
+   "stage": 1,
+   "size": 16,
+   "attempts": 11,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 179.7,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 8,
+    "target_height_occupied": 2,
+    "no_current_crossings": 1
+   }
+  },
+  {
+   "stage": 2,
+   "size": 32,
+   "attempts": 15,
+   "accepts": 1,
+   "gain": 9,
+   "seconds": 207.1,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 11,
+    "target_height_occupied": 2,
+    "no_current_crossings": 1
+   }
+  },
+  {
+   "stage": 3,
+   "size": 64,
+   "attempts": 10,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 158.9,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 7,
+    "target_height_occupied": 2,
+    "no_legal_xy_corridor": 1
+   }
+  }
+ ],
+ "summary": null
+}

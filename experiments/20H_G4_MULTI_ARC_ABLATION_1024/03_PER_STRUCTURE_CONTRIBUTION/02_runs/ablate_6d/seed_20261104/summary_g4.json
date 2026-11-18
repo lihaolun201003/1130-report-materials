@@ -1,0 +1,101 @@
+{
+ "arm": "G4c_free",
+ "final_crossings": 1283,
+ "crossing_pairs": 1221,
+ "start_crossings": 1286,
+ "delta_vs_start": -3,
+ "routes_changed": 2,
+ "routes": 1024,
+ "accepts": 2,
+ "transactions": 261,
+ "seconds": 1755.16,
+ "best_valid_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\02_runs\\ablate_6d\\seed_20261104\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 3322,
+  "d56_candidate_evals": 24064,
+  "xy_candidates_generated": 3223,
+  "transactions": 261,
+  "world_builds": 0,
+  "valid_candidates": 2275,
+  "rejected_3d": 958,
+  "accepted_transactions": 2,
+  "accepted_changes": 3,
+  "gain": 3,
+  "validator_runs": 1,
+  "no_candidate": 323,
+  "rolled_back": 259,
+  "wall_seconds": 1755.14
+ },
+ "stages": [
+  {
+   "stage": -1,
+   "size": 0,
+   "attempts": 68,
+   "accepts": 1,
+   "gain": 2,
+   "seconds": 83.2,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 67
+   }
+  },
+  {
+   "stage": 0,
+   "size": 8,
+   "attempts": 39,
+   "accepts": 1,
+   "gain": 1,
+   "seconds": 312.4,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 21,
+    "no_current_crossings": 8,
+    "target_height_occupied": 7,
+    "no_legal_xy_corridor": 2
+   }
+  },
+  {
+   "stage": 1,
+   "size": 16,
+   "attempts": 35,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 338.9,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 23,
+    "no_legal_xy_corridor": 2,
+    "no_current_crossings": 7,
+    "target_height_occupied": 3
+   }
+  },
+  {
+   "stage": 2,
+   "size": 32,
+   "attempts": 34,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 450.5,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 23,
+    "no_current_crossings": 5,
+    "target_height_occupied": 3,
+    "no_legal_xy_corridor": 3
+   }
+  },
+  {
+   "stage": 3,
+   "size": 64,
+   "attempts": 23,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 502.6,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 16,
+    "no_current_crossings": 2,
+    "target_height_occupied": 3,
+    "no_legal_xy_corridor": 2
+   }
+  }
+ ],
+ "summary": null
+}

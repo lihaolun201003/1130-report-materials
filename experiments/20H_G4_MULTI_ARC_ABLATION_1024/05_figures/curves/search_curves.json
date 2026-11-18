@@ -1,0 +1,75 @@
+{
+ "schema": "20h_ablation_search_curves_v1",
+ "generated_at": "2026-11-18T19:52:57+0800",
+ "runs": [
+  {
+   "label": "ON",
+   "run_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+   "source": "strategy_stats.json:extra.history_records",
+   "strategy_stats": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\strategy_stats.json",
+   "strategy_stats_sha256": "06c5f2568e51daedb58544aa63cbd2af44e9077a57b673c9319528f4f6db759f",
+   "summary": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\summary.json",
+   "summary_sha256": "71b592c581a9239b2a5b818602398d173c43fac3c1b9bf1ca4539fa189332325",
+   "start_crossings": 1305,
+   "final_crossings": 1305,
+   "n_records": 167,
+   "ledger": {
+    "rel_path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\budget_ledger.json",
+    "data": {
+     "d56_candidate_evals": 19690,
+     "route_3d_checks": 2778,
+     "wall_seconds": 1286.24,
+     "transactions": 121
+    }
+   }
+  },
+  {
+   "label": "OFF",
+   "run_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\best_valid",
+   "source": "strategy_stats.json:extra.history_records",
+   "strategy_stats": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\strategy_stats.json",
+   "strategy_stats_sha256": "bff415e17390790bd41b345bc7975b697e9f0f9efd56be62b582b8f1eef7daea",
+   "summary": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\summary.json",
+   "summary_sha256": "4e0798736189e0985444d04ceb4a55cf81546a2b77c19d0573f55b772a15d870",
+   "start_crossings": 4018,
+   "final_crossings": 3980,
+   "n_records": 94,
+   "ledger": {
+    "rel_path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\budget_ledger.json",
+    "data": {
+     "d56_candidate_evals": 10963,
+     "route_3d_checks": 1405,
+     "wall_seconds": 1341.93,
+     "transactions": 80
+    }
+   }
+  }
+ ],
+ "failures": [
+  {
+   "run": "C:\\Users\\lihao\\Desktop\\Graduation Project\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\01_common_start",
+   "error": "run directory does not exist: C:\\Users\\lihao\\Desktop\\Graduation Project\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\01_common_start"
+  }
+ ],
+ "axes": [
+  {
+   "key": "d56",
+   "xlabel": "d56 candidate evaluations",
+   "title": "crossings vs d56 candidate evaluations",
+   "has_data": true
+  },
+  {
+   "key": "r3d",
+   "xlabel": "route 3-D checks",
+   "title": "crossings vs route 3-D checks",
+   "has_data": true
+  },
+  {
+   "key": "wall_seconds",
+   "xlabel": "wall seconds",
+   "title": "crossings vs wall-clock seconds",
+   "has_data": true
+  }
+ ],
+ "note": "one figure, three sub-plots; several runs overlaid; only real recorded counters are plotted"
+}

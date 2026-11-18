@@ -1,0 +1,44 @@
+{
+ "schema": "g4_structure_candidate_counters_v1",
+ "disabled": [
+  "7b"
+ ],
+ "source": "env:G4_DISABLED_STRUCTURES",
+ "counters": {
+  "6a": {
+   "bodies_built": 18177,
+   "d56_valid": 199,
+   "bodies_filtered": 0
+  },
+  "6b": {
+   "bodies_built": 21601,
+   "d56_valid": 251,
+   "bodies_filtered": 0
+  },
+  "6c": {
+   "bodies_built": 16753,
+   "d56_valid": 153,
+   "bodies_filtered": 0
+  },
+  "6d": {
+   "bodies_built": 14768,
+   "d56_valid": 41,
+   "bodies_filtered": 0
+  },
+  "7a": {
+   "bodies_built": 14828,
+   "d56_valid": 117,
+   "bodies_filtered": 0
+  },
+  "7b": {
+   "bodies_built": 65174,
+   "d56_valid": 0,
+   "bodies_filtered": 65174
+  },
+  "7c": {
+   "bodies_built": 2939,
+   "d56_valid": 10,
+   "bodies_filtered": 0
+  }
+ }
+}

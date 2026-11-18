@@ -1,0 +1,3038 @@
+{
+ "schema": "g4_structure_reconstruction_v1",
+ "label": "Ablation-6a",
+ "profile": "20_height_raised",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+ "start_routes_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "start_assignment_sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+ "start_crossings": 1283,
+ "disabled_structures": [
+  "6a"
+ ],
+ "all_multi_arc": false,
+ "targets": 108,
+ "rebuilt": 108,
+ "residual": 0,
+ "residual_route_ids": [],
+ "remaining_with_disabled": [],
+ "crossings_after": 1449,
+ "crossing_delta": 166,
+ "total_length_mm": 156465.290734,
+ "seconds": 616.75,
+ "ledger": {
+  "route_3d_checks": 1400,
+  "d56_candidate_evals": 13328,
+  "xy_candidates_generated": 1292,
+  "transactions": 108,
+  "world_builds": 0,
+  "valid_candidates": 1217,
+  "rejected_3d": 75,
+  "accepted_transactions": 108,
+  "accepted_changes": 108,
+  "gain": 5,
+  "validator_runs": 0,
+  "no_candidate": 178,
+  "rolled_back": 0,
+  "wall_seconds": 0
+ },
+ "routes_sha256": "aaf66292126a8557ecf20ab66b12adb876f5f357092d8332f086336ee70cdba4",
+ "assignment_sha256": "952fe6b609c0d834d2eb071319776205f5397401dbd643057e147e60007f5651",
+ "records": [
+  {
+   "route_id": 2,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 2,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.325,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1284,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 9.35
+  },
+  {
+   "route_id": 3,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1284,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 8.11
+  },
+  {
+   "route_id": 10,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 2,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.325,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1285,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 7.99
+  },
+  {
+   "route_id": 11,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1285,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 7.19
+  },
+  {
+   "route_id": 12,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 10,
+   "new_layer": 2,
+   "old_z_mm": 0.175,
+   "new_z_mm": -0.325,
+   "family": "OPP_S_Z",
+   "delta": 6,
+   "commit_delta": 6,
+   "total_after": 1291,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 7.91
+  },
+  {
+   "route_id": 25,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 2,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.325,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1293,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 7.11
+  },
+  {
+   "route_id": 27,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1293,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 7.07
+  },
+  {
+   "route_id": 28,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1293,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 6.79
+  },
+  {
+   "route_id": 33,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 6,
+   "commit_delta": 6,
+   "total_after": 1299,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 7.49
+  },
+  {
+   "route_id": 34,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1299,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 7.61
+  },
+  {
+   "route_id": 36,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1301,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 7.15
+  },
+  {
+   "route_id": 97,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1305,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 7.76
+  },
+  {
+   "route_id": 99,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 3,
+   "commit_delta": 3,
+   "total_after": 1308,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 8.33
+  },
+  {
+   "route_id": 101,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1308,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 7.21
+  },
+  {
+   "route_id": 107,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1309,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 8.31
+  },
+  {
+   "route_id": 108,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 5,
+   "new_layer": 5,
+   "old_z_mm": -0.175,
+   "new_z_mm": -0.175,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 7.81
+  },
+  {
+   "route_id": 111,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 6.76
+  },
+  {
+   "route_id": 116,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 7.05
+  },
+  {
+   "route_id": 117,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.74
+  },
+  {
+   "route_id": 119,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 6.11
+  },
+  {
+   "route_id": 124,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1315,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.99
+  },
+  {
+   "route_id": 125,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1317,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.72
+  },
+  {
+   "route_id": 126,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1317,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.92
+  },
+  {
+   "route_id": 133,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1321,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.32
+  },
+  {
+   "route_id": 134,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1325,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.52
+  },
+  {
+   "route_id": 135,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1325,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.13
+  },
+  {
+   "route_id": 141,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1329,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.57
+  },
+  {
+   "route_id": 142,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 1001,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1330,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.35
+  },
+  {
+   "route_id": 143,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1334,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.12
+  },
+  {
+   "route_id": 144,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1336,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.74
+  },
+  {
+   "route_id": 145,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_Z_S",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1340,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.88
+  },
+  {
+   "route_id": 146,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1344,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.18
+  },
+  {
+   "route_id": 147,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 1342,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 5.2
+  },
+  {
+   "route_id": 160,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 1001,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 7,
+   "commit_delta": 7,
+   "total_after": 1349,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 6.04
+  },
+  {
+   "route_id": 161,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1349,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 5.16
+  },
+  {
+   "route_id": 162,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 8,
+   "commit_delta": 8,
+   "total_after": 1357,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.98
+  },
+  {
+   "route_id": 163,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 7,
+   "commit_delta": 7,
+   "total_after": 1364,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.35
+  },
+  {
+   "route_id": 164,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S_Z",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1366,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.59
+  },
+  {
+   "route_id": 165,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 3,
+   "commit_delta": 3,
+   "total_after": 1369,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.29
+  },
+  {
+   "route_id": 201,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1369,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.55
+  },
+  {
+   "route_id": 202,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1369,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.1
+  },
+  {
+   "route_id": 203,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 1001,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": -1,
+   "commit_delta": -1,
+   "total_after": 1368,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.65
+  },
+  {
+   "route_id": 204,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 1366,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.48
+  },
+  {
+   "route_id": 207,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1368,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.05
+  },
+  {
+   "route_id": 208,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1368,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 6.27
+  },
+  {
+   "route_id": 219,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1368,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 5.14
+  },
+  {
+   "route_id": 220,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1368,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 6.19
+  },
+  {
+   "route_id": 221,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1368,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.68
+  },
+  {
+   "route_id": 225,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1368,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.3
+  },
+  {
+   "route_id": 227,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1370,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 13,
+     "legal": 13
+    }
+   ],
+   "seconds": 5.46
+  },
+  {
+   "route_id": 229,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1370,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.88
+  },
+  {
+   "route_id": 231,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1370,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.61
+  },
+  {
+   "route_id": 232,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1371,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.83
+  },
+  {
+   "route_id": 411,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1371,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.69
+  },
+  {
+   "route_id": 412,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 11,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1371,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.2
+  },
+  {
+   "route_id": 413,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1371,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 13,
+     "legal": 13
+    }
+   ],
+   "seconds": 5.3
+  },
+  {
+   "route_id": 417,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1371,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.94
+  },
+  {
+   "route_id": 418,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1373,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 5.9
+  },
+  {
+   "route_id": 419,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1375,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.04
+  },
+  {
+   "route_id": 420,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1375,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.0
+  },
+  {
+   "route_id": 422,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1377,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.2
+  },
+  {
+   "route_id": 423,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1379,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.28
+  },
+  {
+   "route_id": 424,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 3,
+   "commit_delta": 3,
+   "total_after": 1382,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.17
+  },
+  {
+   "route_id": 425,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S_Z",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1382,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.77
+  },
+  {
+   "route_id": 430,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1383,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.45
+  },
+  {
+   "route_id": 432,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1383,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.26
+  },
+  {
+   "route_id": 433,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1383,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.12
+  },
+  {
+   "route_id": 434,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1384,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.87
+  },
+  {
+   "route_id": 435,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1384,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.24
+  },
+  {
+   "route_id": 436,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 5,
+   "new_layer": 5,
+   "old_z_mm": -0.175,
+   "new_z_mm": -0.175,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1388,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.8
+  },
+  {
+   "route_id": 437,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1389,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.88
+  },
+  {
+   "route_id": 441,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1389,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.25
+  },
+  {
+   "route_id": 443,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1390,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.53
+  },
+  {
+   "route_id": 444,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1392,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 13,
+     "legal": 13
+    }
+   ],
+   "seconds": 5.23
+  },
+  {
+   "route_id": 445,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1394,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.96
+  },
+  {
+   "route_id": 446,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1394,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.84
+  },
+  {
+   "route_id": 447,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1398,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.02
+  },
+  {
+   "route_id": 454,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1400,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.69
+  },
+  {
+   "route_id": 455,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1404,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.67
+  },
+  {
+   "route_id": 456,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1404,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.88
+  },
+  {
+   "route_id": 457,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1408,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 5.31
+  },
+  {
+   "route_id": 458,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1409,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.04
+  },
+  {
+   "route_id": 459,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1409,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 5.01
+  },
+  {
+   "route_id": 461,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 1,
+   "commit_delta": 1,
+   "total_after": 1410,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.95
+  },
+  {
+   "route_id": 465,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1410,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.77
+  },
+  {
+   "route_id": 466,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1410,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.27
+  },
+  {
+   "route_id": 467,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1410,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.56
+  },
+  {
+   "route_id": 468,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6c"
+   ],
+   "old_layer": 2,
+   "new_layer": 2,
+   "old_z_mm": -0.325,
+   "new_z_mm": -0.325,
+   "family": "OPP_S_Z",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1410,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.06
+  },
+  {
+   "route_id": 469,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1412,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.98
+  },
+  {
+   "route_id": 477,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6c"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S_Z",
+   "delta": 3,
+   "commit_delta": 3,
+   "total_after": 1415,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 5.1
+  },
+  {
+   "route_id": 478,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1419,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 5.43
+  },
+  {
+   "route_id": 479,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1423,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.73
+  },
+  {
+   "route_id": 480,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1425,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 4.95
+  },
+  {
+   "route_id": 481,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1427,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.07
+  },
+  {
+   "route_id": 482,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1429,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 13,
+     "legal": 13
+    }
+   ],
+   "seconds": 4.74
+  },
+  {
+   "route_id": 483,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1429,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.32
+  },
+  {
+   "route_id": 484,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1429,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.0
+  },
+  {
+   "route_id": 485,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1429,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.79
+  },
+  {
+   "route_id": 490,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1429,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.98
+  },
+  {
+   "route_id": 491,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1429,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.29
+  },
+  {
+   "route_id": 501,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6c"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S_Z",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1431,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.49
+  },
+  {
+   "route_id": 502,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1435,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.91
+  },
+  {
+   "route_id": 503,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S_Z",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1439,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 13,
+     "legal": 13
+    }
+   ],
+   "seconds": 4.28
+  },
+  {
+   "route_id": 504,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 1001,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1441,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.43
+  },
+  {
+   "route_id": 505,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1445,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.01
+  },
+  {
+   "route_id": 506,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1449,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.6
+  },
+  {
+   "route_id": 508,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1449,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 13,
+     "legal": 13
+    }
+   ],
+   "seconds": 4.42
+  },
+  {
+   "route_id": 509,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6a"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_S2_SPLIT",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1449,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.54
+  }
+ ],
+ "validation": {
+  "exit_code": 2,
+  "seconds": 0.31,
+  "validation_pass": null,
+  "geometry_pass": null,
+  "contract_pass": null,
+  "violation_count": null,
+  "model_plane_count": null,
+  "model_source": null,
+  "routed": null,
+  "failed": null,
+  "same_plane_crossings": null,
+  "crossing_pairs": null,
+  "min_3d_clearance_mm": null,
+  "min_non_crossing_centerline_mm": null,
+  "min_flat_arc_radius_mm": null,
+  "min_transition_sampled_radius_mm": null,
+  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a",
+  "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a\\validation_xyz",
+  "validation_json": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a\\validation_xyz\\validation.json",
+  "validator_log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a\\validation_xyz\\validator.log",
+  "manual_policy": "fully_optimizable",
+  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative"
+ },
+ "planner": {
+  "max_target_layers": 3,
+  "max_lead_pairs": 2,
+  "prescreen_candidates": 160,
+  "max_candidates": 320,
+  "d56_top": 16,
+  "bodies_per_pair": 2,
+  "max_return": 4
+ },
+ "planner_escalation": {
+  "max_target_layers": 20,
+  "max_lead_pairs": 6,
+  "max_return": 8,
+  "prescreen_candidates": 640,
+  "max_candidates": 2560,
+  "d56_top": 64,
+  "max_combos": 4096
+ },
+ "classifier": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\four_side_1024\\fanout1024\\patent_structures.py",
+ "structure_counters": {
+  "6a": {
+   "bodies_built": 33320,
+   "d56_valid": 0,
+   "bodies_filtered": 33320
+  },
+  "6b": {
+   "bodies_built": 38973,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6c": {
+   "bodies_built": 75140,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6d": {
+   "bodies_built": 67204,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7a": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7b": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7c": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  }
+ }
+}

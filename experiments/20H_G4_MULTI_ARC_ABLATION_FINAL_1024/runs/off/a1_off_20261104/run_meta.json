@@ -1,0 +1,159 @@
+{
+ "schema": "coldstart20_multiarc_run_meta_v1",
+ "arm": "off",
+ "tag": "a1_off_20261104",
+ "kind": "auxiliary",
+ "seed": 20261104,
+ "g4_enable_multi_arc": "0",
+ "profile": "20_height_raised",
+ "plane_count": 20,
+ "start_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\common_start_off",
+ "start_routes_sha256": "a84acdbdbb311a674226f0df5440f1a7bb62a342e97001f1f57cce4be83a63ee",
+ "start_crossings": 4548,
+ "start_crossings_before_conversion": 1395,
+ "start_multi_arc_regions": 0,
+ "out_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\a1_off_20261104",
+ "engine_arm": "G4c_free",
+ "engine_argv": [
+  "--arm",
+  "G4c_free",
+  "--seconds",
+  "900.0",
+  "--seed",
+  "20261104",
+  "--start-dir",
+  "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\common_start_off",
+  "--out-dir",
+  "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\a1_off_20261104",
+  "--tag",
+  "a1_off_20261104"
+ ],
+ "budget": {
+  "counted_d56_budget": 0,
+  "counted_checks_guard": 0,
+  "wall_seconds": 900.0,
+  "counted_sweep_fraction": 0.18,
+  "stage_sizes": [
+   8,
+   16,
+   32,
+   64
+  ],
+  "stage_fractions": [
+   0.22,
+   0.24,
+   0.26,
+   0.28
+  ],
+  "stop_rule": "wall_seconds >= 900 (engine stage schedule by wall fractions)"
+ },
+ "ledger": {
+  "d56_candidate_evals": 10196,
+  "route_3d_checks": 1200,
+  "xy_candidates_generated": 1136,
+  "valid_candidates": 822,
+  "rejected_3d": 318,
+  "accepted_changes": 32,
+  "transactions": 113,
+  "wall_seconds": 966.54
+ },
+ "counted_budget": {
+  "d56_target": null,
+  "d56_base": 0,
+  "checks_guard": null,
+  "d56_used": null,
+  "checks_used": 1200,
+  "sweep_fraction": 0.18
+ },
+ "summary": {
+  "crossings": 4216,
+  "crossing_pairs": 3215,
+  "routes_with_crossings": 929,
+  "max_route_crossings": 56,
+  "total_length_mm": 164991.758279,
+  "start_crossings": 4548,
+  "delta_vs_start": -332
+ },
+ "audit": {
+  "crossings": 4216,
+  "crossing_pairs": 3215,
+  "routes_with_crossings": 929,
+  "max_route_crossings": 56,
+  "total_length_mm": 164991.758279,
+  "multi_arc_regions": 0,
+  "multi_arc_routes": 0,
+  "routes_sha256": "498d9fec629aa241e5fb7efdf4bb2998f46480c90070364da702fe209768547b",
+  "state_total_matches_audit": true
+ },
+ "engine": {
+  "exit_code": 0,
+  "seconds": 966.76,
+  "error": null
+ },
+ "validator": {
+  "exit_code": 0,
+  "seconds": 35.58,
+  "validation_pass": true,
+  "geometry_pass": true,
+  "contract_pass": true,
+  "violation_count": 0,
+  "model_plane_count": 20,
+  "model_source": "layer_planes.json",
+  "routed": 1024,
+  "failed": 0,
+  "same_plane_crossings": 4216,
+  "crossing_pairs": 3215,
+  "min_3d_clearance_mm": 0.062212557,
+  "min_non_crossing_centerline_mm": 0.094709387,
+  "min_flat_arc_radius_mm": 15.0,
+  "min_transition_sampled_radius_mm": 14.99999998,
+  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\a1_off_20261104\\best_valid",
+  "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\a1_off_20261104\\validation_final",
+  "validation_json": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\a1_off_20261104\\validation_final\\validation.json",
+  "validator_log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\a1_off_20261104\\validation_final\\validator.log",
+  "manual_policy": "fully_optimizable",
+  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative"
+ },
+ "engine_validator": {
+  "validation_pass": true,
+  "violation_count": 0,
+  "model_plane_count": 20
+ },
+ "gates": {
+  "routed_1024": true,
+  "validator_pass": true,
+  "engine_validator_pass": true,
+  "violations_zero": true,
+  "model_height_count_20": true,
+  "engine_exit_zero": true,
+  "radius_ok": true,
+  "clearance_ok": true,
+  "d56_centerline_ok": true,
+  "multi_arc_absent_for_off": true,
+  "consistency": {
+   "validator_crossings_equals_audit": true,
+   "audit_routes_sha256_equals_best_valid": true
+  },
+  "all_ok": true
+ },
+ "protocol": {
+  "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\PROTOCOL.md",
+  "present": true,
+  "sha256": "a76745e44c429b057a98a946122b1959bc6a4d5064eade363231a84ec6a9b8da"
+ },
+ "source_snapshot": {
+  "four_side_1024\\fanout1024\\coldstart20\\run_multiarc.py": "4be7b8c1fa8d2e001c25a0acc8df417c824bf8229f3cb965af2d12e50df93318",
+  "four_side_1024\\fanout1024\\coldstart20\\convert_multiarc20.py": "f6a7d4604068eb55663be357f5abc9e1dcfb9bf396400598377221c6be3acdd0",
+  "four_side_1024\\fanout1024\\layer2d.py": "75786a7907909c38593f16413ac622f9a440d26382472411c64156dfcc892522",
+  "four_side_1024\\fanout1024\\xyzrouter\\local_reroute.py": "f386e537e533ac1db6dce2663424e60bab702d23998b7d85a14fb0f449144496",
+  "four_side_1024\\fanout1024\\xyzrouter\\g4\\alns.py": "c43dd040683791e2599f216f69c015c602733a612910eb881801f0557db8e1d0",
+  "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4_engine.py": "8960c0e0f6b9aafec3b367798ad87ff68f4a78a49dfcd2379a3a60fef7a86a6c",
+  "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4c.py": "c012653db960e2b1d4e9ab44f19e7050ad32585865da66c4faba9350a1ef53f6",
+  "four_side_1024\\fanout1024\\coldstart20\\bootstrap.py": "13400e727eb40eb1710307d5c4417d02249966152fc765cf12a8928a551a3a6a",
+  "four_side_1024\\fanout1024\\coldstart20\\model20.py": "3afd35b193c32bf858f55f6897246bcd332b9fd74ea68c1db1e4a41bae6fe489"
+ },
+ "python": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\.venv\\Scripts\\python.exe",
+ "host": "LI_HAOLUN",
+ "started_at": "",
+ "finished_at": "2026-11-18T19:54:25"
+}

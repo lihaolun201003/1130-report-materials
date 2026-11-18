@@ -1,0 +1,41 @@
+state,order_index,plane_id,label,z_mm,kind,role,is_interface,crossings,crossing_pairs,routes_with_body,body_parts,body_arcs,multi_arc_regions,interface_lead_parts,events_from_events,pairs_from_events,routes_from_events,exact_z_match,counts_source
+OFF,1,2,L2,-0.325,body,Z1-U1,False,184,139,43,43,98,0,0,184,139,40,True,authoritative
+OFF,2,3,L3,-0.275,body,Z1-U2,False,174,149,70,70,158,0,0,174,149,63,True,authoritative
+OFF,3,4,L4,-0.225,body,Z1-U3,False,178,160,71,71,154,0,0,178,160,67,True,authoritative
+OFF,4,5,L5,-0.175,body,Z1-U4,False,182,144,96,96,206,0,0,182,144,82,True,authoritative
+OFF,5,6,L6,-0.125,body,Z1 other opposite,False,400,280,44,54,106,0,2,400,280,44,True,authoritative
+OFF,6,7,L7,-0.075,body,Z1 other opposite,False,327,221,35,41,90,0,5,327,221,37,True,authoritative
+OFF,7,20,L20,-0.025,body,Z1 other opposite,False,257,181,35,38,94,0,7,257,181,38,True,authoritative
+OFF,8,1001,Z1_INTERFACE,0.025,interface_body,Z1 other opposite (direct 2D),True,339,233,32,32,90,0,966,339,233,32,True,authoritative
+OFF,9,8,L8,0.075,body,Z1 other opposite,False,335,208,39,44,95,0,0,335,208,38,True,authoritative
+OFF,10,9,L9,0.125,body,Z2 other adjacent,False,166,146,53,53,62,0,4,166,146,49,True,authoritative
+OFF,11,10,L10,0.175,body,Z2-U1,False,196,173,42,42,107,0,0,196,173,42,True,authoritative
+OFF,12,11,L11,0.225,body,Z2-U2,False,214,183,44,44,104,0,0,214,183,44,True,authoritative
+OFF,13,12,L12,0.275,body,Z2-U3,False,186,122,54,54,125,0,0,186,122,35,True,authoritative
+OFF,14,13,L13,0.325,body,Z2-U4,False,171,143,54,54,127,0,0,171,143,46,True,authoritative
+OFF,15,14,L14,0.375,body,Z2 other adjacent,False,95,95,48,48,48,0,0,95,95,41,True,authoritative
+OFF,16,15,L15,0.425,body,Z2 other adjacent,False,107,97,54,54,61,0,0,107,97,49,True,authoritative
+OFF,17,16,L16,0.475,body,Z2 other adjacent,False,113,100,49,49,51,0,0,113,100,42,True,authoritative
+OFF,18,1002,Z2_INTERFACE,0.525,interface_body,Z2 other adjacent (direct 2D),True,107,97,51,51,54,0,923,107,97,48,True,authoritative
+OFF,19,17,L17,0.575,body,Z2 other adjacent,False,142,129,59,60,61,0,0,142,129,56,True,authoritative
+OFF,20,18,L18,0.625,body,Z2 other adjacent,False,107,107,51,51,51,0,0,107,107,46,True,authoritative
+02_g4d-best_valid,1,2,L2,-0.325,body,Z1-U1,False,2,2,36,36,68,1,0,2,2,3,True,authoritative
+02_g4d-best_valid,2,3,L3,-0.275,body,Z1-U2,False,25,25,64,64,128,0,0,25,25,27,True,authoritative
+02_g4d-best_valid,3,4,L4,-0.225,body,Z1-U3,False,0,0,65,65,130,0,0,0,0,0,True,authoritative
+02_g4d-best_valid,4,5,L5,-0.175,body,Z1-U4,False,4,2,91,91,182,2,0,4,2,4,True,authoritative
+02_g4d-best_valid,5,6,L6,-0.125,body,Z1 other opposite,False,102,96,53,65,108,33,4,102,96,46,True,authoritative
+02_g4d-best_valid,6,7,L7,-0.075,body,Z1 other opposite,False,71,63,51,60,120,37,7,71,63,42,True,authoritative
+02_g4d-best_valid,7,20,L20,-0.025,body,Z1 other opposite,False,73,66,40,44,94,23,8,73,66,35,True,authoritative
+02_g4d-best_valid,8,1001,Z1_INTERFACE,0.025,interface_body,Z1 other opposite (direct 2D),True,76,71,43,43,96,29,953,76,71,37,True,authoritative
+02_g4d-best_valid,9,8,L8,0.075,body,Z1 other opposite,False,64,56,46,64,87,29,0,64,56,35,True,authoritative
+02_g4d-best_valid,10,9,L9,0.125,body,Z2 other adjacent,False,108,105,51,51,54,0,9,108,105,47,True,authoritative
+02_g4d-best_valid,11,10,L10,0.175,body,Z2-U1,False,85,78,42,42,119,24,0,85,78,42,True,authoritative
+02_g4d-best_valid,12,11,L11,0.225,body,Z2-U2,False,98,91,42,42,106,17,0,98,91,34,True,authoritative
+02_g4d-best_valid,13,12,L12,0.275,body,Z2-U3,False,33,32,50,50,110,2,0,33,32,17,True,authoritative
+02_g4d-best_valid,14,13,L13,0.325,body,Z2-U4,False,56,54,51,51,114,6,0,56,54,32,True,authoritative
+02_g4d-best_valid,15,14,L14,0.375,body,Z2 other adjacent,False,77,77,47,47,49,1,0,77,77,40,True,authoritative
+02_g4d-best_valid,16,15,L15,0.425,body,Z2 other adjacent,False,90,84,53,53,61,1,0,90,84,48,True,authoritative
+02_g4d-best_valid,17,16,L16,0.475,body,Z2 other adjacent,False,71,71,46,46,48,1,0,71,71,38,True,authoritative
+02_g4d-best_valid,18,1002,Z2_INTERFACE,0.525,interface_body,Z2 other adjacent (direct 2D),True,95,86,50,50,59,3,924,95,86,43,True,authoritative
+02_g4d-best_valid,19,17,L17,0.575,body,Z2 other adjacent,False,97,97,56,56,56,0,0,97,97,52,True,authoritative
+02_g4d-best_valid,20,18,L18,0.625,body,Z2 other adjacent,False,78,78,47,47,49,1,0,78,78,42,True,authoritative

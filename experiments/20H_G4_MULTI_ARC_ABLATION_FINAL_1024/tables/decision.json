@@ -1,0 +1,18 @@
+{
+ "rule": "A: 3/3 seeds ON<OFF and paired mean gap >= max(200, 5 % of common-start crossings) and ON total length increase <= 5 % and all hard gates pass; C: paired mean gap <= 0 or direction inconsistent; B: otherwise",
+ "effect_floor_crossings": 227.0,
+ "effect_floor_abs": 200,
+ "effect_floor_ratio": 0.05,
+ "mean_paired_gap": -1937.666667,
+ "seeds_on_better": 3,
+ "seeds_off_better": 0,
+ "n_seeds": 3,
+ "relative_length_change": -0.046919,
+ "all_hard_gates_pass": true,
+ "all_runs_valid": true,
+ "verdict": "A",
+ "reasons": [
+  "3/3 seeds ON<OFF, paired mean gap -1937.7 >= floor 227.0, length change -4.69 %, all hard gates pass"
+ ],
+ "caveat": "exploratory statistics (3 seeds, no significance test, single machine); conclusions hold only for the frozen D56 candidate grammar and this 20H start"
+}

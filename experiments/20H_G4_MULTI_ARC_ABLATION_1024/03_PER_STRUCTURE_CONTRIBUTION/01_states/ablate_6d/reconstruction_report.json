@@ -1,0 +1,149 @@
+{
+ "schema": "g4_structure_reconstruction_v1",
+ "label": "Ablation-6d",
+ "profile": "20_height_raised",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+ "start_routes_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "start_assignment_sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+ "start_crossings": 1283,
+ "disabled_structures": [
+  "6d"
+ ],
+ "all_multi_arc": false,
+ "targets": 1,
+ "rebuilt": 1,
+ "residual": 0,
+ "residual_route_ids": [],
+ "remaining_with_disabled": [],
+ "crossings_after": 1286,
+ "crossing_delta": 3,
+ "total_length_mm": 156565.952559,
+ "seconds": 22.14,
+ "ledger": {
+  "route_3d_checks": 13,
+  "d56_candidate_evals": 128,
+  "xy_candidates_generated": 12,
+  "transactions": 1,
+  "world_builds": 0,
+  "valid_candidates": 12,
+  "rejected_3d": 0,
+  "accepted_transactions": 1,
+  "accepted_changes": 1,
+  "gain": 0,
+  "validator_runs": 0,
+  "no_candidate": 2,
+  "rolled_back": 0,
+  "wall_seconds": 0
+ },
+ "routes_sha256": "d4030861550ba48f3919589edb5ea63352232b52923baf11399b4b2d79cdf588",
+ "assignment_sha256": "f14e1bc93d96464a159f7f5749a17c9a8ce372c3ebf42b9936754c9abe688d10",
+ "records": [
+  {
+   "route_id": 31,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "6d"
+   ],
+   "new_types": [
+    "6b"
+   ],
+   "old_layer": 10,
+   "new_layer": 11,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.225,
+   "family": "OPP_S2_SPLIT",
+   "delta": 3,
+   "commit_delta": 3,
+   "total_after": 1286,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 10.63
+  }
+ ],
+ "validation": {
+  "exit_code": 2,
+  "seconds": 0.62,
+  "validation_pass": null,
+  "geometry_pass": null,
+  "contract_pass": null,
+  "violation_count": null,
+  "model_plane_count": null,
+  "model_source": null,
+  "routed": null,
+  "failed": null,
+  "same_plane_crossings": null,
+  "crossing_pairs": null,
+  "min_3d_clearance_mm": null,
+  "min_non_crossing_centerline_mm": null,
+  "min_flat_arc_radius_mm": null,
+  "min_transition_sampled_radius_mm": null,
+  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d",
+  "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d\\validation_xyz",
+  "validation_json": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d\\validation_xyz\\validation.json",
+  "validator_log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d\\validation_xyz\\validator.log",
+  "manual_policy": "fully_optimizable",
+  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative"
+ },
+ "planner": {
+  "max_target_layers": 3,
+  "max_lead_pairs": 2,
+  "prescreen_candidates": 160,
+  "max_candidates": 320,
+  "d56_top": 16,
+  "bodies_per_pair": 2,
+  "max_return": 4
+ },
+ "planner_escalation": {
+  "max_target_layers": 20,
+  "max_lead_pairs": 6,
+  "max_return": 8,
+  "prescreen_candidates": 640,
+  "max_candidates": 2560,
+  "d56_top": 64,
+  "max_combos": 4096
+ },
+ "classifier": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\four_side_1024\\fanout1024\\patent_structures.py",
+ "structure_counters": {
+  "6a": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6b": {
+   "bodies_built": 96,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6c": {
+   "bodies_built": 896,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6d": {
+   "bodies_built": 448,
+   "d56_valid": 0,
+   "bodies_filtered": 448
+  },
+  "7a": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7b": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7c": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  }
+ }
+}

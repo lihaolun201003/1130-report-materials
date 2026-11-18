@@ -1,0 +1,125 @@
+[2026-11-18T18:08:39] ==============================================================================
+[2026-11-18T18:08:39] [convert] profile=20_height_raised planes=20 interfaces={'z1': 0.025, 'z2': 0.525}
+[2026-11-18T18:08:39] [convert] multi_arc_enabled=False (source=env:G4_ENABLE_MULTI_ARC)
+[2026-11-18T18:08:39] [convert] start=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\best_valid
+[2026-11-18T18:08:39] [convert] out=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\common_start_off
+[2026-11-18T18:08:39] [arm] start C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\best_valid sha256=a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf crossings=1395
+[2026-11-18T18:08:39] [arm] start fingerprint OK (verified G3 legal optimum)
+[2026-11-18T18:08:44] [arm] loaded state routes=1024 crossings=1395 (1.90s)
+[2026-11-18T18:08:44] [convert] start crossings=1395 routes=1024 sha256=a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf
+[2026-11-18T18:08:44] [convert] routes with a planar multi-arc region in the start geometry: 213 (recomputed for 20H; the 21H value 197 is not assumed)
+[2026-11-18T18:09:54] [convert] 20/213 converted=20 total=1728 residual=0 (76s)
+[2026-11-18T18:11:04] [convert] 40/213 converted=40 total=2095 residual=0 (145s)
+[2026-11-18T18:12:15] [convert] 60/213 converted=60 total=2491 residual=0 (216s)
+[2026-11-18T18:13:23] [convert] 80/213 converted=80 total=2790 residual=0 (285s)
+[2026-11-18T18:14:37] [convert] 100/213 converted=100 total=3126 residual=0 (358s)
+[2026-11-18T18:16:00] [convert] 120/213 converted=120 total=3535 residual=0 (442s)
+[2026-11-18T18:17:51] [convert] 140/213 converted=140 total=3892 residual=0 (553s)
+[2026-11-18T18:20:11] [convert] 160/213 converted=160 total=4265 residual=0 (692s)
+[2026-11-18T18:22:17] [convert] 180/213 converted=180 total=4514 residual=0 (818s)
+[2026-11-18T18:24:16] [convert] 200/213 converted=200 total=4537 residual=0 (938s)
+[2026-11-18T18:25:15] [convert] done converted=213 residual=0 errors=0 multi_arc_left=0 total=1395->4548 non_target_changed=0 routes=1024
+[2026-11-18T18:25:24] [convert] independent validator (fresh 20H process): baseline=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative
+[2026-11-18T18:25:56] [convert] validator exit=0 pass=True violations=0 model_planes=20
+[2026-11-18T18:25:56] [convert] diagnostic validate21 (non-blocking) ...
+[2026-11-18T18:26:28] [convert] validate21 exit=1 pass=False violations=578
+[2026-11-18T18:26:28] [convert] report C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\common_start_off\conversion_report.json feasible=True A(crossings)=+3153
+[2026-11-18T18:26:28] [convert] validation pass=True
+[validate21] run_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\common_start_off model=21h planes=20 min_pitch=0.04999999999999993
+  records=1024 routed=1024 failed=0 direct=93 transitions=1916
+  structure   violations=317
+  radius      violations=0
+  glass       violations=0
+  clearance   violations=0
+  ports       violations=0
+  assignment  violations=0
+  crossings   violations=0
+  model_violations=0 contract_violations=261
+  crossings_total=4548 pairs=3378 audited_heights=20
+  min_3d_clearance=0.062212557 mm min_radius=15.0 mm
+  consistency_tests=11 passed=True failed=[]
+  geometry_pass=False contract_pass=False validation_pass=False violations=578 runtime=31.89s
+  wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\common_start_off\validation21\validation.json
+  wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\common_start_off\validation21\validator_consistency_tests.json
+  wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\common_start_off\validation21\crossing_stats.json
+{
+ "schema": "coldstart20_validation_runner_v1",
+ "profile": "20_height_raised",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\common_start_off",
+ "elapsed_s": 31.9,
+ "exit_code": 1,
+ "validation_pass": false,
+ "geometry_pass": false,
+ "contract_pass": false,
+ "validator_consistency_passed": true,
+ "counts": {
+  "routed": 1024,
+  "failed": 0,
+  "min_3d_clearance_mm": 0.062212557
+ },
+ "crossing_totals": {
+  "records": 1024,
+  "routed": 1024,
+  "failed": 0,
+  "routed_by_plane": {
+   "z1": 512,
+   "z2": 512
+  },
+  "direct_routes": 93,
+  "direct_by_interface_plane": {
+   "1001": 38,
+   "1002": 55
+  },
+  "non_direct_routes": 931,
+  "transitions": 1916,
+  "transition_total_length_mm": 6054.798753192,
+  "total_length_mm": 164949.026942592,
+  "max_route_length_mm": 293.610407509,
+  "flat_arc_count": 1946,
+  "min_flat_arc_radius_mm": 15.0,
+  "min_transition_sampled_radius_mm": 14.999999980101123,
+  "min_3d_clearance_mm": 0.062212557,
+  "min_3d_clearance_lower_bound_mm": 0.05,
+  "same_plane_crossings": 4548,
+  "same_plane_crossing_pairs": 3378,
+  "same_plane_crossing_violations": 0,
+  "min_non_crossing_centerline_mm": 0.094709387,
+  "per_route_crossing_distribution": {
+   "routes": 738,
+   "max": 58,
+   "p95": 39.0,
+   "mean": 12.325203,
+   "median": 7.0,
+   "routes_with_crossings": 738
+  },
+  "planes_audited": 20,
+  "min_centerline_glass_margin_mm": 0.0,
+  "min_edge_glass_margin_mm": -0.025,
+  "violation_total": 578
+ },
+ "violations_total": 578,
+ "violation_counts_by_check": {
+  "assignment": 256,
+  "structure": 317,
+  "totals": 5
+ },
+ "report_path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\common_start_off\\validation.json",
+ "crossing_stats_path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\common_start_off\\crossing_stats.json"
+}
+[2026-11-18T18:26:28] [convert] validate21 exit=1 pass=False violations=578
+[2026-11-18T18:26:28] [convert] report C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\common_start_off\conversion_report.json feasible=True A(crossings)=+3153
+[2026-11-18T18:26:28] [convert] validation pass=True
+{
+ "feasible": true,
+ "multi_arc_routes_before": 213,
+ "converted": 213,
+ "residual": 0,
+ "multi_arc_routes_after": 0,
+ "start_crossings": 1395,
+ "crossings_after": 4548,
+ "crossing_delta_from_start": 3153,
+ "total_length_mm": 164949.026943,
+ "routes_sha256": "a84acdbdbb311a674226f0df5440f1a7bb62a342e97001f1f57cce4be83a63ee",
+ "validation_pass": true
+}
+[convert] OFF common start FEASIBLE: crossings 1395 -> 4548 (A=+3153), multi_arc 213 -> 0, converted 213, residual 0

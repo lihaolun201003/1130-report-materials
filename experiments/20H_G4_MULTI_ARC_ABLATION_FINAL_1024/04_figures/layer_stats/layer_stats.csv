@@ -1,0 +1,41 @@
+state,order_index,plane_id,label,z_mm,kind,role,is_interface,crossings,crossing_pairs,routes_with_body,body_parts,body_arcs,multi_arc_regions,interface_lead_parts,events_from_events,pairs_from_events,routes_from_events,exact_z_match,counts_source
+OFF,1,2,L2,-0.325,body,Z1-U1,False,213,166,44,44,102,0,0,213,166,44,True,authoritative
+OFF,2,3,L3,-0.275,body,Z1-U2,False,119,98,68,68,150,0,0,119,98,54,True,authoritative
+OFF,3,4,L4,-0.225,body,Z1-U3,False,150,138,70,70,150,0,0,150,138,66,True,authoritative
+OFF,4,5,L5,-0.175,body,Z1-U4,False,159,133,95,95,202,0,0,159,133,81,True,authoritative
+OFF,5,6,L6,-0.125,body,Z1 other opposite,False,399,276,44,54,106,0,2,399,276,45,True,authoritative
+OFF,6,7,L7,-0.075,body,Z1 other opposite,False,420,267,38,44,102,0,5,420,267,40,True,authoritative
+OFF,7,20,L20,-0.025,body,Z1 other opposite,False,316,218,37,39,106,0,7,316,218,43,True,authoritative
+OFF,8,1001,Z1_INTERFACE,0.025,interface_body,Z1 other opposite (direct 2D),True,331,219,31,31,84,0,969,331,219,33,True,authoritative
+OFF,9,8,L8,0.075,body,Z1 other opposite,False,384,242,41,48,101,0,0,384,242,40,True,authoritative
+OFF,10,9,L9,0.125,body,Z2 other adjacent,False,162,142,53,53,60,0,4,162,142,49,True,authoritative
+OFF,11,10,L10,0.175,body,Z2-U1,False,227,201,43,43,111,0,0,227,201,43,True,authoritative
+OFF,12,11,L11,0.225,body,Z2-U2,False,216,184,44,44,101,0,0,216,184,44,True,authoritative
+OFF,13,12,L12,0.275,body,Z2-U3,False,157,106,53,53,121,0,0,157,106,34,True,authoritative
+OFF,14,13,L13,0.325,body,Z2-U4,False,136,119,52,52,119,0,0,136,119,44,True,authoritative
+OFF,15,14,L14,0.375,body,Z2 other adjacent,False,95,95,48,48,48,0,0,95,95,41,True,authoritative
+OFF,16,15,L15,0.425,body,Z2 other adjacent,False,107,97,54,54,61,0,0,107,97,49,True,authoritative
+OFF,17,16,L16,0.475,body,Z2 other adjacent,False,113,100,49,49,51,0,0,113,100,42,True,authoritative
+OFF,18,1002,Z2_INTERFACE,0.525,interface_body,Z2 other adjacent (direct 2D),True,132,121,53,53,56,0,919,132,121,50,True,authoritative
+OFF,19,17,L17,0.575,body,Z2 other adjacent,False,128,116,58,59,60,0,0,128,116,55,True,authoritative
+OFF,20,18,L18,0.625,body,Z2 other adjacent,False,88,88,49,49,49,0,0,88,88,44,True,authoritative
+c1_on_20261116-best_valid,1,2,L2,-0.325,body,Z1-U1,False,108,106,44,44,96,9,0,108,106,44,True,authoritative
+c1_on_20261116-best_valid,2,3,L3,-0.275,body,Z1-U2,False,54,42,69,69,146,9,0,54,42,27,True,authoritative
+c1_on_20261116-best_valid,3,4,L4,-0.225,body,Z1-U3,False,97,61,71,71,146,6,0,97,61,30,True,authoritative
+c1_on_20261116-best_valid,4,5,L5,-0.175,body,Z1-U4,False,87,71,94,94,194,5,0,87,71,49,True,authoritative
+c1_on_20261116-best_valid,5,6,L6,-0.125,body,Z1 other opposite,False,108,99,41,50,78,14,2,108,99,36,True,authoritative
+c1_on_20261116-best_valid,6,7,L7,-0.075,body,Z1 other opposite,False,133,118,44,46,98,25,5,133,118,39,True,authoritative
+c1_on_20261116-best_valid,7,20,L20,-0.025,body,Z1 other opposite,False,127,103,38,39,92,21,3,127,103,36,True,authoritative
+c1_on_20261116-best_valid,8,1001,Z1_INTERFACE,0.025,interface_body,Z1 other opposite (direct 2D),True,56,45,25,25,54,12,979,56,45,23,True,authoritative
+c1_on_20261116-best_valid,9,8,L8,0.075,body,Z1 other opposite,False,94,90,44,50,89,27,0,94,90,41,True,authoritative
+c1_on_20261116-best_valid,10,9,L9,0.125,body,Z2 other adjacent,False,107,104,51,51,56,1,3,107,104,46,True,authoritative
+c1_on_20261116-best_valid,11,10,L10,0.175,body,Z2-U1,False,152,142,42,42,99,6,0,152,142,39,True,authoritative
+c1_on_20261116-best_valid,12,11,L11,0.225,body,Z2-U2,False,158,144,43,43,107,11,0,158,144,39,True,authoritative
+c1_on_20261116-best_valid,13,12,L12,0.275,body,Z2-U3,False,99,81,56,56,123,10,0,99,81,28,True,authoritative
+c1_on_20261116-best_valid,14,13,L13,0.325,body,Z2-U4,False,85,74,53,53,120,6,0,85,74,34,True,authoritative
+c1_on_20261116-best_valid,15,14,L14,0.375,body,Z2 other adjacent,False,97,96,48,48,62,7,0,97,96,41,True,authoritative
+c1_on_20261116-best_valid,16,15,L15,0.425,body,Z2 other adjacent,False,117,102,54,54,85,12,0,117,102,49,True,authoritative
+c1_on_20261116-best_valid,17,16,L16,0.475,body,Z2 other adjacent,False,92,89,49,49,50,0,0,92,89,42,True,authoritative
+c1_on_20261116-best_valid,18,1002,Z2_INTERFACE,0.525,interface_body,Z2 other adjacent (direct 2D),True,112,106,53,53,54,0,918,112,106,46,True,authoritative
+c1_on_20261116-best_valid,19,17,L17,0.575,body,Z2 other adjacent,False,123,123,57,57,61,1,0,123,123,53,True,authoritative
+c1_on_20261116-best_valid,20,18,L18,0.625,body,Z2 other adjacent,False,87,87,48,48,50,1,0,87,87,43,True,authoritative

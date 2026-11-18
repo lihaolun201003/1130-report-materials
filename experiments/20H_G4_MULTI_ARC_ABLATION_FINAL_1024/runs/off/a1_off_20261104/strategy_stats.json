@@ -1,0 +1,7212 @@
+{
+ "arm": "G4c_free",
+ "ledger": {
+  "route_3d_checks": 1200,
+  "d56_candidate_evals": 10196,
+  "xy_candidates_generated": 1136,
+  "transactions": 113,
+  "world_builds": 0,
+  "valid_candidates": 822,
+  "rejected_3d": 318,
+  "accepted_transactions": 29,
+  "accepted_changes": 32,
+  "gain": 332,
+  "validator_runs": 1,
+  "no_candidate": 138,
+  "rolled_back": 84,
+  "wall_seconds": 966.54
+ },
+ "history_records": 29,
+ "transactions": 113,
+ "extra": {
+  "schema": "g4_strategy_stats_v1",
+  "arm": "G4c_free",
+  "manual_frozen": false,
+  "start_crossings": 4548,
+  "final_crossings": 4216,
+  "delta_vs_start": -332,
+  "accepts": 29,
+  "transactions": 113,
+  "transaction_history": [
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     479
+    ],
+    "old_total": 4548,
+    "total": 4534,
+    "delta": -14,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "479": {
+      "route_id": 479,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W13:1:10",
+      "target_endpoint": "E10:1:13",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       115.875
+      ],
+      "target_xy": [
+       150.0,
+       89.625
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 4,
+      "target_z_mm": -0.225,
+      "target_plane_label": "L8",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.049999999999999996,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.453,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.225": {
+      "old": 0,
+      "new": 40
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.075": {
+      "old": 667,
+      "new": 613
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     423
+    ],
+    "old_total": 4534,
+    "total": 4515,
+    "delta": -19,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "423": {
+      "route_id": 423,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W04:1:7",
+      "target_endpoint": "E07:1:4",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       34.125
+      ],
+      "target_xy": [
+       150.0,
+       60.375
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 5,
+      "target_z_mm": -0.175,
+      "target_plane_label": "L8",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.049999999999999996,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.404,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.175": {
+      "old": 0,
+      "new": 31
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.075": {
+      "old": 613,
+      "new": 563
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     454
+    ],
+    "old_total": 4515,
+    "total": 4489,
+    "delta": -26,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "454": {
+      "route_id": 454,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "S11:1:14",
+      "target_endpoint": "N14:1:11",
+      "source_side": "S",
+      "target_side": "N",
+      "source_xy": [
+       98.875,
+       0.0
+      ],
+      "target_xy": [
+       125.125,
+       150.0
+      ],
+      "source_inward": [
+       0.0,
+       1.0
+      ],
+      "target_inward": [
+       0.0,
+       -1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 3,
+      "target_z_mm": -0.275,
+      "target_plane_label": "L20",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.05,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.398,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.275": {
+      "old": 12,
+      "new": 38
+     },
+     "-0.025": {
+      "old": 500,
+      "new": 448
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     209
+    ],
+    "old_total": 4489,
+    "total": 4460,
+    "delta": -29,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "209": {
+      "route_id": 209,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W12:1:15",
+      "target_endpoint": "E15:1:12",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       108.125
+      ],
+      "target_xy": [
+       150.0,
+       134.375
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 3,
+      "target_z_mm": -0.275,
+      "target_plane_label": "L11",
+      "direction": "down",
+      "baseline_old_layer": 6,
+      "z_span_mm": 0.2,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.239,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.275": {
+      "old": 38,
+      "new": 57
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.225": {
+      "old": 351,
+      "new": 303
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     505
+    ],
+    "old_total": 4460,
+    "total": 4437,
+    "delta": -23,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "505": {
+      "route_id": 505,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "N11:1:9",
+      "target_endpoint": "S09:1:11",
+      "source_side": "N",
+      "target_side": "S",
+      "source_xy": [
+       97.625,
+       150.0
+      ],
+      "target_xy": [
+       80.125,
+       0.0
+      ],
+      "source_inward": [
+       0.0,
+       -1.0
+      ],
+      "target_inward": [
+       0.0,
+       1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 5,
+      "target_z_mm": -0.175,
+      "target_plane_label": "L8",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.049999999999999996,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.265,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.175": {
+      "old": 31,
+      "new": 53
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.075": {
+      "old": 563,
+      "new": 518
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     458
+    ],
+    "old_total": 4437,
+    "total": 4432,
+    "delta": -5,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "458": {
+      "route_id": 458,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W13:1:11",
+      "target_endpoint": "E11:1:13",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       116.125
+      ],
+      "target_xy": [
+       150.0,
+       98.625
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 13,
+      "target_z_mm": 0.325,
+      "target_plane_label": "L8",
+      "direction": "up",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.049999999999999996,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.339,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.075": {
+      "old": 518,
+      "new": 473
+     },
+     "0.325": {
+      "old": 54,
+      "new": 94
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     477
+    ],
+    "old_total": 4432,
+    "total": 4423,
+    "delta": -9,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "477": {
+      "route_id": 477,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "E04:1:7",
+      "target_endpoint": "W07:1:4",
+      "source_side": "E",
+      "target_side": "W",
+      "source_xy": [
+       150.0,
+       34.125
+      ],
+      "target_xy": [
+       0.0,
+       60.375
+      ],
+      "source_inward": [
+       -1.0,
+       0.0
+      ],
+      "target_inward": [
+       1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 4,
+      "target_z_mm": -0.225,
+      "target_plane_label": "L2",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.35000000000000003,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.367,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.325": {
+      "old": 362,
+      "new": 316
+     },
+     "-0.225": {
+      "old": 40,
+      "new": 77
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     232
+    ],
+    "old_total": 4423,
+    "total": 4412,
+    "delta": -11,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "232": {
+      "route_id": 232,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "S14:1:11",
+      "target_endpoint": "N11:1:14",
+      "source_side": "S",
+      "target_side": "N",
+      "source_xy": [
+       125.125,
+       0.0
+      ],
+      "target_xy": [
+       98.875,
+       150.0
+      ],
+      "source_inward": [
+       0.0,
+       1.0
+      ],
+      "target_inward": [
+       0.0,
+       -1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 3,
+      "target_z_mm": -0.275,
+      "target_plane_label": "L8",
+      "direction": "down",
+      "baseline_old_layer": 6,
+      "z_span_mm": 0.049999999999999996,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.511,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.275": {
+      "old": 57,
+      "new": 86
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.075": {
+      "old": 473,
+      "new": 433
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     457
+    ],
+    "old_total": 4412,
+    "total": 4405,
+    "delta": -7,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "457": {
+      "route_id": 457,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "N13:1:11",
+      "target_endpoint": "S11:1:13",
+      "source_side": "N",
+      "target_side": "S",
+      "source_xy": [
+       116.125,
+       150.0
+      ],
+      "target_xy": [
+       98.625,
+       0.0
+      ],
+      "source_inward": [
+       0.0,
+       -1.0
+      ],
+      "target_inward": [
+       0.0,
+       1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 3,
+      "target_z_mm": -0.275,
+      "target_plane_label": "L20",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.05,
+      "needs_transition": true
+     }
+    },
+    "seconds": 2.12,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.275": {
+      "old": 86,
+      "new": 122
+     },
+     "-0.025": {
+      "old": 448,
+      "new": 405
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     470
+    ],
+    "old_total": 4405,
+    "total": 4377,
+    "delta": -28,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "470": {
+      "route_id": 470,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W09:1:11",
+      "target_endpoint": "E11:1:9",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       80.125
+      ],
+      "target_xy": [
+       150.0,
+       97.625
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 12,
+      "target_z_mm": 0.275,
+      "target_plane_label": "L6",
+      "direction": "up",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.15,
+      "needs_transition": true
+     }
+    },
+    "seconds": 2.301,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.125": {
+      "old": 475,
+      "new": 430
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.275": {
+      "old": 48,
+      "new": 65
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     429
+    ],
+    "old_total": 4377,
+    "total": 4367,
+    "delta": -10,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "429": {
+      "route_id": 429,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "E02:1:5",
+      "target_endpoint": "W05:1:2",
+      "source_side": "E",
+      "target_side": "W",
+      "source_xy": [
+       150.0,
+       15.625
+      ],
+      "target_xy": [
+       0.0,
+       41.875
+      ],
+      "source_inward": [
+       -1.0,
+       0.0
+      ],
+      "target_inward": [
+       1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 5,
+      "target_z_mm": -0.175,
+      "target_plane_label": "L20",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.05,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.83,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.175": {
+      "old": 53,
+      "new": 85
+     },
+     "-0.025": {
+      "old": 405,
+      "new": 363
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     455
+    ],
+    "old_total": 4367,
+    "total": 4357,
+    "delta": -10,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "455": {
+      "route_id": 455,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "E11:1:14",
+      "target_endpoint": "W14:1:11",
+      "source_side": "E",
+      "target_side": "W",
+      "source_xy": [
+       150.0,
+       98.875
+      ],
+      "target_xy": [
+       0.0,
+       125.125
+      ],
+      "source_inward": [
+       -1.0,
+       0.0
+      ],
+      "target_inward": [
+       1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 4,
+      "target_z_mm": -0.225,
+      "target_plane_label": "L7",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.1,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.584,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.225": {
+      "old": 77,
+      "new": 111
+     },
+     "-0.075": {
+      "old": 590,
+      "new": 546
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     422
+    ],
+    "old_total": 4357,
+    "total": 4351,
+    "delta": -6,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "422": {
+      "route_id": 422,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W11:1:13",
+      "target_endpoint": "E13:1:11",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       98.625
+      ],
+      "target_xy": [
+       150.0,
+       116.125
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 12,
+      "target_z_mm": 0.275,
+      "target_plane_label": "L7",
+      "direction": "up",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.1,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.593,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.075": {
+      "old": 546,
+      "new": 506
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.275": {
+      "old": 65,
+      "new": 99
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     449
+    ],
+    "old_total": 4351,
+    "total": 4342,
+    "delta": -9,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "449": {
+      "route_id": 449,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W09:1:12",
+      "target_endpoint": "E12:1:9",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       80.375
+      ],
+      "target_xy": [
+       150.0,
+       106.625
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 5,
+      "target_z_mm": -0.175,
+      "target_plane_label": "L8",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.049999999999999996,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.707,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.175": {
+      "old": 85,
+      "new": 113
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.075": {
+      "old": 433,
+      "new": 396
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     467
+    ],
+    "old_total": 4342,
+    "total": 4322,
+    "delta": -20,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "467": {
+      "route_id": 467,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "E11:1:10",
+      "target_endpoint": "W10:1:11",
+      "source_side": "E",
+      "target_side": "W",
+      "source_xy": [
+       150.0,
+       97.875
+      ],
+      "target_xy": [
+       0.0,
+       89.125
+      ],
+      "source_inward": [
+       -1.0,
+       0.0
+      ],
+      "target_inward": [
+       1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 12,
+      "target_z_mm": 0.275,
+      "target_plane_label": "L8",
+      "direction": "up",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.049999999999999996,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.889,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.075": {
+      "old": 396,
+      "new": 361
+     },
+     "0.275": {
+      "old": 99,
+      "new": 114
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     37
+    ],
+    "old_total": 4322,
+    "total": 4320,
+    "delta": -2,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "37": {
+      "route_id": 37,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "S05:1:3",
+      "target_endpoint": "N03:1:5",
+      "source_side": "S",
+      "target_side": "N",
+      "source_xy": [
+       42.125,
+       0.0
+      ],
+      "target_xy": [
+       24.625,
+       150.0
+      ],
+      "source_inward": [
+       0.0,
+       1.0
+      ],
+      "target_inward": [
+       0.0,
+       -1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 7,
+      "target_z_mm": -0.075,
+      "target_plane_label": "L7",
+      "direction": "down",
+      "baseline_old_layer": 6,
+      "z_span_mm": 0.1,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.565,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.075": {
+      "old": 506,
+      "new": 504
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     410
+    ],
+    "old_total": 4320,
+    "total": 4317,
+    "delta": -3,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "410": {
+      "route_id": 410,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W15:1:13",
+      "target_endpoint": "E13:1:15",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       134.625
+      ],
+      "target_xy": [
+       150.0,
+       117.125
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 8,
+      "target_z_mm": 0.075,
+      "target_plane_label": "L8",
+      "direction": "up",
+      "baseline_old_layer": 6,
+      "z_span_mm": 0.049999999999999996,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.291,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.075": {
+      "old": 361,
+      "new": 358
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     101
+    ],
+    "old_total": 4317,
+    "total": 4310,
+    "delta": -7,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "101": {
+      "route_id": 101,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "N04:1:5",
+      "target_endpoint": "S05:1:4",
+      "source_side": "N",
+      "target_side": "S",
+      "source_xy": [
+       33.625,
+       150.0
+      ],
+      "target_xy": [
+       42.375,
+       0.0
+      ],
+      "source_inward": [
+       0.0,
+       -1.0
+      ],
+      "target_inward": [
+       0.0,
+       1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 9,
+      "target_z_mm": 0.125,
+      "target_plane_label": "L7",
+      "direction": "up",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.1,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.503,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.075": {
+      "old": 504,
+      "new": 467
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.125": {
+      "old": 107,
+      "new": 137
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     206
+    ],
+    "old_total": 4310,
+    "total": 4296,
+    "delta": -14,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "206": {
+      "route_id": 206,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "E15:1:13",
+      "target_endpoint": "W13:1:15",
+      "source_side": "E",
+      "target_side": "W",
+      "source_xy": [
+       150.0,
+       134.625
+      ],
+      "target_xy": [
+       0.0,
+       117.125
+      ],
+      "source_inward": [
+       -1.0,
+       0.0
+      ],
+      "target_inward": [
+       1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 4,
+      "target_z_mm": -0.225,
+      "target_plane_label": "L20",
+      "direction": "down",
+      "baseline_old_layer": 6,
+      "z_span_mm": 0.05,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.549,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.225": {
+      "old": 111,
+      "new": 130
+     },
+     "-0.025": {
+      "old": 363,
+      "new": 330
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     107
+    ],
+    "old_total": 4296,
+    "total": 4288,
+    "delta": -8,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "107": {
+      "route_id": 107,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "N05:1:3",
+      "target_endpoint": "S03:1:5",
+      "source_side": "N",
+      "target_side": "S",
+      "source_xy": [
+       42.125,
+       150.0
+      ],
+      "target_xy": [
+       24.625,
+       0.0
+      ],
+      "source_inward": [
+       0.0,
+       -1.0
+      ],
+      "target_inward": [
+       0.0,
+       1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 5,
+      "target_z_mm": -0.175,
+      "target_plane_label": "L2",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.35000000000000003,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.898,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.325": {
+      "old": 316,
+      "new": 279
+     },
+     "-0.175": {
+      "old": 113,
+      "new": 142
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     38
+    ],
+    "old_total": 4288,
+    "total": 4286,
+    "delta": -2,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "38": {
+      "route_id": 38,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "N03:1:6",
+      "target_endpoint": "S06:1:3",
+      "source_side": "N",
+      "target_side": "S",
+      "source_xy": [
+       24.875,
+       150.0
+      ],
+      "target_xy": [
+       51.125,
+       0.0
+      ],
+      "source_inward": [
+       0.0,
+       -1.0
+      ],
+      "target_inward": [
+       0.0,
+       1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 10,
+      "target_z_mm": 0.175,
+      "target_plane_label": "L10",
+      "direction": "up",
+      "baseline_old_layer": 6,
+      "z_span_mm": 0.15,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.502,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.175": {
+      "old": 229,
+      "new": 227
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     2
+    ],
+    "old_total": 4286,
+    "total": 4270,
+    "delta": -16,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "2": {
+      "route_id": 2,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "N01:1:2",
+      "target_endpoint": "S02:1:1",
+      "source_side": "N",
+      "target_side": "S",
+      "source_xy": [
+       5.875,
+       150.0
+      ],
+      "target_xy": [
+       14.625,
+       0.0
+      ],
+      "source_inward": [
+       0.0,
+       -1.0
+      ],
+      "target_inward": [
+       0.0,
+       1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 12,
+      "target_z_mm": 0.275,
+      "target_plane_label": "L2",
+      "direction": "up",
+      "baseline_old_layer": 6,
+      "z_span_mm": 0.35000000000000003,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.744,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.325": {
+      "old": 279,
+      "new": 246
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.275": {
+      "old": 114,
+      "new": 131
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     4
+    ],
+    "old_total": 4270,
+    "total": 4255,
+    "delta": -15,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "4": {
+      "route_id": 4,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "S04:1:1",
+      "target_endpoint": "N01:1:4",
+      "source_side": "S",
+      "target_side": "N",
+      "source_xy": [
+       32.625,
+       0.0
+      ],
+      "target_xy": [
+       6.375,
+       150.0
+      ],
+      "source_inward": [
+       0.0,
+       1.0
+      ],
+      "target_inward": [
+       0.0,
+       -1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 3,
+      "target_z_mm": -0.275,
+      "target_plane_label": "L2",
+      "direction": "down",
+      "baseline_old_layer": 6,
+      "z_span_mm": 0.35000000000000003,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.568,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.325": {
+      "old": 246,
+      "new": 214
+     },
+     "-0.275": {
+      "old": 122,
+      "new": 139
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     408
+    ],
+    "old_total": 4255,
+    "total": 4243,
+    "delta": -12,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "408": {
+      "route_id": 408,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "E02:1:4",
+      "target_endpoint": "W04:1:2",
+      "source_side": "E",
+      "target_side": "W",
+      "source_xy": [
+       150.0,
+       15.375
+      ],
+      "target_xy": [
+       0.0,
+       32.875
+      ],
+      "source_inward": [
+       -1.0,
+       0.0
+      ],
+      "target_inward": [
+       1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 4,
+      "target_z_mm": -0.225,
+      "target_plane_label": "L20",
+      "direction": "down",
+      "baseline_old_layer": 6,
+      "z_span_mm": 0.05,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.758,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.225": {
+      "old": 130,
+      "new": 150
+     },
+     "-0.025": {
+      "old": 330,
+      "new": 298
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     687
+    ],
+    "old_total": 4243,
+    "total": 4237,
+    "delta": -6,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "687": {
+      "route_id": 687,
+      "plane": "z2",
+      "interface_z_mm": 0.525,
+      "source_endpoint": "N15:2:13",
+      "target_endpoint": "W04:2:2",
+      "source_side": "N",
+      "target_side": "W",
+      "source_xy": [
+       134.625,
+       150.0
+      ],
+      "target_xy": [
+       0.0,
+       32.875
+      ],
+      "source_inward": [
+       0.0,
+       -1.0
+      ],
+      "target_inward": [
+       1.0,
+       0.0
+      ],
+      "relation": "adjacent",
+      "relation_geom": "adjacent",
+      "manual_group": "",
+      "layer_role": "z2_other",
+      "target_layer": 16,
+      "target_z_mm": 0.475,
+      "target_plane_label": "L11",
+      "direction": "down",
+      "baseline_old_layer": 18,
+      "z_span_mm": 0.30000000000000004,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.722,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "0.225": {
+      "old": 303,
+      "new": 270
+     },
+     "0.475": {
+      "old": 86,
+      "new": 113
+     },
+     "0.525": {
+      "old": 156,
+      "new": 156
+     }
+    }
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     506
+    ],
+    "old_total": 4237,
+    "total": 4234,
+    "delta": -3,
+    "note": "sweep_migrate",
+    "new_rows": {
+     "506": {
+      "route_id": 506,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W11:1:9",
+      "target_endpoint": "E09:1:11",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       97.625
+      ],
+      "target_xy": [
+       150.0,
+       80.125
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 12,
+      "target_z_mm": 0.275,
+      "target_plane_label": "L20",
+      "direction": "up",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.05,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.387,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "-0.025": {
+      "old": 298,
+      "new": 269
+     },
+     "0.025": {
+      "old": 495,
+      "new": 495
+     },
+     "0.275": {
+      "old": 131,
+      "new": 157
+     }
+    }
+   },
+   {
+    "transaction_id": 26,
+    "routes": [
+     141,
+     200,
+     224,
+     230,
+     416,
+     443,
+     446,
+     711
+    ],
+    "accepted": false,
+    "placed": 8,
+    "reasons": {},
+    "note": "recreate_8_desc",
+    "seconds": 9.246
+   },
+   {
+    "transaction_id": 27,
+    "routes": [
+     141,
+     200,
+     224,
+     230,
+     416,
+     443,
+     446,
+     711
+    ],
+    "accepted": false,
+    "placed": 8,
+    "reasons": {},
+    "note": "recreate_8_asc",
+    "seconds": 9.46
+   },
+   {
+    "transaction_id": 28,
+    "routes": [
+     36,
+     517
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.607
+   },
+   {
+    "transaction_id": 29,
+    "routes": [
+     36,
+     517
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.796
+   },
+   {
+    "transaction_id": 30,
+    "routes": [
+     444,
+     577
+    ],
+    "accepted": false,
+    "placed": 1,
+    "reasons": {
+     "no_candidate_577": 1
+    },
+    "note": "make_way",
+    "seconds": 4.257
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     444,
+     577
+    ],
+    "old_total": 4234,
+    "total": 4233,
+    "delta": -1,
+    "note": "make_way",
+    "new_rows": {
+     "577": {
+      "route_id": 577,
+      "plane": "z2",
+      "interface_z_mm": 0.525,
+      "source_endpoint": "E07:2:5",
+      "target_endpoint": "N05:2:7",
+      "source_side": "E",
+      "target_side": "N",
+      "source_xy": [
+       150.0,
+       60.625
+      ],
+      "target_xy": [
+       43.125,
+       150.0
+      ],
+      "source_inward": [
+       -1.0,
+       0.0
+      ],
+      "target_inward": [
+       0.0,
+       -1.0
+      ],
+      "relation": "adjacent",
+      "relation_geom": "adjacent",
+      "manual_group": "",
+      "layer_role": "z2_other",
+      "target_layer": 14,
+      "target_z_mm": 0.375,
+      "target_plane_label": "L14",
+      "direction": "down",
+      "baseline_old_layer": 17,
+      "z_span_mm": 0.15000000000000002,
+      "needs_transition": true
+     },
+     "444": {
+      "route_id": 444,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W05:1:7",
+      "target_endpoint": "E07:1:5",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       43.125
+      ],
+      "target_xy": [
+       150.0,
+       60.625
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 8,
+      "target_z_mm": 0.075,
+      "target_plane_label": "Z1_INTERFACE",
+      "direction": "up",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.0,
+      "needs_transition": true
+     }
+    },
+    "seconds": 4.154,
+    "accepted": true,
+    "placed": 2,
+    "reasons": {},
+    "per_plane": {
+     "0.025": {
+      "old": 495,
+      "new": 460
+     },
+     "0.075": {
+      "old": 358,
+      "new": 392
+     },
+     "0.375": {
+      "old": 95,
+      "new": 95
+     },
+     "0.525": {
+      "old": 156,
+      "new": 156
+     }
+    }
+   },
+   {
+    "transaction_id": 32,
+    "routes": [
+     247,
+     969
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.235
+   },
+   {
+    "transaction_id": 33,
+    "routes": [
+     247,
+     969
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.87
+   },
+   {
+    "transaction_id": 34,
+    "routes": [
+     247,
+     969
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.799
+   },
+   {
+    "transaction_id": 35,
+    "routes": [
+     247,
+     969
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.441
+   },
+   {
+    "transaction_id": 36,
+    "routes": [
+     116,
+     144,
+     160,
+     207,
+     221,
+     233,
+     425,
+     435
+    ],
+    "accepted": false,
+    "placed": 8,
+    "reasons": {},
+    "note": "recreate_8_desc",
+    "seconds": 6.54
+   },
+   {
+    "transaction_id": 37,
+    "routes": [
+     116,
+     144,
+     160,
+     207,
+     221,
+     233,
+     425,
+     435
+    ],
+    "accepted": false,
+    "placed": 8,
+    "reasons": {},
+    "note": "recreate_8_asc",
+    "seconds": 6.772
+   },
+   {
+    "transaction_id": 38,
+    "routes": [
+     459,
+     593
+    ],
+    "accepted": false,
+    "placed": 1,
+    "reasons": {
+     "no_candidate_593": 1
+    },
+    "note": "make_way",
+    "seconds": 4.305
+   },
+   {
+    "transaction_id": 39,
+    "routes": [
+     459,
+     593
+    ],
+    "accepted": false,
+    "placed": 1,
+    "reasons": {
+     "no_candidate_459": 1
+    },
+    "note": "make_way",
+    "seconds": 3.655
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     101,
+     495,
+     747
+    ],
+    "old_total": 4233,
+    "total": 4225,
+    "delta": -8,
+    "note": "make_way",
+    "new_rows": {
+     "495": {
+      "route_id": 495,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "W08:1:3",
+      "target_endpoint": "E03:1:8",
+      "source_side": "W",
+      "target_side": "E",
+      "source_xy": [
+       0.0,
+       69.125
+      ],
+      "target_xy": [
+       150.0,
+       25.375
+      ],
+      "source_inward": [
+       1.0,
+       0.0
+      ],
+      "target_inward": [
+       -1.0,
+       0.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 20,
+      "target_z_mm": -0.025,
+      "target_plane_label": "Z1_INTERFACE",
+      "direction": "down",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.0,
+      "needs_transition": true
+     },
+     "101": {
+      "route_id": 101,
+      "plane": "z1",
+      "interface_z_mm": 0.025,
+      "source_endpoint": "N04:1:5",
+      "target_endpoint": "S05:1:4",
+      "source_side": "N",
+      "target_side": "S",
+      "source_xy": [
+       33.625,
+       150.0
+      ],
+      "target_xy": [
+       42.375,
+       0.0
+      ],
+      "source_inward": [
+       0.0,
+       -1.0
+      ],
+      "target_inward": [
+       0.0,
+       1.0
+      ],
+      "relation": "opposite",
+      "relation_geom": "opposite",
+      "manual_group": "",
+      "layer_role": "z1_other",
+      "target_layer": 9,
+      "target_z_mm": 0.125,
+      "target_plane_label": "L7",
+      "direction": "up",
+      "baseline_old_layer": 7,
+      "z_span_mm": 0.1,
+      "needs_transition": true
+     },
+     "747": {
+      "route_id": 747,
+      "plane": "z2",
+      "interface_z_mm": 0.525,
+      "source_endpoint": "N14:2:9",
+      "target_endpoint": "W08:2:3",
+      "source_side": "N",
+      "target_side": "W",
+      "source_xy": [
+       124.625,
+       150.0
+      ],
+      "target_xy": [
+       0.0,
+       69.125
+      ],
+      "source_inward": [
+       0.0,
+       -1.0
+      ],
+      "target_inward": [
+       1.0,
+       0.0
+      ],
+      "relation": "adjacent",
+      "relation_geom": "adjacent",
+      "manual_group": "",
+      "layer_role": "z2_other",
+      "target_layer": 10,
+      "target_z_mm": 0.175,
+      "target_plane_label": "L10",
+      "direction": "down",
+      "baseline_old_layer": 14,
+      "z_span_mm": 0.35000000000000003,
+      "needs_transition": true
+     }
+    },
+    "seconds": 4.654,
+    "accepted": true,
+    "placed": 3,
+    "reasons": {},
+    "per_plane": {
+     "-0.025": {
+      "old": 269,
+      "new": 283
+     },
+     "0.025": {
+      "old": 460,
+      "new": 438
+     },
+     "0.125": {
+      "old": 137,
+      "new": 137
+     },
+     "0.175": {
+      "old": 227,
+      "new": 227
+     },
+     "0.525": {
+      "old": 156,
+      "new": 156
+     }
+    }
+   },
+   {
+    "transaction_id": 41,
+    "routes": [
+     101,
+     513,
+     537,
+     641,
+     673,
+     677,
+     681,
+     685
+    ],
+    "accepted": false,
+    "placed": 8,
+    "reasons": {},
+    "note": "recreate_8_desc",
+    "seconds": 8.906
+   },
+   {
+    "transaction_id": 42,
+    "routes": [
+     101,
+     513,
+     537,
+     641,
+     673,
+     677,
+     681,
+     685
+    ],
+    "accepted": false,
+    "placed": 8,
+    "reasons": {},
+    "note": "recreate_8_asc",
+    "seconds": 9.763
+   },
+   {
+    "transaction_id": 43,
+    "routes": [
+     5,
+     625
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.874
+   },
+   {
+    "transaction_id": 44,
+    "routes": [
+     5,
+     625
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.615
+   },
+   {
+    "transaction_id": 45,
+    "routes": [
+     5,
+     625
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 7.248
+   },
+   {
+    "transaction_id": 46,
+    "routes": [
+     5,
+     625
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.478
+   },
+   {
+    "transaction_id": 47,
+    "routes": [
+     99,
+     116,
+     124,
+     144,
+     148,
+     150,
+     153,
+     156,
+     159,
+     160,
+     165,
+     207,
+     219,
+     424,
+     435,
+     491
+    ],
+    "accepted": false,
+    "placed": 16,
+    "reasons": {},
+    "note": "recreate_16_desc",
+    "seconds": 8.138
+   },
+   {
+    "transaction_id": 48,
+    "routes": [
+     99,
+     116,
+     124,
+     144,
+     148,
+     150,
+     153,
+     156,
+     159,
+     160,
+     165,
+     207,
+     219,
+     424,
+     435,
+     491
+    ],
+    "accepted": false,
+    "placed": 16,
+    "reasons": {},
+    "note": "recreate_16_asc",
+    "seconds": 7.723
+   },
+   {
+    "transaction_id": 49,
+    "routes": [
+     838,
+     842,
+     846,
+     858,
+     862,
+     866,
+     870,
+     874,
+     882,
+     886,
+     890,
+     910
+    ],
+    "accepted": false,
+    "placed": 12,
+    "reasons": {},
+    "note": "component_12",
+    "seconds": 6.951
+   },
+   {
+    "transaction_id": 50,
+    "routes": [
+     169,
+     697
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.351
+   },
+   {
+    "transaction_id": 51,
+    "routes": [
+     169,
+     697
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.035
+   },
+   {
+    "transaction_id": 52,
+    "routes": [
+     169,
+     612,
+     697
+    ],
+    "accepted": false,
+    "placed": 3,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.434
+   },
+   {
+    "transaction_id": 53,
+    "routes": [
+     169,
+     612,
+     697
+    ],
+    "accepted": false,
+    "placed": 3,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.6
+   },
+   {
+    "transaction_id": 54,
+    "routes": [
+     417,
+     545
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.802
+   },
+   {
+    "transaction_id": 55,
+    "routes": [
+     417,
+     545
+    ],
+    "accepted": false,
+    "placed": 1,
+    "reasons": {
+     "no_candidate_417": 1
+    },
+    "note": "make_way",
+    "seconds": 3.911
+   },
+   {
+    "transaction_id": 56,
+    "routes": [
+     117,
+     593
+    ],
+    "accepted": false,
+    "placed": 1,
+    "reasons": {
+     "no_candidate_593": 1
+    },
+    "note": "make_way",
+    "seconds": 5.159
+   },
+   {
+    "transaction_id": 57,
+    "routes": [
+     117,
+     593
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 7.262
+   },
+   {
+    "transaction_id": 58,
+    "routes": [
+     117,
+     593
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.868
+   },
+   {
+    "transaction_id": 59,
+    "routes": [
+     117,
+     593
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 7.265
+   },
+   {
+    "transaction_id": 60,
+    "routes": [
+     117,
+     593,
+     612
+    ],
+    "accepted": false,
+    "placed": 3,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 7.528
+   },
+   {
+    "transaction_id": 61,
+    "routes": [
+     117,
+     593,
+     612
+    ],
+    "accepted": false,
+    "placed": 3,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 8.058
+   },
+   {
+    "transaction_id": 62,
+    "routes": [
+     49,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     265,
+     268,
+     271,
+     274,
+     277,
+     280,
+     429,
+     449,
+     505
+    ],
+    "accepted": false,
+    "placed": 16,
+    "reasons": {},
+    "note": "recreate_16_desc",
+    "seconds": 9.712
+   },
+   {
+    "transaction_id": 63,
+    "routes": [
+     49,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     265,
+     268,
+     271,
+     274,
+     277,
+     280,
+     429,
+     449,
+     505
+    ],
+    "accepted": false,
+    "placed": 16,
+    "reasons": {},
+    "note": "recreate_16_asc",
+    "seconds": 9.864
+   },
+   {
+    "transaction_id": 64,
+    "routes": [
+     98,
+     162,
+     168,
+     170,
+     172,
+     413,
+     437,
+     452,
+     473,
+     476,
+     482,
+     485,
+     494,
+     500,
+     503,
+     504
+    ],
+    "accepted": false,
+    "placed": 16,
+    "reasons": {},
+    "note": "recreate_16_desc",
+    "seconds": 8.578
+   },
+   {
+    "transaction_id": 65,
+    "routes": [
+     98,
+     162,
+     168,
+     170,
+     172,
+     413,
+     437,
+     452,
+     473,
+     476,
+     482,
+     485,
+     494,
+     500,
+     503,
+     504
+    ],
+    "accepted": false,
+    "placed": 16,
+    "reasons": {},
+    "note": "recreate_16_asc",
+    "seconds": 9.153
+   },
+   {
+    "transaction_id": 66,
+    "routes": [
+     837,
+     841,
+     845,
+     857,
+     861,
+     865,
+     869,
+     873,
+     881,
+     885,
+     889,
+     909
+    ],
+    "accepted": false,
+    "placed": 12,
+    "reasons": {},
+    "note": "component_12",
+    "seconds": 6.274
+   },
+   {
+    "transaction_id": 67,
+    "routes": [
+     37,
+     522
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.861
+   },
+   {
+    "transaction_id": 68,
+    "routes": [
+     37,
+     522
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.848
+   },
+   {
+    "transaction_id": 69,
+    "routes": [
+     2,
+     205,
+     422,
+     467,
+     470,
+     506,
+     629,
+     633,
+     636,
+     640,
+     738,
+     739,
+     770,
+     771,
+     830,
+     978,
+     979,
+     982,
+     983,
+     986,
+     987,
+     990,
+     991,
+     994,
+     995,
+     998,
+     999,
+     1002,
+     1006,
+     1010,
+     1014,
+     1018
+    ],
+    "accepted": false,
+    "placed": 32,
+    "reasons": {},
+    "note": "recreate_32_desc",
+    "seconds": 12.408
+   },
+   {
+    "transaction_id": 70,
+    "routes": [
+     2,
+     205,
+     422,
+     467,
+     470,
+     506,
+     629,
+     633,
+     636,
+     640,
+     738,
+     739,
+     770,
+     771,
+     830,
+     978,
+     979,
+     982,
+     983,
+     986,
+     987,
+     990,
+     991,
+     994,
+     995,
+     998,
+     999,
+     1002,
+     1006,
+     1010,
+     1014,
+     1018
+    ],
+    "accepted": false,
+    "placed": 32,
+    "reasons": {},
+    "note": "recreate_32_random",
+    "seconds": 12.656
+   },
+   {
+    "transaction_id": 71,
+    "routes": [
+     837,
+     841,
+     845,
+     857,
+     861,
+     865,
+     869,
+     873,
+     881,
+     885,
+     889,
+     909
+    ],
+    "accepted": false,
+    "placed": 12,
+    "reasons": {},
+    "note": "component_12",
+    "seconds": 5.569
+   },
+   {
+    "transaction_id": 72,
+    "routes": [
+     107,
+     561
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.303
+   },
+   {
+    "transaction_id": 73,
+    "routes": [
+     107,
+     561
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.701
+   },
+   {
+    "transaction_id": 74,
+    "routes": [
+     474,
+     715
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.878
+   },
+   {
+    "transaction_id": 75,
+    "routes": [
+     474,
+     715
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.766
+   },
+   {
+    "transaction_id": 76,
+    "routes": [
+     474,
+     715
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.375
+   },
+   {
+    "transaction_id": 77,
+    "routes": [
+     474,
+     715
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 6.734
+   },
+   {
+    "kind": "g4_transaction",
+    "routes": [
+     663
+    ],
+    "old_total": 4225,
+    "total": 4216,
+    "delta": -9,
+    "note": "migrate_clean",
+    "new_rows": {
+     "663": {
+      "route_id": 663,
+      "plane": "z2",
+      "interface_z_mm": 0.525,
+      "source_endpoint": "N11:2:15",
+      "target_endpoint": "W02:2:6",
+      "source_side": "N",
+      "target_side": "W",
+      "source_xy": [
+       99.125,
+       150.0
+      ],
+      "target_xy": [
+       0.0,
+       15.875
+      ],
+      "source_inward": [
+       0.0,
+       -1.0
+      ],
+      "target_inward": [
+       1.0,
+       0.0
+      ],
+      "relation": "adjacent",
+      "relation_geom": "adjacent",
+      "manual_group": "",
+      "layer_role": "z2_other",
+      "target_layer": 13,
+      "target_z_mm": 0.325,
+      "target_plane_label": "L11",
+      "direction": "down",
+      "baseline_old_layer": 15,
+      "z_span_mm": 0.30000000000000004,
+      "needs_transition": true
+     }
+    },
+    "seconds": 1.364,
+    "accepted": true,
+    "placed": 1,
+    "reasons": {},
+    "per_plane": {
+     "0.225": {
+      "old": 270,
+      "new": 249
+     },
+     "0.325": {
+      "old": 94,
+      "new": 106
+     },
+     "0.525": {
+      "old": 156,
+      "new": 156
+     }
+    }
+   },
+   {
+    "transaction_id": 79,
+    "routes": [
+     116,
+     124,
+     144,
+     148,
+     150,
+     153,
+     156,
+     159,
+     160,
+     165,
+     198,
+     207,
+     212,
+     215,
+     218,
+     219,
+     221,
+     222,
+     227,
+     233,
+     236,
+     239,
+     414,
+     424,
+     425,
+     428,
+     432,
+     435,
+     438,
+     459,
+     461,
+     462
+    ],
+    "accepted": false,
+    "placed": 32,
+    "reasons": {
+     "final_3d_violation": 4
+    },
+    "note": "recreate_32_desc",
+    "seconds": 11.318
+   },
+   {
+    "transaction_id": 80,
+    "routes": [
+     116,
+     124,
+     144,
+     148,
+     150,
+     153,
+     156,
+     159,
+     160,
+     165,
+     198,
+     207,
+     212,
+     215,
+     218,
+     219,
+     221,
+     222,
+     227,
+     233,
+     236,
+     239,
+     414,
+     424,
+     425,
+     428,
+     432,
+     435,
+     438,
+     459,
+     461,
+     462
+    ],
+    "accepted": false,
+    "placed": 32,
+    "reasons": {},
+    "note": "recreate_32_random",
+    "seconds": 9.968
+   },
+   {
+    "transaction_id": 81,
+    "routes": [
+     82,
+     982
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.233
+   },
+   {
+    "transaction_id": 82,
+    "routes": [
+     82,
+     982
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.372
+   },
+   {
+    "transaction_id": 83,
+    "routes": [
+     450,
+     612,
+     701
+    ],
+    "accepted": false,
+    "placed": 3,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.223
+   },
+   {
+    "transaction_id": 84,
+    "routes": [
+     450,
+     612,
+     701
+    ],
+    "accepted": false,
+    "placed": 3,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.089
+   },
+   {
+    "transaction_id": 85,
+    "routes": [
+     232,
+     527
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 4.837
+   },
+   {
+    "transaction_id": 86,
+    "routes": [
+     232,
+     527
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.214
+   },
+   {
+    "transaction_id": 87,
+    "routes": [
+     232,
+     528
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 4.973
+   },
+   {
+    "transaction_id": 88,
+    "routes": [
+     232,
+     528
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 4.809
+   },
+   {
+    "transaction_id": 89,
+    "routes": [
+     851,
+     867,
+     871,
+     875,
+     879,
+     887,
+     891,
+     895,
+     899,
+     903,
+     907,
+     911,
+     915,
+     919,
+     923,
+     931,
+     935,
+     939,
+     943,
+     959,
+     963
+    ],
+    "accepted": false,
+    "placed": 21,
+    "reasons": {},
+    "note": "component_21",
+    "seconds": 5.207
+   },
+   {
+    "transaction_id": 90,
+    "routes": [
+     27,
+     38,
+     102,
+     120,
+     229,
+     406,
+     489,
+     563,
+     587,
+     591,
+     691,
+     695,
+     699,
+     703,
+     715,
+     719,
+     723,
+     742,
+     743,
+     747,
+     751,
+     755,
+     759,
+     775,
+     795,
+     799,
+     803,
+     947,
+     951,
+     967,
+     972,
+     976
+    ],
+    "accepted": false,
+    "placed": 32,
+    "reasons": {},
+    "note": "recreate_32_desc",
+    "seconds": 9.679
+   },
+   {
+    "transaction_id": 91,
+    "routes": [
+     27,
+     38,
+     102,
+     120,
+     229,
+     406,
+     489,
+     563,
+     587,
+     591,
+     691,
+     695,
+     699,
+     703,
+     715,
+     719,
+     723,
+     742,
+     743,
+     747,
+     751,
+     755,
+     759,
+     775,
+     795,
+     799,
+     803,
+     947,
+     951,
+     967,
+     972,
+     976
+    ],
+    "accepted": false,
+    "placed": 32,
+    "reasons": {},
+    "note": "recreate_32_random",
+    "seconds": 10.01
+   },
+   {
+    "transaction_id": 92,
+    "routes": [
+     142,
+     145,
+     151,
+     154,
+     157,
+     201,
+     204,
+     210,
+     213,
+     216,
+     225,
+     228,
+     230,
+     234,
+     237,
+     411,
+     426,
+     431,
+     434,
+     440,
+     441,
+     444,
+     446,
+     447,
+     465,
+     468,
+     488,
+     507,
+     509,
+     510,
+     512,
+     711
+    ],
+    "accepted": false,
+    "placed": 32,
+    "reasons": {},
+    "note": "recreate_32_desc",
+    "seconds": 10.342
+   },
+   {
+    "transaction_id": 93,
+    "routes": [
+     142,
+     145,
+     151,
+     154,
+     157,
+     201,
+     204,
+     210,
+     213,
+     216,
+     225,
+     228,
+     230,
+     234,
+     237,
+     411,
+     426,
+     431,
+     434,
+     440,
+     441,
+     444,
+     446,
+     447,
+     465,
+     468,
+     488,
+     507,
+     509,
+     510,
+     512,
+     711
+    ],
+    "accepted": false,
+    "placed": 32,
+    "reasons": {},
+    "note": "recreate_32_random",
+    "seconds": 10.246
+   },
+   {
+    "transaction_id": 94,
+    "routes": [
+     5,
+     8,
+     31,
+     32,
+     40,
+     106,
+     108,
+     116,
+     124,
+     147,
+     164,
+     208,
+     226,
+     228,
+     231,
+     233,
+     335,
+     407,
+     415,
+     417,
+     418,
+     420,
+     421,
+     422,
+     423,
+     424,
+     425,
+     433,
+     436,
+     442,
+     448,
+     453,
+     458,
+     477,
+     478,
+     479,
+     527,
+     531,
+     535,
+     623,
+     631,
+     635,
+     659,
+     671,
+     773,
+     776,
+     777,
+     780,
+     781,
+     784,
+     785,
+     788,
+     789,
+     792,
+     793,
+     796,
+     797,
+     800,
+     801,
+     804,
+     834,
+     927,
+     971,
+     975
+    ],
+    "accepted": false,
+    "placed": 64,
+    "reasons": {},
+    "note": "recreate_64_desc",
+    "seconds": 18.695
+   },
+   {
+    "transaction_id": 95,
+    "routes": [
+     5,
+     8,
+     31,
+     32,
+     40,
+     106,
+     108,
+     116,
+     124,
+     147,
+     164,
+     208,
+     226,
+     228,
+     231,
+     233,
+     335,
+     407,
+     415,
+     417,
+     418,
+     420,
+     421,
+     422,
+     423,
+     424,
+     425,
+     433,
+     436,
+     442,
+     448,
+     453,
+     458,
+     477,
+     478,
+     479,
+     527,
+     531,
+     535,
+     623,
+     631,
+     635,
+     659,
+     671,
+     773,
+     776,
+     777,
+     780,
+     781,
+     784,
+     785,
+     788,
+     789,
+     792,
+     793,
+     796,
+     797,
+     800,
+     801,
+     804,
+     834,
+     927,
+     971,
+     975
+    ],
+    "accepted": false,
+    "placed": 64,
+    "reasons": {},
+    "note": "recreate_64_random",
+    "seconds": 18.566
+   },
+   {
+    "transaction_id": 96,
+    "routes": [
+     4,
+     73,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     209,
+     232,
+     313,
+     316,
+     319,
+     322,
+     325,
+     328,
+     331,
+     337,
+     340,
+     343,
+     346,
+     349,
+     352,
+     355,
+     358,
+     361,
+     364,
+     367,
+     370,
+     373,
+     376,
+     379,
+     382,
+     385,
+     388,
+     391,
+     394,
+     397,
+     400,
+     403,
+     454,
+     456,
+     457
+    ],
+    "accepted": false,
+    "placed": 53,
+    "reasons": {},
+    "note": "component_53",
+    "seconds": 10.399
+   },
+   {
+    "transaction_id": 97,
+    "routes": [
+     239,
+     534
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 4.396
+   },
+   {
+    "transaction_id": 98,
+    "routes": [
+     239,
+     534
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 4.577
+   },
+   {
+    "transaction_id": 99,
+    "routes": [
+     493,
+     743
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.238
+   },
+   {
+    "transaction_id": 100,
+    "routes": [
+     493,
+     743
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.395
+   },
+   {
+    "transaction_id": 101,
+    "routes": [
+     493,
+     743
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.518
+   },
+   {
+    "transaction_id": 102,
+    "routes": [
+     493,
+     743
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.264
+   },
+   {
+    "transaction_id": 103,
+    "routes": [
+     4,
+     73,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     106,
+     116,
+     124,
+     209,
+     231,
+     232,
+     233,
+     313,
+     316,
+     319,
+     322,
+     325,
+     328,
+     331,
+     337,
+     340,
+     343,
+     346,
+     349,
+     352,
+     355,
+     358,
+     361,
+     364,
+     367,
+     370,
+     373,
+     376,
+     379,
+     382,
+     385,
+     388,
+     391,
+     394,
+     397,
+     400,
+     403,
+     422,
+     423,
+     453,
+     454,
+     456,
+     457,
+     458,
+     478,
+     479
+    ],
+    "accepted": false,
+    "placed": 64,
+    "reasons": {},
+    "note": "recreate_64_desc",
+    "seconds": 16.272
+   },
+   {
+    "transaction_id": 104,
+    "routes": [
+     4,
+     73,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     106,
+     116,
+     124,
+     209,
+     231,
+     232,
+     233,
+     313,
+     316,
+     319,
+     322,
+     325,
+     328,
+     331,
+     337,
+     340,
+     343,
+     346,
+     349,
+     352,
+     355,
+     358,
+     361,
+     364,
+     367,
+     370,
+     373,
+     376,
+     379,
+     382,
+     385,
+     388,
+     391,
+     394,
+     397,
+     400,
+     403,
+     422,
+     423,
+     453,
+     454,
+     456,
+     457,
+     458,
+     478,
+     479
+    ],
+    "accepted": false,
+    "placed": 64,
+    "reasons": {},
+    "note": "recreate_64_random",
+    "seconds": 16.44
+   },
+   {
+    "transaction_id": 105,
+    "routes": [
+     443,
+     576
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.35
+   },
+   {
+    "transaction_id": 106,
+    "routes": [
+     443,
+     576
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.297
+   },
+   {
+    "transaction_id": 107,
+    "routes": [
+     263,
+     877
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 4.834
+   },
+   {
+    "transaction_id": 108,
+    "routes": [
+     263,
+     877
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 4.714
+   },
+   {
+    "transaction_id": 109,
+    "routes": [
+     461,
+     594
+    ],
+    "accepted": false,
+    "placed": 2,
+    "reasons": {},
+    "note": "make_way",
+    "seconds": 5.074
+   },
+   {
+    "transaction_id": 110,
+    "routes": [
+     461,
+     594
+    ],
+    "accepted": false,
+    "placed": 1,
+    "reasons": {
+     "no_candidate_461": 1
+    },
+    "note": "make_way",
+    "seconds": 2.79
+   },
+   {
+    "transaction_id": 111,
+    "routes": [
+     461,
+     594
+    ],
+    "accepted": false,
+    "placed": 0,
+    "reasons": {
+     "no_candidate_461": 1
+    },
+    "note": "make_way",
+    "seconds": 2.892
+   },
+   {
+    "transaction_id": 112,
+    "routes": [
+     461,
+     594
+    ],
+    "accepted": false,
+    "placed": 1,
+    "reasons": {
+     "no_candidate_461": 1
+    },
+    "note": "make_way",
+    "seconds": 2.856
+   }
+  ],
+  "stage_stats": [
+   {
+    "stage": -1,
+    "kind": "sweep",
+    "size": 0,
+    "started_at": "2026-11-18T19:38:04",
+    "seconds_budget": 162.0,
+    "attempts": 57,
+    "accepts": 26,
+    "gain": 314,
+    "seconds_used": 163.4,
+    "attempts_by_op": {
+     "sweep": 57
+    },
+    "accepts_by_op": {
+     "sweep": 26
+    },
+    "gain_by_op": {
+     "sweep": 314
+    },
+    "reasons": {
+     "legal_but_no_crossing_improvement": 31
+    },
+    "final_total": 4234,
+    "stage_gain": 314,
+    "passes": 1,
+    "counted_d56": 3008,
+    "counted_checks": 262
+   },
+   {
+    "stage": 0,
+    "size": 8,
+    "started_at": "2026-11-18T19:40:48",
+    "seconds_budget": 162.1,
+    "attempts": 15,
+    "accepts": 2,
+    "gain": 9,
+    "seconds_used": 172.2,
+    "attempts_by_op": {
+     "component": 1,
+     "lift_direct": 5,
+     "migrate": 6,
+     "recreate": 3
+    },
+    "accepts_by_op": {
+     "lift_direct": 2
+    },
+    "gain_by_op": {
+     "lift_direct": 9
+    },
+    "reasons": {
+     "legal_but_no_crossing_improvement": 6,
+     "no_current_crossings": 4,
+     "target_height_occupied": 3
+    },
+    "stopped": "stage_seconds",
+    "final_total": 4225,
+    "stage_gain": 9,
+    "counted_d56": 1320,
+    "counted_checks": 142
+   },
+   {
+    "stage": 1,
+    "size": 16,
+    "started_at": "2026-11-18T19:43:40",
+    "seconds_budget": 176.8,
+    "attempts": 11,
+    "accepts": 0,
+    "gain": 0,
+    "seconds_used": 179.7,
+    "attempts_by_op": {
+     "component": 2,
+     "lift_direct": 1,
+     "migrate": 5,
+     "recreate": 3
+    },
+    "accepts_by_op": {},
+    "gain_by_op": {},
+    "reasons": {
+     "legal_but_no_crossing_improvement": 8,
+     "no_current_crossings": 1,
+     "target_height_occupied": 2
+    },
+    "stopped": "stage_seconds",
+    "final_total": 4225,
+    "stage_gain": 0,
+    "counted_d56": 1450,
+    "counted_checks": 161
+   },
+   {
+    "stage": 2,
+    "size": 32,
+    "started_at": "2026-11-18T19:46:41",
+    "seconds_budget": 191.5,
+    "attempts": 15,
+    "accepts": 1,
+    "gain": 9,
+    "seconds_used": 207.1,
+    "attempts_by_op": {
+     "component": 2,
+     "lift_direct": 2,
+     "migrate": 7,
+     "recreate": 4
+    },
+    "accepts_by_op": {
+     "migrate": 1
+    },
+    "gain_by_op": {
+     "migrate": 9
+    },
+    "reasons": {
+     "legal_but_no_crossing_improvement": 11,
+     "no_current_crossings": 1,
+     "target_height_occupied": 2
+    },
+    "stopped": "stage_seconds",
+    "final_total": 4216,
+    "stage_gain": 9,
+    "counted_d56": 2237,
+    "counted_checks": 344
+   },
+   {
+    "stage": 3,
+    "size": 64,
+    "started_at": "2026-11-18T19:50:08",
+    "seconds_budget": 206.2,
+    "attempts": 10,
+    "accepts": 0,
+    "gain": 0,
+    "seconds_used": 158.9,
+    "attempts_by_op": {
+     "component": 1,
+     "lift_direct": 2,
+     "migrate": 5,
+     "recreate": 2
+    },
+    "accepts_by_op": {},
+    "gain_by_op": {},
+    "reasons": {
+     "legal_but_no_crossing_improvement": 7,
+     "no_legal_xy_corridor": 1,
+     "target_height_occupied": 2
+    },
+    "stopped": "wall_budget",
+    "final_total": 4216,
+    "stage_gain": 0,
+    "counted_d56": 2181,
+    "counted_checks": 291
+   }
+  ],
+  "operator_stats": {
+   "sweep": {
+    "attempts": 57,
+    "accepts": 26,
+    "gain": 314,
+    "seconds": 158.15500000000003,
+    "failures": {
+     "legal_but_no_crossing_improvement": 31
+    }
+   },
+   "recreate": {
+    "attempts": 12,
+    "accepts": 0,
+    "gain": 0,
+    "seconds": 260.558,
+    "failures": {
+     "legal_but_no_crossing_improvement": 12
+    }
+   },
+   "component": {
+    "attempts": 6,
+    "accepts": 0,
+    "gain": 0,
+    "seconds": 34.415,
+    "failures": {
+     "legal_but_no_crossing_improvement": 5,
+     "no_current_crossings": 1
+    }
+   },
+   "migrate": {
+    "attempts": 23,
+    "accepts": 1,
+    "gain": 9,
+    "seconds": 293.5530000000001,
+    "failures": {
+     "legal_but_no_crossing_improvement": 14,
+     "no_current_crossings": 3,
+     "target_height_occupied": 5
+    }
+   },
+   "lift_direct": {
+    "attempts": 10,
+    "accepts": 2,
+    "gain": 9,
+    "seconds": 42.93300000000001,
+    "failures": {
+     "legal_but_no_crossing_improvement": 1,
+     "no_current_crossings": 2,
+     "no_legal_xy_corridor": 1,
+     "target_height_occupied": 4
+    }
+   }
+  },
+  "reason_totals": {
+   "legal_but_no_crossing_improvement": 63,
+   "no_current_crossings": 6,
+   "target_height_occupied": 9,
+   "no_legal_xy_corridor": 1
+  },
+  "weights": {
+   "migrate": 0.15192660231076127,
+   "lift_direct": 0.223313327051399,
+   "recreate": 0.06871947673600004,
+   "component": 0.2097152000000001,
+   "direct_plane": 0.0,
+   "sweep": 0.5122160800415146
+  },
+  "graph_summary": {
+   "edges": 3215,
+   "nodes": 929,
+   "events": 4216,
+   "components": 21,
+   "component_sizes": [
+    120,
+    107,
+    45,
+    43,
+    44,
+    71,
+    34,
+    66,
+    80,
+    53,
+    45,
+    42,
+    30,
+    35,
+    29,
+    21,
+    14,
+    14,
+    12,
+    12,
+    12
+   ],
+   "max_degree": 42
+  },
+  "cfg": {
+   "graph_refresh_seconds": 100.0,
+   "graph_refresh_accepts": 45,
+   "index_refresh_accepts": 30,
+   "checkpoint_seconds": 600.0,
+   "checkpoint_accepts": 50,
+   "min_seed_crossings": 2,
+   "probe_limit_small": 3,
+   "probe_limit_large": 2,
+   "beam_small": 2,
+   "beam_large": 2,
+   "max_blockers": 3,
+   "recreate_free_max_size": 16,
+   "recreate_seed_pins": 2,
+   "min_recreate_attempts": 3,
+   "lift_direct_ratio": 0.1,
+   "sweep_top_k": 36,
+   "sweep_max_routes": 240,
+   "sweep_heights": 7,
+   "sweep_min_gain": 2,
+   "sweep_retry_min_gain": 1,
+   "sweep_max_passes": 3,
+   "sweep_quality_routes": 60,
+   "sweep_early_delta": -6,
+   "enable_direct_plane": false,
+   "direct_orders": 2,
+   "failed_attempts_cap": 4000,
+   "verbose_every_seconds": 60.0,
+   "counted_sweep_fraction": 0.18,
+   "history_records_cap": 4000
+  },
+  "counted_budget": {
+   "d56_target": null,
+   "d56_base": 0,
+   "checks_guard": null,
+   "d56_used": null,
+   "checks_used": 1200,
+   "sweep_fraction": 0.18
+  },
+  "ledger": {
+   "route_3d_checks": 1200,
+   "d56_candidate_evals": 10196,
+   "xy_candidates_generated": 1136,
+   "transactions": 113,
+   "world_builds": 0,
+   "valid_candidates": 822,
+   "rejected_3d": 318,
+   "accepted_transactions": 29,
+   "accepted_changes": 32,
+   "gain": 332,
+   "validator_runs": 1,
+   "no_candidate": 138,
+   "rolled_back": 84,
+   "wall_seconds": 910.69
+  },
+  "validation": {
+   "exit_code": 0,
+   "seconds": 34.78,
+   "stdout": "",
+   "stderr": "",
+   "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\a1_off_20261104\\best_valid",
+   "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\a1_off_20261104\\validation",
+   "manual_policy": "fully_optimizable",
+   "model_plane_count": 20,
+   "validation_pass": true,
+   "violation_count": 0
+  },
+  "history_records": [
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 14,
+    "delta": -14,
+    "routes": [
+     479
+    ],
+    "order": [
+     479
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 3.948,
+    "wall": 31.25,
+    "total": 4534,
+    "d56": 16,
+    "r3d": 2,
+    "xy": 1,
+    "best_total": 4548
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 19,
+    "delta": -19,
+    "routes": [
+     423
+    ],
+    "order": [
+     423
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 1.987,
+    "wall": 33.87,
+    "total": 4515,
+    "d56": 32,
+    "r3d": 5,
+    "xy": 3,
+    "best_total": 4534
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 26,
+    "delta": -26,
+    "routes": [
+     454
+    ],
+    "order": [
+     454
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 1.988,
+    "wall": 35.86,
+    "total": 4489,
+    "d56": 48,
+    "r3d": 8,
+    "xy": 5,
+    "best_total": 4515
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 29,
+    "delta": -29,
+    "routes": [
+     209
+    ],
+    "order": [
+     209
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 1.971,
+    "wall": 37.83,
+    "total": 4460,
+    "d56": 72,
+    "r3d": 11,
+    "xy": 7,
+    "best_total": 4489
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 23,
+    "delta": -23,
+    "routes": [
+     505
+    ],
+    "order": [
+     505
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 1.776,
+    "wall": 39.61,
+    "total": 4437,
+    "d56": 88,
+    "r3d": 14,
+    "xy": 9,
+    "best_total": 4460
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 5,
+    "delta": -5,
+    "routes": [
+     458
+    ],
+    "order": [
+     458
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 3.374,
+    "wall": 42.98,
+    "total": 4432,
+    "d56": 152,
+    "r3d": 19,
+    "xy": 13,
+    "best_total": 4437
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 9,
+    "delta": -9,
+    "routes": [
+     477
+    ],
+    "order": [
+     477
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 1.989,
+    "wall": 44.97,
+    "total": 4423,
+    "d56": 168,
+    "r3d": 22,
+    "xy": 15,
+    "best_total": 4432
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     228
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.032,
+    "wall": 47.0,
+    "total": 4423,
+    "d56": 232,
+    "r3d": 25,
+    "xy": 18,
+    "best_total": 4423
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 11,
+    "delta": -11,
+    "routes": [
+     232
+    ],
+    "order": [
+     232
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 2.698,
+    "wall": 49.7,
+    "total": 4412,
+    "d56": 264,
+    "r3d": 29,
+    "xy": 21,
+    "best_total": 4423
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 7,
+    "delta": -7,
+    "routes": [
+     457
+    ],
+    "order": [
+     457
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 4.068,
+    "wall": 54.77,
+    "total": 4405,
+    "d56": 312,
+    "r3d": 33,
+    "xy": 24,
+    "best_total": 4412
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 28,
+    "delta": -28,
+    "routes": [
+     470
+    ],
+    "order": [
+     470
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 3.153,
+    "wall": 57.92,
+    "total": 4377,
+    "d56": 328,
+    "r3d": 36,
+    "xy": 26,
+    "best_total": 4405
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 10,
+    "delta": -10,
+    "routes": [
+     429
+    ],
+    "order": [
+     429
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 2.975,
+    "wall": 60.9,
+    "total": 4367,
+    "d56": 344,
+    "r3d": 39,
+    "xy": 28,
+    "best_total": 4377
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 10,
+    "delta": -10,
+    "routes": [
+     455
+    ],
+    "order": [
+     455
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 2.691,
+    "wall": 63.59,
+    "total": 4357,
+    "d56": 368,
+    "r3d": 42,
+    "xy": 30,
+    "best_total": 4367
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     478
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.674,
+    "wall": 66.26,
+    "total": 4357,
+    "d56": 432,
+    "r3d": 46,
+    "xy": 34,
+    "best_total": 4357
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 6,
+    "delta": -6,
+    "routes": [
+     422
+    ],
+    "order": [
+     422
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 2.203,
+    "wall": 68.47,
+    "total": 4351,
+    "d56": 448,
+    "r3d": 49,
+    "xy": 36,
+    "best_total": 4357
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 9,
+    "delta": -9,
+    "routes": [
+     449
+    ],
+    "order": [
+     449
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 2.508,
+    "wall": 70.97,
+    "total": 4342,
+    "d56": 464,
+    "r3d": 52,
+    "xy": 38,
+    "best_total": 4351
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     453
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.698,
+    "wall": 74.5,
+    "total": 4342,
+    "d56": 528,
+    "r3d": 56,
+    "xy": 42,
+    "best_total": 4342
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 20,
+    "delta": -20,
+    "routes": [
+     467
+    ],
+    "order": [
+     467
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 3.652,
+    "wall": 78.15,
+    "total": 4322,
+    "d56": 568,
+    "r3d": 61,
+    "xy": 46,
+    "best_total": 4342
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 2,
+    "delta": -2,
+    "routes": [
+     37
+    ],
+    "order": [
+     37
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 4.259,
+    "wall": 82.41,
+    "total": 4320,
+    "d56": 632,
+    "r3d": 67,
+    "xy": 51,
+    "best_total": 4322
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     98
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.525,
+    "wall": 84.94,
+    "total": 4320,
+    "d56": 696,
+    "r3d": 71,
+    "xy": 55,
+    "best_total": 4320
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     417
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.404,
+    "wall": 87.34,
+    "total": 4320,
+    "d56": 760,
+    "r3d": 75,
+    "xy": 59,
+    "best_total": 4320
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     433
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.736,
+    "wall": 90.08,
+    "total": 4320,
+    "d56": 824,
+    "r3d": 80,
+    "xy": 64,
+    "best_total": 4320
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     106
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 1.961,
+    "wall": 92.04,
+    "total": 4320,
+    "d56": 888,
+    "r3d": 83,
+    "xy": 67,
+    "best_total": 4320
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     108
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.19,
+    "wall": 94.23,
+    "total": 4320,
+    "d56": 952,
+    "r3d": 87,
+    "xy": 71,
+    "best_total": 4320
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     231
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.322,
+    "wall": 96.55,
+    "total": 4320,
+    "d56": 1016,
+    "r3d": 93,
+    "xy": 77,
+    "best_total": 4320
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     431
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.211,
+    "wall": 98.76,
+    "total": 4320,
+    "d56": 1080,
+    "r3d": 97,
+    "xy": 81,
+    "best_total": 4320
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 3,
+    "delta": -3,
+    "routes": [
+     410
+    ],
+    "order": [
+     410
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 3.189,
+    "wall": 101.95,
+    "total": 4317,
+    "d56": 1144,
+    "r3d": 102,
+    "xy": 85,
+    "best_total": 4320
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     434
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.465,
+    "wall": 105.02,
+    "total": 4317,
+    "d56": 1208,
+    "r3d": 107,
+    "xy": 90,
+    "best_total": 4317
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     28
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 1.947,
+    "wall": 106.97,
+    "total": 4317,
+    "d56": 1272,
+    "r3d": 110,
+    "xy": 93,
+    "best_total": 4317
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 7,
+    "delta": -7,
+    "routes": [
+     101
+    ],
+    "order": [
+     101
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 3.836,
+    "wall": 110.81,
+    "total": 4310,
+    "d56": 1328,
+    "r3d": 116,
+    "xy": 98,
+    "best_total": 4317
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     115
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.498,
+    "wall": 113.3,
+    "total": 4310,
+    "d56": 1392,
+    "r3d": 120,
+    "xy": 102,
+    "best_total": 4310
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     147
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 1.935,
+    "wall": 115.24,
+    "total": 4310,
+    "d56": 1456,
+    "r3d": 124,
+    "xy": 106,
+    "best_total": 4310
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 14,
+    "delta": -14,
+    "routes": [
+     206
+    ],
+    "order": [
+     206
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 3.904,
+    "wall": 119.14,
+    "total": 4296,
+    "d56": 1520,
+    "r3d": 130,
+    "xy": 111,
+    "best_total": 4310
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     446
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.399,
+    "wall": 121.54,
+    "total": 4296,
+    "d56": 1584,
+    "r3d": 137,
+    "xy": 118,
+    "best_total": 4296
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     447
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.561,
+    "wall": 124.1,
+    "total": 4296,
+    "d56": 1648,
+    "r3d": 143,
+    "xy": 124,
+    "best_total": 4296
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 8,
+    "delta": -8,
+    "routes": [
+     107
+    ],
+    "order": [
+     107
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 4.974,
+    "wall": 129.08,
+    "total": 4288,
+    "d56": 1712,
+    "r3d": 149,
+    "xy": 129,
+    "best_total": 4296
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     208
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.897,
+    "wall": 132.76,
+    "total": 4288,
+    "d56": 1776,
+    "r3d": 155,
+    "xy": 135,
+    "best_total": 4288
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     3
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.783,
+    "wall": 135.54,
+    "total": 4288,
+    "d56": 1840,
+    "r3d": 159,
+    "xy": 139,
+    "best_total": 4288
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 2,
+    "delta": -2,
+    "routes": [
+     38
+    ],
+    "order": [
+     38
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 3.936,
+    "wall": 139.48,
+    "total": 4286,
+    "d56": 1904,
+    "r3d": 165,
+    "xy": 144,
+    "best_total": 4288
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     230
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.734,
+    "wall": 142.21,
+    "total": 4286,
+    "d56": 1968,
+    "r3d": 170,
+    "xy": 149,
+    "best_total": 4286
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 16,
+    "delta": -16,
+    "routes": [
+     2
+    ],
+    "order": [
+     2
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 4.177,
+    "wall": 146.39,
+    "total": 4270,
+    "d56": 2032,
+    "r3d": 176,
+    "xy": 154,
+    "best_total": 4286
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 15,
+    "delta": -15,
+    "routes": [
+     4
+    ],
+    "order": [
+     4
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 4.103,
+    "wall": 150.49,
+    "total": 4255,
+    "d56": 2096,
+    "r3d": 181,
+    "xy": 158,
+    "best_total": 4270
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 12,
+    "delta": -12,
+    "routes": [
+     408
+    ],
+    "order": [
+     408
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 4.284,
+    "wall": 155.59,
+    "total": 4243,
+    "d56": 2160,
+    "r3d": 187,
+    "xy": 163,
+    "best_total": 4255
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     411
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.036,
+    "wall": 157.63,
+    "total": 4243,
+    "d56": 2224,
+    "r3d": 189,
+    "xy": 165,
+    "best_total": 4243
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     430
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.398,
+    "wall": 160.03,
+    "total": 4243,
+    "d56": 2288,
+    "r3d": 195,
+    "xy": 171,
+    "best_total": 4243
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     502
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.768,
+    "wall": 162.8,
+    "total": 4243,
+    "d56": 2352,
+    "r3d": 202,
+    "xy": 178,
+    "best_total": 4243
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 6,
+    "delta": -6,
+    "routes": [
+     687
+    ],
+    "order": [
+     687
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 2.269,
+    "wall": 165.06,
+    "total": 4237,
+    "d56": 2368,
+    "r3d": 205,
+    "xy": 180,
+    "best_total": 4243
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     33
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.764,
+    "wall": 167.83,
+    "total": 4237,
+    "d56": 2432,
+    "r3d": 209,
+    "xy": 184,
+    "best_total": 4237
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     111
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.439,
+    "wall": 170.27,
+    "total": 4237,
+    "d56": 2496,
+    "r3d": 215,
+    "xy": 190,
+    "best_total": 4237
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     112
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.565,
+    "wall": 172.83,
+    "total": 4237,
+    "d56": 2560,
+    "r3d": 221,
+    "xy": 196,
+    "best_total": 4237
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     225
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.224,
+    "wall": 175.06,
+    "total": 4237,
+    "d56": 2624,
+    "r3d": 225,
+    "xy": 200,
+    "best_total": 4237
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     412
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.145,
+    "wall": 177.2,
+    "total": 4237,
+    "d56": 2688,
+    "r3d": 229,
+    "xy": 204,
+    "best_total": 4237
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     481
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.212,
+    "wall": 179.41,
+    "total": 4237,
+    "d56": 2752,
+    "r3d": 236,
+    "xy": 211,
+    "best_total": 4237
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     501
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.675,
+    "wall": 182.09,
+    "total": 4237,
+    "d56": 2816,
+    "r3d": 243,
+    "xy": 218,
+    "best_total": 4237
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     504
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.052,
+    "wall": 184.14,
+    "total": 4237,
+    "d56": 2880,
+    "r3d": 251,
+    "xy": 226,
+    "best_total": 4237
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": true,
+    "gain": 3,
+    "delta": -3,
+    "routes": [
+     506
+    ],
+    "order": [
+     506
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 3.632,
+    "wall": 187.77,
+    "total": 4234,
+    "d56": 2944,
+    "r3d": 258,
+    "xy": 232,
+    "best_total": 4237
+   },
+   {
+    "stage": -1,
+    "operator": "sweep",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     97
+    ],
+    "order": [],
+    "strategy": "sweep",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 2.361,
+    "wall": 190.7,
+    "total": 4234,
+    "d56": 3008,
+    "r3d": 262,
+    "xy": 236,
+    "best_total": 4234
+   },
+   {
+    "stage": 0,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     141,
+     200,
+     224,
+     230,
+     416,
+     443,
+     446,
+     711
+    ],
+    "order": [
+     200,
+     224,
+     416,
+     711,
+     230,
+     141,
+     443,
+     446
+    ],
+    "strategy": "asc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 18.708,
+    "wall": 223.03,
+    "total": 4234,
+    "d56": 3176,
+    "r3d": 277,
+    "xy": 251,
+    "best_total": 4234
+   },
+   {
+    "stage": 0,
+    "operator": "component",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [],
+    "order": [],
+    "strategy": "",
+    "reason": "no_current_crossings",
+    "seconds": 0.0,
+    "wall": 223.04,
+    "total": 4234,
+    "d56": 3176,
+    "r3d": 277,
+    "xy": 251,
+    "best_total": 4234
+   },
+   {
+    "stage": 0,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     36
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 14.083,
+    "wall": 237.12,
+    "total": 4234,
+    "d56": 3280,
+    "r3d": 288,
+    "xy": 262,
+    "best_total": 4234
+   },
+   {
+    "stage": 0,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     143
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "target_height_occupied",
+    "seconds": 0.735,
+    "wall": 237.86,
+    "total": 4234,
+    "d56": 3304,
+    "r3d": 289,
+    "xy": 263,
+    "best_total": 4234
+   },
+   {
+    "stage": 0,
+    "operator": "lift_direct",
+    "accepted": true,
+    "gain": 1,
+    "delta": -1,
+    "routes": [
+     444,
+     577
+    ],
+    "order": [
+     577,
+     444
+    ],
+    "strategy": "blockers_first",
+    "reason": "",
+    "seconds": 4.156,
+    "wall": 246.79,
+    "total": 4233,
+    "d56": 3396,
+    "r3d": 301,
+    "xy": 273,
+    "best_total": 4234
+   },
+   {
+    "stage": 0,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     247
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 25.138,
+    "wall": 272.42,
+    "total": 4233,
+    "d56": 3580,
+    "r3d": 323,
+    "xy": 295,
+    "best_total": 4233
+   },
+   {
+    "stage": 0,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     116,
+     144,
+     160,
+     207,
+     221,
+     233,
+     425,
+     435
+    ],
+    "order": [
+     160,
+     144,
+     207,
+     221,
+     435,
+     425,
+     233,
+     116
+    ],
+    "strategy": "asc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 13.314,
+    "wall": 286.49,
+    "total": 4233,
+    "d56": 3748,
+    "r3d": 334,
+    "xy": 306,
+    "best_total": 4233
+   },
+   {
+    "stage": 0,
+    "operator": "lift_direct",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     459
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "target_height_occupied",
+    "seconds": 8.478,
+    "wall": 294.97,
+    "total": 4233,
+    "d56": 3848,
+    "r3d": 344,
+    "xy": 316,
+    "best_total": 4233
+   },
+   {
+    "stage": 0,
+    "operator": "lift_direct",
+    "accepted": true,
+    "gain": 8,
+    "delta": -8,
+    "routes": [
+     495,
+     101,
+     747
+    ],
+    "order": [
+     495,
+     101,
+     747
+    ],
+    "strategy": "target_first",
+    "reason": "",
+    "seconds": 4.655,
+    "wall": 299.96,
+    "total": 4225,
+    "d56": 3896,
+    "r3d": 353,
+    "xy": 322,
+    "best_total": 4233
+   },
+   {
+    "stage": 0,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     143
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "target_height_occupied",
+    "seconds": 0.718,
+    "wall": 301.22,
+    "total": 4225,
+    "d56": 3920,
+    "r3d": 354,
+    "xy": 323,
+    "best_total": 4225
+   },
+   {
+    "stage": 0,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     570
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "no_current_crossings",
+    "seconds": 0.684,
+    "wall": 301.91,
+    "total": 4225,
+    "d56": 3944,
+    "r3d": 357,
+    "xy": 326,
+    "best_total": 4225
+   },
+   {
+    "stage": 0,
+    "operator": "lift_direct",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     153
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "no_current_crossings",
+    "seconds": 0.557,
+    "wall": 302.47,
+    "total": 4225,
+    "d56": 3960,
+    "r3d": 359,
+    "xy": 328,
+    "best_total": 4225
+   },
+   {
+    "stage": 0,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     101,
+     513,
+     537,
+     641,
+     673,
+     677,
+     681,
+     685
+    ],
+    "order": [
+     673,
+     681,
+     677,
+     685,
+     537,
+     641,
+     513,
+     101
+    ],
+    "strategy": "asc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 18.673,
+    "wall": 321.85,
+    "total": 4225,
+    "d56": 4128,
+    "r3d": 377,
+    "xy": 346,
+    "best_total": 4225
+   },
+   {
+    "stage": 0,
+    "operator": "lift_direct",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     883
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "no_current_crossings",
+    "seconds": 0.5,
+    "wall": 335.35,
+    "total": 4225,
+    "d56": 4144,
+    "r3d": 379,
+    "xy": 348,
+    "best_total": 4225
+   },
+   {
+    "stage": 0,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     5
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 28.054,
+    "wall": 363.41,
+    "total": 4225,
+    "d56": 4328,
+    "r3d": 404,
+    "xy": 373,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     99,
+     116,
+     124,
+     144,
+     148,
+     150,
+     153,
+     156,
+     159,
+     160,
+     165,
+     207,
+     219,
+     424,
+     435,
+     491
+    ],
+    "order": [
+     148,
+     150,
+     153,
+     156,
+     159,
+     160,
+     144,
+     165,
+     219,
+     207,
+     435,
+     491,
+     99,
+     424,
+     124,
+     116
+    ],
+    "strategy": "asc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 15.867,
+    "wall": 380.54,
+    "total": 4225,
+    "d56": 4520,
+    "r3d": 420,
+    "xy": 389,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "component",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     838,
+     842,
+     846,
+     858,
+     862,
+     866,
+     870,
+     874,
+     882,
+     886,
+     890,
+     910
+    ],
+    "order": [
+     838,
+     858,
+     874,
+     890,
+     842,
+     870,
+     910,
+     846,
+     862,
+     866,
+     882,
+     886
+    ],
+    "strategy": "desc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 6.953,
+    "wall": 387.94,
+    "total": 4225,
+    "d56": 4592,
+    "r3d": 432,
+    "xy": 401,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     169
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 26.461,
+    "wall": 414.4,
+    "total": 4225,
+    "d56": 4788,
+    "r3d": 452,
+    "xy": 421,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     417
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "target_height_occupied",
+    "seconds": 11.426,
+    "wall": 425.83,
+    "total": 4225,
+    "d56": 4892,
+    "r3d": 461,
+    "xy": 430,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "lift_direct",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     544
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "target_height_occupied",
+    "seconds": 0.369,
+    "wall": 426.2,
+    "total": 4225,
+    "d56": 4908,
+    "r3d": 462,
+    "xy": 431,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     117
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 43.043,
+    "wall": 469.24,
+    "total": 4225,
+    "d56": 5194,
+    "r3d": 498,
+    "xy": 467,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     49,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     265,
+     268,
+     271,
+     274,
+     277,
+     280,
+     429,
+     449,
+     505
+    ],
+    "order": [
+     49,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     265,
+     268,
+     271,
+     274,
+     277,
+     280,
+     505,
+     449,
+     429
+    ],
+    "strategy": "asc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 19.582,
+    "wall": 503.04,
+    "total": 4225,
+    "d56": 5386,
+    "r3d": 523,
+    "xy": 492,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     546
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "no_current_crossings",
+    "seconds": 0.742,
+    "wall": 503.78,
+    "total": 4225,
+    "d56": 5410,
+    "r3d": 526,
+    "xy": 495,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     98,
+     162,
+     168,
+     170,
+     172,
+     413,
+     437,
+     452,
+     473,
+     476,
+     482,
+     485,
+     494,
+     500,
+     503,
+     504
+    ],
+    "order": [
+     168,
+     170,
+     500,
+     172,
+     162,
+     452,
+     476,
+     473,
+     494,
+     437,
+     482,
+     413,
+     485,
+     504,
+     503,
+     98
+    ],
+    "strategy": "asc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 17.738,
+    "wall": 522.21,
+    "total": 4225,
+    "d56": 5602,
+    "r3d": 546,
+    "xy": 515,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "component",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     837,
+     841,
+     845,
+     857,
+     861,
+     865,
+     869,
+     873,
+     881,
+     885,
+     889,
+     909
+    ],
+    "order": [
+     837,
+     857,
+     873,
+     889,
+     841,
+     869,
+     909,
+     845,
+     861,
+     865,
+     881,
+     885
+    ],
+    "strategy": "desc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 6.277,
+    "wall": 529.19,
+    "total": 4225,
+    "d56": 5674,
+    "r3d": 554,
+    "xy": 523,
+    "best_total": 4225
+   },
+   {
+    "stage": 1,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     37
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 14.488,
+    "wall": 543.67,
+    "total": 4225,
+    "d56": 5778,
+    "r3d": 565,
+    "xy": 534,
+    "best_total": 4225
+   },
+   {
+    "stage": 2,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     2,
+     205,
+     422,
+     467,
+     470,
+     506,
+     629,
+     633,
+     636,
+     640,
+     738,
+     739,
+     770,
+     771,
+     830,
+     978,
+     979,
+     982,
+     983,
+     986,
+     987,
+     990,
+     991,
+     994,
+     995,
+     998,
+     999,
+     1002,
+     1006,
+     1010,
+     1014,
+     1018
+    ],
+    "order": [
+     467,
+     633,
+     1010,
+     987,
+     986,
+     506,
+     2,
+     738,
+     830,
+     999,
+     982,
+     990,
+     1002,
+     994,
+     422,
+     991,
+     470,
+     998,
+     629,
+     983,
+     739,
+     1014,
+     640,
+     770,
+     978,
+     979,
+     636,
+     205,
+     771,
+     1006,
+     1018,
+     995
+    ],
+    "strategy": "random",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 25.075,
+    "wall": 569.7,
+    "total": 4225,
+    "d56": 6098,
+    "r3d": 614,
+    "xy": 583,
+    "best_total": 4225
+   },
+   {
+    "stage": 2,
+    "operator": "component",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     837,
+     841,
+     845,
+     857,
+     861,
+     865,
+     869,
+     873,
+     881,
+     885,
+     889,
+     909
+    ],
+    "order": [
+     837,
+     857,
+     873,
+     889,
+     841,
+     869,
+     909,
+     845,
+     861,
+     865,
+     881,
+     885
+    ],
+    "strategy": "desc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 5.571,
+    "wall": 575.86,
+    "total": 4225,
+    "d56": 6170,
+    "r3d": 622,
+    "xy": 591,
+    "best_total": 4225
+   },
+   {
+    "stage": 2,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     107
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 13.43,
+    "wall": 589.29,
+    "total": 4225,
+    "d56": 6266,
+    "r3d": 631,
+    "xy": 600,
+    "best_total": 4225
+   },
+   {
+    "stage": 2,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     474
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 27.295,
+    "wall": 628.35,
+    "total": 4225,
+    "d56": 6514,
+    "r3d": 653,
+    "xy": 622,
+    "best_total": 4225
+   },
+   {
+    "stage": 2,
+    "operator": "lift_direct",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     425
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "target_height_occupied",
+    "seconds": 0.545,
+    "wall": 628.9,
+    "total": 4225,
+    "d56": 6530,
+    "r3d": 654,
+    "xy": 623,
+    "best_total": 4225
+   },
+   {
+    "stage": 2,
+    "operator": "migrate",
+    "accepted": true,
+    "gain": 9,
+    "delta": -9,
+    "routes": [
+     663
+    ],
+    "order": [
+     663
+    ],
+    "strategy": "clean_commit",
+    "reason": "",
+    "seconds": 1.365,
+    "wall": 630.47,
+    "total": 4216,
+    "d56": 6538,
+    "r3d": 656,
+    "xy": 624,
+    "best_total": 4225
+   },
+   {
+    "stage": 2,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     116,
+     124,
+     144,
+     148,
+     150,
+     153,
+     156,
+     159,
+     160,
+     165,
+     198,
+     207,
+     212,
+     215,
+     218,
+     219,
+     221,
+     222,
+     227,
+     233,
+     236,
+     239,
+     414,
+     424,
+     425,
+     428,
+     432,
+     435,
+     438,
+     459,
+     461,
+     462
+    ],
+    "order": [
+     148,
+     159,
+     459,
+     236,
+     233,
+     153,
+     116,
+     198,
+     218,
+     432,
+     222,
+     239,
+     435,
+     424,
+     144,
+     414,
+     150,
+     428,
+     156,
+     227,
+     207,
+     461,
+     165,
+     212,
+     219,
+     221,
+     160,
+     124,
+     215,
+     438,
+     462,
+     425
+    ],
+    "strategy": "random",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 21.294,
+    "wall": 653.15,
+    "total": 4216,
+    "d56": 6858,
+    "r3d": 740,
+    "xy": 676,
+    "best_total": 4216
+   },
+   {
+    "stage": 2,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     82
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 10.913,
+    "wall": 664.06,
+    "total": 4216,
+    "d56": 6954,
+    "r3d": 753,
+    "xy": 689,
+    "best_total": 4216
+   },
+   {
+    "stage": 2,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     744
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "no_current_crossings",
+    "seconds": 0.393,
+    "wall": 664.45,
+    "total": 4216,
+    "d56": 6970,
+    "r3d": 755,
+    "xy": 691,
+    "best_total": 4216
+   },
+   {
+    "stage": 2,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     450
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 10.655,
+    "wall": 675.11,
+    "total": 4216,
+    "d56": 7078,
+    "r3d": 766,
+    "xy": 702,
+    "best_total": 4216
+   },
+   {
+    "stage": 2,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     232
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 20.276,
+    "wall": 695.39,
+    "total": 4216,
+    "d56": 7254,
+    "r3d": 786,
+    "xy": 722,
+    "best_total": 4216
+   },
+   {
+    "stage": 2,
+    "operator": "component",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     851,
+     867,
+     871,
+     875,
+     879,
+     887,
+     891,
+     895,
+     899,
+     903,
+     907,
+     911,
+     915,
+     919,
+     923,
+     931,
+     935,
+     939,
+     943,
+     959,
+     963
+    ],
+    "order": [
+     867,
+     887,
+     943,
+     907,
+     923,
+     963,
+     903,
+     871,
+     891,
+     911,
+     919,
+     939,
+     851,
+     895,
+     899,
+     915,
+     931,
+     935,
+     959,
+     875,
+     879
+    ],
+    "strategy": "desc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 5.209,
+    "wall": 700.97,
+    "total": 4216,
+    "d56": 7359,
+    "r3d": 806,
+    "xy": 742,
+    "best_total": 4216
+   },
+   {
+    "stage": 2,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     27,
+     38,
+     102,
+     120,
+     229,
+     406,
+     489,
+     563,
+     587,
+     591,
+     691,
+     695,
+     699,
+     703,
+     715,
+     719,
+     723,
+     742,
+     743,
+     747,
+     751,
+     755,
+     759,
+     775,
+     795,
+     799,
+     803,
+     947,
+     951,
+     967,
+     972,
+     976
+    ],
+    "order": [
+     120,
+     563,
+     967,
+     751,
+     747,
+     406,
+     27,
+     691,
+     715,
+     803,
+     742,
+     755,
+     947,
+     775,
+     102,
+     759,
+     229,
+     799,
+     489,
+     743,
+     695,
+     972,
+     591,
+     699,
+     719,
+     723,
+     587,
+     38,
+     703,
+     951,
+     976,
+     795
+    ],
+    "strategy": "random",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 19.699,
+    "wall": 721.01,
+    "total": 4216,
+    "d56": 7679,
+    "r3d": 859,
+    "xy": 795,
+    "best_total": 4216
+   },
+   {
+    "stage": 2,
+    "operator": "lift_direct",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     438
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "target_height_occupied",
+    "seconds": 0.213,
+    "wall": 730.39,
+    "total": 4216,
+    "d56": 7695,
+    "r3d": 859,
+    "xy": 795,
+    "best_total": 4216
+   },
+   {
+    "stage": 2,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     142,
+     145,
+     151,
+     154,
+     157,
+     201,
+     204,
+     210,
+     213,
+     216,
+     225,
+     228,
+     230,
+     234,
+     237,
+     411,
+     426,
+     431,
+     434,
+     440,
+     441,
+     444,
+     446,
+     447,
+     465,
+     468,
+     488,
+     507,
+     509,
+     510,
+     512,
+     711
+    ],
+    "order": [
+     154,
+     210,
+     510,
+     441,
+     440,
+     201,
+     142,
+     225,
+     237,
+     488,
+     431,
+     444,
+     507,
+     447,
+     151,
+     446,
+     157,
+     468,
+     204,
+     434,
+     228,
+     512,
+     216,
+     230,
+     411,
+     426,
+     213,
+     145,
+     234,
+     509,
+     711,
+     465
+    ],
+    "strategy": "random",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 20.599,
+    "wall": 751.3,
+    "total": 4216,
+    "d56": 8015,
+    "r3d": 909,
+    "xy": 845,
+    "best_total": 4216
+   },
+   {
+    "stage": 3,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     5,
+     8,
+     31,
+     32,
+     40,
+     106,
+     108,
+     116,
+     124,
+     147,
+     164,
+     208,
+     226,
+     228,
+     231,
+     233,
+     335,
+     407,
+     415,
+     417,
+     418,
+     420,
+     421,
+     422,
+     423,
+     424,
+     425,
+     433,
+     436,
+     442,
+     448,
+     453,
+     458,
+     477,
+     478,
+     479,
+     527,
+     531,
+     535,
+     623,
+     631,
+     635,
+     659,
+     671,
+     773,
+     776,
+     777,
+     780,
+     781,
+     784,
+     785,
+     788,
+     789,
+     792,
+     793,
+     796,
+     797,
+     800,
+     801,
+     804,
+     834,
+     927,
+     971,
+     975
+    ],
+    "order": [
+     442,
+     436,
+     423,
+     477,
+     479,
+     834,
+     422,
+     631,
+     208,
+     433,
+     927,
+     32,
+     106,
+     116,
+     659,
+     776,
+     226,
+     804,
+     5,
+     796,
+     8,
+     773,
+     635,
+     231,
+     233,
+     407,
+     780,
+     418,
+     975,
+     164,
+     971,
+     793,
+     527,
+     788,
+     420,
+     40,
+     671,
+     789,
+     147,
+     535,
+     478,
+     801,
+     623,
+     108,
+     777,
+     415,
+     124,
+     800,
+     228,
+     531,
+     421,
+     448,
+     417,
+     792,
+     785,
+     424,
+     453,
+     458,
+     335,
+     31,
+     425,
+     797,
+     781,
+     784
+    ],
+    "strategy": "random",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 37.28,
+    "wall": 789.51,
+    "total": 4216,
+    "d56": 8655,
+    "r3d": 1016,
+    "xy": 952,
+    "best_total": 4216
+   },
+   {
+    "stage": 3,
+    "operator": "component",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     4,
+     73,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     209,
+     232,
+     313,
+     316,
+     319,
+     322,
+     325,
+     328,
+     331,
+     337,
+     340,
+     343,
+     346,
+     349,
+     352,
+     355,
+     358,
+     361,
+     364,
+     367,
+     370,
+     373,
+     376,
+     379,
+     382,
+     385,
+     388,
+     391,
+     394,
+     397,
+     400,
+     403,
+     454,
+     456,
+     457
+    ],
+    "order": [
+     457,
+     232,
+     454,
+     209,
+     456,
+     4,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     337,
+     340,
+     343,
+     346,
+     349,
+     352,
+     355,
+     358,
+     73,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     313,
+     316,
+     319,
+     322,
+     325,
+     328,
+     331,
+     361,
+     364,
+     367,
+     370,
+     373,
+     376,
+     379,
+     382,
+     385,
+     388,
+     391,
+     394,
+     397,
+     400,
+     403
+    ],
+    "strategy": "desc",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 10.405,
+    "wall": 800.31,
+    "total": 4216,
+    "d56": 8920,
+    "r3d": 1043,
+    "xy": 979,
+    "best_total": 4216
+   },
+   {
+    "stage": 3,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     590
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "target_height_occupied",
+    "seconds": 0.598,
+    "wall": 800.91,
+    "total": 4216,
+    "d56": 8936,
+    "r3d": 1044,
+    "xy": 980,
+    "best_total": 4216
+   },
+   {
+    "stage": 3,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     508
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "target_height_occupied",
+    "seconds": 0.288,
+    "wall": 801.2,
+    "total": 4216,
+    "d56": 8952,
+    "r3d": 1045,
+    "xy": 981,
+    "best_total": 4216
+   },
+   {
+    "stage": 3,
+    "operator": "lift_direct",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     239
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 9.39,
+    "wall": 810.59,
+    "total": 4216,
+    "d56": 9036,
+    "r3d": 1057,
+    "xy": 993,
+    "best_total": 4216
+   },
+   {
+    "stage": 3,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     493
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 21.834,
+    "wall": 832.43,
+    "total": 4216,
+    "d56": 9212,
+    "r3d": 1083,
+    "xy": 1019,
+    "best_total": 4216
+   },
+   {
+    "stage": 3,
+    "operator": "recreate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     4,
+     73,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     106,
+     116,
+     124,
+     209,
+     231,
+     232,
+     233,
+     313,
+     316,
+     319,
+     322,
+     325,
+     328,
+     331,
+     337,
+     340,
+     343,
+     346,
+     349,
+     352,
+     355,
+     358,
+     361,
+     364,
+     367,
+     370,
+     373,
+     376,
+     379,
+     382,
+     385,
+     388,
+     391,
+     394,
+     397,
+     400,
+     403,
+     422,
+     423,
+     453,
+     454,
+     456,
+     457,
+     458,
+     478,
+     479
+    ],
+    "order": [
+     325,
+     322,
+     233,
+     340,
+     346,
+     457,
+     232,
+     361,
+     90,
+     319,
+     458,
+     82,
+     84,
+     86,
+     367,
+     376,
+     91,
+     456,
+     4,
+     422,
+     73,
+     373,
+     364,
+     93,
+     94,
+     96,
+     382,
+     124,
+     479,
+     89,
+     478,
+     403,
+     349,
+     394,
+     209,
+     83,
+     370,
+     397,
+     88,
+     355,
+     343,
+     454,
+     358,
+     85,
+     379,
+     106,
+     87,
+     453,
+     92,
+     352,
+     231,
+     328,
+     116,
+     400,
+     391,
+     313,
+     331,
+     337,
+     95,
+     81,
+     316,
+     423,
+     385,
+     388
+    ],
+    "strategy": "random",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 32.729,
+    "wall": 875.68,
+    "total": 4216,
+    "d56": 9852,
+    "r3d": 1165,
+    "xy": 1101,
+    "best_total": 4216
+   },
+   {
+    "stage": 3,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     443
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 11.107,
+    "wall": 886.79,
+    "total": 4216,
+    "d56": 9948,
+    "r3d": 1175,
+    "xy": 1111,
+    "best_total": 4216
+   },
+   {
+    "stage": 3,
+    "operator": "migrate",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     263
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "legal_but_no_crossing_improvement",
+    "seconds": 9.827,
+    "wall": 896.62,
+    "total": 4216,
+    "d56": 10044,
+    "r3d": 1186,
+    "xy": 1122,
+    "best_total": 4216
+   },
+   {
+    "stage": 3,
+    "operator": "lift_direct",
+    "accepted": false,
+    "gain": 0,
+    "delta": 0,
+    "routes": [
+     461
+    ],
+    "order": [],
+    "strategy": "",
+    "reason": "no_legal_xy_corridor",
+    "seconds": 14.07,
+    "wall": 910.69,
+    "total": 4216,
+    "d56": 10196,
+    "r3d": 1200,
+    "xy": 1136,
+    "best_total": 4216
+   }
+  ]
+ }
+}

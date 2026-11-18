@@ -1,0 +1,358 @@
+{
+ "schema": "coldstart20_multiarc_validation_summary_v1",
+ "generated_at": "2026-11-18T22:00:42",
+ "profile": "20_height_raised",
+ "validator": "four_side_1024.fanout1024.xyzrouter.validate_xyz (fresh process, coldstart20.bootstrap installed first)",
+ "manual_policy": "fully_optimizable",
+ "expected_model_height_count": 20,
+ "runs": [
+  {
+   "arm": "on",
+   "tag": "c1_on_20261104",
+   "kind": "primary",
+   "seed": 20261104,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 209,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "on",
+   "tag": "c1_on_20261116",
+   "kind": "primary",
+   "seed": 20261116,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 183,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "on",
+   "tag": "c1_on_20261130",
+   "kind": "primary",
+   "seed": 20261130,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 147,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "off",
+   "tag": "c1_off_20261104",
+   "kind": "primary",
+   "seed": 20261104,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 0,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "off",
+   "tag": "c1_off_20261116",
+   "kind": "primary",
+   "seed": 20261116,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 0,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "off",
+   "tag": "c1_off_20261130",
+   "kind": "primary",
+   "seed": 20261130,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 0,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "on",
+   "tag": "a1_on_20261104",
+   "kind": "auxiliary",
+   "seed": 20261104,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 137,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "on",
+   "tag": "a1_on_20261116",
+   "kind": "auxiliary",
+   "seed": 20261116,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 133,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "on",
+   "tag": "a1_on_20261130",
+   "kind": "auxiliary",
+   "seed": 20261130,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 153,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "off",
+   "tag": "a1_off_20261104",
+   "kind": "auxiliary",
+   "seed": 20261104,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 0,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "off",
+   "tag": "a1_off_20261116",
+   "kind": "auxiliary",
+   "seed": 20261116,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 0,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  },
+  {
+   "arm": "off",
+   "tag": "a1_off_20261130",
+   "kind": "auxiliary",
+   "seed": 20261130,
+   "status": "ok",
+   "validator_pass": true,
+   "validator_engine_pass": true,
+   "violations": 0,
+   "model_plane_count": 20,
+   "multi_arc_regions": 0,
+   "gates": {
+    "routed_1024": true,
+    "validator_pass": true,
+    "engine_validator_pass": true,
+    "violations_zero": true,
+    "model_height_count_20": true,
+    "engine_exit_zero": true,
+    "radius_ok": true,
+    "clearance_ok": true,
+    "d56_centerline_ok": true,
+    "multi_arc_absent_for_off": true,
+    "consistency": {
+     "validator_crossings_equals_audit": true,
+     "audit_routes_sha256_equals_best_valid": true
+    },
+    "all_ok": true
+   }
+  }
+ ]
+}

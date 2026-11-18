@@ -1,0 +1,38 @@
+[2026-11-18T18:07:49] run C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc start
+[2026-11-18T18:08:23] done exit=0
+[2026-11-18T18:08:38] run C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc convert
+[2026-11-18T18:26:29] done exit=0
+[2026-11-18T18:33:59] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-on --seed 20261104 --kind primary -> primary_on_20261104.log
+[2026-11-18T18:33:59] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-off --seed 20261104 --kind primary -> primary_off_20261104.log
+[2026-11-18T18:33:59] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-on --seed 20261116 --kind primary -> primary_on_20261116.log
+[2026-11-18T18:33:59] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-off --seed 20261116 --kind primary -> primary_off_20261116.log
+[2026-11-18T18:33:59] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-on --seed 20261130 --kind primary -> primary_on_20261130.log
+[2026-11-18T18:33:59] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-off --seed 20261130 --kind primary -> primary_off_20261130.log
+[2026-11-18T18:33:59] primary: 6 arm(s) in this batch, 0 queued
+[2026-11-18T19:07:54] finish primary_on_20261104 exit=0
+[2026-11-18T19:09:49] finish primary_off_20261104 exit=0
+[2026-11-18T19:09:49] finish primary_on_20261116 exit=0
+[2026-11-18T19:10:01] finish primary_off_20261116 exit=0
+[2026-11-18T19:10:01] finish primary_on_20261130 exit=0
+[2026-11-18T19:10:31] finish primary_off_20261130 exit=0
+[2026-11-18T19:22:59] run C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc analyse --with-aux
+[2026-11-18T19:22:59] done exit=0
+[2026-11-18T19:37:36] auxiliary: launching 2, 4 queued
+[2026-11-18T19:37:36] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-on --seed 20261104 --kind auxiliary -> auxiliary_on_20261104.log
+[2026-11-18T19:37:36] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-off --seed 20261104 --kind auxiliary -> auxiliary_off_20261104.log
+[2026-11-18T19:54:12] finish auxiliary_on_20261104 exit=0
+[2026-11-18T19:54:25] finish auxiliary_off_20261104 exit=0
+[2026-11-18T19:54:25] auxiliary: launching 2, 2 queued
+[2026-11-18T19:54:25] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-on --seed 20261116 --kind auxiliary -> auxiliary_on_20261116.log
+[2026-11-18T19:54:25] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-off --seed 20261116 --kind auxiliary -> auxiliary_off_20261116.log
+[2026-11-18T20:11:04] finish auxiliary_on_20261116 exit=0
+[2026-11-18T20:11:13] finish auxiliary_off_20261116 exit=0
+[2026-11-18T20:11:13] auxiliary: launching 2, 0 queued
+[2026-11-18T20:11:13] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-on --seed 20261130 --kind auxiliary -> auxiliary_on_20261130.log
+[2026-11-18T20:11:13] spawn C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc arm-off --seed 20261130 --kind auxiliary -> auxiliary_off_20261130.log
+[2026-11-18T20:28:21] finish auxiliary_on_20261130 exit=0
+[2026-11-18T20:28:21] finish auxiliary_off_20261130 exit=0
+[2026-11-18T20:30:31] run C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc analyse --with-aux
+[2026-11-18T20:30:31] done exit=0
+[2026-11-18T22:00:41] run C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -m four_side_1024.fanout1024.coldstart20.run_multiarc analyse --with-aux
+[2026-11-18T22:00:42] done exit=0

@@ -1,0 +1,123 @@
+
+===== 2026-11-18T19:11:48 =====
+[run_g4] _run: profile=20_height_raised plane_count=20 module=four_side_1024.fanout1024.xyzrouter.g4.run_g4_engine
+[2026-11-18T19:11:48] ==============================================================================
+[2026-11-18T19:11:48] [G4c] arm=G4c_free seconds=5400 seed=20261104 resume=False out=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\02_runs\no_multi_arc\seed_20261104 tag=no_multi_arc_20261104
+[2026-11-18T19:11:48] [arm] start C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\no_multi_arc sha256=279ef606c351101448f02705dad8594668d52c29fddcf4c2c720877644e80b89 crossings=4313
+[2026-11-18T19:11:48] [arm] start fingerprint OK (verified G3 legal optimum)
+[2026-11-18T19:12:15] [arm] loaded state routes=1024 crossings=4313 (8.95s)
+[2026-11-18T19:12:15] [G4c] prior_wall=0s remaining=5400s start_stage=0
+[2026-11-18T19:12:15] [G4c] stage sizes=[8, 16, 32, 64] fractions=[0.22, 0.24, 0.26, 0.28] sweep=972s
+[2026-11-18T19:12:15] [G4c] COUNTED-BUDGET MODE d56=24000 checks_guard=9000 wall_safety_net=5400s
+[2026-11-18T19:12:43] [graph] 28.18s events=4313 edges=3224 nodes=754 components=24 max_degree=48 sizes=[127, 46, 45, 37, 47, 43, 55, 29]
+[2026-11-18T19:12:45] [search] arm=G4c_free manual_frozen=False routes=1024 crossings=4313 manual=368 movable=1024 stages=[(8, 0.22), (16, 0.24), (32, 0.26), (64, 0.28)] sweep=972s skip_sweep=False
+[2026-11-18T19:12:45] [search] COUNTED BUDGET d56=24000 (base=0) checks_guard=9000 sweep_share=0.18 (sweep d56=4320)
+[2026-11-18T19:12:45] ==========================================================================
+[2026-11-18T19:12:45] [sweep] greedy forced-height migration budget=5400s total=4313
+[2026-11-18T19:12:59] [arm] checkpoint step_00001 total=4310 (70.7s)
+[2026-11-18T19:12:59] [sweep pass 1] total=4310 pass_accepts=1 attempts=1 (14s/5400s)
+[2026-11-18T19:14:01] [sweep pass 1] total=4244 pass_accepts=7 attempts=11 (76s/5400s)
+[2026-11-18T19:15:04] [sweep pass 1] total=4196 pass_accepts=12 attempts=22 (140s/5400s)
+[2026-11-18T19:16:09] [sweep pass 1] total=4171 pass_accepts=15 attempts=34 (204s/5400s)
+[2026-11-18T19:17:16] [sweep pass 1] total=4132 pass_accepts=19 attempts=48 (271s/5400s)
+
+===== 2026-11-18T19:18:20 =====
+[run_g4] _run: profile=20_height_raised plane_count=20 module=four_side_1024.fanout1024.xyzrouter.g4.run_g4_engine
+[2026-11-18T19:18:20] ==============================================================================
+[2026-11-18T19:18:20] [G4c] arm=G4c_free seconds=5400 seed=20261104 resume=False out=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\02_runs\no_multi_arc\seed_20261104 tag=no_multi_arc_20261104
+[2026-11-18T19:18:20] [arm] start C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\no_multi_arc sha256=279ef606c351101448f02705dad8594668d52c29fddcf4c2c720877644e80b89 crossings=4313
+[2026-11-18T19:18:20] [arm] start fingerprint OK (verified G3 legal optimum)
+[2026-11-18T19:18:29] [arm] loaded state routes=1024 crossings=4313 (2.97s)
+[2026-11-18T19:18:29] [G4c] prior_wall=0s remaining=5400s start_stage=0
+[2026-11-18T19:18:29] [G4c] stage sizes=[8, 16, 32, 64] fractions=[0.22, 0.24, 0.26, 0.28] sweep=972s
+[2026-11-18T19:18:29] [G4c] COUNTED-BUDGET MODE d56=24000 checks_guard=9000 wall_safety_net=5400s
+[2026-11-18T19:18:40] [graph] 10.74s events=4313 edges=3224 nodes=754 components=24 max_degree=48 sizes=[127, 46, 45, 37, 47, 43, 55, 29]
+[2026-11-18T19:18:40] [search] arm=G4c_free manual_frozen=False routes=1024 crossings=4313 manual=368 movable=1024 stages=[(8, 0.22), (16, 0.24), (32, 0.26), (64, 0.28)] sweep=972s skip_sweep=False
+[2026-11-18T19:18:40] [search] COUNTED BUDGET d56=24000 (base=0) checks_guard=9000 sweep_share=0.18 (sweep d56=4320)
+[2026-11-18T19:18:40] ==========================================================================
+[2026-11-18T19:18:40] [sweep] greedy forced-height migration budget=5400s total=4313
+[2026-11-18T19:18:45] [arm] checkpoint step_00001 total=4310 (25.5s)
+[2026-11-18T19:18:45] [sweep pass 1] total=4310 pass_accepts=1 attempts=1 (5s/5400s)
+[2026-11-18T19:19:48] [sweep pass 1] total=4192 pass_accepts=13 attempts=30 (67s/5400s)
+[2026-11-18T19:20:48] [sweep pass 1] total=4128 pass_accepts=20 attempts=56 (127s/5400s)
+[2026-11-18T19:21:42] [sweep pass 1 done] accepted=26 gain=224 total=4089 (182s, queue=240)
+[2026-11-18T19:21:42] [sweep done] attempts=73 accepts=26 gain=224 total=4089 (182s)
+[2026-11-18T19:21:43] [arm] checkpoint step_00026 total=4089 (202.7s)
+[2026-11-18T19:21:43] [search] counted stage ends [8662, 13381, 18494, 24000] (start_used=4336 left=19664)
+[2026-11-18T19:21:43] ==========================================================================
+[2026-11-18T19:21:43] [stage 0] neighbourhood size=8 budget=1148s total=4089 counted_end=8662 used=4336
+[2026-11-18T19:21:57] [graph] 13.84s events=4089 edges=3170 nodes=907 components=23 max_degree=48 sizes=[114, 72, 37, 39, 45, 55, 41, 42]
+[2026-11-18T19:22:46] [stage 0 63/1148s] total=4089 gain=0 attempts=4 accepts=0 rate=0.0% ops={} topfail={'legal_but_no_crossing_improvement': 1, 'no_current_crossings': 1, 'target_height_occupied': 1, 'no_legal_xy_corridor': 1}
+[2026-11-18T19:24:00] [stage 0 137/1148s] total=4088 gain=1 attempts=12 accepts=1 rate=8.3% ops={'lift_direct': 1} topfail={'no_current_crossings': 4, 'legal_but_no_crossing_improvement': 3, 'target_height_occupied': 3, 'no_legal_xy_corridor': 1}
+[2026-11-18T19:24:19] [graph] 19.16s events=4088 edges=3169 nodes=909 components=22 max_degree=47 sizes=[114, 72, 37, 39, 45, 41, 54, 42]
+[2026-11-18T19:25:38] [stage 0 235/1148s] total=4088 gain=1 attempts=15 accepts=1 rate=6.7% ops={'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 5, 'no_current_crossings': 5, 'target_height_occupied': 3, 'no_legal_xy_corridor': 1}
+[2026-11-18T19:26:28] [graph] 16.76s events=4088 edges=3169 nodes=909 components=22 max_degree=47 sizes=[114, 72, 37, 39, 45, 41, 54, 42]
+[2026-11-18T19:26:48] [stage 0 305/1148s] total=4088 gain=1 attempts=18 accepts=1 rate=5.6% ops={'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 6, 'no_current_crossings': 6, 'target_height_occupied': 4, 'no_legal_xy_corridor': 1}
+[2026-11-18T19:27:59] [stage 0 376/1148s] total=4088 gain=1 attempts=22 accepts=1 rate=4.5% ops={'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 10, 'no_current_crossings': 6, 'target_height_occupied': 4, 'no_legal_xy_corridor': 1}
+[2026-11-18T19:28:51] [graph] 14.60s events=4083 edges=3177 nodes=909 components=22 max_degree=47 sizes=[115, 72, 36, 39, 45, 41, 54, 42]
+[2026-11-18T19:29:00] [stage 0 437/1148s] total=4080 gain=9 attempts=29 accepts=3 rate=10.3% ops={'lift_direct': 3} topfail={'legal_but_no_crossing_improvement': 11, 'no_current_crossings': 9, 'target_height_occupied': 5, 'no_legal_xy_corridor': 1}
+[2026-11-18T19:30:01] [stage 0 499/1148s] total=4072 gain=17 attempts=34 accepts=4 rate=11.8% ops={'lift_direct': 3, 'migrate': 1} topfail={'legal_but_no_crossing_improvement': 11, 'no_current_crossings': 11, 'target_height_occupied': 6, 'no_legal_xy_corridor': 2}
+[2026-11-18T19:31:02] [stage 0 559/1148s] total=4061 gain=28 attempts=39 accepts=5 rate=12.8% ops={'lift_direct': 3, 'migrate': 2} topfail={'no_current_crossings': 13, 'legal_but_no_crossing_improvement': 11, 'target_height_occupied': 8, 'no_legal_xy_corridor': 2}
+[2026-11-18T19:31:21] [graph] 19.26s events=4061 edges=3149 nodes=910 components=22 max_degree=47 sizes=[116, 71, 35, 39, 45, 42, 54, 42]
+[2026-11-18T19:32:05] [stage 0 622/1148s] total=4061 gain=28 attempts=41 accepts=5 rate=12.2% ops={'lift_direct': 3, 'migrate': 2} topfail={'no_current_crossings': 13, 'legal_but_no_crossing_improvement': 11, 'target_height_occupied': 10, 'no_legal_xy_corridor': 2}
+[2026-11-18T19:32:23] [arm] checkpoint step_00032 total=4055 (843.4s)
+[2026-11-18T19:33:36] [stage 0 713/1148s] total=4055 gain=34 attempts=46 accepts=6 rate=13.0% ops={'lift_direct': 3, 'migrate': 3} topfail={'no_current_crossings': 15, 'legal_but_no_crossing_improvement': 12, 'target_height_occupied': 11, 'no_legal_xy_corridor': 2}
+[2026-11-18T19:33:52] [graph] 16.25s events=4055 edges=3128 nodes=909 components=22 max_degree=47 sizes=[115, 71, 35, 39, 45, 42, 54, 42]
+[2026-11-18T19:34:36] [stage 0 773/1148s] total=4055 gain=34 attempts=51 accepts=6 rate=11.8% ops={'lift_direct': 3, 'migrate': 3} topfail={'no_current_crossings': 18, 'legal_but_no_crossing_improvement': 14, 'target_height_occupied': 11, 'no_legal_xy_corridor': 2}
+[2026-11-18T19:35:02] [stage 0 done] size=8 attempts=52 accepts=6 gain=34 total=4055 (799s) ops={'lift_direct': 3, 'migrate': 3} reasons={'no_current_crossings': 18, 'legal_but_no_crossing_improvement': 14, 'target_height_occupied': 11, 'no_legal_xy_corridor': 3}
+[2026-11-18T19:35:03] [arm] checkpoint step_00032 total=4055 (1002.8s)
+[2026-11-18T19:35:03] ==========================================================================
+[2026-11-18T19:35:03] [stage 1] neighbourhood size=16 budget=1252s total=4055 counted_end=13381 used=8786
+[2026-11-18T19:35:39] [stage 1 36/1252s] total=4055 gain=0 attempts=2 accepts=0 rate=0.0% ops={} topfail={'legal_but_no_crossing_improvement': 2}
+[2026-11-18T19:35:56] [graph] 17.73s events=4055 edges=3128 nodes=909 components=22 max_degree=47 sizes=[115, 71, 35, 39, 45, 42, 54, 42]
+[2026-11-18T19:36:49] [stage 1 106/1252s] total=4055 gain=0 attempts=4 accepts=0 rate=0.0% ops={} topfail={'legal_but_no_crossing_improvement': 2, 'target_height_occupied': 2}
+[2026-11-18T19:37:49] [graph] 12.75s events=4055 edges=3128 nodes=909 components=22 max_degree=47 sizes=[115, 71, 35, 39, 45, 42, 54, 42]
+[2026-11-18T19:37:57] [stage 1 174/1252s] total=4055 gain=0 attempts=10 accepts=0 rate=0.0% ops={} topfail={'legal_but_no_crossing_improvement': 5, 'target_height_occupied': 5}
+[2026-11-18T19:38:58] [stage 1 235/1252s] total=4055 gain=0 attempts=13 accepts=0 rate=0.0% ops={} topfail={'legal_but_no_crossing_improvement': 6, 'target_height_occupied': 6, 'no_current_crossings': 1}
+[2026-11-18T19:40:05] [stage 1 303/1252s] total=4055 gain=0 attempts=17 accepts=0 rate=0.0% ops={} topfail={'legal_but_no_crossing_improvement': 8, 'target_height_occupied': 7, 'no_current_crossings': 2}
+[2026-11-18T19:40:20] [graph] 14.27s events=4055 edges=3128 nodes=909 components=22 max_degree=47 sizes=[115, 71, 35, 39, 45, 42, 54, 42]
+[2026-11-18T19:41:09] [stage 1 366/1252s] total=4055 gain=0 attempts=20 accepts=0 rate=0.0% ops={} topfail={'legal_but_no_crossing_improvement': 9, 'target_height_occupied': 8, 'no_current_crossings': 2, 'no_legal_xy_corridor': 1}
+[2026-11-18T19:42:21] [stage 1 438/1252s] total=4049 gain=6 attempts=26 accepts=1 rate=3.8% ops={'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 12, 'target_height_occupied': 9, 'no_current_crossings': 2, 'no_legal_xy_corridor': 2}
+[2026-11-18T19:42:33] [graph] 11.89s events=4049 edges=3127 nodes=909 components=22 max_degree=47 sizes=[116, 71, 34, 39, 45, 42, 54, 42]
+[2026-11-18T19:43:24] [stage 1 501/1252s] total=4049 gain=6 attempts=32 accepts=1 rate=3.1% ops={'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 15, 'target_height_occupied': 10, 'no_current_crossings': 4, 'no_legal_xy_corridor': 2}
+[2026-11-18T19:44:32] [graph] 11.48s events=4049 edges=3127 nodes=909 components=22 max_degree=47 sizes=[116, 71, 34, 39, 45, 42, 54, 42]
+[2026-11-18T19:44:56] [stage 1 593/1252s] total=4049 gain=6 attempts=37 accepts=1 rate=2.7% ops={'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 17, 'target_height_occupied': 12, 'no_current_crossings': 4, 'no_legal_xy_corridor': 3}
+[2026-11-18T19:45:06] [arm] checkpoint step_00034 total=4046 (1606.1s)
+[2026-11-18T19:45:53] [stage 1 done] size=16 attempts=41 accepts=2 gain=9 total=4046 (650s) ops={'lift_direct': 2} reasons={'legal_but_no_crossing_improvement': 19, 'target_height_occupied': 13, 'no_current_crossings': 4, 'no_legal_xy_corridor': 3}
+[2026-11-18T19:45:53] [arm] checkpoint step_00034 total=4046 (1653.3s)
+[2026-11-18T19:45:53] ==========================================================================
+[2026-11-18T19:45:53] [stage 2] neighbourhood size=32 budget=1357s total=4046 counted_end=18494 used=13524
+[2026-11-18T19:46:24] [stage 2 31/1357s] total=4046 gain=0 attempts=1 accepts=0 rate=0.0% ops={} topfail={'legal_but_no_crossing_improvement': 1}
+[2026-11-18T19:46:36] [graph] 11.89s events=4046 edges=3130 nodes=909 components=22 max_degree=47 sizes=[116, 71, 39, 33, 43, 45, 54, 42]
+[2026-11-18T19:47:48] [stage 2 115/1357s] total=4044 gain=2 attempts=7 accepts=1 rate=14.3% ops={'migrate': 1} topfail={'legal_but_no_crossing_improvement': 4, 'no_legal_xy_corridor': 2}
+[2026-11-18T19:48:35] [graph] 9.79s events=4044 edges=3130 nodes=909 components=22 max_degree=47 sizes=[116, 72, 39, 33, 43, 44, 54, 42]
+[2026-11-18T19:48:55] [stage 2 181/1357s] total=4044 gain=2 attempts=12 accepts=1 rate=8.3% ops={'migrate': 1} topfail={'legal_but_no_crossing_improvement': 8, 'no_legal_xy_corridor': 2, 'no_current_crossings': 1}
+[2026-11-18T19:50:11] [stage 2 257/1357s] total=4030 gain=16 attempts=22 accepts=2 rate=9.1% ops={'migrate': 1, 'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 11, 'target_height_occupied': 4, 'no_legal_xy_corridor': 3, 'no_current_crossings': 2}
+[2026-11-18T19:50:29] [graph] 8.85s events=4030 edges=3121 nodes=909 components=22 max_degree=47 sizes=[117, 72, 39, 32, 43, 44, 54, 42]
+[2026-11-18T19:51:19] [stage 2 326/1357s] total=4030 gain=16 attempts=30 accepts=2 rate=6.7% ops={'migrate': 1, 'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 16, 'no_current_crossings': 5, 'target_height_occupied': 4, 'no_legal_xy_corridor': 3}
+[2026-11-18T19:52:20] [graph] 9.90s events=4030 edges=3121 nodes=909 components=22 max_degree=47 sizes=[117, 72, 39, 32, 43, 44, 54, 42]
+[2026-11-18T19:52:31] [stage 2 398/1357s] total=4030 gain=16 attempts=35 accepts=2 rate=5.7% ops={'migrate': 1, 'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 19, 'no_current_crossings': 6, 'target_height_occupied': 5, 'no_legal_xy_corridor': 3}
+[2026-11-18T19:53:36] [stage 2 463/1357s] total=4030 gain=16 attempts=47 accepts=2 rate=4.3% ops={'migrate': 1, 'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 25, 'no_current_crossings': 10, 'target_height_occupied': 7, 'no_legal_xy_corridor': 3}
+[2026-11-18T19:54:02] [stage 2 done] size=32 attempts=49 accepts=3 gain=20 total=4026 (488s) ops={'migrate': 2, 'lift_direct': 1} reasons={'legal_but_no_crossing_improvement': 26, 'no_current_crossings': 10, 'target_height_occupied': 7, 'no_legal_xy_corridor': 3}
+[2026-11-18T19:54:02] [arm] checkpoint step_00037 total=4026 (2142.0s)
+[2026-11-18T19:54:02] ==========================================================================
+[2026-11-18T19:54:02] [stage 3] neighbourhood size=64 budget=1461s total=4026 counted_end=24000 used=18651
+[2026-11-18T19:54:12] [graph] 9.72s events=4026 edges=3116 nodes=909 components=22 max_degree=47 sizes=[118, 72, 39, 32, 44, 42, 54, 42]
+[2026-11-18T19:54:53] [stage 3 51/1461s] total=4026 gain=0 attempts=1 accepts=0 rate=0.0% ops={} topfail={'legal_but_no_crossing_improvement': 1}
+[2026-11-18T19:56:05] [stage 3 123/1461s] total=4026 gain=0 attempts=6 accepts=0 rate=0.0% ops={} topfail={'legal_but_no_crossing_improvement': 5, 'no_current_crossings': 1}
+[2026-11-18T19:56:15] [graph] 10.41s events=4026 edges=3116 nodes=909 components=22 max_degree=47 sizes=[118, 72, 39, 32, 44, 42, 54, 42]
+[2026-11-18T19:57:16] [stage 3 194/1461s] total=4023 gain=3 attempts=9 accepts=1 rate=11.1% ops={'migrate': 1} topfail={'legal_but_no_crossing_improvement': 6, 'no_current_crossings': 1, 'no_legal_xy_corridor': 1}
+[2026-11-18T19:58:22] [graph] 7.33s events=4017 edges=3108 nodes=909 components=22 max_degree=47 sizes=[118, 71, 39, 33, 44, 42, 54, 42]
+[2026-11-18T19:58:23] [stage 3 261/1461s] total=3998 gain=28 attempts=16 accepts=3 rate=18.8% ops={'migrate': 2, 'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 8, 'no_current_crossings': 3, 'no_legal_xy_corridor': 1, 'target_height_occupied': 1}
+[2026-11-18T19:59:32] [stage 3 330/1461s] total=3998 gain=28 attempts=25 accepts=3 rate=12.0% ops={'migrate': 2, 'lift_direct': 1} topfail={'legal_but_no_crossing_improvement': 13, 'no_current_crossings': 4, 'no_legal_xy_corridor': 3, 'target_height_occupied': 2}
+[2026-11-18T20:00:13] [graph] 7.50s events=3993 edges=3087 nodes=904 components=23 max_degree=42 sizes=[118, 71, 38, 32, 43, 44, 42, 53]
+[2026-11-18T20:00:39] [stage 3 397/1461s] total=3993 gain=33 attempts=33 accepts=5 rate=15.2% ops={'migrate': 3, 'lift_direct': 2} topfail={'legal_but_no_crossing_improvement': 13, 'no_legal_xy_corridor': 6, 'target_height_occupied': 5, 'no_current_crossings': 4}
+[2026-11-18T20:01:12] [stage 3 done] size=64 attempts=37 accepts=6 gain=42 total=3984 (430s) ops={'migrate': 3, 'lift_direct': 3} reasons={'legal_but_no_crossing_improvement': 14, 'no_legal_xy_corridor': 7, 'target_height_occupied': 6, 'no_current_crossings': 4}
+[2026-11-18T20:01:12] [arm] checkpoint step_00043 total=3984 (2572.3s)
+[2026-11-18T20:01:12] [search] finishing: total=3984 accepts=43 transactions=335 (2572.3s)
+[2026-11-18T20:01:20] [graph] 7.98s events=3984 edges=3089 nodes=904 components=23 max_degree=42 sizes=[118, 71, 38, 32, 43, 44, 42, 53]
+[2026-11-18T20:01:50] [validator] C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\02_runs\no_multi_arc\seed_20261104\validation -> exit=0 (29.3s)
+[2026-11-18T20:01:58] [arm] final saved to C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\02_runs\no_multi_arc\seed_20261104 total=3984
+[2026-11-18T20:01:58] [search] summary: {"arm": "G4c_free", "final_crossings": 3984, "crossing_pairs": 3089, "start_crossings": 4313, "delta_vs_start": -329, "routes_changed": 44, "routes": 1024, "accepts": 43, "transactions": 335, "seconds": 2617.89, "best_valid_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\02_runs\\no_multi_arc\\seed_20261104\\best_valid", "validation_pass": true, "validation_exit": 0, "ledger": {"route_3d_checks": 2650, "d56_candidate_evals": 24178, "xy_candidates_generated": 2561, "transactions": 335, "world_builds": 0, "valid_candidates": 1686, "rejected_3d": 880, "accepted_transactions": 43, "accepted_changes": 57, "gain": 329, "validator_runs": 1, "no_candidate": 598, "rolled_back": 292, "wall_seconds": 2617.87}, "stages": [{"stage": -1, "size": 0, "attempts": 73, "accepts": 26, "gain": 224, "seconds": 181.7, "reasons": {"legal_but_no_crossing_improvement": 47}}, {"stage": 0, "size": 8, "attempts": 52, "accepts": 6, "gain": 34, "seconds": 799.3, "reasons": {"legal_but_no_crossing_improvement": 14, "no_current_crossings": 18, "target_height_occupied": 11, "no_legal_xy_corridor": 3}}, {"stag
+[2026-11-18T20:01:58] [G4c] done arm=G4c_free total=3984 accepts=43 validation_exit=0
+{"arm": "G4c_free", "total": 3984, "accepts": 43, "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\02_runs\\no_multi_arc\\seed_20261104"}

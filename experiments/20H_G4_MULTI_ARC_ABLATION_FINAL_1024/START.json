@@ -1,0 +1,202 @@
+{
+ "schema": "coldstart20_multiarc_start_v1",
+ "generated_at": "2026-11-18T18:08:22",
+ "experiment": "COLD_START_20_HEIGHT_1024",
+ "profile": "20_height_raised",
+ "model": "four_side_1024.fanout1024.coldstart20.model20",
+ "plane_count": 20,
+ "plane_ids": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  20,
+  1001,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  1002,
+  17,
+  18
+ ],
+ "interface_z": {
+  "z1": 0.025,
+  "z2": 0.525
+ },
+ "start_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+ "start_dir_abs": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+ "routes_sha256": "a6aa699728c2c431b0e2ccae4f82c2772dc3943eee43a8832ccfc22e1415eabf",
+ "assignment_sha256": "4f973c083358946d13f8c6b2d26a045a87edb9ebf297dd8d8a66fa9fc57d42a9",
+ "routes_schema": "xyz_joint_g123_routes_v1",
+ "route_count": 1024,
+ "routed": 1024,
+ "failed": 0,
+ "crossings_independent": 1395,
+ "crossings_reported": 1395,
+ "crossing_pairs": 1325,
+ "routes_with_crossings": 645,
+ "max_route_crossings": 20,
+ "total_length_mm": 156735.565905,
+ "multi_arc": {
+  "routes_with_multi_arc": 213,
+  "total_regions": 215,
+  "arcs_in_regions": 576,
+  "kinds": {
+   "multi_arc": 215
+  },
+  "per_height": {
+   "-0.025000": 23,
+   "-0.075000": 37,
+   "-0.125000": 34,
+   "-0.325000": 1,
+   "0.025000": 29,
+   "0.075000": 30,
+   "0.175000": 24,
+   "0.225000": 22,
+   "0.275000": 2,
+   "0.325000": 6,
+   "0.375000": 1,
+   "0.425000": 1,
+   "0.475000": 1,
+   "0.525000": 3,
+   "0.625000": 1
+  }
+ },
+ "manual_route_count": 368,
+ "direct_routes": 93,
+ "plane_side_counts": {
+  "z1": 512,
+  "z2": 512
+ },
+ "flat_arcs": 1844,
+ "flat_lines": 4268,
+ "transition_parts": 1952,
+ "checks": {
+  "profile_20_height": true,
+  "flat_heights_in_model": true,
+  "assignment_layers_in_model": true,
+  "assignment_target_z_matches_model": true,
+  "assignment_interface_z_matches_model": true,
+  "manual_route_count": 368,
+  "manual_route_count_matches_contract": true,
+  "direct_routes": 93,
+  "routed_1024": true,
+  "failed_zero": true,
+  "crossings_recomputed": 1395,
+  "crossings_reported": 1395,
+  "crossings_match": true
+ },
+ "problems": [],
+ "authority": {
+  "dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
+  "available": true,
+  "layer_planes_plane_count": 20
+ },
+ "validator": {
+  "exit_code": 0,
+  "seconds": 29.78,
+  "validation_pass": true,
+  "geometry_pass": true,
+  "contract_pass": true,
+  "violation_count": 0,
+  "model_plane_count": 20,
+  "model_source": "layer_planes.json",
+  "routed": 1024,
+  "failed": 0,
+  "same_plane_crossings": 1395,
+  "crossing_pairs": 1325,
+  "min_3d_clearance_mm": 0.062212557,
+  "min_non_crossing_centerline_mm": 0.086853441,
+  "min_flat_arc_radius_mm": 15.0,
+  "min_transition_sampled_radius_mm": 14.99999998,
+  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+  "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\validation\\start",
+  "validation_json": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\validation\\start\\validation.json",
+  "validator_log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\validation\\start\\validator.log",
+  "manual_policy": "fully_optimizable",
+  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative"
+ },
+ "budget": {
+  "primary": {
+   "kind": "primary",
+   "tag_prefix": "c1",
+   "counted_d56_budget": 24000,
+   "counted_checks_guard": 9000,
+   "wall_safety_net_seconds": 5400.0,
+   "counted_sweep_fraction": 0.18,
+   "stage_sizes": [
+    8,
+    16,
+    32,
+    64
+   ],
+   "stage_fractions": [
+    0.22,
+    0.24,
+    0.26,
+    0.28
+   ],
+   "sweep_ratio": 0.18,
+   "stop_rule": "d56_candidate_evals >= 24000 (secondary route_3d_checks >= 9000; 5400 s wall clock is a pure safety net, designed not to trigger)"
+  },
+  "auxiliary": {
+   "kind": "auxiliary",
+   "tag_prefix": "a1",
+   "counted_d56_budget": 0,
+   "counted_checks_guard": 0,
+   "wall_seconds": 900.0,
+   "counted_sweep_fraction": 0.18,
+   "stage_sizes": [
+    8,
+    16,
+    32,
+    64
+   ],
+   "stage_fractions": [
+    0.22,
+    0.24,
+    0.26,
+    0.28
+   ],
+   "sweep_ratio": 0.18,
+   "stop_rule": "wall_seconds >= 900 (engine stage schedule by wall fractions)"
+  }
+ },
+ "seeds": [
+  20261104,
+  20261116,
+  20261130
+ ],
+ "decision_rule": {
+  "rule": "A: 3/3 seeds ON<OFF and paired mean gap >= max(200, 5 % of common-start crossings) and ON total length increase <= 5 % and all hard gates pass; C: paired mean gap <= 0 or direction inconsistent; B: otherwise",
+  "effect_floor_abs": 200,
+  "effect_floor_ratio": 0.05,
+  "length_max_growth": 0.05,
+  "effect_floor_crossings": 200
+ },
+ "protocol": {
+  "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\PROTOCOL.md",
+  "present": false,
+  "sha256": null
+ },
+ "source_snapshot": {
+  "four_side_1024\\fanout1024\\coldstart20\\run_multiarc.py": "6cb897d7641f89ae2af67e0a2b656fd9a3204130fdb1a6c3605e9a97001aec1c",
+  "four_side_1024\\fanout1024\\coldstart20\\convert_multiarc20.py": "f6a7d4604068eb55663be357f5abc9e1dcfb9bf396400598377221c6be3acdd0",
+  "four_side_1024\\fanout1024\\layer2d.py": "712ebc5472e31a7b551d2dfe98e47d53c3f9fbd28a054ac537d72094ae487960",
+  "four_side_1024\\fanout1024\\xyzrouter\\local_reroute.py": "808206248cccf794ca71f39a7244f7395a901879d851d82ac30d8e2da904a30d",
+  "four_side_1024\\fanout1024\\xyzrouter\\g4\\alns.py": "c43dd040683791e2599f216f69c015c602733a612910eb881801f0557db8e1d0",
+  "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4_engine.py": "8960c0e0f6b9aafec3b367798ad87ff68f4a78a49dfcd2379a3a60fef7a86a6c",
+  "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4c.py": "c012653db960e2b1d4e9ab44f19e7050ad32585865da66c4faba9350a1ef53f6",
+  "four_side_1024\\fanout1024\\coldstart20\\bootstrap.py": "13400e727eb40eb1710307d5c4417d02249966152fc765cf12a8928a551a3a6a",
+  "four_side_1024\\fanout1024\\coldstart20\\model20.py": "3afd35b193c32bf858f55f6897246bcd332b9fd74ea68c1db1e4a41bae6fe489"
+ },
+ "ok": true
+}

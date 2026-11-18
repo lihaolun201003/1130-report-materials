@@ -1,0 +1,1078 @@
+{
+ "attempts": [
+  {
+   "stage": -1,
+   "operator": "sweep",
+   "rids": [
+    411
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 1.116,
+   "wall": 98.09
+  },
+  {
+   "stage": -1,
+   "operator": "sweep",
+   "rids": [
+    29
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 1.222,
+   "wall": 143.66
+  },
+  {
+   "stage": -1,
+   "operator": "sweep",
+   "rids": [
+    711
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 1.587,
+   "wall": 164.79
+  },
+  {
+   "stage": 0,
+   "operator": "recreate",
+   "rids": [
+    205,
+    417,
+    446,
+    449,
+    485,
+    629,
+    633,
+    739
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 12.71,
+   "wall": 206.02
+  },
+  {
+   "stage": 0,
+   "operator": "component",
+   "rids": [],
+   "reason": "no_current_crossings",
+   "seconds": 0.0,
+   "wall": 206.02
+  },
+  {
+   "stage": 0,
+   "operator": "lift_direct",
+   "rids": [
+    536
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.295,
+   "wall": 218.31
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    534
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.694,
+   "wall": 219.0
+  },
+  {
+   "stage": 0,
+   "operator": "recreate",
+   "rids": [
+    460,
+    484,
+    638,
+    708,
+    740,
+    977,
+    981,
+    985
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 11.826,
+   "wall": 243.32
+  },
+  {
+   "stage": 0,
+   "operator": "component",
+   "rids": [],
+   "reason": "no_current_crossings",
+   "seconds": 0.0,
+   "wall": 243.33
+  },
+  {
+   "stage": 0,
+   "operator": "component",
+   "rids": [],
+   "reason": "no_current_crossings",
+   "seconds": 0.0,
+   "wall": 243.33
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    915
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.344,
+   "wall": 243.68
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    638
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.67,
+   "wall": 244.35
+  },
+  {
+   "stage": 0,
+   "operator": "recreate",
+   "rids": [
+    5,
+    8,
+    31,
+    226,
+    418,
+    436,
+    631,
+    663
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 12.713,
+   "wall": 260.4
+  },
+  {
+   "stage": 0,
+   "operator": "lift_direct",
+   "rids": [
+    491
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 8.598,
+   "wall": 269.0
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    695
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.849,
+   "wall": 282.28
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    683
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.521,
+   "wall": 282.8
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    106
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 27.008,
+   "wall": 309.81
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    679
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.503,
+   "wall": 310.32
+  },
+  {
+   "stage": 0,
+   "operator": "lift_direct",
+   "rids": [
+    737
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.394,
+   "wall": 310.71
+  },
+  {
+   "stage": 0,
+   "operator": "recreate",
+   "rids": [
+    32,
+    226,
+    418,
+    421,
+    436,
+    442,
+    527,
+    623
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 12.307,
+   "wall": 323.34
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    508
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.471,
+   "wall": 323.81
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    670
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.505,
+   "wall": 325.93
+  },
+  {
+   "stage": 0,
+   "operator": "recreate",
+   "rids": [
+    25,
+    34,
+    35,
+    105,
+    106,
+    109,
+    114,
+    117
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 8.422,
+   "wall": 334.67
+  },
+  {
+   "stage": 0,
+   "operator": "lift_direct",
+   "rids": [
+    520
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.31,
+   "wall": 334.98
+  },
+  {
+   "stage": 0,
+   "operator": "migrate",
+   "rids": [
+    260
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 9.217,
+   "wall": 344.2
+  },
+  {
+   "stage": 0,
+   "operator": "lift_direct",
+   "rids": [
+    165
+   ],
+   "reason": "no_legal_xy_corridor",
+   "seconds": 5.119,
+   "wall": 349.32
+  },
+  {
+   "stage": 1,
+   "operator": "recreate",
+   "rids": [
+    515,
+    536,
+    539,
+    544,
+    548,
+    552,
+    556,
+    560,
+    572,
+    576,
+    580,
+    584,
+    604,
+    608,
+    615,
+    707
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 11.7,
+   "wall": 362.03
+  },
+  {
+   "stage": 1,
+   "operator": "component",
+   "rids": [
+    896,
+    900,
+    916,
+    920,
+    924,
+    928,
+    936,
+    940,
+    944,
+    948,
+    952,
+    964,
+    968
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 4.938,
+   "wall": 367.32
+  },
+  {
+   "stage": 1,
+   "operator": "migrate",
+   "rids": [
+    530
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.498,
+   "wall": 374.06
+  },
+  {
+   "stage": 1,
+   "operator": "lift_direct",
+   "rids": [
+    883
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.24,
+   "wall": 374.31
+  },
+  {
+   "stage": 1,
+   "operator": "recreate",
+   "rids": [
+    8,
+    31,
+    40,
+    420,
+    448,
+    527,
+    531,
+    535,
+    623,
+    631,
+    635,
+    659,
+    663,
+    671,
+    776,
+    927
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 14.175,
+   "wall": 392.5
+  },
+  {
+   "stage": 1,
+   "operator": "component",
+   "rids": [
+    838,
+    842,
+    846,
+    858,
+    862,
+    866,
+    870,
+    874,
+    882,
+    886,
+    890,
+    910
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 4.739,
+   "wall": 405.46
+  },
+  {
+   "stage": 1,
+   "operator": "migrate",
+   "rids": [
+    539
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.504,
+   "wall": 405.97
+  },
+  {
+   "stage": 1,
+   "operator": "migrate",
+   "rids": [
+    36
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 17.697,
+   "wall": 423.67
+  },
+  {
+   "stage": 1,
+   "operator": "lift_direct",
+   "rids": [
+    620
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.379,
+   "wall": 426.13
+  },
+  {
+   "stage": 1,
+   "operator": "lift_direct",
+   "rids": [
+    165
+   ],
+   "reason": "no_legal_xy_corridor",
+   "seconds": 7.153,
+   "wall": 433.29
+  },
+  {
+   "stage": 1,
+   "operator": "migrate",
+   "rids": [
+    594
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.44,
+   "wall": 433.73
+  },
+  {
+   "stage": 1,
+   "operator": "recreate",
+   "rids": [
+    523,
+    551,
+    555,
+    567,
+    571,
+    575,
+    579,
+    583,
+    595,
+    599,
+    603,
+    607,
+    727,
+    731,
+    735,
+    763
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 10.997,
+   "wall": 445.12
+  },
+  {
+   "stage": 1,
+   "operator": "lift_direct",
+   "rids": [
+    221
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 8.916,
+   "wall": 461.05
+  },
+  {
+   "stage": 1,
+   "operator": "migrate",
+   "rids": [
+    114
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 17.801,
+   "wall": 478.86
+  },
+  {
+   "stage": 1,
+   "operator": "component",
+   "rids": [
+    838,
+    842,
+    846,
+    858,
+    862,
+    866,
+    870,
+    874,
+    882,
+    886,
+    890,
+    910
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 4.646,
+   "wall": 484.07
+  },
+  {
+   "stage": 1,
+   "operator": "migrate",
+   "rids": [
+    223
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.477,
+   "wall": 484.54
+  },
+  {
+   "stage": 1,
+   "operator": "lift_direct",
+   "rids": [
+    552
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.264,
+   "wall": 491.18
+  },
+  {
+   "stage": 1,
+   "operator": "migrate",
+   "rids": [
+    171
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 28.058,
+   "wall": 539.09
+  },
+  {
+   "stage": 2,
+   "operator": "recreate",
+   "rids": [
+    520,
+    524,
+    528,
+    532,
+    536,
+    548,
+    552,
+    556,
+    560,
+    572,
+    576,
+    612,
+    620,
+    624,
+    628,
+    632,
+    652,
+    656,
+    660,
+    664,
+    668,
+    707,
+    737,
+    774,
+    835,
+    839,
+    843,
+    847,
+    859,
+    863,
+    883,
+    974
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 17.121,
+   "wall": 557.28
+  },
+  {
+   "stage": 2,
+   "operator": "component",
+   "rids": [
+    894,
+    898,
+    914,
+    918,
+    922,
+    926,
+    934,
+    938,
+    942,
+    946,
+    950,
+    962,
+    966,
+    970
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 4.916,
+   "wall": 562.48
+  },
+  {
+   "stage": 2,
+   "operator": "migrate",
+   "rids": [
+    697
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.321,
+   "wall": 562.8
+  },
+  {
+   "stage": 2,
+   "operator": "recreate",
+   "rids": [
+    174,
+    176,
+    177,
+    179,
+    180,
+    182,
+    183,
+    185,
+    186,
+    188,
+    189,
+    191,
+    192,
+    194,
+    195,
+    197,
+    231,
+    242,
+    245,
+    248,
+    251,
+    254,
+    257,
+    260,
+    263,
+    266,
+    269,
+    272,
+    275,
+    422,
+    454,
+    457
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 14.98,
+   "wall": 592.31
+  },
+  {
+   "stage": 2,
+   "operator": "lift_direct",
+   "rids": [
+    632
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.356,
+   "wall": 592.66
+  },
+  {
+   "stage": 2,
+   "operator": "migrate",
+   "rids": [
+    502
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 8.399,
+   "wall": 601.06
+  },
+  {
+   "stage": 2,
+   "operator": "lift_direct",
+   "rids": [
+    148
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 16.127,
+   "wall": 617.19
+  },
+  {
+   "stage": 2,
+   "operator": "lift_direct",
+   "rids": [
+    495
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 18.431,
+   "wall": 643.67
+  },
+  {
+   "stage": 2,
+   "operator": "lift_direct",
+   "rids": [
+    632
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.373,
+   "wall": 648.22
+  },
+  {
+   "stage": 2,
+   "operator": "lift_direct",
+   "rids": [
+    148
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 17.426,
+   "wall": 665.64
+  },
+  {
+   "stage": 2,
+   "operator": "migrate",
+   "rids": [
+    594
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.561,
+   "wall": 666.2
+  },
+  {
+   "stage": 2,
+   "operator": "migrate",
+   "rids": [
+    336
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 18.947,
+   "wall": 685.15
+  },
+  {
+   "stage": 2,
+   "operator": "lift_direct",
+   "rids": [
+    453
+   ],
+   "reason": "no_legal_xy_corridor",
+   "seconds": 11.083,
+   "wall": 696.24
+  },
+  {
+   "stage": 2,
+   "operator": "component",
+   "rids": [
+    893,
+    897,
+    913,
+    917,
+    921,
+    925,
+    933,
+    937,
+    941,
+    945,
+    949,
+    961,
+    965,
+    969
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 5.382,
+   "wall": 719.41
+  },
+  {
+   "stage": 2,
+   "operator": "migrate",
+   "rids": [
+    499
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 8.485,
+   "wall": 727.89
+  },
+  {
+   "stage": 2,
+   "operator": "lift_direct",
+   "rids": [
+    164
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 7.655,
+   "wall": 735.55
+  },
+  {
+   "stage": 3,
+   "operator": "component",
+   "rids": [
+    12,
+    15,
+    16,
+    72,
+    102,
+    120,
+    140,
+    143,
+    229,
+    334,
+    406,
+    425,
+    489,
+    563,
+    587,
+    591,
+    691,
+    695,
+    699,
+    703,
+    715,
+    719,
+    723,
+    742,
+    743,
+    747,
+    751,
+    755,
+    759,
+    775,
+    779,
+    783,
+    787,
+    791,
+    795,
+    799,
+    803,
+    947,
+    951,
+    967,
+    972,
+    976
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 11.925,
+   "wall": 776.99
+  },
+  {
+   "stage": 3,
+   "operator": "migrate",
+   "rids": [
+    102
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.279,
+   "wall": 777.27
+  },
+  {
+   "stage": 3,
+   "operator": "migrate",
+   "rids": [
+    545
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.252,
+   "wall": 777.52
+  },
+  {
+   "stage": 3,
+   "operator": "lift_direct",
+   "rids": [
+    774
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.285,
+   "wall": 777.81
+  },
+  {
+   "stage": 3,
+   "operator": "recreate",
+   "rids": [
+    5,
+    8,
+    12,
+    29,
+    31,
+    38,
+    40,
+    98,
+    99,
+    107,
+    116,
+    120,
+    124,
+    134,
+    147,
+    156,
+    159,
+    209,
+    215,
+    226,
+    232,
+    413,
+    420,
+    425,
+    436,
+    437,
+    454,
+    455,
+    457,
+    460,
+    484,
+    491,
+    505,
+    507,
+    559,
+    634,
+    638,
+    639,
+    667,
+    707,
+    708,
+    711,
+    740,
+    742,
+    744,
+    772,
+    832,
+    977,
+    980,
+    981,
+    984,
+    985,
+    988,
+    989,
+    992,
+    993,
+    996,
+    1000,
+    1004,
+    1008,
+    1012,
+    1016,
+    1020,
+    1024
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 44.304,
+   "wall": 878.55
+  },
+  {
+   "stage": 3,
+   "operator": "migrate",
+   "rids": [
+    232
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.271,
+   "wall": 878.82
+  },
+  {
+   "stage": 3,
+   "operator": "lift_direct",
+   "rids": [
+    227
+   ],
+   "reason": "no_current_crossings",
+   "seconds": 0.29,
+   "wall": 879.11
+  },
+  {
+   "stage": 3,
+   "operator": "migrate",
+   "rids": [
+    263
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 9.614,
+   "wall": 888.72
+  },
+  {
+   "stage": 3,
+   "operator": "migrate",
+   "rids": [
+    2
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.288,
+   "wall": 889.01
+  },
+  {
+   "stage": 3,
+   "operator": "migrate",
+   "rids": [
+    5
+   ],
+   "reason": "target_height_occupied",
+   "seconds": 0.334,
+   "wall": 889.35
+  },
+  {
+   "stage": 3,
+   "operator": "recreate",
+   "rids": [
+    4,
+    5,
+    8,
+    12,
+    29,
+    31,
+    35,
+    38,
+    40,
+    98,
+    99,
+    107,
+    116,
+    120,
+    124,
+    134,
+    147,
+    156,
+    159,
+    174,
+    176,
+    177,
+    179,
+    180,
+    182,
+    183,
+    185,
+    186,
+    188,
+    189,
+    191,
+    192,
+    194,
+    195,
+    197,
+    209,
+    215,
+    219,
+    225,
+    226,
+    232,
+    260,
+    263,
+    289,
+    292,
+    413,
+    420,
+    425,
+    432,
+    437,
+    448,
+    454,
+    455,
+    457,
+    460,
+    461,
+    491,
+    505,
+    507,
+    559,
+    637,
+    707,
+    711,
+    742
+   ],
+   "reason": "legal_but_no_crossing_improvement",
+   "seconds": 44.981,
+   "wall": 935.07
+  }
+ ],
+ "count": 71
+}

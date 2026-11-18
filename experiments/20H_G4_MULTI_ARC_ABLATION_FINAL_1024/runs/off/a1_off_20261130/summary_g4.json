@@ -1,0 +1,98 @@
+{
+ "arm": "G4c_free",
+ "final_crossings": 4067,
+ "crossing_pairs": 3145,
+ "start_crossings": 4548,
+ "delta_vs_start": -481,
+ "routes_changed": 49,
+ "routes": 1024,
+ "accepts": 46,
+ "transactions": 163,
+ "seconds": 971.11,
+ "best_valid_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\a1_off_20261130\\best_valid",
+ "validation_pass": true,
+ "validation_exit": 0,
+ "ledger": {
+  "route_3d_checks": 1569,
+  "d56_candidate_evals": 13897,
+  "xy_candidates_generated": 1478,
+  "transactions": 163,
+  "world_builds": 0,
+  "valid_candidates": 968,
+  "rejected_3d": 512,
+  "accepted_transactions": 46,
+  "accepted_changes": 59,
+  "gain": 481,
+  "validator_runs": 1,
+  "no_candidate": 280,
+  "rolled_back": 117,
+  "wall_seconds": 971.09
+ },
+ "stages": [
+  {
+   "stage": -1,
+   "size": 0,
+   "attempts": 86,
+   "accepts": 39,
+   "gain": 427,
+   "seconds": 162.9,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 47
+   }
+  },
+  {
+   "stage": 0,
+   "size": 8,
+   "attempts": 26,
+   "accepts": 4,
+   "gain": 39,
+   "seconds": 169.5,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 7,
+    "no_current_crossings": 4,
+    "target_height_occupied": 11
+   }
+  },
+  {
+   "stage": 1,
+   "size": 16,
+   "attempts": 21,
+   "accepts": 2,
+   "gain": 6,
+   "seconds": 181.8,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 10,
+    "target_height_occupied": 8,
+    "no_legal_xy_corridor": 1
+   }
+  },
+  {
+   "stage": 2,
+   "size": 32,
+   "attempts": 16,
+   "accepts": 1,
+   "gain": 9,
+   "seconds": 194.3,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 5,
+    "no_current_crossings": 1,
+    "no_legal_xy_corridor": 6,
+    "target_height_occupied": 3
+   }
+  },
+  {
+   "stage": 3,
+   "size": 64,
+   "attempts": 9,
+   "accepts": 0,
+   "gain": 0,
+   "seconds": 179.2,
+   "reasons": {
+    "legal_but_no_crossing_improvement": 5,
+    "target_height_occupied": 3,
+    "no_legal_xy_corridor": 1
+   }
+  }
+ ],
+ "summary": null
+}

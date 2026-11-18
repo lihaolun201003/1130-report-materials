@@ -1,0 +1,70 @@
+##############################################################################
+# command: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe -c import sys, runpy
+from four_side_1024.fanout1024.coldstart20 import bootstrap as _coldstart20
+_coldstart20.install()
+_coldstart20.assert_20_height_profile('multiarc-validator-child')
+sys.argv[0] = 'validate_xyz'
+runpy.run_module('four_side_1024.fanout1024.xyzrouter.validate_xyz', run_name='__main__')
+ --run-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\runs\on\a1_on_20261116\best_valid --out-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\runs\on\a1_on_20261116\validation --baseline-dir C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative --manual-policy fully_optimizable
+# exit=0 seconds=33.95
+##############################################################################
+==============================================================================
+[xyz] G1/G2/G3 independent validation: manual_policy=fully_optimizable
+==============================================================================
+[native3d] validating run_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\runs\on\a1_on_20261116\best_valid
+[native3d] baseline_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative
+[native3d] out_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\runs\on\a1_on_20261116\validation
+[model] source=layer_planes.json planes=20 body=18 interface=2 min_pitch=0.050000
+[assignment] 1024 rows from run
+[routes] 1024 records (1024 routed, 0 failed); baseline 1024 records
+[model] violations=0
+[coverage] routed=1024 identity_mismatches=0 violations=0
+[structure] routes=1024 junctions=3876 max_pos_gap=4.91e-10 max_z_gap=0 max_tangent_gap=9.49e-16 violations=0
+[metadata] native=16 mid=40 excursions=20 violations=0
+[radius] flat_arcs=1870 transitions=1938 min_sampled=14.99999998 violations=0
+[glass] samples=1125172 min_margin=0.0 violations=0
+[clearance] running independent minimum 3D clearance scan ...
+[clearance] min_3d=0.062212557 violations=0
+[ports] port_pairs=1024 violations=0
+[crossings] events=2580 pairs=2277 violations=0
+[manual_frozen] policy=fully_optimizable 368 manual routes, mismatches=0 violations=0
+[synthetic] running in-memory consistency tests ...
+[synthetic] duckout_L6_L7_L6_accepted                     PASS
+[synthetic] z_offset_49um_rejected                        PASS
+[synthetic] radius_14_rejected                            PASS
+[synthetic] position_discontinuity_1e-3_rejected          PASS
+[synthetic] flat_overlap_rejected                         PASS
+[synthetic] complete_native_route_accepted                PASS
+[synthetic] two_excursions_accepted                       PASS
+[synthetic] 7 tests, 0 failed
+
+Native 3D validation: PASS
+  run_dir      : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\runs\on\a1_on_20261116\best_valid
+  baseline_dir : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative
+  routes       : records=1024 routed=1024 failed=0 (native=16, baseline=1008)
+  parts        : transitions=1938 mid=40 excursions=20 flat_arcs=1870
+  crossings    : events=2580 pairs=2277 violations=0 heights=20 min_non_crossing=0.094709387
+  vs E5 baseline: 3061 -> 2580 crossings (-481), pairs 2705 -> 2277
+  clearance    : min_3d=0.062212557 (lower bound 0.05)
+  manual frozen: 368 routes, 0 mismatches
+  manual policy: fully_optimizable (0 contract violations)
+  [coverage       ] violations=0 offending_routes=0
+  [structure      ] violations=0 offending_routes=0
+  [native_metadata] violations=0 offending_routes=0
+  [radius         ] violations=0 offending_routes=0
+  [glass          ] violations=0 offending_routes=0
+  [clearance      ] violations=0 offending_routes=0
+  [ports          ] violations=0 offending_routes=0
+  [crossings      ] violations=0 offending_routes=0
+  [manual_frozen  ] violations=0 offending_routes=0
+  [model          ] violations=0 offending_routes=0
+  [synthetic      ] violations=0 offending_routes=0
+  violation_total=0 runtime=33.5s exit_code=0
+[native3d] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\runs\on\a1_on_20261116\validation\validation.json
+[native3d] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\runs\on\a1_on_20261116\validation\validator_consistency_tests.json
+
+[xyz] manual_policy=fully_optimizable contract_violations=0 validation_pass=True
+[xyz] summary: {"crossing_pairs": 2277, "crossings": 2580, "failed": 0, "mid_transitions": 40, "min_3d_clearance": 0.062212557, "policy": "fully_optimizable", "policy_violations": 0, "routed": 1024, "total_length": 158347.054549, "validation_pass": true, "violations": 0}
+[xyz] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\runs\on\a1_on_20261116\validation\validation.json
+
+--- stderr ---

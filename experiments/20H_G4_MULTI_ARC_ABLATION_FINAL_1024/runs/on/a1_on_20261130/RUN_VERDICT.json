@@ -1,0 +1,26 @@
+{
+ "schema": "coldstart20_multiarc_run_verdict_v1",
+ "arm": "on",
+ "tag": "a1_on_20261130",
+ "seed": 20261130,
+ "all_gates_pass": true,
+ "gates": {
+  "routed_1024": true,
+  "validator_pass": true,
+  "engine_validator_pass": true,
+  "violations_zero": true,
+  "model_height_count_20": true,
+  "engine_exit_zero": true,
+  "radius_ok": true,
+  "clearance_ok": true,
+  "d56_centerline_ok": true,
+  "multi_arc_absent_for_off": true,
+  "consistency": {
+   "validator_crossings_equals_audit": true,
+   "audit_routes_sha256_equals_best_valid": true
+  },
+  "all_ok": true
+ },
+ "out_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\a1_on_20261130",
+ "finished_at": "2026-11-18T20:28:20"
+}

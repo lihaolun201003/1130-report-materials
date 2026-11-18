@@ -1,0 +1,34 @@
+[2026-11-18T18:17:34] [recon] profile=20_height_raised planes=20
+[2026-11-18T18:17:34] [recon] multi_arc_enabled=False disabled=[]
+[2026-11-18T18:17:34] [recon] start=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid out=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\no_multi_arc
+[2026-11-18T18:17:34] [arm] start C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid sha256=35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753 crossings=1283
+[2026-11-18T18:17:34] [arm] WARNING: start routes SHA256 differs from the verified G3 optimum!
+[2026-11-18T18:17:44] [arm] loaded state routes=1024 crossings=1283 (3.82s)
+[2026-11-18T18:17:44] [recon] start crossings=1283 routes=1024 sha=35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753
+[2026-11-18T18:17:44] [recon] classifier=patent_structures
+[2026-11-18T18:17:44] [recon] target routes using multi_arc: 213
+[2026-11-18T18:18:48] [recon] 10/213 rebuilt=10 total=1436 residual=0 (6s)
+[2026-11-18T18:19:47] [recon] 20/213 rebuilt=20 total=1590 residual=0 (6s)
+[2026-11-18T18:20:39] [recon] 30/213 rebuilt=30 total=1731 residual=0 (5s)
+[2026-11-18T18:21:28] [recon] 40/213 rebuilt=40 total=1879 residual=0 (5s)
+[2026-11-18T18:22:17] [recon] 50/213 rebuilt=50 total=2055 residual=0 (5s)
+[2026-11-18T18:23:03] [recon] 60/213 rebuilt=60 total=2246 residual=0 (4s)
+[2026-11-18T18:23:46] [recon] 70/213 rebuilt=70 total=2387 residual=0 (5s)
+[2026-11-18T18:24:27] [recon] 80/213 rebuilt=80 total=2549 residual=0 (4s)
+[2026-11-18T18:25:06] [recon] 90/213 rebuilt=90 total=2695 residual=0 (4s)
+[2026-11-18T18:25:50] [recon] 100/213 rebuilt=100 total=2904 residual=0 (4s)
+[2026-11-18T18:26:35] [recon] 110/213 rebuilt=110 total=3096 residual=0 (4s)
+[2026-11-18T18:27:18] [recon] 120/213 rebuilt=120 total=3294 residual=0 (4s)
+[2026-11-18T18:28:00] [recon] 130/213 rebuilt=130 total=3446 residual=0 (4s)
+[2026-11-18T18:29:08] [recon] 140/213 rebuilt=140 total=3620 residual=0 (4s)
+[2026-11-18T18:29:50] [recon] 150/213 rebuilt=150 total=3824 residual=0 (4s)
+[2026-11-18T18:30:33] [recon] 160/213 rebuilt=160 total=3998 residual=0 (4s)
+[2026-11-18T18:31:17] [recon] 170/213 rebuilt=170 total=4202 residual=0 (5s)
+[2026-11-18T18:32:08] [recon] 180/213 rebuilt=180 total=4244 residual=0 (5s)
+[2026-11-18T18:32:58] [recon] 190/213 rebuilt=190 total=4263 residual=0 (5s)
+[2026-11-18T18:33:43] [recon] 200/213 rebuilt=200 total=4303 residual=0 (5s)
+[2026-11-18T18:34:38] [recon] 210/213 rebuilt=210 total=4313 residual=0 (9s)
+[2026-11-18T18:35:03] [recon] done targets=213 residual=0 remaining=0 total=1283->4313 (1038s)
+[2026-11-18T18:35:03] [recon] independent validator ...
+[2026-11-18T18:35:03] [recon] validator pass=None violations=None
+[2026-11-18T18:35:17] [recon] report C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\01_states\no_multi_arc\reconstruction_report.json feasible=True delta=+3030

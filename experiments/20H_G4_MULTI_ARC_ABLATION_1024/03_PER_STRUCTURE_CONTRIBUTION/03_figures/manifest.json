@@ -1,0 +1,1579 @@
+{
+ "schema": "20h_g4_multi_arc_ablation_figures_v1",
+ "script": {
+  "path": "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+  "sha256": "9a2899dfc499363dff005e824623d0d5509b31184de5d271d512d09ca77a4d05"
+ },
+ "entries": [
+  {
+   "command": "route-case",
+   "argv": [
+    "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+    "route-case",
+    "--a",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+    "--b",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a",
+    "--route-id",
+    "2",
+    "--out-dir",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures"
+   ],
+   "cwd": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+   "started_at": "2026-11-18T21:58:43+0800",
+   "finished_at": "2026-11-18T21:58:45+0800",
+   "elapsed_seconds": 1.055,
+   "sources": [
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\routes_l3d.json",
+     "bytes": 3790572,
+     "sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+     "state": "ON"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+     "state": "ON"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+     "state": "ON"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+     "state": "ON"
+    },
+    {
+     "role": "state:validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\validation.json",
+     "bytes": 56993,
+     "sha256": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+     "state": "ON"
+    },
+    {
+     "state": "ON",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d"
+    },
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a\\routes_l3d.json",
+     "bytes": 3838248,
+     "sha256": "aaf66292126a8557ecf20ab66b12adb876f5f357092d8332f086336ee70cdba4",
+     "state": "OFF"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a\\assignment_1024.csv",
+     "bytes": 130212,
+     "sha256": "952fe6b609c0d834d2eb071319776205f5397401dbd643057e147e60007f5651",
+     "state": "OFF"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "afce422613224da3bbca89510c963d27da8ff0f6e2eaa617cd99bbeca897edbb",
+     "state": "OFF"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a\\crossing_stats.json",
+     "bytes": 216161,
+     "sha256": "7b5779ec51de9eb1d6dad1b31977a495360a7e5bd5844d43597d3b73d9886735",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a\\summary.json",
+     "bytes": 1717,
+     "sha256": "ea1114064370f50358609ec387f61e69194a5f8c66bd8cdf4dac84c481b15eeb",
+     "state": "OFF"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a\\geometry_changes.json",
+     "bytes": 42495,
+     "sha256": "364607429c3ee3c253d525403e2cc2c30770dc2064fb2b4460cea8cb56b6a39c",
+     "state": "OFF"
+    },
+    {
+     "state": "OFF",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a\\crossing_stats.json",
+     "bytes": 216161,
+     "sha256": "7b5779ec51de9eb1d6dad1b31977a495360a7e5bd5844d43597d3b73d9886735"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0002.png",
+     "path_from_out_dir": "route_case_0002.png",
+     "format": "png",
+     "bytes": 209297,
+     "sha256": "b25e95ab5620a27bb7ac9cdf03d97284eaca2fd30e226b097341187140c335ff",
+     "dpi": 160,
+     "width_px": 2108,
+     "height_px": 1179
+    },
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0002.svg",
+     "path_from_out_dir": "route_case_0002.svg",
+     "format": "svg",
+     "bytes": 273581,
+     "sha256": "cd6e873fc64737233b46d85100a71a94c5276d1d1e133db37ddcad1a2fef3451"
+    }
+   ],
+   "notes": {
+    "selection": "explicit --route-id 2",
+    "route_ids": [
+     2
+    ],
+    "pad_mm": 6.0,
+    "window_max_mm": 80.0,
+    "a": {
+     "state_label": "ON",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1283,
+     "crossing_pairs": 1221,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "b": {
+     "state_label": "OFF",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6a",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1449,
+     "crossing_pairs": 1323,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "dpi": 160,
+    "formats": [
+     "png",
+     "svg"
+    ]
+   }
+  },
+  {
+   "command": "route-case",
+   "argv": [
+    "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+    "route-case",
+    "--a",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+    "--b",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6b",
+    "--route-id",
+    "110",
+    "--out-dir",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures"
+   ],
+   "cwd": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+   "started_at": "2026-11-18T21:58:45+0800",
+   "finished_at": "2026-11-18T21:58:46+0800",
+   "elapsed_seconds": 0.988,
+   "sources": [
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\routes_l3d.json",
+     "bytes": 3790572,
+     "sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+     "state": "ON"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+     "state": "ON"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+     "state": "ON"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+     "state": "ON"
+    },
+    {
+     "role": "state:validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\validation.json",
+     "bytes": 56993,
+     "sha256": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+     "state": "ON"
+    },
+    {
+     "state": "ON",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d"
+    },
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6b\\routes_l3d.json",
+     "bytes": 3762254,
+     "sha256": "a145c7639a00297063c953c103998dd78acc997243da2704cc91df908b344f4a",
+     "state": "OFF"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6b\\assignment_1024.csv",
+     "bytes": 130134,
+     "sha256": "b10f044a3bd2cd3139a871023921cc7bc99df49c3804f6e73803b9ea50f09a28",
+     "state": "OFF"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6b\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "263cbd80c4c2a65a183ff71a992bd6982fa848da7f78a0a194e998c4f8aa36b4",
+     "state": "OFF"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6b\\crossing_stats.json",
+     "bytes": 199811,
+     "sha256": "9f13e83c8ebf4c7f4d5aab72c3f4a0fcbc86b4e3bd1392f68a0d9851158db46d",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6b\\summary.json",
+     "bytes": 1711,
+     "sha256": "6c0722101d1c3f606bf2e77a4540424cf09a49d638fa8b643c137ba21dc96c18",
+     "state": "OFF"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6b\\geometry_changes.json",
+     "bytes": 22047,
+     "sha256": "854a9a727c4eb5abb259fee5306db7d95dff334fb1ea5eb98901d8298a50d1a7",
+     "state": "OFF"
+    },
+    {
+     "state": "OFF",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6b\\crossing_stats.json",
+     "bytes": 199811,
+     "sha256": "9f13e83c8ebf4c7f4d5aab72c3f4a0fcbc86b4e3bd1392f68a0d9851158db46d"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0110.png",
+     "path_from_out_dir": "route_case_0110.png",
+     "format": "png",
+     "bytes": 240942,
+     "sha256": "430b49b3fc8a35354d0fe69aa64bc5c66209496e969769a85a2b081fb1c52c98",
+     "dpi": 160,
+     "width_px": 2108,
+     "height_px": 1179
+    },
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0110.svg",
+     "path_from_out_dir": "route_case_0110.svg",
+     "format": "svg",
+     "bytes": 218501,
+     "sha256": "e6fb874b912dfbf8b1a629fa99371c01100ef4990236f7eae01c52ded9e255ad"
+    }
+   ],
+   "notes": {
+    "selection": "explicit --route-id 110",
+    "route_ids": [
+     110
+    ],
+    "pad_mm": 6.0,
+    "window_max_mm": 80.0,
+    "a": {
+     "state_label": "ON",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1283,
+     "crossing_pairs": 1221,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "b": {
+     "state_label": "OFF",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6b",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6b",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1339,
+     "crossing_pairs": 1254,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "dpi": 160,
+    "formats": [
+     "png",
+     "svg"
+    ]
+   }
+  },
+  {
+   "command": "route-case",
+   "argv": [
+    "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+    "route-case",
+    "--a",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+    "--b",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c",
+    "--route-id",
+    "233",
+    "--out-dir",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures"
+   ],
+   "cwd": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+   "started_at": "2026-11-18T21:58:47+0800",
+   "finished_at": "2026-11-18T21:58:48+0800",
+   "elapsed_seconds": 1.025,
+   "sources": [
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\routes_l3d.json",
+     "bytes": 3790572,
+     "sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+     "state": "ON"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+     "state": "ON"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+     "state": "ON"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+     "state": "ON"
+    },
+    {
+     "role": "state:validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\validation.json",
+     "bytes": 56993,
+     "sha256": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+     "state": "ON"
+    },
+    {
+     "state": "ON",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d"
+    },
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c\\routes_l3d.json",
+     "bytes": 3788148,
+     "sha256": "3245c72dca3972c143df815a3cd67ed901c203b045a7fc947e1729cdbb6e3c33",
+     "state": "OFF"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+     "state": "OFF"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+     "state": "OFF"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c\\crossing_stats.json",
+     "bytes": 192550,
+     "sha256": "321e0558ac8da2877bb0ee285ced054ae8a48ec2cf2c4f7743fa1bc68a25b7c2",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c\\summary.json",
+     "bytes": 1708,
+     "sha256": "6f913898442fd3f0e821da2e255d80e557b865f33a27735a0bf01a57625f960f",
+     "state": "OFF"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c\\geometry_changes.json",
+     "bytes": 1602,
+     "sha256": "6b3ae0da49784635c72dc1ed4ab1b6c5deec461a4ba47fa53ea1979f3d8ab556",
+     "state": "OFF"
+    },
+    {
+     "state": "OFF",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c\\crossing_stats.json",
+     "bytes": 192550,
+     "sha256": "321e0558ac8da2877bb0ee285ced054ae8a48ec2cf2c4f7743fa1bc68a25b7c2"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0233.png",
+     "path_from_out_dir": "route_case_0233.png",
+     "format": "png",
+     "bytes": 213813,
+     "sha256": "132e5e8aa11ac4a24597d0e41fa0c98ce3fa6a33ff7fb2f59615700243838b84",
+     "dpi": 160,
+     "width_px": 2143,
+     "height_px": 1179
+    },
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0233.svg",
+     "path_from_out_dir": "route_case_0233.svg",
+     "format": "svg",
+     "bytes": 344885,
+     "sha256": "75f9c21789d6f855908c3f6149b76d64af27df2a64dbec9a98629d05551b2026"
+    }
+   ],
+   "notes": {
+    "selection": "explicit --route-id 233",
+    "route_ids": [
+     233
+    ],
+    "pad_mm": 6.0,
+    "window_max_mm": 80.0,
+    "a": {
+     "state_label": "ON",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1283,
+     "crossing_pairs": 1221,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "b": {
+     "state_label": "OFF",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6c",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1287,
+     "crossing_pairs": 1224,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "dpi": 160,
+    "formats": [
+     "png",
+     "svg"
+    ]
+   }
+  },
+  {
+   "command": "route-case",
+   "argv": [
+    "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+    "route-case",
+    "--a",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+    "--b",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d",
+    "--route-id",
+    "31",
+    "--out-dir",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures"
+   ],
+   "cwd": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+   "started_at": "2026-11-18T21:58:48+0800",
+   "finished_at": "2026-11-18T21:58:49+0800",
+   "elapsed_seconds": 1.021,
+   "sources": [
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\routes_l3d.json",
+     "bytes": 3790572,
+     "sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+     "state": "ON"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+     "state": "ON"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+     "state": "ON"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+     "state": "ON"
+    },
+    {
+     "role": "state:validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\validation.json",
+     "bytes": 56993,
+     "sha256": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+     "state": "ON"
+    },
+    {
+     "state": "ON",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d"
+    },
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d\\routes_l3d.json",
+     "bytes": 3790380,
+     "sha256": "d4030861550ba48f3919589edb5ea63352232b52923baf11399b4b2d79cdf588",
+     "state": "OFF"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "f14e1bc93d96464a159f7f5749a17c9a8ce372c3ebf42b9936754c9abe688d10",
+     "state": "OFF"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "2a45e6e1baf71544542e733bd4a2a98eccd3db26d8bbd50b2f021d2b4e3738d1",
+     "state": "OFF"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d\\crossing_stats.json",
+     "bytes": 192329,
+     "sha256": "8453a8eb7bf9d9188e396f5ca8d3b6764d9e9658383959dbd245d22dd324c869",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d\\summary.json",
+     "bytes": 1708,
+     "sha256": "4353c4c6883332eec2ad842bc8f7c6bc4347f5dbd7e1d3fff2e2e6ffdc864be7",
+     "state": "OFF"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d\\geometry_changes.json",
+     "bytes": 416,
+     "sha256": "ac0a56bd124cec00f5ef4fb5ce31de2dd5986596d57d10c5cbc072df281e5fcd",
+     "state": "OFF"
+    },
+    {
+     "state": "OFF",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d\\crossing_stats.json",
+     "bytes": 192329,
+     "sha256": "8453a8eb7bf9d9188e396f5ca8d3b6764d9e9658383959dbd245d22dd324c869"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0031.png",
+     "path_from_out_dir": "route_case_0031.png",
+     "format": "png",
+     "bytes": 196103,
+     "sha256": "7b216c2e2f9b3c8ac72572260287470ed1afc922b277565d582019c74fd904fa",
+     "dpi": 160,
+     "width_px": 2118,
+     "height_px": 1179
+    },
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0031.svg",
+     "path_from_out_dir": "route_case_0031.svg",
+     "format": "svg",
+     "bytes": 296027,
+     "sha256": "fc19e71f8c02e46d36e661d47bc665f41d39738d6ddab3ea6fcc991f5302abc2"
+    }
+   ],
+   "notes": {
+    "selection": "explicit --route-id 31",
+    "route_ids": [
+     31
+    ],
+    "pad_mm": 6.0,
+    "window_max_mm": 80.0,
+    "a": {
+     "state_label": "ON",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1283,
+     "crossing_pairs": 1221,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "b": {
+     "state_label": "OFF",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_6d",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1286,
+     "crossing_pairs": 1222,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "dpi": 160,
+    "formats": [
+     "png",
+     "svg"
+    ]
+   }
+  },
+  {
+   "command": "route-case",
+   "argv": [
+    "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+    "route-case",
+    "--a",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+    "--b",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7a",
+    "--route-id",
+    "833",
+    "--out-dir",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures"
+   ],
+   "cwd": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+   "started_at": "2026-11-18T21:58:50+0800",
+   "finished_at": "2026-11-18T21:58:51+0800",
+   "elapsed_seconds": 0.933,
+   "sources": [
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\routes_l3d.json",
+     "bytes": 3790572,
+     "sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+     "state": "ON"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+     "state": "ON"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+     "state": "ON"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+     "state": "ON"
+    },
+    {
+     "role": "state:validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\validation.json",
+     "bytes": 56993,
+     "sha256": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+     "state": "ON"
+    },
+    {
+     "state": "ON",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d"
+    },
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7a\\routes_l3d.json",
+     "bytes": 3795419,
+     "sha256": "98dc9f6c93de0ad30b333835d09b0fd398abeb7049220ee3b368dcc7bd8433df",
+     "state": "OFF"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7a\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "e0689eacdd88040e042e6eab529377b82b740fd287d8010cc46f94ea16358cfe",
+     "state": "OFF"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7a\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "2a45e6e1baf71544542e733bd4a2a98eccd3db26d8bbd50b2f021d2b4e3738d1",
+     "state": "OFF"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7a\\crossing_stats.json",
+     "bytes": 196559,
+     "sha256": "73765effc10f0a38bfddd9abab8656e9e859443d1d2feb4fe8a0ddae3b8b6825",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7a\\summary.json",
+     "bytes": 1711,
+     "sha256": "bc1b21e68ae1138e1623824240a9b7f4742bea1da77f9417ec5efe09c121bd69",
+     "state": "OFF"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7a\\geometry_changes.json",
+     "bytes": 6289,
+     "sha256": "e4c17d02f2fdc1ecbd3d8dd7d3bfdc562b0e5283a71293bc9a4c0c8fc9b5bc86",
+     "state": "OFF"
+    },
+    {
+     "state": "OFF",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7a\\crossing_stats.json",
+     "bytes": 196559,
+     "sha256": "73765effc10f0a38bfddd9abab8656e9e859443d1d2feb4fe8a0ddae3b8b6825"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0833.png",
+     "path_from_out_dir": "route_case_0833.png",
+     "format": "png",
+     "bytes": 123664,
+     "sha256": "1a9255c47ce96034e18b652487eff8debba9ebe6b4e6eb833b94cd71ad6ec34c",
+     "dpi": 160,
+     "width_px": 2104,
+     "height_px": 1179
+    },
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0833.svg",
+     "path_from_out_dir": "route_case_0833.svg",
+     "format": "svg",
+     "bytes": 156729,
+     "sha256": "133333e29f2aac42cb17965b44b757af507b46587399bf6a8d8437581f667187"
+    }
+   ],
+   "notes": {
+    "selection": "explicit --route-id 833",
+    "route_ids": [
+     833
+    ],
+    "pad_mm": 6.0,
+    "window_max_mm": 80.0,
+    "a": {
+     "state_label": "ON",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1283,
+     "crossing_pairs": 1221,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "b": {
+     "state_label": "OFF",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7a",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7a",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1316,
+     "crossing_pairs": 1248,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "dpi": 160,
+    "formats": [
+     "png",
+     "svg"
+    ]
+   }
+  },
+  {
+   "command": "route-case",
+   "argv": [
+    "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+    "route-case",
+    "--a",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+    "--b",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b",
+    "--route-id",
+    "972",
+    "--out-dir",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures"
+   ],
+   "cwd": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+   "started_at": "2026-11-18T21:58:52+0800",
+   "finished_at": "2026-11-18T21:58:52+0800",
+   "elapsed_seconds": 0.939,
+   "sources": [
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\routes_l3d.json",
+     "bytes": 3790572,
+     "sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+     "state": "ON"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+     "state": "ON"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+     "state": "ON"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+     "state": "ON"
+    },
+    {
+     "role": "state:validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\validation.json",
+     "bytes": 56993,
+     "sha256": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+     "state": "ON"
+    },
+    {
+     "state": "ON",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d"
+    },
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b\\routes_l3d.json",
+     "bytes": 3777368,
+     "sha256": "cf34743798d7a1dde199dae8aaebdec47a1802a30cda7420083185eb6bb31909",
+     "state": "OFF"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b\\assignment_1024.csv",
+     "bytes": 130178,
+     "sha256": "208e26bfe0feb21ff48ea5ac73ebbb00909119d7cd2a9dec72554d45a7aaa66f",
+     "state": "OFF"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "394f86e76dfcecf15ff877157239980405324eae02fc9263cc239f63483232ff",
+     "state": "OFF"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b\\crossing_stats.json",
+     "bytes": 194841,
+     "sha256": "55bc4a8e003488d19a3544743056b3aa9bae02d5e586aa8811c743645eea66c7",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b\\summary.json",
+     "bytes": 1710,
+     "sha256": "9aa242b5451b26c3725ee1fedaba546068c0f2420ec76d75125562538147204a",
+     "state": "OFF"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b\\geometry_changes.json",
+     "bytes": 9054,
+     "sha256": "1cc0201e6af858811f2128a1516cbe87c6bc7865300795504b5c43f32699d9db",
+     "state": "OFF"
+    },
+    {
+     "state": "OFF",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b\\crossing_stats.json",
+     "bytes": 194841,
+     "sha256": "55bc4a8e003488d19a3544743056b3aa9bae02d5e586aa8811c743645eea66c7"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0972.png",
+     "path_from_out_dir": "route_case_0972.png",
+     "format": "png",
+     "bytes": 181988,
+     "sha256": "8a6acc755cf787b0e5e475b7afd7d920c27d34adda2b9f737a9a67e396a56ef1",
+     "dpi": 160,
+     "width_px": 2104,
+     "height_px": 1179
+    },
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0972.svg",
+     "path_from_out_dir": "route_case_0972.svg",
+     "format": "svg",
+     "bytes": 174411,
+     "sha256": "3157bf86ad6845d03bc3e9c96e43358cd71211bae9124c99d5758acb24c76608"
+    }
+   ],
+   "notes": {
+    "selection": "explicit --route-id 972",
+    "route_ids": [
+     972
+    ],
+    "pad_mm": 6.0,
+    "window_max_mm": 80.0,
+    "a": {
+     "state_label": "ON",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1283,
+     "crossing_pairs": 1221,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "b": {
+     "state_label": "OFF",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7b",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1304,
+     "crossing_pairs": 1238,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "dpi": 160,
+    "formats": [
+     "png",
+     "svg"
+    ]
+   }
+  },
+  {
+   "command": "route-case",
+   "argv": [
+    "experiments/20H_G4_MULTI_ARC_ABLATION_1024/tools/plots_ablation.py",
+    "route-case",
+    "--a",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+    "--b",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7c",
+    "--route-id",
+    "927",
+    "--out-dir",
+    "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures"
+   ],
+   "cwd": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+   "started_at": "2026-11-18T21:58:53+0800",
+   "finished_at": "2026-11-18T21:58:54+0800",
+   "elapsed_seconds": 0.965,
+   "sources": [
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\routes_l3d.json",
+     "bytes": 3790572,
+     "sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+     "state": "ON"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+     "state": "ON"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+     "state": "ON"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+     "state": "ON"
+    },
+    {
+     "role": "state:validation.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\validation.json",
+     "bytes": 56993,
+     "sha256": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+     "state": "ON"
+    },
+    {
+     "state": "ON",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on\\crossing_stats.json",
+     "bytes": 191949,
+     "sha256": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d"
+    },
+    {
+     "role": "state:routes_l3d.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7c\\routes_l3d.json",
+     "bytes": 3786357,
+     "sha256": "7105535e4032b5b4f2b28720da11045d242607562912c305e01f02720b155c2e",
+     "state": "OFF"
+    },
+    {
+     "role": "state:assignment_1024.csv",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7c\\assignment_1024.csv",
+     "bytes": 130150,
+     "sha256": "b5d7ffaa16f787eb23f17c78ae75666f8adef57b8c0ac4b6fbb6044122bce812",
+     "state": "OFF"
+    },
+    {
+     "role": "state:layer_planes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7c\\layer_planes.json",
+     "bytes": 7319,
+     "sha256": "2a45e6e1baf71544542e733bd4a2a98eccd3db26d8bbd50b2f021d2b4e3738d1",
+     "state": "OFF"
+    },
+    {
+     "role": "state:crossing_stats.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7c\\crossing_stats.json",
+     "bytes": 191833,
+     "sha256": "27a47a428ffe639a06e3ab365afd1479a0a2bcbd96c2df572e1f05c434df139e",
+     "state": "OFF"
+    },
+    {
+     "role": "state:summary.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7c\\summary.json",
+     "bytes": 1709,
+     "sha256": "631c2fcfc1f353d3d6b0420242893a625e8ea9c2bcd51b6225e88fd3cec160fb",
+     "state": "OFF"
+    },
+    {
+     "role": "state:geometry_changes.json",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7c\\geometry_changes.json",
+     "bytes": 1975,
+     "sha256": "83e99829496c6a795d87ecba80dc2fd421dfe7b77ca329bca7d453281a34c5a7",
+     "state": "OFF"
+    },
+    {
+     "state": "OFF",
+     "role": "crossing_stats_used",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7c\\crossing_stats.json",
+     "bytes": 191833,
+     "sha256": "27a47a428ffe639a06e3ab365afd1479a0a2bcbd96c2df572e1f05c434df139e"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0927.png",
+     "path_from_out_dir": "route_case_0927.png",
+     "format": "png",
+     "bytes": 175415,
+     "sha256": "53e154884395e69dbbb5a1bda38681f39e4062f1f3dbb3c654249fc45fd3cfbb",
+     "dpi": 160,
+     "width_px": 2112,
+     "height_px": 1179
+    },
+    {
+     "kind": "figure",
+     "path": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\03_figures\\route_cases\\route_case_0927.svg",
+     "path_from_out_dir": "route_case_0927.svg",
+     "format": "svg",
+     "bytes": 173347,
+     "sha256": "b4bb7e61a779765a3477e0a720206aa93ffda8f1a46e3411215e92d6cde23a5e"
+    }
+   ],
+   "notes": {
+    "selection": "explicit --route-id 927",
+    "route_ids": [
+     927
+    ],
+    "pad_mm": 6.0,
+    "window_max_mm": 80.0,
+    "a": {
+     "state_label": "ON",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\full_on",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1283,
+     "crossing_pairs": 1221,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "b": {
+     "state_label": "OFF",
+     "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7c",
+     "staged_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\ablate_7c",
+     "staging_copied": false,
+     "counts_source": "authoritative",
+     "routes": 1024,
+     "failed_routes": 0,
+     "plane_count": 20,
+     "plane_ids": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      20,
+      1001,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      1002,
+      17,
+      18
+     ],
+     "crossings": 1282,
+     "crossing_pairs": 1220,
+     "r15_mm": 15.0,
+     "two_r_mm": 30.0,
+     "profile": "20_height_raised",
+     "counts_note": "crossing counts are the authoritative crossing_stats.json values and were re-verified against exact recomputed intersections (per-plane audit PASS)"
+    },
+    "dpi": 160,
+    "formats": [
+     "png",
+     "svg"
+    ]
+   }
+  }
+ ],
+ "generated_at": "2026-11-18T21:58:54+0800",
+ "engine": {
+  "per_height_driver": "four_side_1024/fanout1024/coldstart20/plot_layers20.py",
+  "per_height_driver_sha256": "6409736c5f1dbf9b32945b1c85cb8504c0ffd9d42d5f5adbf334fe6bdd6b8639",
+  "frozen_engine": "four_side_1024/fanout1024/reheight21/plots21.py",
+  "frozen_engine_sha256": "c1e1badebf98f2a568cc1382d623679e831d19e2e295944ffe44d47a5a3bdf52",
+  "layer2d": "four_side_1024/fanout1024/layer2d.py",
+  "layer2d_sha256": "75786a7907909c38593f16413ac622f9a440d26382472411c64156dfcc892522",
+  "layer2d_r15_mm": 15.0,
+  "profile": "20_height_raised",
+  "plane_count": 20,
+  "interfaces": {
+   "z1": 0.025,
+   "z2": 0.525
+  }
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "schema": "20h_ablation_summary_tables_v1",
+ "generated_at": "2026-11-18T18:25:06+0800",
+ "exp_root": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024",
+ "round": "round1_original",
+ "states": [
+  {
+   "state": "g3_start",
+   "role": "reference G3 start (before Stage-0 conversion)",
+   "dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+   "status": "ok",
+   "run_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+   "state_dir": "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid",
+   "final_crossings": 1395,
+   "crossing_pairs": 1325,
+   "max_route_crossings": 20,
+   "start_crossings": 1409,
+   "delta_vs_start": -14,
+   "routes_with_crossings": 645,
+   "total_length_mm": null,
+   "multi_arc_routes": null,
+   "multi_arc_regions": null,
+   "d56_candidate_evals": null,
+   "route_3d_checks": null,
+   "wall_seconds": null,
+   "validator_pass": null,
+   "violation_count": null,
+   "model_plane_count": null,
+   "all_gates_pass": null,
+   "files_used": [
+    "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid\\summary.json",
+    "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid\\strategy_stats.json",
+    "experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\best_valid\\crossing_stats.json"
+   ],
+   "routes_sha256": null
+  },
+  {
+   "state": "common_start_off",
+   "role": "Stage-0 converted common start (multi-arc OFF)",
+   "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\01_common_start",
+   "status": "MISSING",
+   "missing": "routes_l3d.json or best_valid/routes_l3d.json"
+  },
+  {
+   "state": "on_c_free",
+   "role": "ON: G4c_free stage",
+   "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\01_c_free",
+   "status": "pending",
+   "run_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\01_c_free",
+   "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\01_c_free\\best_valid",
+   "final_crossings": null,
+   "crossing_pairs": null,
+   "max_route_crossings": null,
+   "start_crossings": null,
+   "delta_vs_start": null,
+   "routes_with_crossings": null,
+   "total_length_mm": null,
+   "multi_arc_routes": null,
+   "multi_arc_regions": null,
+   "d56_candidate_evals": null,
+   "route_3d_checks": null,
+   "wall_seconds": null,
+   "validator_pass": null,
+   "violation_count": null,
+   "model_plane_count": null,
+   "all_gates_pass": null,
+   "files_used": [],
+   "routes_sha256": null,
+   "missing": "running / not collected yet: no crossing count in crossing_stats.json, audit_state.json, summary*.json or validation_final"
+  },
+  {
+   "state": "on_g4d",
+   "role": "ON: G4d final",
+   "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d",
+   "status": "MISSING",
+   "missing": "directory does not exist (round still running?)"
+  },
+  {
+   "state": "off_c_free",
+   "role": "OFF: G4c_free stage",
+   "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\01_c_free",
+   "status": "MISSING",
+   "missing": "directory does not exist (round still running?)"
+  },
+  {
+   "state": "off_g4d",
+   "role": "OFF: G4d final",
+   "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d",
+   "status": "MISSING",
+   "missing": "directory does not exist (round still running?)"
+  }
+ ],
+ "runs": [],
+ "decomposition": null,
+ "missing_states": [
+  {
+   "state": "common_start_off",
+   "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\01_common_start",
+   "missing": "routes_l3d.json or best_valid/routes_l3d.json"
+  },
+  {
+   "state": "on_c_free",
+   "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\01_c_free",
+   "missing": "running / not collected yet: no crossing count in crossing_stats.json, audit_state.json, summary*.json or validation_final"
+  },
+  {
+   "state": "on_g4d",
+   "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d",
+   "missing": "directory does not exist (round still running?)"
+  },
+  {
+   "state": "off_c_free",
+   "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\01_c_free",
+   "missing": "directory does not exist (round still running?)"
+  },
+  {
+   "state": "off_g4d",
+   "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d",
+   "missing": "directory does not exist (round still running?)"
+  }
+ ],
+ "missing_runs": [],
+ "lead_tables": []
+}

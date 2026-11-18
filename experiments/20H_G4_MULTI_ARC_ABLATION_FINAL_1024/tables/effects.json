@@ -1,0 +1,84 @@
+{
+ "schema": "coldstart20_multiarc_effects_v1",
+ "generated_at": "2026-11-18T22:00:42",
+ "profile": "20_height_raised",
+ "A": {
+  "name": "A",
+  "definition": "crossing delta when the inherited ON geometry is re-expressed in the OFF grammar (Stage-0 conversion)",
+  "start_crossings": 1395,
+  "crossings_after": 4548,
+  "crossing_delta": 3153,
+  "multi_arc_routes_before": 213,
+  "converted": 213,
+  "residual": 0,
+  "residual_route_ids": [],
+  "multi_arc_routes_after": 0,
+  "total_length_mm": 164949.026943,
+  "validation_pass": true,
+  "feasible": true,
+  "report": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\common_start_off\\conversion_report.json"
+ },
+ "B": {
+  "name": "B",
+  "definition": "ON vs OFF search result from the SAME converted common start, same code, same counted budget, only enable_multi_arc toggled",
+  "start_crossings": 4548,
+  "on_final": [
+   2115,
+   2093,
+   2171
+  ],
+  "off_final": [
+   4072,
+   4068,
+   4052
+  ],
+  "paired_diff": [
+   -1957,
+   -1975,
+   -1881
+  ],
+  "paired_mean": -1937.666667,
+  "verdict": "A"
+ },
+ "C": {
+  "available": true,
+  "path": "experiments\\G4_MULTI_ARC_ABLATION_FINAL_1024\\tables\\summary_c1.json",
+  "source": "experiments/G4_MULTI_ARC_ABLATION_FINAL_1024 (21H, read-only)",
+  "common_start_crossings": 3967,
+  "on_final": [
+   2203.0,
+   2197.0,
+   2209.0
+  ],
+  "off_final": [
+   3583.0,
+   3613.0,
+   3607.0
+  ],
+  "paired_diff": [
+   -1380.0,
+   -1416.0,
+   -1398.0
+  ],
+  "paired_diff_mean": -1398.0,
+  "verdict": "A",
+  "historical_A": {
+   "source": "experiments\\G4_MULTI_ARC_ABLATION_FINAL_1024\\tables\\stage0_audit.json",
+   "g3_crossings": 1322,
+   "converted_crossings": 3967,
+   "targets": 197,
+   "converted": 197,
+   "residual": 0,
+   "delta": 2645,
+   "length_delta_mm": 8107.713019
+  },
+  "historical_C": {
+   "source": "G4_MULTI_ARC_ABLATION_1024/report.md (read-only prose)",
+   "on_final": 1202,
+   "off_final": 3484,
+   "difference": 2282,
+   "note": "historical mixed package (different start + unequal budget); it is A + B + budget/start differences, never a 20H number"
+  },
+  "note": "historical 21H numbers; never mixed into the 20H effect B and never added to effect A"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "schema": "plots_ablation_staging_v1",
+ "note": "byte-identical copies of real artifacts, staged so that the frozen 20H plotting engine can read one self-contained run directory; no value is changed, every source path + SHA256 is recorded here and in manifest.json",
+ "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+ "artifact_root": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+ "files": {
+  "routes_l3d.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\routes_l3d.json",
+   "sha256": "7c207501c97bb419ae98b2f32c5cd8fa4850f5ca7fa8862d3e6981f525f7f60f"
+  },
+  "assignment_1024.csv": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\assignment_1024.csv",
+   "sha256": "9cbfe24f828386cf53d88d889549d9bdd440e9eebb229b9c1b5a7f9f0b3d9752"
+  },
+  "layer_planes.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\layer_planes.json",
+   "sha256": "7c1e383f691c552447743033312524be3286d449d1c42d8f317249f1816912e5"
+  },
+  "crossing_stats.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\crossing_stats.json",
+   "sha256": "753a2ea246e0e7447fe529ff832dad5588fbfb89b2f9e53c0ec1d0104466da10"
+  },
+  "summary.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\summary.json",
+   "sha256": "71b592c581a9239b2a5b818602398d173c43fac3c1b9bf1ca4539fa189332325"
+  },
+  "summary_g4.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\summary_g4.json",
+   "sha256": "d19f53024c231e278d72d45ba5821e5da5d302bc51d871c028252164fa00739b"
+  },
+  "strategy_stats.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\strategy_stats.json",
+   "sha256": "06c5f2568e51daedb58544aa63cbd2af44e9077a57b673c9319528f4f6db759f"
+  },
+  "budget_ledger.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\budget_ledger.json",
+   "sha256": "527e1db2356b26195e09a95474ef0682e7d53135d2e47822b2a15dda5057f430"
+  },
+  "optimization_history.csv": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\optimization_history.csv",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "geometry_changes.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\geometry_changes.json",
+   "sha256": "8a41565d24dbe9d22f740b06f22e63f70e912903b0d94f982ab47d5979faf75b"
+  },
+  "failed_attempts.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\failed_attempts.json",
+   "sha256": "042770f44e39f3ddbd5b5211fc0a240dd22a6e0ceac7691d0e3ec92cbcd6b9f7"
+  },
+  "config.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\config.json",
+   "sha256": "da3c9f2212c63e1e918cdf1bc814268f98f1c60c0055c26087262744d0c4de73"
+  },
+  "validation_final/validation.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\validation_final\\validation.json",
+   "sha256": "720c57814b332e301b4cd661a158b41970bbf7163ead955273c49842e417eb29"
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "schema": "plots_ablation_staging_v1",
+ "note": "byte-identical copies of real artifacts, staged so that the frozen 20H plotting engine can read one self-contained run directory; no value is changed, every source path + SHA256 is recorded here and in manifest.json",
+ "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\best_valid",
+ "artifact_root": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\best_valid",
+ "files": {
+  "routes_l3d.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\best_valid\\routes_l3d.json",
+   "sha256": "1569d3c156783f40deb2457b86358ac7ccb7624d672c4ee43d0fcb532612dc33"
+  },
+  "assignment_1024.csv": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\best_valid\\assignment_1024.csv",
+   "sha256": "bc9a9ddeee8e12e7e21765159093df58492121b04d63e35f6302c78ea5d231d1"
+  },
+  "layer_planes.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\best_valid\\layer_planes.json",
+   "sha256": "bdd5d83c65b79329842bb168fa4eb72307f21bd7ba50a1bd200f3614cd95ded6"
+  },
+  "crossing_stats.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\crossing_stats.json",
+   "sha256": "b17feaae44f0a6ceda657b34974a757db54d31bf8d27b8d46ddf626c965de7ce"
+  },
+  "summary.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\summary.json",
+   "sha256": "ca2f62c053325c0b6a1c454831f2616f268e5ed6841c6cfe663a80af604f5bd0"
+  },
+  "summary_g4.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\summary_g4.json",
+   "sha256": "4f88dcdf0a7049c915f5e39806338804326eb40f969963fde3ad93f3ec7fb5ec"
+  },
+  "strategy_stats.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\strategy_stats.json",
+   "sha256": "fe136e8294f78af87fd0aeb200c5ef308c79cb0781243f45b895c9ca3009313e"
+  },
+  "budget_ledger.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\budget_ledger.json",
+   "sha256": "f187aa04a53af6c89a7f7b197f1e7ae77dcafa527b6154ad1d4b098c65c1507c"
+  },
+  "optimization_history.csv": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\optimization_history.csv",
+   "sha256": "895c6c1461e41e412be519f734f354f9b2de4c7e99d82504895a5c7702e4d9ea"
+  },
+  "audit_state.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\audit_state.json",
+   "sha256": "eeae83d7343eb39f4bcc4e7fedd90df937ae77565209e792902e08372bce11a1"
+  },
+  "RUN_VERDICT.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\RUN_VERDICT.json",
+   "sha256": "eee3c8cfad6c580f8ed1b248c0ab45686dfea206ebec0e181145fa00259357f2"
+  },
+  "run_meta.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\run_meta.json",
+   "sha256": "b620a6354ea7969e01f8140002b4a0443044bcbf9b8aec13b8276cd2cf688ac1"
+  },
+  "geometry_changes.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\geometry_changes.json",
+   "sha256": "bd9edfeff1c7f21d5329a4db967fd43c6ccbbe1d2ab09906fb6c9a7d7ff6ee4a"
+  },
+  "failed_attempts.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\failed_attempts.json",
+   "sha256": "8cd5f9aee4ad62f769b08bc731a9643c40a3def95ebacba400c508707ff0b09b"
+  },
+  "config.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\config.json",
+   "sha256": "d3f0e9ddaa11c6322b9d058dbc77be8082f2f648360607cf180cf19046270eb7"
+  },
+  "validation_final/validation.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\validation_final\\validation.json",
+   "sha256": "59893314fdb98f4b688f7edd5c9933de4fdd59e93ffcdeb16019bfae965a6359"
+  }
+ }
+}

@@ -1,0 +1,6 @@
+index,kind,route_id,routes,old_total,total,delta,note,seconds,new_total,arm_step,budget_route_3d_checks,budget_d56_candidate_evals,wall_seconds,best_total
+0,g4_transaction,,[707],1287,1285,-2,sweep_migrate,0.96,,,,,,
+1,g4_transaction,,[200],1285,1284,-1,migrate_clean,0.653,,,,,,
+2,g4_transaction,,"[158, 494, 742]",1284,1283,-1,make_way,4.448,,,,,,
+3,g4_transaction,,"[401, 833]",1283,1282,-1,make_way,3.537,,,,,,
+4,g4_transaction,,"[148, 161, 198, 201, 204, 219, 222, 225, 228, 411, 414, 417, 432, 435, 438, 441, 456, 459, 462, 465, 483, 486, 495]",1282,1276,-6,component_23,6.268,,,,,,

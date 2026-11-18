@@ -1,0 +1,5452 @@
+{
+ "schema": "g4_structure_reconstruction_v1",
+ "label": "NoMultiArc",
+ "profile": "20_height_raised",
+ "start_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+ "start_routes_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "start_assignment_sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+ "start_crossings": 1283,
+ "disabled_structures": [
+  "multi_arc"
+ ],
+ "all_multi_arc": true,
+ "targets": 213,
+ "rebuilt": 213,
+ "residual": 0,
+ "residual_route_ids": [],
+ "remaining_with_disabled": [],
+ "crossings_after": 4313,
+ "crossing_delta": 3030,
+ "total_length_mm": 164683.81853,
+ "seconds": 1052.56,
+ "ledger": {
+  "route_3d_checks": 2593,
+  "d56_candidate_evals": 35104,
+  "xy_candidates_generated": 2380,
+  "transactions": 213,
+  "world_builds": 0,
+  "valid_candidates": 1859,
+  "rejected_3d": 521,
+  "accepted_transactions": 213,
+  "accepted_changes": 213,
+  "gain": 75,
+  "validator_runs": 0,
+  "no_candidate": 583,
+  "rolled_back": 0,
+  "wall_seconds": 0
+ },
+ "routes_sha256": "279ef606c351101448f02705dad8594668d52c29fddcf4c2c720877644e80b89",
+ "assignment_sha256": "de21d49c4b850c357b1d410196633e61936ee8d7802ccf7e840fde379247ae58",
+ "records": [
+  {
+   "route_id": 2,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 2,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR",
+   "delta": 23,
+   "commit_delta": 23,
+   "total_after": 1306,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 8.44
+  },
+  {
+   "route_id": 3,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 11,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 23,
+   "commit_delta": 23,
+   "total_after": 1329,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.87
+  },
+  {
+   "route_id": 4,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 11,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 22,
+   "commit_delta": 22,
+   "total_after": 1351,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 6.57
+  },
+  {
+   "route_id": 5,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 2,
+   "old_z_mm": 0.225,
+   "new_z_mm": -0.325,
+   "family": "OPP_Z",
+   "delta": 7,
+   "commit_delta": 7,
+   "total_after": 1358,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 6.52
+  },
+  {
+   "route_id": 6,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_Z",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 1360,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.45
+  },
+  {
+   "route_id": 7,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_Z",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 1358,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.61
+  },
+  {
+   "route_id": 10,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 16,
+   "commit_delta": 16,
+   "total_after": 1374,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 13,
+     "legal": 13
+    }
+   ],
+   "seconds": 5.8
+  },
+  {
+   "route_id": 11,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 2,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 18,
+   "commit_delta": 18,
+   "total_after": 1392,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.56
+  },
+  {
+   "route_id": 12,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "OPP_DETOUR",
+   "delta": 14,
+   "commit_delta": 14,
+   "total_after": 1406,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.62
+  },
+  {
+   "route_id": 25,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 30,
+   "commit_delta": 30,
+   "total_after": 1436,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.75
+  },
+  {
+   "route_id": 27,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 11,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 18,
+   "commit_delta": 18,
+   "total_after": 1454,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 5.28
+  },
+  {
+   "route_id": 28,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 2,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR",
+   "delta": 20,
+   "commit_delta": 20,
+   "total_after": 1474,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.8
+  },
+  {
+   "route_id": 29,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 2,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 19,
+   "commit_delta": 19,
+   "total_after": 1493,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.7
+  },
+  {
+   "route_id": 30,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_Z",
+   "delta": -1,
+   "commit_delta": -1,
+   "total_after": 1492,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 6.05
+  },
+  {
+   "route_id": 31,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 11,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.225,
+   "family": "OPP_Z",
+   "delta": 7,
+   "commit_delta": 7,
+   "total_after": 1499,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 6.36
+  },
+  {
+   "route_id": 32,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_Z",
+   "delta": -3,
+   "commit_delta": -3,
+   "total_after": 1496,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 6.55
+  },
+  {
+   "route_id": 33,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 2,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 24,
+   "commit_delta": 24,
+   "total_after": 1520,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.87
+  },
+  {
+   "route_id": 34,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 22,
+   "commit_delta": 22,
+   "total_after": 1542,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 6.49
+  },
+  {
+   "route_id": 36,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 2,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR",
+   "delta": 21,
+   "commit_delta": 21,
+   "total_after": 1563,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 6.08
+  },
+  {
+   "route_id": 37,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 27,
+   "commit_delta": 27,
+   "total_after": 1590,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.51
+  },
+  {
+   "route_id": 38,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 11,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 19,
+   "commit_delta": 19,
+   "total_after": 1609,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.47
+  },
+  {
+   "route_id": 39,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_Z",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1609,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.39
+  },
+  {
+   "route_id": 40,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "OPP_Z",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1609,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.33
+  },
+  {
+   "route_id": 97,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 2,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 25,
+   "commit_delta": 25,
+   "total_after": 1634,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.3
+  },
+  {
+   "route_id": 98,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 2,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR",
+   "delta": 29,
+   "commit_delta": 29,
+   "total_after": 1663,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 5.23
+  },
+  {
+   "route_id": 99,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 1001,
+   "old_z_mm": -0.125,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 33,
+   "commit_delta": 33,
+   "total_after": 1696,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 5.04
+  },
+  {
+   "route_id": 101,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 10,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.175,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 14,
+   "commit_delta": 14,
+   "total_after": 1710,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.83
+  },
+  {
+   "route_id": 102,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 10,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.175,
+   "family": "OPP_DETOUR",
+   "delta": 14,
+   "commit_delta": 14,
+   "total_after": 1724,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 5.31
+  },
+  {
+   "route_id": 103,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 11,
+   "commit_delta": 11,
+   "total_after": 1735,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.06
+  },
+  {
+   "route_id": 104,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "OPP_Z",
+   "delta": -4,
+   "commit_delta": -4,
+   "total_after": 1731,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.12
+  },
+  {
+   "route_id": 106,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 2,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR",
+   "delta": 24,
+   "commit_delta": 24,
+   "total_after": 1755,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 5.05
+  },
+  {
+   "route_id": 107,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 7,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 15,
+   "commit_delta": 15,
+   "total_after": 1770,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.79
+  },
+  {
+   "route_id": 108,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 5,
+   "new_layer": 5,
+   "old_z_mm": -0.175,
+   "new_z_mm": -0.175,
+   "family": "OPP_DETOUR",
+   "delta": 10,
+   "commit_delta": 10,
+   "total_after": 1780,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.65
+  },
+  {
+   "route_id": 110,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 1784,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.83
+  },
+  {
+   "route_id": 111,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 11,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 10,
+   "commit_delta": 10,
+   "total_after": 1794,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.69
+  },
+  {
+   "route_id": 112,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 14,
+   "commit_delta": 14,
+   "total_after": 1808,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.19
+  },
+  {
+   "route_id": 114,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_Z",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 1808,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.9
+  },
+  {
+   "route_id": 115,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 7,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 31,
+   "commit_delta": 31,
+   "total_after": 1839,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 4.69
+  },
+  {
+   "route_id": 116,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 7,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 30,
+   "commit_delta": 30,
+   "total_after": 1869,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.67
+  },
+  {
+   "route_id": 117,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR",
+   "delta": 10,
+   "commit_delta": 10,
+   "total_after": 1879,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.1
+  },
+  {
+   "route_id": 119,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 11,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 12,
+   "commit_delta": 12,
+   "total_after": 1891,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 5.32
+  },
+  {
+   "route_id": 120,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 10,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.175,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 19,
+   "commit_delta": 19,
+   "total_after": 1910,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 5.38
+  },
+  {
+   "route_id": 122,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_Z",
+   "delta": -4,
+   "commit_delta": -4,
+   "total_after": 1906,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.11
+  },
+  {
+   "route_id": 124,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 18,
+   "commit_delta": 18,
+   "total_after": 1924,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.82
+  },
+  {
+   "route_id": 125,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR",
+   "delta": 18,
+   "commit_delta": 18,
+   "total_after": 1942,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 5.33
+  },
+  {
+   "route_id": 126,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 7,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 17,
+   "commit_delta": 17,
+   "total_after": 1959,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.54
+  },
+  {
+   "route_id": 128,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 18,
+   "commit_delta": 18,
+   "total_after": 1977,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.95
+  },
+  {
+   "route_id": 133,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR",
+   "delta": 29,
+   "commit_delta": 29,
+   "total_after": 2006,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.84
+  },
+  {
+   "route_id": 134,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 7,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 25,
+   "commit_delta": 25,
+   "total_after": 2031,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.67
+  },
+  {
+   "route_id": 135,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR",
+   "delta": 24,
+   "commit_delta": 24,
+   "total_after": 2055,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.65
+  },
+  {
+   "route_id": 139,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 20,
+   "old_z_mm": 0.075,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 13,
+   "commit_delta": 13,
+   "total_after": 2068,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.08
+  },
+  {
+   "route_id": 140,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 10,
+   "old_z_mm": -0.125,
+   "new_z_mm": 0.175,
+   "family": "OPP_DETOUR",
+   "delta": 14,
+   "commit_delta": 14,
+   "total_after": 2082,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.03
+  },
+  {
+   "route_id": 141,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 10,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.175,
+   "family": "OPP_DETOUR",
+   "delta": 38,
+   "commit_delta": 38,
+   "total_after": 2120,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.18
+  },
+  {
+   "route_id": 142,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 16,
+   "commit_delta": 16,
+   "total_after": 2136,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.53
+  },
+  {
+   "route_id": 143,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 6,
+   "old_z_mm": 0.225,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR",
+   "delta": 19,
+   "commit_delta": 19,
+   "total_after": 2155,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 14,
+     "legal": 14
+    }
+   ],
+   "seconds": 4.77
+  },
+  {
+   "route_id": 144,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 16,
+   "commit_delta": 16,
+   "total_after": 2171,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 3,
+     "legal": 3
+    }
+   ],
+   "seconds": 4.11
+  },
+  {
+   "route_id": 145,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 24,
+   "commit_delta": 24,
+   "total_after": 2195,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.59
+  },
+  {
+   "route_id": 146,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 2,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 20,
+   "commit_delta": 20,
+   "total_after": 2215,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.28
+  },
+  {
+   "route_id": 147,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 11,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 31,
+   "commit_delta": 31,
+   "total_after": 2246,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 4.53
+  },
+  {
+   "route_id": 148,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_Z",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 2246,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.1
+  },
+  {
+   "route_id": 149,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 6,
+   "old_z_mm": 0.225,
+   "new_z_mm": -0.125,
+   "family": "OPP_Z",
+   "delta": 6,
+   "commit_delta": 6,
+   "total_after": 2252,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.57
+  },
+  {
+   "route_id": 150,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_Z",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 2254,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 3.95
+  },
+  {
+   "route_id": 156,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_Z",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 2252,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.17
+  },
+  {
+   "route_id": 160,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 1001,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 13,
+   "commit_delta": 13,
+   "total_after": 2265,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.36
+  },
+  {
+   "route_id": 161,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 8,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 21,
+   "commit_delta": 21,
+   "total_after": 2286,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 3.72
+  },
+  {
+   "route_id": 162,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 18,
+   "commit_delta": 18,
+   "total_after": 2304,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.24
+  },
+  {
+   "route_id": 163,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 16,
+   "commit_delta": 16,
+   "total_after": 2320,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.34
+  },
+  {
+   "route_id": 164,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 11,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 38,
+   "commit_delta": 38,
+   "total_after": 2358,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 2,
+     "legal": 2
+    }
+   ],
+   "seconds": 4.15
+  },
+  {
+   "route_id": 165,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 1001,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 31,
+   "commit_delta": 31,
+   "total_after": 2389,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 4.82
+  },
+  {
+   "route_id": 171,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_Z",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 2387,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.86
+  },
+  {
+   "route_id": 201,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 20,
+   "old_z_mm": 0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 15,
+   "commit_delta": 15,
+   "total_after": 2402,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 3.88
+  },
+  {
+   "route_id": 202,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 16,
+   "commit_delta": 16,
+   "total_after": 2418,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.44
+  },
+  {
+   "route_id": 203,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 20,
+   "old_z_mm": 0.075,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 10,
+   "commit_delta": 10,
+   "total_after": 2428,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.13
+  },
+  {
+   "route_id": 204,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 8,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 19,
+   "commit_delta": 19,
+   "total_after": 2447,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 3.75
+  },
+  {
+   "route_id": 205,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 20,
+   "commit_delta": 20,
+   "total_after": 2467,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.56
+  },
+  {
+   "route_id": 206,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 14,
+   "commit_delta": 14,
+   "total_after": 2481,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 3.89
+  },
+  {
+   "route_id": 207,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 20,
+   "old_z_mm": 0.075,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 18,
+   "commit_delta": 18,
+   "total_after": 2499,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 4.08
+  },
+  {
+   "route_id": 208,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 27,
+   "commit_delta": 27,
+   "total_after": 2526,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.11
+  },
+  {
+   "route_id": 209,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 8,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 23,
+   "commit_delta": 23,
+   "total_after": 2549,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.26
+  },
+  {
+   "route_id": 210,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_Z",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 2549,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.1
+  },
+  {
+   "route_id": 211,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_Z",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 2551,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.09
+  },
+  {
+   "route_id": 212,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_Z",
+   "delta": -1,
+   "commit_delta": -1,
+   "total_after": 2550,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 3.54
+  },
+  {
+   "route_id": 214,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_Z",
+   "delta": -3,
+   "commit_delta": -3,
+   "total_after": 2547,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.0
+  },
+  {
+   "route_id": 219,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 32,
+   "commit_delta": 32,
+   "total_after": 2579,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 3.52
+  },
+  {
+   "route_id": 220,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 6,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 14,
+   "commit_delta": 14,
+   "total_after": 2593,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.17
+  },
+  {
+   "route_id": 221,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 10,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.175,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 27,
+   "commit_delta": 27,
+   "total_after": 2620,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.01
+  },
+  {
+   "route_id": 225,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 8,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 14,
+   "commit_delta": 14,
+   "total_after": 2634,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 3.54
+  },
+  {
+   "route_id": 226,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 16,
+   "commit_delta": 16,
+   "total_after": 2650,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.36
+  },
+  {
+   "route_id": 227,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 1001,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 23,
+   "commit_delta": 23,
+   "total_after": 2673,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 3.94
+  },
+  {
+   "route_id": 228,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 22,
+   "commit_delta": 22,
+   "total_after": 2695,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 3.83
+  },
+  {
+   "route_id": 229,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 10,
+   "old_z_mm": -0.125,
+   "new_z_mm": 0.175,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 16,
+   "commit_delta": 16,
+   "total_after": 2711,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 4.5
+  },
+  {
+   "route_id": 230,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 10,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.175,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 25,
+   "commit_delta": 25,
+   "total_after": 2736,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 13,
+     "legal": 13
+    }
+   ],
+   "seconds": 4.58
+  },
+  {
+   "route_id": 231,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 7,
+   "old_z_mm": 0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 29,
+   "commit_delta": 29,
+   "total_after": 2765,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 4.11
+  },
+  {
+   "route_id": 232,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR",
+   "delta": 25,
+   "commit_delta": 25,
+   "total_after": 2790,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.41
+  },
+  {
+   "route_id": 233,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 8,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 26,
+   "commit_delta": 26,
+   "total_after": 2816,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.08
+  },
+  {
+   "route_id": 234,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_Z",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 2814,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.96
+  },
+  {
+   "route_id": 408,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 16,
+   "commit_delta": 16,
+   "total_after": 2830,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.72
+  },
+  {
+   "route_id": 409,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 6,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR",
+   "delta": 20,
+   "commit_delta": 20,
+   "total_after": 2850,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.24
+  },
+  {
+   "route_id": 410,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 8,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 26,
+   "commit_delta": 26,
+   "total_after": 2876,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 5,
+     "legal": 5
+    }
+   ],
+   "seconds": 4.14
+  },
+  {
+   "route_id": 411,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 20,
+   "old_z_mm": 0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 28,
+   "commit_delta": 28,
+   "total_after": 2904,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.08
+  },
+  {
+   "route_id": 412,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 11,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 22,
+   "commit_delta": 22,
+   "total_after": 2926,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 13,
+     "legal": 13
+    }
+   ],
+   "seconds": 4.95
+  },
+  {
+   "route_id": 413,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 32,
+   "commit_delta": 32,
+   "total_after": 2958,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.52
+  },
+  {
+   "route_id": 417,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 8,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 21,
+   "commit_delta": 21,
+   "total_after": 2979,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.15
+  },
+  {
+   "route_id": 418,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 12,
+   "commit_delta": 12,
+   "total_after": 2991,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.64
+  },
+  {
+   "route_id": 419,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 6,
+   "old_z_mm": 0.075,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 24,
+   "commit_delta": 24,
+   "total_after": 3015,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.42
+  },
+  {
+   "route_id": 420,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 10,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.175,
+   "family": "OPP_DETOUR",
+   "delta": 3,
+   "commit_delta": 3,
+   "total_after": 3018,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.61
+  },
+  {
+   "route_id": 421,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 12,
+   "commit_delta": 12,
+   "total_after": 3030,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.53
+  },
+  {
+   "route_id": 422,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 20,
+   "old_z_mm": 0.075,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 22,
+   "commit_delta": 22,
+   "total_after": 3052,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.34
+  },
+  {
+   "route_id": 423,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 20,
+   "commit_delta": 20,
+   "total_after": 3072,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 5.03
+  },
+  {
+   "route_id": 424,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 24,
+   "commit_delta": 24,
+   "total_after": 3096,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 7,
+     "legal": 7
+    }
+   ],
+   "seconds": 4.38
+  },
+  {
+   "route_id": 425,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 22,
+   "commit_delta": 22,
+   "total_after": 3118,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 3.94
+  },
+  {
+   "route_id": 426,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_Z",
+   "delta": -12,
+   "commit_delta": -12,
+   "total_after": 3106,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.78
+  },
+  {
+   "route_id": 427,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 7,
+   "old_z_mm": 0.225,
+   "new_z_mm": -0.075,
+   "family": "OPP_Z",
+   "delta": -3,
+   "commit_delta": -3,
+   "total_after": 3103,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.32
+  },
+  {
+   "route_id": 429,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 1001,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 20,
+   "commit_delta": 20,
+   "total_after": 3123,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.2
+  },
+  {
+   "route_id": 430,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 1001,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 33,
+   "commit_delta": 33,
+   "total_after": 3156,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.52
+  },
+  {
+   "route_id": 431,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 24,
+   "commit_delta": 24,
+   "total_after": 3180,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.54
+  },
+  {
+   "route_id": 432,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 7,
+   "old_z_mm": 0.025,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 29,
+   "commit_delta": 29,
+   "total_after": 3209,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 3,
+     "legal": 3
+    }
+   ],
+   "seconds": 3.66
+  },
+  {
+   "route_id": 433,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 33,
+   "commit_delta": 33,
+   "total_after": 3242,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 4.44
+  },
+  {
+   "route_id": 434,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 28,
+   "commit_delta": 28,
+   "total_after": 3270,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 5,
+     "legal": 5
+    }
+   ],
+   "seconds": 4.49
+  },
+  {
+   "route_id": 435,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 24,
+   "commit_delta": 24,
+   "total_after": 3294,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 1,
+     "legal": 1
+    }
+   ],
+   "seconds": 3.66
+  },
+  {
+   "route_id": 436,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 5,
+   "new_layer": 5,
+   "old_z_mm": -0.175,
+   "new_z_mm": -0.175,
+   "family": "OPP_DETOUR",
+   "delta": 10,
+   "commit_delta": 10,
+   "total_after": 3304,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 3.88
+  },
+  {
+   "route_id": 437,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 11,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 35,
+   "commit_delta": 35,
+   "total_after": 3339,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 3.97
+  },
+  {
+   "route_id": 441,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 10,
+   "commit_delta": 10,
+   "total_after": 3349,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 3.79
+  },
+  {
+   "route_id": 442,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 7,
+   "old_z_mm": 0.225,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 6,
+   "commit_delta": 6,
+   "total_after": 3355,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.27
+  },
+  {
+   "route_id": 443,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 20,
+   "old_z_mm": 0.075,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 10,
+   "commit_delta": 10,
+   "total_after": 3365,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 4.0
+  },
+  {
+   "route_id": 444,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 10,
+   "commit_delta": 10,
+   "total_after": 3375,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.56
+  },
+  {
+   "route_id": 445,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 18,
+   "commit_delta": 18,
+   "total_after": 3393,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.33
+  },
+  {
+   "route_id": 446,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 1001,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 11,
+   "commit_delta": 11,
+   "total_after": 3404,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.25
+  },
+  {
+   "route_id": 447,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 11,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 26,
+   "commit_delta": 26,
+   "total_after": 3430,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.51
+  },
+  {
+   "route_id": 448,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 7,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 16,
+   "commit_delta": 16,
+   "total_after": 3446,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 4.37
+  },
+  {
+   "route_id": 449,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 8,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 22,
+   "commit_delta": 22,
+   "total_after": 3468,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 3.5
+  },
+  {
+   "route_id": 450,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_Z",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 3466,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.24
+  },
+  {
+   "route_id": 452,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_Z",
+   "delta": -4,
+   "commit_delta": -4,
+   "total_after": 3462,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 12,
+     "legal": 12
+    }
+   ],
+   "seconds": 3.88
+  },
+  {
+   "route_id": 453,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 6,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 25,
+   "commit_delta": 25,
+   "total_after": 3487,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.08
+  },
+  {
+   "route_id": 454,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 8,
+   "old_z_mm": -0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 29,
+   "commit_delta": 29,
+   "total_after": 3516,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 3.96
+  },
+  {
+   "route_id": 455,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 8,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 30,
+   "commit_delta": 30,
+   "total_after": 3546,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 3.94
+  },
+  {
+   "route_id": 456,
+   "status": "rebuilt",
+   "stage": "expanded",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 3,
+   "old_z_mm": 0.025,
+   "new_z_mm": -0.275,
+   "family": "OPP_DETOUR",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 3544,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 0,
+     "legal": 0
+    },
+    {
+     "stage": "expanded",
+     "candidates": 15,
+     "legal": 15
+    }
+   ],
+   "seconds": 32.99
+  },
+  {
+   "route_id": 457,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 20,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 34,
+   "commit_delta": 34,
+   "total_after": 3578,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 3.98
+  },
+  {
+   "route_id": 458,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 7,
+   "old_z_mm": 0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 29,
+   "commit_delta": 29,
+   "total_after": 3608,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.08
+  },
+  {
+   "route_id": 459,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 1001,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 12,
+   "commit_delta": 12,
+   "total_after": 3620,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 2,
+     "legal": 2
+    }
+   ],
+   "seconds": 3.64
+  },
+  {
+   "route_id": 460,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 13,
+   "new_layer": 13,
+   "old_z_mm": 0.325,
+   "new_z_mm": 0.325,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 14,
+   "commit_delta": 14,
+   "total_after": 3634,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.28
+  },
+  {
+   "route_id": 461,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 20,
+   "old_z_mm": 0.075,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 9,
+   "commit_delta": 9,
+   "total_after": 3643,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 7,
+     "legal": 7
+    }
+   ],
+   "seconds": 4.18
+  },
+  {
+   "route_id": 465,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 8,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 9,
+   "commit_delta": 9,
+   "total_after": 3652,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 3,
+     "legal": 3
+    }
+   ],
+   "seconds": 3.75
+  },
+  {
+   "route_id": 466,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 6,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 17,
+   "commit_delta": 17,
+   "total_after": 3669,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 9,
+     "legal": 9
+    }
+   ],
+   "seconds": 4.5
+  },
+  {
+   "route_id": 467,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 18,
+   "commit_delta": 18,
+   "total_after": 3687,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 4.1
+  },
+  {
+   "route_id": 468,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 2,
+   "new_layer": 8,
+   "old_z_mm": -0.325,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 8,
+   "commit_delta": 8,
+   "total_after": 3695,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.64
+  },
+  {
+   "route_id": 469,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 1001,
+   "old_z_mm": -0.125,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 30,
+   "commit_delta": 30,
+   "total_after": 3725,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.44
+  },
+  {
+   "route_id": 470,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 8,
+   "old_z_mm": 0.025,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 28,
+   "commit_delta": 28,
+   "total_after": 3753,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 3.94
+  },
+  {
+   "route_id": 477,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 2,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.325,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 35,
+   "commit_delta": 35,
+   "total_after": 3788,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 1,
+     "legal": 1
+    }
+   ],
+   "seconds": 3.93
+  },
+  {
+   "route_id": 478,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 36,
+   "commit_delta": 36,
+   "total_after": 3824,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.24
+  },
+  {
+   "route_id": 479,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 1001,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 34,
+   "commit_delta": 34,
+   "total_after": 3858,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.14
+  },
+  {
+   "route_id": 480,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 20,
+   "commit_delta": 20,
+   "total_after": 3878,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.56
+  },
+  {
+   "route_id": 481,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 15,
+   "commit_delta": 15,
+   "total_after": 3893,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.2
+  },
+  {
+   "route_id": 482,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 12,
+   "commit_delta": 12,
+   "total_after": 3905,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.21
+  },
+  {
+   "route_id": 483,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 20,
+   "old_z_mm": 0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 8,
+   "commit_delta": 8,
+   "total_after": 3913,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 3.89
+  },
+  {
+   "route_id": 484,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 6,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 16,
+   "commit_delta": 16,
+   "total_after": 3929,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.18
+  },
+  {
+   "route_id": 485,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 20,
+   "old_z_mm": 0.075,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 6,
+   "commit_delta": 6,
+   "total_after": 3935,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 7,
+     "legal": 7
+    }
+   ],
+   "seconds": 4.29
+  },
+  {
+   "route_id": 489,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 11,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.225,
+   "family": "OPP_DETOUR",
+   "delta": 25,
+   "commit_delta": 25,
+   "total_after": 3960,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 5,
+     "legal": 5
+    }
+   ],
+   "seconds": 4.43
+  },
+  {
+   "route_id": 490,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 6,
+   "new_layer": 7,
+   "old_z_mm": -0.125,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 27,
+   "commit_delta": 27,
+   "total_after": 3987,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.75
+  },
+  {
+   "route_id": 491,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "OPP_DETOUR",
+   "delta": 11,
+   "commit_delta": 11,
+   "total_after": 3998,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.29
+  },
+  {
+   "route_id": 501,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 29,
+   "commit_delta": 29,
+   "total_after": 4027,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.57
+  },
+  {
+   "route_id": 502,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR",
+   "delta": 22,
+   "commit_delta": 22,
+   "total_after": 4049,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.55
+  },
+  {
+   "route_id": 503,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 1001,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 28,
+   "commit_delta": 28,
+   "total_after": 4077,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.2
+  },
+  {
+   "route_id": 504,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 24,
+   "commit_delta": 24,
+   "total_after": 4101,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.43
+  },
+  {
+   "route_id": 505,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 6,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.125,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 15,
+   "commit_delta": 15,
+   "total_after": 4116,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.26
+  },
+  {
+   "route_id": 506,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 1001,
+   "old_z_mm": -0.025,
+   "new_z_mm": 0.025,
+   "family": "OPP_DETOUR",
+   "delta": 25,
+   "commit_delta": 25,
+   "total_after": 4141,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.17
+  },
+  {
+   "route_id": 507,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1001,
+   "new_layer": 20,
+   "old_z_mm": 0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 17,
+   "commit_delta": 17,
+   "total_after": 4158,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 3.85
+  },
+  {
+   "route_id": 508,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 7,
+   "new_layer": 7,
+   "old_z_mm": -0.075,
+   "new_z_mm": -0.075,
+   "family": "OPP_DETOUR_BACK",
+   "delta": 20,
+   "commit_delta": 20,
+   "total_after": 4178,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 4.35
+  },
+  {
+   "route_id": 509,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 20,
+   "new_layer": 20,
+   "old_z_mm": -0.025,
+   "new_z_mm": -0.025,
+   "family": "OPP_DETOUR",
+   "delta": 24,
+   "commit_delta": 24,
+   "total_after": 4202,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 7,
+     "legal": 7
+    }
+   ],
+   "seconds": 4.35
+  },
+  {
+   "route_id": 513,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 14,
+   "new_layer": 14,
+   "old_z_mm": 0.375,
+   "new_z_mm": 0.375,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4202,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.9
+  },
+  {
+   "route_id": 527,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "ADJ_UP_LOOP",
+   "delta": -8,
+   "commit_delta": -8,
+   "total_after": 4194,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.79
+  },
+  {
+   "route_id": 542,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 15,
+   "new_layer": 15,
+   "old_z_mm": 0.425,
+   "new_z_mm": 0.425,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4194,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.22
+  },
+  {
+   "route_id": 563,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_UP_LOOP",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 4198,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.77
+  },
+  {
+   "route_id": 587,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_UP_LOOP",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 4202,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.87
+  },
+  {
+   "route_id": 591,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_UP_LOOP",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 4204,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.56
+  },
+  {
+   "route_id": 623,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "ADJ_L",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 4202,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.95
+  },
+  {
+   "route_id": 634,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 13,
+   "new_layer": 13,
+   "old_z_mm": 0.325,
+   "new_z_mm": 0.325,
+   "family": "ADJ_UP_LOOP",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4202,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.08
+  },
+  {
+   "route_id": 637,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 12,
+   "new_layer": 1002,
+   "old_z_mm": 0.275,
+   "new_z_mm": 0.525,
+   "family": "ADJ_UP_LOOP",
+   "delta": 20,
+   "commit_delta": 20,
+   "total_after": 4222,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.48
+  },
+  {
+   "route_id": 638,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 13,
+   "new_layer": 1002,
+   "old_z_mm": 0.325,
+   "new_z_mm": 0.525,
+   "family": "ADJ_UP_LOOP",
+   "delta": 22,
+   "commit_delta": 22,
+   "total_after": 4244,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 4.72
+  },
+  {
+   "route_id": 639,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 13,
+   "new_layer": 13,
+   "old_z_mm": 0.325,
+   "new_z_mm": 0.325,
+   "family": "ADJ_UP_LOOP",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4244,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 4.59
+  },
+  {
+   "route_id": 667,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "ADJ_UP_LOOP",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 4248,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.66
+  },
+  {
+   "route_id": 687,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 16,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.475,
+   "family": "ADJ_UP_LOOP",
+   "delta": 13,
+   "commit_delta": 13,
+   "total_after": 4261,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 5.17
+  },
+  {
+   "route_id": 691,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_UP_LOOP",
+   "delta": 4,
+   "commit_delta": 4,
+   "total_after": 4265,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 5.2
+  },
+  {
+   "route_id": 695,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4265,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 3,
+     "legal": 3
+    }
+   ],
+   "seconds": 5.23
+  },
+  {
+   "route_id": 699,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": -4,
+   "commit_delta": -4,
+   "total_after": 4261,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 5.09
+  },
+  {
+   "route_id": 703,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_UP_LOOP",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4261,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 5.17
+  },
+  {
+   "route_id": 707,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 12,
+   "new_layer": 12,
+   "old_z_mm": 0.275,
+   "new_z_mm": 0.275,
+   "family": "ADJ_UP_LOOP",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 4259,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.58
+  },
+  {
+   "route_id": 708,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 13,
+   "new_layer": 13,
+   "old_z_mm": 0.325,
+   "new_z_mm": 0.325,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4259,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 4.52
+  },
+  {
+   "route_id": 711,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 8,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.075,
+   "family": "ADJ_Z_TURN",
+   "delta": 10,
+   "commit_delta": 10,
+   "total_after": 4269,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 5.09
+  },
+  {
+   "route_id": 715,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_UP_LOOP",
+   "delta": -6,
+   "commit_delta": -6,
+   "total_after": 4263,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.8
+  },
+  {
+   "route_id": 719,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_UP_LOOP",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4263,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 7,
+     "legal": 7
+    }
+   ],
+   "seconds": 5.34
+  },
+  {
+   "route_id": 723,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_UP_LOOP",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4263,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 5.03
+  },
+  {
+   "route_id": 738,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 12,
+   "new_layer": 1002,
+   "old_z_mm": 0.275,
+   "new_z_mm": 0.525,
+   "family": "ADJ_UP_LOOP",
+   "delta": 42,
+   "commit_delta": 42,
+   "total_after": 4305,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 4.16
+  },
+  {
+   "route_id": 740,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 13,
+   "new_layer": 13,
+   "old_z_mm": 0.325,
+   "new_z_mm": 0.325,
+   "family": "ADJ_UP_LOOP",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4305,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 4.53
+  },
+  {
+   "route_id": 833,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 14,
+   "new_layer": 14,
+   "old_z_mm": 0.375,
+   "new_z_mm": 0.375,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4305,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 5,
+     "legal": 5
+    }
+   ],
+   "seconds": 2.83
+  },
+  {
+   "route_id": 834,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4305,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 7,
+     "legal": 7
+    }
+   ],
+   "seconds": 5.16
+  },
+  {
+   "route_id": 835,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 1002,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": -2,
+   "commit_delta": -2,
+   "total_after": 4303,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 10,
+     "legal": 10
+    }
+   ],
+   "seconds": 5.32
+  },
+  {
+   "route_id": 836,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 16,
+   "new_layer": 16,
+   "old_z_mm": 0.475,
+   "new_z_mm": 0.475,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4303,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 2.97
+  },
+  {
+   "route_id": 839,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1002,
+   "new_layer": 1002,
+   "old_z_mm": 0.525,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4303,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 7,
+     "legal": 7
+    }
+   ],
+   "seconds": 4.83
+  },
+  {
+   "route_id": 843,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1002,
+   "new_layer": 1002,
+   "old_z_mm": 0.525,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4303,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 7,
+     "legal": 7
+    }
+   ],
+   "seconds": 4.61
+  },
+  {
+   "route_id": 847,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 1002,
+   "new_layer": 1002,
+   "old_z_mm": 0.525,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4303,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 2,
+     "legal": 2
+    }
+   ],
+   "seconds": 2.8
+  },
+  {
+   "route_id": 859,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 1002,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": 3,
+   "commit_delta": 3,
+   "total_after": 4306,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 5.33
+  },
+  {
+   "route_id": 863,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 4308,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 5.34
+  },
+  {
+   "route_id": 873,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 15,
+   "new_layer": 15,
+   "old_z_mm": 0.425,
+   "new_z_mm": 0.425,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4308,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 3.7
+  },
+  {
+   "route_id": 883,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 1002,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.525,
+   "family": "ADJ_L",
+   "delta": 5,
+   "commit_delta": 5,
+   "total_after": 4313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 6,
+     "legal": 6
+    }
+   ],
+   "seconds": 8.66
+  },
+  {
+   "route_id": 927,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 3,
+     "legal": 3
+    }
+   ],
+   "seconds": 5.03
+  },
+  {
+   "route_id": 947,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": 2,
+   "commit_delta": 2,
+   "total_after": 4315,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 5.09
+  },
+  {
+   "route_id": 951,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": 3,
+   "commit_delta": 3,
+   "total_after": 4317,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 4,
+     "legal": 4
+    }
+   ],
+   "seconds": 5.03
+  },
+  {
+   "route_id": 967,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": -4,
+   "commit_delta": -4,
+   "total_after": 4313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 3,
+     "legal": 3
+    }
+   ],
+   "seconds": 4.91
+  },
+  {
+   "route_id": 972,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 9.17
+  },
+  {
+   "route_id": 973,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 11,
+   "new_layer": 11,
+   "old_z_mm": 0.225,
+   "new_z_mm": 0.225,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 11,
+     "legal": 11
+    }
+   ],
+   "seconds": 9.16
+  },
+  {
+   "route_id": 974,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 8,
+   "new_layer": 8,
+   "old_z_mm": 0.075,
+   "new_z_mm": 0.075,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 5,
+     "legal": 5
+    }
+   ],
+   "seconds": 5.52
+  },
+  {
+   "route_id": 976,
+   "status": "rebuilt",
+   "stage": "frozen",
+   "old_types": [
+    "multi_arc"
+   ],
+   "new_types": [],
+   "old_layer": 10,
+   "new_layer": 10,
+   "old_z_mm": 0.175,
+   "new_z_mm": 0.175,
+   "family": "ADJ_L",
+   "delta": 0,
+   "commit_delta": 0,
+   "total_after": 4313,
+   "attempts": [
+    {
+     "stage": "frozen",
+     "candidates": 8,
+     "legal": 8
+    }
+   ],
+   "seconds": 9.76
+  }
+ ],
+ "validation": {
+  "exit_code": 2,
+  "seconds": 0.6,
+  "validation_pass": null,
+  "geometry_pass": null,
+  "contract_pass": null,
+  "violation_count": null,
+  "model_plane_count": null,
+  "model_source": null,
+  "routed": null,
+  "failed": null,
+  "same_plane_crossings": null,
+  "crossing_pairs": null,
+  "min_3d_clearance_mm": null,
+  "min_non_crossing_centerline_mm": null,
+  "min_flat_arc_radius_mm": null,
+  "min_transition_sampled_radius_mm": null,
+  "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\no_multi_arc",
+  "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\no_multi_arc\\validation_xyz",
+  "validation_json": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\no_multi_arc\\validation_xyz\\validation.json",
+  "validator_log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\03_PER_STRUCTURE_CONTRIBUTION\\01_states\\no_multi_arc\\validation_xyz\\validator.log",
+  "manual_policy": "fully_optimizable",
+  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative"
+ },
+ "planner": {
+  "max_target_layers": 3,
+  "max_lead_pairs": 2,
+  "prescreen_candidates": 160,
+  "max_candidates": 320,
+  "d56_top": 16,
+  "bodies_per_pair": 2,
+  "max_return": 4
+ },
+ "planner_escalation": {
+  "max_target_layers": 20,
+  "max_lead_pairs": 6,
+  "max_return": 8,
+  "prescreen_candidates": 640,
+  "max_candidates": 2560,
+  "d56_top": 64,
+  "max_combos": 4096
+ },
+ "classifier": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\four_side_1024\\fanout1024\\patent_structures.py",
+ "structure_counters": {
+  "6a": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6b": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6c": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "6d": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7a": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7b": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  },
+  "7c": {
+   "bodies_built": 0,
+   "d56_valid": 0,
+   "bodies_filtered": 0
+  }
+ }
+}

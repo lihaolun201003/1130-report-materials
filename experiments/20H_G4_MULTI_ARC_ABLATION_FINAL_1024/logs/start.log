@@ -1,0 +1,7 @@
+
+===== 2026-11-18T18:07:49 =====
+[start] profile: 20_height_raised | profile          : 20_height_raised | experiment       : COLD_START_20_HEIGHT_1024 | routing heights  : 20 (18 body + 2 interface) | plane ids        : [2, 3, 4, 5, 6, 7, 20, 1001, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1002, 17, 18] | interfaces       : {'z1': 0.025, 'z2': 0.525} | min pitch        : 0.050000 mm | 3D clearance     : 0.050000 mm | Rmin             : 15.000000 mm | glass headroom   : low 0.0250 / high 0.0250 mm | run dir          : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\03_fanout_and_xy\run_initial_20h
+[start] start dir: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\best_valid
+[start] independent validator (fresh 20H process) ...
+[start] validator exit=0 pass=True violations=0 model_planes=20
+[start] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\START.json  ok=True  crossings=1395  multi_arc_regions=215

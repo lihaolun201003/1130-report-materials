@@ -1,0 +1,72 @@
+{
+ "schema": "plots_ablation_staging_v1",
+ "note": "byte-identical copies of real artifacts, staged so that the frozen 20H plotting engine can read one self-contained run directory; no value is changed, every source path + SHA256 is recorded here and in manifest.json",
+ "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\best_valid",
+ "artifact_root": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\best_valid",
+ "files": {
+  "routes_l3d.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\best_valid\\routes_l3d.json",
+   "sha256": "a9a7ba1bcf1701499e0f9f9686c8d77dba74157405a9c509d6fbf0dc87ede58a"
+  },
+  "assignment_1024.csv": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\best_valid\\assignment_1024.csv",
+   "sha256": "cd794ffcfcba6d7e3d09428dd3dedcc8f6b4279246cc70614f7b108de1a9853f"
+  },
+  "layer_planes.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\best_valid\\layer_planes.json",
+   "sha256": "420cd512f07c15a2fa7de4235b19e6b8b5cb1518691c32dca9960c62e73e0ae3"
+  },
+  "crossing_stats.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\crossing_stats.json",
+   "sha256": "bd06e0d894ab0c291564734a48acba15064380abaeac5ee0417284473a5cab4e"
+  },
+  "summary.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\summary.json",
+   "sha256": "033b3164885d6d4d9745a8cb31997828714c2daf32b8f45a53f19f3d4ca23ba9"
+  },
+  "summary_g4.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\summary_g4.json",
+   "sha256": "f0df27b600b7e5d8b4c0aa156843dd0bb10c9fbed7efeabc435dcd576cfb56b7"
+  },
+  "strategy_stats.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\strategy_stats.json",
+   "sha256": "bd29c3e4234173dd97efa86766783d56ac0fdc26842d2c909dc412ca12527fdf"
+  },
+  "budget_ledger.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\budget_ledger.json",
+   "sha256": "6bf5261b722f826ca7bf7d2eae655d710280326565820440189ddf3c23ed30c9"
+  },
+  "optimization_history.csv": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\optimization_history.csv",
+   "sha256": "e23e1d0671ad523a0c3edb611986eb2a7a796ae38a5089df84615ba6749f9c0c"
+  },
+  "audit_state.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\audit_state.json",
+   "sha256": "6a9b00060d87fa5cae96b714fdecac76019009e312ed1a5493564fb8d9c15439"
+  },
+  "RUN_VERDICT.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\RUN_VERDICT.json",
+   "sha256": "9c46c9a8b5a23b3fcd07131b11b55b06e4cbe511c5ed3c46aadd9b99672552a8"
+  },
+  "run_meta.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\run_meta.json",
+   "sha256": "cb242f927718eafd9388660b199ea7f367bb3d1eb5762adcbeaf8458c864cc46"
+  },
+  "geometry_changes.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\geometry_changes.json",
+   "sha256": "8c99f39f83d2df4439534fdbd5e0e5fd52c48eb1d97bb7424dbc40dd9c187c7e"
+  },
+  "failed_attempts.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\failed_attempts.json",
+   "sha256": "1deb91274f72e86e302236e03b9fd774faacd93230df333146db4a9ad5407e0d"
+  },
+  "config.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\config.json",
+   "sha256": "c8442e2a5544ca1359b7dc81813da63a909298cb6276eca4f58388eda1b82b23"
+  },
+  "validation_final/validation.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\validation_final\\validation.json",
+   "sha256": "35452b0c0a906b333e247f355ca0cc75b768097ad11727a929e63e8b0c2bfd87"
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "schema": "20h_ablation_global3d_v1",
+ "generated_at": "2026-11-18T20:11:45+0800",
+ "plane_count": 20,
+ "view": {
+  "elev": 30.0,
+  "azim": -60.0
+ },
+ "glass": {
+  "z_min_mm": -0.35,
+  "z_max_mm": 0.65,
+  "thickness_mm": 1.0
+ },
+ "board_mm": 150.0,
+ "description": "every routed route drawn as its stored 3-D centre line (flat primitives + analytic S-curve transition samples); coloured by routing height; crossings from the state statistics (authoritative or exact recomputation)",
+ "a": {
+  "label": "ON 2093",
+  "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\best_valid",
+  "routes_drawn": 1024,
+  "routes_skipped": 0,
+  "crossings": 2093,
+  "crossing_pairs": 1883,
+  "counts_source": "authoritative"
+ },
+ "b": {
+  "label": "OFF 4052",
+  "dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\best_valid",
+  "routes_drawn": 1024,
+  "routes_skipped": 0,
+  "crossings": 4052,
+  "crossing_pairs": 3126,
+  "counts_source": "authoritative"
+ }
+}

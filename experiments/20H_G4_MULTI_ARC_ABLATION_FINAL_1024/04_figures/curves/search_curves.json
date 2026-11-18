@@ -1,0 +1,154 @@
+{
+ "schema": "20h_ablation_search_curves_v1",
+ "generated_at": "2026-11-18T20:11:52+0800",
+ "runs": [
+  {
+   "label": "on_c1_on_20261104",
+   "run_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261104",
+   "source": "strategy_stats.json:extra.history_records",
+   "strategy_stats": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261104\\strategy_stats.json",
+   "strategy_stats_sha256": "f201574e33765d65be6dff5aeccf28df5576358e4ec6e29e3f58dcaba30552f9",
+   "summary": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261104\\summary.json",
+   "summary_sha256": "96da171cd7522b8f750405ce71f5263667a6f70ec29a91009e831cd691f2d611",
+   "start_crossings": 4548,
+   "final_crossings": 2115,
+   "n_records": 311,
+   "ledger": {
+    "rel_path": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261104\\budget_ledger.json",
+    "data": {
+     "d56_candidate_evals": 24066,
+     "route_3d_checks": 4011,
+     "wall_seconds": 2000.24,
+     "transactions": 366
+    }
+   }
+  },
+  {
+   "label": "on_c1_on_20261116",
+   "run_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116",
+   "source": "strategy_stats.json:extra.history_records",
+   "strategy_stats": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\strategy_stats.json",
+   "strategy_stats_sha256": "fe136e8294f78af87fd0aeb200c5ef308c79cb0781243f45b895c9ca3009313e",
+   "summary": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\summary.json",
+   "summary_sha256": "ca2f62c053325c0b6a1c454831f2616f268e5ed6841c6cfe663a80af604f5bd0",
+   "start_crossings": 4548,
+   "final_crossings": 2093,
+   "n_records": 299,
+   "ledger": {
+    "rel_path": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261116\\budget_ledger.json",
+    "data": {
+     "d56_candidate_evals": 24030,
+     "route_3d_checks": 3701,
+     "wall_seconds": 1974.8,
+     "transactions": 362
+    }
+   }
+  },
+  {
+   "label": "on_c1_on_20261130",
+   "run_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261130",
+   "source": "strategy_stats.json:extra.history_records",
+   "strategy_stats": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261130\\strategy_stats.json",
+   "strategy_stats_sha256": "7d1d193932eb1862b68791bb3ca6168344aff35cf410502be1a87d9fa522680b",
+   "summary": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261130\\summary.json",
+   "summary_sha256": "b99d62d63787b2099a719564f74dfe7a8e0c18aff178c81089ed823111c8de13",
+   "start_crossings": 4548,
+   "final_crossings": 2171,
+   "n_records": 312,
+   "ledger": {
+    "rel_path": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\on\\c1_on_20261130\\budget_ledger.json",
+    "data": {
+     "d56_candidate_evals": 24015,
+     "route_3d_checks": 3775,
+     "wall_seconds": 1999.12,
+     "transactions": 365
+    }
+   }
+  },
+  {
+   "label": "off_c1_off_20261104",
+   "run_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261104",
+   "source": "strategy_stats.json:extra.history_records",
+   "strategy_stats": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261104\\strategy_stats.json",
+   "strategy_stats_sha256": "dcfbb12314deb4ec0ff98ee417d7ad39c2c05851034abac07f852ccda03f7591",
+   "summary": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261104\\summary.json",
+   "summary_sha256": "2d206977cb586f055463947ae8ee8efaf7e2d96469d544d579d1f9ce047ca193",
+   "start_crossings": 4548,
+   "final_crossings": 4072,
+   "n_records": 245,
+   "ledger": {
+    "rel_path": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261104\\budget_ledger.json",
+    "data": {
+     "d56_candidate_evals": 24351,
+     "route_3d_checks": 2905,
+     "wall_seconds": 2115.56,
+     "transactions": 329
+    }
+   }
+  },
+  {
+   "label": "off_c1_off_20261116",
+   "run_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261116",
+   "source": "strategy_stats.json:extra.history_records",
+   "strategy_stats": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261116\\strategy_stats.json",
+   "strategy_stats_sha256": "6350e9f4ddd53ede0356fa3777ddf27af4f51398e02e269eca7b9ddaae9f16ac",
+   "summary": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261116\\summary.json",
+   "summary_sha256": "b43f0e2b75260cf64f6ef9456932e9bf4d505723fb069f236e560672a3c3c752",
+   "start_crossings": 4548,
+   "final_crossings": 4068,
+   "n_records": 250,
+   "ledger": {
+    "rel_path": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261116\\budget_ledger.json",
+    "data": {
+     "d56_candidate_evals": 24076,
+     "route_3d_checks": 2967,
+     "wall_seconds": 2127.97,
+     "transactions": 316
+    }
+   }
+  },
+  {
+   "label": "off_c1_off_20261130",
+   "run_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130",
+   "source": "strategy_stats.json:extra.history_records",
+   "strategy_stats": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\strategy_stats.json",
+   "strategy_stats_sha256": "bd29c3e4234173dd97efa86766783d56ac0fdc26842d2c909dc412ca12527fdf",
+   "summary": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\summary.json",
+   "summary_sha256": "033b3164885d6d4d9745a8cb31997828714c2daf32b8f45a53f19f3d4ca23ba9",
+   "start_crossings": 4548,
+   "final_crossings": 4052,
+   "n_records": 250,
+   "ledger": {
+    "rel_path": "experiments\\20H_G4_MULTI_ARC_ABLATION_FINAL_1024\\runs\\off\\c1_off_20261130\\budget_ledger.json",
+    "data": {
+     "d56_candidate_evals": 24060,
+     "route_3d_checks": 2849,
+     "wall_seconds": 2160.88,
+     "transactions": 355
+    }
+   }
+  }
+ ],
+ "failures": [],
+ "axes": [
+  {
+   "key": "d56",
+   "xlabel": "d56 candidate evaluations",
+   "title": "crossings vs d56 candidate evaluations",
+   "has_data": true
+  },
+  {
+   "key": "r3d",
+   "xlabel": "route 3-D checks",
+   "title": "crossings vs route 3-D checks",
+   "has_data": true
+  },
+  {
+   "key": "wall_seconds",
+   "xlabel": "wall seconds",
+   "title": "crossings vs wall-clock seconds",
+   "has_data": true
+  }
+ ],
+ "note": "one figure, three sub-plots; several runs overlaid; only real recorded counters are plotted"
+}

@@ -1,0 +1,60 @@
+{
+ "schema": "plots_ablation_staging_v1",
+ "note": "byte-identical copies of real artifacts, staged so that the frozen 20H plotting engine can read one self-contained run directory; no value is changed, every source path + SHA256 is recorded here and in manifest.json",
+ "state_dir": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d",
+ "artifact_root": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d",
+ "files": {
+  "routes_l3d.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\routes_l3d.json",
+   "sha256": "1de641aed5c0daeec34bc939fa96067ac25902b13e10f243f9c9a32509565d4b"
+  },
+  "assignment_1024.csv": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\assignment_1024.csv",
+   "sha256": "ab65bd0121cb5e6263ddb385de14a8d6b0569a748169ac4ed887a56501316d8a"
+  },
+  "layer_planes.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\layer_planes.json",
+   "sha256": "12a9d3a02fea4d6f79c6c312804d249818946890366cb0bc2fd64350c94dd0c0"
+  },
+  "crossing_stats.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\crossing_stats.json",
+   "sha256": "012d674de92856641f620d2486a44ec26773887f92dc89a2e747a380da693be8"
+  },
+  "summary.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\summary.json",
+   "sha256": "4e0798736189e0985444d04ceb4a55cf81546a2b77c19d0573f55b772a15d870"
+  },
+  "summary_g4.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\summary_g4.json",
+   "sha256": "1346a9ad406c5d1ef2ce20d44c82db1aeb915f0330587f6bcaafeea5c769177d"
+  },
+  "strategy_stats.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\strategy_stats.json",
+   "sha256": "bff415e17390790bd41b345bc7975b697e9f0f9efd56be62b582b8f1eef7daea"
+  },
+  "budget_ledger.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\budget_ledger.json",
+   "sha256": "f57ef511d290e339134e3bf909e5ae98f94737a6c398dd66630265e2332e9f80"
+  },
+  "optimization_history.csv": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\optimization_history.csv",
+   "sha256": "f339efd8a03bea5068c932995122529e76ea9f2f28babfca40ab311bf7aca2bf"
+  },
+  "geometry_changes.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\geometry_changes.json",
+   "sha256": "a4d7a7b518c042c93b458d038ef0e5c399aecb4ef52d61cd827556f36d5ab3b1"
+  },
+  "failed_attempts.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\failed_attempts.json",
+   "sha256": "00636139440b64ffc46b2b23222bfc095792519d1800b5ec38239f9ffffe5397"
+  },
+  "config.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\config.json",
+   "sha256": "865756ce9c506a579df848b7e636751e02699c72f92b642ffe12998cde2156c2"
+  },
+  "validation_final/validation.json": {
+   "source": "experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\off\\02_g4d\\validation_final\\validation.json",
+   "sha256": "28c6c88ae78c062a0424cf8d98acfc4b315b001423bb83407353fa6a95c9c349"
+  }
+ }
+}

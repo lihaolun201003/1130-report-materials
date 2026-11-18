@@ -1,0 +1,211 @@
+
+===== 2026-11-18T19:39:42 =====
+[validate21] run_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\02_experiment1\on\02_g4d\best_valid model=21h planes=20 min_pitch=0.04999999999999993
+  records=1024 routed=1024 failed=0 direct=93 transitions=1948
+  structure   violations=299
+  radius      violations=0
+  glass       violations=0
+  clearance   violations=0
+  ports       violations=0
+  assignment  violations=0
+  crossings   violations=0
+  model_violations=0 contract_violations=274
+  crossings_total=1305 pairs=1234 audited_heights=20
+  min_3d_clearance=0.062212557 mm min_radius=15.0 mm
+  consistency_tests=11 passed=True failed=[]
+  geometry_pass=False contract_pass=False validation_pass=False violations=573 runtime=45.05s
+  wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\02_experiment1\on\02_g4d\validation_final\validation.json
+  wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\02_experiment1\on\02_g4d\validation_final\validator_consistency_tests.json
+  wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\02_experiment1\on\02_g4d\validation_final\crossing_stats.json
+{
+ "schema": "coldstart20_validation_runner_v1",
+ "profile": "20_height_raised",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+ "elapsed_s": 45.1,
+ "exit_code": 1,
+ "validation_pass": false,
+ "geometry_pass": false,
+ "contract_pass": false,
+ "validator_consistency_passed": true,
+ "counts": {
+  "routed": 1024,
+  "failed": 0,
+  "min_3d_clearance_mm": 0.062212557
+ },
+ "crossing_totals": {
+  "records": 1024,
+  "routed": 1024,
+  "failed": 0,
+  "routed_by_plane": {
+   "z1": 512,
+   "z2": 512
+  },
+  "direct_routes": 93,
+  "direct_by_interface_plane": {
+   "1001": 43,
+   "1002": 50
+  },
+  "non_direct_routes": 931,
+  "transitions": 1948,
+  "transition_total_length_mm": 6102.469231393,
+  "total_length_mm": 156603.598647353,
+  "max_route_length_mm": 282.321952412,
+  "flat_arc_count": 1840,
+  "min_flat_arc_radius_mm": 15.0,
+  "min_transition_sampled_radius_mm": 14.999999980101123,
+  "min_3d_clearance_mm": 0.062212557,
+  "min_3d_clearance_lower_bound_mm": 0.05,
+  "same_plane_crossings": 1305,
+  "same_plane_crossing_pairs": 1234,
+  "same_plane_crossing_violations": 0,
+  "min_non_crossing_centerline_mm": 0.086853441,
+  "per_route_crossing_distribution": {
+   "routes": 657,
+   "max": 17,
+   "p95": 9.0,
+   "mean": 3.972603,
+   "median": 3.0,
+   "routes_with_crossings": 657
+  },
+  "planes_audited": 20,
+  "min_centerline_glass_margin_mm": -0.0,
+  "min_edge_glass_margin_mm": -0.025,
+  "violation_total": 573
+ },
+ "violations_total": 573,
+ "violation_counts_by_check": {
+  "assignment": 269,
+  "structure": 299,
+  "totals": 5
+ },
+ "report_path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\validation.json",
+ "crossing_stats_path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid\\crossing_stats.json"
+}
+
+===== 2026-11-18T19:43:17 =====
+Traceback (most recent call last):
+  File "C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\tools\validate_state_xyz.py", line 80, in <module>
+    raise SystemExit(main())
+  File "C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\03_PER_STRUCTURE_CONTRIBUTION\tools\validate_state_xyz.py", line 57, in main
+    report = VX.validate_xyz(Path(run_dir), Path(out_dir),
+TypeError: validate_xyz() got multiple values for argument 'baseline_dir'
+
+===== 2026-11-18T19:43:28 =====
+==============================================================================
+[xyz] G1/G2/G3 independent validation: manual_policy=fully_optimizable
+==============================================================================
+[native3d] validating run_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\02_experiment1\on\02_g4d\best_valid
+[native3d] baseline_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative
+[native3d] out_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\02_experiment1\on\02_g4d\validation_final
+[model] source=layer_planes.json planes=20 body=18 interface=2 min_pitch=0.050000
+[assignment] 1024 rows from run
+[routes] 1024 records (1024 routed, 0 failed); baseline 1024 records
+[model] violations=0
+[coverage] routed=1024 identity_mismatches=0 violations=0
+[structure] routes=1024 junctions=3896 max_pos_gap=4.91e-10 max_z_gap=0 max_tangent_gap=1.01e-15 violations=0
+[metadata] native=36 mid=86 excursions=43 violations=0
+[radius] flat_arcs=1840 transitions=1948 min_sampled=14.99999998 violations=0
+[glass] samples=1096164 min_margin=-0.0 violations=0
+[clearance] running independent minimum 3D clearance scan ...
+[clearance] min_3d=0.062212557 violations=0
+[ports] port_pairs=1024 violations=0
+[crossings] events=1305 pairs=1234 violations=0
+[manual_frozen] policy=fully_optimizable 368 manual routes, mismatches=0 violations=0
+[synthetic] running in-memory consistency tests ...
+[synthetic] duckout_L6_L7_L6_accepted                     PASS
+[synthetic] z_offset_49um_rejected                        PASS
+[synthetic] radius_14_rejected                            PASS
+[synthetic] position_discontinuity_1e-3_rejected          PASS
+[synthetic] flat_overlap_rejected                         PASS
+[synthetic] complete_native_route_accepted                PASS
+[synthetic] two_excursions_accepted                       PASS
+[synthetic] 7 tests, 0 failed
+
+Native 3D validation: PASS
+  run_dir      : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\02_experiment1\on\02_g4d\best_valid
+  baseline_dir : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative
+  routes       : records=1024 routed=1024 failed=0 (native=36, baseline=988)
+  parts        : transitions=1948 mid=86 excursions=43 flat_arcs=1840
+  crossings    : events=1305 pairs=1234 violations=0 heights=20 min_non_crossing=0.086853441
+  vs E5 baseline: 3061 -> 1305 crossings (-1756), pairs 2705 -> 1234
+  clearance    : min_3d=0.062212557 (lower bound 0.05)
+  manual frozen: 368 routes, 0 mismatches
+  manual policy: fully_optimizable (0 contract violations)
+  [coverage       ] violations=0 offending_routes=0
+  [structure      ] violations=0 offending_routes=0
+  [native_metadata] violations=0 offending_routes=0
+  [radius         ] violations=0 offending_routes=0
+  [glass          ] violations=0 offending_routes=0
+  [clearance      ] violations=0 offending_routes=0
+  [ports          ] violations=0 offending_routes=0
+  [crossings      ] violations=0 offending_routes=0
+  [manual_frozen  ] violations=0 offending_routes=0
+  [model          ] violations=0 offending_routes=0
+  [synthetic      ] violations=0 offending_routes=0
+  violation_total=0 runtime=39.8s exit_code=0
+[native3d] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\02_experiment1\on\02_g4d\validation_final\validation.json
+[native3d] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\02_experiment1\on\02_g4d\validation_final\validator_consistency_tests.json
+
+[xyz] manual_policy=fully_optimizable contract_violations=0 validation_pass=True
+[xyz] summary: {"crossing_pairs": 1234, "crossings": 1305, "failed": 0, "mid_transitions": 86, "min_3d_clearance": 0.062212557, "policy": "fully_optimizable", "policy_violations": 0, "routed": 1024, "total_length": 156603.598647, "validation_pass": true, "violations": 0}
+[xyz] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\20H_G4_MULTI_ARC_ABLATION_1024\02_experiment1\on\02_g4d\validation_final\validation.json
+{
+ "schema": "coldstart20_validate_state_xyz_v1",
+ "run_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\best_valid",
+ "out_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\20H_G4_MULTI_ARC_ABLATION_1024\\02_experiment1\\on\\02_g4d\\validation_final",
+ "validation_pass": true,
+ "geometry_pass": true,
+ "contract_pass": true,
+ "violation_count": 0,
+ "plane_count": 20,
+ "counts": {
+  "records": 1024,
+  "routed": 1024,
+  "failed": 0,
+  "routed_by_plane": {
+   "z1": 512,
+   "z2": 512
+  },
+  "direct_routes": 93,
+  "non_direct_routes": 931,
+  "native_routes": 36,
+  "baseline_routes": 988,
+  "transitions": 1948,
+  "flat_arc_count": 1840,
+  "flat_arcs": 1840,
+  "mid_transitions": 86,
+  "excursions": 43,
+  "body_flats": 1110,
+  "total_length_mm": 156603.598647,
+  "max_route_length_mm": 282.321952,
+  "same_plane_crossings": 1305,
+  "same_plane_crossing_pairs": 1234,
+  "same_plane_crossing_violations": 0,
+  "audited_heights": 20,
+  "min_non_crossing_centerline_mm": 0.086853441,
+  "per_route_crossing_distribution": {
+   "routes": 657,
+   "max": 17,
+   "p95": 9.0,
+   "mean": 3.972603,
+   "median": 3.0,
+   "routes_with_crossings": 657
+  },
+  "manual_route_count": 368,
+  "manual_geometry_mismatch_count": 0,
+  "min_flat_arc_radius_mm": 15.0,
+  "min_transition_sampled_radius_mm": 14.99999998,
+  "min_3d_clearance_mm": 0.062212557,
+  "min_3d_clearance_lower_bound_mm": 0.05,
+  "min_centerline_glass_margin_mm": -0.0,
+  "min_edge_glass_margin_mm": -0.025,
+  "assignment_primary_mismatch_count": 0,
+  "min_route_layer_pitch_mm": 0.04999999999999993,
+  "violation_total": 0,
+  "baseline_same_plane_crossings": 3061,
+  "baseline_same_plane_crossing_pairs": 2705,
+  "crossing_delta_vs_baseline": -1756,
+  "crossing_pair_delta_vs_baseline": -1471
+ },
+ "manual_policy": "fully_optimizable"
+}
