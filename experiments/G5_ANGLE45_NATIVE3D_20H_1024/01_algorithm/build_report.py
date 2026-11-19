@@ -336,6 +336,74 @@ def main(argv=None):
         '`02_search_runs/<run>/g5_candidate_statistics.csv`。')
     add('')
 
+    # ------------------------------------------------- 5b. re-layering round
+    graph = load(EXP / '02_search_runs' / 'conflict_graph' / 'conflict_graph.json', {})
+    colour = load(EXP / '02_search_runs' / 'conflict_graph' / 'colouring_test.json', {})
+    iterate = load(EXP / '02_search_runs' / 'relayer_iter'
+                   / 'iteration_history.json', [])
+    if graph or colour:
+        add('## 5b. 第二轮：共面冲突图 + 换层重分配（突破 134 的关键机制）')
+        add('')
+        add('上一轮把违规降到 134 之后，单线路候选族（走廊平移 / 换层 / 跨线）'
+            '再也推不动。第二轮换了一个完全不同的提法：')
+        add('')
+        add('> **一条线路的 XY 路径与它所在的物理高度无关。** 因此"线路 i 与 j '
+            '能否共用一个高度"对每一对线路只是一个布尔量，与具体是哪一层无关。'
+            '把它算出来就得到一个**共面冲突图**；如果这个图能被 20 着色，'
+            '那么任何合法着色都让每个高度内部没有小角度交叉，即 '
+            '`N_<45 = 0` 由构造成立。')
+        add('')
+        if graph:
+            summary_g = graph.get('summary') or {}
+            add('- 共面冲突图：候选线路对 %s，冲突 %s 对（其中浅角度 %s、'
+                '重叠 %s、双交 %s、间距 %s、端点 %s），最大度 %s，平均度 %s。'
+                % (summary_g.get('candidate_pairs'),
+                   summary_g.get('conflict_pairs'),
+                   (summary_g.get('reasons') or {}).get('shallow'),
+                   (summary_g.get('reasons') or {}).get('overlap'),
+                   (summary_g.get('reasons') or {}).get('double_cross'),
+                   (summary_g.get('reasons') or {}).get('clearance'),
+                   (summary_g.get('reasons') or {}).get('endpoint_touch'),
+                   summary_g.get('max_degree'),
+                   round(2.0 * summary_g.get('conflict_pairs', 0)
+                         / max(summary_g.get('routes', 1), 1), 2)))
+        if colour:
+            ds = (colour.get('colouring') or {}).get('dsatur') or {}
+            add('- **着色结论（关键）**：DSATUR 用 **%s 种颜色** 就能给整个冲突图'
+                '合法着色（贪心按 id 序为 %s 色），而可用高度是 20 —— 也就是说'
+                '**这套 XY 几何确实存在一个"零小角度交叉"的高度分配**。'
+                % (ds.get('colours'),
+                   ((colour.get('colouring') or {}).get('route_id') or {}).get('colours')))
+            add('- 这就把问题从"几何有没有救"变成了"能不能在换层时保住 '
+                'R15 过渡的三维净空与 D56"。')
+        add('')
+        add('### 5b.1 实现：DSATUR 排序 + 精确三维/D56 过滤的换层重分配')
+        add('')
+        add('`01_algorithm/relayer.py` 按冲突度数从大到小（DSATUR 序）逐条放置线路，'
+            '每条线路按 |Δz| 由近到远尝试 20 个高度，**每个候选都用精确检查器'
+            '评估**（结构 / R15 / D56 / 真三维净空）后才接受；被占满的高度留给'
+            '下一轮。为此新增了两种"任意线路都能换层"的精确构造：')
+        add('')
+        add('* **平行端向闭包**：起点/终点方向平行时，原来要求"首末直线正交"的 '
+            '2×2 闭包退化为 1 参数问题，沿该轴调整一段直线即可精确闭合；')
+        add('* **位姿间重建**（`reheight_full`）：直接由**新的**两条 R15 S 曲线的'
+            '端点重建主体折线（含 U 形），因此根本不需要闭包求解，'
+            '也不受原主体形状限制。')
+        add('')
+        if iterate:
+            add('| 轮次 | 违规 | 交叉 | 角度不足 | 换层线路 | 未安置 |')
+            add('|---:|---:|---:|---:|---:|---:|')
+            for row in iterate:
+                add('| %s | %s | %s | %s | %s | %s |'
+                    % (row['pass_index'], row['violations'], row['crossings'],
+                       round(row['deficit'], 1), row['moves'], row['failed']))
+            add('')
+        add('结果：**%s → %s**，且新几何**一次就通过原 Validator A（0 违规）**，'
+            '不需要任何回退清理；换层后的三维净距为 0.05 / 0.0618 / 0.1 mm，'
+            '自净距 1.0 mm，总长度反而略降。'
+            % (base.get('violations_below_45'), summary.get('violations')))
+        add('')
+
     # ------------------------------------------------------------- 6. verdict
     add('## 6. 独立验收')
     add('')

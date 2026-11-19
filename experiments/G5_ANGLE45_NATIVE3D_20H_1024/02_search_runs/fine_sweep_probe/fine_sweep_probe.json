@@ -1,0 +1,192 @@
+{
+ "summary": {
+  "schema": "g5_fine_sweep_probe_v1",
+  "routes": 24,
+  "zero": 2,
+  "improved": 6,
+  "stuck": 16,
+  "reject_hard": 567,
+  "base": {
+   "violations": 134,
+   "deficit": 2539.854013,
+   "max_deficit": 37.481379,
+   "crossings": 2321,
+   "pairs": 1891,
+   "min_angle": 7.518621,
+   "routes_with_violations": 153,
+   "length_mm": 156560.5153,
+   "hard_issues": 0
+  },
+  "seconds": 6.5
+ },
+ "rows": [
+  {
+   "route_id": 114,
+   "violations_before": 5,
+   "violations_best": 0,
+   "move": "corridor:0-5:+4.25",
+   "evaluated": 81
+  },
+  {
+   "route_id": 451,
+   "violations_before": 5,
+   "violations_best": 5,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 228,
+   "violations_before": 5,
+   "violations_best": 5,
+   "move": null,
+   "evaluated": 128
+  },
+  {
+   "route_id": 973,
+   "violations_before": 5,
+   "violations_best": 5,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 115,
+   "violations_before": 4,
+   "violations_best": 0,
+   "move": "corridor:0-5:+11.5",
+   "evaluated": 77
+  },
+  {
+   "route_id": 130,
+   "violations_before": 4,
+   "violations_best": 4,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 238,
+   "violations_before": 4,
+   "violations_best": 1,
+   "move": "corridor:0-4:+16",
+   "evaluated": 73
+  },
+  {
+   "route_id": 28,
+   "violations_before": 4,
+   "violations_best": 4,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 148,
+   "violations_before": 4,
+   "violations_best": 3,
+   "move": "corridor:0-5:+1.5",
+   "evaluated": 128
+  },
+  {
+   "route_id": 432,
+   "violations_before": 4,
+   "violations_best": 2,
+   "move": "corridor:0-3:-16",
+   "evaluated": 128
+  },
+  {
+   "route_id": 435,
+   "violations_before": 4,
+   "violations_best": 3,
+   "move": "corridor:0-3:+7",
+   "evaluated": 127
+  },
+  {
+   "route_id": 591,
+   "violations_before": 4,
+   "violations_best": 2,
+   "move": "corridor:0-3:+15.25",
+   "evaluated": 78
+  },
+  {
+   "route_id": 616,
+   "violations_before": 4,
+   "violations_best": 4,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 448,
+   "violations_before": 3,
+   "violations_best": 3,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 472,
+   "violations_before": 3,
+   "violations_best": 3,
+   "move": null,
+   "evaluated": 108
+  },
+  {
+   "route_id": 475,
+   "violations_before": 3,
+   "violations_best": 2,
+   "move": "corridor:0-4:-11.75",
+   "evaluated": 96
+  },
+  {
+   "route_id": 478,
+   "violations_before": 3,
+   "violations_best": 3,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 493,
+   "violations_before": 3,
+   "violations_best": 3,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 499,
+   "violations_before": 3,
+   "violations_best": 3,
+   "move": null,
+   "evaluated": 85
+  },
+  {
+   "route_id": 492,
+   "violations_before": 3,
+   "violations_best": 3,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 425,
+   "violations_before": 3,
+   "violations_best": 3,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 426,
+   "violations_before": 3,
+   "violations_best": 3,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 974,
+   "violations_before": 3,
+   "violations_best": 3,
+   "move": null,
+   "evaluated": 74
+  },
+  {
+   "route_id": 743,
+   "violations_before": 3,
+   "violations_best": 3,
+   "move": null,
+   "evaluated": 205
+  }
+ ]
+}

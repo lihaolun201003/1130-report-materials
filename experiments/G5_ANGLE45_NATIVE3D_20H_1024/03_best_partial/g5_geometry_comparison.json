@@ -13,14 +13,14 @@
  },
  "g5": {
   "routes": 1024,
-  "crossings": 2321,
-  "pairs": 1891,
-  "violations": 134,
+  "crossings": 3479,
+  "pairs": 2835,
+  "violations": 88,
   "min_angle_deg": 7.518621,
-  "deficit_deg": 2539.854013,
+  "deficit_deg": 1625.615196,
   "max_deficit_deg": 37.481379,
-  "total_length_mm": 156560.5153,
-  "max_route_crossings": 91
+  "total_length_mm": 156544.671046,
+  "max_route_crossings": 99
  },
  "per_layer": [
   {
@@ -28,23 +28,23 @@
    "z_label": "L2",
    "g4_crossings": 2,
    "g4_violations": 0,
-   "g5_crossings": 108,
-   "g5_violations": 1
+   "g5_crossings": 329,
+   "g5_violations": 0
   },
   {
    "z_mm": -0.275,
    "z_label": "L3",
    "g4_crossings": 25,
    "g4_violations": 17,
-   "g5_crossings": 27,
-   "g5_violations": 1
+   "g5_crossings": 198,
+   "g5_violations": 0
   },
   {
    "z_mm": -0.225,
    "z_label": "L4",
    "g4_crossings": 0,
    "g4_violations": 0,
-   "g5_crossings": 36,
+   "g5_crossings": 179,
    "g5_violations": 0
   },
   {
@@ -52,7 +52,7 @@
    "z_label": "L5",
    "g4_crossings": 4,
    "g4_violations": 4,
-   "g5_crossings": 166,
+   "g5_crossings": 266,
    "g5_violations": 0
   },
   {
@@ -60,24 +60,24 @@
    "z_label": "L6",
    "g4_crossings": 102,
    "g4_violations": 28,
-   "g5_crossings": 98,
-   "g5_violations": 16
+   "g5_crossings": 71,
+   "g5_violations": 7
   },
   {
    "z_mm": -0.075,
    "z_label": "L7",
    "g4_crossings": 79,
    "g4_violations": 35,
-   "g5_crossings": 68,
-   "g5_violations": 24
+   "g5_crossings": 146,
+   "g5_violations": 19
   },
   {
    "z_mm": -0.025,
    "z_label": "L20",
    "g4_crossings": 73,
    "g4_violations": 24,
-   "g5_crossings": 195,
-   "g5_violations": 10
+   "g5_crossings": 294,
+   "g5_violations": 7
   },
   {
    "z_mm": 0.025,
@@ -92,15 +92,15 @@
    "z_label": "L8",
    "g4_crossings": 70,
    "g4_violations": 27,
-   "g5_crossings": 160,
-   "g5_violations": 17
+   "g5_crossings": 253,
+   "g5_violations": 6
   },
   {
    "z_mm": 0.125,
    "z_label": "L9",
    "g4_crossings": 97,
    "g4_violations": 0,
-   "g5_crossings": 187,
+   "g5_crossings": 266,
    "g5_violations": 0
   },
   {
@@ -108,8 +108,8 @@
    "z_label": "L10",
    "g4_crossings": 81,
    "g4_violations": 38,
-   "g5_crossings": 110,
-   "g5_violations": 11
+   "g5_crossings": 115,
+   "g5_violations": 5
   },
   {
    "z_mm": 0.225,
@@ -117,22 +117,22 @@
    "g4_crossings": 81,
    "g4_violations": 41,
    "g5_crossings": 110,
-   "g5_violations": 13
+   "g5_violations": 8
   },
   {
    "z_mm": 0.275,
    "z_label": "L12",
    "g4_crossings": 48,
    "g4_violations": 24,
-   "g5_crossings": 42,
-   "g5_violations": 4
+   "g5_crossings": 30,
+   "g5_violations": 1
   },
   {
    "z_mm": 0.325,
    "z_label": "L13",
    "g4_crossings": 45,
    "g4_violations": 17,
-   "g5_crossings": 103,
+   "g5_crossings": 173,
    "g5_violations": 4
   },
   {
@@ -140,8 +140,8 @@
    "z_label": "L14",
    "g4_crossings": 72,
    "g4_violations": 5,
-   "g5_crossings": 227,
-   "g5_violations": 3
+   "g5_crossings": 211,
+   "g5_violations": 1
   },
   {
    "z_mm": 0.425,
@@ -172,7 +172,7 @@
    "z_label": "L17",
    "g4_crossings": 97,
    "g4_violations": 0,
-   "g5_crossings": 130,
+   "g5_crossings": 144,
    "g5_violations": 0
   },
   {
@@ -180,7 +180,7 @@
    "z_label": "L18",
    "g4_crossings": 77,
    "g4_violations": 2,
-   "g5_crossings": 115,
+   "g5_crossings": 255,
    "g5_violations": 0
   }
  ]

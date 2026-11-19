@@ -1,0 +1,69 @@
+{
+ "schema": "g5_layer_colouring_test_v1",
+ "routes": 1024,
+ "conflict_edges": 36904,
+ "average_degree": 72.078,
+ "max_degree": 149,
+ "colours_available": 20,
+ "routes_per_height": 51.2,
+ "greedy_independent_set_size": 142,
+ "greedy_independent_set_lower_bound": 142,
+ "colouring": {
+  "degree_desc": {
+   "colours": 21,
+   "largest_class": 64,
+   "class_sizes": [
+    64,
+    63,
+    62,
+    61,
+    59
+   ]
+  },
+  "degree_asc": {
+   "colours": 29,
+   "largest_class": 140,
+   "class_sizes": [
+    140,
+    93,
+    67,
+    64,
+    52
+   ]
+  },
+  "route_id": {
+   "colours": 22,
+   "largest_class": 101,
+   "class_sizes": [
+    101,
+    98,
+    82,
+    73,
+    57
+   ]
+  },
+  "degree_desc_rev": {
+   "colours": 30,
+   "largest_class": 140,
+   "class_sizes": [
+    140,
+    91,
+    70,
+    64,
+    53
+   ]
+  },
+  "dsatur": {
+   "colours": 19,
+   "largest_class": 82,
+   "class_sizes": [
+    82,
+    80,
+    66,
+    66,
+    64
+   ]
+  }
+ },
+ "verdict": "possible"
+}

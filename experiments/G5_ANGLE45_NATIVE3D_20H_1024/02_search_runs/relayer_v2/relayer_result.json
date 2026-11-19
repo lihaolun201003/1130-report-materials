@@ -1,0 +1,6165 @@
+{
+ "schema": "g5_relayer_v1",
+ "summary": {
+  "violations": 90,
+  "deficit": 1635.467161,
+  "max_deficit": 37.481379,
+  "crossings": 3431,
+  "pairs": 2787,
+  "min_angle": 7.518621,
+  "routes_with_violations": 98,
+  "length_mm": 156560.5153,
+  "hard_issues": 0
+ },
+ "moves": 38,
+ "failures": [
+  {
+   "route_id": 672,
+   "current": 0.275,
+   "tried": 19,
+   "violations": 1
+  },
+  {
+   "route_id": 149,
+   "current": 0.225,
+   "tried": 19,
+   "violations": 1
+  },
+  {
+   "route_id": 671,
+   "current": 0.225,
+   "tried": 19,
+   "violations": 3
+  },
+  {
+   "route_id": 744,
+   "current": 0.225,
+   "tried": 17,
+   "violations": 1
+  },
+  {
+   "route_id": 737,
+   "current": 0.525,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 39,
+   "current": -0.075,
+   "tried": 16,
+   "violations": 1
+  },
+  {
+   "route_id": 171,
+   "current": -0.025,
+   "tried": 18,
+   "violations": 1
+  },
+  {
+   "route_id": 535,
+   "current": 0.225,
+   "tried": 0,
+   "violations": 2
+  },
+  {
+   "route_id": 30,
+   "current": -0.075,
+   "tried": 15,
+   "violations": 1
+  },
+  {
+   "route_id": 104,
+   "current": 0.225,
+   "tried": 17,
+   "violations": 2
+  },
+  {
+   "route_id": 636,
+   "current": 0.275,
+   "tried": 15,
+   "violations": 1
+  },
+  {
+   "route_id": 634,
+   "current": 0.325,
+   "tried": 15,
+   "violations": 1
+  },
+  {
+   "route_id": 747,
+   "current": 0.175,
+   "tried": 16,
+   "violations": 1
+  },
+  {
+   "route_id": 527,
+   "current": 0.225,
+   "tried": 15,
+   "violations": 3
+  },
+  {
+   "route_id": 631,
+   "current": 0.325,
+   "tried": 13,
+   "violations": 3
+  },
+  {
+   "route_id": 743,
+   "current": 0.175,
+   "tried": 16,
+   "violations": 2
+  },
+  {
+   "route_id": 103,
+   "current": -0.075,
+   "tried": 16,
+   "violations": 1
+  },
+  {
+   "route_id": 115,
+   "current": -0.125,
+   "tried": 15,
+   "violations": 4
+  },
+  {
+   "route_id": 638,
+   "current": 0.325,
+   "tried": 14,
+   "violations": 2
+  },
+  {
+   "route_id": 7,
+   "current": -0.075,
+   "tried": 14,
+   "violations": 1
+  },
+  {
+   "route_id": 542,
+   "current": 0.425,
+   "tried": 12,
+   "violations": 1
+  },
+  {
+   "route_id": 738,
+   "current": 0.275,
+   "tried": 12,
+   "violations": 2
+  },
+  {
+   "route_id": 38,
+   "current": -0.075,
+   "tried": 12,
+   "violations": 1
+  },
+  {
+   "route_id": 740,
+   "current": 0.325,
+   "tried": 13,
+   "violations": 1
+  },
+  {
+   "route_id": 587,
+   "current": 0.175,
+   "tried": 12,
+   "violations": 1
+  },
+  {
+   "route_id": 715,
+   "current": 0.175,
+   "tried": 15,
+   "violations": 1
+  },
+  {
+   "route_id": 148,
+   "current": 0.025,
+   "tried": 1,
+   "violations": 4
+  },
+  {
+   "route_id": 652,
+   "current": 0.525,
+   "tried": 1,
+   "violations": 3
+  },
+  {
+   "route_id": 623,
+   "current": 0.175,
+   "tried": 17,
+   "violations": 2
+  },
+  {
+   "route_id": 29,
+   "current": -0.075,
+   "tried": 12,
+   "violations": 2
+  },
+  {
+   "route_id": 32,
+   "current": 0.075,
+   "tried": 11,
+   "violations": 2
+  },
+  {
+   "route_id": 863,
+   "current": 0.175,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 143,
+   "current": 0.225,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 499,
+   "current": -0.075,
+   "tried": 10,
+   "violations": 3
+  },
+  {
+   "route_id": 493,
+   "current": -0.075,
+   "tried": 0,
+   "violations": 3
+  },
+  {
+   "route_id": 216,
+   "current": 0.075,
+   "tried": 1,
+   "violations": 2
+  },
+  {
+   "route_id": 112,
+   "current": -0.075,
+   "tried": 11,
+   "violations": 1
+  },
+  {
+   "route_id": 422,
+   "current": 0.075,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 132,
+   "current": -0.125,
+   "tried": 12,
+   "violations": 2
+  },
+  {
+   "route_id": 498,
+   "current": -0.025,
+   "tried": 11,
+   "violations": 2
+  },
+  {
+   "route_id": 239,
+   "current": 0.025,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 130,
+   "current": -0.125,
+   "tried": 9,
+   "violations": 4
+  },
+  {
+   "route_id": 448,
+   "current": -0.125,
+   "tried": 14,
+   "violations": 1
+  },
+  {
+   "route_id": 833,
+   "current": 0.375,
+   "tried": 1,
+   "violations": 3
+  },
+  {
+   "route_id": 114,
+   "current": -0.125,
+   "tried": 9,
+   "violations": 5
+  },
+  {
+   "route_id": 124,
+   "current": -0.125,
+   "tried": 11,
+   "violations": 2
+  },
+  {
+   "route_id": 6,
+   "current": -0.075,
+   "tried": 11,
+   "violations": 1
+  },
+  {
+   "route_id": 691,
+   "current": 0.175,
+   "tried": 11,
+   "violations": 2
+  },
+  {
+   "route_id": 423,
+   "current": 0.075,
+   "tried": 0,
+   "violations": 1
+  },
+  {
+   "route_id": 31,
+   "current": -0.325,
+   "tried": 8,
+   "violations": 1
+  },
+  {
+   "route_id": 427,
+   "current": 0.225,
+   "tried": 0,
+   "violations": 1
+  },
+  {
+   "route_id": 472,
+   "current": -0.075,
+   "tried": 12,
+   "violations": 3
+  },
+  {
+   "route_id": 142,
+   "current": 0.075,
+   "tried": 1,
+   "violations": 2
+  },
+  {
+   "route_id": 616,
+   "current": 0.525,
+   "tried": 0,
+   "violations": 4
+  },
+  {
+   "route_id": 453,
+   "current": -0.025,
+   "tried": 11,
+   "violations": 1
+  },
+  {
+   "route_id": 457,
+   "current": -0.075,
+   "tried": 9,
+   "violations": 1
+  },
+  {
+   "route_id": 513,
+   "current": 0.375,
+   "tried": 6,
+   "violations": 1
+  },
+  {
+   "route_id": 478,
+   "current": -0.075,
+   "tried": 8,
+   "violations": 3
+  },
+  {
+   "route_id": 492,
+   "current": -0.025,
+   "tried": 0,
+   "violations": 3
+  },
+  {
+   "route_id": 28,
+   "current": -0.075,
+   "tried": 3,
+   "violations": 4
+  },
+  {
+   "route_id": 620,
+   "current": 0.525,
+   "tried": 1,
+   "violations": 3
+  },
+  {
+   "route_id": 477,
+   "current": -0.025,
+   "tried": 10,
+   "violations": 2
+  },
+  {
+   "route_id": 428,
+   "current": 0.025,
+   "tried": 1,
+   "violations": 2
+  },
+  {
+   "route_id": 502,
+   "current": -0.075,
+   "tried": 8,
+   "violations": 1
+  },
+  {
+   "route_id": 425,
+   "current": 0.025,
+   "tried": 0,
+   "violations": 3
+  },
+  {
+   "route_id": 494,
+   "current": -0.025,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 708,
+   "current": 0.325,
+   "tried": 8,
+   "violations": 1
+  },
+  {
+   "route_id": 205,
+   "current": 0.225,
+   "tried": 8,
+   "violations": 1
+  },
+  {
+   "route_id": 410,
+   "current": -0.025,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 482,
+   "current": -0.025,
+   "tried": 6,
+   "violations": 1
+  },
+  {
+   "route_id": 237,
+   "current": 0.075,
+   "tried": 7,
+   "violations": 1
+  },
+  {
+   "route_id": 481,
+   "current": -0.075,
+   "tried": 7,
+   "violations": 1
+  },
+  {
+   "route_id": 475,
+   "current": -0.075,
+   "tried": 8,
+   "violations": 3
+  },
+  {
+   "route_id": 8,
+   "current": -0.275,
+   "tried": 7,
+   "violations": 1
+  },
+  {
+   "route_id": 451,
+   "current": -0.075,
+   "tried": 0,
+   "violations": 5
+  },
+  {
+   "route_id": 120,
+   "current": -0.075,
+   "tried": 7,
+   "violations": 1
+  },
+  {
+   "route_id": 454,
+   "current": -0.075,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 847,
+   "current": 0.525,
+   "tried": 0,
+   "violations": 3
+  },
+  {
+   "route_id": 150,
+   "current": 0.025,
+   "tried": 1,
+   "violations": 2
+  },
+  {
+   "route_id": 480,
+   "current": -0.025,
+   "tried": 8,
+   "violations": 1
+  },
+  {
+   "route_id": 437,
+   "current": 0.075,
+   "tried": 0,
+   "violations": 1
+  },
+  {
+   "route_id": 947,
+   "current": 0.175,
+   "tried": 0,
+   "violations": 1
+  },
+  {
+   "route_id": 228,
+   "current": 0.025,
+   "tried": 1,
+   "violations": 5
+  },
+  {
+   "route_id": 151,
+   "current": 0.075,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 152,
+   "current": -0.125,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 434,
+   "current": 0.075,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 839,
+   "current": 0.525,
+   "tried": 0,
+   "violations": 3
+  },
+  {
+   "route_id": 221,
+   "current": -0.025,
+   "tried": 5,
+   "violations": 1
+  },
+  {
+   "route_id": 227,
+   "current": 0.075,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 974,
+   "current": 0.075,
+   "tried": 0,
+   "violations": 3
+  },
+  {
+   "route_id": 408,
+   "current": -0.025,
+   "tried": 6,
+   "violations": 1
+  },
+  {
+   "route_id": 158,
+   "current": -0.275,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 432,
+   "current": 0.025,
+   "tried": 0,
+   "violations": 4
+  },
+  {
+   "route_id": 843,
+   "current": 0.525,
+   "tried": 0,
+   "violations": 3
+  },
+  {
+   "route_id": 435,
+   "current": 0.025,
+   "tried": 0,
+   "violations": 4
+  },
+  {
+   "route_id": 927,
+   "current": 0.225,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 83,
+   "current": -0.275,
+   "tried": 3,
+   "violations": 0
+  },
+  {
+   "route_id": 15,
+   "current": 0.175,
+   "tried": 0,
+   "violations": 2
+  },
+  {
+   "route_id": 153,
+   "current": 0.025,
+   "tried": 0,
+   "violations": 2
+  },
+  {
+   "route_id": 562,
+   "current": 0.425,
+   "tried": 4,
+   "violations": 1
+  },
+  {
+   "route_id": 5,
+   "current": 0.225,
+   "tried": 5,
+   "violations": 1
+  },
+  {
+   "route_id": 154,
+   "current": 0.075,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 36,
+   "current": -0.075,
+   "tried": 0,
+   "violations": 1
+  },
+  {
+   "route_id": 973,
+   "current": 0.225,
+   "tried": 4,
+   "violations": 5
+  },
+  {
+   "route_id": 87,
+   "current": -0.275,
+   "tried": 4,
+   "violations": 0
+  },
+  {
+   "route_id": 433,
+   "current": -0.075,
+   "tried": 1,
+   "violations": 2
+  },
+  {
+   "route_id": 101,
+   "current": -0.075,
+   "tried": 1,
+   "violations": 2
+  },
+  {
+   "route_id": 219,
+   "current": 0.025,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 225,
+   "current": 0.025,
+   "tried": 0,
+   "violations": 2
+  },
+  {
+   "route_id": 411,
+   "current": 0.025,
+   "tried": 0,
+   "violations": 1
+  },
+  {
+   "route_id": 774,
+   "current": 0.075,
+   "tried": 2,
+   "violations": 1
+  },
+  {
+   "route_id": 834,
+   "current": 0.225,
+   "tried": 4,
+   "violations": 0
+  },
+  {
+   "route_id": 80,
+   "current": -0.225,
+   "tried": 3,
+   "violations": 0
+  },
+  {
+   "route_id": 417,
+   "current": 0.025,
+   "tried": 0,
+   "violations": 2
+  },
+  {
+   "route_id": 419,
+   "current": 0.075,
+   "tried": 0,
+   "violations": 2
+  },
+  {
+   "route_id": 127,
+   "current": -0.075,
+   "tried": 0,
+   "violations": 1
+  },
+  {
+   "route_id": 487,
+   "current": -0.125,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 201,
+   "current": 0.025,
+   "tried": 0,
+   "violations": 1
+  },
+  {
+   "route_id": 461,
+   "current": 0.075,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 441,
+   "current": 0.025,
+   "tried": 1,
+   "violations": 1
+  },
+  {
+   "route_id": 459,
+   "current": 0.025,
+   "tried": 0,
+   "violations": 1
+  },
+  {
+   "route_id": 100,
+   "current": -0.075,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 35,
+   "current": -0.125,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 439,
+   "current": -0.125,
+   "tried": 0,
+   "violations": 0
+  },
+  {
+   "route_id": 414,
+   "current": 0.025,
+   "tried": 0,
+   "violations": 2
+  }
+ ],
+ "assignment": [
+  {
+   "route_id": 40,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 687,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 751,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 669,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 156,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 122,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 210,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 559,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 742,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 755,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 695,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 711,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 703,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 759,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 214,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 967,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 739,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 667,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 591,
+   "old": 0.175,
+   "new": 0.225,
+   "moved": true
+  },
+  {
+   "route_id": 531,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 1021,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 426,
+   "old": 0.075,
+   "new": -0.225,
+   "moved": true
+  },
+  {
+   "route_id": 1022,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 211,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 470,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 639,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 1018,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 640,
+   "old": 0.275,
+   "new": 0.625,
+   "moved": true
+  },
+  {
+   "route_id": 678,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 883,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 1017,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 719,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 637,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 723,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 629,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 648,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 656,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 686,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 1024,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 706,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 563,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 635,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 450,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 520,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 538,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 1019,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 1023,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 707,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 21,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 429,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 496,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 688,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 696,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 1020,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 238,
+   "old": -0.125,
+   "new": -0.325,
+   "moved": true
+  },
+  {
+   "route_id": 22,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 518,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 540,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 680,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 473,
+   "old": -0.025,
+   "new": -0.075,
+   "moved": true
+  },
+  {
+   "route_id": 217,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 646,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 452,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 20,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 479,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 633,
+   "old": 0.275,
+   "new": 0.175,
+   "moved": true
+  },
+  {
+   "route_id": 37,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 186,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 188,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 106,
+   "old": -0.125,
+   "new": -0.275,
+   "moved": true
+  },
+  {
+   "route_id": 500,
+   "old": 0.075,
+   "new": -0.075,
+   "moved": true
+  },
+  {
+   "route_id": 233,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 679,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 476,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 516,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 769,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 176,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 495,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 647,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 654,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 424,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 192,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 537,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 653,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 685,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 1014,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 189,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 212,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 431,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 649,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 218,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 17,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 174,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 208,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 235,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 1015,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 123,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 190,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 191,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 194,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 514,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 645,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 704,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 772,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 1013,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 23,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 232,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 234,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 447,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 674,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 682,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 693,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 826,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 836,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 409,
+   "old": -0.075,
+   "new": -0.275,
+   "moved": true
+  },
+  {
+   "route_id": 471,
+   "old": -0.025,
+   "new": -0.275,
+   "moved": true
+  },
+  {
+   "route_id": 14,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 19,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 230,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 236,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 369,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 624,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 642,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 657,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 859,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 455,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 519,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 529,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 655,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 985,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 41,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 102,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 133,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 195,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 430,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 456,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 517,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 532,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 539,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 677,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 716,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 1016,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 125,
+   "old": -0.125,
+   "new": -0.025,
+   "moved": true
+  },
+  {
+   "route_id": 24,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 530,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 650,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 712,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 714,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 770,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 207,
+   "old": 0.075,
+   "new": -0.175,
+   "moved": true
+  },
+  {
+   "route_id": 48,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 183,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 187,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 372,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 474,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 497,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 505,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 615,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 659,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 665,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 676,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 943,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 445,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 42,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 213,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 544,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 564,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 651,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 658,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 660,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 713,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 995,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 131,
+   "old": -0.125,
+   "new": -0.325,
+   "moved": true
+  },
+  {
+   "route_id": 18,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 111,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 215,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 231,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 371,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 444,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 515,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 644,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 673,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 699,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 47,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 179,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 185,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 209,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 261,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 263,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 349,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 501,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 503,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 561,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 666,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 694,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 741,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 886,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 981,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 76,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 85,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 184,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 345,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 373,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 446,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 449,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 614,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 619,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 668,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 822,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 177,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 197,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 347,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 469,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 504,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 641,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 681,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 709,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 710,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 983,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 993,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 458,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 613,
+   "old": 0.375,
+   "new": 0.625,
+   "moved": true
+  },
+  {
+   "route_id": 134,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 229,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 618,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 661,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 944,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 971,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 987,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 989,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 997,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 1002,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 1010,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 77,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 242,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 344,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 374,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 534,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 543,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 554,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 565,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 622,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 670,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 830,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 977,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 46,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 86,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 248,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 346,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 366,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 506,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 522,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 533,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 547,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 555,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 773,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 910,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 934,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 939,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 1006,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 617,
+   "old": 0.375,
+   "new": 0.325,
+   "moved": true
+  },
+  {
+   "route_id": 98,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 113,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 193,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 260,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 348,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 375,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 523,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 550,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 558,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 568,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 627,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 692,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 717,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 748,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 885,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 887,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 938,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 43,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 168,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 245,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 338,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 508,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 541,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 553,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 663,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 675,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 701,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 829,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 935,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 942,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 946,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 988,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 16,
+   "old": 0.175,
+   "new": -0.325,
+   "moved": true
+  },
+  {
+   "route_id": 82,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 84,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 175,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 180,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 352,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 524,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 525,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 546,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 588,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 771,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 968,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 1000,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 1011,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 157,
+   "old": 0.075,
+   "new": -0.325,
+   "moved": true
+  },
+  {
+   "route_id": 45,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 73,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 75,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 173,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 196,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 240,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 243,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 258,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 350,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 370,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 521,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 557,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 643,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 718,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 825,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 832,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 882,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 888,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 899,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 970,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 986,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 421,
+   "old": 0.225,
+   "new": -0.275,
+   "moved": true
+  },
+  {
+   "route_id": 4,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 44,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 52,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 159,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 182,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 363,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 368,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 377,
+   "old": -0.175,
+   "new": 0.125,
+   "moved": true
+  },
+  {
+   "route_id": 526,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 551,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 626,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 684,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 689,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 745,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 911,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 940,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 941,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 982,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 990,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 998,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 155,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 241,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 341,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 342,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 360,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 413,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 420,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 585,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 662,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 720,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 857,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 912,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 966,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 984,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 994,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 119,
+   "old": -0.075,
+   "new": -0.325,
+   "moved": true
+  },
+  {
+   "route_id": 107,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 135,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 244,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 251,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 262,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 490,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 536,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 821,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 860,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 881,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 936,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 948,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 949,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 964,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 969,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 145,
+   "old": 0.075,
+   "new": -0.275,
+   "moved": true
+  },
+  {
+   "route_id": 203,
+   "old": 0.075,
+   "new": -0.175,
+   "moved": true
+  },
+  {
+   "route_id": 167,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 336,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 343,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 567,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 589,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 664,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 702,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 827,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 858,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 861,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 884,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 907,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 962,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 963,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 972,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 991,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 121,
+   "old": -0.125,
+   "new": -0.225,
+   "moved": true
+  },
+  {
+   "route_id": 804,
+   "old": 0.225,
+   "new": 0.475,
+   "moved": true
+  },
+  {
+   "route_id": 74,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 78,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 116,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 169,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 172,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 319,
+   "old": -0.275,
+   "new": -0.225,
+   "moved": true
+  },
+  {
+   "route_id": 351,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 353,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 367,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 528,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 545,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 549,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 556,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 621,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 628,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 824,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 828,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 831,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 871,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 908,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 922,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 930,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 933,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 937,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 959,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 960,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 965,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 978,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 992,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 996,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 51,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 105,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 165,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 170,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 246,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 257,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 318,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 468,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 592,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 690,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 705,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 721,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 746,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 749,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 782,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 794,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 862,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 864,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 906,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 909,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 950,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 951,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 466,
+   "old": -0.125,
+   "new": -0.025,
+   "moved": true
+  },
+  {
+   "route_id": 108,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 126,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 128,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 129,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 166,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 178,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 181,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 220,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 361,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 418,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 436,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 577,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 625,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 683,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 800,
+   "old": 0.475,
+   "new": 0.325,
+   "moved": true
+  },
+  {
+   "route_id": 895,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 898,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 931,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 979,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 1012,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 56,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 67,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 146,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 392,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 579,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 580,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 700,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 724,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 923,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 958,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 1009,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 226,
+   "old": 0.225,
+   "new": 0.075,
+   "moved": true
+  },
+  {
+   "route_id": 81,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 254,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 337,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 339,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 340,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 365,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 391,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 489,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 750,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 776,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 792,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 823,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 872,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 926,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 932,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 945,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 975,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 980,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 1007,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 3,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 50,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 91,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 147,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 163,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 259,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 315,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 322,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 389,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 465,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 467,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 509,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 566,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 586,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 630,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 697,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 729,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 752,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 763,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 835,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 837,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 840,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 919,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 955,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 999,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 79,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 202,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 255,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 320,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 507,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 571,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 581,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 584,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 609,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 632,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 722,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 731,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 867,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 868,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 869,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 896,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 914,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 954,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 956,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 957,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 1003,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 92,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 256,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 355,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 548,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 560,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 583,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 610,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 730,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 801,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 870,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 893,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 925,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 928,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 952,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 976,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 364,
+   "old": -0.275,
+   "new": 0.175,
+   "moved": true
+  },
+  {
+   "route_id": 12,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 33,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 53,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 65,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 164,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 206,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 271,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 274,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 275,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 317,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 321,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 442,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 552,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 573,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 578,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 590,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 595,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 603,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 612,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 783,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 789,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 798,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 802,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 838,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 890,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 900,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 961,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 11,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 162,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 247,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 249,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 270,
+   "old": -0.225,
+   "new": -0.325,
+   "moved": true
+  },
+  {
+   "route_id": 272,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 273,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 362,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 387,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 405,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 491,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 611,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 698,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 725,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 756,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 781,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 841,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 865,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 897,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 905,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 920,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 27,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 34,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 66,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 68,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 88,
+   "old": -0.275,
+   "new": -0.025,
+   "moved": true
+  },
+  {
+   "route_id": 96,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 286,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 313,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 316,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 412,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 569,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 572,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 582,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 732,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 753,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 786,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 790,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 866,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 875,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 891,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 892,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 894,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 916,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 918,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 929,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 110,
+   "old": -0.075,
+   "new": 0.075,
+   "moved": true
+  },
+  {
+   "route_id": 97,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 204,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 250,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 333,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 394,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 395,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 607,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 727,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 777,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 779,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 795,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 803,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 844,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 889,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 915,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 54,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 89,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 93,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 252,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 253,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 276,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 278,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 285,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 314,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 386,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 407,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 734,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 735,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 754,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 778,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 842,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 924,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 1008,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 99,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 791,
+   "old": 0.175,
+   "new": 0.225,
+   "moved": true
+  },
+  {
+   "route_id": 793,
+   "old": 0.225,
+   "new": 0.575,
+   "moved": true
+  },
+  {
+   "route_id": 62,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 304,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 323,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 325,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 378,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 390,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 575,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 576,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 593,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 601,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 726,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 762,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 764,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 767,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 775,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 780,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 873,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 874,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 1001,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 484,
+   "old": -0.075,
+   "new": 0.075,
+   "moved": true
+  },
+  {
+   "route_id": 55,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 69,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 90,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 335,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 380,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 416,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 596,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 602,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 733,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 784,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 917,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 953,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 117,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 287,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 303,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 381,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 388,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 488,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 604,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 606,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 761,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 796,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 921,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 224,
+   "old": 0.075,
+   "new": -0.225,
+   "moved": true
+  },
+  {
+   "route_id": 268,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 306,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 393,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 406,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 460,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 876,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 1004,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 1005,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 357,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 383,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 599,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 608,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 736,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 787,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 913,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 13,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 49,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 61,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 305,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 312,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 354,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 356,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 376,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 379,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 397,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 485,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 511,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 605,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 757,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 758,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 799,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 136,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 277,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 358,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 359,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 385,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 512,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 570,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 597,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 728,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 766,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 845,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 384,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 483,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 486,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 510,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 594,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 598,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 785,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 902,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 904,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 144,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 269,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 279,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 282,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 300,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 301,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 308,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 310,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 332,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 402,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 574,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 760,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 797,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 280,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 302,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 311,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 903,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 64,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 70,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 72,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 267,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 284,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 309,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 329,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 382,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 443,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 818,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 851,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 901,
+   "old": 0.175,
+   "new": 0.175,
+   "moved": false
+  },
+  {
+   "route_id": 71,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 264,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 281,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 307,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 396,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 404,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 765,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 768,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 788,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 879,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 63,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 326,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 399,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 846,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 848,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 223,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 95,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 265,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 324,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 331,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 600,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 878,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 880,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 161,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 266,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 283,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 334,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 398,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 94,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 327,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 328,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 60,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 222,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 330,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 403,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 849,
+   "old": 0.475,
+   "new": 0.475,
+   "moved": false
+  },
+  {
+   "route_id": 855,
+   "old": 0.575,
+   "new": 0.575,
+   "moved": false
+  },
+  {
+   "route_id": 877,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 853,
+   "old": 0.425,
+   "new": 0.425,
+   "moved": false
+  },
+  {
+   "route_id": 400,
+   "old": -0.275,
+   "new": -0.275,
+   "moved": false
+  },
+  {
+   "route_id": 401,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 814,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 854,
+   "old": 0.125,
+   "new": 0.125,
+   "moved": false
+  },
+  {
+   "route_id": 415,
+   "old": 0.225,
+   "new": 0.225,
+   "moved": false
+  },
+  {
+   "route_id": 850,
+   "old": 0.375,
+   "new": 0.375,
+   "moved": false
+  },
+  {
+   "route_id": 852,
+   "old": 0.525,
+   "new": 0.525,
+   "moved": false
+  },
+  {
+   "route_id": 200,
+   "old": 0.075,
+   "new": 0.125,
+   "moved": true
+  },
+  {
+   "route_id": 109,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 160,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  },
+  {
+   "route_id": 819,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 2,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 118,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 199,
+   "old": -0.325,
+   "new": -0.325,
+   "moved": false
+  },
+  {
+   "route_id": 298,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 817,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 856,
+   "old": 0.625,
+   "new": 0.625,
+   "moved": false
+  },
+  {
+   "route_id": 25,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 440,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 463,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 139,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 140,
+   "old": -0.125,
+   "new": -0.125,
+   "moved": false
+  },
+  {
+   "route_id": 141,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 462,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 464,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 806,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 820,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 10,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 438,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 26,
+   "old": -0.325,
+   "new": -0.275,
+   "moved": true
+  },
+  {
+   "route_id": 813,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 815,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 299,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 805,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 816,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 290,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 808,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 297,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 58,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 57,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 198,
+   "old": 0.025,
+   "new": 0.025,
+   "moved": false
+  },
+  {
+   "route_id": 59,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 807,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 810,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 289,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 292,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 293,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 294,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 295,
+   "old": -0.175,
+   "new": -0.175,
+   "moved": false
+  },
+  {
+   "route_id": 291,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 296,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 812,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 809,
+   "old": 0.325,
+   "new": 0.325,
+   "moved": false
+  },
+  {
+   "route_id": 288,
+   "old": -0.225,
+   "new": -0.225,
+   "moved": false
+  },
+  {
+   "route_id": 811,
+   "old": 0.275,
+   "new": 0.275,
+   "moved": false
+  },
+  {
+   "route_id": 1,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 9,
+   "old": -0.075,
+   "new": -0.075,
+   "moved": false
+  },
+  {
+   "route_id": 137,
+   "old": 0.075,
+   "new": 0.075,
+   "moved": false
+  },
+  {
+   "route_id": 138,
+   "old": -0.025,
+   "new": -0.025,
+   "moved": false
+  }
+ ],
+ "seconds": 60.5,
+ "conflicts_edges": 36904
+}

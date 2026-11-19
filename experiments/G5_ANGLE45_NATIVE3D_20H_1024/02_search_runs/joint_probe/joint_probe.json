@@ -1,0 +1,97 @@
+{
+ "summary": {
+  "schema": "g5_joint_probe_v1",
+  "routes": 12,
+  "zero": 1,
+  "improved": 1,
+  "stuck": 10,
+  "reject_hard": 0,
+  "seconds": 0.6
+ },
+ "rows": [
+  {
+   "route_id": 114,
+   "before": 5,
+   "best": 5,
+   "move": null,
+   "evaluated": 1
+  },
+  {
+   "route_id": 451,
+   "before": 5,
+   "best": 5,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 228,
+   "before": 5,
+   "best": 5,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 973,
+   "before": 5,
+   "best": 1,
+   "move": "reheight:0.425",
+   "evaluated": 18
+  },
+  {
+   "route_id": 115,
+   "before": 4,
+   "best": 4,
+   "move": null,
+   "evaluated": 1
+  },
+  {
+   "route_id": 130,
+   "before": 4,
+   "best": 4,
+   "move": null,
+   "evaluated": 18
+  },
+  {
+   "route_id": 238,
+   "before": 4,
+   "best": 4,
+   "move": null,
+   "evaluated": 1
+  },
+  {
+   "route_id": 28,
+   "before": 4,
+   "best": 4,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 148,
+   "before": 4,
+   "best": 4,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 432,
+   "before": 4,
+   "best": 4,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 435,
+   "before": 4,
+   "best": 4,
+   "move": null,
+   "evaluated": 0
+  },
+  {
+   "route_id": 591,
+   "before": 4,
+   "best": 0,
+   "move": "reheight:0.225",
+   "evaluated": 11
+  }
+ ]
+}
