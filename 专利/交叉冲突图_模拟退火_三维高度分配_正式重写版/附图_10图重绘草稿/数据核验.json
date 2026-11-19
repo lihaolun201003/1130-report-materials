@@ -1,0 +1,610 @@
+{
+  "source_commit": "e9025598810e3e224724e38cbcd66f105f10643e",
+  "source_patent_sha256": {
+    "发明专利_权利要求书.docx": "42a301b5948a20affd29965edf0589344caa251faa97407c6ea8adc34988570c",
+    "发明专利_说明书.docx": "98ae313b6f56b00186b7696d2d776be3a6c65f9513acb7cc46b658c071c0bb5c",
+    "发明专利_说明书摘要.docx": "f09728bddcf7cd778cd3a2bbc62750e26f05aaf08fc333b8c8bc4dfcb31fba1b",
+    "发明专利_说明书附图.pdf": "9d673f80869ed9bd5605ac90d280397f991e1bb71d5b7b32c8365495580bf53a"
+  },
+  "workspace_patent_sha256": {
+    "发明专利_权利要求书.docx": "42a301b5948a20affd29965edf0589344caa251faa97407c6ea8adc34988570c",
+    "发明专利_说明书.docx": "bd5cd179d3afe215dda4c38d70b69ea414d166cf2e831456e01c4f6009976de7",
+    "发明专利_说明书摘要.docx": "f09728bddcf7cd778cd3a2bbc62750e26f05aaf08fc333b8c8bc4dfcb31fba1b",
+    "发明专利_说明书附图.pdf": "9d673f80869ed9bd5605ac90d280397f991e1bb71d5b7b32c8365495580bf53a"
+  },
+  "height_table_sha256": "e931f80102aaf9bad768349d053bac293f9c7b04d729d588254e447b133100d9",
+  "glass": {
+    "z_min_mm": -0.35,
+    "z_max_mm": 0.65,
+    "thickness_mm": 1.0
+  },
+  "heights": [
+    {
+      "order_index": 0,
+      "plane_id": 2,
+      "label": "L2",
+      "z_mm": -0.325,
+      "kind": "body",
+      "role": "z1_manual_u",
+      "role_detail": "Z1-U1",
+      "side": "z1",
+      "manual_group": "Z1-U1",
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 64
+    },
+    {
+      "order_index": 1,
+      "plane_id": 3,
+      "label": "L3",
+      "z_mm": -0.275,
+      "kind": "body",
+      "role": "z1_manual_u",
+      "role_detail": "Z1-U2",
+      "side": "z1",
+      "manual_group": "Z1-U2",
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 64
+    },
+    {
+      "order_index": 2,
+      "plane_id": 4,
+      "label": "L4",
+      "z_mm": -0.225,
+      "kind": "body",
+      "role": "z1_manual_u",
+      "role_detail": "Z1-U3",
+      "side": "z1",
+      "manual_group": "Z1-U3",
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 64
+    },
+    {
+      "order_index": 3,
+      "plane_id": 5,
+      "label": "L5",
+      "z_mm": -0.175,
+      "kind": "body",
+      "role": "z1_manual_u",
+      "role_detail": "Z1-U4",
+      "side": "z1",
+      "manual_group": "Z1-U4",
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 64
+    },
+    {
+      "order_index": 4,
+      "plane_id": 6,
+      "label": "L6",
+      "z_mm": -0.125,
+      "kind": "body",
+      "role": "z1_other",
+      "role_detail": "Z1 other opposite",
+      "side": "z1",
+      "manual_group": null,
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 52
+    },
+    {
+      "order_index": 5,
+      "plane_id": 7,
+      "label": "L7",
+      "z_mm": -0.075,
+      "kind": "body",
+      "role": "z1_other",
+      "role_detail": "Z1 other opposite",
+      "side": "z1",
+      "manual_group": null,
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 52
+    },
+    {
+      "order_index": 6,
+      "plane_id": 20,
+      "label": "L20",
+      "z_mm": -0.025,
+      "kind": "body",
+      "role": "z1_other",
+      "role_detail": "Z1 other opposite",
+      "side": "z1",
+      "manual_group": null,
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 52
+    },
+    {
+      "order_index": 7,
+      "plane_id": 1001,
+      "label": "Z1_INTERFACE",
+      "z_mm": 0.025,
+      "kind": "interface_body",
+      "role": "interface_direct",
+      "role_detail": "Z1 other opposite (direct 2D)",
+      "side": "z1",
+      "manual_group": null,
+      "is_interface": true,
+      "is_direct": true,
+      "initial_run_assigned": 52
+    },
+    {
+      "order_index": 8,
+      "plane_id": 8,
+      "label": "L8",
+      "z_mm": 0.075,
+      "kind": "body",
+      "role": "z1_other",
+      "role_detail": "Z1 other opposite",
+      "side": "z1",
+      "manual_group": null,
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 48
+    },
+    {
+      "order_index": 9,
+      "plane_id": 9,
+      "label": "L9",
+      "z_mm": 0.125,
+      "kind": "body",
+      "role": "z2_other",
+      "role_detail": "Z2 other adjacent",
+      "side": "z2",
+      "manual_group": null,
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 56
+    },
+    {
+      "order_index": 10,
+      "plane_id": 10,
+      "label": "L10",
+      "z_mm": 0.175,
+      "kind": "body",
+      "role": "z2_manual_u",
+      "role_detail": "Z2-U1",
+      "side": "z2",
+      "manual_group": "Z2-U1",
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 16
+    },
+    {
+      "order_index": 11,
+      "plane_id": 11,
+      "label": "L11",
+      "z_mm": 0.225,
+      "kind": "body",
+      "role": "z2_manual_u",
+      "role_detail": "Z2-U2",
+      "side": "z2",
+      "manual_group": "Z2-U2",
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 16
+    },
+    {
+      "order_index": 12,
+      "plane_id": 12,
+      "label": "L12",
+      "z_mm": 0.275,
+      "kind": "body",
+      "role": "z2_manual_u",
+      "role_detail": "Z2-U3",
+      "side": "z2",
+      "manual_group": "Z2-U3",
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 40
+    },
+    {
+      "order_index": 13,
+      "plane_id": 13,
+      "label": "L13",
+      "z_mm": 0.325,
+      "kind": "body",
+      "role": "z2_manual_u",
+      "role_detail": "Z2-U4",
+      "side": "z2",
+      "manual_group": "Z2-U4",
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 40
+    },
+    {
+      "order_index": 14,
+      "plane_id": 14,
+      "label": "L14",
+      "z_mm": 0.375,
+      "kind": "body",
+      "role": "z2_other",
+      "role_detail": "Z2 other adjacent",
+      "side": "z2",
+      "manual_group": null,
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 56
+    },
+    {
+      "order_index": 15,
+      "plane_id": 15,
+      "label": "L15",
+      "z_mm": 0.425,
+      "kind": "body",
+      "role": "z2_other",
+      "role_detail": "Z2 other adjacent",
+      "side": "z2",
+      "manual_group": null,
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 56
+    },
+    {
+      "order_index": 16,
+      "plane_id": 16,
+      "label": "L16",
+      "z_mm": 0.475,
+      "kind": "body",
+      "role": "z2_other",
+      "role_detail": "Z2 other adjacent",
+      "side": "z2",
+      "manual_group": null,
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 56
+    },
+    {
+      "order_index": 17,
+      "plane_id": 1002,
+      "label": "Z2_INTERFACE",
+      "z_mm": 0.525,
+      "kind": "interface_body",
+      "role": "interface_direct",
+      "role_detail": "Z2 other adjacent (direct 2D)",
+      "side": "z2",
+      "manual_group": null,
+      "is_interface": true,
+      "is_direct": true,
+      "initial_run_assigned": 48
+    },
+    {
+      "order_index": 18,
+      "plane_id": 17,
+      "label": "L17",
+      "z_mm": 0.575,
+      "kind": "body",
+      "role": "z2_other",
+      "role_detail": "Z2 other adjacent",
+      "side": "z2",
+      "manual_group": null,
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 64
+    },
+    {
+      "order_index": 19,
+      "plane_id": 18,
+      "label": "L18",
+      "z_mm": 0.625,
+      "kind": "body",
+      "role": "z2_other",
+      "role_detail": "Z2 other adjacent",
+      "side": "z2",
+      "manual_group": null,
+      "is_interface": false,
+      "is_direct": false,
+      "initial_run_assigned": 64
+    }
+  ],
+  "families": {
+    "Z1V": [
+      6,
+      7
+    ],
+    "Z1H": [
+      20,
+      1001,
+      8
+    ],
+    "Z2_NE": [
+      9,
+      14
+    ],
+    "Z2_SE": [
+      15,
+      16
+    ],
+    "Z2_NW": [
+      17
+    ],
+    "Z2_SW": [
+      18,
+      1002
+    ]
+  },
+  "family_matrix_z2": [
+    [
+      null,
+      7264,
+      7264,
+      0
+    ],
+    [
+      7264,
+      null,
+      0,
+      7264
+    ],
+    [
+      7264,
+      0,
+      null,
+      7264
+    ],
+    [
+      0,
+      7264,
+      7264,
+      null
+    ]
+  ],
+  "z1_cross_family": 16384,
+  "chords": [
+    [
+      [
+        27,
+        103
+      ],
+      [
+        86,
+        141
+      ]
+    ],
+    [
+      [
+        27,
+        136
+      ],
+      [
+        86,
+        99
+      ]
+    ],
+    [
+      [
+        27,
+        118
+      ],
+      [
+        86,
+        158
+      ]
+    ],
+    [
+      [
+        27,
+        155
+      ],
+      [
+        86,
+        120
+      ]
+    ]
+  ],
+  "edges": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "groups": [
+    [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  ],
+  "energies": [
+    2,
+    0
+  ],
+  "cases": [
+    [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          28,
+          24
+        ]
+      ],
+      [
+        [
+          0,
+          24
+        ],
+        [
+          28,
+          0
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          28,
+          7
+        ]
+      ],
+      [
+        [
+          0,
+          17
+        ],
+        [
+          28,
+          22
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          14
+        ],
+        [
+          16,
+          10
+        ]
+      ],
+      [
+        [
+          16,
+          10
+        ],
+        [
+          28,
+          24
+        ]
+      ]
+    ]
+  ],
+  "experiments": {
+    "E1": {
+      "experiment": "E1_family_pure",
+      "order": "port",
+      "assignment_rows": 1024,
+      "movable_count": 656,
+      "frozen_count": 368,
+      "intragroup_chords": 5835,
+      "intragroup_chords_by_family": {
+        "Z1V": 1568,
+        "Z1H": 1008,
+        "Z2_NE": 750,
+        "Z2_SE": 750,
+        "Z2_NW": 1009,
+        "Z2_SW": 750
+      },
+      "crossings_all_heights": 6803,
+      "z_mm": -0.075,
+      "plane_route_count": 64,
+      "plane_crossings": 1102,
+      "maximum_event_to_centerline_mm": 6.478001779441911e-07,
+      "crossings_by_height": {
+        "L2": 0,
+        "L3": 0,
+        "L4": 0,
+        "L5": 0,
+        "L6": 1092,
+        "L7": 1102,
+        "L20": 545,
+        "Z1_INTERFACE": 285,
+        "L8": 520,
+        "L9": 498,
+        "L10": 0,
+        "L11": 0,
+        "L12": 0,
+        "L13": 0,
+        "L14": 252,
+        "L15": 252,
+        "L16": 498,
+        "Z2_INTERFACE": 498,
+        "L17": 1009,
+        "L18": 252
+      },
+      "source_sha256": {
+        "assignment_1024.csv": "cd821efe6ecb2e8baa69cbcfb1f4d5ff4243256d3ae195be2621ce11f4adee30",
+        "assignment_plan.json": "f76df07a171567790ae42e190e48eecee09d2502227c6c84d80769012915b6a4",
+        "crossing_stats.json": "31473c63d618fc9bdcb31247e8e22281f548e607827514be10ac9b223971fcfa",
+        "routes_l3d.json": "d60bcd0a9a2f9926876c65989f63c00123b55f3cf57e17fcafc87257e3feea66"
+      }
+    },
+    "E3": {
+      "experiment": "E3_family_pure_sa_seed11",
+      "order": "route_id",
+      "assignment_rows": 1024,
+      "movable_count": 656,
+      "frozen_count": 368,
+      "intragroup_chords": 2273,
+      "intragroup_chords_by_family": {
+        "Z1V": 392,
+        "Z1H": 134,
+        "Z2_NE": 246,
+        "Z2_SE": 246,
+        "Z2_NW": 1009,
+        "Z2_SW": 246
+      },
+      "crossings_all_heights": 3275,
+      "z_mm": -0.075,
+      "plane_route_count": 62,
+      "plane_crossings": 460,
+      "maximum_event_to_centerline_mm": 5.962411488980024e-07,
+      "crossings_by_height": {
+        "L2": 0,
+        "L3": 0,
+        "L4": 0,
+        "L5": 0,
+        "L6": 482,
+        "L7": 460,
+        "L20": 252,
+        "Z1_INTERFACE": 156,
+        "L8": 178,
+        "L9": 127,
+        "L10": 0,
+        "L11": 0,
+        "L12": 0,
+        "L13": 0,
+        "L14": 119,
+        "L15": 127,
+        "L16": 119,
+        "Z2_INTERFACE": 119,
+        "L17": 1009,
+        "L18": 127
+      },
+      "source_sha256": {
+        "assignment_1024.csv": "338320e9e225067cfd73dbe27cab56bbc36194b6b673df2fe4d34a152ed526f3",
+        "assignment_plan.json": "79d99ba3cd6cf694783512ded954520d7434c4960f03620d43236ec6f509c2f2",
+        "crossing_stats.json": "8867659f46c1603c83b5bdc84d4fb76abd49fd224213688157c561cbf6123e86",
+        "routes_l3d.json": "9da7924caaf61bcef0e63b0d40428882fe43763ef8a010c8869d16cd8956c877"
+      }
+    }
+  }
+}
