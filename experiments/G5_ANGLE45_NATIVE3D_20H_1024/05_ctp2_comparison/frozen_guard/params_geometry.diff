@@ -1,8 +1,8 @@
 --- frozen/src/ctp2/geometry.py
 +++ g5_copy/src/ctp2/geometry.py
 @@ -1,12 +1,14 @@
--﻿"""Frozen-input loading, SHA256 verification and analytic route geometry.
--
+ ﻿"""Frozen-input loading, SHA256 verification and analytic route geometry.
+ 
 -The authoritative routing solution is ``COLD_START_20_HEIGHT_1024/10_best_valid``.
 -Nothing in this module writes to it.  Every route is rebuilt from its analytic
 -primitives (``line`` / ``arc`` / ``transition``) so that position, tangent and
@@ -10,8 +10,6 @@
 -approximation is used for the authoritative quantities (total length, crossing
 -positions).  Dense polylines are used only as a *search structure* for
 -neighbour queries.
-+"""Frozen-input loading, SHA256 verification and analytic route geometry.
-+
 +G5 WORK COPY: the authoritative routing solution is now whatever
 +``params.BEST_VALID`` points at (default
 +``G5_ANGLE45_NATIVE3D_20H_1024/03_best_feasible``); the frozen original read

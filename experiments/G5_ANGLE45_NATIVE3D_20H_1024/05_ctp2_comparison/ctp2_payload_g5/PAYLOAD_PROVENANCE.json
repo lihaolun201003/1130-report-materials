@@ -1,7 +1,7 @@
 {
  "schema": "ctp2_g5_payload_provenance_v1",
  "geometry_label": "G5_ANGLE45_NATIVE3D_20H_1024/03_best_partial",
- "generated": "2026-11-20T00:44:47+0800",
+ "generated": "2026-11-20T00:47:11+0800",
  "generator": "run_ctp2_g5.py",
  "routes_source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial\\routes_l3d.json",
  "routes_source_sha256": "df4f2bf1b8c00f3b8e89895bd403cd9b105efa5c82adde8bf0e9060838629023",
@@ -37,7 +37,7 @@
   },
   "crossing_stats.json": {
    "origin": "REGENERATED from the analytic crossing re-derivation",
-   "sha256": "324d46f7e57af9e05552265ded2f9398cd6bdd92c3853e907a13e4cf71e5941e",
+   "sha256": "491e7903af2647a94baba346ce5d84e01618c2258110972e181685129e114118",
    "bytes": 337622
   },
   "validation.json": {
@@ -47,12 +47,12 @@
   },
   "BEST_VALID.json": {
    "origin": "GENERATED manifest for this payload",
-   "sha256": "6718ce209f3c511f615fb1a3219d0216330e780c255005fbd036a2952913e83c",
+   "sha256": "92aaa714a5aa65778acf831e82a668a89fc4e1deed3ba624c142486201f0f1a5",
    "bytes": 874
   },
   "SHA256.json": {
    "origin": "REGENERATED over this payload",
-   "sha256": "8950dd8d17bbe96329cf2d2f9c0a32d66ef627f3bc1e93139c2d63a5fc76ea2f",
+   "sha256": "2c1a5a68c9382bfc5e2eb9a7c00380d4bb87a3931baf1ac41c386f36af6adaa5",
    "bytes": 1042
   }
  }

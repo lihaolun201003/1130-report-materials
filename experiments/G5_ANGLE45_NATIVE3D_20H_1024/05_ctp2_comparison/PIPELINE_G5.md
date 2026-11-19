@@ -1,9 +1,8 @@
 # Running CTP-2.0 on the G5 geometry — copy, redirection, crossing regeneration, faithfulness
 
-Status: **Phase A complete** (copy + redirection + faithfulness proof + driver).
-Phase B (the G5 numbers) runs as soon as
-`experiments\G5_ANGLE45_NATIVE3D_20H_1024\03_best_feasible\routes_l3d.json`
-exists; see §10 for the single command.
+Status: **Phase A and Phase B complete.**
+Phase B ran on `03_best_partial\` (the G5 round did not reach zero sub-45°
+crossings, so `03_best_feasible\` stays empty by design) — see §13.
 
 Everything in this document is reproducible from the artefacts listed in §12.
 No file in either frozen tree was created, modified or deleted; §9 has the
@@ -548,3 +547,120 @@ entries are bounds.
   logs\                              console logs of every run
   investigation\                     the read-only survey that preceded this work
 ```
+
+---
+
+## 13. Phase B — the actual G5 run (`03_best_partial`)
+
+### 13.1 What was run
+
+```
+geometry : experiments\G5_ANGLE45_NATIVE3D_20H_1024\03_best_partial\
+           routes_l3d.json sha256 df4f2bf1b8c00f3b8e89895bd403cd9b105efa5c82adde8bf0e9060838629023
+command  : python run_ctp2_g5.py ^
+             --routes "...\03_best_partial\routes_l3d.json" ^
+             --out-root "...\05_ctp2_comparison\ctp2_out" ^
+             --payload-dir "...\05_ctp2_comparison\ctp2_payload_g5" ^
+             --geometry-label "G5_ANGLE45_NATIVE3D_20H_1024/03_best_partial"
+total    : 20.7 s
+  crossing regeneration + payload + seed :  3.4 s  (1 681 807 primitive-pair tests)
+  V5 near approaches                     : 14.4 s
+  board                                  :  2.0 s (board_summary runtime 1.97 s)
+  comparison rendering                   :  0.2 s
+log      : logs\phaseB_final_console.log, ctp2_out\logs\{v5_near,board}.log
+```
+
+**Crossings were re-derived, not inherited**: the detector produced
+**2321 events / 1891 pairs / 834 routes**, identical to the G5 audit CSV
+(2321 rows, 0 only-detector, 0 only-audit) and to the payload's own
+`crossing_stats.json`. Positions/angles agree with the audit to **5.0e-7 mm /
+5.0e-7°** (the audit CSV's own 6-decimal rounding).
+
+### 13.2 Headline numbers
+
+| metric | G4 (frozen, resolved) | **G5 `03_best_partial`** | change |
+|---|---:|---:|---:|
+| worst single port-pair | −15.206468704880304 dB (R723→R743) | **−23.461077371874861 dB** (R591→R743) | **−8.25 dB** |
+| worst single-route leakage | −14.769540964146534 dB (R743) | **−22.724538881525660 dB** (R591) | **−7.95 dB** |
+| multi-input worst I/S | −12.711747549665644 dB (R743) | **−21.061433448298729 dB** (R591) | **−8.35 dB** |
+| bound band, worst pair | −15.906 … −14.506 dB | −24.161 … −22.761 dB | |
+| bound band, leakage | −15.472 … −14.066 dB | −23.471 … −21.975 dB | |
+| total forward-coupled power | 1.173809e-01 | 1.622425e-02 | **−8.59 dB** |
+| crossings / pairs / routes-with | 1283 / 1221 / 647 | **2321 / 1891 / 834** | |
+| crossings below 45° | 304 | **134** | |
+| min / median angle | 5.153763° / 63.256316° | **7.518621° / 65.375682°** | |
+| max base propagation loss | 1.411610 dB | **1.411610 dB** | 0 |
+| mean base propagation loss | 0.764635 dB | 0.764456 dB | −0.000179 dB |
+| total length | 156597.221522 mm | 156560.515300 mm | −36.706 mm |
+| hotspot clusters (stored / total) | 80 / 649 | 80 / 829 | |
+| floor-limited share of forward power | 0.0019 % | **0.0209 %** | |
+
+### 13.3 Judgement: real result or floor artifact?
+
+**Real, not an artifact** — quantitatively:
+
+* the −85 dB floor carries only **0.0209 %** of the forward-coupled power
+  (3.390e-06 of 1.622e-02), so zeroing the entire floor would move the aggregate
+  numbers by **< 0.001 dB**; and the worst-pair entry is a *single resolved*
+  crossing (R591–R743 at 8.392203°, `T_cross = −22.5705 dB`, forward-allowed),
+  so the floor contributes exactly 0 to it;
+* the improvement is explained by the geometry: min angle 5.15° → 7.52°,
+  crossings below 10° **17 → 3**, below 30° **161 → 72**, and total coupled power
+  −8.59 dB;
+* the kernel's own uncertainty in the dominant band is ±0.7 dB (θ<10°) and
+  ±2.5 dB (θ<30°) — an order of magnitude below the 8 dB, so the improvement is
+  outside the model error bars.
+
+**The caveat that must be quoted with it:** that 8 dB exists *only because* 134
+crossings still sit below 45°. They are the entire physical content of the
+number. A geometry with **zero** sub-45° crossings would put every crossing at
+the −85 dB floor and the board would return a *bound* in the −60…−85 dB region,
+not a resolved prediction. So the defensible claim is
+
+> "cutting the residual small-angle crossings from 304 to 134 bought 8.25 dB of
+> *resolved* crosstalk (worst pair), 7.95 dB of route leakage and 8.35 dB of
+> inter-channel interference; the improvement is a resolved model result, not a
+> floor artifact — but it is carried entirely by the 134 remaining sub-45°
+> events, and the 2187 floor-limited crossings contribute 0.02 % of the coupled
+> power."
+
+Not "G5 is 8 dB better than G4" without the residual count beside it, and
+certainly not "G5 is ~60 dB better" (that would be the floor escaping into the
+headline).
+
+Two further model details that matter for the wording:
+
+* **The largest per-crossing transfer does not set the board number.** The
+  single worst crossing is R419–R437 at 7.518621° with `T_cross = −19.148 dB`,
+  but its tangents are anti-parallel (`tangent_dot = −0.9914`), so the
+  propagation-direction rule classifies it as backward: it adds insertion loss
+  and **no** crosstalk to the matrix. Of the three sub-10° crossings only one
+  (R591–R743) is forward-allowed. This is exactly why the worst *pair* is
+  −23.46 dB while the worst *crossing* is −19.15 dB.
+* **The 62 crossings in the 30–45° `disputed_paraxial` band carry 0.041 %** of
+  the forward-coupled power, so their ±18 dB uncertainty cannot propagate into
+  the headline numbers.
+
+### 13.4 ⚠️ Provenance anomaly: two different `routes_l3d.json` hashes
+
+* `03_best_partial\SHA256.json` and `BEST_VALID.json` say
+  `routes_l3d.json = df4f2bf1…`;
+* `03_best_partial\g5_summary.json`, `g5_validation.json` and
+  `finalise.log` say `routes_sha256 = 88cc7936…`.
+
+Both are correct but they hash **different byte streams**. `run_finalise.py`
+computes `sha256_file(args.routes)` on the *input* search result and logs it
+(→ `88cc7936…`), then writes `out/routes_l3d.json` by **re-serialising**
+`json.dumps(payload)` — which drops the input's formatting and adds a
+`crossing_angles` key (confirmed: the delivered file is compact JSON with
+`"crossing_angles"` present, 50 entries). The delivered bytes therefore hash to
+`df4f2bf1…`, which is what `SHA256.json`/`BEST_VALID.json` record. The payload is
+self-consistent; the anomaly is only that the two hashes are labelled the same
+way. This pipeline uses the **delivered file's** hash (`df4f2bf1…`) everywhere.
+
+A second, harmless defect in the same place: `03_best_partial\crossing_stats.json`
+has `totals.max_route_crossings = 0` because `run_finalise.py` reads
+`summary.get('max_route_crossings', 0)` from a dict that never had the key. The
+true value is **91** (route R648), recomputed by this pipeline and written into
+`ctp2_out\crossings\crossing_regeneration_report.json`.
+

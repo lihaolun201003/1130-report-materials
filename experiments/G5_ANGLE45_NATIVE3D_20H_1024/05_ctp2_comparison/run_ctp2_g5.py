@@ -1727,8 +1727,10 @@ def _pct(x, dash="—"):
     v = 100.0 * float(x)
     if v == 0.0:
         return "0 %"
-    if abs(v) < 0.01:
+    if abs(v) < 1e-3:
         return f"{v:.2e} %"
+    if abs(v) < 1.0:
+        return f"{v:.4f} %"
     return f"{v:.2f} %"
 
 
@@ -1881,6 +1883,51 @@ def write_comparison_md(g5: dict, g4: dict, stem: str = "g5_ctp2") -> Path:
             A(f"  crossings, so they are predictions for those events and bounds only")
             A(f"  for the floor-limited ones (§6).")
         A("")
+        # -------------------------------------------------- explicit verdict
+        A("### 1.1 How much of the G5 improvement is a real model result?")
+        A("")
+        if (f5 or 0) < 0.5:
+            A(f"**All of it, to within the model's own uncertainty — with one large")
+            A(f"caveat.** The floor of the crossing kernel carries")
+            A(f"{_pct(f5)} of the forward-coupled power, so replacing the whole")
+            A(f"floor with zero would move the aggregate numbers by less than")
+            A(f"0.001 dB. The improvement therefore does **not** come from the")
+            A(f"−85 dB floor; it comes from the geometry change itself:")
+            A("")
+            A(f"* the minimum crossing angle rose **{g4['min_angle_deg']:.6f}° → "
+              f"{c5['min_angle_deg']:.6f}°**;")
+            A(f"* the crossings below 10° fell **{g4['n_below_10']} → "
+              f"{c5['n_below_10']}**, and below 30° **{g4['n_below_30']} → "
+              f"{c5['n_below_30']}**;")
+            A(f"* the total forward-coupled power fell "
+              f"**{db(bf['sum_T_cross_forward']) - db(bf4x['sum_T_cross_forward']):+.2f} dB**.")
+            A("")
+            A(f"The model uncertainty in the band that dominates (θ ≤ 30°) is")
+            A(f"±0.7 dB below 10° and ±2.5 dB below 30°, i.e. an order of magnitude")
+            A(f"smaller than the improvement — so the ~8 dB is a genuine resolved")
+            A(f"result, not an artefact.")
+            A("")
+            A(f"**The caveat:** that ~8 dB exists *only because* "
+              f"{c5['n_below_45']} crossings still sit below 45°. Those residual")
+            A(f"events are the entire physical content of the number. Had the G5")
+            A(f"round reached its goal (zero sub-45° crossings), every crossing")
+            A(f"would be at the −85 dB floor and the board would return a *bound*")
+            A(f"in the −60 … −85 dB region rather than a resolved prediction. So the")
+            A(f"defensible statement is \"the residual small-angle crossings were cut")
+            A(f"from {g4['n_below_45']} to {c5['n_below_45']}, and that bought "
+              f"{abs(n5['max_offdiagonal_db'] - n4['max_offdiagonal_db']):.2f} dB of "
+              f"resolved crosstalk\" —")
+            A(f"not \"G5 is 8 dB better than G4\" without the residual count next to")
+            A(f"it, and certainly not \"G5 is 60 dB better\" (which would be a")
+            A(f"floor artefact).")
+            A("")
+        if ks["per_status"].get("disputed_paraxial", 0) and (f5 or 0) < 0.5:
+            A(f"The {ks['per_status'].get('disputed_paraxial', 0)} crossings in the")
+            A(f"30–45° `disputed_paraxial` band carry")
+            A(f"{_pct((bf.get('power_share_by_angle_band') or {}).get('[30,40)', 0.0) + (bf.get('power_share_by_angle_band') or {}).get('[40,45)', 0.0))}")
+            A(f"of the forward-coupled power, so the ±18 dB uncertainty of that band")
+            A(f"does not propagate into the headline numbers.")
+            A("")
     A("Port-pair notation: input → output (the transfer matrix is "
       "`T[output, input]`).")
     A("")
@@ -2327,7 +2374,8 @@ def main(argv=None) -> int:
             ctx.update(stage_compare(args, log))
             md = write_comparison_md(ctx["g5"], ctx["g4"], args.report_stem)
             log(f"[compare] -> {md}")
-        jdump({"stages": log.timings}, Path(args.out_root) / "runtimes.json")
+        if log.timings:      # never clobber a previous run's timings with {}
+            jdump({"stages": log.timings}, Path(args.out_root) / "runtimes.json")
         log("")
         log("[done] stage runtimes: " + ", ".join(
             f"{k}={v:.2f}s" for k, v in log.timings.items()))

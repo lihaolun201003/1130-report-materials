@@ -3,6 +3,54 @@
   "bytes": 130150,
   "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e"
  },
+ "BEST_VALID.json": {
+  "bytes": 625,
+  "sha256": "f6823135c21d8d3af8198e969a34cf1f1e26a01e48d95f463c795fa850497bbc"
+ },
+ "cleanup.log": {
+  "bytes": 1404,
+  "sha256": "25f5c36edd71fee15b153bc24d1fe743964a3fca5d7bcb89e6791a656e41b5fd"
+ },
+ "cleanup_report.json": {
+  "bytes": 2932,
+  "sha256": "4914edc7108e83c42276ca2dc1624248ef7b01452ced7990c1a74a08de4432c7"
+ },
+ "crossing_stats.json": {
+  "bytes": 629114,
+  "sha256": "48ce6af9ab80863c7d70fb768d1efc2b45cd44b22589a1b0bd39a7fe7af2e784"
+ },
+ "finalise.log": {
+  "bytes": 1001,
+  "sha256": "d882ac940967ae2af456353e33c69a7388bfe4f2730c0c11a6cdac4c90e4153c"
+ },
+ "g5_crossing_angles.csv": {
+  "bytes": 215678,
+  "sha256": "98397cc493b40d12622ff45bf64c3342931d3bee9c06ff3a4348dfc23095e830"
+ },
+ "g5_geometry_comparison.csv": {
+  "bytes": 534,
+  "sha256": "c95d9c4e3350d70c957cb41122f643bdb26c6a1c7c022f477e14f0122a2d63e8"
+ },
+ "g5_geometry_comparison.json": {
+  "bytes": 3561,
+  "sha256": "18bc25de3f4743cfe62daad27c77dc36d3167e945a3800f10890f0fc8ce00805"
+ },
+ "g5_layer_statistics.csv": {
+  "bytes": 667,
+  "sha256": "0e81cd266df7b764a7fd101a9509446e8c969c2d4e9921c426104d65be361c63"
+ },
+ "g5_route_change_summary.csv": {
+  "bytes": 77273,
+  "sha256": "2c96a4187c2a1fb330ac5e6abe338dacd71ba8b318c79d118e1d20ae68077db7"
+ },
+ "g5_summary.json": {
+  "bytes": 1493,
+  "sha256": "5a9856bcb9562956a5db42715536d3510357cc315cf52a00229c2df6941db012"
+ },
+ "g5_validation.json": {
+  "bytes": 955,
+  "sha256": "edc41cf6cc62f64410969ce4981f9f01b4fa2e54a3a6321b09ce4bab7d7a9297"
+ },
  "layer_planes.json": {
   "bytes": 7319,
   "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f"
@@ -18,14 +66,6 @@
  "routes_l3d.json": {
   "bytes": 2429955,
   "sha256": "df4f2bf1b8c00f3b8e89895bd403cd9b105efa5c82adde8bf0e9060838629023"
- },
- "crossing_stats.json": {
-  "bytes": 628898,
-  "sha256": "721d61c23ad0e7ad9fe75fd8bf4000ad29efd436ebf20c2c3cadba16fa666f0f"
- },
- "g5_validation.json": {
-  "bytes": 955,
-  "sha256": "edc41cf6cc62f64410969ce4981f9f01b4fa2e54a3a6321b09ce4bab7d7a9297"
  },
  "validation.json": {
   "bytes": 58613,

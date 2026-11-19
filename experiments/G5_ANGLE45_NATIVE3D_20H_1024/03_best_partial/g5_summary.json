@@ -30,5 +30,10 @@
   "contract_pass": true,
   "violation_count": 0,
   "violation_counts_by_check": {}
- }
+ },
+ "routes_sha256_input": "88cc793679bba243845f20d30cac9a8b2049a29422cbc1445091b2fb58d54427",
+ "routes_sha256_delivered": "df4f2bf1b8c00f3b8e89895bd403cd9b105efa5c82adde8bf0e9060838629023",
+ "routes_sha256_note": "the input search result and the delivered payload differ only by JSON re-serialisation (compact dumps + crossing_angles sample); the delivered hash is routes_sha256_delivered and is the one indexed in SHA256.json / BEST_VALID.json",
+ "max_route_crossings": 91,
+ "max_route_crossings_route": 648
 }

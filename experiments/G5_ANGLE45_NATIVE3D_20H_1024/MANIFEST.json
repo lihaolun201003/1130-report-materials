@@ -264,8 +264,8 @@
   },
   {
    "path": "01_algorithm/build_report.py",
-   "bytes": 27747,
-   "sha256": "c3931e2a56e597c85dcdcd03b32eaba0812b6be0caa1a6d35f665a5e20c65384",
+   "bytes": 29782,
+   "sha256": "d9deffcc7af72c3e15fae8ea2090c07a56deb40c74b45f97dfbadd12231c8158",
    "role": "01_algorithm"
   },
   {
@@ -536,6 +536,12 @@
    "path": "01_algorithm/publish_repo.py",
    "bytes": 4046,
    "sha256": "422323a693d83e80bedba4a327583bd50769d795e1139fd127c0f15305898e7e",
+   "role": "01_algorithm"
+  },
+  {
+   "path": "01_algorithm/repair_payload.py",
+   "bytes": 3433,
+   "sha256": "cd40c4937a4277cdcaab3d18dcd567756659e80c0719010257d0ba249f4bb93d",
    "role": "01_algorithm"
   },
   {
@@ -3012,8 +3018,8 @@
   },
   {
    "path": "05_ctp2_comparison/ctp2_out/board/board_summary_ctp2.json",
-   "bytes": 1876,
-   "sha256": "1c83ed89c247123ca6c537d9db862a9ff3f7df9a744db59db284f765a65be6bb",
+   "bytes": 1875,
+   "sha256": "dc48d3804979b62c56bd3630f196fc72e23ac54b6980d248ba8cd79e342848f8",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3157,7 +3163,7 @@
   {
    "path": "05_ctp2_comparison/ctp2_out/crossings/crossing_regeneration_report.json",
    "bytes": 8413,
-   "sha256": "d21546ef9507726412a3bbfebf0b359257df0d2b843c259d7f61b6db7a37bbb6",
+   "sha256": "19485e8ea02afa57ffc773daad9979260b888ddbee1ec5be7f23ff63d755e45b",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3181,7 +3187,7 @@
   {
    "path": "05_ctp2_comparison/ctp2_out/crossings/near_approach_summary.json",
    "bytes": 1180,
-   "sha256": "e55183b4c96b9cc9d0ac0f0a275e534d7bd33599c1bc28d323ee7d9332f4283b",
+   "sha256": "de675608c633113108cd0f9286d3ab1b74ca32da2dba1b0bf84ebc3fd6607f79",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3192,14 +3198,14 @@
   },
   {
    "path": "05_ctp2_comparison/ctp2_out/logs/board.log",
-   "bytes": 2574,
-   "sha256": "74b975b54c4ac07e33d5254fd103e1b5979ef692ad7adeb062b59b61dad7387b",
+   "bytes": 2573,
+   "sha256": "912b8a908e0f750900f58a741d0ce5c4c041c5752548162969998eaa2471f726",
    "role": "05_ctp2_comparison"
   },
   {
    "path": "05_ctp2_comparison/ctp2_out/logs/v5_near.log",
    "bytes": 1935,
-   "sha256": "49e5fdf57bc4e70d0fa91c597198bd4c9923150bc9a848dcd3786001d2cba2ff",
+   "sha256": "41c59211096221929656b2dbd256400d45563b7b54c8f9880e033030a4099cbe",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3234,8 +3240,8 @@
   },
   {
    "path": "05_ctp2_comparison/ctp2_out/runtimes.json",
-   "bytes": 19,
-   "sha256": "5478a634dd33fb242d94d5212dd3eb6ce21821325c1ec224e884b8f36c944db3",
+   "bytes": 416,
+   "sha256": "f361dcd956a906b9d1ac33fea2bc4ad85f344358d4bbdc467fa10015cfb0bdf0",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3451,13 +3457,13 @@
   {
    "path": "05_ctp2_comparison/ctp2_payload_g5/BEST_VALID.json",
    "bytes": 874,
-   "sha256": "6718ce209f3c511f615fb1a3219d0216330e780c255005fbd036a2952913e83c",
+   "sha256": "92aaa714a5aa65778acf831e82a668a89fc4e1deed3ba624c142486201f0f1a5",
    "role": "05_ctp2_comparison"
   },
   {
    "path": "05_ctp2_comparison/ctp2_payload_g5/crossing_stats.json",
    "bytes": 337622,
-   "sha256": "324d46f7e57af9e05552265ded2f9398cd6bdd92c3853e907a13e4cf71e5941e",
+   "sha256": "491e7903af2647a94baba346ce5d84e01618c2258110972e181685129e114118",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3469,7 +3475,7 @@
   {
    "path": "05_ctp2_comparison/ctp2_payload_g5/PAYLOAD_PROVENANCE.json",
    "bytes": 2881,
-   "sha256": "bdba73499c3b7a9b10f0593d78f371bc3fc7b2e7451a3623ea74795905fb8fc5",
+   "sha256": "4d3388f25645dfb2d17276cdec95ff3c6d3bbdd9189cd595b007019d3c086eb1",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3493,7 +3499,7 @@
   {
    "path": "05_ctp2_comparison/ctp2_payload_g5/SHA256.json",
    "bytes": 1042,
-   "sha256": "8950dd8d17bbe96329cf2d2f9c0a32d66ef627f3bc1e93139c2d63a5fc76ea2f",
+   "sha256": "2c1a5a68c9382bfc5e2eb9a7c00380d4bb87a3931baf1ac41c386f36af6adaa5",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3529,7 +3535,7 @@
   {
    "path": "05_ctp2_comparison/frozen_guard/copy_diff.json",
    "bytes": 1005,
-   "sha256": "673f7b74634ef68ad59add52436307fad02ae437b2168499c5ddc509c8109cda",
+   "sha256": "e534d7ce24eceb2b5c85560e0bcacfc1a4f811233fa5e8ca80d692176e118f6d",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3547,13 +3553,13 @@
   {
    "path": "05_ctp2_comparison/frozen_guard/frozen_verify_after.json",
    "bytes": 1084,
-   "sha256": "fa661c45f17ba02a8032e97adc6d46b313fff8bbb200043665b9b4eec63fcc76",
+   "sha256": "5d376210d5ad78057cb62a93a672c4c460556b75242dd1a95d02544433673ed4",
    "role": "05_ctp2_comparison"
   },
   {
    "path": "05_ctp2_comparison/frozen_guard/params_geometry.diff",
-   "bytes": 11394,
-   "sha256": "b89a4c9dfa7da362a500b9fbda953099069a8d978209ceafe60119ff3c456149",
+   "bytes": 11315,
+   "sha256": "5646bb13d9f5255349f7f6f8e0d886180b413df38eb1f291f6baa178e0466d11",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3564,14 +3570,14 @@
   },
   {
    "path": "05_ctp2_comparison/g5_ctp2_comparison.md",
-   "bytes": 17880,
-   "sha256": "afe7621cae588c94a7c44b2498a327e331a3c464fe2b48d6561e65fe591450ee",
+   "bytes": 19623,
+   "sha256": "e07aa2a84383bf657ef0c6225a5ecf40496b063517ee84ba9c8da1b1d6ce3352",
    "role": "05_ctp2_comparison"
   },
   {
    "path": "05_ctp2_comparison/g5_ctp2_summary.json",
-   "bytes": 18759,
-   "sha256": "d4e817ad5c9567d78542a0bf0388bba315690af74b59734c6e946ff728f85048",
+   "bytes": 18861,
+   "sha256": "685e4b087fa218f0ba527eec5e2684335ec95aab05bf813a44b9f9ad595ba794",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3647,6 +3653,12 @@
    "role": "05_ctp2_comparison"
   },
   {
+   "path": "05_ctp2_comparison/logs/diff_copy_final.log",
+   "bytes": 566,
+   "sha256": "afdbcd12755a7fef7b3636f8c95d93eeb7516329bc1d692d95f43d649914d98f",
+   "role": "05_ctp2_comparison"
+  },
+  {
    "path": "05_ctp2_comparison/logs/dryrun_prepare.log",
    "bytes": 7616,
    "sha256": "90a0c59ac0b906aac4053b5a368f883408c14c3b4e7a6dc6caff818fd2d789a2",
@@ -3680,6 +3692,12 @@
    "path": "05_ctp2_comparison/logs/frozen_guard_snapshot.log",
    "bytes": 544,
    "sha256": "3f58a0e03c834d605b7531da91f575d8bbc2cd7fbfbdf8bc373ed4106787eec0",
+   "role": "05_ctp2_comparison"
+  },
+  {
+   "path": "05_ctp2_comparison/logs/frozen_guard_verify_final.log",
+   "bytes": 738,
+   "sha256": "e098169341bea4299dca41c731baaebc305168395a05552d4fc776db7b5ecf8a",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3785,6 +3803,18 @@
    "role": "05_ctp2_comparison"
   },
   {
+   "path": "05_ctp2_comparison/logs/g5_20261120_004652.log",
+   "bytes": 1588,
+   "sha256": "e69f799af3f06a527597aa23d10c6097f31ba56836e888eee6b66578d9c12c3e",
+   "role": "05_ctp2_comparison"
+  },
+  {
+   "path": "05_ctp2_comparison/logs/g5_20261120_004708.log",
+   "bytes": 5106,
+   "sha256": "3ae34ea53158d27635f92a45304c04968f6c1e315c08ae09d35a9de62c6f91e7",
+   "role": "05_ctp2_comparison"
+  },
+  {
    "path": "05_ctp2_comparison/logs/phaseB_console.log",
    "bytes": 10212,
    "sha256": "fc59cc686aba5fc4dafd99f2d2df79fd98255d9123a7cc2b2ef73509ae00195d",
@@ -3799,7 +3829,7 @@
   {
    "path": "05_ctp2_comparison/logs/phaseB_final_console.log",
    "bytes": 10214,
-   "sha256": "505d4159f40e0427776e20e8eafc9a80ada0605be328f6aedabc969f7e524d85",
+   "sha256": "0dd25a8f418f3efd8fc9ebbce384093a300e0c632fb9a4cc84060504b4f7c284",
    "role": "05_ctp2_comparison"
   },
   {
@@ -3810,14 +3840,14 @@
   },
   {
    "path": "05_ctp2_comparison/PIPELINE_G5.md",
-   "bytes": 27957,
-   "sha256": "e3d9fec82b0aeb39f55e2959b1218e94f53b5126beefe180b2786f926d56328b",
+   "bytes": 34369,
+   "sha256": "9b393f1d2b3f223831d5385c97b2776fc6c35b056e2f87b65650b2fed57a2bbc",
    "role": "05_ctp2_comparison"
   },
   {
    "path": "05_ctp2_comparison/run_ctp2_g5.py",
-   "bytes": 114287,
-   "sha256": "f7cbdb39b709343d05a69c5684c959e20fee634a43fc327fd140e2e5518e3b98",
+   "bytes": 117495,
+   "sha256": "33599d69f7f9a1a1bdd29240786872ccc6e0911f7ab73f6df68e97463b0f05db",
    "role": "05_ctp2_comparison"
   },
   {
@@ -4206,8 +4236,8 @@
   },
   {
    "path": "07_reports/G5_REPORT.md",
-   "bytes": 30664,
-   "sha256": "a5b6d10d20a53485455bb28bd45301ddc3e1ff39469a0c4cbc4336073d6059a1",
+   "bytes": 34020,
+   "sha256": "94c6926e65d48ae191e27a3773c6c175816a13e1b63ff8dabc07b8450c4ae301",
    "role": "07_reports"
   },
   {
@@ -4237,7 +4267,7 @@
   {
    "path": "MANIFEST.json",
    "bytes": 153580,
-   "sha256": "2acaa81ac7fd02603101df65855f24c94123d5955fe915ab718c01a864befb0d",
+   "sha256": "76a322cec71f8db9345b29689063423e99bb2263fec702a368be14bb0a0091a1",
    "role": "top"
   }
  ]

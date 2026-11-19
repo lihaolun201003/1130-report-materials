@@ -1,6 +1,6 @@
 # CTP-2.0 on `G5_ANGLE45_NATIVE3D_20H_1024/03_best_partial` — G4 vs G5
 
-Generated 2026-11-20T00:46:05+0800 by `05_ctp2_comparison/run_ctp2_g5.py`.
+Generated 2026-11-20T00:47:29+0800 by `05_ctp2_comparison/run_ctp2_g5.py`.
 
 * model: **CTP-2.0** — the same code that produced the published G4
   numbers, run from the work copy `05_ctp2_comparison/ctp2_g5/` with the
@@ -43,7 +43,7 @@ Generated 2026-11-20T00:46:05+0800 by `05_ctp2_comparison/run_ctp2_g5.py`.
 | hotspot clusters total (2 mm × plane) | 649 | 829 | |
 | crossings (total / below 45°) | 1283 / **304** | 2321 / **134** | |
 | total forward-coupled power (linear) | 1.173809e-01 | 1.622425e-02 | -8.59 dB |
-| **share of the forward-coupled power that is a floor-limited upper bound** | **1.89e-03 %** | **0.02 %** | |
+| **share of the forward-coupled power that is a floor-limited upper bound** | **0.0019 %** | **0.0209 %** | |
 
 *`total forward-coupled power`* = Σ of the per-crossing transfer over all
 forward-allowed events; it upper-bounds the summed off-diagonal matrix
@@ -52,13 +52,48 @@ less power is coupled across the whole board".
 
 That last row answers “how much of the number is a bound?”.
 
-* **G4** — 1.89e-03 %. Even though 703 of its 856 forward-allowed crossings are floor
+* **G4** — 0.0019 %. Even though 703 of its 856 forward-allowed crossings are floor
   crossings, they carry only 2.223e-06 of the 1.174e-01 total forward
   transfer, so the published G4 numbers are genuinely resolved.
-* **G5** — 0.02 %. This geometry is *not* a pure bound case: the
+* **G5** — 0.0209 %. This geometry is *not* a pure bound case: the
   headline numbers are still dominated by the resolved/disputed
   crossings, so they are predictions for those events and bounds only
   for the floor-limited ones (§6).
+
+### 1.1 How much of the G5 improvement is a real model result?
+
+**All of it, to within the model's own uncertainty — with one large
+caveat.** The floor of the crossing kernel carries
+0.0209 % of the forward-coupled power, so replacing the whole
+floor with zero would move the aggregate numbers by less than
+0.001 dB. The improvement therefore does **not** come from the
+−85 dB floor; it comes from the geometry change itself:
+
+* the minimum crossing angle rose **5.153763° → 7.518621°**;
+* the crossings below 10° fell **17 → 3**, and below 30° **161 → 72**;
+* the total forward-coupled power fell **-8.59 dB**.
+
+The model uncertainty in the band that dominates (θ ≤ 30°) is
+±0.7 dB below 10° and ±2.5 dB below 30°, i.e. an order of magnitude
+smaller than the improvement — so the ~8 dB is a genuine resolved
+result, not an artefact.
+
+**The caveat:** that ~8 dB exists *only because* 134 crossings still sit below 45°. Those residual
+events are the entire physical content of the number. Had the G5
+round reached its goal (zero sub-45° crossings), every crossing
+would be at the −85 dB floor and the board would return a *bound*
+in the −60 … −85 dB region rather than a resolved prediction. So the
+defensible statement is "the residual small-angle crossings were cut
+from 304 to 134, and that bought 8.25 dB of resolved crosstalk" —
+not "G5 is 8 dB better than G4" without the residual count next to
+it, and certainly not "G5 is 60 dB better" (which would be a
+floor artefact).
+
+The 62 crossings in the
+30–45° `disputed_paraxial` band carry
+0.0407 %
+of the forward-coupled power, so the ±18 dB uncertainty of that band
+does not propagate into the headline numbers.
 
 Port-pair notation: input → output (the transfer matrix is `T[output, input]`).
 
@@ -80,7 +115,7 @@ resulting [Born-low, FDFD-high] interval.
 | non-zero off-diagonal entries | 3248 | 4455 |
 | second-order chains (n, max dB) | 2660, -37.870 | 4613, -56.377 |
 | CT1.0 fixed-p baseline worst pair (dB) | -67.415 | -66.003 |
-| board runtime (s) | 1.90 | 2.51 |
+| board runtime (s) | 1.90 | 1.97 |
 
 The fixed-p baseline column is the superseded CTP-1.0 bookkeeping and is
 shown only to demonstrate that it barely moves between geometries — which is
@@ -110,15 +145,15 @@ exactly why it must not be used for the G4→G5 claim.
 | [0,5) | 0 | 0 | 0 | — | resolved |
 | [5,10) | 17 | 3 | 0 | 34.10 % | resolved |
 | [10,20) | 92 | 53 | 0 | 65.68 % | resolved |
-| [20,30) | 52 | 16 | 0 | 0.15 % | resolved |
-| [30,40) | 92 | 36 | 0 | 0.04 % | disputed (bounds only) |
-| [40,45) | 51 | 26 | 0 | 4.55e-03 % | disputed (bounds only) |
-| [45,60) | 271 | 411 | 411 | 5.87e-03 % | **bound** at −85 dB floor |
-| [60,75) | 514 | 740 | 740 | 0.01 % | **bound** at −85 dB floor |
-| [75,90] | 194 | 1036 | 1036 | 4.13e-03 % | **bound** at −85 dB floor |
+| [20,30) | 52 | 16 | 0 | 0.1507 % | resolved |
+| [30,40) | 92 | 36 | 0 | 0.0362 % | disputed (bounds only) |
+| [40,45) | 51 | 26 | 0 | 0.0045 % | disputed (bounds only) |
+| [45,60) | 271 | 411 | 411 | 0.0059 % | **bound** at −85 dB floor |
+| [60,75) | 514 | 740 | 740 | 0.0109 % | **bound** at −85 dB floor |
+| [75,90] | 194 | 1036 | 1036 | 0.0041 % | **bound** at −85 dB floor |
 | **total** | **1283** | **2321** | **2187** | **100 %** | |
 
-Floor-limited events are **1072 of 1140 forward-allowed crossings (94.04 %)**, but they carry only **0.02 %** of the
+Floor-limited events are **1072 of 1140 forward-allowed crossings (94.04 %)**, but they carry only **0.0209 %** of the
 forward-coupled power (3.390e-06 of 1.622e-02).
 
 ### Kernel resolution status of each crossing
@@ -316,6 +351,6 @@ $cmp = "C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\exper
 & $py "$cmp\run_ctp2_g5.py" --routes "C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\03_best_partial\routes_l3d.json" --out-root "C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out" --payload-dir "C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_payload_g5" --geometry-label "G5_ANGLE45_NATIVE3D_20H_1024/03_best_partial"
 ```
 
-Board summary: `C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out\board\board_summary_ctp2.json` (sha256 `1c83ed89c247123ca6c537d9db862a9ff3f7df9a744db59db284f765a65be6bb`).
+Board summary: `C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out\board\board_summary_ctp2.json` (sha256 `dc48d3804979b62c56bd3630f196fc72e23ac54b6980d248ba8cd79e342848f8`).
 Machine-readable numbers: `g5_ctp2_summary.json`.
 

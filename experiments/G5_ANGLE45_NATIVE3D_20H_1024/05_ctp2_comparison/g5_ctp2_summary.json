@@ -1,6 +1,6 @@
 {
  "schema": "ctp2_g5_summary_v1",
- "generated": "2026-11-20T00:46:05+0800",
+ "generated": "2026-11-20T00:47:29+0800",
  "model": "CTP-2.0",
  "model_version_string": "CTP-2.0 (work copy, G5 geometry)",
  "geometry_label": "G5_ANGLE45_NATIVE3D_20H_1024/03_best_partial",
@@ -85,10 +85,10 @@
    "worst_output_route": 591,
    "mean_isr_db": -82.25582991984336
   },
-  "runtime_seconds": 2.5108792781829834
+  "runtime_seconds": 1.969642162322998
  },
  "board_summary_path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_out\\board\\board_summary_ctp2.json",
- "board_summary_sha256": "1c83ed89c247123ca6c537d9db862a9ff3f7df9a744db59db284f765a65be6bb",
+ "board_summary_sha256": "dc48d3804979b62c56bd3630f196fc72e23ac54b6980d248ba8cd79e342848f8",
  "crossings": {
   "n_events": 2321,
   "n_pairs": 1891,
@@ -564,9 +564,13 @@
   "out_root": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_out"
  },
  "runtimes_seconds": {
-  "crossing_regeneration_and_payload": 0.0,
-  "v5_near_approaches": 0.0,
-  "board": 2.511,
-  "all_stages": {}
+  "crossing_regeneration_and_payload": 3.377,
+  "v5_near_approaches": 14.353,
+  "board": 1.97,
+  "all_stages": {
+   "prepare": 3.377,
+   "V5 near approaches": 14.353,
+   "board (run_board_ctp2.py)": 2.458
+  }
  }
 }
