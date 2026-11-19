@@ -1,4 +1,4 @@
-﻿"""Generate all CTP-2.0 figures (20) from the numerical outputs.
+"""Generate all CTP-2.0 figures (20) from the numerical outputs.
 
 Every figure is produced from a stored numeric artefact -- nothing is sketched or
 hand-typed.  Figures whose data is genuinely missing are skipped with a warning
@@ -206,26 +206,41 @@ def fig07_small_angle():
     p1 = OUT_CROSSINGS / "crossing_bpm2d_fine.csv"
     p2 = OUT_CROSSINGS / "crossing_born_all.csv"
     p3 = OUT_CROSSINGS / "crossing_bpm3d_subset.csv"
+    p4 = OUT_CROSSINGS / "crossing_model_database.csv"
+    fw = EXPERIMENT / "outputs" / "fullwave" / "fdtd2d_crossing.csv"
     if not need(p1, p2):
         return
     b2 = pd.read_csv(p1); bo = pd.read_csv(p2)
-    fig, ax = plt.subplots(figsize=(6.6, 4.2))
+    fig, ax = plt.subplots(figsize=(6.8, 4.4))
     ax.plot(b2.theta_deg, b2.T_cross_db, "-", color="C0", lw=1.2,
             label="SSFM BPM 2-D (EIM)")
     if p3.exists():
         b3 = pd.read_csv(p3)
         ax.plot(b3.theta_deg, b3.T_cross_db, "o", color="C1", ms=4,
                 label="SSFM BPM 3-D (full channel)")
+    if fw.exists():
+        f = pd.read_csv(fw)
+        ax.plot(f.theta_deg, f.T_cross_db, "P", color="C3", ms=9, mec="k",
+                mew=0.6, label="independent 4th-order 2-D FDTD")
+    if p4.exists():
+        md = pd.read_csv(p4)
+        m = (md.theta_deg >= 5) & (md.theta_deg <= 30)
+        ax.plot(md.theta_deg[m], md.T_cross_db_nominal[m], "-", color="k",
+                lw=2.4, alpha=0.45, label="CTP-2.0 nominal (FDTD-calibrated)")
+        ax.fill_between(md.theta_deg[m], md.T_cross_db_low[m],
+                        md.T_cross_db_high[m], color="k", alpha=0.12,
+                        label="nominal +/- band")
     ax.plot(bo.theta_deg, bo.T_cross_db, "--", color="C2", lw=1.0,
             label="first-order Born (2-D quadrature)")
-    ax.axhline(-44.0, color="C3", ls=":", lw=1.0)
-    ax.text(1.2, -43.0, "BPM numerical floor (-44 dB)", color="C3", fontsize=7)
-    ax.set_xlim(1, 20); ax.set_ylim(-70, 0)
+    ax.annotate("BPM through-power becomes\nnon-physical above ~35 deg",
+                xy=(35, -63), xytext=(22, -14), fontsize=6.5,
+                arrowprops=dict(arrowstyle="->", lw=0.7))
+    ax.set_xlim(1, 45); ax.set_ylim(-75, 0)
     ax.set_xlabel("crossing angle [deg]")
     ax.set_ylabel("crosstalk $T_{cross}$ [dB]")
-    ax.set_title("V3 - small-angle crossing: methods compared "
+    ax.set_title("V3 - crossing crosstalk: 4 independent methods "
                  "(CTP-1.0 claimed -76 dB at every angle)")
-    ax.legend(fontsize=7)
+    ax.legend(fontsize=6.5, loc="lower left")
     save(fig, "fig07_crossing_small_angle.png")
 
 

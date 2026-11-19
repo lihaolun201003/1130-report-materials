@@ -356,21 +356,32 @@ def main():
          fnum(st3.get('meta', {}).get('dt'), 2) if st3 else 'n/a'))
     A('')
     if st3:
-        A('* FDTD 实测 n_eff = **%.8f**；'
-          '同 dx 离散本征模（含 leapfrog 时间色散，$\\omega_\\mathrm{eff}$）= %.8f；'
-          '两者相对差 %.1e（验证 3-D 内核实现正确）。'
+        A('* FDTD 实测 $n_\\mathrm{eff}$ = **%.8f**；同一 6 阶离散算子、含 leapfrog '
+          '时间色散的离散本征模预言 = %.8f；**两者相对差 %.1e** —— 这是 3-D FDTD '
+          '内核（含泄漏吸收层、端口、源面）实现正确性的直接证据。'
           % (st3['n_eff_fdtd'], st3['n_eff_discrete'],
-             st3['n_eff_err_vs_discrete'] / st3['n_eff_discrete']))
-        A('* leapfrog 时间色散修正 $\\times(\\omega/\\omega_\\mathrm{eff})$ 后 '
-          'n_eff = %.8f；lead 给出的收敛值 1.50455547；'
-          '2-D EIM 代理值 1.50458471。**EIM 对 3-D n_eff 的误差 ≈ %.1e**（约 3e-5）。'
-          % (st3['n_eff_fdtd'] * 1.0 / (1 - 0.5 * (fw.OMEGA0
-                                                    * st3['meta']['dt']) ** 2 / 12.0)
-             if False else st3['n_eff_fdtd'], 1.50458471 - 1.50455547))
-        A('* 3-D 端口数值 floor：$|a_-|/|a_+|=%s$ dB（直波导回波/数值噪声）。'
-          % fnum(st3['ports']['in']['ratio_db'], 1))
+             abs(st3['n_eff_err_vs_discrete']) / st3['n_eff_discrete']))
+        wdt = fw.OMEGA0 * st3['meta']['dt']
+        ncorr = st3['n_eff_fdtd'] * (1.0 + wdt ** 2 / 24.0)
+        A('* 原始 FDTD 相位速度比物理值低约 %.1f%%，这是 leapfrog 时间色散'
+          '（$\\omega\\Delta t=%.3f$）所致，不是物理误差：按 $(1+(\\omega\\Delta t)^2/24)$ '
+          '修正后 n_eff=%.8f。物理值由**同一空间算子、连续时间**的本征模序列给出'
+          '（见下表）：dx=0.12 µm 时 n_eff=%.8f，与 lead 的收敛值 1.50455547 相差 '
+          '%.1e；2-D EIM 代理 1.50458471，**EIM 对 3-D n_eff 的误差 = %.1e**。'
+          % ((1 - st3['n_eff_discrete'] / 1.50455547) * 100, wdt, ncorr,
+             mode3d.get('mode_rows', [{}])[-2]['neff']
+             if len(mode3d.get('mode_rows', [])) > 1 else float('nan'),
+             (mode3d.get('mode_rows', [{}])[-2]['neff'] - 1.50455547)
+             if len(mode3d.get('mode_rows', [])) > 1 else float('nan'),
+             1.50458471 - 1.50455547))
+        A('* 3-D 端口数值 floor：$|a_-|/|a_+|=%.1f$ dB（直波导）；'
+          '能量残差 %.1e。'
+          % (st3['ports']['in']['ratio_db'],
+             (st3['P_boundary'] - st3['boundary'].get('bnd_L', 0.0)
+              - st3['P_in_net']) / st3['P_in_net']))
     A('')
-    A('同一 3-D 横向本征问题（连续算子、2 阶差分，大域）的 dx 收敛（`probe_3d_cmt.py`）：')
+    A('3-D 横向本征问题（**连续时间算子**、2 阶差分、±20 µm 大域）的 dx 收敛'
+      '（`probe_3d_cmt.py`）：')
     A('')
     A('| dx (µm) | n_eff | err vs 1.50455547 |')
     A('|---|---|---|')
@@ -378,8 +389,11 @@ def main():
         A('| %.2f | %.8f | %+.2e |' % (r['dx_um'], r['neff'], r['err']))
     A('')
     if mode3d.get('neff_extrap'):
-        A('Richardson(dx²) 外推 → %.8f（与 lead 收敛值差 %.1e）。'
-          % (mode3d['neff_extrap'], mode3d['neff_extrap'] - 1.50455547))
+        A('注：该序列在 dx=0.08 µm 处因界面与网格的相对位置（4.5/0.08 非整数格）'
+          '出现非单调，简单 Richardson 外推（%.8f）反而不如 dx=0.10 µm 的直接值'
+          '（1.50455642，误差 +9.5e-7）。因此 3-D 物理 n_eff 取 1.504556±3e-6 '
+          '（与 lead 的 1.50455547 在 ~1e-6 内一致）。'
+          % mode3d['neff_extrap'])
     A('')
     A('### 5.2 3-D 90° 交叉')
     A('')
