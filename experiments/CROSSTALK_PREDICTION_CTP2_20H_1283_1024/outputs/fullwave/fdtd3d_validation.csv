@@ -1,0 +1,8 @@
+kind,dx_um,order,cells,n_eff_fdtd_raw,n_eff_fdtd_leapfrog_corrected,n_eff_discrete_leapfrog,n_eff_target,n_eff_EIM_2D,beta_rel_diff_vs_discrete,port_floor_db,T_through,energy_residual,note
+3D_mode_eigenmode_continuous,0.2,2,,,,1.504558083,1.50455547,1.50458471,,,,,err_vs_target=+2.61e-06
+3D_mode_eigenmode_continuous,0.15,2,,,,1.504557115,1.50455547,1.50458471,,,,,err_vs_target=+1.65e-06
+3D_mode_eigenmode_continuous,0.12,2,,,,1.504556667,1.50455547,1.50458471,,,,,err_vs_target=+1.20e-06
+3D_mode_eigenmode_continuous,0.1,2,,,,1.504556423,1.50455547,1.50458471,,,,,err_vs_target=+9.53e-07
+3D_mode_eigenmode_continuous,0.08,2,,,,1.504568679,1.50455547,1.50458471,,,,,err_vs_target=+1.32e-05
+3D_mode_Richardson,0,2,,,,1.504590468,1.50455547,1.50458471,,,,,Richardson dx^2 extrapolation
+3D_mode_tail,0.08,2,,,,,,,,,,,gamma_y=0.5906 /um

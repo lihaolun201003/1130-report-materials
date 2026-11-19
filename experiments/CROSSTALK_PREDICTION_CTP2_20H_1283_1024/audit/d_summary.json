@@ -1,0 +1,189 @@
+{
+ "scaling": {
+  "1e-07": {
+   "matrix_shape": 1024,
+   "max_offdiag_db": -65.90547984023327,
+   "max_offdiag_value": 2.567154554469131e-07,
+   "max_offdiag_pair": [
+    16,
+    742
+   ],
+   "worst_total_leakage_db": -58.37853297615624,
+   "worst_total_leakage_value": 1.4526022160860377e-06,
+   "worst_leakage_col_route": 559,
+   "median_offdiag_db": -135.77270877454453,
+   "n_nonzero_offdiag": 5351,
+   "diag_min_db": -1.4116101963544256,
+   "diag_mean_db": -0.755757122000814,
+   "diag_max_db": -0.2240693494208043,
+   "max_col_sum": 0.9497144919208746,
+   "min_col_sum": 0.7225019697339213,
+   "all_cols_le_1": true,
+   "p": 1e-07,
+   "second_order_max_T": 9.851271634733375e-15,
+   "second_order_max_T_db": -140.0650770571537
+  },
+  "1e-05": {
+   "matrix_shape": 1024,
+   "max_offdiag_db": -45.90545123099525,
+   "max_offdiag_value": 2.5671714657080803e-05,
+   "max_offdiag_pair": [
+    16,
+    742
+   ],
+   "worst_total_leakage_db": -38.3785118976925,
+   "worst_total_leakage_value": 0.0001452609266301667,
+   "worst_leakage_col_route": 559,
+   "median_offdiag_db": -95.77270877454453,
+   "n_nonzero_offdiag": 5351,
+   "diag_min_db": -1.4117768728363111,
+   "diag_mean_db": -0.7558616650212525,
+   "diag_max_db": -0.2240693494208043,
+   "max_col_sum": 0.9497144919208746,
+   "min_col_sum": 0.7225038867091892,
+   "all_cols_le_1": true,
+   "p": 1e-05,
+   "second_order_max_T": 9.851271634733378e-11,
+   "second_order_max_T_db": -100.0650770571537
+  },
+  "0.001": {
+   "matrix_shape": 1024,
+   "max_offdiag_db": -25.902591258516967,
+   "max_offdiag_value": 0.002568862589602919,
+   "max_offdiag_pair": [
+    16,
+    742
+   ],
+   "worst_total_leakage_db": -18.37640456778726,
+   "worst_total_leakage_value": 0.014533142878645738,
+   "worst_leakage_col_route": 559,
+   "median_offdiag_db": -55.772708774544526,
+   "n_nonzero_offdiag": 5351,
+   "diag_min_db": -1.4332853132105015,
+   "diag_mean_db": -0.766304275766489,
+   "diag_max_db": -0.2240693494208043,
+   "max_col_sum": 0.9497144919208746,
+   "min_col_sum": 0.7225086735382582,
+   "all_cols_le_1": true,
+   "p": 0.001,
+   "second_order_max_T": 9.851271634733377e-07,
+   "second_order_max_T_db": -60.06507705715369
+  },
+  "0.01": {
+   "matrix_shape": 1024,
+   "max_offdiag_db": -15.876677533410447,
+   "max_offdiag_value": 0.025842364431923656,
+   "max_offdiag_pair": [
+    16,
+    742
+   ],
+   "worst_total_leakage_db": -8.357293779861672,
+   "worst_total_leakage_value": 0.1459723574800089,
+   "worst_leakage_col_route": 559,
+   "median_offdiag_db": -35.77270877454452,
+   "n_nonzero_offdiag": 5351,
+   "diag_min_db": -1.7503459977148152,
+   "diag_mean_db": -0.8601826194408785,
+   "diag_max_db": -0.2240693494208043,
+   "max_col_sum": 0.9497144919208746,
+   "min_col_sum": 0.7225086735382582,
+   "all_cols_le_1": true,
+   "p": 0.01,
+   "second_order_max_T": 9.851271634733378e-05,
+   "second_order_max_T_db": -40.06507705715369
+  }
+ },
+ "W_max": 2.567154554469131,
+ "V_max": 14.526022160860377,
+ "formula": "max_offdiag(p) = p * W_max ; worst_total_leakage(p) = p * V_max ; dB shifts by 10 log10(p2/p1)",
+ "T_upper_equals_T_nominal": true,
+ "worst_pair_weight": {
+  "pair": [
+   16,
+   742
+  ],
+  "W": 2.5671543836485355
+ },
+ "events_unique_p_used": [
+  1e-07
+ ],
+ "events_all_at_floor": 1283,
+ "corr_angle_p_used": -4.896118708600463e-16,
+ "corr_angle_p_fdfd": 0.26324524163404506,
+ "p_fdfd_range": [
+  1.1056552014447056e-08,
+  6.913574049288306e-08
+ ],
+ "angle_range_deg": [
+  5.153763467155517,
+  90.0
+ ],
+ "angle_dependent": [
+  {
+   "matrix_shape": 1024,
+   "max_offdiag_db": -41.21255267792328,
+   "max_offdiag_value": 7.563881776604017e-05,
+   "max_offdiag_pair": [
+    428,
+    425
+   ],
+   "worst_total_leakage_db": -38.335313552161466,
+   "worst_total_leakage_value": 0.00014671301591425004,
+   "worst_leakage_col_route": 432,
+   "median_offdiag_db": -84.47517097641862,
+   "n_nonzero_offdiag": 2442,
+   "diag_min_db": -1.411609768352963,
+   "diag_mean_db": -0.755799274777492,
+   "diag_max_db": -0.2240693494208043,
+   "max_col_sum": 0.9497144919208746,
+   "min_col_sum": 0.7225019506511154,
+   "all_cols_le_1": true,
+   "p": "angle_dependent_corrected_fund"
+  },
+  {
+   "matrix_shape": 1024,
+   "max_offdiag_db": -25.750807826702893,
+   "max_offdiag_value": 0.002660230187091458,
+   "max_offdiag_pair": [
+    228,
+    225
+   ],
+   "worst_total_leakage_db": -23.097484319939845,
+   "worst_total_leakage_value": 0.004900626092365939,
+   "worst_leakage_col_route": 225,
+   "median_offdiag_db": -83.11242604372535,
+   "n_nonzero_offdiag": 2442,
+   "diag_min_db": -1.411609773694622,
+   "diag_mean_db": -0.7570702739029517,
+   "diag_max_db": -0.2240693494208043,
+   "max_col_sum": 0.9497144919208746,
+   "min_col_sum": 0.7225019508892777,
+   "all_cols_le_1": true,
+   "p": "angle_dependent_corrected"
+  },
+  {
+   "matrix_shape": 1024,
+   "max_offdiag_db": -69.09306308033645,
+   "max_offdiag_value": 1.2322354306361382e-07,
+   "max_offdiag_pair": [
+    200,
+    778
+   ],
+   "worst_total_leakage_db": -61.67075478605782,
+   "worst_total_leakage_value": 6.806510540425663e-07,
+   "worst_leakage_col_route": 559,
+   "median_offdiag_db": -73.90716791268571,
+   "n_nonzero_offdiag": 2442,
+   "diag_min_db": -1.4116099328442109,
+   "diag_mean_db": -0.7557565760914847,
+   "diag_max_db": -0.2240693494208043,
+   "max_col_sum": 0.9497144919208746,
+   "min_col_sum": 0.7225019579850965,
+   "all_cols_le_1": true,
+   "p": "angle_dependent_legacy"
+  }
+ ],
+ "column_sum_bound": 0.9497144919208746,
+ "no_loss_column_sum_p1e-3": 1.0001353223738243,
+ "no_loss_column_sum_p1e-2": 1.0129431933839268
+}

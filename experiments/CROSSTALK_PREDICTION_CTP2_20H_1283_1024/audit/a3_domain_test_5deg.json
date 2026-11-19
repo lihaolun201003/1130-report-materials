@@ -1,0 +1,83 @@
+{
+ "legacy_domain": {
+  "T_through": 0.958381580284397,
+  "T_through_fund": 0.8334503088747112,
+  "T_through_higher": 0.12493127140968585,
+  "R": 9.621398921008747e-08,
+  "T_cross_plus": 1.0801689346091444e-05,
+  "T_cross_minus": 3.8967565660497954e-08,
+  "T_cross": 1.0840656911751942e-05,
+  "T_cross_fund": 5.136582005855042e-06,
+  "T_cross_higher": 5.7040749058968995e-06,
+  "radiation": 0.04160748284470202,
+  "P_src_norm": 0.33161009362695465,
+  "u_list": [
+   124.69057869731716,
+   127.65940199963424,
+   130.62822530195132
+  ],
+  "separation_at_port_um": 11.385,
+  "energy_1_minus_sum": 0.0,
+  "grid": 0.219615,
+  "N": 359637,
+  "domain_um": [
+   252.60104605522687,
+   69.0
+  ]
+ },
+ "enlarged_domain": {
+  "T_through": 0.6735539870681786,
+  "T_through_fund": 0.5871277495078898,
+  "T_through_higher": 0.08642623756028878,
+  "R": 1.1057826454667178e-06,
+  "T_cross_plus": 0.041335588411116196,
+  "T_cross_minus": 0.0,
+  "T_cross": 0.041335588411116196,
+  "T_cross_fund": 0.03924605016699709,
+  "T_cross_higher": 0.0020895382441191088,
+  "radiation": 0.2851093187380598,
+  "P_src_norm": 0.23914403105580748,
+  "u_list": [
+   114.75,
+   172.125,
+   229.5
+  ],
+  "separation_at_port_um": 20.002242960587548,
+  "energy_1_minus_sum": 0.0,
+  "grid": 0.219615,
+  "N": 449625,
+  "domain_um": [
+   302.0,
+   72.0
+  ],
+  "bounds": [
+   -60.0,
+   242.0,
+   -36.0,
+   36.0
+  ]
+ },
+ "cmt_truncated_at_119.9": {
+  "amplitude": 1.3187386298830939,
+  "T_cross": 1.7390715739459397,
+  "fraction_of_full_amplitude": 1.0204501599709093
+ },
+ "cmt_truncated_at_229.5": {
+  "amplitude": 1.292177713670138,
+  "T_cross": 1.6697232437057852,
+  "fraction_of_full_amplitude": 0.9998971174010655
+ },
+ "cmt_truncated_at_300": {
+  "amplitude": 1.2923144366062325,
+  "T_cross": 1.670076603060884,
+  "fraction_of_full_amplitude": 1.0000029146673681
+ },
+ "cmt_truncated_at_460": {
+  "amplitude": 1.2923106683803764,
+  "T_cross": 1.6700668636097353,
+  "fraction_of_full_amplitude": 0.9999999987850313
+ },
+ "cmt_scale_um": 20.365245390791234,
+ "kappa_at_10um_mm_inv": 1.212474267313233,
+ "gamma_per_um": 0.5633967588162746
+}

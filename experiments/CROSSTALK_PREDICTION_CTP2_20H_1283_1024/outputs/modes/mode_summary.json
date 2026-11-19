@@ -1,0 +1,27 @@
+{
+ "n_modes_guided_channel": 3,
+ "n_eff_guided": [
+  1.5045554721547085,
+  1.5018797096115601,
+  1.5018797096115601
+ ],
+ "n_eff_degeneracy_gap": 0.0,
+ "analytic_slab_modes": [
+  1.50552123088106,
+  1.502781131061935
+ ],
+ "fd_slab_richardson": [
+  1.5055211565661764,
+  1.5055212122991868,
+  1.5055212262353912
+ ],
+ "eim": {
+  "n_slab": 1.5055212308807926,
+  "n_eff": 1.5045847056650925,
+  "gamma_per_um": 0.5629327668638522
+ },
+ "eim_vs_channel_relative_n_eff_error": 1.9429998378264324e-05,
+ "orthonormality_max_offdiag": 6.8912656375589895e-16,
+ "mode_count_note": "V = k0*(w/2)*NA = 3.0172; the slab supports TE0 and TE1 (cutoffs 0 and pi/2) so the square channel is a 3-mode guide (fundamental + the degenerate (0,1)/(1,0) pair) -- confirmed numerically.",
+ "runtime_seconds": 119.84674596786499
+}

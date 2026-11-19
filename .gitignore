@@ -1,0 +1,8 @@
+﻿# ---- Python / caches (never commit regenerable data) ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ---- CTP-2.0: regenerable intermediate results ----
+experiments/CROSSTALK_PREDICTION_CTP2_20H_1283_1024/cache/
+experiments/CROSSTALK_PREDICTION_CTP2_20H_1283_1024/outputs/fullwave/figs/

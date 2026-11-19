@@ -1,0 +1,63 @@
+{
+ "model": "CTP-2.0",
+ "propagation_loss_db_per_cm": 0.05,
+ "bend_extra_loss_db": 0.0,
+ "frozen_geometry": {
+  "n_routes": 1024,
+  "n_planes": 20,
+  "n_crossings": 1283,
+  "total_length_mm": 156597.22152165722,
+  "authoritative_total_length_mm": 156597.221522
+ },
+ "crossings": {
+  "n_events": 1283,
+  "n_forward_allowed": 856,
+  "n_forward_blocked": 427,
+  "T_cross_db_min": -186.22711402721424,
+  "T_cross_db_max": -14.365259750408583,
+  "T_cross_db_median": -111.03383078027043,
+  "angle_min_deg": 5.153763467155517,
+  "angle_median_deg": 63.256316049596855,
+  "n_events_above_minus40dB": 63,
+  "n_events_above_minus30dB": 17
+ },
+ "baseline_ctp1_fixed_p": {
+  "p_used": 1e-07,
+  "max_offdiagonal_db": -67.41532751175713,
+  "worst_total_leakage_db": -60.48486486628533
+ },
+ "nominal_ctp2": {
+  "max_offdiagonal_db": -15.206468704880304,
+  "max_offdiagonal_pair": [
+   743,
+   723
+  ],
+  "median_offdiagonal_db": -130.6333072778832,
+  "n_nonzero_offdiagonal": 3248,
+  "worst_total_leakage_db": -14.769541266538802,
+  "worst_total_leakage_route": 743,
+  "mean_total_leakage_db": -1432.5501244885463,
+  "diagonal_min_db": -1.8789188513758748,
+  "diagonal_max_db": -0.2240693494208043,
+  "max_column_sum": 0.9497144919208746,
+  "all_columns_le_1": true,
+  "total_output_over_input": 0.8322675286103289
+ },
+ "bounds": {
+  "max_offdiagonal_lower_db": -15.906468704880313,
+  "max_offdiagonal_upper_db": -14.50646870488031,
+  "worst_total_leakage_lower_db": -15.472380065904119,
+  "worst_total_leakage_upper_db": -14.065648011944294
+ },
+ "second_order": {
+  "n_terms": 2660,
+  "max_T": 0.0001633057262828638,
+  "max_T_db": -37.86998586546566
+ },
+ "multi_input_incoherent": {
+  "worst_interference_to_signal_db": -12.711747845145583,
+  "worst_output_route": 743,
+  "mean_isr_db": -111.45642416227
+ },
+ "runtime_seconds": 2.4997129440307617
+}

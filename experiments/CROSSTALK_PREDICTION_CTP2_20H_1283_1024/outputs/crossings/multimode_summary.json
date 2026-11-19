@@ -1,0 +1,53 @@
+{
+ "angles": [
+  5.0,
+  10.0,
+  20.0,
+  90.0
+ ],
+ "guided_mode_count": 3,
+ "records": [
+  {
+   "theta_deg": 5.0,
+   "crosstalk_total_fund_launch_db": -14.268968368241232,
+   "crosstalk_into_fund_fund_launch_db": -14.33845471750759,
+   "crosstalk_into_higher_fund_launch_db": -32.26251338284336,
+   "through_total_fund_launch_db": -0.300642157611424,
+   "crosstalk_total_higher_launch_db": -14.181200988350675,
+   "crosstalk_into_fund_higher_launch_db": -36.55429118576979,
+   "higher_order_fraction_of_crosstalk": 0.015872505949738703
+  },
+  {
+   "theta_deg": 10.0,
+   "crosstalk_total_fund_launch_db": -20.978498340982597,
+   "crosstalk_into_fund_fund_launch_db": -30.29615893559903,
+   "crosstalk_into_higher_fund_launch_db": -21.518955014961524,
+   "through_total_fund_launch_db": -0.2552984084332163,
+   "crosstalk_total_higher_launch_db": -18.388513146364367,
+   "crosstalk_into_fund_higher_launch_db": -25.810729631511702,
+   "higher_order_fraction_of_crosstalk": 0.8829870467383214
+  },
+  {
+   "theta_deg": 20.0,
+   "crosstalk_total_fund_launch_db": -42.24854555133565,
+   "crosstalk_into_fund_fund_launch_db": -51.08196882702846,
+   "crosstalk_into_higher_fund_launch_db": -42.85742351373923,
+   "through_total_fund_launch_db": -0.06660181897478538,
+   "crosstalk_total_higher_launch_db": -39.74903369331873,
+   "crosstalk_into_fund_higher_launch_db": -47.149188030032235,
+   "higher_order_fraction_of_crosstalk": 0.8691849617806408
+  },
+  {
+   "theta_deg": 90.0,
+   "crosstalk_total_fund_launch_db": -55.110162274680896,
+   "crosstalk_into_fund_fund_launch_db": -58.479304767496174,
+   "crosstalk_into_higher_fund_launch_db": -57.78902001511116,
+   "through_total_fund_launch_db": -8.249260248564752,
+   "crosstalk_total_higher_launch_db": -58.28153763892523,
+   "crosstalk_into_fund_higher_launch_db": -62.08060234183989,
+   "higher_order_fraction_of_crosstalk": 0.5396525405562931
+  }
+ ],
+ "runtime_seconds": 247.35780310630798,
+ "note": "the board-level matrix assumes fundamental-mode launch and fundamental-mode detection on every route; the entries above quantify what that assumption misses"
+}
