@@ -589,8 +589,8 @@ class Stepper:
         lap = np.zeros_like(a)
         c2 = self.c2 if order is None else fd2_coeffs(order)
         mm = len(c2) - 1
-        lap += c2[0] * a
         nd = a.ndim
+        lap += nd * c2[0] * a
         for ax in range(nd):
             for kk in range(1, mm + 1):
                 sa = [slice(None)] * nd

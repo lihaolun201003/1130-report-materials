@@ -163,7 +163,7 @@ def numpy_vs_torch():
     a, b = a0, b0
     for _ in range(30):
         c = st.np_step(a, b)
-        a, b = b, c
+        a, b = c, a
     for _ in range(30):
         st.step()
     ct = st.psi_a.detach().cpu().numpy()
