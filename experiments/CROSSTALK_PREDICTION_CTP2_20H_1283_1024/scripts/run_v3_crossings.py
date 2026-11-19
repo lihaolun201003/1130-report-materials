@@ -204,12 +204,38 @@ def main() -> None:
     #    [Born, BPM] bracket for 30-45 deg where paraxial validity degrades).
     #  * theta > 45 deg  : nominal = Born, upper bound -60 dB (everything below
     #    -100 dB; irrelevant to the board).
-    fdtd_csv = FDFD_DIR / "fdtd2d_crossing.csv"
+    # Independent 4th-order 2-D FDTD anchors (subagent 'fullwave').  The 5/10/
+    # 15/20/30 deg rows come from fdtd2d_crossing.csv; 45/60/75/90 deg from the
+    # convergence table.  Their measured port floor is -106 dB at 20 deg and
+    # -149 dB at 90 deg, and the dx=0.03 vs 0.05 um difference is 0.04/0.20 dB
+    # at 20/30 deg, so the anchors are converged.  The 60-90 deg values sit
+    # below the oblique-port floor (-71..-83 dB) and are therefore only used as
+    # an upper bound.
     ANCH = None
+    _rows = []
+    fdtd_csv = FDFD_DIR / "fdtd2d_crossing.csv"
     if fdtd_csv.exists():
         _fw = pd.read_csv(fdtd_csv)
-        ANCH = np.array([[float(r.theta_deg), float(r.T_cross_db)] for _, r in _fw.iterrows()])
-        ANCH = ANCH[np.argsort(ANCH[:, 0])]
+        _rows += [[float(r.theta_deg), float(r.T_cross_db)] for _, r in _fw.iterrows()]
+    extra_csv = FDFD_DIR / "fdtd2d_crossing_extra.csv"
+    if extra_csv.exists():
+        _ex = pd.read_csv(extra_csv)
+        for _, r in _ex.iterrows():
+            th = float(r.theta_deg)
+            if all(abs(th - a[0]) > 1e-9 for a in _rows):
+                _rows.append([th, float(r.XT_dB)])
+    conv_csv = FDFD_DIR / "fdtd2d_convergence.csv"
+    if conv_csv.exists() and "quantity" in pd.read_csv(conv_csv, nrows=1).columns:
+        _cv = pd.read_csv(conv_csv)
+        qcol = "quantity" if "quantity" in _cv.columns else _cv.columns[4]
+        for _, r in _cv.iterrows():
+            q = str(r[qcol])
+            if q.startswith("XT_dB(") and abs(float(r.dx_um) - 0.05) < 1e-9:
+                th = float(q[q.index("(") + 1:q.index("deg")])
+                if all(abs(th - a[0]) > 1e-9 for a in _rows):
+                    _rows.append([th, float(r.value)])
+    if _rows:
+        ANCH = np.array(sorted(_rows, key=lambda z: z[0]))
 
     def bpm_corrected_db(theta_deg):
         th = np.atleast_1d(np.asarray(theta_deg, float))
@@ -262,12 +288,16 @@ def main() -> None:
                 # optimistic-paraxial bound)
                 lo, hi = min(born, nominal), nominal
         else:
-            nominal = born
-            method = "born_2d asymptotic"
+            # 45 deg is anchored by the FDTD (-72.80 dB, resolved: its port
+            # floor is -83 dB there).  60-90 deg sit below the oblique-port
+            # floor (-71..-83 dB) so only an upper bound is defensible; the
+            # conservative nominal is that bound, -85 dB.
+            nominal = max(born, 10 ** (-85.0 / 10.0))
+            method = "FDTD upper bound (-85 dB); Born is a lower bound"
             lo = born
-            hi = max(born, 1e-6)      # -60 dB conservative upper bound
+            hi = nominal
             band_db = abs(db(hi) - db(lo))
-            status = "asymptotic_only_all_below_minus100"
+            status = "upper_bound_port_floor_limited"
         out.append({
             "theta_deg": float(th),
             "T_cross_nominal": float(nominal),

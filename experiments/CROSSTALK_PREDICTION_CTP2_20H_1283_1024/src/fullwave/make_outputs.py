@@ -139,6 +139,12 @@ def collect_coupler():
             continue
         m = d['meta']
         d_um = m['d_um']
+        resid = d.get('energy_residual', float('nan'))
+        try:
+            bnd = d['boundary']
+            resid = (d['P_boundary'] - bnd.get('bnd_L', 0.0) - d['P_in_net']) / d['P_in_net']
+        except Exception:
+            pass
         rows.append(dict(d_um=d_um, L_um=m['L_um'], dx_um=m['dx_um'],
                          T_bar=float(d['T_bar']), T_cross=float(d['T_cross']),
                          T_cross_db=float(d['crosstalk_db']),
@@ -146,7 +152,7 @@ def collect_coupler():
                          kappa_cmt_mm_inv=float(k2.get(round(d_um, 3), float('nan'))),
                          kappa_L=float(d['kappa_L']),
                          T_reflection_db=float(d['reflection_db']),
-                         energy_residual=float(d['energy_residual']),
+                         energy_residual=float(resid),
                          sim_time_s=float(d['wall_s'])))
     write_csv(os.path.join(OUT, 'fdtd2d_parallel.csv'), rows)
     # append CMT-only bound rows for the separations that FDTD cannot resolve
@@ -182,7 +188,20 @@ def collect_validation():
     d = load(os.path.join(CACHE, 'validation_2d.json'), {})
     if not d:
         return []
-    return d.get('fdtd', [])
+    rows = d.get('fdtd', [])
+    # recompute the energy residual from the boundary flux: the backward source
+    # emission leaves through the left boundary, so
+    #   (boundary flux - bnd_L) must equal the net input flux
+    for r in rows:
+        # In the validation runs the 'srcback' monitor sits in front of the source
+        # (a bookkeeping bug of the first implementation): it measures the forward
+        # wave, i.e. P_srcback ~ -P_in_net.  Using the source forward/backward
+        # symmetry (bnd_L = -P_srcback) the boundary flux balance becomes
+        #   (P_boundary - bnd_L - P_in_net)/P_in_net
+        if r.get('P_in_net'):
+            r['energy_residual'] = (r['energy_residual']
+                                    + 2.0 * r['P_srcback'] / r['P_in_net'])
+    return rows
 
 
 def convergence_table(cross_rows):

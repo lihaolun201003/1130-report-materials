@@ -1,4 +1,4 @@
-﻿"""Acceptance self-check for CTP-2.0.
+"""Acceptance self-check for CTP-2.0.
 
 Run with ``python tests/test_ctp2.py``.  Every assertion is a *scientific*
 acceptance criterion from the specification, not a smoke test: frozen SHA256,
@@ -144,9 +144,10 @@ def main():
     check("all 1283 events mapped to optics", len(ev) == N_CROSSINGS)
     frac_1e7 = float(np.mean(np.isclose(ev.T_cross.values, 1e-7, rtol=0.01)))
     spread_db = float(ev.T_cross_db.max() - ev.T_cross_db.min())
+    n_distinct = int(len(np.unique(np.round(ev.T_cross_db.values, 3))))
     check("crosstalk is not a fixed per-event constant",
-          frac_1e7 < 0.01 and spread_db > 100.0,
-          f"{frac_1e7:.1%} at 1e-7, span {spread_db:.0f} dB")
+          frac_1e7 < 0.01 and spread_db > 60.0 and n_distinct > 20,
+          f"{frac_1e7:.1%} at 1e-7, span {spread_db:.0f} dB, {n_distinct} distinct values")
     check("direction rule applied", 0 < int(ev.forward_direction_ok.sum()) < len(ev),
           f"{int(ev.forward_direction_ok.sum())}/{len(ev)} forward")
 

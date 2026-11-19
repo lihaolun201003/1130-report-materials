@@ -240,10 +240,15 @@ def discrete_mode_1d(axes, n_prof, dx, order, omega_eff, n_modes=6):
     return s, phi
 
 
-def discrete_mode_2d(axes, n_prof2, dx, order, omega_eff, n_modes=6):
+def discrete_mode_2d(axes, n_prof2, dx, order, omega_eff, n_modes=24):
     """Guided mode of the discretised 2-D transverse problem (for the 3-D solver).
     axes = (ax_a, ax_b); n_prof2 shape (Na,Nb); returns s, phi(shape Na,Nb)
-    normalised so sum(phi^2)*dx^2 = 1."""
+    normalised so sum(phi^2)*dx^2 = 1.
+
+    The largest eigenvalues of the shifted operator form a quasi-continuum of
+    box modes; the guided mode is identified as the most strongly *localised*
+    eigenvector (smallest boundary/peak ratio), which is unambiguous because the
+    guided mode is exponentially small at the box boundary."""
     Na, Nb = len(axes[0]), len(axes[1])
     La = _build_L1(Na, dx, order)
     Lb = _build_L1(Nb, dx, order)
@@ -252,17 +257,24 @@ def discrete_mode_2d(axes, n_prof2, dx, order, omega_eff, n_modes=6):
     d = (omega_eff / C0) ** 2 * (np.asarray(n_prof2, dtype=np.float64).ravel() ** 2)
     M = (L2 + sparse.diags(d)).tocsr()
     vals, vecs = eigsh(M, k=n_modes, which='LA')
-    idx = np.argsort(vals)[::-1]
-    for j in idx:
+    best = None
+    for j in np.argsort(vals)[::-1]:
         s = vals[j]
         if s <= 0:
             continue
         phi = vecs[:, j].reshape(Na, Nb)
         mx = np.max(np.abs(phi))
+        if mx <= 0:
+            continue
         edge = max(abs(phi[0, :]).max(), abs(phi[-1, :]).max(),
                    abs(phi[:, 0]).max(), abs(phi[:, -1]).max())
-        if mx <= 0 or edge / mx > 1e-2:
+        ratio = edge / mx
+        if ratio > 1e-2:
             continue
+        if best is None or ratio < best[0]:
+            best = (ratio, s, phi)
+    if best is not None:
+        _, s, phi = best
         phi = phi / np.sqrt(np.sum(phi ** 2) * dx * dx)
         if phi[np.unravel_index(np.argmax(np.abs(phi)), phi.shape)] < 0:
             phi = -phi
