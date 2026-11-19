@@ -1,0 +1,5 @@
+[audit] same-height 0.8s crossings=3479 violations=88 issues=0
+[audit] 3-D 8.9s minima={'flat_flat_mm': 0.04999999999999993, 'transition_flat_mm': 0.06183479838110232, 'transition_transition_mm': 0.1} issues=0
+[audit] structure issues=0
+[audit] self-clearance issues=0 min=1.0
+[summary] {"label": "G5 re-layered: original constraints PASS, 88 residual sub-45 deg", "routes_sha256": "fa2983fa59ee6e476500b9385f785127485a29187397e03fa71a436f81e0afe1", "baseline_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753", "legal": false, "violations": 88, "crossings": 3479, "pairs": 2835, "min_angle_deg": 7.518621, "deficit_deg": 1625.615196, "max_deficit_deg": 37.481379, "hard_issues": 0, "three_d_issues": 0, "three_d_minima": {"flat_flat_mm": 0.05, "transition_flat_mm": 0.061834798, "transition_transition_mm": 0.1}, "structure_issues": 0, "self_clearance_issues": 0, "min_self_clearance_mm": 1.0, "total_length_mm": 156544.671046, "routes": 1024, "heights_used": 20}

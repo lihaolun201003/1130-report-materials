@@ -93,6 +93,7 @@ def main(argv=None):
             break
         route = state.world.routes[rid]
         need = len(state.route_violations(rid))
+        current_violations = need
         preferred = []
         if args.keep and current[rid] is not None:
             preferred.append(current[rid])
@@ -100,9 +101,8 @@ def main(argv=None):
                                 key=lambda z: abs(z - (current[rid] or 0.0))))
         chosen = None
         tried = 0
+        best = (current_violations, 10 ** 6, abs(z_here := 0.0))
         for z in preferred:
-            if z in [p for p in preferred[:0]]:
-                continue
             if height_ok(rid, z, route):
                 continue
             new_route = C.reheight_any(route, z) if z != current[rid] else route
@@ -112,10 +112,15 @@ def main(argv=None):
             evaluation = state.evaluate(rid, new_route)
             if not evaluation['ok']:
                 continue
-            if evaluation['violations']:
-                continue
-            chosen = (z, new_route)
-            break
+            count = len(evaluation['violations'])
+            key = (count, 0 if count == 0 else 1,
+                   abs(z - (current[rid] or 0.0)))
+            if count == 0:
+                chosen = (z, new_route)
+                break
+            if key < (best[0], best[1], best[2]):
+                best = key
+                chosen = (z, new_route)
         if chosen is None:
             failures.append(dict(route_id=rid, current=current[rid],
                                  tried=tried, violations=need))
