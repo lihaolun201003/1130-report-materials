@@ -1,0 +1,335 @@
+{
+ "schema": "crosstalk_prediction_manifest_v1",
+ "model_version": "CTP-1.0",
+ "package_version": "1.0.0",
+ "experiment": "CROSSTALK_PREDICTION_20H_1283_1024",
+ "generated_at_utc": "2026-11-19T11:00:38Z",
+ "input_directory": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+ "route_sha256_expected": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "route_sha256_actual": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "route_sha256_match": true,
+ "integrity": {
+  "assignment_1024.csv": {
+   "expected": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+   "actual": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+   "match": true
+  },
+  "BEST_VALID.json": {
+   "expected": "1e2674dff71c8ef67a6d6a96b0c08634e0e832b2abf13724c9b171827bf31340",
+   "actual": "becea7753110c54bda4bb464d715a7587552f60c327dd03ff7e87c5edafd716b",
+   "match": false
+  },
+  "crossing_stats.json": {
+   "expected": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+   "actual": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+   "match": true
+  },
+  "layer_planes.json": {
+   "expected": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+   "actual": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+   "match": true
+  },
+  "physical_layer_stack.json": {
+   "expected": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a",
+   "actual": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a",
+   "match": true
+  },
+  "process_rules.json": {
+   "expected": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592",
+   "actual": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592",
+   "match": true
+  },
+  "routes_l3d.json": {
+   "expected": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+   "actual": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+   "match": true
+  },
+  "validation/validation.json": {
+   "expected": "237a2e15e0d7c278714a29d74feab27d5b9979bf2271517718816ea4562c0db2",
+   "actual": "237a2e15e0d7c278714a29d74feab27d5b9979bf2271517718816ea4562c0db2",
+   "match": true
+  },
+  "validation/validator_consistency_tests.json": {
+   "expected": "1f40eef921365a704179fba2c06cc363eb73dbe3e6dcaa1622e82e4ebfd44e50",
+   "actual": "1f40eef921365a704179fba2c06cc363eb73dbe3e6dcaa1622e82e4ebfd44e50",
+   "match": true
+  },
+  "validation.json": {
+   "expected": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+   "actual": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+   "match": true
+  }
+ },
+ "known_input_discrepancy": {
+  "file": "BEST_VALID.json",
+  "detail": "source repo rewrote the manifest after SHA256.json was generated (+310 bytes: validator_report, model_payloads_completed); all geometric/optical inputs match bit-exactly"
+ },
+ "outputs": {
+  "coupling_coefficients.csv": {
+   "sha256": "a4bb7d175f7b5ce8ab0e3efe6cb5a3391062cfed45253777e83961fd15e23dba",
+   "bytes": 7224
+  },
+  "coupling_parameter_sweep.csv": {
+   "sha256": "f2a0c1a0fc1c0ef5f8a72b403eb30891338e938f79fe42c65d68ca95ad10764d",
+   "bytes": 2363
+  },
+  "coupling_vertical_offsets.csv": {
+   "sha256": "3d2155e511efd1419f49294f2b8ac7bbe7d5069972f2256fcc5dd8b160ea458d",
+   "bytes": 933
+  },
+  "crossing_optical_analysis.csv": {
+   "sha256": "91b79dedccdda918a78038168a63f36832abb54cf154a5a04b07febc01805c6a",
+   "bytes": 252264
+  },
+  "crossing_transfer_curve.csv": {
+   "sha256": "198ed78875306bbfaa38a5c6be583d0bfcbe1aa01c90ddadf462751c88fcae69",
+   "bytes": 3297
+  },
+  "crosstalk_hotspots.json": {
+   "sha256": "0cec800869dc68a99f6bc84fa4491b70f1ecd5fc0af62a391ceef051528def96",
+   "bytes": 25011
+  },
+  "crosstalk_matrix_db.csv": {
+   "sha256": "91cf3ff240e36818d2c37e83920d001f4b00e72edae11e1e8f93eb8c51066822",
+   "bytes": 10490334
+  },
+  "crosstalk_matrix_linear.npy": {
+   "sha256": "aae0d127bac8522ce96334be8756d7bcaa28fcf7a05363ef8366aed038900318",
+   "bytes": 8388736
+  },
+  "crosstalk_per_route.csv": {
+   "sha256": "2d053f522b51e4f00f8e5470ecdd5aff2657b53ed58fc631717fd25d688343be",
+   "bytes": 218025
+  },
+  "e2_summary.json": {
+   "sha256": "f904849e3a0e4e7b3b32bd4f6bb59e06e335377546b77f89b400b8d9f0f7cc27",
+   "bytes": 6223
+  },
+  "e3_summary.json": {
+   "sha256": "4356f4d7e8c0e4c6ef26cf928fd2e6378347f9caf761265c898073e3ecb1e228",
+   "bytes": 17971
+  },
+  "e5_summary.json": {
+   "sha256": "d930dbdcd75aaeb7e9eb3edb9b319525d2efeefec75ace37f69b64cef3400ea8",
+   "bytes": 1873
+  },
+  "e6_summary.json": {
+   "sha256": "f0b2c57f4f9b5c5a655abba2af840fbea7c2295937b64a56a7026c10783c4833",
+   "bytes": 7283
+  },
+  "mode_convergence.csv": {
+   "sha256": "84af73f2a22cc2b3254120873705082ce540894776231f0f859e3c7f5c1733cf",
+   "bytes": 909
+  },
+  "mode_reference.npz": {
+   "sha256": "329b52cef73a59ebbfdbc194d00205da1458c2b9f54ef3b5544f5013b54e30f7",
+   "bytes": 886998
+  },
+  "mode_sweep.csv": {
+   "sha256": "077d78e0ddca1d1eede9f9b22e6d532842516c77a36f9f2b8af11a78f5ea1cfd",
+   "bytes": 873
+  },
+  "sensitivity_summary.csv": {
+   "sha256": "c572eb5ef0829a5a590d0757519abbea003bb5edf6da713a3fd1e1d9c20cb7bd",
+   "bytes": 2784
+  },
+  "simulation_manifest.json": {
+   "sha256": "dabc67b61868abad41998815d6d3fd75a2fd4e90995bfd17ba6c74096c7da982",
+   "bytes": 12085
+  },
+  "single_waveguide_modes.csv": {
+   "sha256": "3b53153e47f797e36c6a4ee11514f8622d400c30ccc057fd9455ea525ba846a9",
+   "bytes": 1223
+  },
+  "crossing_events_detected.csv": {
+   "sha256": "4904c9ee6e5f5ba9e8d73d2cde9d812687b19f1578f28f9bad060f4e81aecec1",
+   "bytes": 161046
+  },
+  "e1_summary.json": {
+   "sha256": "d035ca18ce8a7e7ac15068f5b55fa4dcfbc3940483d373835b90bd2554a9e4a1",
+   "bytes": 1149
+  },
+  "e4_summary.json": {
+   "sha256": "b3beb4bd3c0b33dd153e7b178eb3630e4061ff4725d46570afd99f240bce1c77",
+   "bytes": 1260
+  },
+  "input_sha256_check.json": {
+   "sha256": "33877120b275f0be58e62a007e8bd4ca79e385dd217e1f01a5201fd747a49c56",
+   "bytes": 3514
+  },
+  "interaction_regions.csv": {
+   "sha256": "5297bf03fc9ea6c577847f21e06dea23472c7b147cdf21da1646f3b74bb01fbe",
+   "bytes": 14695079
+  },
+  "layer_statistics.csv": {
+   "sha256": "4cdb50c5f24e221e29e26e43c26f1f7d8e746d286ad637043cca56d40bca64b2",
+   "bytes": 668
+  },
+  "propagation_loss.csv": {
+   "sha256": "84a810217383bd34b655819eb3029a879cef7ad7c7673372a6f1297f36554632",
+   "bytes": 311861
+  },
+  "route_lengths.csv": {
+   "sha256": "84a810217383bd34b655819eb3029a879cef7ad7c7673372a6f1297f36554632",
+   "bytes": 311861
+  },
+  "fig01_length_distribution.pdf": {
+   "sha256": "f7ee1d5dfb578d61bfba53e3e55cb5805454fc444c1a2e21b37ac2a663838066",
+   "bytes": 18639
+  },
+  "fig01_length_distribution.png": {
+   "sha256": "e847f52e600a5d27a584344a77d0ebbbac9e7ad7a41e60eb3278849bdf81aa08",
+   "bytes": 96239
+  },
+  "fig02_propagation_loss.pdf": {
+   "sha256": "5a1f79a0c499b6d098a3d18c034fd9ebe60c51ddad6e01dc948f0050a65dbe6e",
+   "bytes": 17064
+  },
+  "fig02_propagation_loss.png": {
+   "sha256": "a3f9bcee6a7b2cc5a6b4a51f4e1208bb52ada4777a277fbba072d208a5b4366e",
+   "bytes": 60895
+  },
+  "fig03_mode_fields.pdf": {
+   "sha256": "683e8526e993bcbcceeeb60def76456720dadb9aec9420cf98d3fce0cbdd5bd1",
+   "bytes": 63655
+  },
+  "fig03_mode_fields.png": {
+   "sha256": "f3e92592d074b12836d88421d9b3a356c618de98cc9624b60a80b9f8fc8e5572",
+   "bytes": 210528
+  },
+  "fig04_mode_convergence.pdf": {
+   "sha256": "f9b6dfbbcf3ffc45fd10450c93dbb6ace5273482cca49fdbe297da828fab15d3",
+   "bytes": 16930
+  },
+  "fig04_mode_convergence.png": {
+   "sha256": "40429c17b1b7162d3330f9f079a053d168c06250b26bfade070b80ce82badc69",
+   "bytes": 117174
+  },
+  "fig05_coupling_vs_separation.pdf": {
+   "sha256": "14a1b542550ac8d449804dc9918edc9101ebd39991044692bf5dc088cccf697d",
+   "bytes": 22357
+  },
+  "fig05_coupling_vs_separation.png": {
+   "sha256": "bb83358cf6c5661bb2da90aa24af15ba77fdd5da21a6b7ecf5123cb51dbe43fa",
+   "bytes": 166882
+  },
+  "fig06_crosstalk_vs_length.pdf": {
+   "sha256": "59b2a9aa1eb5ca6f01e592a229a1ebcec399a19954fdcebaa78bb9596b05f94e",
+   "bytes": 1197047
+  },
+  "fig06_crosstalk_vs_length.png": {
+   "sha256": "ef69e0a852fdaf66de5e01896b6c87d3ca368fb44572599112f5c6b7f3576d12",
+   "bytes": 165694
+  },
+  "fig07_crosstalk_matrix.pdf": {
+   "sha256": "be57eec7f3d7d1d06c55ac54e5d2662481b8be00b31ac3ac7905da60f91a890b",
+   "bytes": 42129
+  },
+  "fig07_crosstalk_matrix.png": {
+   "sha256": "e524be479c7acefc368a0f372fd90522228335edaf40f06d700eff2bdcda58f2",
+   "bytes": 139937
+  },
+  "fig08_route_ranking.pdf": {
+   "sha256": "0d01e715d66e1ed68176087a780e077b59a0ad7211084b9f934558adea9a2d75",
+   "bytes": 24356
+  },
+  "fig08_route_ranking.png": {
+   "sha256": "647632ecf6bf3cfc4a19b7c6c0b2dd2f81e711018ac972e657a1251c20ef61a0",
+   "bytes": 109067
+  },
+  "fig09_layer_risk.pdf": {
+   "sha256": "6bc6a5f12b0997a772cd30cadf7037f7c2604db3524fc052833f5838d6154d0b",
+   "bytes": 16529
+  },
+  "fig09_layer_risk.png": {
+   "sha256": "ea4a949e9a0a529acea956ee98ca0c287d32c10ba49630c063d2376e117cd09d",
+   "bytes": 87730
+  },
+  "fig10_crossing_angles.pdf": {
+   "sha256": "867b730019adea51fe8a49c7c0b7362b93e0c0571b0ed02391b7e6ef3e126f29",
+   "bytes": 17409
+  },
+  "fig10_crossing_angles.png": {
+   "sha256": "fe56baff23bd00cdf8aa60afad64f3e4d8b932a047e011584668268ae517966f",
+   "bytes": 112603
+  },
+  "fig11_3d_hotspots.pdf": {
+   "sha256": "f0dbc071dd6bb4a4c05c128beba08d57a51d0ad51a1fa94051f4a19ffcfe104c",
+   "bytes": 364914
+  },
+  "fig11_3d_hotspots.png": {
+   "sha256": "0399b8296c4c79c8fc30f48ff0d5f70609e72431c211aff14ed94e79237cd13a",
+   "bytes": 1084381
+  },
+  "fig12_hotspot_zoom.pdf": {
+   "sha256": "1460b951aea765ea8b7db9e7a5f7056b5ccb5d9a16d2f12c6e183facf4bfcc09",
+   "bytes": 16642
+  },
+  "fig12_hotspot_zoom.png": {
+   "sha256": "d660dd8a6489af78a356ac6a4a0f48fd2577714ccaa2d8ce95a768fb9e9bf3f6",
+   "bytes": 93715
+  },
+  "fig13_sensitivity.pdf": {
+   "sha256": "f65bd942583d8c315dcca47d83417545df9106a191c7c3ac6151a630a61861a2",
+   "bytes": 24793
+  },
+  "fig13_sensitivity.png": {
+   "sha256": "c03ecbbaaeac9b7b0d663962a3fad300401a674aebe48d77ca58ca9835d4f908",
+   "bytes": 210551
+  },
+  "fig14_crossing_vs_crosstalk.pdf": {
+   "sha256": "a08d5e3f08adee96bd1755485c2ed6c106a75d816e31d9af1e04de5ed3487521",
+   "bytes": 30816
+  },
+  "fig14_crossing_vs_crosstalk.png": {
+   "sha256": "feb5972247a50caee3c44b258daaede76ea142ffe3fdba4ec3e4db42a384be00",
+   "bytes": 106692
+  }
+ },
+ "runtime": {
+  "python": "3.10.11",
+  "executable": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "matplotlib": "3.10.9",
+  "cpu_count": 32
+ },
+ "models": {
+  "mode_solver": "scalar weak-guidance Helmholtz: lap(psi)+k0^2 n^2 psi = beta^2 psi",
+  "coupling": [
+   "supermode_symmetry",
+   "overlap_integral"
+  ],
+  "crossing": "fdfd_eim_2d",
+  "propagation": "coupled power with 0.05 dB/cm along true arc length",
+  "approximation_class": "scalar weak-guidance / EIM / 2-D FDFD",
+  "full_vector_maxwell": false
+ },
+ "parameters": {
+  "optics_reference": {
+   "label": "REF",
+   "wavelength_nm": 1310.0,
+   "n_clad": 1.5,
+   "delta_n": 0.0065,
+   "core_width_um": 9.0,
+   "core_height_um": 9.0,
+   "profile": "step",
+   "core_shape": "rect"
+  },
+  "propagation_loss_db_per_cm": 0.05,
+  "bend_extra_loss_db": 0.0,
+  "resolution_floor": 1e-07
+ },
+ "reproduce": [
+  "python scripts/run_e1.py",
+  "python scripts/run_e2.py",
+  "python scripts/run_e3.py",
+  "python scripts/run_e4.py",
+  "python scripts/run_e5.py",
+  "python scripts/run_e6.py",
+  "python scripts/make_figures.py",
+  "python scripts/run_manifest.py",
+  "python scripts/run_report.py"
+ ]
+}

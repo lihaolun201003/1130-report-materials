@@ -1,0 +1,104 @@
+{
+ "checked": {
+  "assignment_1024.csv": {
+   "expected": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+   "actual": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+   "ok": true,
+   "bytes": 130150,
+   "expected_bytes": 130150,
+   "size_ok": true,
+   "critical": true
+  },
+  "BEST_VALID.json": {
+   "expected": "1e2674dff71c8ef67a6d6a96b0c08634e0e832b2abf13724c9b171827bf31340",
+   "actual": "becea7753110c54bda4bb464d715a7587552f60c327dd03ff7e87c5edafd716b",
+   "ok": false,
+   "bytes": 1751,
+   "expected_bytes": 1441,
+   "size_ok": false,
+   "critical": false
+  },
+  "crossing_stats.json": {
+   "expected": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+   "actual": "02ee0533bb338d8c020b1abaad7334be3809994cd2e95eb880a408086c05203d",
+   "ok": true,
+   "bytes": 191949,
+   "expected_bytes": 191949,
+   "size_ok": true,
+   "critical": true
+  },
+  "layer_planes.json": {
+   "expected": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+   "actual": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+   "ok": true,
+   "bytes": 7319,
+   "expected_bytes": 7319,
+   "size_ok": true,
+   "critical": true
+  },
+  "physical_layer_stack.json": {
+   "expected": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a",
+   "actual": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a",
+   "ok": true,
+   "bytes": 10360,
+   "expected_bytes": 10360,
+   "size_ok": true,
+   "critical": true
+  },
+  "process_rules.json": {
+   "expected": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592",
+   "actual": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592",
+   "ok": true,
+   "bytes": 3063,
+   "expected_bytes": 3063,
+   "size_ok": true,
+   "critical": true
+  },
+  "routes_l3d.json": {
+   "expected": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+   "actual": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+   "ok": true,
+   "bytes": 3790572,
+   "expected_bytes": 3790572,
+   "size_ok": true,
+   "critical": true
+  },
+  "validation\\validation.json": {
+   "expected": "237a2e15e0d7c278714a29d74feab27d5b9979bf2271517718816ea4562c0db2",
+   "actual": "237a2e15e0d7c278714a29d74feab27d5b9979bf2271517718816ea4562c0db2",
+   "ok": true,
+   "bytes": 56718,
+   "expected_bytes": 56718,
+   "size_ok": true,
+   "critical": false
+  },
+  "validation\\validator_consistency_tests.json": {
+   "expected": "1f40eef921365a704179fba2c06cc363eb73dbe3e6dcaa1622e82e4ebfd44e50",
+   "actual": "1f40eef921365a704179fba2c06cc363eb73dbe3e6dcaa1622e82e4ebfd44e50",
+   "ok": true,
+   "bytes": 3671,
+   "expected_bytes": 3671,
+   "size_ok": true,
+   "critical": false
+  },
+  "validation.json": {
+   "expected": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+   "actual": "b6526b6dc537d2f8c64e96f054eb130cd13194cea12570912d431cbe99162367",
+   "ok": true,
+   "bytes": 56993,
+   "expected_bytes": 56993,
+   "size_ok": true,
+   "critical": true
+  }
+ },
+ "routes_sha256_expected": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "runtime": {
+  "python": "3.10.11",
+  "executable": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "matplotlib": "3.10.9",
+  "cpu_count": 32
+ }
+}

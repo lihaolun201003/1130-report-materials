@@ -1,0 +1,1287 @@
+{
+ "definition": "total coupled power per 2x2 mm cell on the crossing plane",
+ "clusters": [
+  {
+   "z_mm": 0.024999999999999998,
+   "x_mm": 111.65460732786248,
+   "y_mm": 33.375,
+   "n_crossings": 6,
+   "total_P_cross": 6e-07,
+   "total_P_cross_db": -62.21848749616356,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    225,
+    414,
+    432,
+    435,
+    495
+   ],
+   "mean_angle_deg": 63.42532443900294
+  },
+  {
+   "z_mm": 0.025,
+   "x_mm": 123.92556133776573,
+   "y_mm": 42.325,
+   "n_crossings": 5,
+   "total_P_cross": 5e-07,
+   "total_P_cross_db": -63.01029995663981,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    148,
+    228,
+    417,
+    438,
+    441,
+    456
+   ],
+   "mean_angle_deg": 63.67401718373435
+  },
+  {
+   "z_mm": 0.025,
+   "x_mm": 110.384615385,
+   "y_mm": 42.325,
+   "n_crossings": 5,
+   "total_P_cross": 5e-07,
+   "total_P_cross_db": -63.01029995663981,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    148,
+    228,
+    417,
+    438,
+    441,
+    495
+   ],
+   "mean_angle_deg": 90.0
+  },
+  {
+   "z_mm": 0.075,
+   "x_mm": 15.617219112612744,
+   "y_mm": 107.475,
+   "n_crossings": 5,
+   "total_P_cross": 5e-07,
+   "total_P_cross_db": -63.01029995663981,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    230,
+    422,
+    458,
+    461
+   ],
+   "mean_angle_deg": 60.8805383129217
+  },
+  {
+   "z_mm": 0.525,
+   "x_mm": 143.875,
+   "y_mm": 8.68798763867331,
+   "n_crossings": 5,
+   "total_P_cross": 5e-07,
+   "total_P_cross_db": -63.01029995663981,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    612,
+    616,
+    620,
+    624,
+    628,
+    737
+   ],
+   "mean_angle_deg": 65.89126597437692
+  },
+  {
+   "z_mm": 0.225,
+   "x_mm": 69.25,
+   "y_mm": 15.749999999999998,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    40,
+    104,
+    659,
+    663
+   ],
+   "mean_angle_deg": 90.0
+  },
+  {
+   "z_mm": -0.125,
+   "x_mm": 60.5,
+   "y_mm": 40.04500167484011,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    123,
+    124,
+    125,
+    126,
+    131
+   ],
+   "mean_angle_deg": 64.84363264994354
+  },
+  {
+   "z_mm": -0.025,
+   "x_mm": 125.6386407753354,
+   "y_mm": 89.75,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    172,
+    473,
+    476,
+    479,
+    482
+   ],
+   "mean_angle_deg": 63.78364244833051
+  },
+  {
+   "z_mm": 0.025,
+   "x_mm": 110.384615385,
+   "y_mm": 51.74950421858411,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    456,
+    459,
+    462,
+    483,
+    495
+   ],
+   "mean_angle_deg": 89.76707724855021
+  },
+  {
+   "z_mm": 0.225,
+   "x_mm": 19.43518662276758,
+   "y_mm": 25.25,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    531,
+    535,
+    784,
+    788
+   ],
+   "mean_angle_deg": 57.76553981230889
+  },
+  {
+   "z_mm": 0.375,
+   "x_mm": 42.75,
+   "y_mm": 70.02151646019635,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    533,
+    557,
+    569,
+    573
+   ],
+   "mean_angle_deg": 76.89425685753503
+  },
+  {
+   "z_mm": 0.525,
+   "x_mm": 107.25,
+   "y_mm": 79.97848353980365,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    536,
+    560,
+    572,
+    576
+   ],
+   "mean_angle_deg": 76.89425685753505
+  },
+  {
+   "z_mm": 0.325,
+   "x_mm": 44.14264118064731,
+   "y_mm": 127.76395470571438,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    559,
+    744,
+    988,
+    992
+   ],
+   "mean_angle_deg": 64.02577590031133
+  },
+  {
+   "z_mm": 0.425,
+   "x_mm": 42.75,
+   "y_mm": 79.97848353980365,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    570,
+    594,
+    746,
+    750
+   ],
+   "mean_angle_deg": 76.89425685753503
+  },
+  {
+   "z_mm": 0.125,
+   "x_mm": 60.0,
+   "y_mm": 53.54700517317373,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    597,
+    705,
+    709,
+    713,
+    717
+   ],
+   "mean_angle_deg": 62.71388840140972
+  },
+  {
+   "z_mm": 0.125,
+   "x_mm": 69.74068361972807,
+   "y_mm": 62.570575289569035,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    729,
+    745,
+    749,
+    753,
+    757
+   ],
+   "mean_angle_deg": 59.62004920623198
+  },
+  {
+   "z_mm": 0.425,
+   "x_mm": 62.57057528956905,
+   "y_mm": 80.25931638027193,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    730,
+    746,
+    750,
+    754,
+    758
+   ],
+   "mean_angle_deg": 59.620049206231954
+  },
+  {
+   "z_mm": 0.625,
+   "x_mm": 80.25931638027193,
+   "y_mm": 87.42942471043095,
+   "n_crossings": 4,
+   "total_P_cross": 4e-07,
+   "total_P_cross_db": -63.979400086720375,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    732,
+    748,
+    752,
+    756,
+    760
+   ],
+   "mean_angle_deg": 59.620049206231954
+  },
+  {
+   "z_mm": 0.225,
+   "x_mm": 41.625,
+   "y_mm": 15.874999999999998,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    5,
+    659,
+    663,
+    667
+   ],
+   "mean_angle_deg": 90.0
+  },
+  {
+   "z_mm": -0.075,
+   "x_mm": 15.456898088231073,
+   "y_mm": 48.16698420593719,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    6,
+    7,
+    27,
+    29
+   ],
+   "mean_angle_deg": 59.02377084227743
+  },
+  {
+   "z_mm": -0.075,
+   "x_mm": 51.375,
+   "y_mm": 16.090925423649455,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    7,
+    38,
+    102,
+    110
+   ],
+   "mean_angle_deg": 63.252962715162056
+  },
+  {
+   "z_mm": 0.17499999999999996,
+   "x_mm": 143.375,
+   "y_mm": 81.125,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    12,
+    691,
+    699,
+    742
+   ],
+   "mean_angle_deg": 90.0
+  },
+  {
+   "z_mm": -0.125,
+   "x_mm": 23.88244237755165,
+   "y_mm": 132.01516998831036,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    35,
+    98,
+    105
+   ],
+   "mean_angle_deg": 61.362453160201056
+  },
+  {
+   "z_mm": -0.125,
+   "x_mm": 24.379411735413708,
+   "y_mm": 120.11195699368427,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    35,
+    99,
+    107,
+    121
+   ],
+   "mean_angle_deg": 89.19764227008163
+  },
+  {
+   "z_mm": -0.125,
+   "x_mm": 24.375,
+   "y_mm": 90.13966494086112,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    35,
+    99,
+    107,
+    122
+   ],
+   "mean_angle_deg": 63.252962715162035
+  },
+  {
+   "z_mm": -0.125,
+   "x_mm": 51.541666666666664,
+   "y_mm": 121.55677353492155,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    116,
+    117,
+    121,
+    122
+   ],
+   "mean_angle_deg": 62.89816427151337
+  },
+  {
+   "z_mm": -0.125,
+   "x_mm": 51.625,
+   "y_mm": 38.61938952168428,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    116,
+    117,
+    118,
+    131
+   ],
+   "mean_angle_deg": 90.0
+  },
+  {
+   "z_mm": -0.125,
+   "x_mm": 48.28472183086728,
+   "y_mm": 18.273937390856773,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    117,
+    124,
+    130
+   ],
+   "mean_angle_deg": 33.99347994059437
+  },
+  {
+   "z_mm": 0.075,
+   "x_mm": 16.123633854288332,
+   "y_mm": 15.875,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    142,
+    207,
+    210,
+    213
+   ],
+   "mean_angle_deg": 61.09284205849965
+  },
+  {
+   "z_mm": 0.025000000000000005,
+   "x_mm": 72.73577826755735,
+   "y_mm": 24.125,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    148,
+    219,
+    222,
+    411
+   ],
+   "mean_angle_deg": 65.3727381833924
+  },
+  {
+   "z_mm": 0.025000000000000005,
+   "x_mm": 84.78590875611685,
+   "y_mm": 134.375,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    156,
+    206,
+    209,
+    212
+   ],
+   "mean_angle_deg": 64.3175696926587
+  },
+  {
+   "z_mm": 0.025000000000000005,
+   "x_mm": 99.68344530345458,
+   "y_mm": 134.375,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    159,
+    206,
+    209,
+    212
+   ],
+   "mean_angle_deg": 63.252962715162106
+  },
+  {
+   "z_mm": 0.025000000000000005,
+   "x_mm": 96.59353117783644,
+   "y_mm": 89.875,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    159,
+    215,
+    236,
+    425
+   ],
+   "mean_angle_deg": 64.31756969265872
+  },
+  {
+   "z_mm": 0.025000000000000005,
+   "x_mm": 130.1896370417529,
+   "y_mm": 24.375,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    204,
+    222,
+    411,
+    432
+   ],
+   "mean_angle_deg": 64.31756969265871
+  },
+  {
+   "z_mm": -0.125,
+   "x_mm": 89.375,
+   "y_mm": 34.405014070770335,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    217,
+    424,
+    445,
+    466
+   ],
+   "mean_angle_deg": 63.25296271516206
+  },
+  {
+   "z_mm": 0.225,
+   "x_mm": 116.375,
+   "y_mm": 26.231644397075513,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    415,
+    418,
+    421,
+    623
+   ],
+   "mean_angle_deg": 20.930268809728343
+  },
+  {
+   "z_mm": 0.375,
+   "x_mm": 24.375,
+   "y_mm": 61.48152222645461,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    513,
+    517,
+    521,
+    665
+   ],
+   "mean_angle_deg": 63.25296271516208
+  },
+  {
+   "z_mm": 0.375,
+   "x_mm": 137.76019469799223,
+   "y_mm": 23.875,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    513,
+    617,
+    649,
+    833
+   ],
+   "mean_angle_deg": 36.85020365958247
+  },
+  {
+   "z_mm": 0.425,
+   "x_mm": 24.375,
+   "y_mm": 88.5184777735454,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    514,
+    538,
+    562,
+    710
+   ],
+   "mean_angle_deg": 63.25296271516208
+  },
+  {
+   "z_mm": 0.575,
+   "x_mm": 108.375,
+   "y_mm": 23.875000000000004,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    515,
+    627,
+    675,
+    679
+   ],
+   "mean_angle_deg": 90.0
+  },
+  {
+   "z_mm": 0.625,
+   "x_mm": 88.5184777735454,
+   "y_mm": 125.625,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    516,
+    540,
+    564,
+    712
+   ],
+   "mean_angle_deg": 63.25296271516208
+  },
+  {
+   "z_mm": 0.4749999999999999,
+   "x_mm": 70.48152222645462,
+   "y_mm": 125.375,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    518,
+    522,
+    526,
+    670
+   ],
+   "mean_angle_deg": 63.252962715162056
+  },
+  {
+   "z_mm": 0.375,
+   "x_mm": 33.94591149297077,
+   "y_mm": 61.4746001065659,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    529,
+    541,
+    545,
+    549
+   ],
+   "mean_angle_deg": 58.76611203652729
+  },
+  {
+   "z_mm": 0.525,
+   "x_mm": 116.05408850702922,
+   "y_mm": 88.5253998934341,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    532,
+    544,
+    548,
+    552
+   ],
+   "mean_angle_deg": 58.766112036527296
+  },
+  {
+   "z_mm": 0.375,
+   "x_mm": 33.625,
+   "y_mm": 70.7315222264546,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    533,
+    541,
+    545,
+    549
+   ],
+   "mean_angle_deg": 63.25296271516208
+  },
+  {
+   "z_mm": 0.375,
+   "x_mm": 53.47460010656592,
+   "y_mm": 69.69591149297077,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    533,
+    557,
+    581,
+    601
+   ],
+   "mean_angle_deg": 58.76611203652727
+  },
+  {
+   "z_mm": 0.4749999999999999,
+   "x_mm": 69.69591149297077,
+   "y_mm": 96.52539989343408,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    534,
+    558,
+    582,
+    602
+   ],
+   "mean_angle_deg": 58.766112036527296
+  },
+  {
+   "z_mm": 0.525,
+   "x_mm": 116.375,
+   "y_mm": 79.2684777735454,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    536,
+    544,
+    548,
+    552
+   ],
+   "mean_angle_deg": 63.25296271516208
+  },
+  {
+   "z_mm": 0.525,
+   "x_mm": 96.52539989343408,
+   "y_mm": 80.30408850702923,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    536,
+    560,
+    584,
+    604
+   ],
+   "mean_angle_deg": 58.766112036527296
+  },
+  {
+   "z_mm": 0.125,
+   "x_mm": 70.4815222264546,
+   "y_mm": 24.625,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    537,
+    561,
+    585,
+    741
+   ],
+   "mean_angle_deg": 63.252962715162084
+  },
+  {
+   "z_mm": 0.425,
+   "x_mm": 26.025195165490416,
+   "y_mm": 99.30115898475698,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    542,
+    562,
+    698
+   ],
+   "mean_angle_deg": 59.97386175601349
+  },
+  {
+   "z_mm": 0.425,
+   "x_mm": 33.625,
+   "y_mm": 79.2684777735454,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    542,
+    566,
+    590,
+    746
+   ],
+   "mean_angle_deg": 63.252962715162084
+  },
+  {
+   "z_mm": 0.125,
+   "x_mm": 59.875,
+   "y_mm": 44.48152222645461,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    593,
+    705,
+    709,
+    713
+   ],
+   "mean_angle_deg": 63.25296271516206
+  },
+  {
+   "z_mm": 0.425,
+   "x_mm": 53.48152222645462,
+   "y_mm": 89.875,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    598,
+    710,
+    714,
+    718
+   ],
+   "mean_angle_deg": 63.25296271516203
+  },
+  {
+   "z_mm": 0.625,
+   "x_mm": 89.875,
+   "y_mm": 96.51847777354537,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    600,
+    712,
+    716,
+    720
+   ],
+   "mean_angle_deg": 63.25296271516203
+  },
+  {
+   "z_mm": 0.4749999999999999,
+   "x_mm": 51.97460010656593,
+   "y_mm": 134.30408850702923,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    630,
+    650,
+    654,
+    658
+   ],
+   "mean_angle_deg": 58.76611203652724
+  },
+  {
+   "z_mm": 0.525,
+   "x_mm": 134.30408850702923,
+   "y_mm": 98.02539989343408,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    632,
+    652,
+    656,
+    660
+   ],
+   "mean_angle_deg": 58.76611203652728
+  },
+  {
+   "z_mm": 0.125,
+   "x_mm": 51.97460010656592,
+   "y_mm": 15.69591149297077,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    677,
+    685,
+    693,
+    697
+   ],
+   "mean_angle_deg": 58.76611203652728
+  },
+  {
+   "z_mm": 0.125,
+   "x_mm": 61.23152222645462,
+   "y_mm": 15.375,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    677,
+    685,
+    693,
+    705
+   ],
+   "mean_angle_deg": 63.252962715162035
+  },
+  {
+   "z_mm": 0.425,
+   "x_mm": 15.69591149297077,
+   "y_mm": 98.02539989343408,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    678,
+    686,
+    694,
+    698
+   ],
+   "mean_angle_deg": 58.76611203652729
+  },
+  {
+   "z_mm": 0.625,
+   "x_mm": 98.02539989343408,
+   "y_mm": 134.30408850702923,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    680,
+    688,
+    696,
+    700
+   ],
+   "mean_angle_deg": 58.76611203652728
+  },
+  {
+   "z_mm": 0.125,
+   "x_mm": 69.69591149297077,
+   "y_mm": 53.4746001065659,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    725,
+    745,
+    749,
+    753
+   ],
+   "mean_angle_deg": 58.76611203652729
+  },
+  {
+   "z_mm": 0.425,
+   "x_mm": 53.47460010656592,
+   "y_mm": 80.30408850702923,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    726,
+    746,
+    750,
+    754
+   ],
+   "mean_angle_deg": 58.76611203652728
+  },
+  {
+   "z_mm": 0.625,
+   "x_mm": 80.30408850702923,
+   "y_mm": 96.52539989343408,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    728,
+    748,
+    752,
+    756
+   ],
+   "mean_angle_deg": 58.76611203652728
+  },
+  {
+   "z_mm": 0.375,
+   "x_mm": 123.94591149297078,
+   "y_mm": 116.47460010656592,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    838,
+    842,
+    846,
+    874
+   ],
+   "mean_angle_deg": 58.76611203652729
+  },
+  {
+   "z_mm": 0.525,
+   "x_mm": 26.05408850702923,
+   "y_mm": 33.52539989343409,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    840,
+    844,
+    848,
+    876
+   ],
+   "mean_angle_deg": 58.766112036527296
+  },
+  {
+   "z_mm": 0.575,
+   "x_mm": 44.054088507029235,
+   "y_mm": 115.9746001065659,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    867,
+    895,
+    919,
+    943
+   ],
+   "mean_angle_deg": 58.76611203652731
+  },
+  {
+   "z_mm": 0.425,
+   "x_mm": 123.64642764020986,
+   "y_mm": 29.67690190197861,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    873,
+    901,
+    925,
+    949
+   ],
+   "mean_angle_deg": 39.04790083774689
+  },
+  {
+   "z_mm": 0.575,
+   "x_mm": 34.02539989343409,
+   "y_mm": 105.94591149297078,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    887,
+    891,
+    895,
+    923
+   ],
+   "mean_angle_deg": 58.766112036527296
+  },
+  {
+   "z_mm": 0.425,
+   "x_mm": 115.47460010656592,
+   "y_mm": 62.054088507029235,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    933,
+    937,
+    941,
+    969
+   ],
+   "mean_angle_deg": 58.766112036527296
+  },
+  {
+   "z_mm": 0.125,
+   "x_mm": 87.94591149297077,
+   "y_mm": 115.47460010656592,
+   "n_crossings": 3,
+   "total_P_cross": 3e-07,
+   "total_P_cross_db": -65.22878745280337,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    934,
+    938,
+    942,
+    970
+   ],
+   "mean_angle_deg": 58.766112036527296
+  },
+  {
+   "z_mm": -0.075,
+   "x_mm": 42.25,
+   "y_mm": 16.154414729711345,
+   "n_crossings": 2,
+   "total_P_cross": 2e-07,
+   "total_P_cross_db": -66.98970004336019,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    6,
+    37,
+    101
+   ],
+   "mean_angle_deg": 63.78851371507004
+  },
+  {
+   "z_mm": -0.075,
+   "x_mm": 42.25,
+   "y_mm": 18.770341285499683,
+   "n_crossings": 2,
+   "total_P_cross": 2e-07,
+   "total_P_cross_db": -66.98970004336019,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    7,
+    37,
+    101
+   ],
+   "mean_angle_deg": 65.89875158481698
+  },
+  {
+   "z_mm": 0.175,
+   "x_mm": 125.74857494326147,
+   "y_mm": 19.598543706839678,
+   "n_crossings": 2,
+   "total_P_cross": 2e-07,
+   "total_P_cross_db": -66.98970004336019,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    12,
+    783,
+    787
+   ],
+   "mean_angle_deg": 63.16074701031603
+  },
+  {
+   "z_mm": -0.075,
+   "x_mm": 134.75,
+   "y_mm": 113.27543827328861,
+   "n_crossings": 2,
+   "total_P_cross": 2e-07,
+   "total_P_cross_db": -66.98970004336019,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    14,
+    220,
+    409
+   ],
+   "mean_angle_deg": 63.7885137150701
+  },
+  {
+   "z_mm": -0.075,
+   "x_mm": 108.51481109808941,
+   "y_mm": 110.53141872741367,
+   "n_crossings": 2,
+   "total_P_cross": 2e-07,
+   "total_P_cross_db": -66.98970004336019,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    14,
+    430,
+    433
+   ],
+   "mean_angle_deg": 52.83406648507075
+  },
+  {
+   "z_mm": 0.175,
+   "x_mm": 142.75,
+   "y_mm": 81.125,
+   "n_crossings": 2,
+   "total_P_cross": 2e-07,
+   "total_P_cross_db": -66.98970004336019,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    15,
+    16,
+    742
+   ],
+   "mean_angle_deg": 90.0
+  },
+  {
+   "z_mm": -0.075,
+   "x_mm": 42.25,
+   "y_mm": 106.33618976566254,
+   "n_crossings": 2,
+   "total_P_cross": 2e-07,
+   "total_P_cross_db": -66.98970004336019,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    30,
+    37,
+    101
+   ],
+   "mean_angle_deg": 64.84819651418954
+  },
+  {
+   "z_mm": 0.175,
+   "x_mm": 35.9255429355455,
+   "y_mm": 18.246247653315727,
+   "n_crossings": 2,
+   "total_P_cross": 2e-07,
+   "total_P_cross_db": -66.98970004336019,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    31,
+    406,
+    803
+   ],
+   "mean_angle_deg": 24.947032443960587
+  },
+  {
+   "z_mm": 0.175,
+   "x_mm": 16.125,
+   "y_mm": 114.25,
+   "n_crossings": 2,
+   "total_P_cross": 2e-07,
+   "total_P_cross_db": -66.98970004336019,
+   "max_P_cross_db": -70.0,
+   "routes": [
+    31,
+    859,
+    863
+   ],
+   "mean_angle_deg": 90.0
+  }
+ ]
+}

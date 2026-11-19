@@ -1,0 +1,54 @@
+{
+ "matrix_shape": [
+  1024,
+  1024
+ ],
+ "route_ids_unique": 1024,
+ "definition": "T[j,i] = P_out(target of j) / P_in(source of i); row index = output route, column index = input route",
+ "p_cross_per_event_used": 1e-07,
+ "crossing_curve_max_fdfd": 6.913574049288306e-08,
+ "resolution_floor": 1e-07,
+ "diagonal_min_db": -1.4116101963544256,
+ "diagonal_max_db": -0.2240693494208043,
+ "diagonal_mean_db": -0.755757122000814,
+ "max_offdiagonal_db": -65.90547984023327,
+ "max_offdiagonal_pair": [
+  16,
+  742
+ ],
+ "max_offdiagonal_value": 2.567154554469131e-07,
+ "median_offdiagonal_db": -135.77270877454453,
+ "n_nonzero_offdiagonal": 5351,
+ "worst_total_leakage_db": -58.37853297615624,
+ "mean_total_leakage_db": -66.89055322647425,
+ "median_total_leakage_db": -68.17183091511615,
+ "max_interference_to_signal_db": 1.780832462534108e-06,
+ "energy": {
+  "max_column_sum": 0.9497144919208746,
+  "min_column_sum": 0.7225019697339213,
+  "max_row_sum": 0.9497144919208746,
+  "all_columns_le_1": true,
+  "total_output_over_total_input": 0.8402807096691296
+ },
+ "second_order": {
+  "n_terms": 5936,
+  "max_T": 9.851271634733375e-15,
+  "max_T_db": -140.0650770571537,
+  "negligible_below_1e_9": true
+ },
+ "n_crossing_events": 1283,
+ "n_route_pairs_with_crosstalk": 1221,
+ "runtime_seconds": 1.0708847045898438,
+ "multi_channel": {
+  "assumption": "all 1024 sources on, independent (random) optical phases",
+  "worst_interference_to_signal_db": -57.493769362467134,
+  "mean_interference_to_signal_db": -66.00187924712597,
+  "worst_output_route": 559
+ },
+ "geometry_vs_optics": {
+  "pearson_r_crossings_vs_leakage_db": 0.6876370020909449,
+  "note": "leakage is proportional to the crossing count when every crossing contributes the same resolution-limited power",
+  "max_route_crossings": 17,
+  "routes_with_zero_crossings": 377
+ }
+}

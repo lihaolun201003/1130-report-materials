@@ -1,0 +1,42 @@
+{
+ "crossings": {
+  "intersection_tests": 1682399,
+  "raw_events": 1298,
+  "events": 1283,
+  "events_transverse": 1283,
+  "events_tangential": 0,
+  "pairs": 1221,
+  "routes_with_crossings": 647,
+  "planes": 20,
+  "official_events": 1283,
+  "official_pairs": 1221,
+  "official_routes_with_crossings": 647,
+  "pair_plane_matches_official": 1221,
+  "pair_plane_official_only": 0,
+  "pair_plane_detected_only": 0,
+  "position_matches_official": 1258,
+  "count_matches_official": 1,
+  "pairs_match_official": 1,
+  "crossing_detection_reproduces_official": true
+ },
+ "near_approaches": {
+  "cutoff_um": 150.0,
+  "total_route_pairs": 523776,
+  "candidate_route_pairs": 49433,
+  "segment_pairs_checked": 76206,
+  "raw_approach_records": 61691,
+  "min_distance_mm": 0.0,
+  "min_distance_um": 0.0,
+  "min_distance_noncrossing_mm": 0.04999999999999993,
+  "min_distance_noncrossing_um": 49.999999999999936,
+  "records_involving_crossing_pairs": 1342,
+  "pairs_within_50um": 1343,
+  "pairs_within_62um": 30806,
+  "same_plane_approaches": 1373,
+  "cross_layer_approaches": 60318,
+  "transition_involved": 159,
+  "exact_intersections_found": 1302,
+  "median_distance_um": 72.03450071170232
+ },
+ "runtime_seconds": 243.02532148361206
+}
