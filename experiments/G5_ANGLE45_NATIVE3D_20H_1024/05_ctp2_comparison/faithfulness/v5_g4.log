@@ -1,0 +1,43 @@
+# run_v5_near_approaches.py
+# cwd=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_g5
+# env CTP2_BEST_VALID=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid
+# env CTP2_OUT_ROOT=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out_faithfulness
+# env CTP2_TOTAL_LENGTH_MM=156597.221522
+routes=1024 crossing pairs excluded=1221
+polyline points=887079 build=0.4s
+  chunk 0/887079  pairs so far=21149  [1s]
+  chunk 600000/887079  pairs so far=83742  [1s]
+candidate pairs (dist<600um)=92733  [2s]
+{
+ "n_polyline_points": 887079,
+ "n_candidate_pairs": 92733,
+ "n_crossing_pairs_excluded": 1221,
+ "n_noncrosing_pairs": 91554,
+ "min_distance_noncrosing_um": 50.00000020000627,
+ "median_distance_um": 152.48756868477648,
+ "pairs_within_50um": 0,
+ "pairs_within_80um": 9310,
+ "pairs_within_150um": 43945,
+ "max_integrated_amplitude": 1.2921288600289286e-09,
+ "max_integrated_power": 1.6695969909196587e-18,
+ "max_integrated_power_db": -177.77388346661917,
+ "worst_pair": {
+  "route_a": 10.0,
+  "route_b": 140.0
+ },
+ "kappa_model": {
+  "gamma_um": 0.5611324496889131,
+  "gamma_measured_um": 0.5932490420792863,
+  "kappa_30um": 1.2082322362707853e-05,
+  "kappa_50um": 1.615161256305712e-10,
+  "kappa_80um": 7.894308478602503e-18
+ },
+ "rigorous_bound_note": "a <= L_route * kappa(d_min); with the largest route length 282.3 mm and the largest kappa(d_min) of the table this bounds the accumulated parallel/cross-layer coupling on the whole board",
+ "rigorous_global_amp_bound": 4.276660555816727e-08,
+ "rigorous_global_power_bound": 1.8289825509678636e-15,
+ "bound_pair": {
+  "route_a": 615,
+  "route_b": 644
+ },
+ "runtime_seconds": 15.699387311935425
+}

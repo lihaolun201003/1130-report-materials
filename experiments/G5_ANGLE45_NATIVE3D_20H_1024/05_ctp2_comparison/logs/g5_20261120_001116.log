@@ -1,0 +1,50 @@
+# run_ctp2_g5.py  mode=g5  stages=['prepare', 'compare']
+# python           : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe
+# CTP-2.0 work copy: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_g5
+# CTP-2.0 frozen   : C:\Users\lihao\Desktop\Graduation Project\work\1130-report-materials\experiments\CROSSTALK_PREDICTION_CTP2_20H_1283_1024
+# routes           : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid\routes_l3d.json
+# payload          : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_payload_g4selftest
+# out root         : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out_g4selftest
+# log              : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\logs\g5_20261120_001116.log
+
+=== prepare: load routes ===
+   1024 routes, sum L = 156597.221522 mm
+--- prepare: load routes: 0.08s
+
+=== prepare: analytic crossing re-derivation ===
+[crossings] detected 1283 events / 1221 pairs / 647 routes (1682399 primitive-pair tests)
+--- prepare: analytic crossing re-derivation: 3.42s
+
+=== prepare: cross-check against the G5 project's audit CSV ===
+   audit rows=1283 matched=1283 only_detector=0 only_audit=0
+   max|dx|=4.999e-07 mm max|dy|=4.973e-07 mm max|dz|=0.000e+00 mm max|dangle|=4.999e-07 deg
+   s column: not compared directly (different arc-length origin); 802/807 routes have a constant offset, max |offset| = 132.759 mm, residual around the per-route mean = 8.852e+01 mm
+   geometry_consistent=True
+--- prepare: cross-check against the G5 project's audit CSV: 0.01s
+
+=== prepare: write crossing_events_verified.csv ===
+   C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out_g4selftest\crossings\crossing_events_verified.csv  (1283 rows, 172635 bytes, sha256=02c92180e2f9901b...)
+--- prepare: write crossing_events_verified.csv: 0.03s
+
+=== prepare: build CTP-2.0 payload ===
+   payload -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_payload_g4selftest
+     routes_l3d.json              3790572 B  copied from the given G5 routes file
+     assignment_1024.csv           130150 B  copied from C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguide
+     layer_planes.json               7319 B  copied from C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguide
+     physical_layer_stack.json      10360 B  copied from C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguide
+     process_rules.json              3063 B  copied from C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguide
+     crossing_stats.json           192450 B  REGENERATED from the analytic crossing re-derivation
+     validation.json                56993 B  copied from C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguide
+     BEST_VALID.json                  836 B  GENERATED manifest for this payload
+     SHA256.json                     1042 B  REGENERATED over this payload
+--- prepare: build CTP-2.0 payload: 0.11s
+
+=== prepare: seed geometry-independent reference outputs ===
+[seed] 0 reference files copied, 18 already present -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out_g4selftest\reference_seed.json
+--- prepare: seed geometry-independent reference outputs: 0.00s
+[g4] frozen board summary -15.206468704880304 dB max pair; 1283 crossings, 304 below 45 deg
+[compare] -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\g4selftest_summary.json
+[compare] -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\g4selftest_comparison.md
+
+[done] stage runtimes: prepare: load routes=0.08s, prepare: analytic crossing re-derivation=3.42s, prepare: cross-check against the G5 project's audit CSV=0.01s, prepare: write crossing_events_verified.csv=0.03s, prepare: build CTP-2.0 payload=0.11s, prepare: seed geometry-independent reference outputs=0.00s
+[done] total 3.81s

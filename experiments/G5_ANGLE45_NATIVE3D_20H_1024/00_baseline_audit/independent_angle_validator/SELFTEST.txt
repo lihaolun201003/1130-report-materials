@@ -1,0 +1,122 @@
+﻿[selftest] independent G5 angle validator v1.0.0
+[selftest] all angles are computed by the production code path audit_routes(); expected values are analytic
+[selftest] 01 perpendicular lines                                     n=1 theta=90.000000000000000                               PASS
+[selftest] 02a lines at 45 deg                                        theta=45.000000000000007 pass_45=True                      PASS
+[selftest] 02b lines at 44.999 deg -> violation                       theta=44.999000000000002 n_lt_45=1 pass=False              PASS
+[selftest] 03 line/arc chord d=R*cos(30 deg)                          theta=['30.000000000000', '30.000000000000'] expect=30.000000000 PASS
+[selftest] 03 line/arc chord d=R*cos(45 deg)                          theta=['45.000000000000', '45.000000000000'] expect=45.000000000 PASS
+[selftest] 03 line/arc chord d=R*cos(90 deg)                          theta=['90.000000000000', '90.000000000000'] expect=90.000000000 PASS
+[selftest] 03b chord through the arc centre -> 90 deg                 theta=['90.000000000000', '90.000000000000']               PASS
+[selftest] 03c d=R*sin(45 deg) -> 45 deg                              theta=['45.000000000000', '45.000000000000']               PASS
+[selftest] 04 equal circles, d=2R*cos(67.5 deg) -> 45.0 deg           theta=['45.000000000000', '45.000000000000'] analytic=45.000000000000 PASS
+[selftest] 04 equal circles, d=2R*cos(87.5 deg) -> 5.0 deg            theta=['5.000000000000', '5.000000000000'] analytic=5.000000000000 PASS
+[selftest] 05 tangent circles (exact) -> not a crossing               crossings=0 tangent=1                                      PASS
+[selftest] 05 tangent circles (slightly outside) -> not a crossing    crossings=0 tangent=1                                      PASS
+[selftest] 06 coincident arcs -> overlap, not crossing                overlap=35.342917352885 mm expect=35.342917352885          PASS
+[selftest] 07 crossing at a chain end -> endpoint_touch               crossings=0 endpoint_touch=1                               PASS
+[selftest] 08 different heights (dz=0.05) -> no crossing              crossings=0                                                PASS
+[selftest] 09a parallel lines 0.05 mm apart -> clearance violation    min=0.050000000000 viol=1                                  PASS
+[selftest] 09b parallel lines 0.5 mm apart -> no violation            min=0.500000000000                                         PASS
+[selftest] 09c crossing pair exempt from the clearance rule           crossings=1 viol=0                                         PASS
+[selftest] 10 collinear overlap -> overlap 5 mm, no crossing          overlap=5.000000000000                                     PASS
+[selftest] 11 chain arc length over two flat parts at one z           s_a=14.000000000000 expect=14 s_b=5.000000000000           PASS
+[selftest] 12 tangent-continuous joint -> one deduplicated hit        n=1 theta=90.000000000000 s_a=10.000000000                 PASS
+[selftest] 13 chord crosses a full circle twice -> 2 crossings        n=2 x=['-14.142135624', '14.142135624'] theta=['70.528779366', '70.528779366'] PASS
+[selftest] 14 exact line-arc tangency -> tangent, not crossing        crossings=0 tangent=1                                      PASS
+[selftest] 15 near-tangent line/arc -> tangent_or_near_tangent        crossings=0 tangent=1                                      PASS
+[selftest] 16 lines at 30 deg -> asin|cross(t_i,t_j)| = 30            theta=29.999999999999993                                   PASS
+[selftest] 17a arc-arc distance d-(r1+r2)                             min=0.500000000000 expect=0.5                              PASS
+[selftest] 17b line-arc distance |d-R|                                min=0.500000000000 expect=0.5                              PASS
+[selftest] 17c line-line distance (parallel)                          min=0.375000000000 expect=0.375                            PASS
+[selftest] ----------------------------------------------------------
+[selftest] SELFTEST_SUMMARY {"passed": 28, "failed": 0, "checks": 28, "elapsed_s": 0.014, "status": "PASS"}
+[selftest] independence guard: PASS (no project modules imported)
+
+====================================================================================================
+G5 CROSSING-ANGLE VALIDATOR -- CALIBRATION ON THE FROZEN G4 BASELINE
+====================================================================================================
+
+python        : CPython 3.10.11 (Windows)
+validator     : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\four_side_1024\fanout1024\xyzrouter\g5\validate_g5_angle.py
+run-dir       : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid
+routes file   : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid\routes_l3d.json
+sha256        : 35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753
+sha256 frozen : 35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753   match=True
+out-dir       : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\00_baseline_audit\independent_angle_validator
+z_label source: routes-document:process.plane_heights_mm/interface_planes
+routes        : 1024   heights: 20   primitives: 6115
+runtime       : 0.640 s  (single process, python standard library only)
+
+exact command used (PowerShell, from the project root):
+  $env:PYTHONPATH="C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D"
+  .venv\Scripts\python.exe four_side_1024\fanout1024\xyzrouter\g5\validate_g5_angle.py `
+      --run-dir experiments\COLD_START_20_HEIGHT_1024\10_best_valid `
+      --out-dir experiments\G5_ANGLE45_NATIVE3D_20H_1024\00_baseline_audit\independent_angle_validator
+
+====================================================================================================
+A. CALIBRATION TARGETS (all values computed by this validator's own algebra)
+====================================================================================================
+
+quantity                             measured                 target                   delta          ok  
+----------------------------------------------------------------------------------------------------
+total genuine crossings              1283                     1283                     +0.000e+00     YES 
+unique route pairs                   1221                     1221                     +0.000e+00     YES 
+routes with crossings                647                      647                      +0.000e+00     YES 
+max crossings on one route           17                       17                       +0.000e+00     YES 
+min crossing angle (deg)             5.153763467155499        5.153763 +- 1e-4         +4.672e-07     YES 
+N_<45 (angle violations)             304                      304                      +0.000e+00     YES 
+D_theta = sum(45-angle) (deg)        5520.131087842394        5520.131076 +- 0.01      +1.184e-05     YES 
+D_max = max single deficit (deg)     39.846236532845          39.846237 +- 1e-4        -4.672e-07     YES 
+----------------------------------------------------------------------------------------------------
+max-crossings route id(s)  : [559] (expected 559 with 17 crossings)
+min-angle crossing_id      : 568
+N_<5 (old G4 rule)         : 0
+
+====================================================================================================
+B. SIDE CONDITIONS REQUIRED BY THE VERDICT
+====================================================================================================
+
+coincident / overlap events           : 0  (expected 0)
+coincident circles without overlap    : 0
+endpoint touches (< 1e-7 mm)          : 0  (expected 0)
+tangent / near-tangent events         : 0  (never counted as crossings)
+same-height non-crossing clearance    : 0 violation(s) below 0.080 mm
+min non-crossing centre-line distance : 0.086853441025809 mm
+  evidence: z=-0.125  routes 105 / 106  at (31.906250000, 132.667834346)
+max intersection residual             : 3.730e-14 mm  (distance to both primitives)
+duplicate hit points merged           : 13 group(s), max angle spread 1.833e-12 deg
+primitive pairs with 2 hit points     : 0  (0 -> every crossing is an isolated single-point hit)
+candidate primitive pairs / raw hits  : 13360 / 1302
+
+VERDICT pass_45 = False
+  no_angle_violations=False no_overlaps=True no_endpoint_touches=True no_clearance_violations=True
+  reasons: ['304 crossings below 45.000 deg']
+  (False is the physically correct result for the frozen baseline: it carries
+   304 crossings below 45 deg, exactly what the G5 repair must remove.)
+
+====================================================================================================
+C. ADDITIONAL CROSS-CHECK AGAINST THE PROJECT'S OWN AUDIT (read-only comparison)
+====================================================================================================
+
+per-height crossing counts identical          : 19/19 heights YES
+min non-crossing centreline: mine=0.086853441025809 project=0.086853441 delta=+2.581e-11
+project evidence pair: z=-0.125 routes 105/106
+angle-violation events: mine=304 project=304 exact (z,pair,x,y) matches=304
+max |angle difference| on matched events      : 1.577e-12 deg
+
+====================================================================================================
+D. OUTPUT FILES
+====================================================================================================
+
+  g5_crossing_angles.csv             283341 bytes
+  g5_angle_validation.json            48580 bytes
+  g5_angle_violations.json           234961 bytes
+
+csv rows                 : 1283
+angle_violations in json : 304 (sorted ascending by angle)
+histogram counts         : [0, 17, 92, 52, 92, 51, 271, 514, 194]  sum=1283
+histogram bins           : ['[0,5)', '[5,10)', '[10,20)', '[20,30)', '[30,40)', '[40,45)', '[45,60)', '[60,75)', '[75,90]']
+
+====================================================================================================
+RESULT: ALL CALIBRATION TARGETS MET
+====================================================================================================

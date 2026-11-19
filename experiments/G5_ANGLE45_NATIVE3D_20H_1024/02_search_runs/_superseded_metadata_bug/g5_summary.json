@@ -1,0 +1,389 @@
+{
+ "profile": "free",
+ "seed": 20261116,
+ "args": {
+  "seed": 20261116,
+  "profile": "free",
+  "phase1_limit": 170,
+  "phase2_seconds": 1500.0,
+  "phase1_only": false,
+  "polish_passes": 2,
+  "out": null,
+  "checkpoint_every": 25,
+  "resume": null
+ },
+ "final": {
+  "violations": 79,
+  "deficit": 1231.605166,
+  "max_deficit": 37.481379,
+  "crossings": 2773,
+  "pairs": 2176,
+  "min_angle": 7.518621,
+  "routes_with_violations": 112,
+  "length_mm": 156557.49216,
+  "hard_issues": 0
+ },
+ "moves": [
+  {
+   "phase": "phase2",
+   "route": 620,
+   "move": "excursion:p0:z0.475:+0.00",
+   "removed": 3,
+   "added": 2,
+   "issues": 0,
+   "time_s": 539.3
+  },
+  {
+   "phase": "phase2",
+   "route": 492,
+   "move": "excursion:p6:z-0.075:+0.00",
+   "removed": 2,
+   "added": 1,
+   "issues": 0,
+   "time_s": 540.3
+  },
+  {
+   "phase": "phase2",
+   "route": 158,
+   "move": "excursion:p2:z0.075:+3.00",
+   "removed": 2,
+   "added": 0,
+   "issues": 0,
+   "time_s": 541.8
+  },
+  {
+   "phase": "phase2",
+   "route": 453,
+   "move": "corridor:0-5:-15",
+   "removed": 1,
+   "added": 1,
+   "issues": 0,
+   "time_s": 542.5
+  },
+  {
+   "phase": "phase2",
+   "route": 759,
+   "move": "excursion:p2:z0.225:+0.00",
+   "removed": 1,
+   "added": 0,
+   "issues": 0,
+   "time_s": 543.7
+  },
+  {
+   "phase": "phase2",
+   "route": 130,
+   "move": "reheight:-0.025000",
+   "removed": 2,
+   "added": 1,
+   "issues": 0,
+   "time_s": 545.4
+  },
+  {
+   "phase": "phase2",
+   "route": 774,
+   "move": "excursion:p2:z0.025:+1.50",
+   "removed": 1,
+   "added": 0,
+   "issues": 0,
+   "time_s": 546.3
+  },
+  {
+   "phase": "phase2",
+   "route": 795,
+   "move": "reheight:0.375000",
+   "removed": 1,
+   "added": 0,
+   "issues": 0,
+   "time_s": 547.6
+  },
+  {
+   "phase": "phase3",
+   "route": 81,
+   "move": "reheight:-0.025000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 549.6
+  },
+  {
+   "phase": "phase3",
+   "route": 83,
+   "move": "reheight:-0.275000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 550.4
+  },
+  {
+   "phase": "phase3",
+   "route": 85,
+   "move": "reheight:-0.275000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 551.1
+  },
+  {
+   "phase": "phase3",
+   "route": 86,
+   "move": "reheight:-0.275000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 551.8
+  },
+  {
+   "phase": "phase3",
+   "route": 88,
+   "move": "reheight:-0.275000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 552.4
+  },
+  {
+   "phase": "phase3",
+   "route": 122,
+   "move": "corridor:0-5:+24",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 553.6
+  },
+  {
+   "phase": "phase3",
+   "route": 218,
+   "move": "corridor:0-4:+4",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 554.9
+  },
+  {
+   "phase": "phase3",
+   "route": 336,
+   "move": "reheight:-0.275000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 555.9
+  },
+  {
+   "phase": "phase3",
+   "route": 361,
+   "move": "reheight:0.075000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 556.7
+  },
+  {
+   "phase": "phase3",
+   "route": 376,
+   "move": "reheight:-0.025000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 557.9
+  },
+  {
+   "phase": "phase3",
+   "route": 379,
+   "move": "reheight:-0.025000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 558.6
+  },
+  {
+   "phase": "phase3",
+   "route": 455,
+   "move": "corridor:0-3:-5",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 559.8
+  },
+  {
+   "phase": "phase3",
+   "route": 699,
+   "move": "reheight:0.375000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 564.3
+  },
+  {
+   "phase": "phase3",
+   "route": 777,
+   "move": "reheight:0.625000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 566.7
+  },
+  {
+   "phase": "phase3",
+   "route": 781,
+   "move": "reheight:0.625000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 567.6
+  },
+  {
+   "phase": "phase3",
+   "route": 783,
+   "move": "reheight:0.425000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 568.3
+  },
+  {
+   "phase": "phase3",
+   "route": 787,
+   "move": "reheight:0.225000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 568.9
+  },
+  {
+   "phase": "phase3",
+   "route": 793,
+   "move": "reheight:0.225000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 569.6
+  },
+  {
+   "phase": "phase3",
+   "route": 796,
+   "move": "reheight:0.225000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 570.5
+  },
+  {
+   "phase": "phase3",
+   "route": 799,
+   "move": "reheight:0.375000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 571.2
+  },
+  {
+   "phase": "phase3",
+   "route": 800,
+   "move": "reheight:0.475000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 571.8
+  },
+  {
+   "phase": "phase3",
+   "route": 901,
+   "move": "reheight:0.175000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 572.7
+  },
+  {
+   "phase": "phase3",
+   "route": 925,
+   "move": "reheight:0.175000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 573.3
+  },
+  {
+   "phase": "phase3",
+   "route": 972,
+   "move": "reheight:0.625000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 574.5
+  },
+  {
+   "phase": "phase3",
+   "route": 976,
+   "move": "reheight:0.625000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 575.6
+  },
+  {
+   "phase": "phase3",
+   "route": 978,
+   "move": "reheight:0.225000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 576.3
+  },
+  {
+   "phase": "phase3",
+   "route": 983,
+   "move": "reheight:0.275000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 577.3
+  },
+  {
+   "phase": "phase3",
+   "route": 986,
+   "move": "reheight:0.225000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 578.2
+  },
+  {
+   "phase": "phase3",
+   "route": 987,
+   "move": "reheight:0.275000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 579.0
+  },
+  {
+   "phase": "phase3",
+   "route": 991,
+   "move": "reheight:0.275000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 580.0
+  },
+  {
+   "phase": "phase3",
+   "route": 1012,
+   "move": "reheight:0.325000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 581.7
+  },
+  {
+   "phase": "phase3",
+   "route": 1016,
+   "move": "reheight:0.325000",
+   "removed": 0,
+   "added": 0,
+   "issues": 0,
+   "time_s": 582.4
+  }
+ ],
+ "seconds": 601.0
+}

@@ -1,0 +1,576 @@
+{
+ "schema": "ctp2_g5_summary_v1",
+ "generated": "2026-11-20T00:45:37+0800",
+ "model": "CTP-2.0",
+ "model_version_string": "CTP-2.0 (work copy, G5 geometry)",
+ "geometry_label": "G5_ANGLE45_NATIVE3D_20H_1024/03_best_partial",
+ "geometry_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial",
+ "payload_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_payload_g5",
+ "routes_sha256": "df4f2bf1b8c00f3b8e89895bd403cd9b105efa5c82adde8bf0e9060838629023",
+ "independent_verification": {
+  "board_n_events_equals_verified_csv": true,
+  "board_angle_min_equals_verified_csv": true,
+  "all_columns_le_1": true,
+  "forward_split_not_degenerate": true,
+  "n_routes_1024": true,
+  "model_is_ctp2": true,
+  "total_length_matches_payload": true
+ },
+ "all_checks_pass": true,
+ "angle_observation": {
+  "min_angle_deg": 7.518621272471249,
+  "n_below_45": 134,
+  "n_below_46": 137,
+  "all_crossings_ge_45": false,
+  "all_crossings_ge_45_5": false
+ },
+ "board_summary": {
+  "model": "CTP-2.0",
+  "propagation_loss_db_per_cm": 0.05,
+  "bend_extra_loss_db": 0.0,
+  "frozen_geometry": {
+   "n_routes": 1024,
+   "n_planes": 20,
+   "n_crossings": 2321,
+   "total_length_mm": 156560.51529951798,
+   "authoritative_total_length_mm": 156560.51529951798
+  },
+  "crossings": {
+   "n_events": 2321,
+   "n_forward_allowed": 1140,
+   "n_forward_blocked": 1181,
+   "T_cross_db_min": -85.0,
+   "T_cross_db_max": -19.148393729516155,
+   "T_cross_db_median": -85.0,
+   "angle_min_deg": 7.518621272471249,
+   "angle_median_deg": 65.37568164783599,
+   "n_events_above_minus40dB": 35,
+   "n_events_above_minus30dB": 3
+  },
+  "baseline_ctp1_fixed_p": {
+   "p_used": 1e-07,
+   "max_offdiagonal_db": -66.00334339049466,
+   "worst_total_leakage_db": -58.70557794712056
+  },
+  "nominal_ctp2": {
+   "max_offdiagonal_db": -23.46107737187486,
+   "max_offdiagonal_pair": [
+    743,
+    591
+   ],
+   "median_offdiagonal_db": -158.56445605049873,
+   "n_nonzero_offdiagonal": 4455,
+   "worst_total_leakage_db": -22.72453888152566,
+   "worst_total_leakage_route": 591,
+   "mean_total_leakage_db": -1170.5031931463764,
+   "diagonal_min_db": -1.8165817250861367,
+   "diagonal_max_db": -0.2240693494208043,
+   "max_column_sum": 0.9497144919208746,
+   "all_columns_le_1": true,
+   "total_output_over_input": 0.835338136411264
+  },
+  "bounds": {
+   "max_offdiagonal_lower_db": -24.161077371874903,
+   "max_offdiagonal_upper_db": -22.761077371874872,
+   "worst_total_leakage_lower_db": -23.471310576795116,
+   "worst_total_leakage_upper_db": -21.974512178772017
+  },
+  "second_order": {
+   "n_terms": 4613,
+   "max_T": 2.3030121596847833e-06,
+   "max_T_db": -56.377037689962286
+  },
+  "multi_input_incoherent": {
+   "worst_interference_to_signal_db": -21.06143344829873,
+   "worst_output_route": 591,
+   "mean_isr_db": -82.25582991984336
+  },
+  "runtime_seconds": 2.5108792781829834
+ },
+ "board_summary_path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_out\\board\\board_summary_ctp2.json",
+ "board_summary_sha256": "1c83ed89c247123ca6c537d9db862a9ff3f7df9a744db59db284f765a65be6bb",
+ "crossings": {
+  "n_events": 2321,
+  "n_pairs": 1891,
+  "n_routes_with_crossings": 834,
+  "max_route_crossings": 91,
+  "min_angle_deg": 7.518621272471249,
+  "median_angle_deg": 65.37568164783599,
+  "max_angle_deg": 90.0,
+  "n_below_45": 134,
+  "n_below_46": 137,
+  "n_below_30": 72,
+  "n_below_10": 3,
+  "n_at_or_above_45": 2187,
+  "angle_histogram": {
+   "bin_labels": [
+    "[0,5)",
+    "[5,10)",
+    "[10,20)",
+    "[20,30)",
+    "[30,40)",
+    "[40,45)",
+    "[45,60)",
+    "[60,75)",
+    "[75,90]"
+   ],
+   "bin_edges": [
+    [
+     0.0,
+     5.0
+    ],
+    [
+     5.0,
+     10.0
+    ],
+    [
+     10.0,
+     20.0
+    ],
+    [
+     20.0,
+     30.0
+    ],
+    [
+     30.0,
+     40.0
+    ],
+    [
+     40.0,
+     45.0
+    ],
+    [
+     45.0,
+     60.0
+    ],
+    [
+     60.0,
+     75.0
+    ],
+    [
+     75.0,
+     90.0001
+    ]
+   ],
+   "counts": [
+    0,
+    3,
+    53,
+    16,
+    36,
+    26,
+    411,
+    740,
+    1036
+   ]
+  },
+  "kernel_status": {
+   "per_status": {
+    "disputed_paraxial": 62,
+    "handover:resolved|resolved_fdtd_crosschecked": 4,
+    "resolved": 3,
+    "resolved_fdtd_crosschecked": 65,
+    "upper_bound_port_floor_limited": 2187
+   },
+   "n_resolved": 68,
+   "n_floor_limited_or_handover": 2187,
+   "n_floor_limited_exact": 2187,
+   "n_handover_bracket": 4,
+   "kernel_db": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_out\\crossings\\crossing_model_database.csv",
+   "kernel_db_sha256": "bf499429a2167ed02bd6bbb6cf1020967f33ca0b3f98e4659e76a804c53a182c",
+   "kernel_theta_min": 1.0,
+   "kernel_theta_max": 90.0,
+   "kernel_n_angles": 201,
+   "floor_db": -85.0,
+   "discontinuity_note": "the kernel hands over from BPM (disputed_paraxial) to the FDFD floor between theta=45.0 deg (T_cross_db=-72.799) and theta=45.5 deg (-85.000); a ~12 dB step that is a model property, not physics"
+  },
+  "source": "analytically re-derived for this geometry (run_ctp2_g5.py), audited against g5_crossing_angles.csv",
+  "source_routes": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial\\routes_l3d.json",
+  "audit_cross_check": {
+   "against": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial\\g5_crossing_angles.csv",
+   "n_mine": 2321,
+   "n_other": 2321,
+   "n_keys_mine": 1891,
+   "n_keys_other": 1891,
+   "n_matched": 2321,
+   "n_only_mine": 0,
+   "n_only_other": 0,
+   "only_mine_keys": [],
+   "only_other_keys": [],
+   "max_abs_dx_mm": 4.999285749818227e-07,
+   "max_abs_dy_mm": 4.991281201682796e-07,
+   "max_abs_dz_mm": 0.0,
+   "max_abs_dangle_deg": 4.998557727731168e-07,
+   "worst_event": {
+    "route_a": 234,
+    "route_b": 429,
+    "z_mm": -0.025,
+    "dx_mm": 4.999285749818227e-07,
+    "dy_mm": 4.832404130183932e-07,
+    "dz_mm": 0.0,
+    "dangle_deg": 1.6030477922868158e-07
+   },
+   "s_compared_directly": false,
+   "max_abs_ds_mm": null,
+   "s_offset": {
+    "n_route_entries": 1130,
+    "n_constant_per_route": 1112,
+    "max_abs_mean_offset_mm": 167.8249466221854,
+    "max_residual_around_route_mean_mm": 97.73675803327848,
+    "note": "a per-route constant offset means the two engines differ only in the arc-length origin, not in the geometry"
+   },
+   "geometry_consistent": true,
+   "consistent": true,
+   "tol_mm": 1e-05,
+   "tol_deg": 1e-05
+  }
+ },
+ "propagation_loss": {
+  "alpha_db_per_cm": 0.05,
+  "bend_extra_loss_db": 0.0,
+  "wavelength_nm": 1310.0,
+  "n_clad": 1.5,
+  "delta_n": 0.0065,
+  "core_um": [
+   9.0,
+   9.0
+  ],
+  "n_routes": 1024,
+  "total_length_mm": 156560.51529951778,
+  "length_min_mm": 44.81386988416087,
+  "length_max_mm": 282.3219524119844,
+  "length_mean_mm": 152.89112822218533,
+  "length_median_mm": 156.9598090692405,
+  "loss_max_db": 1.411609762059922,
+  "loss_mean_db": 0.7644556411109267,
+  "loss_median_db": 0.7847990453462025,
+  "loss_min_db": 0.22406934942080436,
+  "loss_total_db": 782.8025764975889,
+  "loss_p05_db": 0.3331262287538901,
+  "loss_p95_db": 1.2265869546827548,
+  "formula": "loss_db = 0.005 * L_mm   (0.05 dB/cm), no extra bend term"
+ },
+ "hotspots": {
+  "n_clusters": 80,
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_out\\board\\crosstalk_hotspots_ctp2.json",
+  "top": [
+   {
+    "z_mm": 0.17499999999999996,
+    "x_mm": 104.265857543303,
+    "y_mm": 126.19846297893427,
+    "n_crossings": 3,
+    "total_P_cross_db": -22.5704508628216,
+    "max_P_cross_db": -22.570455827140144,
+    "min_angle_deg": 8.392203471106155,
+    "mean_angle_deg": 38.69383675113669
+   },
+   {
+    "z_mm": -0.125,
+    "x_mm": 48.021425416349246,
+    "y_mm": 18.24624765331573,
+    "n_crossings": 1,
+    "total_P_cross_db": -31.23234664342315,
+    "max_P_cross_db": -31.23234664342315,
+    "min_angle_deg": 10.161790617690203,
+    "mean_angle_deg": 10.161790617690203
+   },
+   {
+    "z_mm": -0.025,
+    "x_mm": 133.0186710306819,
+    "y_mm": 48.021425416349274,
+    "n_crossings": 1,
+    "total_P_cross_db": -31.232346643423735,
+    "max_P_cross_db": -31.232346643423735,
+    "min_angle_deg": 10.161790617690311,
+    "mean_angle_deg": 10.161790617690311
+   },
+   {
+    "z_mm": -0.075,
+    "x_mm": 101.97857458365073,
+    "y_mm": 132.30255234989593,
+    "n_crossings": 1,
+    "total_P_cross_db": -31.232346643423735,
+    "max_P_cross_db": -31.232346643423735,
+    "min_angle_deg": 10.161790617690311,
+    "mean_angle_deg": 10.161790617690311
+   },
+   {
+    "z_mm": 0.075,
+    "x_mm": 133.0186710306819,
+    "y_mm": 27.978574583650733,
+    "n_crossings": 1,
+    "total_P_cross_db": -31.232346643423735,
+    "max_P_cross_db": -31.232346643423735,
+    "min_angle_deg": 10.161790617690311,
+    "mean_angle_deg": 10.161790617690311
+   }
+  ],
+  "total_P_cross_db": -17.899200817300482
+ },
+ "bound_fraction": {
+  "available": true,
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_out\\board\\crossing_optical_analysis_ctp2.csv",
+  "n_events": 2321,
+  "n_forward_allowed": 1140,
+  "n_forward_allowed_floor_limited": 1072,
+  "sum_T_cross_forward": 0.016224247958373295,
+  "sum_T_cross_forward_floor_limited": 3.389961651700464e-06,
+  "sum_T_cross_forward_resolved_or_disputed": 0.01622085799672251,
+  "fraction_of_events_floor_limited": 0.9403508771929825,
+  "fraction_of_forward_power_floor_limited": 0.0002089441470814623,
+  "equivalent_dB_floor_contribution": -54.69805214643253,
+  "equivalent_dB_resolved_contribution": -17.899261776595722,
+  "counts_by_angle_band": {
+   "[75,90]": 1036,
+   "[60,75)": 740,
+   "[45,60)": 411,
+   "[20,30)": 16,
+   "[30,40)": 36,
+   "[40,45)": 26,
+   "[10,20)": 53,
+   "[5,10)": 3
+  },
+  "floor_counts_by_angle_band": {
+   "[75,90]": 1036,
+   "[60,75)": 740,
+   "[45,60)": 411
+  },
+  "power_by_angle_band": {
+   "[75,90]": 6.704028639556938e-07,
+   "[60,75)": 1.7677132120341412e-06,
+   "[45,60)": 9.518455757106777e-07,
+   "[30,40)": 5.8708446981668925e-06,
+   "[10,20)": 0.010656874788074122,
+   "[40,45)": 7.381625845428585e-07,
+   "[20,30)": 2.4453864368378723e-05,
+   "[5,10)": 0.0055329203369973
+  },
+  "power_share_by_angle_band": {
+   "[75,90]": 4.132104401237905e-05,
+   "[60,75)": 0.00010895501699490661,
+   "[45,60)": 5.866808607417964e-05,
+   "[30,40)": 0.000361856199019503,
+   "[10,20)": 0.6568486142110602,
+   "[40,45)": 4.549749155934803e-05,
+   "[20,30)": 0.001507241779780501,
+   "[5,10)": 0.3410278461715554
+  },
+  "statement": "the fraction of the forward-coupled power that is a floor-limited (upper-bound) value; the complement is the resolved/disputed part that is a genuine prediction"
+ },
+ "g4_bound_fraction": {
+  "available": true,
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\1130-report-materials\\experiments\\CROSSTALK_PREDICTION_CTP2_20H_1283_1024\\outputs\\board\\crossing_optical_analysis_ctp2.csv",
+  "n_events": 1283,
+  "n_forward_allowed": 856,
+  "n_forward_allowed_floor_limited": 703,
+  "sum_T_cross_forward": 0.1173809267428026,
+  "sum_T_cross_forward_floor_limited": 2.223081195098379e-06,
+  "sum_T_cross_forward_resolved_or_disputed": 0.11737870366160794,
+  "fraction_of_events_floor_limited": 0.8212616822429907,
+  "fraction_of_forward_power_floor_limited": 1.893903257357517e-05,
+  "equivalent_dB_floor_contribution": -56.53044674980174,
+  "equivalent_dB_resolved_contribution": -9.304106911737762,
+  "counts_by_angle_band": {
+   "[60,75)": 514,
+   "[75,90]": 194,
+   "[45,60)": 271,
+   "[20,30)": 52,
+   "[40,45)": 51,
+   "[10,20)": 92,
+   "[30,40)": 92,
+   "[5,10)": 17
+  },
+  "floor_counts_by_angle_band": {
+   "[60,75)": 514,
+   "[75,90]": 194,
+   "[45,60)": 271
+  },
+  "power_by_angle_band": {
+   "[60,75)": 1.350292560891904e-06,
+   "[75,90]": 1.6443843832875586e-07,
+   "[45,60)": 7.083501958777141e-07,
+   "[20,30)": 9.185855657113358e-05,
+   "[30,40)": 1.589928877901891e-05,
+   "[10,20)": 0.01342625235052419,
+   "[5,10)": 0.10384355912431237,
+   "[40,45)": 1.1343414212485918e-06
+  },
+  "power_share_by_angle_band": {
+   "[60,75)": 1.150350911652433e-05,
+   "[75,90]": 1.4008957237921849e-06,
+   "[45,60)": 6.034627733258613e-06,
+   "[20,30)": 0.00078256799567112,
+   "[30,40)": 0.00013545035995376312,
+   "[10,20)": 0.1143818908496345,
+   "[5,10)": 0.8846714879994736,
+   "[40,45)": 9.66376269744476e-06
+  },
+  "statement": "the fraction of the forward-coupled power that is a floor-limited (upper-bound) value; the complement is the resolved/disputed part that is a genuine prediction"
+ },
+ "hotspot_counts": {
+  "g5": {
+   "available": true,
+   "n_clusters_total": 829,
+   "n_stored": 80,
+   "note": "the board writes clusters[:80]; this is the full count of 2 mm x 2 mm x plane clusters over the forward-allowed events"
+  },
+  "g4": {
+   "available": true,
+   "n_clusters_total": 649,
+   "n_stored": 80,
+   "note": "the board writes clusters[:80]; this is the full count of 2 mm x 2 mm x plane clusters over the forward-allowed events"
+  }
+ },
+ "geometry_changes_vs_g4": {
+  "n_routes_compared": 1024,
+  "n_routes_changed_length_or_height": 71,
+  "n_routes_with_different_height_set": 71,
+  "delta_length_total_mm": -36.70622213924071,
+  "g4_total_length_mm": 156597.22152165722,
+  "g5_total_length_mm": 156560.51529951798,
+  "delta_length_abs_max_mm": 5.235461571714808,
+  "delta_length_abs_mean_mm": 0.08598118345854988,
+  "n_routes_abs_delta_over_1mm": 22,
+  "n_routes_abs_delta_over_10mm": 0,
+  "n_routes_longer": 38,
+  "n_routes_shorter": 29,
+  "top_length_changes": [
+   {
+    "route_id": 995,
+    "delta_mm": 5.235461571714808,
+    "g4_mm": 203.84578839277802,
+    "g5_mm": 209.08124996449283,
+    "height_set_changed": true,
+    "g4_start_z": 0.525,
+    "g5_start_z": 0.525,
+    "g4_end_z": 0.525,
+    "g5_end_z": 0.525
+   },
+   {
+    "route_id": 986,
+    "delta_mm": 5.235461571714779,
+    "g4_mm": 210.79511079077807,
+    "g5_mm": 216.03057236249285,
+    "height_set_changed": true,
+    "g4_start_z": 0.525,
+    "g5_start_z": 0.525,
+    "g4_end_z": 0.525,
+    "g5_end_z": 0.525
+   },
+   {
+    "route_id": 81,
+    "delta_mm": -5.0277854785920795,
+    "g4_mm": 136.45856104531256,
+    "g5_mm": 131.43077556672048,
+    "height_set_changed": true,
+    "g4_start_z": 0.025,
+    "g5_start_z": 0.025,
+    "g4_end_z": 0.025,
+    "g5_end_z": 0.025
+   },
+   {
+    "route_id": 361,
+    "delta_mm": -5.027785478592023,
+    "g4_mm": 136.45856104531254,
+    "g5_mm": 131.4307755667205,
+    "height_set_changed": true,
+    "g4_start_z": 0.025,
+    "g5_start_z": 0.025,
+    "g4_end_z": 0.025,
+    "g5_end_z": 0.025
+   },
+   {
+    "route_id": 376,
+    "delta_mm": -5.027785478592023,
+    "g4_mm": 119.12697261331255,
+    "g5_mm": 114.09918713472052,
+    "height_set_changed": true,
+    "g4_start_z": 0.025,
+    "g5_start_z": 0.025,
+    "g4_end_z": 0.025,
+    "g5_end_z": 0.025
+   },
+   {
+    "route_id": 379,
+    "delta_mm": -5.027785478592023,
+    "g4_mm": 115.66065492531254,
+    "g5_mm": 110.63286944672052,
+    "height_set_changed": true,
+    "g4_start_z": 0.025,
+    "g5_start_z": 0.025,
+    "g4_end_z": 0.025,
+    "g5_end_z": 0.025
+   },
+   {
+    "route_id": 800,
+    "delta_mm": -5.027785478592008,
+    "g4_mm": 75.18011343331253,
+    "g5_mm": 70.15232795472052,
+    "height_set_changed": true,
+    "g4_start_z": 0.525,
+    "g5_start_z": 0.525,
+    "g4_end_z": 0.525,
+    "g5_end_z": 0.525
+   },
+   {
+    "route_id": 82,
+    "delta_mm": -5.02778547859198,
+    "g4_mm": 132.99224335931254,
+    "g5_mm": 127.96445788072056,
+    "height_set_changed": true,
+    "g4_start_z": 0.025,
+    "g5_start_z": 0.025,
+    "g4_end_z": 0.025,
+    "g5_end_z": 0.025
+   },
+   {
+    "route_id": 783,
+    "delta_mm": -4.273744090697392,
+    "g4_mm": 87.8905848073799,
+    "g5_mm": 83.6168407166825,
+    "height_set_changed": true,
+    "g4_start_z": 0.525,
+    "g5_start_z": 0.525,
+    "g4_end_z": 0.525,
+    "g5_end_z": 0.525
+   },
+   {
+    "route_id": 777,
+    "delta_mm": -3.592027064630031,
+    "g4_mm": 99.11274880731253,
+    "g5_mm": 95.5207217426825,
+    "height_set_changed": true,
+    "g4_start_z": 0.525,
+    "g5_start_z": 0.525,
+    "g4_end_z": 0.525,
+    "g5_end_z": 0.525
+   }
+  ],
+  "note": "a route can be re-routed without crossing-angle repair; the length change is the fingerprint of a re-height or re-route"
+ },
+ "bounds_and_floor": {
+  "kernel_floor_db": -85.0,
+  "n_events_at_floor": 2187,
+  "n_events_resolved": 68,
+  "fraction_of_forward_power_floor_limited": 0.0002089441470814623,
+  "statement": "every crossing at theta >= 45.5 deg carries the FDFD port-floor upper bound instead of a resolved value; the fraction above is the share of the forward-coupled power that comes from those crossings"
+ },
+ "provenance": {
+  "ctp2_work_copy": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_g5",
+  "ctp2_frozen_model": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\1130-report-materials\\experiments\\CROSSTALK_PREDICTION_CTP2_20H_1283_1024",
+  "g4_reference_board_summary": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\1130-report-materials\\experiments\\CROSSTALK_PREDICTION_CTP2_20H_1283_1024\\outputs\\board\\board_summary_ctp2.json",
+  "g4_reference_board_summary_sha256": "c99015d47ce98050711e01896dfc31f762d0a903bb93306814793c220ca542dc",
+  "payload": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_payload_g5",
+  "out_root": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_out"
+ },
+ "runtimes_seconds": {
+  "crossing_regeneration_and_payload": 5.021,
+  "v5_near_approaches": 18.842,
+  "board": 2.511,
+  "all_stages": {
+   "prepare": 5.021,
+   "V5 near approaches": 18.842,
+   "board (run_board_ctp2.py)": 3.261
+  }
+ }
+}

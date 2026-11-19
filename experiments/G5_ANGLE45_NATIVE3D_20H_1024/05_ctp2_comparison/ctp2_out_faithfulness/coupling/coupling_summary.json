@@ -1,0 +1,49 @@
+{
+ "gamma_exact_per_um": 0.5611324496889131,
+ "gamma_measured_from_mode_tail_per_um": 0.5932490420793597,
+ "kappa_overlap_vs_supermode_median_rel_diff": 0.02685276606329584,
+ "kappa_overlap_vs_supermode_max_rel_diff": 0.03422747563661848,
+ "n_compared": 7,
+ "bpm_vs_eim_cmt_kappa_ratio_range": [
+  0.9915188030414063,
+  1.0241308631691974
+ ],
+ "eim_vs_3d_kappa_ratio_at_15um": 1.184966719726545,
+ "kappa_50um_mm_inv_asymptotic": 1.6151612563066244e-10,
+ "kappa_30um_mm_inv_asymptotic": 1.208232236271468e-05,
+ "supermode_values_at_large_d_are_noise": [
+  {
+   "d_um": 25.0,
+   "kappa_values": [
+    0.0002288468953322253,
+    0.00020510900867876005,
+    0.0001570691815383237
+   ],
+   "spread_mm_inv": 7.177771379390159e-05,
+   "kappa_median_mm_inv": 0.00020510900867876005
+  },
+  {
+   "d_um": 40.0,
+   "kappa_values": [
+    6.707930997754058e-06,
+    6.791422049612268e-06,
+    2.0755853339992144e-05
+   ],
+   "spread_mm_inv": 1.4047922342238087e-05,
+   "kappa_median_mm_inv": 6.791422049612268e-06
+  },
+  {
+   "d_um": 50.0,
+   "kappa_values": [
+    1.1510773844422605e-05,
+    2.1744330714799005e-07,
+    2.2476071148208015e-05
+   ],
+   "spread_mm_inv": 2.2258627841060024e-05,
+   "kappa_median_mm_inv": 1.1510773844422605e-05
+  }
+ ],
+ "coupling_length_50um_mm": 9725321980.461712,
+ "resolution_statement": "the supermode splitting is numerically resolved up to ~24 um; at 40-50 um the splitting (Delta n_eff ~ 1e-8) is at the eigen-solver noise floor, its sign is not stable under sub-grid layout shifts, and its apparent magnitude does not decay with distance -- it is not a physical coupling coefficient.  The overlap integral + exact cladding decay constant gives kappa(50 um) = 1.615e-10 1/mm.",
+ "runtime_seconds": 115.4859139919281
+}

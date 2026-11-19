@@ -1,0 +1,74 @@
+{
+ "schema": "ctp2_g5_s_convention_v1",
+ "geometry": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+ "self_consistency": {
+  "max_abs_pos_error_mm": 1.1368683772161603e-13,
+  "max_abs_pair_gap_mm": 1.1718571004216928e-13,
+  "max_abs_z_gap_mm": 0.0,
+  "verdict": "detector (route_a, s_a) is in CTP-2.0's own arclength parameterisation: Route.pos(s) reproduces the crossing point to 1e-13 mm"
+ },
+ "audit_csv": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\00_baseline_audit\\baseline_crossing_angles.csv",
+ "audit_vs_detector": {
+  "n_ref_rows": 1283,
+  "n_matched": 1283,
+  "n_unmatched_ref": 0,
+  "n_route_s_pairs": 2566,
+  "n_explained_by_flat_part_start": 462,
+  "fraction_explained": 0.18004676539360873,
+  "max_abs_residual_mm": 185.485282109435,
+  "n_routes": 647,
+  "n_routes_with_nonzero_offset": 568,
+  "n_routes_with_constant_offset": 639,
+  "examples_not_explained": [
+   {
+    "route_id": 723,
+    "my_s_mm": 39.97630873651585,
+    "ref_s_mm": 35.139266,
+    "offset_mm": -4.837042736515848,
+    "flat_part_start_mm": 31.83862324068996,
+    "residual_mm": 27.00158050417411
+   },
+   {
+    "route_id": 743,
+    "my_s_mm": 67.2060573729529,
+    "ref_s_mm": 62.369015,
+    "offset_mm": -4.837042372952901,
+    "flat_part_start_mm": 60.417623997689944,
+    "residual_mm": 55.58058162473704
+   },
+   {
+    "route_id": 744,
+    "my_s_mm": 56.54310855104453,
+    "ref_s_mm": 52.82708,
+    "offset_mm": -3.7160285510445306,
+    "flat_part_start_mm": 34.57185629945056,
+    "residual_mm": 30.85582774840603
+   },
+   {
+    "route_id": 980,
+    "my_s_mm": 69.3647018963043,
+    "ref_s_mm": 65.648673,
+    "offset_mm": -3.7160288963042944,
+    "flat_part_start_mm": 56.17706207445057,
+    "residual_mm": 52.46103317814627
+   },
+   {
+    "route_id": 742,
+    "my_s_mm": 140.17091073940907,
+    "ref_s_mm": 135.333868,
+    "offset_mm": -4.837042739409071,
+    "flat_part_start_mm": 94.52854989961341,
+    "residual_mm": 89.69150716020434
+   },
+   {
+    "route_id": 976,
+    "my_s_mm": 39.18615249333681,
+    "ref_s_mm": 34.34911,
+    "offset_mm": -4.83704249333681,
+    "flat_part_start_mm": 37.87681253687381,
+    "residual_mm": 33.039770043537
+   }
+  ]
+ },
+ "conclusion": "The audit CSV's s_a/s_b are measured from the start of the flat part that carries the crossing, not from the route start as CTP-2.0's Route.pos() requires.  The crossing SET, the positions and the angles agree to 5e-7.  Therefore the audit CSV corroborates the set/positions/angles, while s_a/s_b must come from the detector so that Route.pos()/tangent() are evaluated at the true crossing point (verified here to 1e-13 mm)."
+}

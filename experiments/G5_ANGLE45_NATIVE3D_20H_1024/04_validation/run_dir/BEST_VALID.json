@@ -1,0 +1,14 @@
+{
+ "schema": "g5_best_valid_v1",
+ "label": "G5-free best partial: original constraints PASS, 134 residual sub-45 deg",
+ "legal": false,
+ "theta_min_deg": 45.0,
+ "routed": 1024,
+ "failed": 0,
+ "crossings": 2321,
+ "violations_below_45": 134,
+ "min_angle_deg": 7.518621,
+ "routes_sha256": "df4f2bf1b8c00f3b8e89895bd403cd9b105efa5c82adde8bf0e9060838629023",
+ "acceptance_rule": "fully legal only: 1024/1024 routed, 0 failed, 0 crossings below 45 deg, R15, D56 and 3-D clearance unchanged, independent validators PASS",
+ "source_routes": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial\\routes_l3d.json"
+}

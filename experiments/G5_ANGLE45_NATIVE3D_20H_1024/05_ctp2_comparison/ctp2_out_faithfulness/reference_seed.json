@@ -1,0 +1,29 @@
+{
+ "schema": "ctp2_g5_reference_seed_v1",
+ "out_root": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_out_faithfulness",
+ "seed_source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_g5\\outputs",
+ "note": "geometry-independent CTP-2.0 outputs (crossing kernel database theta=1..90 deg, V1 modes, V2 coupling, fullwave anchors) are reused as-is because they depend only on the cross-section and on the crossing angle -- never on the routing geometry. They are COPIED, never hardlinked, so a write can never reach the frozen tree.",
+ "n_copied": 0,
+ "n_already_present": 18,
+ "copied": [],
+ "already_present": [
+  "crossings/crossing_model_database.csv",
+  "crossings/crossing_bpm2d_fine.csv",
+  "crossings/crossing_bpm3d_subset.csv",
+  "crossings/crossing_born_all.csv",
+  "crossings/crossing_fdfd_large_angle.csv",
+  "crossings/crossing_database_summary.json",
+  "crossings/multimode_crossing_smatrix.csv",
+  "crossings/multimode_summary.json",
+  "modes/single_waveguide_modes.csv",
+  "modes/mode_convergence.csv",
+  "modes/mode_sensitivity.csv",
+  "modes/mode_summary.json",
+  "coupling/coupling_summary.json",
+  "coupling/kappa_database.csv",
+  "coupling/kappa_overlap_resolved.csv",
+  "coupling/kappa_vertical_offsets.csv",
+  "coupling/supermode_noise_floor.csv",
+  "coupling/bpm_parallel_validation.csv"
+ ]
+}

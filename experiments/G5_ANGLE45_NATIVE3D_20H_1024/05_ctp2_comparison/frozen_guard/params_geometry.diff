@@ -1,0 +1,231 @@
+--- frozen/src/ctp2/geometry.py
++++ g5_copy/src/ctp2/geometry.py
+@@ -1,12 +1,14 @@
+-﻿"""Frozen-input loading, SHA256 verification and analytic route geometry.
+-
+-The authoritative routing solution is ``COLD_START_20_HEIGHT_1024/10_best_valid``.
+-Nothing in this module writes to it.  Every route is rebuilt from its analytic
+-primitives (``line`` / ``arc`` / ``transition``) so that position, tangent and
+-arc length are available at *any* arc-length coordinate -- no polyline
+-approximation is used for the authoritative quantities (total length, crossing
+-positions).  Dense polylines are used only as a *search structure* for
+-neighbour queries.
++"""Frozen-input loading, SHA256 verification and analytic route geometry.
++
++G5 WORK COPY: the authoritative routing solution is now whatever
++``params.BEST_VALID`` points at (default
++``G5_ANGLE45_NATIVE3D_20H_1024/03_best_feasible``); the frozen original read
++``COLD_START_20_HEIGHT_1024/10_best_valid``.  Nothing in this module writes to
++either directory.  Every route is rebuilt from its analytic primitives
++(``line`` / ``arc`` / ``transition``) so that position, tangent and arc length
++are available at *any* arc-length coordinate -- no polyline approximation is
++used for the authoritative quantities (total length, crossing positions).
++Dense polylines are used only as a *search structure* for neighbour queries.
+ """
+ from __future__ import annotations
+ 
+@@ -76,7 +78,9 @@
+         }
+     routes_sha = out["files"]["routes_l3d.json"]["sha256"]
+     out["routes_sha256_matches_frozen"] = routes_sha == ROUTES_SHA256
+-    out["n_expected_crossings"] = 1283
++    out["best_valid_dir"] = str(BEST_VALID)
++    out["routes_sha256_expected"] = ROUTES_SHA256
++    out["n_expected_crossings"] = N_CROSSINGS
+     return out
+ 
+ 
+@@ -371,17 +375,38 @@
+ 
+ # ---------------------------------------------------------------- crossing list
+ def load_crossings() -> list[dict]:
+-    """Authoritative 1283 crossing events (from the validated CTP-1.0 geometry
+-    engine), re-verified here against the official ``crossing_stats.json``."""
++    """Verified crossing events of *this* geometry.
++
++    G5 WORK COPY — behaviour deliberately changed
++    ---------------------------------------------
++    The frozen CTP-2.0 version silently fell back to CTP-1.0's **G4** crossing
++    CSV when ``OUT_CROSSINGS/crossing_events_verified.csv`` was absent
++    (``_read_legacy_crossings()``).  That fallback is exactly the trap that would
++    let a "G5" board run be built from G4 crossings with no warning, so here it
++    raises instead.  ``_read_legacy_crossings()`` is kept so that the
++    faithfulness harness can *explicitly* reproduce the G4 list and prove the
++    two code paths are numerically identical.
++
++    To produce the file: ``run_ctp2_g5.py --stage crossings`` (analytic
++    re-derivation from ``routes_l3d.json``, cross-checked against the G5
++    project's own ``g5_crossing_angles.csv``).
++    """
+     csv_path = OUT_CROSSINGS / "crossing_events_verified.csv"
+-    if csv_path.exists():
+-        import csv as _csv
+-        with open(csv_path, newline="", encoding="utf-8") as fh:
+-            return [dict(r) for r in _csv.DictReader(fh)]
+-    return _read_legacy_crossings()
++    if not csv_path.exists():
++        raise RuntimeError(
++            "crossing_events_verified.csv is missing from "
++            f"{OUT_CROSSINGS}\n"
++            "The G4 legacy fallback is DISABLED in this work copy: a run must "
++            "never inherit another geometry's crossing list. Regenerate the "
++            "crossings for this geometry first "
++            "(python run_ctp2_g5.py --stage crossings).")
++    import csv as _csv
++    with open(csv_path, newline="", encoding="utf-8") as fh:
++        return [dict(r) for r in _csv.DictReader(fh)]
+ 
+ 
+ def _read_legacy_crossings() -> list[dict]:
++    """Frozen G4 crossing list (CTP-1.0 e4 output). Explicit use only."""
+     import pandas as pd
+     p = (REPO_ROOT_CTP1() / "outputs" / "geometry" / "crossing_events_detected.csv")
+     df = pd.read_csv(p)
+@@ -430,8 +455,11 @@
+         "max_angle_mismatch_deg": max(err_ang),
+         "max_z_mismatch_mm": max(same_z),
+         "all_same_plane": max(same_z) < 1e-9,
++        # G5 WORK COPY: the frozen 1221/647 literals are gone; the comparison is
++        # against whatever this geometry's own crossing_stats.json declares.
+         "counts_match_official": (
+-            len(ev) == int(off.get("total_crossings", off.get("crossings", 1283)))
+-            and len(pairs) == 1221 and len(routes_with) == 647),
++            len(ev) == int(off.get("total_crossings", off.get("crossings", -1)))
++            and len(pairs) == int(off.get("crossing_pairs", -1))
++            and len(routes_with) == int(off.get("routes_with_crossings", -1))),
+     }
+ 
+--- frozen/src/ctp2/params.py
++++ g5_copy/src/ctp2/params.py
+@@ -1,4 +1,14 @@
+ """Immutable physical / board parameters for CTP-2.0 and the sweep presets.
++
++>>> G5 WORK COPY <<<
++This file is a copy of
++``work/1130-report-materials/experiments/CROSSTALK_PREDICTION_CTP2_20H_1283_1024/
++src/ctp2/params.py`` living in
++``OpticalWaveguideRouter2D/experiments/G5_ANGLE45_NATIVE3D_20H_1024/
++05_ctp2_comparison/ctp2_g5/``.  Only the *path block* (marked below) and the
++``G4_REF_*`` expected-input constants were touched; every physical constant,
++the optics dataclass and the sweep presets are byte-identical to the frozen
++original.  The frozen tree is never imported and never written.
+ 
+ Everything that is *frozen* by the project specification lives here as a
+ module-level constant so that no script can silently change it:
+@@ -15,6 +25,7 @@
+ from __future__ import annotations
+ 
+ import math
++import os
+ from dataclasses import dataclass, field, replace
+ from pathlib import Path
+ 
+@@ -31,15 +42,32 @@
+ CORE_W_UM = 9.0
+ CORE_H_UM = 9.0
+ 
+-N_ROUTES = 1024
++# --- expected-input "truth" -------------------------------------------------
++# G4_REF_* are the frozen G4 values that CTP-2.0 was published against.  They
++# are kept here verbatim so the faithfulness check can be run against the frozen
++# payload.  For a G5 run the driver ``05_ctp2_comparison/run_ctp2_g5.py`` always
++# exports CTP2_* and the values below are replaced by the G5 payload's own
++# numbers; nothing here raises, so a mismatch is *visible* in the emitted JSON
++# (``authoritative_total_length_mm``) rather than fatal.
++G4_REF_N_ROUTES = 1024
++G4_REF_N_CROSSINGS = 1283
++G4_REF_N_CROSSING_PAIRS = 1221
++G4_REF_N_ROUTES_WITH_CROSSINGS = 647
++G4_REF_TOTAL_LENGTH_MM = 156597.221522
++G4_REF_ROUTES_SHA256 = "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753"
++
++N_ROUTES = int(os.environ.get("CTP2_N_ROUTES", G4_REF_N_ROUTES))
++N_CROSSINGS = int(os.environ.get("CTP2_N_CROSSINGS", G4_REF_N_CROSSINGS))
++N_CROSSING_PAIRS = int(os.environ.get("CTP2_N_CROSSING_PAIRS",
++                                      G4_REF_N_CROSSING_PAIRS))
++N_ROUTES_WITH_CROSSINGS = int(os.environ.get("CTP2_N_ROUTES_WITH_CROSSINGS",
++                                             G4_REF_N_ROUTES_WITH_CROSSINGS))
++TOTAL_LENGTH_MM = float(os.environ.get("CTP2_TOTAL_LENGTH_MM",
++                                       G4_REF_TOTAL_LENGTH_MM))
++ROUTES_SHA256 = os.environ.get("CTP2_ROUTES_SHA256", G4_REF_ROUTES_SHA256)
+ N_PLANES = 20
+ N_BODY_PLANES = 18
+ N_INTERFACE_PLANES = 2
+-N_CROSSINGS = 1283
+-N_CROSSING_PAIRS = 1221
+-N_ROUTES_WITH_CROSSINGS = 647
+-TOTAL_LENGTH_MM = 156597.221522
+-ROUTES_SHA256 = "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753"
+ MIN_BEND_RADIUS_MM = 15.0
+ MIN_3D_CLEARANCE_MM = 0.05
+ MIN_LAYER_PITCH_MM = 0.05
+@@ -52,20 +80,56 @@
+     17: 0.575, 18: 0.625,
+ }
+ 
+-# .../experiments/CROSSTALK_PREDICTION_CTP2_20H_1283_1024/src/ctp2/params.py
++# ---------------------------------------------------------------------------
++# G5 WORK-COPY PATH BLOCK  (the ONLY behavioural edit versus the frozen CTP-2.0
++# tree; see ../../PIPELINE_G5.md for the exact diff)
++#
++#   frozen original                      this copy
++#   ------------------------------       ------------------------------------
++#   BEST_VALID = <G4 10_best_valid>  ->  <G5 03_best_feasible>   (default)
++#   OUT_*      = EXPERIMENT/outputs  ->  <05_ctp2_comparison>/ctp2_out/*
++#   CTP1_DIR   = <CTP-1.0 tree>      ->  unchanged (fallback is now disabled in
++#                                        geometry.load_crossings(), so it is
++#                                        never used implicitly)
++#
++# Every override is resolved at *import* time so that modules doing
++# ``from .params import TOTAL_LENGTH_MM`` see the same value.
++# ---------------------------------------------------------------------------
+ _HERE = Path(__file__).resolve()
+-EXPERIMENT = _HERE.parents[2]                 # .../CROSSTALK_PREDICTION_CTP2_20H_1283_1024
+-REPO_ROOT = _HERE.parents[4]                  # .../1130-report-materials
+-
+-CTP1_DIR = REPO_ROOT / "experiments" / "CROSSTALK_PREDICTION_20H_1283_1024"
+-BEST_VALID = REPO_ROOT / "experiments" / "COLD_START_20_HEIGHT_1024" / "10_best_valid"
+-
+-OUT_MODES = EXPERIMENT / "outputs" / "modes"
+-OUT_COUPLING = EXPERIMENT / "outputs" / "coupling"
+-OUT_CROSSINGS = EXPERIMENT / "outputs" / "crossings"
+-OUT_BOARD = EXPERIMENT / "outputs" / "board"
+-OUT_FIGURES = EXPERIMENT / "outputs" / "figures"
+-OUT_FULLWAVE = EXPERIMENT / "outputs" / "fullwave"
++EXPERIMENT = _HERE.parents[2]                 # .../05_ctp2_comparison/ctp2_g5
++REPO_ROOT = _HERE.parents[4]                  # .../G5_ANGLE45_NATIVE3D_20H_1024
++
++#: the routing project root (the copy lives inside it, the frozen CTP-2.0 tree
++#: does not, so this is spelled out instead of being derived)
++PROJECT_ROOT = Path(r"C:\Users\lihao\Desktop\Graduation Project"
++                    r"\OpticalWaveguideRouter2D")
++G5_EXPERIMENT = PROJECT_ROOT / "experiments" / "G5_ANGLE45_NATIVE3D_20H_1024"
++COMPARISON_DIR = G5_EXPERIMENT / "05_ctp2_comparison"
++
++#: default input geometry = the G5 feasible solution
++DEFAULT_BEST_VALID = G5_EXPERIMENT / "03_best_feasible"
++#: default output root = 05_ctp2_comparison/ctp2_out  (never the frozen
++#: ``work\...\CROSSTALK_PREDICTION_CTP2_20H_1283_1024\outputs\``)
++DEFAULT_OUT_ROOT = COMPARISON_DIR / "ctp2_out"
++
++BEST_VALID = Path(os.environ.get("CTP2_BEST_VALID") or DEFAULT_BEST_VALID)
++OUT_ROOT = Path(os.environ.get("CTP2_OUT_ROOT") or DEFAULT_OUT_ROOT)
++
++#: provenance label written into every summary (which geometry produced this)
++GEOMETRY_LABEL = os.environ.get("CTP2_GEOMETRY_LABEL",
++                                "G5_ANGLE45_NATIVE3D_20H_1024/03_best_feasible")
++
++CTP1_DIR = Path(os.environ.get("CTP2_CTP1_DIR") or (
++    PROJECT_ROOT / "experiments" / "CROSSTALK_PREDICTION_20H_1283_1024"))
++
++OUT_MODES = OUT_ROOT / "modes"
++OUT_COUPLING = OUT_ROOT / "coupling"
++OUT_CROSSINGS = OUT_ROOT / "crossings"
++OUT_BOARD = OUT_ROOT / "board"
++OUT_FIGURES = OUT_ROOT / "figures"
++OUT_FULLWAVE = OUT_ROOT / "fullwave"
++#: geometry-independent numerical cache; copied (not linked) so a write here can
++#: never reach the frozen tree
+ CACHE = EXPERIMENT / "cache"
+ 
+ for _d in (OUT_MODES, OUT_COUPLING, OUT_CROSSINGS, OUT_BOARD, OUT_FIGURES,

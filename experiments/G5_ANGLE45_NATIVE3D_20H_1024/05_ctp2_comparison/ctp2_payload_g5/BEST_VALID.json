@@ -1,0 +1,17 @@
+{
+ "schema": "ctp2_g5_best_valid_v1",
+ "label": "G5_ANGLE45_NATIVE3D_20H_1024/03_best_partial",
+ "built_by": "05_ctp2_comparison/run_ctp2_g5.py",
+ "built_at": "2026-11-20T00:44:47+0800",
+ "routes_source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial\\routes_l3d.json",
+ "routes_sha256": "df4f2bf1b8c00f3b8e89895bd403cd9b105efa5c82adde8bf0e9060838629023",
+ "routes": 1024,
+ "total_length_mm": 156560.51529951798,
+ "crossings": 2321,
+ "crossing_pairs": 1891,
+ "routes_with_crossings": 834,
+ "max_route_crossings": 91,
+ "min_crossing_angle_deg": 7.518621272471249,
+ "crossing_list": "crossings/crossing_events_verified.csv (regenerated analytically for this geometry)",
+ "acceptance_rule": "a G5 payload must never contain a crossing list inherited from another geometry"
+}

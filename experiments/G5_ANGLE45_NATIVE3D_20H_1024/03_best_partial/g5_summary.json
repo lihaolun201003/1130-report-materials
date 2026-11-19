@@ -1,0 +1,34 @@
+{
+ "label": "G5-free best partial: original constraints PASS, 134 residual sub-45 deg",
+ "routes_sha256": "88cc793679bba243845f20d30cac9a8b2049a29422cbc1445091b2fb58d54427",
+ "baseline_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "legal": false,
+ "violations": 134,
+ "crossings": 2321,
+ "pairs": 1891,
+ "min_angle_deg": 7.518621,
+ "deficit_deg": 2539.854013,
+ "max_deficit_deg": 37.481379,
+ "hard_issues": 0,
+ "three_d_issues": 0,
+ "three_d_minima": {
+  "flat_flat_mm": 0.05,
+  "transition_flat_mm": 0.061834798,
+  "transition_transition_mm": 0.1
+ },
+ "structure_issues": 0,
+ "self_clearance_issues": 0,
+ "min_self_clearance_mm": 1.0,
+ "total_length_mm": 156560.5153,
+ "routes": 1024,
+ "heights_used": 20,
+ "routes_changed": 125,
+ "routes_moved_plane": 61,
+ "validator_A": {
+  "validation_pass": true,
+  "geometry_pass": true,
+  "contract_pass": true,
+  "violation_count": 0,
+  "violation_counts_by_check": {}
+ }
+}

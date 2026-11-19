@@ -1,0 +1,196 @@
+{
+ "schema": "ctp2_g5_detector_validation_v1",
+ "geometry": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+ "routes_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "detector_stats": {
+  "n_routes": 1024,
+  "n_flat_primitives": 6115,
+  "n_planes_with_primitives": 20,
+  "intersection_tests": 1682399,
+  "raw_events": 1302,
+  "events": 1283,
+  "pairs": 1221,
+  "routes_with_crossings": 647,
+  "events_transverse": 1283,
+  "events_tangential": 0,
+  "max_route_crossings": 17,
+  "min_angle_deg": 5.153763467155517,
+  "max_angle_deg": 90.0,
+  "total_length_mm": 156597.22152165722
+ },
+ "angle_histogram": {
+  "bin_labels": [
+   "[0,5)",
+   "[5,10)",
+   "[10,20)",
+   "[20,30)",
+   "[30,40)",
+   "[40,45)",
+   "[45,60)",
+   "[60,75)",
+   "[75,90]"
+  ],
+  "bin_edges": [
+   [
+    0.0,
+    5.0
+   ],
+   [
+    5.0,
+    10.0
+   ],
+   [
+    10.0,
+    20.0
+   ],
+   [
+    20.0,
+    30.0
+   ],
+   [
+    30.0,
+    40.0
+   ],
+   [
+    40.0,
+    45.0
+   ],
+   [
+    45.0,
+    60.0
+   ],
+   [
+    60.0,
+    75.0
+   ],
+   [
+    75.0,
+    90.0001
+   ]
+  ],
+  "counts": [
+   0,
+   17,
+   92,
+   52,
+   92,
+   51,
+   271,
+   514,
+   194
+  ]
+ },
+ "min_angle_deg": 5.153763467155517,
+ "n_below_45": 304,
+ "checks": {
+  "ctp1_e4": {
+   "against": "CTP-1.0 e4 crossing_events_detected.csv",
+   "n_mine": 1283,
+   "n_other": 1283,
+   "n_keys_mine": 1221,
+   "n_keys_other": 1221,
+   "n_matched": 1283,
+   "n_only_mine": 0,
+   "n_only_other": 0,
+   "only_mine_keys": [],
+   "only_other_keys": [],
+   "max_abs_dx_mm": 1.7763568394002505e-15,
+   "max_abs_dy_mm": 1.4210854715202004e-14,
+   "max_abs_dz_mm": 0.0,
+   "max_abs_dangle_deg": 4.263256414560601e-14,
+   "worst_event": {
+    "route_a": 107,
+    "route_b": 114,
+    "z_mm": -0.125,
+    "dx_mm": 0.0,
+    "dy_mm": 1.4210854715202004e-14,
+    "dz_mm": 0.0,
+    "dangle_deg": 4.263256414560601e-14
+   },
+   "s_compared_directly": true,
+   "max_abs_ds_mm": 5.684341886080802e-14,
+   "s_offset": {
+    "n_route_entries": 807,
+    "n_constant_per_route": 807,
+    "max_abs_mean_offset_mm": 2.842170943040401e-14,
+    "max_residual_around_route_mean_mm": 3.410605131648481e-14,
+    "note": "a per-route constant offset means the two engines differ only in the arc-length origin, not in the geometry"
+   },
+   "geometry_consistent": true,
+   "consistent": true,
+   "tol_mm": 1e-06,
+   "tol_deg": 1e-06
+  },
+  "g5_audit_engine": {
+   "against": "G5 baseline_crossing_angles.csv",
+   "n_mine": 1283,
+   "n_other": 1283,
+   "n_keys_mine": 1221,
+   "n_keys_other": 1221,
+   "n_matched": 1283,
+   "n_only_mine": 0,
+   "n_only_other": 0,
+   "only_mine_keys": [],
+   "only_other_keys": [],
+   "max_abs_dx_mm": 4.999060934096633e-07,
+   "max_abs_dy_mm": 4.972687790427699e-07,
+   "max_abs_dz_mm": 0.0,
+   "max_abs_dangle_deg": 4.998557727731168e-07,
+   "worst_event": {
+    "route_a": 513,
+    "route_b": 833,
+    "z_mm": 0.375,
+    "dx_mm": 4.999060934096633e-07,
+    "dy_mm": 0.0,
+    "dz_mm": 0.0,
+    "dangle_deg": 7.947434710331436e-09
+   },
+   "s_compared_directly": false,
+   "max_abs_ds_mm": null,
+   "s_offset": {
+    "n_route_entries": 807,
+    "n_constant_per_route": 802,
+    "max_abs_mean_offset_mm": 132.75850898223743,
+    "max_residual_around_route_mean_mm": 88.51747870474784,
+    "note": "a per-route constant offset means the two engines differ only in the arc-length origin, not in the geometry"
+   },
+   "geometry_consistent": true,
+   "consistent": true,
+   "tol_mm": 1e-06,
+   "tol_deg": 1e-06
+  },
+  "histogram_matches_published": true,
+  "n_events_matches_published": true,
+  "n_below_45_matches_published": true,
+  "min_angle_matches_published": true
+ },
+ "published_audit_report": {
+  "n_crossings": 1283,
+  "n_below_45": 304,
+  "min_angle_deg": 5.153763,
+  "bin_labels": [
+   "[0,5)",
+   "[5,10)",
+   "[10,20)",
+   "[20,30)",
+   "[30,40)",
+   "[40,45)",
+   "[45,60)",
+   "[60,75)",
+   "[75,90]"
+  ],
+  "bin_counts": [
+   0,
+   17,
+   92,
+   52,
+   92,
+   51,
+   271,
+   514,
+   194
+  ]
+ },
+ "all_pass": true,
+ "elapsed_seconds": 3.638
+}

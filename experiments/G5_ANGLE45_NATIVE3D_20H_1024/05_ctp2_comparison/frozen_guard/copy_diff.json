@@ -1,0 +1,31 @@
+{
+ "frozen_root": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\1130-report-materials\\experiments\\CROSSTALK_PREDICTION_CTP2_20H_1283_1024",
+ "copy_root": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_g5",
+ "scopes": [
+  "src",
+  "scripts",
+  "config",
+  "tests",
+  "docs"
+ ],
+ "n_files_frozen": 53,
+ "n_files_copy": 53,
+ "n_changed": 2,
+ "n_added": 0,
+ "n_removed": 0,
+ "changed": [
+  {
+   "path": "src/ctp2/geometry.py",
+   "sha256_frozen": "002abd230d705ab44a797eb6fa7867b63c1fec5ef033700fd74f6dc05cba7221",
+   "sha256_copy": "0224c2de76fdb7169b64300b639e23e3c740d7e89b537e4de3b7774aee2bd520"
+  },
+  {
+   "path": "src/ctp2/params.py",
+   "sha256_frozen": "436d640f50ddc6554a415ea2baa573bb7c0485ac6de701b11c11263ecd1eeca2",
+   "sha256_copy": "f7658c2b2d7864bb24fc462be68d7c19a11e2ef3d097ad21a6afed7b9ce63d3a"
+  }
+ ],
+ "added": [],
+ "removed": [],
+ "identical": false
+}

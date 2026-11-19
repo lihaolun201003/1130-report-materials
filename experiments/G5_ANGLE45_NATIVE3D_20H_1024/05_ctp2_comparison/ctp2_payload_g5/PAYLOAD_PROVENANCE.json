@@ -1,0 +1,59 @@
+{
+ "schema": "ctp2_g5_payload_provenance_v1",
+ "geometry_label": "G5_ANGLE45_NATIVE3D_20H_1024/03_best_partial",
+ "generated": "2026-11-20T00:44:47+0800",
+ "generator": "run_ctp2_g5.py",
+ "routes_source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial\\routes_l3d.json",
+ "routes_source_sha256": "df4f2bf1b8c00f3b8e89895bd403cd9b105efa5c82adde8bf0e9060838629023",
+ "files": {
+  "routes_l3d.json": {
+   "origin": "copied from the given G5 routes file",
+   "sha256": "df4f2bf1b8c00f3b8e89895bd403cd9b105efa5c82adde8bf0e9060838629023",
+   "bytes": 2429955
+  },
+  "assignment_1024.csv": {
+   "origin": "copied from C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial",
+   "sha256": "5abb13315f3f31c1a5552cae95583cebd66009609c53443c3ea319392790335e",
+   "bytes": 130150,
+   "identical_to_g4_frozen": true
+  },
+  "layer_planes.json": {
+   "origin": "copied from C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial",
+   "sha256": "40e3940260aad26afacd4858f09d39068e14b2117a6217cea4dd66a5e85a099f",
+   "bytes": 7319,
+   "identical_to_g4_frozen": true
+  },
+  "physical_layer_stack.json": {
+   "origin": "copied from C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial",
+   "sha256": "432cf953939b9d5c1dab804c1d0f792d9384c7373850ea16696b2b8681f4335a",
+   "bytes": 10360,
+   "identical_to_g4_frozen": true
+  },
+  "process_rules.json": {
+   "origin": "copied from C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial",
+   "sha256": "da223ccd107286d1122db08abc1a46ec569a2be1955ce779f943f17b2c3de592",
+   "bytes": 3063,
+   "identical_to_g4_frozen": true
+  },
+  "crossing_stats.json": {
+   "origin": "REGENERATED from the analytic crossing re-derivation",
+   "sha256": "324d46f7e57af9e05552265ded2f9398cd6bdd92c3853e907a13e4cf71e5941e",
+   "bytes": 337622
+  },
+  "validation.json": {
+   "origin": "copied from C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial\\validation.json (G5 geometry audit)",
+   "sha256": "d2b9edf5cbafe304207235e6e6c79d0d4c7275d8416599ac89fe990c8235c0ca",
+   "bytes": 58613
+  },
+  "BEST_VALID.json": {
+   "origin": "GENERATED manifest for this payload",
+   "sha256": "6718ce209f3c511f615fb1a3219d0216330e780c255005fbd036a2952913e83c",
+   "bytes": 874
+  },
+  "SHA256.json": {
+   "origin": "REGENERATED over this payload",
+   "sha256": "8950dd8d17bbe96329cf2d2f9c0a32d66ef627f3bc1e93139c2d63a5fc76ea2f",
+   "bytes": 1042
+  }
+ }
+}

@@ -1,0 +1,48 @@
+[E1] loaded 1024 routes; sha256 index verified
+      assignment_1024.csv                      5abb13315f3f31c1... ok=True
+      BEST_VALID.json                          becea7753110c54b... ok=False
+      crossing_stats.json                      02ee0533bb338d8c... ok=True
+      layer_planes.json                        40e3940260aad26a... ok=True
+      physical_layer_stack.json                432cf953939b9d5c... ok=True
+      process_rules.json                       da223ccd107286d1... ok=True
+      routes_l3d.json                          35d7ebed00339bee... ok=True
+      validation\validation.json               237a2e15e0d7c278... ok=True
+      validation\validator_consistency_tests.json 1f40eef921365a70... ok=True
+      validation.json                          b6526b6dc537d2f8... ok=True
+
+[E1] summary
+      route_count                                  1024
+      unique_route_ids                             1024
+      total_length_mm                              156597.22152165702
+      authoritative_total_length_mm                156597.221522
+      absolute_error_mm                            -3.429886419326067e-07
+      relative_error                               -2.190260073576216e-12
+      max_route_decomposition_error_mm             4.973514933226397e-10
+      total_L_straight_mm                          111670.22724679044
+      total_L_planar_arc_mm                        38802.04314835739
+      total_L_transition_arc_mm                    6124.951126508513
+      total_L_other_curve_mm                       0.0
+      length_mean_mm                               152.92697414224318
+      length_std_mm                                55.608799308852504
+      length_min_mm                                44.81386988416087
+      length_max_mm                                282.3219524119844
+      length_p05_mm                                66.625245750778
+      length_p50_mm                                156.9598090692405
+      length_p95_mm                                245.31739093655094
+      total_loss_db                                782.9861076082848
+      loss_mean_db                                 0.764634870711216
+      loss_min_db                                  0.22406934942080436
+      loss_max_db                                  1.411609762059922
+      n_routes_with_mid_transition                 36
+      n_multi_arc_routes                           658
+      total_segments                               8065
+      total_lines                                  4267
+      total_arcs                                   1848
+      length_check_passed                          True
+      all_decompositions_exact                     True
+      alpha_db_per_cm                              0.05
+      bend_extra_loss_db                           0.0
+
+[E1] done in 0.59s
+
+[harness] exitcode=0 wall_seconds=0.851 interpreter=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe

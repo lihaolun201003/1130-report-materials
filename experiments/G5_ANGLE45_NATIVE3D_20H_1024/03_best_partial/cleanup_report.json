@@ -1,0 +1,178 @@
+{
+ "history": [
+  {
+   "round": 0,
+   "validator": {
+    "exit_code": 1,
+    "seconds": 20.3,
+    "violation_count": 131,
+    "validation_pass": false,
+    "geometry_pass": false,
+    "contract_pass": true,
+    "kinds": {
+     "clearance": 25,
+     "native_metadata": 78,
+     "structure": 28
+    },
+    "offending": [
+     26,
+     28,
+     36,
+     101,
+     104,
+     114,
+     121,
+     130,
+     142,
+     157,
+     162,
+     170,
+     172,
+     204,
+     219,
+     224,
+     225,
+     228,
+     238,
+     306,
+     377,
+     414,
+     429,
+     432,
+     435,
+     459,
+     472,
+     492,
+     493,
+     527,
+     565,
+     591,
+     620,
+     652,
+     671,
+     774,
+     879,
+     973,
+     987,
+     1015
+    ],
+    "report": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial_cleanup\\validation_0\\validation.json"
+   },
+   "audit": {
+    "crossings": 2313,
+    "violations": 80,
+    "min_angle_deg": 7.518621,
+    "deficit_deg": 1325.15935,
+    "max_deficit_deg": 37.481379,
+    "hard_issues": 0
+   },
+   "reverted_total": 0
+  },
+  {
+   "round": 1,
+   "validator": {
+    "exit_code": 1,
+    "seconds": 20.2,
+    "violation_count": 6,
+    "validation_pass": false,
+    "geometry_pass": false,
+    "contract_pass": true,
+    "kinds": {
+     "clearance": 5,
+     "crossings": 1
+    },
+    "offending": [
+     228,
+     408,
+     591,
+     631
+    ],
+    "report": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial_cleanup\\validation_1\\validation.json"
+   },
+   "audit": {
+    "crossings": 2338,
+    "violations": 130,
+    "min_angle_deg": 7.518621,
+    "deficit_deg": 2475.120822,
+    "max_deficit_deg": 37.481379,
+    "hard_issues": 1
+   },
+   "reverted_total": 40
+  },
+  {
+   "round": 2,
+   "validator": {
+    "exit_code": 0,
+    "seconds": 20.3,
+    "violation_count": 0,
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "kinds": {},
+    "offending": [],
+    "report": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\03_best_partial_cleanup\\validation_2\\validation.json"
+   },
+   "audit": {
+    "crossings": 2321,
+    "violations": 134,
+    "min_angle_deg": 7.518621,
+    "deficit_deg": 2539.854013,
+    "max_deficit_deg": 37.481379,
+    "hard_issues": 0
+   },
+   "reverted_total": 42
+  }
+ ],
+ "reverted_routes": [
+  26,
+  28,
+  36,
+  101,
+  104,
+  114,
+  121,
+  130,
+  142,
+  157,
+  162,
+  170,
+  172,
+  204,
+  219,
+  224,
+  225,
+  228,
+  238,
+  306,
+  377,
+  408,
+  414,
+  429,
+  432,
+  435,
+  459,
+  472,
+  492,
+  493,
+  527,
+  565,
+  591,
+  620,
+  631,
+  652,
+  671,
+  774,
+  879,
+  973,
+  987,
+  1015
+ ],
+ "final_audit": {
+  "crossings": 2321,
+  "violations": 134,
+  "min_angle_deg": 7.518621,
+  "deficit_deg": 2539.854013,
+  "max_deficit_deg": 37.481379,
+  "hard_issues": 0
+ }
+}

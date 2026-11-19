@@ -1,0 +1,19 @@
+{
+ "schema": "g5_local_repair_v1",
+ "events": 304,
+ "fixed": 190,
+ "unfixed": 114,
+ "fixed_by": {
+  "corridor": 30,
+  "reheight": 141,
+  "excursion": 19
+ },
+ "evaluated": {
+  "reheight": 2420,
+  "corridor": 2646,
+  "excursion": 2553
+ },
+ "reject_hard": 4100,
+ "reject_violations": 3329,
+ "seconds": 144.6
+}

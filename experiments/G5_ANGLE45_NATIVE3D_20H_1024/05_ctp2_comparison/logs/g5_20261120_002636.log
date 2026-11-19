@@ -1,0 +1,14 @@
+# run_ctp2_g5.py  mode=g5  stages=['compare']
+# python           : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe
+# CTP-2.0 work copy: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_g5
+# CTP-2.0 frozen   : C:\Users\lihao\Desktop\Graduation Project\work\1130-report-materials\experiments\CROSSTALK_PREDICTION_CTP2_20H_1283_1024
+# routes           : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid\routes_l3d.json
+# payload          : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_payload_g4selftest
+# out root         : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out_g4selftest
+# log              : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\logs\g5_20261120_002636.log
+[g4] frozen board summary -15.206468704880304 dB max pair; 1283 crossings, 304 below 45 deg
+[compare] -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\g4selftest_summary.json
+[compare] -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\g4selftest_comparison.md
+
+[done] stage runtimes: 
+[done] total 0.19s

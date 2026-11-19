@@ -1,0 +1,18 @@
+# E2 rerun on the frozen G4 input (sandbox mirror), unmodified scripts\run_e2.py
+# start=2026-11-19T23:14:40+08:00
+[E2] reference: n_guided=3 n_eff=[1.504557 1.501874 1.501874]
+      REF            modes=3 n_eff=1.504557
+      lambda_1550    modes=3 n_eff=1.504036
+      dn_0.0045      modes=3 n_eff=1.502756
+      dn_0.0080      modes=4 n_eff=1.505951
+      w_6um          modes=3 n_eff=1.503917
+      w_12um         modes=5 n_eff=1.504914
+      h_7um          modes=3 n_eff=1.504151
+      h_11um         modes=4 n_eff=1.504808
+      profile_graded modes=3 n_eff=1.503425
+[E2] done in 5.8s
+
+[harness] EXITCODE=0 WALL_SECONDS=6.503
+[harness] outputs verified byte-identical to the published ones:
+[harness]   e2_summary.json, mode_convergence.csv, mode_sweep.csv, single_waveguide_modes.csv
+[harness]   mode_reference.npz sha256 = 329b52cef73a59eb... (== simulation_manifest.json record)

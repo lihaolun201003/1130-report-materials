@@ -1,0 +1,32 @@
+# run_ctp2_g5.py  mode=faithfulness  stages=['prepare', 'v5', 'board', 'compare']
+# python           : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\.venv\Scripts\python.exe
+# CTP-2.0 work copy: C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_g5
+# CTP-2.0 frozen   : C:\Users\lihao\Desktop\Graduation Project\work\1130-report-materials\experiments\CROSSTALK_PREDICTION_CTP2_20H_1283_1024
+# routes           : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\03_best_feasible\routes_l3d.json
+# payload          : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_payload_g5
+# out root         : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out
+# log              : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\logs\faithfulness_20261120_000733.log
+[faithfulness] geometry = frozen G4 payload C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\10_best_valid
+[faithfulness] output root = C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out_faithfulness
+[faithfulness] legacy crossing rows = 1283
+[faithfulness] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out_faithfulness\crossings\crossing_events_verified.csv (1283 rows)
+[faithfulness] legacy(pandas) vs verified(csv) rows: 1283/1283  compared 10264 floats  max |delta| = 0.0  identical=True
+[crossings] detected 1283 events / 1221 pairs / 647 routes (1682399 primitive-pair tests)
+[faithfulness] detector: 1283 events / 1221 pairs / 647 routes; vs legacy: matched=1283 only_det=0 only_legacy=0 max|dx|=2.842e-14 max|ds|=5.684e-14 max|dangle|=4.263e-14 consistent=True
+[seed] 0 reference files copied, 18 already present -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\ctp2_out_faithfulness\reference_seed.json
+
+=== faithfulness: V5 near approaches (G4) ===
+   rc=0 16.847s
+--- faithfulness: V5 near approaches (G4): 16.86s
+
+=== faithfulness: board (G4) ===
+   rc=0 2.576s
+--- faithfulness: board (G4): 2.59s
+
+[faithfulness] 36/36 checks pass; headline 6-sig-digit: True
+[faithfulness] full recursive diff of board_summary_ctp2.json: 1 differing leaf/leaves, 0 unexpected
+    DIFF /runtime_seconds: frozen=1.9036781787872314 reproduced=1.9065675735473633
+    max_offdiagonal_db                 frozen=-15.206468704880304      reproduced=-15.206468704880304      abs_delta=0.000e+00 sig_digits=inf
+    worst_total_leakage_db             frozen=-14.769540964146534      reproduced=-14.769540964146534      abs_delta=0.000e+00 sig_digits=inf
+    worst_interference_to_signal_db    frozen=-12.711747549665644      reproduced=-12.711747549665644      abs_delta=0.000e+00 sig_digits=inf
+[faithfulness] -> C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G5_ANGLE45_NATIVE3D_20H_1024\05_ctp2_comparison\faithfulness\faithfulness_proof.json

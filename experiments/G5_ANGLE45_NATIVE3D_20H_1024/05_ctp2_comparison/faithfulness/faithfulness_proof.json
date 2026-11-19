@@ -1,0 +1,417 @@
+{
+ "schema": "ctp2_g5_faithfulness_proof_v1",
+ "generated": "2026-11-20T00:07:57+0800",
+ "purpose": "prove the work copy ctp2_g5 is a faithful copy of the frozen CTP-2.0 model: given the frozen G4 payload and the frozen G4 crossing list it must reproduce the published numbers",
+ "geometry": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid",
+ "frozen_board_summary": "C:\\Users\\lihao\\Desktop\\Graduation Project\\work\\1130-report-materials\\experiments\\CROSSTALK_PREDICTION_CTP2_20H_1283_1024\\outputs\\board\\board_summary_ctp2.json",
+ "frozen_board_summary_sha256": "c99015d47ce98050711e01896dfc31f762d0a903bb93306814793c220ca542dc",
+ "output_root": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_out_faithfulness",
+ "headline": {
+  "max_offdiagonal_db": {
+   "frozen": -15.206468704880304,
+   "reproduced": -15.206468704880304,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass_at_6_sig": true
+  },
+  "worst_total_leakage_db": {
+   "frozen": -14.769540964146534,
+   "reproduced": -14.769540964146534,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass_at_6_sig": true
+  },
+  "worst_interference_to_signal_db": {
+   "frozen": -12.711747549665644,
+   "reproduced": -12.711747549665644,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass_at_6_sig": true
+  }
+ },
+ "headline_all_pass": true,
+ "checks": [
+  {
+   "metric": "nominal_ctp2.max_offdiagonal_db",
+   "frozen": -15.206468704880304,
+   "reproduced": -15.206468704880304,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.worst_total_leakage_db",
+   "frozen": -14.769540964146534,
+   "reproduced": -14.769540964146534,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.diagonal_min_db",
+   "frozen": -1.8789188513758748,
+   "reproduced": -1.8789188513758748,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.diagonal_max_db",
+   "frozen": -0.2240693494208043,
+   "reproduced": -0.2240693494208043,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.median_offdiagonal_db",
+   "frozen": -86.33490333450976,
+   "reproduced": -86.33490333450976,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.mean_total_leakage_db",
+   "frozen": -1424.666575324963,
+   "reproduced": -1424.666575324963,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.max_column_sum",
+   "frozen": 0.9497144919208746,
+   "reproduced": 0.9497144919208746,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.total_output_over_input",
+   "frozen": 0.8322675320859682,
+   "reproduced": 0.8322675320859682,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.max_offdiagonal_pair",
+   "frozen": [
+    743,
+    723
+   ],
+   "reproduced": [
+    743,
+    723
+   ],
+   "abs_delta": null,
+   "significant_digits": null,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.worst_total_leakage_route",
+   "frozen": 743,
+   "reproduced": 743,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.n_nonzero_offdiagonal",
+   "frozen": 3248,
+   "reproduced": 3248,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "nominal_ctp2.all_columns_le_1",
+   "frozen": true,
+   "reproduced": true,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "bounds.max_offdiagonal_lower_db",
+   "frozen": -15.906468704880313,
+   "reproduced": -15.906468704880313,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "bounds.max_offdiagonal_upper_db",
+   "frozen": -14.50646870488031,
+   "reproduced": -14.50646870488031,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "bounds.worst_total_leakage_lower_db",
+   "frozen": -15.472380065904119,
+   "reproduced": -15.472380065904119,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "bounds.worst_total_leakage_upper_db",
+   "frozen": -14.06573507297268,
+   "reproduced": -14.06573507297268,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "multi_input_incoherent.worst_interference_to_signal_db",
+   "frozen": -12.711747549665644,
+   "reproduced": -12.711747549665644,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "multi_input_incoherent.worst_output_route",
+   "frozen": 743,
+   "reproduced": 743,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "multi_input_incoherent.mean_isr_db",
+   "frozen": -84.97766148429046,
+   "reproduced": -84.97766148429046,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "crossings.n_events",
+   "frozen": 1283,
+   "reproduced": 1283,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "crossings.n_forward_allowed",
+   "frozen": 856,
+   "reproduced": 856,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "crossings.n_forward_blocked",
+   "frozen": 427,
+   "reproduced": 427,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "crossings.T_cross_db_min",
+   "frozen": -85.0,
+   "reproduced": -85.0,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "crossings.T_cross_db_max",
+   "frozen": -14.365259750408583,
+   "reproduced": -14.365259750408583,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "crossings.T_cross_db_median",
+   "frozen": -85.0,
+   "reproduced": -85.0,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "crossings.angle_min_deg",
+   "frozen": 5.153763467155517,
+   "reproduced": 5.153763467155517,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "crossings.angle_median_deg",
+   "frozen": 63.256316049596855,
+   "reproduced": 63.256316049596855,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "crossings.n_events_above_minus40dB",
+   "frozen": 63,
+   "reproduced": 63,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "crossings.n_events_above_minus30dB",
+   "frozen": 17,
+   "reproduced": 17,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "baseline_ctp1_fixed_p.max_offdiagonal_db",
+   "frozen": -67.41532751175713,
+   "reproduced": -67.41532751175713,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "baseline_ctp1_fixed_p.worst_total_leakage_db",
+   "frozen": -60.48486486628533,
+   "reproduced": -60.48486486628533,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "second_order.n_terms",
+   "frozen": 2660,
+   "reproduced": 2660,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "second_order.max_T_db",
+   "frozen": -37.86998586546566,
+   "reproduced": -37.86998586546566,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "frozen_geometry.n_routes",
+   "frozen": 1024,
+   "reproduced": 1024,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "frozen_geometry.n_crossings",
+   "frozen": 1283,
+   "reproduced": 1283,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  },
+  {
+   "metric": "frozen_geometry.total_length_mm",
+   "frozen": 156597.22152165722,
+   "reproduced": 156597.22152165722,
+   "abs_delta": 0.0,
+   "significant_digits": Infinity,
+   "pass": true
+  }
+ ],
+ "n_checks": 36,
+ "n_checks_failed": 0,
+ "all_checks_pass": true,
+ "full_board_summary_diff": {
+  "n_differing_leaves": 1,
+  "differing_leaves": [
+   {
+    "path": "/runtime_seconds",
+    "frozen": 1.9036781787872314,
+    "reproduced": 1.9065675735473633,
+    "note": "value differs"
+   }
+  ],
+  "n_unexpected": 0,
+  "unexpected": [],
+  "note": "a full recursive diff of the reproduced vs frozen board_summary_ctp2.json; the only tolerated difference is runtime_seconds"
+ },
+ "crossing_list": {
+  "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\CROSSTALK_PREDICTION_20H_1283_1024\\outputs\\geometry\\crossing_events_detected.csv",
+  "source_sha256": "4904c9ee6e5f5ba9e8d73d2cde9d812687b19f1578f28f9bad060f4e81aecec1",
+  "n_rows": 1283,
+  "legacy_vs_verified_csv_max_abs_delta": 0.0,
+  "legacy_vs_verified_csv_identical": true
+ },
+ "detector_vs_legacy": {
+  "against": "CTP-1.0 e4 legacy CSV",
+  "n_mine": 1283,
+  "n_other": 1283,
+  "n_keys_mine": 1221,
+  "n_keys_other": 1221,
+  "n_matched": 1283,
+  "n_only_mine": 0,
+  "n_only_other": 0,
+  "only_mine_keys": [],
+  "only_other_keys": [],
+  "max_abs_dx_mm": 2.842170943040401e-14,
+  "max_abs_dy_mm": 2.842170943040401e-14,
+  "max_abs_dz_mm": 0.0,
+  "max_abs_dangle_deg": 4.263256414560601e-14,
+  "worst_event": {
+   "route_a": 107,
+   "route_b": 114,
+   "z_mm": -0.125,
+   "dx_mm": 3.552713678800501e-15,
+   "dy_mm": 1.4210854715202004e-14,
+   "dz_mm": 0.0,
+   "dangle_deg": 4.263256414560601e-14
+  },
+  "s_compared_directly": true,
+  "max_abs_ds_mm": 5.684341886080802e-14,
+  "s_offset": {
+   "n_route_entries": 807,
+   "n_constant_per_route": 807,
+   "max_abs_mean_offset_mm": 2.842170943040401e-14,
+   "max_residual_around_route_mean_mm": 3.979039320256561e-14,
+   "note": "a per-route constant offset means the two engines differ only in the arc-length origin, not in the geometry"
+  },
+  "geometry_consistent": true,
+  "consistent": true,
+  "tol_mm": 1e-06,
+  "tol_deg": 1e-06
+ },
+ "detector_stats": {
+  "n_routes": 1024,
+  "n_flat_primitives": 6115,
+  "n_planes_with_primitives": 20,
+  "intersection_tests": 1682399,
+  "raw_events": 1302,
+  "events": 1283,
+  "pairs": 1221,
+  "routes_with_crossings": 647,
+  "events_transverse": 1283,
+  "events_tangential": 0,
+  "max_route_crossings": 17,
+  "min_angle_deg": 5.153763467155517,
+  "max_angle_deg": 90.0,
+  "total_length_mm": 156597.22152165722
+ },
+ "runtimes_seconds": {
+  "v5": 16.847,
+  "board": 2.576
+ },
+ "total_length_mm": {
+  "passed_to_model": 156597.221522,
+  "computed_from_routes": 156597.22152165722,
+  "abs_delta_mm": 3.4278491511940956e-07
+ },
+ "verdict": "FAITHFUL: the copy reproduces the frozen CTP-2.0 G4 board summary bit-for-bit"
+}

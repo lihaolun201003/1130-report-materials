@@ -1,0 +1,33 @@
+{
+ "n_polyline_points": 887079,
+ "n_candidate_pairs": 92733,
+ "n_crossing_pairs_excluded": 1221,
+ "n_noncrosing_pairs": 91554,
+ "min_distance_noncrosing_um": 50.00000020000627,
+ "median_distance_um": 152.48756868477648,
+ "pairs_within_50um": 0,
+ "pairs_within_80um": 9310,
+ "pairs_within_150um": 43945,
+ "max_integrated_amplitude": 1.2921288600289286e-09,
+ "max_integrated_power": 1.6695969909196587e-18,
+ "max_integrated_power_db": -177.77388346661917,
+ "worst_pair": {
+  "route_a": 10.0,
+  "route_b": 140.0
+ },
+ "kappa_model": {
+  "gamma_um": 0.5611324496889131,
+  "gamma_measured_um": 0.5932490420792863,
+  "kappa_30um": 1.2082322362707853e-05,
+  "kappa_50um": 1.615161256305712e-10,
+  "kappa_80um": 7.894308478602503e-18
+ },
+ "rigorous_bound_note": "a <= L_route * kappa(d_min); with the largest route length 282.3 mm and the largest kappa(d_min) of the table this bounds the accumulated parallel/cross-layer coupling on the whole board",
+ "rigorous_global_amp_bound": 4.276660555816727e-08,
+ "rigorous_global_power_bound": 1.8289825509678636e-15,
+ "bound_pair": {
+  "route_a": 615,
+  "route_b": 644
+ },
+ "runtime_seconds": 15.699387311935425
+}
