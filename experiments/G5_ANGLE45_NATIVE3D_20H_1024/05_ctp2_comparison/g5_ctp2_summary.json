@@ -1,6 +1,6 @@
 {
  "schema": "ctp2_g5_summary_v1",
- "generated": "2026-11-20T00:45:37+0800",
+ "generated": "2026-11-20T00:46:05+0800",
  "model": "CTP-2.0",
  "model_version_string": "CTP-2.0 (work copy, G5 geometry)",
  "geometry_label": "G5_ANGLE45_NATIVE3D_20H_1024/03_best_partial",
@@ -564,13 +564,9 @@
   "out_root": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\05_ctp2_comparison\\ctp2_out"
  },
  "runtimes_seconds": {
-  "crossing_regeneration_and_payload": 5.021,
-  "v5_near_approaches": 18.842,
+  "crossing_regeneration_and_payload": 0.0,
+  "v5_near_approaches": 0.0,
   "board": 2.511,
-  "all_stages": {
-   "prepare": 5.021,
-   "V5 near approaches": 18.842,
-   "board (run_board_ctp2.py)": 3.261
-  }
+  "all_stages": {}
  }
 }

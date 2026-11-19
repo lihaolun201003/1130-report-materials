@@ -2000,14 +2000,18 @@ def write_comparison_md(g5: dict, g4: dict, stem: str = "g5_ctp2") -> Path:
     A(f"| handover bracket (status changes between adjacent kernel angles) | — "
       f"| {ks['n_handover_bracket']} |")
     A("")
+    n_disputed = int(ks["per_status"].get("disputed_paraxial", 0))
+    n_exact_floor = int(ks["per_status"].get("upper_bound_port_floor_limited", 0))
     A(f"G4 status mix is not tabulated here because CTP-2.0's published board")
     A(f"summary does not carry it; it is recoverable from")
     A(f"`crossings/crossing_optical_analysis_ctp2.csv` of the frozen run.")
-    A(f"The G5 mix is what matters: **{n_res} crossings fall into the kernel's")
-    A(f"resolved rows, {n_floor} into the floor / handover rows.** (The")
-    A(f"`< 30°` count above is by angle; the resolved-row count differs slightly")
-    A(f"where a crossing sits in a 0.25° kernel bracket whose two ends carry")
-    A(f"different statuses — {ks['n_handover_bracket']} such events here.)")
+    A(f"The G5 mix is what matters: **{n_res} resolved, "
+      f"{ks['n_handover_bracket']} in a status-changing 0.25° bracket, "
+      f"{n_disputed} disputed (30–45°), {n_exact_floor} at the −85 dB floor** "
+      f"(Σ = {n_res + ks['n_handover_bracket'] + n_disputed + n_exact_floor}).")
+    A(f"(The `< 30°` count above is by angle; the resolved-row count differs")
+    A(f"slightly where a crossing sits in a kernel bracket whose two ends carry")
+    A(f"different statuses.)")
     A("")
 
     # --------------------------------------------------------- propagation
@@ -2109,12 +2113,14 @@ def write_comparison_md(g5: dict, g4: dict, stem: str = "g5_ctp2") -> Path:
         A(f"     quantity, so the bound is one-sided.")
         A(f"   * diagonal, propagation loss, route lengths — resolved (not bounds).")
     else:
-        A(f"2. G5's minimum crossing angle is {o5_min:.6f}°, so **{n_res} of "
-          f"{c5['n_events']} crossings fall in the kernel's resolved rows** and")
-        A(f"   {n_floor} in the floor/handover rows. The geometry is **mixed**:")
-        A(f"   entries driven by a resolved crossing are predictions, entries")
-        A(f"   driven by θ ≥ 45.5° crossings are upper bounds. Do not label the")
-        A(f"   whole table 'bound' or the whole table 'prediction'.")
+        A(f"2. G5's minimum crossing angle is {o5_min:.6f}°. Of the "
+          f"{c5['n_events']} crossings: **{n_res} are in the kernel's resolved")
+        A(f"   rows**, {n_disputed} are disputed (30–45°), {n_exact_floor} are at")
+        A(f"   the −85 dB floor and {ks['n_handover_bracket']} sit in a")
+        A(f"   status-changing bracket. The geometry is **mixed**: entries driven")
+        A(f"   by a resolved crossing are predictions, entries driven by θ ≥ 45.5°")
+        A(f"   crossings are upper bounds. Do not label the whole table 'bound' nor")
+        A(f"   the whole table 'prediction'.")
         A(f"3. There is a ~12 dB hand-over step in the kernel between 45.0°")
         A(f"   (−72.799 dB, `disputed_paraxial`) and 45.5° (−85.000 dB, floor). The")
         A(f"   crossing set spans both sides, so no single side applies;")
@@ -2209,8 +2215,9 @@ def write_comparison_md(g5: dict, g4: dict, stem: str = "g5_ctp2") -> Path:
             A("positions and angles differ only by the audit CSV's 6-decimal")
             A("rounding. The `s_a_mm`/`s_b_mm` columns are deliberately *not* taken")
             A("from the audit CSV (different arc-length origin, constant per route,")
-            A("up to 132 mm) — they come from the regeneration, whose")
-            A("`Route.pos(s_a)` reproduces the crossing point to 1e-13 mm; see")
+            A(f"up to {(ax.get('s_offset') or {}).get('max_abs_mean_offset_mm', 0):.3f} mm)")
+            A("— they come from the regeneration, whose `Route.pos(s_a)` reproduces")
+            A("the crossing point to 1e-13 mm; see")
             A("`frozen_guard/s_convention_report.json`.")
             A("")
     else:

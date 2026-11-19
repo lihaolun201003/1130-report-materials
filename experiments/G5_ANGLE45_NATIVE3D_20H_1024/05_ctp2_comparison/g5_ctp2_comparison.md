@@ -1,6 +1,6 @@
 # CTP-2.0 on `G5_ANGLE45_NATIVE3D_20H_1024/03_best_partial` — G4 vs G5
 
-Generated 2026-11-20T00:45:37+0800 by `05_ctp2_comparison/run_ctp2_g5.py`.
+Generated 2026-11-20T00:46:05+0800 by `05_ctp2_comparison/run_ctp2_g5.py`.
 
 * model: **CTP-2.0** — the same code that produced the published G4
   numbers, run from the work copy `05_ctp2_comparison/ctp2_g5/` with the
@@ -134,11 +134,10 @@ forward-coupled power (3.390e-06 of 1.622e-02).
 G4 status mix is not tabulated here because CTP-2.0's published board
 summary does not carry it; it is recoverable from
 `crossings/crossing_optical_analysis_ctp2.csv` of the frozen run.
-The G5 mix is what matters: **68 crossings fall into the kernel's
-resolved rows, 2187 into the floor / handover rows.** (The
-`< 30°` count above is by angle; the resolved-row count differs slightly
-where a crossing sits in a 0.25° kernel bracket whose two ends carry
-different statuses — 4 such events here.)
+The G5 mix is what matters: **68 resolved, 4 in a status-changing 0.25° bracket, 62 disputed (30–45°), 2187 at the −85 dB floor** (Σ = 2321).
+(The `< 30°` count above is by angle; the resolved-row count differs
+slightly where a crossing sits in a kernel bracket whose two ends carry
+different statuses.)
 
 ## 4. Propagation loss (regenerated for G5)
 
@@ -226,11 +225,13 @@ summed per-crossing transfer `P_cross`. Clusters stored: **G4 80, G5 80**.
    (`resolved` / `resolved_fdtd_crosschecked`), disputed for 30–45°, and
    for θ ≥ 45.5° it reports an **upper bound at the −85 dB FDFD port
    floor** (`status = upper_bound_port_floor_limited`).
-2. G5's minimum crossing angle is 7.518621°, so **68 of 2321 crossings fall in the kernel's resolved rows** and
-   2187 in the floor/handover rows. The geometry is **mixed**:
-   entries driven by a resolved crossing are predictions, entries
-   driven by θ ≥ 45.5° crossings are upper bounds. Do not label the
-   whole table 'bound' or the whole table 'prediction'.
+2. G5's minimum crossing angle is 7.518621°. Of the 2321 crossings: **68 are in the kernel's resolved
+   rows**, 62 are disputed (30–45°), 2187 are at
+   the −85 dB floor and 4 sit in a
+   status-changing bracket. The geometry is **mixed**: entries driven
+   by a resolved crossing are predictions, entries driven by θ ≥ 45.5°
+   crossings are upper bounds. Do not label the whole table 'bound' nor
+   the whole table 'prediction'.
 3. There is a ~12 dB hand-over step in the kernel between 45.0°
    (−72.799 dB, `disputed_paraxial`) and 45.5° (−85.000 dB, floor). The
    crossing set spans both sides, so no single side applies;
@@ -302,8 +303,9 @@ The two independent implementations agree on **every** event; the
 positions and angles differ only by the audit CSV's 6-decimal
 rounding. The `s_a_mm`/`s_b_mm` columns are deliberately *not* taken
 from the audit CSV (different arc-length origin, constant per route,
-up to 132 mm) — they come from the regeneration, whose
-`Route.pos(s_a)` reproduces the crossing point to 1e-13 mm; see
+up to 167.825 mm)
+— they come from the regeneration, whose `Route.pos(s_a)` reproduces
+the crossing point to 1e-13 mm; see
 `frozen_guard/s_convention_report.json`.
 
 ## 8. Reproduce
