@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import csv
 import json
+import math
 import os
 from collections import Counter, defaultdict
 
@@ -213,6 +214,7 @@ def fig_angle_hist(csv_before, csv_after, out_path):
 
 
 def fig_per_layer(csv_path, out_path):
+    """20-panel map of the final same-height crossings (colour by pass/fail)."""
     rows = _read_crossings(csv_path)
     levels = sorted({round(row['z'], 6) for row in rows})
     fig, axes = plt.subplots(4, 5, figsize=(16, 13))
@@ -225,10 +227,9 @@ def fig_per_layer(csv_path, out_path):
         bad = [row for row in here if row['angle'] < 45]
         good = [row for row in here if row['angle'] >= 45]
         axis.scatter([row['x'] for row in good], [row['y'] for row in good],
-                     s=3, c='#2471a3', alpha=0.45, label='>=45')
+                     s=3, c='#2471a3', alpha=0.45)
         axis.scatter([row['x'] for row in bad], [row['y'] for row in bad],
-                     s=16, c='#c0392b', alpha=0.9, marker='x',
-                     label='<45')
+                     s=16, c='#c0392b', alpha=0.9, marker='x')
         axis.set_xlim(0, 150)
         axis.set_ylim(0, 150)
         axis.set_aspect('equal')
@@ -243,6 +244,56 @@ def fig_per_layer(csv_path, out_path):
     fig.suptitle('G6 final geometry: same-height crossings per physical layer')
     fig.tight_layout(rect=(0, 0, 1, 0.95))
     fig.savefig(out_path, dpi=150)
+    plt.close(fig)
+    return out_path
+
+
+def _sample_primitive(prim, count=12):
+    """Sample one JSON flat primitive to a list of (x, y) points."""
+    if prim.get('kind') == 'line':
+        return [tuple(prim['p0']), tuple(prim['p1'])]
+    center = prim.get('center') or (0.0, 0.0)
+    radius = float(prim.get('radius') or 0.0)
+    start = float(prim.get('start_angle') or 0.0)
+    sweep = float(prim.get('sweep') or 0.0)
+    return [(center[0] + radius * math.cos(start + sweep * index / count),
+             center[1] + radius * math.sin(start + sweep * index / count))
+            for index in range(count + 1)]
+
+
+def fig_per_layer_geometry(routes_json, out_path):
+    """20-panel map of every routed centreline + the crossings on that layer."""
+    with open(routes_json, encoding='utf-8') as handle:
+        doc = json.load(handle)
+    layers = {}
+    for route in doc.get('routes') or ():
+        for part in route.get('parts') or ():
+            if part.get('kind') != 'flat':
+                continue
+            layer = layers.setdefault(round(float(part['z_mm']), 6), [])
+            for prim in part.get('primitives') or ():
+                layer.append(_sample_primitive(prim))
+    levels = sorted(layers)
+    fig, axes = plt.subplots(4, 5, figsize=(17, 14))
+    for index, axis in enumerate(axes.ravel()):
+        if index >= len(levels):
+            axis.axis('off')
+            continue
+        level = levels[index]
+        for polyline in layers[level]:
+            axis.plot([point[0] for point in polyline],
+                      [point[1] for point in polyline],
+                      lw=0.25, color='#5d6d7e', alpha=0.55)
+        axis.set_xlim(0, 150)
+        axis.set_ylim(0, 150)
+        axis.set_aspect('equal')
+        axis.set_title(f'z={level:+.3f} mm  routes={len(layers[level])}',
+                       fontsize=8)
+        axis.tick_params(labelsize=6)
+    fig.suptitle('G6 final geometry: all 1024 true-XYZ routes, one panel per '
+                 'physical height')
+    fig.tight_layout(rect=(0, 0, 1, 0.95))
+    fig.savefig(out_path, dpi=140)
     plt.close(fig)
     return out_path
 

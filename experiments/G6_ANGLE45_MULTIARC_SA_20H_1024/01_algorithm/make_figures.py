@@ -56,6 +56,11 @@ def main():
             os.path.join(FIG, 'fig04_angle_histogram_before_after.png')))
         made.append(plots.fig_per_layer(
             after_csv, os.path.join(FIG, 'fig05_per_layer_crossings.png')))
+    routes_json = os.path.join(EXP, '03_best_feasible', 'routes_l3d.json')
+    if os.path.exists(routes_json):
+        made.append(plots.fig_per_layer_geometry(
+            routes_json,
+            os.path.join(FIG, 'fig07_per_layer_all_routes.png')))
     early = os.path.join(RUN, 'early2')
     off = os.path.join(early, 'early_off', 'early_stats.json')
     on = os.path.join(early, 'early_on', 'early_stats.json')
