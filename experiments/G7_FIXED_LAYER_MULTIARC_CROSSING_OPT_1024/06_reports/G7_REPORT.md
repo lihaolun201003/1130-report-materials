@@ -2,7 +2,7 @@
 
 **Fixed-Layer MultiArc Crossing Minimization (G7)** — 在 G6 的 45° 合法解（4578 次同层交叉）上，冻结每条线路的真实高度序列、R15 升降过渡、端口与 368 条人工 U 结构，只重新规划 MultiArc 主体几何，以 `min N_cross` 为唯一主目标。
 
-Generated 2026-11-21 01:11:32 by `01_algorithm/build_report_g7.py`.
+Generated 2026-11-21 01:11:54 by `01_algorithm/build_report_g7.py`.
 
 ## 0. 结论摘要
 
@@ -180,7 +180,7 @@ SA 全程记录的**有效改进移动**次数：N1=493、N2=38、N3=9。单线�
 experiments/G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024/
   00_frozen_g6/    frozen G6 payload + SHA256 + frozen manifest
   01_algorithm/    G7 source snapshot + drivers
-  02_sa_runs/      arm_A_n1 / arm_B_joint / arm_C_hotspot / phase2 / polish_best
+  02_sa_runs/      arm_A_plane / arm_B_plane / arm_C_plane / final_sa / polish_fixed_plane / _pilot_wrong_plane
   03_best_valid/   FINAL G7 legal solution + dual verdict
   04_validation/   validator outputs, fixed verifier, self-tests
   05_figures/      convergence, layer maps, angle histograms
@@ -196,7 +196,7 @@ experiments/G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024/
 1. **固定层下 4578 次交叉最终降到多少？** **4353**（−225，−4.9%）。
 2. **是否始终保持全部交叉角 ≥45°？** 是。每次接受移动后都用权威 fslw 严格审计重审，非法即回滚；最终 B 验证 <45° = 0。
 3. **G7 最小交叉角？** **45.005916711°**。
-4. **单线路 MultiArc 退火贡献多少？** 实验 A（10 种子）最好 **4427**（较 G6 下降 151）。
+4. **单线路 MultiArc 退火贡献多少？** 实验 A（8 种子 × 480 s）最好 **4427**（较 G6 下降 151）。
 5. **多线路联合额外贡献多少？** 实验 B 最好 **4453**、实验 C 最好 **4425**；第二阶段从最佳部分解继续搜索后，联合收尾把最终结果推到 **4353**。
 6. **哪些层交叉下降最多？** z=+0.375 mm（−56）、z=-0.025 mm（−52）、z=+0.175 mm（−28）、z=-0.125 mm（−19）、z=-0.325 mm（−18）。
 7. **哪些剩余交叉最难消除？** 见 6.2 的残余探针（blocked=22/30 对）与 `06_reports/g7_analysis.json` 逐对明细。

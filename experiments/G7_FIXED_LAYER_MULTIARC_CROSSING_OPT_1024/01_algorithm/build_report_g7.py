@@ -348,7 +348,7 @@ def main(argv=None):
     add('experiments/G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024/')
     add('  00_frozen_g6/    frozen G6 payload + SHA256 + frozen manifest')
     add('  01_algorithm/    G7 source snapshot + drivers')
-    add('  02_sa_runs/      arm_A_n1 / arm_B_joint / arm_C_hotspot / phase2 / polish_best')
+    add('  02_sa_runs/      arm_A_plane / arm_B_plane / arm_C_plane / final_sa / polish_fixed_plane / _pilot_wrong_plane')
     add('  03_best_valid/   FINAL G7 legal solution + dual verdict')
     add('  04_validation/   validator outputs, fixed verifier, self-tests')
     add('  05_figures/      convergence, layer maps, angle histograms')
@@ -373,7 +373,7 @@ def main(argv=None):
     arm_a = (arms.get('A', (None, []))[1] or [{}])[0]
     arm_b = (arms.get('B', (None, []))[1] or [{}])[0]
     arm_c = (arms.get('C', (None, []))[1] or [{}])[0]
-    add('4. **单线路 MultiArc 退火贡献多少？** 实验 A（10 种子）最好 **%s**'
+    add('4. **单线路 MultiArc 退火贡献多少？** 实验 A（8 种子 × 480 s）最好 **%s**'
         '（较 G6 下降 %s）。' %
         (f(arm_a.get('crossings')),
          f((before_cross or 0) - (arm_a.get('crossings') or before_cross))))
