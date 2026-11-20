@@ -2,7 +2,7 @@
 
 **Fixed-Layer MultiArc Crossing Minimization (G7)** — 在 G6 的 45° 合法解（4578 次同层交叉）上，冻结每条线路的真实高度序列、R15 升降过渡、端口与 368 条人工 U 结构，只重新规划 MultiArc 主体几何，以 `min N_cross` 为唯一主目标。
 
-Generated 2026-11-21 01:11:13 by `01_algorithm/build_report_g7.py`.
+Generated 2026-11-21 01:11:32 by `01_algorithm/build_report_g7.py`.
 
 ## 0. 结论摘要
 
@@ -189,7 +189,7 @@ experiments/G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024/
 
 复现命令见 `REPRODUCTION.md`；代码快照见 `01_algorithm/code_snapshot/CODE_MANIFEST.json`。
 
-**GitHub 提交号：** `e9ef68dd823f9405a05a3e9c10e3f1f246e4e292`
+**GitHub 提交号：** `4cf5b3e71268255edc33f7cd74099c5075204ccd`
 
 ## 9. 最终问题回答
 
@@ -202,4 +202,4 @@ experiments/G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024/
 7. **哪些剩余交叉最难消除？** 见 6.2 的残余探针（blocked=22/30 对）与 `06_reports/g7_analysis.json` 逐对明细。
 8. **固定层是否成为主要瓶颈？** 固定层/固定过渡下仍取得 −4.9% 交叉下降，说明 MultiArc 主体几何仍有空间，但单线路可消除量已明显递减；残余热点集中在端口主干密集区与人工 U/Native-3D 冻结结构附近。本轮**未运行**有限换层对照实验（用户允许的辅助实验 D），因此不对“换层一定带来多少额外收益”下结论。
 9. **全部 Validator 是否 PASS？** A=PASS、B=PASS、固定结构=PASS，综合 `G7_FIXED_LAYER_VALID_PASS`。
-10. **最佳合法解 / 报告 / 提交号：** `03_best_valid/`、`06_reports/G7_REPORT.md`、`e9ef68dd823f9405a05a3e9c10e3f1f246e4e292`。
+10. **最佳合法解 / 报告 / 提交号：** `03_best_valid/`、`06_reports/G7_REPORT.md`、`4cf5b3e71268255edc33f7cd74099c5075204ccd`。
