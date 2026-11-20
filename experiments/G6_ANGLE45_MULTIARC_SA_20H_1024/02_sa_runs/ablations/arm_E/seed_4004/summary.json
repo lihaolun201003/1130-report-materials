@@ -1,0 +1,118 @@
+{
+  "schema": "g6_run_v1",
+  "seed": 4004,
+  "profile": "E",
+  "cycles": 1,
+  "cycle_seconds": 3600.0,
+  "T0": 700.0,
+  "T0_decay": 0.75,
+  "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5\\routes_l3d.json",
+  "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_E\\seed_4004",
+  "best_key": [
+    5,
+    68.081319,
+    5032,
+    157289.084
+  ],
+  "started": "2026-11-20T22:06:52",
+  "cycles_run": 1,
+  "summaries": [
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 4004,
+      "profile": "E",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 1500,
+      "accepted": 304,
+      "rejected": 536,
+      "accepted_worse": 111,
+      "failed_proposals": 660,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 197.739,
+      "moves_per_second": 7.586,
+      "acceptance_rate": 0.2027,
+      "n_bad": 5,
+      "deficit": 68.081319,
+      "crossings": 5032,
+      "length_mm": 157289.084403,
+      "hard_issues": 0,
+      "best_key": [
+        2,
+        5.4531,
+        5001,
+        157227.703
+      ],
+      "best_move": 1396,
+      "success": false,
+      "move_stats": {
+        "none": {
+          "rejected": 660
+        },
+        "single:body": {
+          "attempted": 558,
+          "accepted": 225,
+          "improving": 52,
+          "rejected": 333
+        },
+        "single:cheap_reheight": {
+          "attempted": 109,
+          "rejected": 80,
+          "accepted": 29,
+          "improving": 14
+        },
+        "pair:joint": {
+          "attempted": 25,
+          "rejected": 24,
+          "accepted": 1
+        },
+        "single:reheight": {
+          "attempted": 63,
+          "accepted": 18,
+          "improving": 10,
+          "rejected": 45
+        },
+        "single:lead": {
+          "attempted": 70,
+          "rejected": 39,
+          "accepted": 31,
+          "improving": 6
+        },
+        "group:joint": {
+          "attempted": 9,
+          "rejected": 9
+        },
+        "kick:reheight": {
+          "attempted": 6,
+          "rejected": 6
+        }
+      },
+      "total_attempted": 840,
+      "total_accepted": 304,
+      "state_build_seconds": 1.554,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 4004,
+        "profile": "E",
+        "T0": 700.0,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 60.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T22:06:52"
+    }
+  ]
+}

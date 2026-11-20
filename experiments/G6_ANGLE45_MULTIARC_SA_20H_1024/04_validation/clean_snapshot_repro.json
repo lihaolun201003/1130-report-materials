@@ -1,0 +1,15 @@
+{
+    "sa_smoke":  {
+                     "moves":  400,
+                     "moves_per_second":  8.919,
+                     "n_bad":  30,
+                     "max_moves":  400,
+                     "start":  "frozen_g5_v5 routes_l3d.json"
+                 },
+    "python":  "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\.venv\\Scripts\\python.exe",
+    "generated_at":  "2026-11-20T22:01:56",
+    "schema":  "g6_clean_snapshot_repro_v1",
+    "note":  "run with PYTHONPATH pointing only at the snapshot directory (temp copy)",
+    "snapshot":  "01_algorithm/code_snapshot",
+    "selftest_passed":  true
+}

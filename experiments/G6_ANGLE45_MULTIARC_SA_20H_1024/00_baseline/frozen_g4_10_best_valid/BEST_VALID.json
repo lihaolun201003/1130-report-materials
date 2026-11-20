@@ -1,0 +1,44 @@
+{
+ "schema": "coldstart20_best_valid_v1",
+ "profile": "20_height_raised",
+ "experiment": "COLD_START_20_HEIGHT_1024",
+ "plane_count": 20,
+ "body_plane_count": 18,
+ "interfaces": {
+  "z1": 0.025,
+  "z2": 0.525
+ },
+ "source_stage": "08_G4_chain_link4",
+ "source_label": "G4 progressive chain link 4 (G4d from the best G4c checkpoint)",
+ "source_layout_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\03_link_G4d",
+ "routed": 1024,
+ "failed": 0,
+ "crossings": 1283,
+ "crossing_pairs": 1221,
+ "routes_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "validation": {
+  "available": true,
+  "path": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\08_g4\\08_progressive_chain\\03_link_G4d\\validation\\validation.json",
+  "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
+  "validation_pass": true,
+  "geometry_pass": true,
+  "contract_pass": true,
+  "violation_count": 0,
+  "routed": 1024,
+  "failed": 0
+ },
+ "copied": [
+  "routes_l3d.json",
+  "assignment_1024.csv",
+  "layer_planes.json",
+  "crossing_stats.json",
+  "validation.json"
+ ],
+ "acceptance_rule": "fully legal only: 1024/1024 routed, 0 failed, passing independent validation, 0 violations; then fewest same-plane crossing events",
+ "sha256_index": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\10_best_valid\\SHA256.json",
+ "validator_report": "12_reports/validator_report.md",
+ "model_payloads_completed": [
+  "process_rules.json",
+  "physical_layer_stack.json"
+ ]
+}

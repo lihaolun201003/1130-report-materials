@@ -1,0 +1,101 @@
+[2026-11-20T21:58:13] G6 SA start seed=4003 profile=C routes=1024 N_bad=51 D_theta=964.877334 crossings=4136 hard_issues=0
+[2026-11-20T21:59:13] t=60.2s moves=729 acc=0.230 worse_acc=60 N_bad=17 D=254.457 T=668.6 reheat=0 commit_fail=0 failed_props=129
+[2026-11-20T21:59:17] no legal proposal in last window (failed=146)
+[2026-11-20T21:59:32] no legal proposal in last window (failed=186)
+[2026-11-20T22:00:05] no legal proposal in last window (failed=269)
+[2026-11-20T22:00:13] t=120.1s moves=1491 acc=0.195 worse_acc=112 N_bad=16 D=254.957 T=638.8 reheat=0 commit_fail=0 failed_props=288
+[2026-11-20T22:00:13] move budget exhausted; N_bad=18
+[2026-11-20T22:00:14] STOP {"M": 1000.0, "acceptance_rate": 0.1953, "accepted": 293, "accepted_worse": 114, "best_key": [15, 163.609707, 4465, 157144.566], "best_move": 628, "cfg": {"M": 1000.0, "T0": 700.0, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 60.0, "profile": "C", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 4003, "theta": 45.0}, "commit_failures": 0, "crossings": 4537, "deficit": 289.581235, "elapsed_seconds": 121.56, "failed_proposals": 291, "generated_at": "2026-11-20T22:00:14", "hard_issues": 0, "lam": 1.0, "length_mm": 157389.797813, "move_stats": {"none": {"rejected": 291}, "pair:joint": {"accepted": 2, "attempted": 159, "improving": 1, "rejected": 157}, "single:body": {"accepted": 291, "attempted": 1050, "improving": 78, "rejected": 759}}, "moves": 1500, "moves_per_second": 12.34, "n_bad": 18, "profile": "C", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 916, "schema": "g6_sa_summary_v1", "seed": 4003, "state_build_seconds": 1.518, "success": false, "theta_min_deg": 45.0, "total_accepted": 293, "total_attempted": 1209}
+{
+  "schema": "g6_run_v1",
+  "seed": 4003,
+  "profile": "C",
+  "cycles": 1,
+  "cycle_seconds": 3600.0,
+  "T0": 700.0,
+  "T0_decay": 0.75,
+  "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5\\routes_l3d.json",
+  "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_C\\seed_4003",
+  "best_key": [
+    18,
+    289.581235,
+    4537,
+    157389.798
+  ],
+  "started": "2026-11-20T22:00:14",
+  "cycles_run": 1,
+  "summaries": [
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 4003,
+      "profile": "C",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 1500,
+      "accepted": 293,
+      "rejected": 916,
+      "accepted_worse": 114,
+      "failed_proposals": 291,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 121.56,
+      "moves_per_second": 12.34,
+      "acceptance_rate": 0.1953,
+      "n_bad": 18,
+      "deficit": 289.581235,
+      "crossings": 4537,
+      "length_mm": 157389.797813,
+      "hard_issues": 0,
+      "best_key": [
+        15,
+        163.609707,
+        4465,
+        157144.566
+      ],
+      "best_move": 628,
+      "success": false,
+      "move_stats": {
+        "none": {
+          "rejected": 291
+        },
+        "pair:joint": {
+          "attempted": 159,
+          "rejected": 157,
+          "accepted": 2,
+          "improving": 1
+        },
+        "single:body": {
+          "attempted": 1050,
+          "rejected": 759,
+          "accepted": 291,
+          "improving": 78
+        }
+      },
+      "total_attempted": 1209,
+      "total_accepted": 293,
+      "state_build_seconds": 1.518,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 4003,
+        "profile": "C",
+        "T0": 700.0,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 60.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T22:00:14"
+    }
+  ]
+}

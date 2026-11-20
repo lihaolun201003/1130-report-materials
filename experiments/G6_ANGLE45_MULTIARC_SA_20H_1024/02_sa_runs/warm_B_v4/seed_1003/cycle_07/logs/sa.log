@@ -1,0 +1,9 @@
+[2026-11-20T21:51:55] G6 SA start seed=1003 profile=B routes=1024 N_bad=5 D_theta=88.930196 crossings=4427 hard_issues=0
+[2026-11-20T21:52:40] no legal proposal in last window (failed=143)
+[2026-11-20T21:53:17] no legal proposal in last window (failed=270)
+[2026-11-20T21:53:29] no legal proposal in last window (failed=320)
+[2026-11-20T21:53:55] t=120.4s moves=1850 acc=0.071 worse_acc=15 N_bad=5 D=88.930 T=122.4 reheat=0 commit_fail=0 failed_props=425
+[2026-11-20T21:54:04] no legal proposal in last window (failed=463)
+[2026-11-20T21:55:13] no legal proposal in last window (failed=768)
+[2026-11-20T21:55:55] budget exhausted after 3891 moves (240.0s); N_bad=5
+[2026-11-20T21:55:56] STOP {"M": 1000.0, "acceptance_rate": 0.0645, "accepted": 251, "accepted_worse": 15, "best_key": [5, 88.930196, 4422, 157197.516], "best_move": 317, "cfg": {"M": 1000.0, "T0": 334.8078300000001, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1003, "theta": 45.0}, "commit_failures": 0, "crossings": 4430, "deficit": 88.930196, "elapsed_seconds": 241.186, "failed_proposals": 938, "generated_at": "2026-11-20T21:55:56", "hard_issues": 0, "lam": 1.0, "length_mm": 157210.236648, "move_stats": {"none": {"rejected": 938}, "single:body": {"accepted": 251, "attempted": 2953, "improving": 6, "rejected": 2702}}, "moves": 3891, "moves_per_second": 16.133, "n_bad": 5, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 2702, "schema": "g6_sa_summary_v1", "seed": 1003, "state_build_seconds": 2.769, "success": false, "theta_min_deg": 45.0, "total_accepted": 251, "total_attempted": 2953}

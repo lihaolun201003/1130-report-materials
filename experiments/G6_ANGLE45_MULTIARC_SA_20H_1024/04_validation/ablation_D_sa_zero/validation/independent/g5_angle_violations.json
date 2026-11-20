@@ -1,0 +1,48 @@
+{
+  "schema": "g5_angle_violations_v1",
+  "generator": "g5/validate_g5_angle.py",
+  "generator_version": "1.0.0",
+  "routes_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\04_validation\\ablation_D_sa_zero\\validation\\run_dir\\routes_l3d.json",
+  "routes_sha256": "7aed2b32663cccca0c1d272a9ce47a27e4d38c72bb0f7891f058a7e5f355fb85",
+  "theta_min_deg": 45.0,
+  "primary_category": "crossings with angle_deg < theta_min",
+  "counts": {
+    "angle_violations": 0,
+    "overlap_events": 0,
+    "endpoint_touches": 0,
+    "tangent_or_near_tangent_events": 2,
+    "clearance_violations": 0
+  },
+  "angle_violations": [],
+  "overlap_events": [],
+  "endpoint_touch_events": [],
+  "tangent_or_near_tangent_events": [
+    {
+      "z_idx": 7,
+      "z_mm": 0.025,
+      "route_a": 201,
+      "route_b": 219,
+      "kind_a": "line",
+      "kind_b": "arc",
+      "x_mm": 96.97979694365412,
+      "y_mm": 21.687499999999996,
+      "reason": "line_arc_tangent",
+      "angle_deg": 3.508354649267438e-15,
+      "z_label": "Z1_INTERFACE"
+    },
+    {
+      "z_idx": 7,
+      "z_mm": 0.025,
+      "route_a": 201,
+      "route_b": 219,
+      "kind_a": "line",
+      "kind_b": "arc",
+      "x_mm": 96.97979694365412,
+      "y_mm": 21.687499999999996,
+      "reason": "line_arc_tangent",
+      "angle_deg": 3.508354649267438e-15,
+      "z_label": "Z1_INTERFACE"
+    }
+  ],
+  "clearance_violations": []
+}

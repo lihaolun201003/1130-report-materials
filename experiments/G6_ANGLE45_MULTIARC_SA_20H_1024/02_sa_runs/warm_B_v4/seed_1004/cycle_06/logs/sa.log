@@ -1,0 +1,15 @@
+[2026-11-20T21:47:50] G6 SA start seed=1004 profile=B routes=1024 N_bad=4 D_theta=80.816177 crossings=4429 hard_issues=0
+[2026-11-20T21:48:13] no legal proposal in last window (failed=45)
+[2026-11-20T21:49:02] no legal proposal in last window (failed=223)
+[2026-11-20T21:49:16] no legal proposal in last window (failed=324)
+[2026-11-20T21:49:43] no legal proposal in last window (failed=497)
+[2026-11-20T21:49:50] t=120.2s moves=1504 acc=0.088 worse_acc=12 N_bad=4 D=100.247 T=129.2 reheat=0 commit_fail=0 failed_props=542
+[2026-11-20T21:49:56] no legal proposal in last window (failed=587)
+[2026-11-20T21:50:10] no legal proposal in last window (failed=691)
+[2026-11-20T21:50:23] no legal proposal in last window (failed=781)
+[2026-11-20T21:51:16] no legal proposal in last window (failed=1131)
+[2026-11-20T21:51:29] no legal proposal in last window (failed=1215)
+[2026-11-20T21:51:43] no legal proposal in last window (failed=1307)
+[2026-11-20T21:51:50] t=240.2s moves=3293 acc=0.071 worse_acc=12 N_bad=4 D=100.247 T=45.0 reheat=0 commit_fail=0 failed_props=1348
+[2026-11-20T21:51:50] budget exhausted after 3293 moves (240.0s); N_bad=4
+[2026-11-20T21:51:51] STOP {"M": 1000.0, "acceptance_rate": 0.0708, "accepted": 233, "accepted_worse": 12, "best_key": [3, 70.08227, 4417, 157245.197], "best_move": 121, "cfg": {"M": 1000.0, "T0": 372.00870000000003, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1004, "theta": 45.0}, "commit_failures": 0, "crossings": 4413, "deficit": 100.247158, "elapsed_seconds": 241.151, "failed_proposals": 1348, "generated_at": "2026-11-20T21:51:51", "hard_issues": 0, "lam": 1.0, "length_mm": 157245.738825, "move_stats": {"none": {"rejected": 1348}, "single:body": {"accepted": 233, "attempted": 1945, "improving": 6, "rejected": 1712}}, "moves": 3293, "moves_per_second": 13.655, "n_bad": 4, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 1712, "schema": "g6_sa_summary_v1", "seed": 1004, "state_build_seconds": 3.081, "success": false, "theta_min_deg": 45.0, "total_accepted": 233, "total_attempted": 1945}

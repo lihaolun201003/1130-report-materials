@@ -1,0 +1,7 @@
+[21:38:28] polish start: N_bad=6 deficit=96.893636 crossings=4502
+[21:38:59] [polish] pair reheight:OPP_S2_SPLIT:z=-0.125+reheight:OPP_Z_S:z=-0.025 -> N_bad=5 D=66.729 (repaired)
+[21:39:23] [polish] pair body:ADJ_L+reheight:ADJ_UP_LOOP:z=+0.325 -> N_bad=4 D=55.957 (repaired)
+[21:39:48] [polish] pair reheight:ADJ_UP_LOOP:z=+0.325+reheight:ADJ_SHIFT_TURN:z=+0.425 -> N_bad=2 D=36.732 (repaired)
+[21:39:57] [polish] single reheight:OPP_S_Z:z=-0.125|reheight -> N_bad=1 D=6.567 (repaired)
+[21:40:24] [polish] pair reheight:ADJ_DOWN_LOOP:z=+0.625+reheight:ADJ_L:z=+0.425 -> N_bad=0 D=0.000 (repaired)
+[21:40:28] polish done: N_bad=0 deficit=0.000000 hard_issues=0 elapsed=119.6s

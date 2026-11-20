@@ -1,0 +1,1611 @@
+{
+  "schema": "g5_angle_validation_v1",
+  "generator": "g5/validate_g5_angle.py",
+  "generator_version": "1.0.0",
+  "independence": {
+    "project_modules_imported": [],
+    "allowed_dependencies": [
+      "python-stdlib"
+    ],
+    "note": "geometry algebra re-implemented from scratch; no project module is imported"
+  },
+  "theta_min_deg": 45.0,
+  "tolerances": {
+    "same_height_dz_mm": 1e-09,
+    "chain_end_mm": 1e-07,
+    "clearance_mm": 0.08,
+    "grid_cell_mm": 1.0,
+    "parallel_rel": 1e-13,
+    "collinear_tol_mm": 1e-09,
+    "tangency_rel": 1e-12,
+    "param_tol_mm": 1e-07,
+    "angle_tol_rad": 1e-10,
+    "coincident_center_tol_mm": 1e-09,
+    "coincident_radius_tol_mm": 1e-09,
+    "point_dedupe_tol_mm": 1e-06,
+    "threshold_guard_deg": 1e-09
+  },
+  "z_label_source": "layers-json:C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\00_baseline\\frozen_stage03_multiarc\\layer_planes.json",
+  "z_labels": [
+    {
+      "z_mm": -0.325,
+      "z_label": "L2"
+    },
+    {
+      "z_mm": -0.275,
+      "z_label": "L3"
+    },
+    {
+      "z_mm": -0.225,
+      "z_label": "L4"
+    },
+    {
+      "z_mm": -0.175,
+      "z_label": "L5"
+    },
+    {
+      "z_mm": -0.125,
+      "z_label": "L6"
+    },
+    {
+      "z_mm": -0.075,
+      "z_label": "L7"
+    },
+    {
+      "z_mm": -0.025,
+      "z_label": "L20"
+    },
+    {
+      "z_mm": 0.025,
+      "z_label": "Z1_INTERFACE"
+    },
+    {
+      "z_mm": 0.075,
+      "z_label": "L8"
+    },
+    {
+      "z_mm": 0.125,
+      "z_label": "L9"
+    },
+    {
+      "z_mm": 0.175,
+      "z_label": "L10"
+    },
+    {
+      "z_mm": 0.225,
+      "z_label": "L11"
+    },
+    {
+      "z_mm": 0.275,
+      "z_label": "L12"
+    },
+    {
+      "z_mm": 0.325,
+      "z_label": "L13"
+    },
+    {
+      "z_mm": 0.375,
+      "z_label": "L14"
+    },
+    {
+      "z_mm": 0.425,
+      "z_label": "L15"
+    },
+    {
+      "z_mm": 0.475,
+      "z_label": "L16"
+    },
+    {
+      "z_mm": 0.525,
+      "z_label": "Z2_INTERFACE"
+    },
+    {
+      "z_mm": 0.575,
+      "z_label": "L17"
+    },
+    {
+      "z_mm": 0.625,
+      "z_label": "L18"
+    }
+  ],
+  "summary": {
+    "total_crossings": 12338,
+    "unique_route_pairs": 10133,
+    "routes_with_crossings": 640,
+    "max_crossings_per_route": 83,
+    "max_crossings_route_ids": [
+      547
+    ],
+    "min_angle_deg": 5.453937970071914,
+    "min_angle_crossing_id": 1601,
+    "n_lt_theta_min": 1365,
+    "n_lt_45": 1365,
+    "n_lt_5": 0,
+    "D_theta_deg": 30583.917912288198,
+    "D_max_deg": 39.54606202992809,
+    "overlap_event_count": 0,
+    "overlap_route_pair_count": 0,
+    "coincident_no_overlap_event_count": 0,
+    "endpoint_touch_count": 0,
+    "tangent_or_near_tangent_count": 0,
+    "clearance_violation_count": 0,
+    "clearance_min_non_crossing_mm": 0.08074811664240919,
+    "clearance_min_non_crossing_evidence": {
+      "distance_mm": 0.08074811664240919,
+      "z_mm": -0.125,
+      "route_a": 12,
+      "route_b": 14,
+      "x_mm": 130.25,
+      "y_mm": 124.96648804344596
+    },
+    "residual_max_mm": 4.085620730620576e-14,
+    "raw_primitive_pairs": 24194,
+    "raw_crossing_hits": 12372,
+    "multi_point_primitive_pairs": 0,
+    "multi_point_primitive_pair_hits": 0,
+    "duplicate_hit_groups_merged": 26,
+    "duplicate_angle_spread_max_deg": 1.8332002582610585e-12,
+    "verdict_pass_45": false,
+    "verdict": {
+      "pass_45": false,
+      "no_angle_violations": false,
+      "no_overlaps": true,
+      "no_endpoint_touches": true,
+      "no_clearance_violations": true,
+      "reasons": [
+        "1365 crossings below 45.000 deg"
+      ]
+    },
+    "verdict_fail_reasons": [
+      "1365 crossings below 45.000 deg"
+    ],
+    "theta_min_deg": 45.0,
+    "clearance_limit_mm": 0.08,
+    "heights": 20,
+    "primitives": 5883,
+    "routes": 1024,
+    "timing_seconds": 1.037
+  },
+  "per_height": [
+    {
+      "z_mm": -0.325,
+      "z_label": "L2",
+      "n_crossings": 0,
+      "n_below_45": 0,
+      "n_below_5": 0,
+      "min_angle_deg": null,
+      "min_angle_crossing_id": null,
+      "total_deficit_deg": 0,
+      "max_deficit_deg": 0.0,
+      "routes_involved": 0,
+      "worst_routes": []
+    },
+    {
+      "z_mm": -0.275,
+      "z_label": "L3",
+      "n_crossings": 0,
+      "n_below_45": 0,
+      "n_below_5": 0,
+      "min_angle_deg": null,
+      "min_angle_crossing_id": null,
+      "total_deficit_deg": 0,
+      "max_deficit_deg": 0.0,
+      "routes_involved": 0,
+      "worst_routes": []
+    },
+    {
+      "z_mm": -0.225,
+      "z_label": "L4",
+      "n_crossings": 0,
+      "n_below_45": 0,
+      "n_below_5": 0,
+      "min_angle_deg": null,
+      "min_angle_crossing_id": null,
+      "total_deficit_deg": 0,
+      "max_deficit_deg": 0.0,
+      "routes_involved": 0,
+      "worst_routes": []
+    },
+    {
+      "z_mm": -0.175,
+      "z_label": "L5",
+      "n_crossings": 0,
+      "n_below_45": 0,
+      "n_below_5": 0,
+      "min_angle_deg": null,
+      "min_angle_crossing_id": null,
+      "total_deficit_deg": 0,
+      "max_deficit_deg": 0.0,
+      "routes_involved": 0,
+      "worst_routes": []
+    },
+    {
+      "z_mm": -0.125,
+      "z_label": "L6",
+      "n_crossings": 986,
+      "n_below_45": 149,
+      "n_below_5": 0,
+      "min_angle_deg": 8.47342138250647,
+      "min_angle_crossing_id": 568,
+      "total_deficit_deg": 3561.412963437411,
+      "max_deficit_deg": 36.52657861749353,
+      "routes_involved": 52,
+      "worst_routes": [
+        {
+          "route_id": 7,
+          "crossings": 43,
+          "n_lt": 12,
+          "deficit_deg": 310.05026314732015,
+          "min_angle_deg": 10.475313843229427
+        },
+        {
+          "route_id": 4,
+          "crossings": 39,
+          "n_lt": 9,
+          "deficit_deg": 271.4502555585032,
+          "min_angle_deg": 10.475313843229427
+        },
+        {
+          "route_id": 146,
+          "crossings": 39,
+          "n_lt": 9,
+          "deficit_deg": 266.1851406343659,
+          "min_angle_deg": 10.475313843229427
+        },
+        {
+          "route_id": 153,
+          "crossings": 45,
+          "n_lt": 10,
+          "deficit_deg": 262.08673693638553,
+          "min_angle_deg": 10.475313843229424
+        },
+        {
+          "route_id": 145,
+          "crossings": 39,
+          "n_lt": 9,
+          "deficit_deg": 256.13309051805766,
+          "min_angle_deg": 8.47342138250647
+        }
+      ]
+    },
+    {
+      "z_mm": -0.075,
+      "z_label": "L7",
+      "n_crossings": 928,
+      "n_below_45": 168,
+      "n_below_5": 0,
+      "min_angle_deg": 5.453937970071914,
+      "min_angle_crossing_id": 1601,
+      "total_deficit_deg": 2966.9533478307912,
+      "max_deficit_deg": 39.54606202992809,
+      "routes_involved": 52,
+      "worst_routes": [
+        {
+          "route_id": 208,
+          "crossings": 37,
+          "n_lt": 12,
+          "deficit_deg": 241.06132216678708,
+          "min_angle_deg": 10.16179061769031
+        },
+        {
+          "route_id": 207,
+          "crossings": 37,
+          "n_lt": 12,
+          "deficit_deg": 241.0613221667868,
+          "min_angle_deg": 10.161790617690269
+        },
+        {
+          "route_id": 206,
+          "crossings": 42,
+          "n_lt": 10,
+          "deficit_deg": 221.4788935165234,
+          "min_angle_deg": 5.453937970071914
+        },
+        {
+          "route_id": 214,
+          "crossings": 40,
+          "n_lt": 11,
+          "deficit_deg": 218.19291115064638,
+          "min_angle_deg": 10.47531384322944
+        },
+        {
+          "route_id": 213,
+          "crossings": 40,
+          "n_lt": 11,
+          "deficit_deg": 218.19291115064632,
+          "min_angle_deg": 10.475313843229436
+        }
+      ]
+    },
+    {
+      "z_mm": -0.025,
+      "z_label": "L20",
+      "n_crossings": 964,
+      "n_below_45": 103,
+      "n_below_5": 0,
+      "min_angle_deg": 5.838778954191717,
+      "min_angle_crossing_id": 2082,
+      "total_deficit_deg": 2461.9989294202664,
+      "max_deficit_deg": 39.16122104580828,
+      "routes_involved": 52,
+      "worst_routes": [
+        {
+          "route_id": 104,
+          "crossings": 39,
+          "n_lt": 6,
+          "deficit_deg": 175.90976558084796,
+          "min_angle_deg": 5.838778954191717
+        },
+        {
+          "route_id": 426,
+          "crossings": 39,
+          "n_lt": 6,
+          "deficit_deg": 175.90976558084768,
+          "min_angle_deg": 5.838778954191743
+        },
+        {
+          "route_id": 102,
+          "crossings": 37,
+          "n_lt": 6,
+          "deficit_deg": 164.12027206293328,
+          "min_angle_deg": 5.838778954191717
+        },
+        {
+          "route_id": 420,
+          "crossings": 37,
+          "n_lt": 6,
+          "deficit_deg": 164.12027206293297,
+          "min_angle_deg": 5.838778954191743
+        },
+        {
+          "route_id": 428,
+          "crossings": 39,
+          "n_lt": 5,
+          "deficit_deg": 149.10463791961467,
+          "min_angle_deg": 5.838778954191717
+        }
+      ]
+    },
+    {
+      "z_mm": 0.025,
+      "z_label": "Z1_INTERFACE",
+      "n_crossings": 896,
+      "n_below_45": 56,
+      "n_below_5": 0,
+      "min_angle_deg": 9.865114542181882,
+      "min_angle_crossing_id": 3053,
+      "total_deficit_deg": 1629.737349997233,
+      "max_deficit_deg": 35.134885457818115,
+      "routes_involved": 52,
+      "worst_routes": [
+        {
+          "route_id": 117,
+          "crossings": 35,
+          "n_lt": 4,
+          "deficit_deg": 126.62958769384625,
+          "min_angle_deg": 9.865114542181882
+        },
+        {
+          "route_id": 461,
+          "crossings": 35,
+          "n_lt": 4,
+          "deficit_deg": 126.62958769384622,
+          "min_angle_deg": 9.865114542181908
+        },
+        {
+          "route_id": 110,
+          "crossings": 34,
+          "n_lt": 4,
+          "deficit_deg": 126.62958769384619,
+          "min_angle_deg": 9.865114542181882
+        },
+        {
+          "route_id": 443,
+          "crossings": 34,
+          "n_lt": 4,
+          "deficit_deg": 126.62958769384619,
+          "min_angle_deg": 9.865114542181908
+        },
+        {
+          "route_id": 459,
+          "crossings": 35,
+          "n_lt": 4,
+          "deficit_deg": 126.62958769384613,
+          "min_angle_deg": 9.865114542181947
+        }
+      ]
+    },
+    {
+      "z_mm": 0.075,
+      "z_label": "L8",
+      "n_crossings": 736,
+      "n_below_45": 58,
+      "n_below_5": 0,
+      "min_angle_deg": 8.704829091063472,
+      "min_angle_crossing_id": 3837,
+      "total_deficit_deg": 1661.0002616726024,
+      "max_deficit_deg": 36.29517090893653,
+      "routes_involved": 48,
+      "worst_routes": [
+        {
+          "route_id": 132,
+          "crossings": 36,
+          "n_lt": 6,
+          "deficit_deg": 173.40209471347364,
+          "min_angle_deg": 10.475313843229427
+        },
+        {
+          "route_id": 498,
+          "crossings": 36,
+          "n_lt": 6,
+          "deficit_deg": 172.7334201497913,
+          "min_angle_deg": 8.704829091063482
+        },
+        {
+          "route_id": 499,
+          "crossings": 36,
+          "n_lt": 6,
+          "deficit_deg": 172.73342014979127,
+          "min_angle_deg": 8.704829091063482
+        },
+        {
+          "route_id": 500,
+          "crossings": 36,
+          "n_lt": 6,
+          "deficit_deg": 172.73342014979124,
+          "min_angle_deg": 8.704829091063472
+        },
+        {
+          "route_id": 130,
+          "crossings": 37,
+          "n_lt": 6,
+          "deficit_deg": 169.21998300013536,
+          "min_angle_deg": 10.161790617690231
+        }
+      ]
+    },
+    {
+      "z_mm": 0.125,
+      "z_label": "L9",
+      "n_crossings": 1874,
+      "n_below_45": 330,
+      "n_below_5": 0,
+      "min_angle_deg": 5.779881990242951,
+      "min_angle_crossing_id": 6371,
+      "total_deficit_deg": 7015.917129968019,
+      "max_deficit_deg": 39.22011800975705,
+      "routes_involved": 56,
+      "worst_routes": [
+        {
+          "route_id": 538,
+          "crossings": 75,
+          "n_lt": 21,
+          "deficit_deg": 511.20954259983137,
+          "min_angle_deg": 5.779881990242951
+        },
+        {
+          "route_id": 519,
+          "crossings": 72,
+          "n_lt": 21,
+          "deficit_deg": 473.13068954606456,
+          "min_angle_deg": 7.508307326826008
+        },
+        {
+          "route_id": 534,
+          "crossings": 81,
+          "n_lt": 23,
+          "deficit_deg": 470.89287655890354,
+          "min_angle_deg": 10.475313843229427
+        },
+        {
+          "route_id": 518,
+          "crossings": 76,
+          "n_lt": 19,
+          "deficit_deg": 419.85134538438217,
+          "min_angle_deg": 10.475313843229427
+        },
+        {
+          "route_id": 522,
+          "crossings": 72,
+          "n_lt": 19,
+          "deficit_deg": 410.6878584607746,
+          "min_angle_deg": 10.475313843229427
+        }
+      ]
+    },
+    {
+      "z_mm": 0.175,
+      "z_label": "L10",
+      "n_crossings": 0,
+      "n_below_45": 0,
+      "n_below_5": 0,
+      "min_angle_deg": null,
+      "min_angle_crossing_id": null,
+      "total_deficit_deg": 0,
+      "max_deficit_deg": 0.0,
+      "routes_involved": 0,
+      "worst_routes": []
+    },
+    {
+      "z_mm": 0.225,
+      "z_label": "L11",
+      "n_crossings": 0,
+      "n_below_45": 0,
+      "n_below_5": 0,
+      "min_angle_deg": null,
+      "min_angle_crossing_id": null,
+      "total_deficit_deg": 0,
+      "max_deficit_deg": 0.0,
+      "routes_involved": 0,
+      "worst_routes": []
+    },
+    {
+      "z_mm": 0.275,
+      "z_label": "L12",
+      "n_crossings": 0,
+      "n_below_45": 0,
+      "n_below_5": 0,
+      "min_angle_deg": null,
+      "min_angle_crossing_id": null,
+      "total_deficit_deg": 0,
+      "max_deficit_deg": 0.0,
+      "routes_involved": 0,
+      "worst_routes": []
+    },
+    {
+      "z_mm": 0.325,
+      "z_label": "L13",
+      "n_crossings": 0,
+      "n_below_45": 0,
+      "n_below_5": 0,
+      "min_angle_deg": null,
+      "min_angle_crossing_id": null,
+      "total_deficit_deg": 0,
+      "max_deficit_deg": 0.0,
+      "routes_involved": 0,
+      "worst_routes": []
+    },
+    {
+      "z_mm": 0.375,
+      "z_label": "L14",
+      "n_crossings": 1706,
+      "n_below_45": 138,
+      "n_below_5": 0,
+      "min_angle_deg": 6.628247846001738,
+      "min_angle_crossing_id": 6552,
+      "total_deficit_deg": 3328.857465164619,
+      "max_deficit_deg": 38.37175215399826,
+      "routes_involved": 56,
+      "worst_routes": [
+        {
+          "route_id": 573,
+          "crossings": 71,
+          "n_lt": 13,
+          "deficit_deg": 341.18423199964434,
+          "min_angle_deg": 10.475313843229149
+        },
+        {
+          "route_id": 600,
+          "crossings": 64,
+          "n_lt": 13,
+          "deficit_deg": 319.7748737989316,
+          "min_angle_deg": 10.475313843229427
+        },
+        {
+          "route_id": 576,
+          "crossings": 71,
+          "n_lt": 12,
+          "deficit_deg": 278.9106312446071,
+          "min_angle_deg": 10.475313836595525
+        },
+        {
+          "route_id": 572,
+          "crossings": 70,
+          "n_lt": 13,
+          "deficit_deg": 265.6432693350801,
+          "min_angle_deg": 10.47531384322944
+        },
+        {
+          "route_id": 609,
+          "crossings": 66,
+          "n_lt": 12,
+          "deficit_deg": 260.3714402864012,
+          "min_angle_deg": 6.628247846001738
+        }
+      ]
+    },
+    {
+      "z_mm": 0.425,
+      "z_label": "L15",
+      "n_crossings": 1796,
+      "n_below_45": 173,
+      "n_below_5": 0,
+      "min_angle_deg": 6.22644966295646,
+      "min_angle_crossing_id": 8261,
+      "total_deficit_deg": 3678.1689105404485,
+      "max_deficit_deg": 38.77355033704354,
+      "routes_involved": 56,
+      "worst_routes": [
+        {
+          "route_id": 648,
+          "crossings": 73,
+          "n_lt": 24,
+          "deficit_deg": 451.4663592791573,
+          "min_angle_deg": 10.475313843229424
+        },
+        {
+          "route_id": 645,
+          "crossings": 75,
+          "n_lt": 22,
+          "deficit_deg": 413.62423040943884,
+          "min_angle_deg": 6.22644966295646
+        },
+        {
+          "route_id": 650,
+          "crossings": 70,
+          "n_lt": 21,
+          "deficit_deg": 363.02817555973525,
+          "min_angle_deg": 10.475313843229431
+        },
+        {
+          "route_id": 649,
+          "crossings": 72,
+          "n_lt": 17,
+          "deficit_deg": 325.7769364121047,
+          "min_angle_deg": 10.475313843229427
+        },
+        {
+          "route_id": 680,
+          "crossings": 68,
+          "n_lt": 12,
+          "deficit_deg": 295.0805304101281,
+          "min_angle_deg": 10.475313843229424
+        }
+      ]
+    },
+    {
+      "z_mm": 0.475,
+      "z_label": "L16",
+      "n_crossings": 1592,
+      "n_below_45": 56,
+      "n_below_5": 0,
+      "min_angle_deg": 8.602444609340724,
+      "min_angle_crossing_id": 10682,
+      "total_deficit_deg": 1260.7965179654234,
+      "max_deficit_deg": 36.39755539065928,
+      "routes_involved": 56,
+      "worst_routes": [
+        {
+          "route_id": 729,
+          "crossings": 56,
+          "n_lt": 9,
+          "deficit_deg": 229.79187609882067,
+          "min_angle_deg": 8.602444609340724
+        },
+        {
+          "route_id": 731,
+          "crossings": 56,
+          "n_lt": 9,
+          "deficit_deg": 229.79187609882064,
+          "min_angle_deg": 8.602444609340724
+        },
+        {
+          "route_id": 732,
+          "crossings": 56,
+          "n_lt": 9,
+          "deficit_deg": 229.79187609882064,
+          "min_angle_deg": 8.602444609340724
+        },
+        {
+          "route_id": 730,
+          "crossings": 56,
+          "n_lt": 9,
+          "deficit_deg": 229.7918760988206,
+          "min_angle_deg": 8.602444609340724
+        },
+        {
+          "route_id": 726,
+          "crossings": 56,
+          "n_lt": 3,
+          "deficit_deg": 75.12628908450219,
+          "min_angle_deg": 10.475313843229431
+        }
+      ]
+    },
+    {
+      "z_mm": 0.525,
+      "z_label": "Z2_INTERFACE",
+      "n_crossings": 60,
+      "n_below_45": 0,
+      "n_below_5": 0,
+      "min_angle_deg": 48.72130867944174,
+      "min_angle_crossing_id": 11483,
+      "total_deficit_deg": 0.0,
+      "max_deficit_deg": 0.0,
+      "routes_involved": 40,
+      "worst_routes": [
+        {
+          "route_id": 929,
+          "crossings": 5,
+          "n_lt": 0,
+          "deficit_deg": 0.0,
+          "min_angle_deg": 48.72130867944174
+        },
+        {
+          "route_id": 930,
+          "crossings": 5,
+          "n_lt": 0,
+          "deficit_deg": 0.0,
+          "min_angle_deg": 48.72130867944174
+        },
+        {
+          "route_id": 931,
+          "crossings": 5,
+          "n_lt": 0,
+          "deficit_deg": 0.0,
+          "min_angle_deg": 48.72130867944174
+        },
+        {
+          "route_id": 932,
+          "crossings": 5,
+          "n_lt": 0,
+          "deficit_deg": 0.0,
+          "min_angle_deg": 48.72130867944174
+        },
+        {
+          "route_id": 973,
+          "crossings": 5,
+          "n_lt": 0,
+          "deficit_deg": 0.0,
+          "min_angle_deg": 48.72130867944174
+        }
+      ]
+    },
+    {
+      "z_mm": 0.575,
+      "z_label": "L17",
+      "n_crossings": 692,
+      "n_below_45": 134,
+      "n_below_5": 0,
+      "min_angle_deg": 10.47531383654662,
+      "min_angle_crossing_id": 11856,
+      "total_deficit_deg": 3019.0750362911676,
+      "max_deficit_deg": 34.52468616345338,
+      "routes_involved": 64,
+      "worst_routes": [
+        {
+          "route_id": 765,
+          "crossings": 48,
+          "n_lt": 17,
+          "deficit_deg": 420.6499651850522,
+          "min_angle_deg": 10.47531383654662
+        },
+        {
+          "route_id": 767,
+          "crossings": 28,
+          "n_lt": 13,
+          "deficit_deg": 243.84389742368,
+          "min_angle_deg": 10.475313843229436
+        },
+        {
+          "route_id": 745,
+          "crossings": 44,
+          "n_lt": 10,
+          "deficit_deg": 235.1490874149778,
+          "min_angle_deg": 10.475313843229431
+        },
+        {
+          "route_id": 746,
+          "crossings": 42,
+          "n_lt": 10,
+          "deficit_deg": 226.43118423214545,
+          "min_angle_deg": 10.475313843229427
+        },
+        {
+          "route_id": 748,
+          "crossings": 42,
+          "n_lt": 9,
+          "deficit_deg": 213.70555172103897,
+          "min_angle_deg": 10.475313843229424
+        }
+      ]
+    },
+    {
+      "z_mm": 0.625,
+      "z_label": "L18",
+      "n_crossings": 108,
+      "n_below_45": 0,
+      "n_below_5": 0,
+      "min_angle_deg": 48.721308679441705,
+      "min_angle_crossing_id": 12249,
+      "total_deficit_deg": 0.0,
+      "max_deficit_deg": 0.0,
+      "routes_involved": 56,
+      "worst_routes": [
+        {
+          "route_id": 925,
+          "crossings": 8,
+          "n_lt": 0,
+          "deficit_deg": 0.0,
+          "min_angle_deg": 48.72130867944174
+        },
+        {
+          "route_id": 926,
+          "crossings": 8,
+          "n_lt": 0,
+          "deficit_deg": 0.0,
+          "min_angle_deg": 48.72130867944174
+        },
+        {
+          "route_id": 927,
+          "crossings": 8,
+          "n_lt": 0,
+          "deficit_deg": 0.0,
+          "min_angle_deg": 48.72130867944174
+        },
+        {
+          "route_id": 928,
+          "crossings": 8,
+          "n_lt": 0,
+          "deficit_deg": 0.0,
+          "min_angle_deg": 48.721308679441705
+        },
+        {
+          "route_id": 865,
+          "crossings": 6,
+          "n_lt": 0,
+          "deficit_deg": 0.0,
+          "min_angle_deg": 48.72130867944174
+        }
+      ]
+    }
+  ],
+  "histogram": {
+    "bins_deg": [
+      "[0,5)",
+      "[5,10)",
+      "[10,20)",
+      "[20,30)",
+      "[30,40)",
+      "[40,45)",
+      "[45,60)",
+      "[60,75)",
+      "[75,90]"
+    ],
+    "counts": [
+      0,
+      33,
+      621,
+      351,
+      249,
+      111,
+      569,
+      2141,
+      8263
+    ],
+    "edges_deg": [
+      0.0,
+      5.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      45.0,
+      60.0,
+      75.0,
+      90.0
+    ]
+  },
+  "worst_routes": [
+    {
+      "route_id": 538,
+      "crossings": 75,
+      "n_lt": 21,
+      "deficit_deg": 511.20954259983137,
+      "min_angle_deg": 5.779881990242951,
+      "heights": 1
+    },
+    {
+      "route_id": 519,
+      "crossings": 72,
+      "n_lt": 21,
+      "deficit_deg": 473.13068954606456,
+      "min_angle_deg": 7.508307326826008,
+      "heights": 1
+    },
+    {
+      "route_id": 534,
+      "crossings": 81,
+      "n_lt": 23,
+      "deficit_deg": 470.89287655890354,
+      "min_angle_deg": 10.475313843229427,
+      "heights": 1
+    },
+    {
+      "route_id": 648,
+      "crossings": 73,
+      "n_lt": 24,
+      "deficit_deg": 451.4663592791573,
+      "min_angle_deg": 10.475313843229424,
+      "heights": 1
+    },
+    {
+      "route_id": 765,
+      "crossings": 48,
+      "n_lt": 17,
+      "deficit_deg": 420.6499651850522,
+      "min_angle_deg": 10.47531383654662,
+      "heights": 1
+    },
+    {
+      "route_id": 518,
+      "crossings": 76,
+      "n_lt": 19,
+      "deficit_deg": 419.85134538438217,
+      "min_angle_deg": 10.475313843229427,
+      "heights": 1
+    },
+    {
+      "route_id": 645,
+      "crossings": 75,
+      "n_lt": 22,
+      "deficit_deg": 413.62423040943884,
+      "min_angle_deg": 6.22644966295646,
+      "heights": 1
+    },
+    {
+      "route_id": 522,
+      "crossings": 72,
+      "n_lt": 19,
+      "deficit_deg": 410.6878584607746,
+      "min_angle_deg": 10.475313843229427,
+      "heights": 1
+    },
+    {
+      "route_id": 546,
+      "crossings": 73,
+      "n_lt": 19,
+      "deficit_deg": 393.37193156760895,
+      "min_angle_deg": 5.779881990242951,
+      "heights": 1
+    },
+    {
+      "route_id": 539,
+      "crossings": 69,
+      "n_lt": 17,
+      "deficit_deg": 391.15101620113364,
+      "min_angle_deg": 9.398766294641554,
+      "heights": 1
+    },
+    {
+      "route_id": 542,
+      "crossings": 67,
+      "n_lt": 13,
+      "deficit_deg": 377.904564567383,
+      "min_angle_deg": 6.2969244950768255,
+      "heights": 1
+    },
+    {
+      "route_id": 558,
+      "crossings": 80,
+      "n_lt": 20,
+      "deficit_deg": 370.88739857664996,
+      "min_angle_deg": 10.475313843229427,
+      "heights": 1
+    },
+    {
+      "route_id": 650,
+      "crossings": 70,
+      "n_lt": 21,
+      "deficit_deg": 363.02817555973525,
+      "min_angle_deg": 10.475313843229431,
+      "heights": 1
+    },
+    {
+      "route_id": 562,
+      "crossings": 70,
+      "n_lt": 17,
+      "deficit_deg": 347.61428091967537,
+      "min_angle_deg": 10.475313843229427,
+      "heights": 1
+    },
+    {
+      "route_id": 523,
+      "crossings": 76,
+      "n_lt": 18,
+      "deficit_deg": 342.0269695929097,
+      "min_angle_deg": 10.475313843229424,
+      "heights": 1
+    },
+    {
+      "route_id": 573,
+      "crossings": 71,
+      "n_lt": 13,
+      "deficit_deg": 341.18423199964434,
+      "min_angle_deg": 10.475313843229149,
+      "heights": 1
+    },
+    {
+      "route_id": 526,
+      "crossings": 71,
+      "n_lt": 19,
+      "deficit_deg": 329.0923886676417,
+      "min_angle_deg": 9.684145353792156,
+      "heights": 1
+    },
+    {
+      "route_id": 543,
+      "crossings": 69,
+      "n_lt": 13,
+      "deficit_deg": 325.79010779873965,
+      "min_angle_deg": 10.475313837063474,
+      "heights": 1
+    },
+    {
+      "route_id": 649,
+      "crossings": 72,
+      "n_lt": 17,
+      "deficit_deg": 325.7769364121047,
+      "min_angle_deg": 10.475313843229427,
+      "heights": 1
+    },
+    {
+      "route_id": 600,
+      "crossings": 64,
+      "n_lt": 13,
+      "deficit_deg": 319.7748737989316,
+      "min_angle_deg": 10.475313843229427,
+      "heights": 1
+    }
+  ],
+  "worst_crossings": [
+    {
+      "crossing_id": 1601,
+      "z_mm": -0.075,
+      "z_label": "L7",
+      "route_a": 206,
+      "route_b": 227,
+      "x_mm": 121.95252094260351,
+      "y_mm": 117.24861330010135,
+      "angle_deg": 5.453937970071914,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 32.30358155079101,
+      "s_b_mm": 27.655649435354515,
+      "theta_margin_deg": -39.54606202992809,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "E15:1:13",
+      "target_a": "W13:1:15",
+      "source_b": "E14:1:13",
+      "target_b": "W13:1:14",
+      "plane_a": 7,
+      "plane_b": 7,
+      "residual_a_mm": 3.552713678800501e-15,
+      "residual_b_mm": 3.552713678800501e-15,
+      "deficit_deg": 39.54606202992809,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 1589,
+      "z_mm": -0.075,
+      "z_label": "L7",
+      "route_a": 205,
+      "route_b": 226,
+      "x_mm": 117.24861330010135,
+      "y_mm": 28.047479057396508,
+      "angle_deg": 5.453937970071965,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 32.30358155079104,
+      "s_b_mm": 27.655649435354526,
+      "theta_margin_deg": -39.54606202992804,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "S15:1:13",
+      "target_a": "N13:1:15",
+      "source_b": "S14:1:13",
+      "target_b": "N13:1:14",
+      "plane_a": 7,
+      "plane_b": 7,
+      "residual_a_mm": 0.0,
+      "residual_b_mm": 0.0,
+      "deficit_deg": 39.54606202992804,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 6371,
+      "z_mm": 0.125,
+      "z_label": "L9",
+      "route_a": 538,
+      "route_b": 546,
+      "x_mm": 134.70463097415924,
+      "y_mm": 115.76370545837844,
+      "angle_deg": 5.779881990242951,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 10.306954530776316,
+      "s_b_mm": 10.221279649179381,
+      "theta_margin_deg": -39.22011800975705,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "E13:2:14",
+      "target_a": "S03:2:4",
+      "source_b": "E13:2:12",
+      "target_b": "S05:2:4",
+      "plane_a": 9,
+      "plane_b": 9,
+      "residual_a_mm": 1.7763568394002505e-15,
+      "residual_b_mm": 0.0,
+      "deficit_deg": 39.22011800975705,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 2082,
+      "z_mm": -0.025,
+      "z_label": "L20",
+      "route_a": 422,
+      "route_b": 428,
+      "x_mm": 27.800989997015524,
+      "y_mm": 115.03071990830894,
+      "angle_deg": 5.838778954191717,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 32.63762365415957,
+      "s_b_mm": 47.88745433299734,
+      "theta_margin_deg": -39.16122104580828,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "W11:1:13",
+      "target_a": "E13:1:11",
+      "source_b": "W09:1:13",
+      "target_b": "E13:1:9",
+      "plane_a": 20,
+      "plane_b": 20,
+      "residual_a_mm": 8.881784197001252e-15,
+      "residual_b_mm": 8.881784197001252e-15,
+      "deficit_deg": 39.16122104580828,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 2220,
+      "z_mm": -0.025,
+      "z_label": "L20",
+      "route_a": 102,
+      "route_b": 104,
+      "x_mm": 34.96928009169107,
+      "y_mm": 27.800989997015524,
+      "angle_deg": 5.838778954191717,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 32.63762365415957,
+      "s_b_mm": 47.88745433299735,
+      "theta_margin_deg": -39.16122104580828,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "S06:1:4",
+      "target_a": "N04:1:6",
+      "source_b": "S08:1:4",
+      "target_b": "N04:1:8",
+      "plane_a": 20,
+      "plane_b": 20,
+      "residual_a_mm": 1.7763568394002505e-15,
+      "residual_b_mm": 1.7763568394002505e-15,
+      "deficit_deg": 39.16122104580828,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 2719,
+      "z_mm": -0.025,
+      "z_label": "L20",
+      "route_a": 420,
+      "route_b": 426,
+      "x_mm": 122.19901000298445,
+      "y_mm": 34.96928009169106,
+      "angle_deg": 5.838778954191743,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 32.63762365415959,
+      "s_b_mm": 47.88745433299738,
+      "theta_margin_deg": -39.161221045808254,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "E06:1:4",
+      "target_a": "W04:1:6",
+      "source_b": "E08:1:4",
+      "target_b": "W04:1:8",
+      "plane_a": 20,
+      "plane_b": 20,
+      "residual_a_mm": 1.7763568394002505e-15,
+      "residual_b_mm": 1.7763568394002505e-15,
+      "deficit_deg": 39.161221045808254,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 2582,
+      "z_mm": -0.025,
+      "z_label": "L20",
+      "route_a": 421,
+      "route_b": 427,
+      "x_mm": 115.03071990830894,
+      "y_mm": 122.19901000298445,
+      "angle_deg": 5.838778954191746,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 32.63762365415959,
+      "s_b_mm": 47.88745433299738,
+      "theta_margin_deg": -39.161221045808254,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "N11:1:13",
+      "target_a": "S13:1:11",
+      "source_b": "N09:1:13",
+      "target_b": "S13:1:9",
+      "plane_a": 20,
+      "plane_b": 20,
+      "residual_a_mm": 1.7763568394002505e-15,
+      "residual_b_mm": 1.7763568394002505e-15,
+      "deficit_deg": 39.161221045808254,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 8261,
+      "z_mm": 0.425,
+      "z_label": "L15",
+      "route_a": 645,
+      "route_b": 646,
+      "x_mm": 14.89713757861445,
+      "y_mm": 120.9396393595,
+      "angle_deg": 6.22644966295646,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 219.17762541970416,
+      "s_b_mm": 140.17445689685727,
+      "theta_margin_deg": -38.77355033704354,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "E02:2:2",
+      "target_a": "N02:2:2",
+      "source_b": "E15:2:15",
+      "target_b": "S02:2:2",
+      "plane_a": 15,
+      "plane_b": 15,
+      "residual_a_mm": 0.0,
+      "residual_b_mm": 0.0,
+      "deficit_deg": 38.77355033704354,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 4779,
+      "z_mm": 0.125,
+      "z_label": "L9",
+      "route_a": 541,
+      "route_b": 542,
+      "x_mm": 33.39764142164698,
+      "y_mm": 102.448850724,
+      "angle_deg": 6.2969244950768255,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 161.25164841856255,
+      "s_b_mm": 119.2300571667157,
+      "theta_margin_deg": -38.70307550492318,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "E04:2:4",
+      "target_a": "N04:2:4",
+      "source_b": "E13:2:13",
+      "target_b": "S04:2:4",
+      "plane_a": 9,
+      "plane_b": 9,
+      "residual_a_mm": 3.552713678800501e-15,
+      "residual_b_mm": 3.552713678800501e-15,
+      "deficit_deg": 38.70307550492318,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 6552,
+      "z_mm": 0.375,
+      "z_label": "L14",
+      "route_a": 588,
+      "route_b": 609,
+      "x_mm": 18.893596693824847,
+      "y_mm": 125.125,
+      "angle_deg": 6.628247846001738,
+      "kind_a": "line",
+      "kind_b": "arc",
+      "s_a_mm": 195.42210055478284,
+      "s_b_mm": 234.38765306079543,
+      "theta_margin_deg": -38.37175215399826,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "S11:2:14",
+      "target_a": "W14:2:11",
+      "source_b": "E01:2:1",
+      "target_b": "N01:2:1",
+      "plane_a": 14,
+      "plane_b": 14,
+      "residual_a_mm": 0.0,
+      "residual_b_mm": 7.105427357601002e-15,
+      "deficit_deg": 38.37175215399826,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 7383,
+      "z_mm": 0.375,
+      "z_label": "L14",
+      "route_a": 588,
+      "route_b": 609,
+      "x_mm": 85.60640330617522,
+      "y_mm": 125.024739682,
+      "angle_deg": 6.6282478460020124,
+      "kind_a": "arc",
+      "kind_b": "line",
+      "s_a_mm": 128.70542602034334,
+      "s_b_mm": 167.67097852635595,
+      "theta_margin_deg": -38.37175215399799,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "S11:2:14",
+      "target_a": "W14:2:11",
+      "source_b": "E01:2:1",
+      "target_b": "N01:2:1",
+      "plane_a": 14,
+      "plane_b": 14,
+      "residual_a_mm": 1.7763568394002505e-15,
+      "residual_b_mm": 0.0,
+      "deficit_deg": 38.37175215399799,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 5777,
+      "z_mm": 0.125,
+      "z_label": "L9",
+      "route_a": 552,
+      "route_b": 564,
+      "x_mm": 94.804405890687,
+      "y_mm": 98.625,
+      "angle_deg": 7.390262534595667,
+      "kind_a": "line",
+      "kind_b": "arc",
+      "s_a_mm": 108.37491676494297,
+      "s_b_mm": 100.24416089369132,
+      "theta_margin_deg": -37.609737465404336,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "S13:2:11",
+      "target_a": "W11:2:13",
+      "source_b": "S12:2:14",
+      "target_b": "W14:2:12",
+      "plane_a": 9,
+      "plane_b": 9,
+      "residual_a_mm": 0.0,
+      "residual_b_mm": 0.0,
+      "deficit_deg": 37.609737465404336,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 5312,
+      "z_mm": 0.125,
+      "z_label": "L9",
+      "route_a": 519,
+      "route_b": 544,
+      "x_mm": 54.467867691,
+      "y_mm": 40.0241790186721,
+      "angle_deg": 7.508307326826008,
+      "kind_a": "line",
+      "kind_b": "arc",
+      "s_a_mm": 154.3742208478813,
+      "s_b_mm": 84.29556884427598,
+      "theta_margin_deg": -37.49169267317399,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "N13:2:14",
+      "target_a": "W03:2:4",
+      "source_b": "S13:2:13",
+      "target_b": "W13:2:13",
+      "plane_a": 9,
+      "plane_b": 9,
+      "residual_a_mm": 1.4210854715202004e-14,
+      "residual_b_mm": 1.7763568394002505e-15,
+      "deficit_deg": 37.49169267317399,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 7096,
+      "z_mm": 0.375,
+      "z_label": "L14",
+      "route_a": 596,
+      "route_b": 602,
+      "x_mm": 60.874999999999986,
+      "y_mm": 37.337409870425375,
+      "angle_deg": 7.569416711765518,
+      "kind_a": "arc",
+      "kind_b": "line",
+      "s_a_mm": 58.84000265871005,
+      "s_b_mm": 127.10297005189477,
+      "theta_margin_deg": -37.43058328823448,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "S11:2:12",
+      "target_a": "W12:2:11",
+      "source_b": "E11:2:10",
+      "target_b": "S07:2:6",
+      "plane_a": 14,
+      "plane_b": 14,
+      "residual_a_mm": 0.0,
+      "residual_b_mm": 0.0,
+      "deficit_deg": 37.43058328823448,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 5113,
+      "z_mm": 0.125,
+      "z_label": "L9",
+      "route_a": 548,
+      "route_b": 566,
+      "x_mm": 47.5979548315,
+      "y_mm": 107.58979796796004,
+      "angle_deg": 7.85219061070098,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 151.954453449095,
+      "s_b_mm": 97.27022710108841,
+      "theta_margin_deg": -37.14780938929902,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "S13:2:12",
+      "target_a": "W12:2:13",
+      "source_b": "E12:2:13",
+      "target_b": "S04:2:5",
+      "plane_a": 9,
+      "plane_b": 9,
+      "residual_a_mm": 3.552713678800501e-15,
+      "residual_b_mm": 3.552713678800501e-15,
+      "deficit_deg": 37.14780938929902,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 5079,
+      "z_mm": 0.125,
+      "z_label": "L9",
+      "route_a": 546,
+      "route_b": 565,
+      "x_mm": 42.41020203203996,
+      "y_mm": 47.5979548315,
+      "angle_deg": 7.852190610700992,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 151.954453449095,
+      "s_b_mm": 110.02647330824811,
+      "theta_margin_deg": -37.147809389299006,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "E13:2:12",
+      "target_a": "S05:2:4",
+      "source_b": "E04:2:5",
+      "target_b": "N05:2:4",
+      "plane_a": 9,
+      "plane_b": 9,
+      "residual_a_mm": 3.552713678800501e-15,
+      "residual_b_mm": 3.552713678800501e-15,
+      "deficit_deg": 37.147809389299006,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 568,
+      "z_mm": -0.125,
+      "z_label": "L6",
+      "route_a": 139,
+      "route_b": 145,
+      "x_mm": 112.3721453668066,
+      "y_mm": 6.55163161397806,
+      "angle_deg": 8.47342138250647,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 109.19410660757542,
+      "s_b_mm": 47.97190811873393,
+      "theta_margin_deg": -36.52657861749353,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "W01:1:2",
+      "target_a": "E02:1:1",
+      "source_b": "E04:1:1",
+      "target_b": "W01:1:4",
+      "plane_a": 6,
+      "plane_b": 6,
+      "residual_a_mm": 1.7763568394002505e-15,
+      "residual_b_mm": 0.0,
+      "deficit_deg": 36.52657861749353,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 10682,
+      "z_mm": 0.475,
+      "z_label": "L16",
+      "route_a": 729,
+      "route_b": 731,
+      "x_mm": 75.0,
+      "y_mm": 61.16724699361565,
+      "angle_deg": 8.602444609340724,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 73.01972839683265,
+      "s_b_mm": 94.32955856645461,
+      "theta_margin_deg": -36.39755539065928,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "E07:2:7",
+      "target_a": "N07:2:7",
+      "source_b": "N10:2:10",
+      "target_b": "W07:2:7",
+      "plane_a": 16,
+      "plane_b": 16,
+      "residual_a_mm": 3.552713678800501e-15,
+      "residual_b_mm": 3.552713678800501e-15,
+      "deficit_deg": 36.39755539065928,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 10683,
+      "z_mm": 0.475,
+      "z_label": "L16",
+      "route_a": 730,
+      "route_b": 732,
+      "x_mm": 75.0,
+      "y_mm": 88.83275300638435,
+      "angle_deg": 8.602444609340724,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 73.01972839683265,
+      "s_b_mm": 94.32955856645461,
+      "theta_margin_deg": -36.39755539065928,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "E10:2:10",
+      "target_a": "S07:2:7",
+      "source_b": "S10:2:10",
+      "target_b": "W10:2:10",
+      "plane_a": 16,
+      "plane_b": 16,
+      "residual_a_mm": 3.552713678800501e-15,
+      "residual_b_mm": 3.552713678800501e-15,
+      "deficit_deg": 36.39755539065928,
+      "n_duplicate_hits": 1
+    },
+    {
+      "crossing_id": 10607,
+      "z_mm": 0.475,
+      "z_label": "L16",
+      "route_a": 729,
+      "route_b": 730,
+      "x_mm": 61.16724699361565,
+      "y_mm": 75.0,
+      "angle_deg": 8.602444609340726,
+      "kind_a": "arc",
+      "kind_b": "arc",
+      "s_a_mm": 94.32955856645461,
+      "s_b_mm": 94.32955856645461,
+      "theta_margin_deg": -36.39755539065928,
+      "pass_45": false,
+      "pass_5": true,
+      "source_a": "E07:2:7",
+      "target_a": "N07:2:7",
+      "source_b": "E10:2:10",
+      "target_b": "S07:2:7",
+      "plane_a": 16,
+      "plane_b": 16,
+      "residual_a_mm": 3.552713678800501e-15,
+      "residual_b_mm": 3.552713678800501e-15,
+      "deficit_deg": 36.39755539065928,
+      "n_duplicate_hits": 1
+    }
+  ],
+  "overlap_events": [],
+  "endpoint_touch_events": [],
+  "tangent_or_near_tangent_events": [],
+  "clearance_violations": [],
+  "skipped": {
+    "unknown_primitive_kind": 0,
+    "missing_z": 0
+  }
+}

@@ -1,0 +1,33 @@
+[load] C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\00_baseline\validation_g5_v5\run_dir\routes_l3d.json
+[load] routes=1024 sha256=95f4d6bf1ca0942cb7e3f836f4c12d9141ca016a279a38d968a05d181a29a485 (0.07s)
+[load] layer labels=20 derived from the routes document (process.plane_heights_mm / interface_planes)
+[build] routes=1024 heights=20 primitives=6116 skipped={'unknown_primitive_kind': 0, 'missing_z': 0} (0.07s)
+[grid] z=-0.325000 prims=254 cells=8700 pairs=1176 raw_hits=541 (0.10s)
+[grid] z=-0.275000 prims=306 cells=8080 pairs=1047 raw_hits=288 (0.08s)
+[grid] z=-0.225000 prims=356 cells=9662 pairs=1279 raw_hits=198 (0.13s)
+[grid] z=-0.175000 prims=465 cells=10308 pairs=1707 raw_hits=269 (0.14s)
+[grid] z=-0.125000 prims=175 cells=7006 pairs=372 raw_hits=107 (0.07s)
+[grid] z=-0.075000 prims=177 cells=7281 pairs=409 raw_hits=186 (0.05s)
+[grid] z=-0.025000 prims=210 cells=8416 pairs=583 raw_hits=301 (0.06s)
+[grid] z=0.025000 prims=1121 cells=7644 pairs=1694 raw_hits=81 (0.07s)
+[grid] z=0.075000 prims=164 cells=6982 pairs=454 raw_hits=261 (0.05s)
+[grid] z=0.125000 prims=182 cells=7981 pairs=657 raw_hits=315 (0.07s)
+[grid] z=0.175000 prims=187 cells=6759 pairs=348 raw_hits=166 (0.04s)
+[grid] z=0.225000 prims=130 cells=5663 pairs=184 raw_hits=100 (0.03s)
+[grid] z=0.275000 prims=221 cells=8853 pairs=493 raw_hits=134 (0.07s)
+[grid] z=0.325000 prims=239 cells=9199 pairs=674 raw_hits=158 (0.07s)
+[grid] z=0.375000 prims=160 cells=7058 pairs=495 raw_hits=211 (0.08s)
+[grid] z=0.425000 prims=195 cells=7633 pairs=591 raw_hits=263 (0.06s)
+[grid] z=0.475000 prims=136 cells=5997 pairs=269 raw_hits=77 (0.04s)
+[grid] z=0.525000 prims=1079 cells=7308 pairs=1614 raw_hits=89 (0.06s)
+[grid] z=0.575000 prims=185 cells=7448 pairs=489 raw_hits=160 (0.07s)
+[grid] z=0.625000 prims=174 cells=7564 pairs=578 raw_hits=255 (0.06s)
+[detect] candidate primitive pairs=15113 raw crossings=4160 overlaps=0 tangents=0 (1.47s)
+[dedupe] unique hit points=4136 (merged 20 duplicate groups) (1.49s)
+[filter] crossings=4136 endpoint_touches=0 (1.50s)
+[write] C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\00_baseline\validation_g5_v5\independent\g5_crossing_angles.csv (4136 rows)
+[write] C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\00_baseline\validation_g5_v5\independent\g5_angle_validation.json
+[write] C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\00_baseline\validation_g5_v5\independent\g5_angle_violations.json
+G5_ANGLE_SUMMARY {"routes": 1024, "heights": 20, "total_crossings": 4136, "unique_route_pairs": 3430, "routes_with_crossings": 998, "max_crossings_per_route": 99, "max_crossings_route_ids": [613], "min_angle_deg": 6.122694424423152, "min_angle_crossing_id": 2615, "n_lt_45": 51, "n_lt_5": 0, "D_theta_deg": 964.8773339499023, "D_max_deg": 38.87730557557685, "overlaps": 0, "endpoint_touches": 0, "tangent_or_near_tangent": 0, "clearance_violations": 0, "clearance_min_non_crossing_mm": 0.09048373817517262, "residual_max_mm": 3.375077994860476e-14, "pass_45": false, "theta_min_deg": 45.0, "sha256": "95f4d6bf1ca0942cb7e3f836f4c12d9141ca016a279a38d968a05d181a29a485", "runtime_s": 1.79}
+[done] runtime=1.79s out=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\00_baseline\validation_g5_v5\independent
+[independence] PASS: only standard-library modules imported

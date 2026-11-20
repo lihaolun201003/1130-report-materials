@@ -1,0 +1,131 @@
+{
+ "schema": "g6_polish_v1",
+ "n_bad": 0,
+ "deficit": 0.0,
+ "crossings": 4578,
+ "length_mm": 157162.472389,
+ "hard_issues": 0,
+ "events": [
+  {
+   "route_a": 493,
+   "route_b": 499,
+   "z": -0.075,
+   "x": 81.125,
+   "y": 112.327348,
+   "angle_deg": 14.835112,
+   "result": "repaired",
+   "kind": "single",
+   "delta_bad": -1,
+   "delta_deficit": -30.164888,
+   "label": "reheight:OPP_Z:z=-0.025|reheight",
+   "n_bad_after": 3,
+   "deficit_after": 25.580187
+  },
+  {
+   "route_a": 542,
+   "route_b": 562,
+   "z": 0.425,
+   "x": 26.002198,
+   "y": 99.153477,
+   "angle_deg": 34.2278,
+   "result": "repaired",
+   "kind": "pair",
+   "delta_bad": -1,
+   "delta_deficit": -10.7722,
+   "label": "body:ADJ_L+reheight:ADJ_UP_LOOP:z=+0.325",
+   "n_bad_after": 2,
+   "deficit_after": 14.807988
+  },
+  {
+   "route_a": 513,
+   "route_b": 833,
+   "z": 0.375,
+   "x": 131.287373,
+   "y": 24.125,
+   "angle_deg": 35.247507,
+   "result": "repaired",
+   "kind": "pair",
+   "delta_bad": -2,
+   "delta_deficit": -14.807988,
+   "label": "reheight:ADJ_UP_LOOP:z=+0.325+reheight:ADJ_SHIFT_TURN:z=+0.425",
+   "n_bad_after": 0,
+   "deficit_after": 0
+  }
+ ],
+ "history": [
+  {
+   "route_a": 493,
+   "route_b": 499,
+   "z": -0.075,
+   "x": 81.125,
+   "y": 112.327348,
+   "angle_deg": 14.835112,
+   "result": "repaired",
+   "kind": "single",
+   "delta_bad": -1,
+   "delta_deficit": -30.164888,
+   "label": "reheight:OPP_Z:z=-0.025|reheight",
+   "n_bad_after": 3,
+   "deficit_after": 25.580187
+  },
+  {
+   "route_a": 542,
+   "route_b": 562,
+   "z": 0.425,
+   "x": 26.002198,
+   "y": 99.153477,
+   "angle_deg": 34.2278,
+   "result": "repaired",
+   "kind": "pair",
+   "delta_bad": -1,
+   "delta_deficit": -10.7722,
+   "label": "body:ADJ_L+reheight:ADJ_UP_LOOP:z=+0.325",
+   "n_bad_after": 2,
+   "deficit_after": 14.807988
+  },
+  {
+   "route_a": 513,
+   "route_b": 833,
+   "z": 0.375,
+   "x": 131.287373,
+   "y": 24.125,
+   "angle_deg": 35.247507,
+   "result": "repaired",
+   "kind": "pair",
+   "delta_bad": -2,
+   "delta_deficit": -14.807988,
+   "label": "reheight:ADJ_UP_LOOP:z=+0.325+reheight:ADJ_SHIFT_TURN:z=+0.425",
+   "n_bad_after": 0,
+   "deficit_after": 0
+  }
+ ],
+ "stats": {
+  "quick_legal": 4631,
+  "body_candidates": 1770,
+  "pose_candidates": 4687,
+  "quick_evals": 7919,
+  "quick_hard_reject": 3288,
+  "full_evals": 1,
+  "batch_evals": 266
+ },
+ "seconds_remaining": 1483.902,
+ "start": {
+  "n_bad": 4,
+  "deficit": 55.745076,
+  "crossings": 4454,
+  "length_mm": 157233.701855,
+  "hard_issues": 0
+ },
+ "started_at": "2026-11-20T22:08:07",
+ "elapsed_seconds": 17.45,
+ "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\best_snapshots\\seed_1008_final_sa_best.json",
+ "seed": 20261120,
+ "reaudit": {
+  "n_bad": 0,
+  "deficit": 0,
+  "crossings": 4578,
+  "length_mm": 157162.472389,
+  "hard_issues": 0
+ },
+ "reaudit_matches": true
+}

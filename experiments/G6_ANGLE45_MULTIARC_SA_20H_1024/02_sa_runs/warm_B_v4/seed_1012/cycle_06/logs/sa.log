@@ -1,0 +1,13 @@
+[2026-11-20T21:47:51] G6 SA start seed=1012 profile=B routes=1024 N_bad=5 D_theta=108.738880 crossings=4399 hard_issues=0
+[2026-11-20T21:48:26] no legal proposal in last window (failed=152)
+[2026-11-20T21:48:57] no legal proposal in last window (failed=368)
+[2026-11-20T21:49:10] no legal proposal in last window (failed=461)
+[2026-11-20T21:49:33] no legal proposal in last window (failed=645)
+[2026-11-20T21:49:51] t=120.2s moves=1707 acc=0.046 worse_acc=2 N_bad=5 D=113.423 T=206.7 reheat=0 commit_fail=0 failed_props=779
+[2026-11-20T21:50:30] no legal proposal in last window (failed=1114)
+[2026-11-20T21:50:42] no legal proposal in last window (failed=1186)
+[2026-11-20T21:50:53] no legal proposal in last window (failed=1263)
+[2026-11-20T21:51:04] no legal proposal in last window (failed=1356)
+[2026-11-20T21:51:28] no legal proposal in last window (failed=1545)
+[2026-11-20T21:51:51] budget exhausted after 3775 moves (240.0s); N_bad=5
+[2026-11-20T21:51:52] STOP {"M": 1000.0, "acceptance_rate": 0.0493, "accepted": 186, "accepted_worse": 5, "best_key": [4, 82.462724, 4392, 157166.579], "best_move": 42, "cfg": {"M": 1000.0, "T0": 372.00870000000003, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1012, "theta": 45.0}, "commit_failures": 0, "crossings": 4399, "deficit": 113.423006, "elapsed_seconds": 241.181, "failed_proposals": 1734, "generated_at": "2026-11-20T21:51:51", "hard_issues": 0, "lam": 1.0, "length_mm": 157204.678682, "move_stats": {"none": {"rejected": 1734}, "single:body": {"accepted": 186, "attempted": 2041, "improving": 3, "rejected": 1855}}, "moves": 3775, "moves_per_second": 15.652, "n_bad": 5, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 1855, "schema": "g6_sa_summary_v1", "seed": 1012, "state_build_seconds": 3.535, "success": false, "theta_min_deg": 45.0, "total_accepted": 186, "total_attempted": 2041}

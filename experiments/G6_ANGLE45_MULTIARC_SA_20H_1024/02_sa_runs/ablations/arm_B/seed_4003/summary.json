@@ -1,0 +1,87 @@
+{
+  "schema": "g6_run_v1",
+  "seed": 4003,
+  "profile": "B",
+  "cycles": 1,
+  "cycle_seconds": 3600.0,
+  "T0": 700.0,
+  "T0_decay": 0.75,
+  "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5\\routes_l3d.json",
+  "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_B\\seed_4003",
+  "best_key": [
+    12,
+    290.560803,
+    4565,
+    157447.223
+  ],
+  "started": "2026-11-20T21:58:02",
+  "cycles_run": 1,
+  "summaries": [
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 4003,
+      "profile": "B",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 1500,
+      "accepted": 439,
+      "rejected": 875,
+      "accepted_worse": 188,
+      "failed_proposals": 186,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 99.972,
+      "moves_per_second": 15.004,
+      "acceptance_rate": 0.2927,
+      "n_bad": 12,
+      "deficit": 290.560803,
+      "crossings": 4565,
+      "length_mm": 157447.222986,
+      "hard_issues": 0,
+      "best_key": [
+        6,
+        125.501987,
+        4512,
+        157328.087
+      ],
+      "best_move": 684,
+      "success": false,
+      "move_stats": {
+        "single:body": {
+          "attempted": 1314,
+          "accepted": 439,
+          "improving": 91,
+          "rejected": 875
+        },
+        "none": {
+          "rejected": 186
+        }
+      },
+      "total_attempted": 1314,
+      "total_accepted": 439,
+      "state_build_seconds": 1.628,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 4003,
+        "profile": "B",
+        "T0": 700.0,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 60.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T21:58:02"
+    }
+  ]
+}

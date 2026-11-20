@@ -1,0 +1,31 @@
+{
+  "schema": "g6_early_start_v1",
+  "out": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\early2\\early_off",
+  "angle_aware": 0,
+  "angle_theta": 45.0,
+  "angle_pool": 0,
+  "stages": "CDEF",
+  "elapsed_seconds": 236.097,
+  "generated_at": "2026-11-20T21:20:37",
+  "routes": 1024,
+  "routed": 1024,
+  "crossings": 12338,
+  "n_bad": 1365,
+  "deficit": 30583.917912,
+  "min_angle": 5.453938,
+  "hard_issues": 0,
+  "length_mm": 157368.794636,
+  "routes_with_violations": 516,
+  "angle_aware_policy": {
+    "enabled": false,
+    "theta_deg": 45.0,
+    "pool": 0,
+    "source": "cli:run_early"
+  },
+  "angle_aware_counters": {
+    "scored_routes": 0,
+    "scored_candidates": 0,
+    "selected_routes": 0,
+    "sum_best_n_bad": 0
+  }
+}

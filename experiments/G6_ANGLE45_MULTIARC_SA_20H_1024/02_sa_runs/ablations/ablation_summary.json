@@ -1,0 +1,686 @@
+{
+ "schema": "g6_ablation_v1",
+ "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5\\routes_l3d.json",
+ "seeds": "4001,4002,4003,4004",
+ "max_moves": 1500,
+ "T0": 700.0,
+ "arms": [
+  {
+   "arm": "B",
+   "out": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_B",
+   "best_key": [
+    9,
+    137.432233,
+    4471,
+    157258.626
+   ],
+   "best_seed": 4001,
+   "runs": [
+    {
+     "seed": 4002,
+     "n_bad": 16,
+     "deficit": 282.096768,
+     "crossings": 4476,
+     "length_mm": 157284.27962,
+     "moves": 1500,
+     "accepted": 379,
+     "acceptance_rate": 0.2527,
+     "moves_per_second": 15.515,
+     "move_stats": {
+      "single:body": {
+       "attempted": 1335,
+       "accepted": 379,
+       "improving": 90,
+       "rejected": 956
+      },
+      "none": {
+       "rejected": 165
+      }
+     }
+    },
+    {
+     "seed": 4001,
+     "n_bad": 9,
+     "deficit": 137.432233,
+     "crossings": 4471,
+     "length_mm": 157258.625976,
+     "moves": 1500,
+     "accepted": 458,
+     "acceptance_rate": 0.3053,
+     "moves_per_second": 14.918,
+     "move_stats": {
+      "single:body": {
+       "attempted": 1317,
+       "rejected": 859,
+       "accepted": 458,
+       "improving": 108
+      },
+      "none": {
+       "rejected": 183
+      }
+     }
+    },
+    {
+     "seed": 4003,
+     "n_bad": 12,
+     "deficit": 290.560803,
+     "crossings": 4565,
+     "length_mm": 157447.222986,
+     "moves": 1500,
+     "accepted": 439,
+     "acceptance_rate": 0.2927,
+     "moves_per_second": 15.004,
+     "move_stats": {
+      "single:body": {
+       "attempted": 1314,
+       "accepted": 439,
+       "improving": 91,
+       "rejected": 875
+      },
+      "none": {
+       "rejected": 186
+      }
+     }
+    },
+    {
+     "seed": 4004,
+     "n_bad": 9,
+     "deficit": 196.663887,
+     "crossings": 4339,
+     "length_mm": 157140.568472,
+     "moves": 1500,
+     "accepted": 415,
+     "acceptance_rate": 0.2767,
+     "moves_per_second": 14.158,
+     "move_stats": {
+      "single:body": {
+       "attempted": 1205,
+       "rejected": 790,
+       "accepted": 415,
+       "improving": 93
+      },
+      "none": {
+       "rejected": 295
+      }
+     }
+    }
+   ],
+   "exit_code": 0,
+   "seconds": 110.65,
+   "log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_B\\console.log"
+  },
+  {
+   "arm": "C",
+   "out": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_C",
+   "best_key": [
+    8,
+    121.797255,
+    4500,
+    157351.5
+   ],
+   "best_seed": 4001,
+   "runs": [
+    {
+     "seed": 4002,
+     "n_bad": 10,
+     "deficit": 127.791004,
+     "crossings": 4395,
+     "length_mm": 157172.867902,
+     "moves": 1500,
+     "accepted": 349,
+     "acceptance_rate": 0.2327,
+     "moves_per_second": 12.217,
+     "move_stats": {
+      "pair:joint": {
+       "attempted": 169,
+       "rejected": 163,
+       "accepted": 6,
+       "improving": 1
+      },
+      "single:body": {
+       "attempted": 1017,
+       "rejected": 674,
+       "accepted": 343,
+       "improving": 88
+      },
+      "none": {
+       "rejected": 314
+      }
+     }
+    },
+    {
+     "seed": 4003,
+     "n_bad": 18,
+     "deficit": 289.581235,
+     "crossings": 4537,
+     "length_mm": 157389.797813,
+     "moves": 1500,
+     "accepted": 293,
+     "acceptance_rate": 0.1953,
+     "moves_per_second": 12.34,
+     "move_stats": {
+      "none": {
+       "rejected": 291
+      },
+      "pair:joint": {
+       "attempted": 159,
+       "rejected": 157,
+       "accepted": 2,
+       "improving": 1
+      },
+      "single:body": {
+       "attempted": 1050,
+       "rejected": 759,
+       "accepted": 291,
+       "improving": 78
+      }
+     }
+    },
+    {
+     "seed": 4004,
+     "n_bad": 16,
+     "deficit": 207.981611,
+     "crossings": 4456,
+     "length_mm": 157236.259399,
+     "moves": 1500,
+     "accepted": 361,
+     "acceptance_rate": 0.2407,
+     "moves_per_second": 12.167,
+     "move_stats": {
+      "single:body": {
+       "attempted": 1076,
+       "rejected": 724,
+       "accepted": 352,
+       "improving": 83
+      },
+      "none": {
+       "rejected": 236
+      },
+      "pair:joint": {
+       "attempted": 188,
+       "accepted": 9,
+       "improving": 2,
+       "rejected": 179
+      }
+     }
+    },
+    {
+     "seed": 4001,
+     "n_bad": 8,
+     "deficit": 121.797255,
+     "crossings": 4500,
+     "length_mm": 157351.500092,
+     "moves": 1500,
+     "accepted": 458,
+     "acceptance_rate": 0.3053,
+     "moves_per_second": 10.598,
+     "move_stats": {
+      "single:body": {
+       "attempted": 1057,
+       "rejected": 609,
+       "accepted": 448,
+       "improving": 98
+      },
+      "none": {
+       "rejected": 285
+      },
+      "pair:joint": {
+       "attempted": 158,
+       "rejected": 148,
+       "accepted": 10,
+       "improving": 2
+      }
+     }
+    }
+   ],
+   "exit_code": 0,
+   "seconds": 145.63,
+   "log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_C\\console.log"
+  },
+  {
+   "arm": "D",
+   "out": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_D",
+   "best_key": [
+    0,
+    0.0,
+    4664,
+    157339.1
+   ],
+   "best_seed": 4004,
+   "runs": [
+    {
+     "seed": 4004,
+     "n_bad": 0,
+     "deficit": 0.0,
+     "crossings": 4664,
+     "length_mm": 157339.100351,
+     "moves": 886,
+     "accepted": 259,
+     "acceptance_rate": 0.2923,
+     "moves_per_second": 7.474,
+     "move_stats": {
+      "single:body": {
+       "attempted": 459,
+       "rejected": 258,
+       "accepted": 201,
+       "improving": 52
+      },
+      "none": {
+       "rejected": 235
+      },
+      "single:cheap_reheight": {
+       "attempted": 59,
+       "rejected": 43,
+       "accepted": 16,
+       "improving": 5
+      },
+      "kick:reheight": {
+       "attempted": 7,
+       "rejected": 7
+      },
+      "pair:joint": {
+       "attempted": 52,
+       "rejected": 49,
+       "accepted": 3
+      },
+      "single:lead": {
+       "attempted": 39,
+       "rejected": 15,
+       "accepted": 24,
+       "improving": 6
+      },
+      "single:reheight": {
+       "attempted": 35,
+       "rejected": 20,
+       "accepted": 15,
+       "improving": 7
+      }
+     }
+    },
+    {
+     "seed": 4003,
+     "n_bad": 9,
+     "deficit": 143.334721,
+     "crossings": 4666,
+     "length_mm": 157367.259841,
+     "moves": 1500,
+     "accepted": 375,
+     "acceptance_rate": 0.25,
+     "moves_per_second": 9.748,
+     "move_stats": {
+      "none": {
+       "rejected": 433
+      },
+      "single:body": {
+       "attempted": 907,
+       "accepted": 332,
+       "improving": 69,
+       "rejected": 575
+      },
+      "single:reheight": {
+       "attempted": 20,
+       "rejected": 13,
+       "accepted": 7,
+       "improving": 4
+      },
+      "pair:joint": {
+       "attempted": 87,
+       "rejected": 77,
+       "accepted": 10,
+       "improving": 3
+      },
+      "single:cheap_reheight": {
+       "attempted": 22,
+       "accepted": 12,
+       "rejected": 10,
+       "improving": 3
+      },
+      "single:lead": {
+       "attempted": 27,
+       "accepted": 14,
+       "improving": 4,
+       "rejected": 13
+      },
+      "kick:reheight": {
+       "attempted": 4,
+       "rejected": 4
+      }
+     }
+    },
+    {
+     "seed": 4002,
+     "n_bad": 12,
+     "deficit": 172.889888,
+     "crossings": 4760,
+     "length_mm": 157619.607634,
+     "moves": 1500,
+     "accepted": 320,
+     "acceptance_rate": 0.2133,
+     "moves_per_second": 9.222,
+     "move_stats": {
+      "none": {
+       "rejected": 443
+      },
+      "single:body": {
+       "attempted": 835,
+       "rejected": 556,
+       "accepted": 279,
+       "improving": 57
+      },
+      "single:cheap_reheight": {
+       "attempted": 48,
+       "rejected": 31,
+       "accepted": 17,
+       "improving": 6
+      },
+      "pair:joint": {
+       "attempted": 107,
+       "rejected": 101,
+       "accepted": 6
+      },
+      "single:reheight": {
+       "attempted": 23,
+       "rejected": 17,
+       "accepted": 6,
+       "improving": 1
+      },
+      "kick:reheight": {
+       "attempted": 12,
+       "rejected": 12
+      },
+      "single:lead": {
+       "attempted": 32,
+       "accepted": 12,
+       "rejected": 20,
+       "improving": 3
+      }
+     }
+    },
+    {
+     "seed": 4001,
+     "n_bad": 5,
+     "deficit": 21.270517,
+     "crossings": 4706,
+     "length_mm": 157338.45987,
+     "moves": 1500,
+     "accepted": 292,
+     "acceptance_rate": 0.1947,
+     "moves_per_second": 8.728,
+     "move_stats": {
+      "single:body": {
+       "attempted": 786,
+       "rejected": 531,
+       "accepted": 255,
+       "improving": 66
+      },
+      "none": {
+       "rejected": 449
+      },
+      "pair:joint": {
+       "attempted": 98,
+       "rejected": 95,
+       "accepted": 3
+      },
+      "single:cheap_reheight": {
+       "attempted": 66,
+       "rejected": 57,
+       "accepted": 9,
+       "improving": 5
+      },
+      "kick:reheight": {
+       "attempted": 17,
+       "rejected": 16,
+       "accepted": 1
+      },
+      "single:reheight": {
+       "attempted": 27,
+       "rejected": 20,
+       "accepted": 7,
+       "improving": 4
+      },
+      "single:lead": {
+       "attempted": 57,
+       "accepted": 17,
+       "improving": 5,
+       "rejected": 40
+      }
+     }
+    }
+   ],
+   "exit_code": 0,
+   "seconds": 175.67,
+   "log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_D\\console.log"
+  },
+  {
+   "arm": "E",
+   "out": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_E",
+   "best_key": [
+    0,
+    0.0,
+    4786,
+    157222.567
+   ],
+   "best_seed": 4001,
+   "runs": [
+    {
+     "seed": 4001,
+     "n_bad": 0,
+     "deficit": 0.0,
+     "crossings": 4786,
+     "length_mm": 157222.567237,
+     "moves": 923,
+     "accepted": 177,
+     "acceptance_rate": 0.1918,
+     "moves_per_second": 7.615,
+     "move_stats": {
+      "single:body": {
+       "attempted": 305,
+       "rejected": 174,
+       "accepted": 131,
+       "improving": 40
+      },
+      "none": {
+       "rejected": 455
+      },
+      "single:reheight": {
+       "attempted": 31,
+       "accepted": 11,
+       "improving": 8,
+       "rejected": 20
+      },
+      "kick:reheight": {
+       "attempted": 8,
+       "rejected": 8
+      },
+      "single:cheap_reheight": {
+       "attempted": 42,
+       "rejected": 32,
+       "accepted": 10,
+       "improving": 3
+      },
+      "pair:joint": {
+       "attempted": 25,
+       "rejected": 25
+      },
+      "single:lead": {
+       "attempted": 50,
+       "accepted": 25,
+       "improving": 7,
+       "rejected": 25
+      },
+      "group:joint": {
+       "attempted": 7,
+       "rejected": 7
+      }
+     }
+    },
+    {
+     "seed": 4002,
+     "n_bad": 0,
+     "deficit": 0.0,
+     "crossings": 4862,
+     "length_mm": 157422.176199,
+     "moves": 1268,
+     "accepted": 257,
+     "acceptance_rate": 0.2027,
+     "moves_per_second": 7.322,
+     "move_stats": {
+      "none": {
+       "rejected": 552
+      },
+      "single:body": {
+       "attempted": 430,
+       "rejected": 253,
+       "accepted": 177,
+       "improving": 42
+      },
+      "single:reheight": {
+       "attempted": 46,
+       "rejected": 25,
+       "accepted": 21,
+       "improving": 6
+      },
+      "single:lead": {
+       "attempted": 54,
+       "accepted": 22,
+       "improving": 4,
+       "rejected": 32
+      },
+      "pair:joint": {
+       "attempted": 43,
+       "rejected": 42,
+       "accepted": 1,
+       "improving": 1
+      },
+      "single:cheap_reheight": {
+       "attempted": 104,
+       "accepted": 36,
+       "improving": 11,
+       "rejected": 68
+      },
+      "group:joint": {
+       "attempted": 23,
+       "rejected": 23
+      },
+      "kick:reheight": {
+       "attempted": 16,
+       "rejected": 16
+      }
+     }
+    },
+    {
+     "seed": 4003,
+     "n_bad": 0,
+     "deficit": 0.0,
+     "crossings": 4806,
+     "length_mm": 157306.215646,
+     "moves": 1410,
+     "accepted": 283,
+     "acceptance_rate": 0.2007,
+     "moves_per_second": 7.68,
+     "move_stats": {
+      "none": {
+       "rejected": 645
+      },
+      "single:reheight": {
+       "attempted": 45,
+       "accepted": 13,
+       "improving": 5,
+       "rejected": 32
+      },
+      "single:cheap_reheight": {
+       "attempted": 101,
+       "rejected": 74,
+       "accepted": 27,
+       "improving": 6
+      },
+      "single:body": {
+       "attempted": 476,
+       "accepted": 211,
+       "improving": 55,
+       "rejected": 265
+      },
+      "single:lead": {
+       "attempted": 58,
+       "accepted": 26,
+       "rejected": 32,
+       "improving": 4
+      },
+      "pair:joint": {
+       "attempted": 59,
+       "rejected": 55,
+       "accepted": 4,
+       "improving": 2
+      },
+      "kick:reheight": {
+       "attempted": 9,
+       "rejected": 9
+      },
+      "group:joint": {
+       "attempted": 17,
+       "rejected": 15,
+       "accepted": 2
+      }
+     }
+    },
+    {
+     "seed": 4004,
+     "n_bad": 5,
+     "deficit": 68.081319,
+     "crossings": 5032,
+     "length_mm": 157289.084403,
+     "moves": 1500,
+     "accepted": 304,
+     "acceptance_rate": 0.2027,
+     "moves_per_second": 7.586,
+     "move_stats": {
+      "none": {
+       "rejected": 660
+      },
+      "single:body": {
+       "attempted": 558,
+       "accepted": 225,
+       "improving": 52,
+       "rejected": 333
+      },
+      "single:cheap_reheight": {
+       "attempted": 109,
+       "rejected": 80,
+       "accepted": 29,
+       "improving": 14
+      },
+      "pair:joint": {
+       "attempted": 25,
+       "rejected": 24,
+       "accepted": 1
+      },
+      "single:reheight": {
+       "attempted": 63,
+       "accepted": 18,
+       "improving": 10,
+       "rejected": 45
+      },
+      "single:lead": {
+       "attempted": 70,
+       "rejected": 39,
+       "accepted": 31,
+       "improving": 6
+      },
+      "group:joint": {
+       "attempted": 9,
+       "rejected": 9
+      },
+      "kick:reheight": {
+       "attempted": 6,
+       "rejected": 6
+      }
+     }
+    }
+   ],
+   "exit_code": 0,
+   "seconds": 200.68,
+   "log": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_E\\console.log"
+  }
+ ],
+ "generated_at": "2026-11-20T22:06:52"
+}

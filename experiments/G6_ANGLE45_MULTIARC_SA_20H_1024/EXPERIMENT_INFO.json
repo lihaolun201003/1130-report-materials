@@ -1,0 +1,73 @@
+{
+    "schema":  "g6_experiment_info_v1",
+    "experiment":  "G6_ANGLE45_MULTIARC_SA_20H_1024",
+    "generated_at":  "2026-11-20T22:02:36",
+    "machine":  {
+                    "logical_cpus":  32,
+                    "ram_gb":  15.7,
+                    "os":  "Windows 10.0.26200",
+                    "python":  "3.10.11"
+                },
+    "baselines":  {
+                      "G4":  {
+                                 "bad":  304,
+                                 "deficit":  5520.131087842394,
+                                 "min_angle":  5.153763467155499,
+                                 "crossings":  1283
+                             },
+                      "stage03":  {
+                                      "bad":  1365,
+                                      "deficit":  30583.917912288198,
+                                      "min_angle":  5.453937970071914,
+                                      "crossings":  12338
+                                  },
+                      "G5_v5":  {
+                                    "bad":  51,
+                                    "deficit":  964.87733394990232,
+                                    "routes_sha256":  "95f4d6bf1ca0942cb7e3f836f4c12d9141ca016a279a38d968a05d181a29a485",
+                                    "min_angle":  6.1226944244231518,
+                                    "crossings":  4136
+                                }
+                  },
+    "primary_result":  {
+                           "A_pass":  true,
+                           "B_pass":  true,
+                           "routes_sha256":  "39a02c9ec9a598d95bb2a6ef6695ab18a849c037fa9ca24c2a76581c55bc57b2",
+                           "G6_ANGLE45_VALID_PASS":  true
+                       },
+    "seeds":  {
+                  "ablation":  [
+                                   4001,
+                                   4002,
+                                   4003,
+                                   4004
+                               ],
+                  "early_start":  [
+                                      3001,
+                                      3002,
+                                      3003,
+                                      3004,
+                                      3005,
+                                      3006
+                                  ],
+                  "warm_start":  [
+                                     1001,
+                                     1002,
+                                     1003,
+                                     1004,
+                                     1005,
+                                     1006,
+                                     1007,
+                                     1008,
+                                     1009,
+                                     1010,
+                                     1011,
+                                     1012
+                                 ]
+              },
+    "budgets":  {
+                    "warm_sa":  "12 seeds x 8 cycles x 240 s",
+                    "ablation":  "4 arms x 4 seeds x 1500 moves",
+                    "early_sa":  "6 seeds x 4 cycles x 300 s"
+                }
+}

@@ -1,0 +1,14 @@
+[2026-11-20T21:39:41] G6 SA start seed=1011 profile=B routes=1024 N_bad=5 D_theta=115.379156 crossings=4407 hard_issues=0
+[2026-11-20T21:40:03] no legal proposal in last window (failed=35)
+[2026-11-20T21:40:19] no legal proposal in last window (failed=119)
+[2026-11-20T21:41:05] no legal proposal in last window (failed=371)
+[2026-11-20T21:41:36] no legal proposal in last window (failed=565)
+[2026-11-20T21:41:41] t=120.5s moves=1464 acc=0.055 worse_acc=15 N_bad=7 D=133.383 T=143.0 reheat=0 commit_fail=0 failed_props=597
+[2026-11-20T21:41:51] no legal proposal in last window (failed=661)
+[2026-11-20T21:42:21] no legal proposal in last window (failed=839)
+[2026-11-20T21:42:50] no legal proposal in last window (failed=1030)
+[2026-11-20T21:43:04] no legal proposal in last window (failed=1116)
+[2026-11-20T21:43:18] no legal proposal in last window (failed=1202)
+[2026-11-20T21:43:33] no legal proposal in last window (failed=1299)
+[2026-11-20T21:43:41] budget exhausted after 3106 moves (240.1s); N_bad=7
+[2026-11-20T21:43:42] STOP {"M": 1000.0, "acceptance_rate": 0.0464, "accepted": 144, "accepted_worse": 15, "best_key": [5, 112.019395, 4415, 156960.164], "best_move": 15, "cfg": {"M": 1000.0, "T0": 459.27000000000004, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1011, "theta": 45.0}, "commit_failures": 0, "crossings": 4400, "deficit": 133.38313, "elapsed_seconds": 241.635, "failed_proposals": 1350, "generated_at": "2026-11-20T21:43:42", "hard_issues": 0, "lam": 1.0, "length_mm": 156951.403403, "move_stats": {"none": {"rejected": 1350}, "single:body": {"accepted": 144, "attempted": 1756, "improving": 8, "rejected": 1612}}, "moves": 3106, "moves_per_second": 12.854, "n_bad": 7, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 1612, "schema": "g6_sa_summary_v1", "seed": 1011, "state_build_seconds": 3.331, "success": false, "theta_min_deg": 45.0, "total_accepted": 144, "total_attempted": 1756}

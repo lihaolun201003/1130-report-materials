@@ -1,0 +1,672 @@
+[2026-11-17T22:38:01] assign21: === COLD_START_20_HEIGHT_1024: layer model + 1024 assignment + diff === | Run dir      : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\03_fanout_and_xy\run_initial_20h | Baseline     : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\outputs\manual_c4_new_connectivity\FANOUT_FIRST_Z2_MANUAL_VERIFIED_1024 (read-only, sha256 4ad5af2d40cf37f5...) | Rows         : 1024 unique ids, z1 512 / z2 512, 20 planes / 20 distinct heights | Min pitch    : 0.050 mm (required >= 0.05)
+22:38:01 [20h] 20-height cold start: stages=ABCDEF max_iters=3 run_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\03_fanout_and_xy\run_initial_20h
+22:38:01 [20h] profile: profile          : 20_height_raised | experiment       : COLD_START_20_HEIGHT_1024 | routing heights  : 20 (18 body + 2 interface) | plane ids        : [2, 3, 4, 5, 6, 7, 20, 1001, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1002, 17, 18] | interfaces       : {'z1': 0.025, 'z2': 0.525} | min pitch        : 0.050000 mm | 3D clearance     : 0.050000 mm | Rmin             : 15.000000 mm | glass headroom   : low 0.0250 / high 0.0250 mm | run dir          : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\03_fanout_and_xy\run_initial_20h
+22:38:01 [20h] === STAGE A: 21-height layer model + assignment audit ===
+22:38:01 [20h] stage A ok: rows=1024 planes={'z1': 512, 'z2': 512} roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112} direct=100 heights=20
+22:38:01 [20h] === STAGE B: endpoint transitions + interface-direct records ===
+22:38:02 [20h] [fanout] endpoints=128/2048 routes=64/1024 ok=64 failed=0 checks=64 elapsed=1.4s
+22:38:03 [20h] [fanout] endpoints=256/2048 routes=128/1024 ok=128 failed=0 checks=128 elapsed=2.6s
+22:38:05 [20h] [fanout] endpoints=384/2048 routes=192/1024 ok=192 failed=0 checks=192 elapsed=4.6s
+22:38:07 [20h] [fanout] endpoints=512/2048 routes=256/1024 ok=256 failed=0 checks=256 elapsed=6.6s
+22:38:09 [20h] [fanout] endpoints=640/2048 routes=320/1024 ok=320 failed=0 checks=320 elapsed=8.2s
+22:38:10 [20h] [fanout] endpoints=768/2048 routes=384/1024 ok=384 failed=0 checks=384 elapsed=9.7s
+22:38:12 [20h] [fanout] endpoints=896/2048 routes=448/1024 ok=448 failed=0 checks=448 elapsed=11.9s
+22:38:13 [20h] [fanout] endpoints=1024/2048 routes=512/1024 ok=512 failed=0 checks=512 elapsed=12.9s
+22:38:14 [20h] [fanout] endpoints=1152/2048 routes=576/1024 ok=576 failed=0 checks=576 elapsed=13.9s
+22:38:15 [20h] [fanout] endpoints=1280/2048 routes=640/1024 ok=640 failed=0 checks=640 elapsed=14.7s
+22:38:16 [20h] [fanout] endpoints=1408/2048 routes=704/1024 ok=704 failed=0 checks=704 elapsed=15.4s
+22:38:16 [20h] [fanout] endpoints=1536/2048 routes=768/1024 ok=768 failed=0 checks=768 elapsed=15.7s
+22:38:18 [20h] [fanout] endpoints=1664/2048 routes=832/1024 ok=832 failed=0 checks=832 elapsed=17.0s
+22:38:19 [20h] [fanout] endpoints=1792/2048 routes=896/1024 ok=896 failed=0 checks=896 elapsed=18.5s
+22:38:20 [20h] [fanout] endpoints=1920/2048 routes=960/1024 ok=960 failed=0 checks=960 elapsed=19.4s
+22:38:20 [20h] [fanout] endpoints=2048/2048 routes=1024/1024 ok=1024 failed=0 checks=1024 elapsed=19.6s
+22:38:41 [20h] [B] fanout done: selected=1024 failures=0 transitions=1848 direct_endpoints=200 validation_ok=True
+22:38:41 [20h] [B] seconds=40.3
+22:38:42 [20h] [layer2d] routing layer L2 (z=-0.33 mm) tasks=64 obstacles=14464
+22:38:43 [20h] [layer2d] L2 first pass: routed=64/64 failed=0 (1.3s)
+22:38:43 [20h] [layer2d] L2: routed=64/64 failed=0 (1.3s)
+22:38:43 [20h] [layer2d] routing layer L3 (z=-0.28 mm) tasks=64 obstacles=26752
+22:38:44 [20h] [layer2d] L3 first pass: routed=64/64 failed=0 (0.8s)
+22:38:44 [20h] [layer2d] L3: routed=64/64 failed=0 (0.8s)
+22:38:44 [20h] [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=35072
+22:38:46 [20h] [layer2d] L4 first pass: routed=64/64 failed=0 (1.3s)
+22:38:46 [20h] [layer2d] L4: routed=64/64 failed=0 (1.3s)
+22:38:46 [20h] [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=41152
+22:38:46 [20h] [layer2d] L5 first pass: routed=64/64 failed=0 (0.8s)
+22:38:46 [20h] [layer2d] L5: routed=64/64 failed=0 (0.8s)
+22:38:46 [20h] [layer2d] routing layer L6 (z=-0.12 mm) tasks=52 obstacles=47184
+22:38:47 [20h] [layer2d] L6 first pass: routed=51/52 failed=1 (0.9s)
+22:38:47 [20h] [layer2d] L6 rrr round 1: pending=1 gained=1 routed=52/52
+22:38:47 [20h] [layer2d] L6 rrr round 2: pending=0 gained=0 routed=52/52
+22:38:48 [20h] [layer2d] L6: routed=52/52 failed=0 (0.9s)
+22:38:48 [20h] [layer2d] routing layer L7 (z=-0.07 mm) tasks=52 obstacles=58848
+22:38:49 [20h] [layer2d] L7 first pass: routed=49/52 failed=3 (1.3s)
+22:38:50 [20h] [layer2d] L7 rrr round 1: pending=3 gained=0 routed=49/52
+22:38:51 [20h] [layer2d] L7: routed=49/52 failed=3 (3.2s)
+22:38:51 [20h] [layer2d] routing layer L8 (z=+0.07 mm) tasks=48 obstacles=45488
+22:38:51 [20h] [layer2d] L8 first pass: routed=48/48 failed=0 (0.4s)
+22:38:51 [20h] [layer2d] L8: routed=48/48 failed=0 (0.4s)
+22:38:51 [20h] [layer2d] routing layer L9 (z=+0.12 mm) tasks=56 obstacles=13264
+22:38:52 [20h] [layer2d] L9 first pass: routed=56/56 failed=0 (1.1s)
+22:38:52 [20h] [layer2d] L9: routed=56/56 failed=0 (1.1s)
+22:38:52 [20h] [layer2d] routing layer L10 (z=+0.17 mm) tasks=16 obstacles=14368
+22:38:53 [20h] [layer2d] L10 first pass: routed=16/16 failed=0 (0.1s)
+22:38:53 [20h] [layer2d] L10: routed=16/16 failed=0 (0.1s)
+22:38:53 [20h] [layer2d] routing layer L11 (z=+0.23 mm) tasks=16 obstacles=15952
+22:38:53 [20h] [layer2d] L11 first pass: routed=16/16 failed=0 (0.1s)
+22:38:53 [20h] [layer2d] L11: routed=16/16 failed=0 (0.1s)
+22:38:53 [20h] [layer2d] routing layer L12 (z=+0.28 mm) tasks=40 obstacles=19968
+22:38:53 [20h] [layer2d] L12 first pass: routed=40/40 failed=0 (0.6s)
+22:38:53 [20h] [layer2d] L12: routed=40/40 failed=0 (0.6s)
+22:38:53 [20h] [layer2d] routing layer L13 (z=+0.33 mm) tasks=40 obstacles=27104
+22:38:54 [20h] [layer2d] L13 first pass: routed=40/40 failed=0 (0.5s)
+22:38:54 [20h] [layer2d] L13: routed=40/40 failed=0 (0.6s)
+22:38:54 [20h] [layer2d] routing layer L14 (z=+0.38 mm) tasks=56 obstacles=35392
+22:38:55 [20h] [layer2d] L14 first pass: routed=56/56 failed=0 (0.7s)
+22:38:55 [20h] [layer2d] L14: routed=56/56 failed=0 (0.7s)
+22:38:55 [20h] [layer2d] routing layer L15 (z=+0.42 mm) tasks=56 obstacles=48128
+22:38:55 [20h] [layer2d] L15 first pass: routed=56/56 failed=0 (0.7s)
+22:38:55 [20h] [layer2d] L15: routed=56/56 failed=0 (0.7s)
+22:38:55 [20h] [layer2d] routing layer L16 (z=+0.47 mm) tasks=56 obstacles=78192
+22:38:56 [20h] [layer2d] L16 first pass: routed=56/56 failed=0 (0.4s)
+22:38:56 [20h] [layer2d] L16: routed=56/56 failed=0 (0.4s)
+22:38:56 [20h] [layer2d] routing layer L17 (z=+0.57 mm) tasks=64 obstacles=53968
+22:38:56 [20h] [layer2d] L17 first pass: routed=64/64 failed=0 (0.3s)
+22:38:56 [20h] [layer2d] L17: routed=64/64 failed=0 (0.3s)
+22:38:56 [20h] [layer2d] routing layer L18 (z=+0.62 mm) tasks=64 obstacles=14848
+22:38:57 [20h] [layer2d] L18 first pass: routed=64/64 failed=0 (0.2s)
+22:38:57 [20h] [layer2d] L18: routed=64/64 failed=0 (0.2s)
+22:38:57 [20h] [layer2d] routing layer L20 (z=-0.03 mm) tasks=52 obstacles=86192
+22:38:57 [20h] [layer2d] L20 first pass: routed=52/52 failed=0 (0.4s)
+22:38:57 [20h] [layer2d] L20: routed=52/52 failed=0 (0.4s)
+22:38:57 [20h] [layer2d] routing layer L1001 (z=+0.03 mm) tasks=52 obstacles=70904 initial=920
+22:38:58 [20h] [layer2d] L1001 first pass: routed=52/52 failed=0 (0.4s)
+22:38:58 [20h] [layer2d] L1001: routed=52/52 failed=0 (0.4s)
+22:38:58 [20h] [layer2d] routing layer L1002 (z=+0.53 mm) tasks=48 obstacles=72448 initial=928
+22:38:58 [20h] [layer2d] L1002 first pass: routed=48/48 failed=0 (0.1s)
+22:38:58 [20h] [layer2d] L1002: routed=48/48 failed=0 (0.1s)
+22:38:58 [20h] [layer2d] all layers: routed=1021/1024 failed=3 (16.0s)
+22:38:58 [20h] [layer2d] planes=20 routed=1021 failed=3 (16.0s, seed=0, budget=600)
+22:38:58 [20h] [C] routed=1021/1024 Z1_INTERFACE=52/52 Z2_INTERFACE=48/48
+22:39:28 [20h] [D] assembled=1021 world_violations=0 assembly_failures=3
+22:39:29 [20h] [layer2d] routing layer L2 (z=-0.33 mm) tasks=64 obstacles=14464
+22:39:30 [20h] [layer2d] L2 first pass: routed=64/64 failed=0 (1.2s)
+22:39:30 [20h] [layer2d] L2: routed=64/64 failed=0 (1.2s)
+22:39:30 [20h] [layer2d] routing layer L3 (z=-0.28 mm) tasks=64 obstacles=26752
+22:39:31 [20h] [layer2d] L3 first pass: routed=64/64 failed=0 (0.8s)
+22:39:31 [20h] [layer2d] L3: routed=64/64 failed=0 (0.8s)
+22:39:31 [20h] [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=35072
+22:39:33 [20h] [layer2d] L4 first pass: routed=64/64 failed=0 (1.2s)
+22:39:33 [20h] [layer2d] L4: routed=64/64 failed=0 (1.2s)
+22:39:33 [20h] [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=41152
+22:39:34 [20h] [layer2d] L5 first pass: routed=64/64 failed=0 (0.8s)
+22:39:34 [20h] [layer2d] L5: routed=64/64 failed=0 (0.8s)
+22:39:34 [20h] [layer2d] routing layer L6 (z=-0.12 mm) tasks=52 obstacles=47184
+22:39:34 [20h] [layer2d] L6 first pass: routed=51/52 failed=1 (0.8s)
+22:39:34 [20h] [layer2d] L6 rrr round 1: pending=1 gained=1 routed=52/52
+22:39:34 [20h] [layer2d] L6 rrr round 2: pending=0 gained=0 routed=52/52
+22:39:34 [20h] [layer2d] L6: routed=52/52 failed=0 (0.8s)
+22:39:34 [20h] [layer2d] routing layer L7 (z=-0.07 mm) tasks=52 obstacles=58848
+22:39:36 [20h] [layer2d] L7 first pass: routed=49/52 failed=3 (1.2s)
+22:39:37 [20h] [layer2d] L7 rrr round 1: pending=3 gained=0 routed=49/52
+22:39:38 [20h] [layer2d] L7: routed=49/52 failed=3 (3.1s)
+22:39:38 [20h] [layer2d] routing layer L8 (z=+0.07 mm) tasks=48 obstacles=45488
+22:39:38 [20h] [layer2d] L8 first pass: routed=48/48 failed=0 (0.5s)
+22:39:38 [20h] [layer2d] L8: routed=48/48 failed=0 (0.5s)
+22:39:38 [20h] [layer2d] routing layer L9 (z=+0.12 mm) tasks=56 obstacles=13264
+22:39:39 [20h] [layer2d] L9 first pass: routed=56/56 failed=0 (1.1s)
+22:39:39 [20h] [layer2d] L9: routed=56/56 failed=0 (1.1s)
+22:39:39 [20h] [layer2d] routing layer L10 (z=+0.17 mm) tasks=16 obstacles=14368
+22:39:40 [20h] [layer2d] L10 first pass: routed=16/16 failed=0 (0.1s)
+22:39:40 [20h] [layer2d] L10: routed=16/16 failed=0 (0.1s)
+22:39:40 [20h] [layer2d] routing layer L11 (z=+0.23 mm) tasks=16 obstacles=15952
+22:39:40 [20h] [layer2d] L11 first pass: routed=16/16 failed=0 (0.1s)
+22:39:40 [20h] [layer2d] L11: routed=16/16 failed=0 (0.1s)
+22:39:40 [20h] [layer2d] routing layer L12 (z=+0.28 mm) tasks=40 obstacles=19968
+22:39:40 [20h] [layer2d] L12 first pass: routed=40/40 failed=0 (0.5s)
+22:39:40 [20h] [layer2d] L12: routed=40/40 failed=0 (0.5s)
+22:39:40 [20h] [layer2d] routing layer L13 (z=+0.33 mm) tasks=40 obstacles=27104
+22:39:41 [20h] [layer2d] L13 first pass: routed=40/40 failed=0 (0.6s)
+22:39:41 [20h] [layer2d] L13: routed=40/40 failed=0 (0.6s)
+22:39:41 [20h] [layer2d] routing layer L14 (z=+0.38 mm) tasks=56 obstacles=35392
+22:39:42 [20h] [layer2d] L14 first pass: routed=56/56 failed=0 (0.8s)
+22:39:42 [20h] [layer2d] L14: routed=56/56 failed=0 (0.8s)
+22:39:42 [20h] [layer2d] routing layer L15 (z=+0.42 mm) tasks=56 obstacles=48128
+22:39:42 [20h] [layer2d] L15 first pass: routed=56/56 failed=0 (0.6s)
+22:39:42 [20h] [layer2d] L15: routed=56/56 failed=0 (0.6s)
+22:39:42 [20h] [layer2d] routing layer L16 (z=+0.47 mm) tasks=56 obstacles=78192
+22:39:43 [20h] [layer2d] L16 first pass: routed=56/56 failed=0 (0.4s)
+22:39:43 [20h] [layer2d] L16: routed=56/56 failed=0 (0.4s)
+22:39:43 [20h] [layer2d] routing layer L17 (z=+0.57 mm) tasks=64 obstacles=53968
+22:39:43 [20h] [layer2d] L17 first pass: routed=64/64 failed=0 (0.3s)
+22:39:43 [20h] [layer2d] L17: routed=64/64 failed=0 (0.3s)
+22:39:43 [20h] [layer2d] routing layer L18 (z=+0.62 mm) tasks=64 obstacles=14848
+22:39:44 [20h] [layer2d] L18 first pass: routed=64/64 failed=0 (0.4s)
+22:39:44 [20h] [layer2d] L18: routed=64/64 failed=0 (0.4s)
+22:39:44 [20h] [layer2d] routing layer L20 (z=-0.03 mm) tasks=52 obstacles=86192
+22:39:44 [20h] [layer2d] L20 first pass: routed=52/52 failed=0 (0.4s)
+22:39:44 [20h] [layer2d] L20: routed=52/52 failed=0 (0.4s)
+22:39:44 [20h] [layer2d] routing layer L1001 (z=+0.03 mm) tasks=52 obstacles=70904
+22:39:45 [20h] [layer2d] L1001 first pass: routed=52/52 failed=0 (0.4s)
+22:39:45 [20h] [layer2d] L1001: routed=52/52 failed=0 (0.4s)
+22:39:45 [20h] [layer2d] routing layer L1002 (z=+0.53 mm) tasks=48 obstacles=72448
+22:39:45 [20h] [layer2d] L1002 first pass: routed=48/48 failed=0 (0.1s)
+22:39:45 [20h] [layer2d] L1002: routed=48/48 failed=0 (0.1s)
+22:39:45 [20h] [layer2d] all layers: routed=1021/1024 failed=3 (15.6s)
+22:39:45 [20h] [layer2d] planes=20 routed=1021 failed=3 (15.6s, seed=0, budget=600)
+22:40:16 [20h] [D] assembled=1021 world_violations=0 assembly_failures=3
+22:40:16 [20h] === STAGE E iteration 1/3 ===
+22:40:17 [20h] [layer2d] routing layer L2 (z=-0.33 mm) tasks=64 obstacles=14464
+22:40:18 [20h] [layer2d] L2 first pass: routed=64/64 failed=0 (1.2s)
+22:40:18 [20h] [layer2d] L2: routed=64/64 failed=0 (1.2s)
+22:40:18 [20h] [layer2d] routing layer L3 (z=-0.28 mm) tasks=64 obstacles=26752
+22:40:19 [20h] [layer2d] L3 first pass: routed=64/64 failed=0 (0.8s)
+22:40:19 [20h] [layer2d] L3: routed=64/64 failed=0 (0.8s)
+22:40:19 [20h] [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=35072
+22:40:20 [20h] [layer2d] L4 first pass: routed=64/64 failed=0 (1.3s)
+22:40:20 [20h] [layer2d] L4: routed=64/64 failed=0 (1.3s)
+22:40:20 [20h] [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=41152
+22:40:21 [20h] [layer2d] L5 first pass: routed=64/64 failed=0 (0.8s)
+22:40:21 [20h] [layer2d] L5: routed=64/64 failed=0 (0.8s)
+22:40:21 [20h] [layer2d] routing layer L6 (z=-0.12 mm) tasks=52 obstacles=47184
+22:40:22 [20h] [layer2d] L6 first pass: routed=51/52 failed=1 (0.8s)
+22:40:22 [20h] [layer2d] L6 rrr round 1: pending=1 gained=1 routed=52/52
+22:40:22 [20h] [layer2d] L6 rrr round 2: pending=0 gained=0 routed=52/52
+22:40:22 [20h] [layer2d] L6: routed=52/52 failed=0 (0.9s)
+22:40:22 [20h] [layer2d] routing layer L7 (z=-0.07 mm) tasks=52 obstacles=58848
+22:40:23 [20h] [layer2d] L7 first pass: routed=49/52 failed=3 (1.3s)
+22:40:24 [20h] [layer2d] L7 rrr round 1: pending=3 gained=0 routed=49/52
+22:40:25 [20h] [layer2d] L7: routed=49/52 failed=3 (3.4s)
+22:40:25 [20h] [layer2d] routing layer L8 (z=+0.07 mm) tasks=48 obstacles=45488
+22:40:26 [20h] [layer2d] L8 first pass: routed=48/48 failed=0 (0.3s)
+22:40:26 [20h] [layer2d] L8: routed=48/48 failed=0 (0.3s)
+22:40:26 [20h] [layer2d] routing layer L9 (z=+0.12 mm) tasks=56 obstacles=13264
+22:40:27 [20h] [layer2d] L9 first pass: routed=56/56 failed=0 (1.1s)
+22:40:27 [20h] [layer2d] L9: routed=56/56 failed=0 (1.1s)
+22:40:27 [20h] [layer2d] routing layer L10 (z=+0.17 mm) tasks=16 obstacles=14368
+22:40:27 [20h] [layer2d] L10 first pass: routed=16/16 failed=0 (0.1s)
+22:40:27 [20h] [layer2d] L10: routed=16/16 failed=0 (0.1s)
+22:40:27 [20h] [layer2d] routing layer L11 (z=+0.23 mm) tasks=16 obstacles=15952
+22:40:27 [20h] [layer2d] L11 first pass: routed=16/16 failed=0 (0.2s)
+22:40:27 [20h] [layer2d] L11: routed=16/16 failed=0 (0.2s)
+22:40:27 [20h] [layer2d] routing layer L12 (z=+0.28 mm) tasks=40 obstacles=19968
+22:40:28 [20h] [layer2d] L12 first pass: routed=40/40 failed=0 (0.6s)
+22:40:28 [20h] [layer2d] L12: routed=40/40 failed=0 (0.6s)
+22:40:28 [20h] [layer2d] routing layer L13 (z=+0.33 mm) tasks=40 obstacles=27104
+22:40:29 [20h] [layer2d] L13 first pass: routed=40/40 failed=0 (0.7s)
+22:40:29 [20h] [layer2d] L13: routed=40/40 failed=0 (0.7s)
+22:40:29 [20h] [layer2d] routing layer L14 (z=+0.38 mm) tasks=56 obstacles=35392
+22:40:29 [20h] [layer2d] L14 first pass: routed=56/56 failed=0 (0.5s)
+22:40:29 [20h] [layer2d] L14: routed=56/56 failed=0 (0.5s)
+22:40:29 [20h] [layer2d] routing layer L15 (z=+0.42 mm) tasks=56 obstacles=48128
+22:40:30 [20h] [layer2d] L15 first pass: routed=56/56 failed=0 (0.5s)
+22:40:30 [20h] [layer2d] L15: routed=56/56 failed=0 (0.5s)
+22:40:30 [20h] [layer2d] routing layer L16 (z=+0.47 mm) tasks=56 obstacles=78192
+22:40:30 [20h] [layer2d] L16 first pass: routed=56/56 failed=0 (0.3s)
+22:40:30 [20h] [layer2d] L16: routed=56/56 failed=0 (0.3s)
+22:40:30 [20h] [layer2d] routing layer L17 (z=+0.57 mm) tasks=64 obstacles=53968
+22:40:31 [20h] [layer2d] L17 first pass: routed=64/64 failed=0 (0.5s)
+22:40:31 [20h] [layer2d] L17: routed=64/64 failed=0 (0.5s)
+22:40:31 [20h] [layer2d] routing layer L18 (z=+0.62 mm) tasks=64 obstacles=14848
+22:40:31 [20h] [layer2d] L18 first pass: routed=64/64 failed=0 (0.1s)
+22:40:31 [20h] [layer2d] L18: routed=64/64 failed=0 (0.1s)
+22:40:31 [20h] [layer2d] routing layer L20 (z=-0.03 mm) tasks=52 obstacles=86192
+22:40:31 [20h] [layer2d] L20 first pass: routed=52/52 failed=0 (0.3s)
+22:40:31 [20h] [layer2d] L20: routed=52/52 failed=0 (0.3s)
+22:40:31 [20h] [layer2d] routing layer L1001 (z=+0.03 mm) tasks=52 obstacles=70904
+22:40:32 [20h] [layer2d] L1001 first pass: routed=52/52 failed=0 (0.4s)
+22:40:32 [20h] [layer2d] L1001: routed=52/52 failed=0 (0.4s)
+22:40:32 [20h] [layer2d] routing layer L1002 (z=+0.53 mm) tasks=48 obstacles=72448
+22:40:32 [20h] [layer2d] L1002 first pass: routed=48/48 failed=0 (0.3s)
+22:40:32 [20h] [layer2d] L1002: routed=48/48 failed=0 (0.3s)
+22:40:32 [20h] [layer2d] all layers: routed=1021/1024 failed=3 (15.6s)
+22:40:32 [20h] [layer2d] planes=20 routed=1021 failed=3 (15.6s, seed=0, budget=600)
+22:41:01 [20h] [E] iteration 1: assembled=1021 world_valid=1021 violations=0 assembly_failures=3 failed_ids=[219, 220, 221]
+22:41:01 [20h] === STAGE E iteration 2/3 ===
+22:41:19 [20h] [fanout] endpoints=6/6 routes=3/3 ok=1024 failed=0 checks=1024 elapsed=18.3s
+22:41:19 [20h] [E] lead repair iteration 2: leads=(8.0, 16.0, 4.0, 2.0, 1.0, 0.25) repaired=3/3 direct_failures=[]
+22:41:20 [20h] [layer2d] routing layer L2 (z=-0.33 mm) tasks=64 obstacles=14464
+22:41:22 [20h] [layer2d] L2 first pass: routed=64/64 failed=0 (1.1s)
+22:41:22 [20h] [layer2d] L2: routed=64/64 failed=0 (1.1s)
+22:41:22 [20h] [layer2d] routing layer L3 (z=-0.28 mm) tasks=64 obstacles=26752
+22:41:22 [20h] [layer2d] L3 first pass: routed=64/64 failed=0 (0.7s)
+22:41:22 [20h] [layer2d] L3: routed=64/64 failed=0 (0.7s)
+22:41:22 [20h] [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=35072
+22:41:24 [20h] [layer2d] L4 first pass: routed=64/64 failed=0 (1.2s)
+22:41:24 [20h] [layer2d] L4: routed=64/64 failed=0 (1.2s)
+22:41:24 [20h] [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=41152
+22:41:24 [20h] [layer2d] L5 first pass: routed=64/64 failed=0 (0.7s)
+22:41:24 [20h] [layer2d] L5: routed=64/64 failed=0 (0.7s)
+22:41:24 [20h] [layer2d] routing layer L6 (z=-0.12 mm) tasks=52 obstacles=47184
+22:41:25 [20h] [layer2d] L6 first pass: routed=52/52 failed=0 (0.4s)
+22:41:25 [20h] [layer2d] L6: routed=52/52 failed=0 (0.4s)
+22:41:25 [20h] [layer2d] routing layer L7 (z=-0.07 mm) tasks=52 obstacles=58848
+22:41:25 [20h] [layer2d] L7 first pass: routed=51/52 failed=1 (0.6s)
+22:41:26 [20h] [layer2d] L7 rrr round 1: pending=1 gained=1 routed=52/52
+22:41:26 [20h] [layer2d] L7 rrr round 2: pending=0 gained=0 routed=52/52
+22:41:26 [20h] [layer2d] L7: routed=52/52 failed=0 (0.7s)
+22:41:26 [20h] [layer2d] routing layer L8 (z=+0.07 mm) tasks=48 obstacles=45488
+22:41:26 [20h] [layer2d] L8 first pass: routed=48/48 failed=0 (0.6s)
+22:41:26 [20h] [layer2d] L8: routed=48/48 failed=0 (0.6s)
+22:41:26 [20h] [layer2d] routing layer L9 (z=+0.12 mm) tasks=56 obstacles=13264
+22:41:28 [20h] [layer2d] L9 first pass: routed=56/56 failed=0 (1.4s)
+22:41:28 [20h] [layer2d] L9: routed=56/56 failed=0 (1.4s)
+22:41:28 [20h] [layer2d] routing layer L10 (z=+0.17 mm) tasks=16 obstacles=14368
+22:41:28 [20h] [layer2d] L10 first pass: routed=16/16 failed=0 (0.1s)
+22:41:28 [20h] [layer2d] L10: routed=16/16 failed=0 (0.1s)
+22:41:28 [20h] [layer2d] routing layer L11 (z=+0.23 mm) tasks=16 obstacles=15952
+22:41:28 [20h] [layer2d] L11 first pass: routed=16/16 failed=0 (0.1s)
+22:41:28 [20h] [layer2d] L11: routed=16/16 failed=0 (0.1s)
+22:41:28 [20h] [layer2d] routing layer L12 (z=+0.28 mm) tasks=40 obstacles=19968
+22:41:29 [20h] [layer2d] L12 first pass: routed=40/40 failed=0 (0.6s)
+22:41:29 [20h] [layer2d] L12: routed=40/40 failed=0 (0.6s)
+22:41:29 [20h] [layer2d] routing layer L13 (z=+0.33 mm) tasks=40 obstacles=27104
+22:41:29 [20h] [layer2d] L13 first pass: routed=40/40 failed=0 (0.6s)
+22:41:29 [20h] [layer2d] L13: routed=40/40 failed=0 (0.6s)
+22:41:29 [20h] [layer2d] routing layer L14 (z=+0.38 mm) tasks=56 obstacles=35392
+22:41:30 [20h] [layer2d] L14 first pass: routed=56/56 failed=0 (0.5s)
+22:41:30 [20h] [layer2d] L14: routed=56/56 failed=0 (0.5s)
+22:41:30 [20h] [layer2d] routing layer L15 (z=+0.42 mm) tasks=56 obstacles=48128
+22:41:30 [20h] [layer2d] L15 first pass: routed=56/56 failed=0 (0.5s)
+22:41:30 [20h] [layer2d] L15: routed=56/56 failed=0 (0.5s)
+22:41:30 [20h] [layer2d] routing layer L16 (z=+0.47 mm) tasks=56 obstacles=78192
+22:41:31 [20h] [layer2d] L16 first pass: routed=56/56 failed=0 (0.3s)
+22:41:31 [20h] [layer2d] L16: routed=56/56 failed=0 (0.3s)
+22:41:31 [20h] [layer2d] routing layer L17 (z=+0.57 mm) tasks=64 obstacles=53968
+22:41:31 [20h] [layer2d] L17 first pass: routed=64/64 failed=0 (0.7s)
+22:41:31 [20h] [layer2d] L17: routed=64/64 failed=0 (0.7s)
+22:41:31 [20h] [layer2d] routing layer L18 (z=+0.62 mm) tasks=64 obstacles=14848
+22:41:32 [20h] [layer2d] L18 first pass: routed=64/64 failed=0 (0.1s)
+22:41:32 [20h] [layer2d] L18: routed=64/64 failed=0 (0.1s)
+22:41:32 [20h] [layer2d] routing layer L20 (z=-0.03 mm) tasks=52 obstacles=86192
+22:41:32 [20h] [layer2d] L20 first pass: routed=52/52 failed=0 (0.5s)
+22:41:32 [20h] [layer2d] L20: routed=52/52 failed=0 (0.5s)
+22:41:32 [20h] [layer2d] routing layer L1001 (z=+0.03 mm) tasks=52 obstacles=70904
+22:41:33 [20h] [layer2d] L1001 first pass: routed=52/52 failed=0 (0.3s)
+22:41:33 [20h] [layer2d] L1001: routed=52/52 failed=0 (0.3s)
+22:41:33 [20h] [layer2d] routing layer L1002 (z=+0.53 mm) tasks=48 obstacles=72448
+22:41:33 [20h] [layer2d] L1002 first pass: routed=48/48 failed=0 (0.1s)
+22:41:33 [20h] [layer2d] L1002: routed=48/48 failed=0 (0.1s)
+22:41:33 [20h] [layer2d] all layers: routed=1024/1024 failed=0 (12.4s)
+22:41:33 [20h] [layer2d] planes=20 routed=1024 failed=0 (12.4s, seed=1, budget=1200)
+22:42:02 [20h] [E] iteration 2: assembled=1024 world_valid=1024 violations=0 assembly_failures=0 failed_ids=[]
+22:42:02 [20h] [E] all 1024 routes valid
+22:42:02 [20h] [final] wrote routes_l3d.json: routed=1024 failed=0
+22:42:02 [20h] [E] wrote experiment_E summary (1024 valid)
+22:42:02 [20h] [E] FINAL routed=1024/1024 failed=0 direct=100 transitions=1848
+22:42:30 [20h] [F] experiment_D final: assembled=1024 world_valid=1024 violations=0
+22:42:30 [20h] 20-height cold start done in 269.9s
+21:16:41 [20h] 20-height cold start: stages=CDEF max_iters=3 run_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\02_sa_runs\early2\early_on
+21:16:41 [20h] profile: profile          : 20_height_raised | experiment       : COLD_START_20_HEIGHT_1024 | routing heights  : 20 (18 body + 2 interface) | plane ids        : [2, 3, 4, 5, 6, 7, 20, 1001, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1002, 17, 18] | interfaces       : {'z1': 0.025, 'z2': 0.525} | min pitch        : 0.050000 mm | 3D clearance     : 0.050000 mm | Rmin             : 15.000000 mm | glass headroom   : low 0.0250 / high 0.0250 mm | run dir          : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\02_sa_runs\early2\early_on
+21:16:41 [20h] === STAGE A: 21-height layer model + assignment audit ===
+21:16:41 [20h] stage A ok: rows=1024 planes={'z1': 512, 'z2': 512} roles={'z1_other': 256, 'z1_manual_u': 256, 'z2_other': 400, 'z2_manual_u': 112} direct=100 heights=20
+21:16:41 [20h] === STAGE B: endpoint transitions + interface-direct records ===
+21:16:43 [20h] [fanout] endpoints=128/2048 routes=64/1024 ok=64 failed=0 checks=64 elapsed=1.4s
+21:16:44 [20h] [fanout] endpoints=256/2048 routes=128/1024 ok=128 failed=0 checks=128 elapsed=2.6s
+21:16:46 [20h] [fanout] endpoints=384/2048 routes=192/1024 ok=192 failed=0 checks=192 elapsed=4.4s
+21:16:48 [20h] [fanout] endpoints=512/2048 routes=256/1024 ok=256 failed=0 checks=256 elapsed=6.5s
+21:16:50 [20h] [fanout] endpoints=640/2048 routes=320/1024 ok=320 failed=0 checks=320 elapsed=8.3s
+21:16:52 [20h] [fanout] endpoints=768/2048 routes=384/1024 ok=384 failed=0 checks=384 elapsed=10.1s
+21:16:54 [20h] [fanout] endpoints=896/2048 routes=448/1024 ok=448 failed=0 checks=448 elapsed=12.6s
+21:16:55 [20h] [fanout] endpoints=1024/2048 routes=512/1024 ok=512 failed=0 checks=512 elapsed=13.8s
+21:16:57 [20h] [fanout] endpoints=1152/2048 routes=576/1024 ok=576 failed=0 checks=576 elapsed=15.1s
+21:16:58 [20h] [fanout] endpoints=1280/2048 routes=640/1024 ok=640 failed=0 checks=640 elapsed=16.1s
+21:16:58 [20h] [fanout] endpoints=1408/2048 routes=704/1024 ok=704 failed=0 checks=704 elapsed=17.0s
+21:16:59 [20h] [fanout] endpoints=1536/2048 routes=768/1024 ok=768 failed=0 checks=768 elapsed=17.4s
+21:17:00 [20h] [fanout] endpoints=1664/2048 routes=832/1024 ok=832 failed=0 checks=832 elapsed=18.4s
+21:17:01 [20h] [fanout] endpoints=1792/2048 routes=896/1024 ok=896 failed=0 checks=896 elapsed=19.7s
+21:17:02 [20h] [fanout] endpoints=1920/2048 routes=960/1024 ok=960 failed=0 checks=960 elapsed=20.6s
+21:17:02 [20h] [fanout] endpoints=2048/2048 routes=1024/1024 ok=1024 failed=0 checks=1024 elapsed=20.8s
+21:17:26 [20h] [B] fanout done: selected=1024 failures=0 transitions=1848 direct_endpoints=200 validation_ok=True
+21:17:26 [20h] [B] seconds=44.9
+21:17:28 [20h] [layer2d] routing layer L2 (z=-0.33 mm) tasks=64 obstacles=14464
+21:17:31 [20h] [layer2d] L2 first pass: routed=64/64 failed=0 (3.2s)
+21:17:31 [20h] [layer2d] L2: routed=64/64 failed=0 (3.2s)
+21:17:31 [20h] [layer2d] routing layer L3 (z=-0.28 mm) tasks=64 obstacles=26752
+21:17:33 [20h] [layer2d] L3 first pass: routed=64/64 failed=0 (2.3s)
+21:17:33 [20h] [layer2d] L3: routed=64/64 failed=0 (2.3s)
+21:17:33 [20h] [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=35072
+21:17:36 [20h] [layer2d] L4 first pass: routed=64/64 failed=0 (2.9s)
+21:17:36 [20h] [layer2d] L4: routed=64/64 failed=0 (2.9s)
+21:17:36 [20h] [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=41152
+21:17:39 [20h] [layer2d] L5 first pass: routed=64/64 failed=0 (2.2s)
+21:17:39 [20h] [layer2d] L5: routed=64/64 failed=0 (2.2s)
+21:17:39 [20h] [layer2d] routing layer L6 (z=-0.12 mm) tasks=52 obstacles=47184
+21:17:45 [20h] [layer2d] L6 first pass: routed=51/52 failed=1 (6.1s)
+21:17:45 [20h] [layer2d] L6 rrr round 1: pending=1 gained=0 routed=51/52
+21:17:46 [20h] [layer2d] L6: routed=51/52 failed=1 (7.0s)
+21:17:46 [20h] [layer2d] routing layer L7 (z=-0.07 mm) tasks=52 obstacles=58848
+21:17:51 [20h] [layer2d] L7 first pass: routed=50/52 failed=2 (4.8s)
+21:17:52 [20h] [layer2d] L7 rrr round 1: pending=2 gained=2 routed=52/52
+21:17:52 [20h] [layer2d] L7 rrr round 2: pending=0 gained=0 routed=52/52
+21:17:52 [20h] [layer2d] L7: routed=52/52 failed=0 (6.4s)
+21:17:52 [20h] [layer2d] routing layer L8 (z=+0.07 mm) tasks=48 obstacles=45488
+21:17:56 [20h] [layer2d] L8 first pass: routed=48/48 failed=0 (4.2s)
+21:17:56 [20h] [layer2d] L8: routed=48/48 failed=0 (4.2s)
+21:17:56 [20h] [layer2d] routing layer L9 (z=+0.12 mm) tasks=56 obstacles=13264
+21:18:13 [20h] [layer2d] L9 first pass: routed=56/56 failed=0 (16.5s)
+21:18:13 [20h] [layer2d] L9: routed=56/56 failed=0 (16.5s)
+21:18:13 [20h] [layer2d] routing layer L10 (z=+0.17 mm) tasks=16 obstacles=14368
+21:18:14 [20h] [layer2d] L10 first pass: routed=16/16 failed=0 (0.5s)
+21:18:14 [20h] [layer2d] L10: routed=16/16 failed=0 (0.5s)
+21:18:14 [20h] [layer2d] routing layer L11 (z=+0.23 mm) tasks=16 obstacles=15952
+21:18:14 [20h] [layer2d] L11 first pass: routed=16/16 failed=0 (0.5s)
+21:18:14 [20h] [layer2d] L11: routed=16/16 failed=0 (0.5s)
+21:18:14 [20h] [layer2d] routing layer L12 (z=+0.28 mm) tasks=40 obstacles=19968
+21:18:16 [20h] [layer2d] L12 first pass: routed=40/40 failed=0 (1.5s)
+21:18:16 [20h] [layer2d] L12: routed=40/40 failed=0 (1.5s)
+21:18:16 [20h] [layer2d] routing layer L13 (z=+0.33 mm) tasks=40 obstacles=27104
+21:18:17 [20h] [layer2d] L13 first pass: routed=40/40 failed=0 (1.5s)
+21:18:17 [20h] [layer2d] L13: routed=40/40 failed=0 (1.5s)
+21:18:17 [20h] [layer2d] routing layer L14 (z=+0.38 mm) tasks=56 obstacles=35392
+21:18:24 [20h] [layer2d] L14 first pass: routed=56/56 failed=0 (6.6s)
+21:18:24 [20h] [layer2d] L14: routed=56/56 failed=0 (6.6s)
+21:18:24 [20h] [layer2d] routing layer L15 (z=+0.42 mm) tasks=56 obstacles=48128
+21:18:35 [20h] [layer2d] L15 first pass: routed=56/56 failed=0 (11.2s)
+21:18:35 [20h] [layer2d] L15: routed=56/56 failed=0 (11.2s)
+21:18:35 [20h] [layer2d] routing layer L16 (z=+0.47 mm) tasks=56 obstacles=78192
+21:18:48 [20h] [layer2d] L16 first pass: routed=56/56 failed=0 (13.3s)
+21:18:48 [20h] [layer2d] L16: routed=56/56 failed=0 (13.3s)
+21:18:48 [20h] [layer2d] routing layer L17 (z=+0.57 mm) tasks=64 obstacles=53968
+21:18:57 [20h] [layer2d] L17 first pass: routed=64/64 failed=0 (8.2s)
+21:18:57 [20h] [layer2d] L17: routed=64/64 failed=0 (8.2s)
+21:18:57 [20h] [layer2d] routing layer L18 (z=+0.62 mm) tasks=64 obstacles=14848
+21:19:00 [20h] [layer2d] L18 first pass: routed=64/64 failed=0 (3.2s)
+21:19:00 [20h] [layer2d] L18: routed=64/64 failed=0 (3.2s)
+21:19:00 [20h] [layer2d] routing layer L20 (z=-0.03 mm) tasks=52 obstacles=86192
+21:19:05 [20h] [layer2d] L20 first pass: routed=52/52 failed=0 (5.1s)
+21:19:05 [20h] [layer2d] L20: routed=52/52 failed=0 (5.1s)
+21:19:05 [20h] [layer2d] routing layer L1001 (z=+0.03 mm) tasks=52 obstacles=70904 initial=920
+21:19:10 [20h] [layer2d] L1001 first pass: routed=52/52 failed=0 (4.7s)
+21:19:10 [20h] [layer2d] L1001: routed=52/52 failed=0 (4.7s)
+21:19:10 [20h] [layer2d] routing layer L1002 (z=+0.53 mm) tasks=48 obstacles=72448 initial=928
+21:19:15 [20h] [layer2d] L1002 first pass: routed=48/48 failed=0 (4.6s)
+21:19:15 [20h] [layer2d] L1002: routed=48/48 failed=0 (4.6s)
+21:19:15 [20h] [layer2d] all layers: routed=1023/1024 failed=1 (107.0s)
+21:19:15 [20h] [layer2d] planes=20 routed=1023 failed=1 (107.0s, seed=0, budget=600)
+21:19:15 [20h] [C] routed=1023/1024 Z1_INTERFACE=52/52 Z2_INTERFACE=48/48
+21:19:37 [20h] [D] assembled=1023 world_violations=0 assembly_failures=1
+21:19:38 [20h] [layer2d] routing layer L2 (z=-0.33 mm) tasks=64 obstacles=14464
+21:19:39 [20h] [layer2d] L2 first pass: routed=64/64 failed=0 (1.5s)
+21:19:39 [20h] [layer2d] L2: routed=64/64 failed=0 (1.5s)
+21:19:39 [20h] [layer2d] routing layer L3 (z=-0.28 mm) tasks=64 obstacles=26752
+21:19:40 [20h] [layer2d] L3 first pass: routed=64/64 failed=0 (1.2s)
+21:19:40 [20h] [layer2d] L3: routed=64/64 failed=0 (1.2s)
+21:19:40 [20h] [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=35072
+21:19:42 [20h] [layer2d] L4 first pass: routed=64/64 failed=0 (1.5s)
+21:19:42 [20h] [layer2d] L4: routed=64/64 failed=0 (1.5s)
+21:19:42 [20h] [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=41152
+21:19:43 [20h] [layer2d] L5 first pass: routed=64/64 failed=0 (1.1s)
+21:19:43 [20h] [layer2d] L5: routed=64/64 failed=0 (1.1s)
+21:19:43 [20h] [layer2d] routing layer L6 (z=-0.12 mm) tasks=52 obstacles=47184
+21:19:46 [20h] [layer2d] L6 first pass: routed=51/52 failed=1 (3.1s)
+21:19:46 [20h] [layer2d] L6 rrr round 1: pending=1 gained=0 routed=51/52
+21:19:46 [20h] [layer2d] L6: routed=51/52 failed=1 (3.5s)
+21:19:46 [20h] [layer2d] routing layer L7 (z=-0.07 mm) tasks=52 obstacles=58848
+21:19:49 [20h] [layer2d] L7 first pass: routed=50/52 failed=2 (2.5s)
+21:19:50 [20h] [layer2d] L7 rrr round 1: pending=2 gained=2 routed=52/52
+21:19:50 [20h] [layer2d] L7 rrr round 2: pending=0 gained=0 routed=52/52
+21:19:50 [20h] [layer2d] L7: routed=52/52 failed=0 (3.2s)
+21:19:50 [20h] [layer2d] routing layer L8 (z=+0.07 mm) tasks=48 obstacles=45488
+21:19:52 [20h] [layer2d] L8 first pass: routed=48/48 failed=0 (2.1s)
+21:19:52 [20h] [layer2d] L8: routed=48/48 failed=0 (2.1s)
+21:19:52 [20h] [layer2d] routing layer L9 (z=+0.12 mm) tasks=56 obstacles=13264
+21:20:00 [20h] [layer2d] L9 first pass: routed=56/56 failed=0 (8.3s)
+21:20:00 [20h] [layer2d] L9: routed=56/56 failed=0 (8.3s)
+21:20:00 [20h] [layer2d] routing layer L10 (z=+0.17 mm) tasks=16 obstacles=14368
+21:20:00 [20h] [layer2d] L10 first pass: routed=16/16 failed=0 (0.2s)
+21:20:00 [20h] [layer2d] L10: routed=16/16 failed=0 (0.2s)
+21:20:00 [20h] [layer2d] routing layer L11 (z=+0.23 mm) tasks=16 obstacles=15952
+21:20:01 [20h] [layer2d] L11 first pass: routed=16/16 failed=0 (0.2s)
+21:20:01 [20h] [layer2d] L11: routed=16/16 failed=0 (0.2s)
+21:20:01 [20h] [layer2d] routing layer L12 (z=+0.28 mm) tasks=40 obstacles=19968
+21:20:01 [20h] [layer2d] L12 first pass: routed=40/40 failed=0 (0.7s)
+21:20:01 [20h] [layer2d] L12: routed=40/40 failed=0 (0.7s)
+21:20:01 [20h] [layer2d] routing layer L13 (z=+0.33 mm) tasks=40 obstacles=27104
+21:20:02 [20h] [layer2d] L13 first pass: routed=40/40 failed=0 (0.8s)
+21:20:02 [20h] [layer2d] L13: routed=40/40 failed=0 (0.8s)
+21:20:02 [20h] [layer2d] routing layer L14 (z=+0.38 mm) tasks=56 obstacles=35392
+21:20:08 [20h] [layer2d] L14 first pass: routed=56/56 failed=0 (6.3s)
+21:20:08 [20h] [layer2d] L14: routed=56/56 failed=0 (6.3s)
+21:20:08 [20h] [layer2d] routing layer L15 (z=+0.42 mm) tasks=56 obstacles=48128
+21:20:16 [20h] [layer2d] L15 first pass: routed=56/56 failed=0 (7.3s)
+21:20:16 [20h] [layer2d] L15: routed=56/56 failed=0 (7.3s)
+21:20:16 [20h] [layer2d] routing layer L16 (z=+0.47 mm) tasks=56 obstacles=78192
+21:20:23 [20h] [layer2d] L16 first pass: routed=56/56 failed=0 (6.8s)
+21:20:23 [20h] [layer2d] L16: routed=56/56 failed=0 (6.8s)
+21:20:23 [20h] [layer2d] routing layer L17 (z=+0.57 mm) tasks=64 obstacles=53968
+21:20:27 [20h] [layer2d] L17 first pass: routed=64/64 failed=0 (4.3s)
+21:20:27 [20h] [layer2d] L17: routed=64/64 failed=0 (4.3s)
+21:20:27 [20h] [layer2d] routing layer L18 (z=+0.62 mm) tasks=64 obstacles=14848
+21:20:29 [20h] [layer2d] L18 first pass: routed=64/64 failed=0 (1.7s)
+21:20:29 [20h] [layer2d] L18: routed=64/64 failed=0 (1.7s)
+21:20:29 [20h] [layer2d] routing layer L20 (z=-0.03 mm) tasks=52 obstacles=86192
+21:20:31 [20h] [layer2d] L20 first pass: routed=52/52 failed=0 (2.6s)
+21:20:31 [20h] [layer2d] L20: routed=52/52 failed=0 (2.6s)
+21:20:31 [20h] [layer2d] routing layer L1001 (z=+0.03 mm) tasks=52 obstacles=70904
+21:20:34 [20h] [layer2d] L1001 first pass: routed=52/52 failed=0 (2.4s)
+21:20:34 [20h] [layer2d] L1001: routed=52/52 failed=0 (2.4s)
+21:20:34 [20h] [layer2d] routing layer L1002 (z=+0.53 mm) tasks=48 obstacles=72448
+21:20:36 [20h] [layer2d] L1002 first pass: routed=48/48 failed=0 (2.4s)
+21:20:36 [20h] [layer2d] L1002: routed=48/48 failed=0 (2.4s)
+21:20:36 [20h] [layer2d] all layers: routed=1023/1024 failed=1 (58.7s)
+21:20:36 [20h] [layer2d] planes=20 routed=1023 failed=1 (58.7s, seed=0, budget=600)
+21:20:54 [20h] [D] assembled=1023 world_violations=0 assembly_failures=1
+21:20:54 [20h] === STAGE E iteration 1/3 ===
+21:20:54 [20h] [layer2d] routing layer L2 (z=-0.33 mm) tasks=64 obstacles=14464
+21:20:55 [20h] [layer2d] L2 first pass: routed=64/64 failed=0 (1.3s)
+21:20:55 [20h] [layer2d] L2: routed=64/64 failed=0 (1.3s)
+21:20:55 [20h] [layer2d] routing layer L3 (z=-0.28 mm) tasks=64 obstacles=26752
+21:20:56 [20h] [layer2d] L3 first pass: routed=64/64 failed=0 (1.0s)
+21:20:56 [20h] [layer2d] L3: routed=64/64 failed=0 (1.0s)
+21:20:56 [20h] [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=35072
+21:20:58 [20h] [layer2d] L4 first pass: routed=64/64 failed=0 (1.2s)
+21:20:58 [20h] [layer2d] L4: routed=64/64 failed=0 (1.2s)
+21:20:58 [20h] [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=41152
+21:20:59 [20h] [layer2d] L5 first pass: routed=64/64 failed=0 (1.0s)
+21:20:59 [20h] [layer2d] L5: routed=64/64 failed=0 (1.0s)
+21:20:59 [20h] [layer2d] routing layer L6 (z=-0.12 mm) tasks=52 obstacles=47184
+21:21:01 [20h] [layer2d] L6 first pass: routed=51/52 failed=1 (2.8s)
+21:21:02 [20h] [layer2d] L6 rrr round 1: pending=1 gained=0 routed=51/52
+21:21:02 [20h] [layer2d] L6: routed=51/52 failed=1 (3.1s)
+21:21:02 [20h] [layer2d] routing layer L7 (z=-0.07 mm) tasks=52 obstacles=58848
+21:21:04 [20h] [layer2d] L7 first pass: routed=50/52 failed=2 (2.1s)
+21:21:05 [20h] [layer2d] L7 rrr round 1: pending=2 gained=2 routed=52/52
+21:21:05 [20h] [layer2d] L7 rrr round 2: pending=0 gained=0 routed=52/52
+21:21:05 [20h] [layer2d] L7: routed=52/52 failed=0 (2.7s)
+21:21:05 [20h] [layer2d] routing layer L8 (z=+0.07 mm) tasks=48 obstacles=45488
+21:21:07 [20h] [layer2d] L8 first pass: routed=48/48 failed=0 (2.0s)
+21:21:07 [20h] [layer2d] L8: routed=48/48 failed=0 (2.0s)
+21:21:07 [20h] [layer2d] routing layer L9 (z=+0.12 mm) tasks=56 obstacles=13264
+21:21:14 [20h] [layer2d] L9 first pass: routed=56/56 failed=0 (7.2s)
+21:21:14 [20h] [layer2d] L9: routed=56/56 failed=0 (7.2s)
+21:21:14 [20h] [layer2d] routing layer L10 (z=+0.17 mm) tasks=16 obstacles=14368
+21:21:14 [20h] [layer2d] L10 first pass: routed=16/16 failed=0 (0.2s)
+21:21:14 [20h] [layer2d] L10: routed=16/16 failed=0 (0.2s)
+21:21:14 [20h] [layer2d] routing layer L11 (z=+0.23 mm) tasks=16 obstacles=15952
+21:21:14 [20h] [layer2d] L11 first pass: routed=16/16 failed=0 (0.3s)
+21:21:14 [20h] [layer2d] L11: routed=16/16 failed=0 (0.3s)
+21:21:14 [20h] [layer2d] routing layer L12 (z=+0.28 mm) tasks=40 obstacles=19968
+21:21:15 [20h] [layer2d] L12 first pass: routed=40/40 failed=0 (0.6s)
+21:21:15 [20h] [layer2d] L12: routed=40/40 failed=0 (0.6s)
+21:21:15 [20h] [layer2d] routing layer L13 (z=+0.33 mm) tasks=40 obstacles=27104
+21:21:15 [20h] [layer2d] L13 first pass: routed=40/40 failed=0 (0.6s)
+21:21:15 [20h] [layer2d] L13: routed=40/40 failed=0 (0.6s)
+21:21:15 [20h] [layer2d] routing layer L14 (z=+0.38 mm) tasks=56 obstacles=35392
+21:21:21 [20h] [layer2d] L14 first pass: routed=56/56 failed=0 (5.5s)
+21:21:21 [20h] [layer2d] L14: routed=56/56 failed=0 (5.5s)
+21:21:21 [20h] [layer2d] routing layer L15 (z=+0.42 mm) tasks=56 obstacles=48128
+21:21:27 [20h] [layer2d] L15 first pass: routed=56/56 failed=0 (6.1s)
+21:21:27 [20h] [layer2d] L15: routed=56/56 failed=0 (6.1s)
+21:21:27 [20h] [layer2d] routing layer L16 (z=+0.47 mm) tasks=56 obstacles=78192
+21:21:34 [20h] [layer2d] L16 first pass: routed=56/56 failed=0 (6.8s)
+21:21:34 [20h] [layer2d] L16: routed=56/56 failed=0 (6.8s)
+21:21:34 [20h] [layer2d] routing layer L17 (z=+0.57 mm) tasks=64 obstacles=53968
+21:21:39 [20h] [layer2d] L17 first pass: routed=64/64 failed=0 (4.7s)
+21:21:39 [20h] [layer2d] L17: routed=64/64 failed=0 (4.7s)
+21:21:39 [20h] [layer2d] routing layer L18 (z=+0.62 mm) tasks=64 obstacles=14848
+21:21:41 [20h] [layer2d] L18 first pass: routed=64/64 failed=0 (1.9s)
+21:21:41 [20h] [layer2d] L18: routed=64/64 failed=0 (1.9s)
+21:21:41 [20h] [layer2d] routing layer L20 (z=-0.03 mm) tasks=52 obstacles=86192
+21:21:44 [20h] [layer2d] L20 first pass: routed=52/52 failed=0 (3.1s)
+21:21:44 [20h] [layer2d] L20: routed=52/52 failed=0 (3.1s)
+21:21:44 [20h] [layer2d] routing layer L1001 (z=+0.03 mm) tasks=52 obstacles=70904
+21:21:46 [20h] [layer2d] L1001 first pass: routed=52/52 failed=0 (2.5s)
+21:21:46 [20h] [layer2d] L1001: routed=52/52 failed=0 (2.5s)
+21:21:46 [20h] [layer2d] routing layer L1002 (z=+0.53 mm) tasks=48 obstacles=72448
+21:21:49 [20h] [layer2d] L1002 first pass: routed=48/48 failed=0 (2.7s)
+21:21:49 [20h] [layer2d] L1002: routed=48/48 failed=0 (2.7s)
+21:21:49 [20h] [layer2d] all layers: routed=1023/1024 failed=1 (55.0s)
+21:21:49 [20h] [layer2d] planes=20 routed=1023 failed=1 (55.0s, seed=0, budget=600)
+21:22:10 [20h] [E] iteration 1: assembled=1023 world_valid=1023 violations=0 assembly_failures=1 failed_ids=[113]
+21:22:10 [20h] === STAGE E iteration 2/3 ===
+21:22:24 [20h] [fanout] endpoints=2/2 routes=1/1 ok=1024 failed=0 checks=1024 elapsed=13.4s
+21:22:24 [20h] [E] lead repair iteration 2: leads=(8.0, 16.0, 4.0, 2.0, 1.0, 0.25) repaired=1/1 direct_failures=[]
+21:22:24 [20h] [layer2d] routing layer L2 (z=-0.33 mm) tasks=64 obstacles=14464
+21:22:26 [20h] [layer2d] L2 first pass: routed=64/64 failed=0 (1.8s)
+21:22:26 [20h] [layer2d] L2: routed=64/64 failed=0 (1.8s)
+21:22:26 [20h] [layer2d] routing layer L3 (z=-0.28 mm) tasks=64 obstacles=26752
+21:22:27 [20h] [layer2d] L3 first pass: routed=64/64 failed=0 (1.2s)
+21:22:27 [20h] [layer2d] L3: routed=64/64 failed=0 (1.2s)
+21:22:27 [20h] [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=35072
+21:22:29 [20h] [layer2d] L4 first pass: routed=64/64 failed=0 (1.6s)
+21:22:29 [20h] [layer2d] L4: routed=64/64 failed=0 (1.6s)
+21:22:29 [20h] [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=41152
+21:22:30 [20h] [layer2d] L5 first pass: routed=64/64 failed=0 (1.2s)
+21:22:30 [20h] [layer2d] L5: routed=64/64 failed=0 (1.2s)
+21:22:30 [20h] [layer2d] routing layer L6 (z=-0.12 mm) tasks=52 obstacles=47184
+21:22:33 [20h] [layer2d] L6 first pass: routed=52/52 failed=0 (3.3s)
+21:22:33 [20h] [layer2d] L6: routed=52/52 failed=0 (3.3s)
+21:22:33 [20h] [layer2d] routing layer L7 (z=-0.07 mm) tasks=52 obstacles=58848
+21:22:36 [20h] [layer2d] L7 first pass: routed=51/52 failed=1 (2.7s)
+21:22:37 [20h] [layer2d] L7 rrr round 1: pending=1 gained=1 routed=52/52
+21:22:37 [20h] [layer2d] L7 rrr round 2: pending=0 gained=0 routed=52/52
+21:22:37 [20h] [layer2d] L7: routed=52/52 failed=0 (3.3s)
+21:22:37 [20h] [layer2d] routing layer L8 (z=+0.07 mm) tasks=48 obstacles=45488
+21:22:39 [20h] [layer2d] L8 first pass: routed=48/48 failed=0 (2.1s)
+21:22:39 [20h] [layer2d] L8: routed=48/48 failed=0 (2.1s)
+21:22:39 [20h] [layer2d] routing layer L9 (z=+0.12 mm) tasks=56 obstacles=13264
+21:22:52 [20h] [layer2d] L9 first pass: routed=56/56 failed=0 (13.0s)
+21:22:52 [20h] [layer2d] L9: routed=56/56 failed=0 (13.0s)
+21:22:52 [20h] [layer2d] routing layer L10 (z=+0.17 mm) tasks=16 obstacles=14368
+21:22:52 [20h] [layer2d] L10 first pass: routed=16/16 failed=0 (0.2s)
+21:22:52 [20h] [layer2d] L10: routed=16/16 failed=0 (0.2s)
+21:22:52 [20h] [layer2d] routing layer L11 (z=+0.23 mm) tasks=16 obstacles=15952
+21:22:52 [20h] [layer2d] L11 first pass: routed=16/16 failed=0 (0.2s)
+21:22:52 [20h] [layer2d] L11: routed=16/16 failed=0 (0.2s)
+21:22:52 [20h] [layer2d] routing layer L12 (z=+0.28 mm) tasks=40 obstacles=19968
+21:22:54 [20h] [layer2d] L12 first pass: routed=40/40 failed=0 (1.0s)
+21:22:54 [20h] [layer2d] L12: routed=40/40 failed=0 (1.0s)
+21:22:54 [20h] [layer2d] routing layer L13 (z=+0.33 mm) tasks=40 obstacles=27104
+21:22:54 [20h] [layer2d] L13 first pass: routed=40/40 failed=0 (0.8s)
+21:22:54 [20h] [layer2d] L13: routed=40/40 failed=0 (0.8s)
+21:22:54 [20h] [layer2d] routing layer L14 (z=+0.38 mm) tasks=56 obstacles=35392
+21:23:02 [20h] [layer2d] L14 first pass: routed=56/56 failed=0 (7.6s)
+21:23:02 [20h] [layer2d] L14: routed=56/56 failed=0 (7.6s)
+21:23:02 [20h] [layer2d] routing layer L15 (z=+0.42 mm) tasks=56 obstacles=48128
+21:23:08 [20h] [layer2d] L15 first pass: routed=54/56 failed=2 (6.3s)
+21:23:10 [20h] [layer2d] L15 rrr round 1: pending=2 gained=1 routed=55/56
+21:23:10 [20h] [layer2d] L15 rrr round 2: pending=1 gained=0 routed=55/56
+21:23:10 [20h] [layer2d] L15: routed=55/56 failed=1 (8.0s)
+21:23:10 [20h] [layer2d] routing layer L16 (z=+0.47 mm) tasks=56 obstacles=78192
+21:23:17 [20h] [layer2d] L16 first pass: routed=56/56 failed=0 (6.9s)
+21:23:17 [20h] [layer2d] L16: routed=56/56 failed=0 (6.9s)
+21:23:17 [20h] [layer2d] routing layer L17 (z=+0.57 mm) tasks=64 obstacles=53968
+21:23:23 [20h] [layer2d] L17 first pass: routed=61/64 failed=3 (5.9s)
+21:23:23 [20h] [layer2d] L17 rrr round 1: pending=3 gained=3 routed=64/64
+21:23:23 [20h] [layer2d] L17 rrr round 2: pending=0 gained=0 routed=64/64
+21:23:23 [20h] [layer2d] L17: routed=64/64 failed=0 (6.5s)
+21:23:23 [20h] [layer2d] routing layer L18 (z=+0.62 mm) tasks=64 obstacles=14848
+21:23:27 [20h] [layer2d] L18 first pass: routed=60/64 failed=4 (3.3s)
+21:23:28 [20h] [layer2d] L18 rrr round 1: pending=4 gained=4 routed=64/64
+21:23:28 [20h] [layer2d] L18 rrr round 2: pending=0 gained=0 routed=64/64
+21:23:28 [20h] [layer2d] L18: routed=64/64 failed=0 (4.2s)
+21:23:28 [20h] [layer2d] routing layer L20 (z=-0.03 mm) tasks=52 obstacles=86192
+21:23:34 [20h] [layer2d] L20 first pass: routed=51/52 failed=1 (5.8s)
+21:23:34 [20h] [layer2d] L20 rrr round 1: pending=1 gained=0 routed=51/52
+21:23:34 [20h] [layer2d] L20: routed=51/52 failed=1 (6.5s)
+21:23:34 [20h] [layer2d] routing layer L1001 (z=+0.03 mm) tasks=52 obstacles=70904
+21:23:40 [20h] [layer2d] L1001 first pass: routed=52/52 failed=0 (5.4s)
+21:23:40 [20h] [layer2d] L1001: routed=52/52 failed=0 (5.4s)
+21:23:40 [20h] [layer2d] routing layer L1002 (z=+0.53 mm) tasks=48 obstacles=72448
+21:23:45 [20h] [layer2d] L1002 first pass: routed=48/48 failed=0 (4.7s)
+21:23:45 [20h] [layer2d] L1002: routed=48/48 failed=0 (4.7s)
+21:23:45 [20h] [layer2d] all layers: routed=1022/1024 failed=2 (80.3s)
+21:23:45 [20h] [layer2d] planes=20 routed=1022 failed=2 (80.3s, seed=1, budget=1200)
+21:24:19 [20h] [E] iteration 2: assembled=1022 world_valid=1022 violations=0 assembly_failures=2 failed_ids=[99, 680]
+21:24:19 [20h] === STAGE E iteration 3/3 ===
+21:24:40 [20h] [fanout] endpoints=4/4 routes=2/2 ok=1024 failed=0 checks=1024 elapsed=21.5s
+21:24:40 [20h] [E] lead repair iteration 3: leads=(0.25, 1.0, 2.0, 4.0, 8.0, 16.0) repaired=2/2 direct_failures=[]
+21:24:41 [20h] [layer2d] routing layer L2 (z=-0.33 mm) tasks=64 obstacles=14464
+21:24:44 [20h] [layer2d] L2 first pass: routed=64/64 failed=0 (2.9s)
+21:24:44 [20h] [layer2d] L2: routed=64/64 failed=0 (2.9s)
+21:24:44 [20h] [layer2d] routing layer L3 (z=-0.28 mm) tasks=64 obstacles=26752
+21:24:47 [20h] [layer2d] L3 first pass: routed=64/64 failed=0 (2.2s)
+21:24:47 [20h] [layer2d] L3: routed=64/64 failed=0 (2.2s)
+21:24:47 [20h] [layer2d] routing layer L4 (z=-0.23 mm) tasks=64 obstacles=35072
+21:24:50 [20h] [layer2d] L4 first pass: routed=64/64 failed=0 (2.9s)
+21:24:50 [20h] [layer2d] L4: routed=64/64 failed=0 (2.9s)
+21:24:50 [20h] [layer2d] routing layer L5 (z=-0.17 mm) tasks=64 obstacles=41152
+21:24:52 [20h] [layer2d] L5 first pass: routed=64/64 failed=0 (2.5s)
+21:24:52 [20h] [layer2d] L5: routed=64/64 failed=0 (2.5s)
+21:24:52 [20h] [layer2d] routing layer L6 (z=-0.12 mm) tasks=52 obstacles=47184
+21:24:58 [20h] [layer2d] L6 first pass: routed=52/52 failed=0 (5.9s)
+21:24:58 [20h] [layer2d] L6: routed=52/52 failed=0 (5.9s)
+21:24:58 [20h] [layer2d] routing layer L7 (z=-0.07 mm) tasks=52 obstacles=58848
+21:25:03 [20h] [layer2d] L7 first pass: routed=52/52 failed=0 (4.5s)
+21:25:03 [20h] [layer2d] L7: routed=52/52 failed=0 (4.5s)
+21:25:03 [20h] [layer2d] routing layer L8 (z=+0.07 mm) tasks=48 obstacles=45488
+21:25:07 [20h] [layer2d] L8 first pass: routed=48/48 failed=0 (3.9s)
+21:25:07 [20h] [layer2d] L8: routed=48/48 failed=0 (3.9s)
+21:25:07 [20h] [layer2d] routing layer L9 (z=+0.12 mm) tasks=56 obstacles=13264
+21:25:25 [20h] [layer2d] L9 first pass: routed=56/56 failed=0 (18.6s)
+21:25:25 [20h] [layer2d] L9: routed=56/56 failed=0 (18.6s)
+21:25:25 [20h] [layer2d] routing layer L10 (z=+0.17 mm) tasks=16 obstacles=14368
+21:25:26 [20h] [layer2d] L10 first pass: routed=16/16 failed=0 (0.3s)
+21:25:26 [20h] [layer2d] L10: routed=16/16 failed=0 (0.3s)
+21:25:26 [20h] [layer2d] routing layer L11 (z=+0.23 mm) tasks=16 obstacles=15952
+21:25:26 [20h] [layer2d] L11 first pass: routed=16/16 failed=0 (0.4s)
+21:25:26 [20h] [layer2d] L11: routed=16/16 failed=0 (0.4s)
+21:25:26 [20h] [layer2d] routing layer L12 (z=+0.28 mm) tasks=40 obstacles=19968
+21:25:27 [20h] [layer2d] L12 first pass: routed=40/40 failed=0 (1.4s)
+21:25:27 [20h] [layer2d] L12: routed=40/40 failed=0 (1.4s)
+21:25:27 [20h] [layer2d] routing layer L13 (z=+0.33 mm) tasks=40 obstacles=27104
+21:25:29 [20h] [layer2d] L13 first pass: routed=40/40 failed=0 (1.4s)
+21:25:29 [20h] [layer2d] L13: routed=40/40 failed=0 (1.4s)
+21:25:29 [20h] [layer2d] routing layer L14 (z=+0.38 mm) tasks=56 obstacles=35392
+21:25:42 [20h] [layer2d] L14 first pass: routed=56/56 failed=0 (13.2s)
+21:25:42 [20h] [layer2d] L14: routed=56/56 failed=0 (13.2s)
+21:25:42 [20h] [layer2d] routing layer L15 (z=+0.42 mm) tasks=56 obstacles=48128
+21:25:56 [20h] [layer2d] L15 first pass: routed=54/56 failed=2 (14.1s)
+21:25:59 [20h] [layer2d] L15 rrr round 1: pending=2 gained=2 routed=56/56
+21:25:59 [20h] [layer2d] L15 rrr round 2: pending=0 gained=0 routed=56/56
+21:25:59 [20h] [layer2d] L15: routed=56/56 failed=0 (16.4s)
+21:25:59 [20h] [layer2d] routing layer L16 (z=+0.47 mm) tasks=56 obstacles=78192
+21:26:17 [20h] [layer2d] L16 first pass: routed=55/56 failed=1 (18.3s)
+21:26:20 [20h] [layer2d] L16 rrr round 1: pending=1 gained=1 routed=56/56
+21:26:20 [20h] [layer2d] L16 rrr round 2: pending=0 gained=0 routed=56/56
+21:26:20 [20h] [layer2d] L16: routed=56/56 failed=0 (21.4s)
+21:26:20 [20h] [layer2d] routing layer L17 (z=+0.57 mm) tasks=64 obstacles=53968
+21:26:29 [20h] [layer2d] L17 first pass: routed=64/64 failed=0 (8.9s)
+21:26:29 [20h] [layer2d] L17: routed=64/64 failed=0 (8.9s)
+21:26:29 [20h] [layer2d] routing layer L18 (z=+0.62 mm) tasks=64 obstacles=14848
+21:26:33 [20h] [layer2d] L18 first pass: routed=64/64 failed=0 (3.7s)
+21:26:33 [20h] [layer2d] L18: routed=64/64 failed=0 (3.7s)
+21:26:33 [20h] [layer2d] routing layer L20 (z=-0.03 mm) tasks=52 obstacles=86192
+21:26:38 [20h] [layer2d] L20 first pass: routed=52/52 failed=0 (5.1s)
+21:26:38 [20h] [layer2d] L20: routed=52/52 failed=0 (5.1s)
+21:26:38 [20h] [layer2d] routing layer L1001 (z=+0.03 mm) tasks=52 obstacles=70904
+21:26:42 [20h] [layer2d] L1001 first pass: routed=52/52 failed=0 (4.2s)
+21:26:42 [20h] [layer2d] L1001: routed=52/52 failed=0 (4.2s)
+21:26:42 [20h] [layer2d] routing layer L1002 (z=+0.53 mm) tasks=48 obstacles=72448
+21:26:47 [20h] [layer2d] L1002 first pass: routed=48/48 failed=0 (4.0s)
+21:26:47 [20h] [layer2d] L1002: routed=48/48 failed=0 (4.0s)
+21:26:47 [20h] [layer2d] all layers: routed=1024/1024 failed=0 (125.2s)
+21:26:47 [20h] [layer2d] planes=20 routed=1024 failed=0 (125.2s, seed=2, budget=1800)
+21:27:21 [20h] [E] iteration 3: assembled=1024 world_valid=1024 violations=0 assembly_failures=0 failed_ids=[]
+21:27:21 [20h] [E] all 1024 routes valid
+21:27:22 [20h] [final] wrote routes_l3d.json: routed=1024 failed=0
+21:27:22 [20h] [E] wrote experiment_E summary (1024 valid)
+21:27:22 [20h] [E] FINAL routed=1024/1024 failed=0 direct=100 transitions=1848
+21:27:57 [20h] [F] experiment_D final: assembled=1024 world_valid=1024 violations=0
+21:27:57 [20h] 20-height cold start done in 675.9s

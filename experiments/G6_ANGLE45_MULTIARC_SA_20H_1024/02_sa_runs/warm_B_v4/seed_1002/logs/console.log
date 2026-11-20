@@ -1,0 +1,616 @@
+[2026-11-20T21:23:20] G6 SA start seed=1002 profile=B routes=1024 N_bad=51 D_theta=964.877334 crossings=4136 hard_issues=0
+[2026-11-20T21:24:31] no legal proposal in last window (failed=69)
+[2026-11-20T21:25:20] t=120.2s moves=1435 acc=0.135 worse_acc=66 N_bad=12 D=238.459 T=283.3 reheat=0 commit_fail=0 failed_props=175
+[2026-11-20T21:25:57] no legal proposal in last window (failed=243)
+[2026-11-20T21:27:21] t=240.2s moves=3365 acc=0.089 worse_acc=86 N_bad=11 D=220.747 T=294.9 reheat=0 commit_fail=0 failed_props=361
+[2026-11-20T21:27:21] budget exhausted after 3365 moves (240.3s); N_bad=11
+[2026-11-20T21:27:22] STOP {"M": 1000.0, "acceptance_rate": 0.0889, "accepted": 299, "accepted_worse": 86, "best_key": [10, 208.710712, 4386, 157182.731], "best_move": 2648, "cfg": {"M": 1000.0, "T0": 700.0, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1002, "theta": 45.0}, "commit_failures": 0, "crossings": 4398, "deficit": 220.74675, "elapsed_seconds": 241.521, "failed_proposals": 361, "generated_at": "2026-11-20T21:27:22", "hard_issues": 0, "lam": 1.0, "length_mm": 157216.816651, "move_stats": {"none": {"rejected": 361}, "single:body": {"accepted": 299, "attempted": 3004, "improving": 54, "rejected": 2705}}, "moves": 3365, "moves_per_second": 13.933, "n_bad": 11, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 2705, "schema": "g6_sa_summary_v1", "seed": 1002, "state_build_seconds": 2.218, "success": false, "theta_min_deg": 45.0, "total_accepted": 299, "total_attempted": 3004}
+[2026-11-20T21:27:25] G6 SA start seed=1002 profile=B routes=1024 N_bad=11 D_theta=220.746750 crossings=4398 hard_issues=0
+[2026-11-20T21:28:11] no legal proposal in last window (failed=104)
+[2026-11-20T21:29:14] no legal proposal in last window (failed=209)
+[2026-11-20T21:29:25] t=120.2s moves=1571 acc=0.096 worse_acc=45 N_bad=7 D=120.237 T=268.9 reheat=0 commit_fail=0 failed_props=238
+[2026-11-20T21:30:07] no legal proposal in last window (failed=331)
+[2026-11-20T21:31:25] budget exhausted after 3265 moves (240.0s); N_bad=7
+[2026-11-20T21:31:26] STOP {"M": 1000.0, "acceptance_rate": 0.0677, "accepted": 221, "accepted_worse": 47, "best_key": [7, 120.23708, 4376, 157185.433], "best_move": 611, "cfg": {"M": 1000.0, "T0": 630.0, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1002, "theta": 45.0}, "commit_failures": 0, "crossings": 4395, "deficit": 120.23708, "elapsed_seconds": 241.354, "failed_proposals": 497, "generated_at": "2026-11-20T21:31:26", "hard_issues": 0, "lam": 1.0, "length_mm": 157243.504601, "move_stats": {"none": {"rejected": 497}, "single:body": {"accepted": 221, "attempted": 2768, "improving": 24, "rejected": 2547}}, "moves": 3265, "moves_per_second": 13.528, "n_bad": 7, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 2547, "schema": "g6_sa_summary_v1", "seed": 1002, "state_build_seconds": 2.991, "success": false, "theta_min_deg": 45.0, "total_accepted": 221, "total_attempted": 2768}
+[2026-11-20T21:31:30] G6 SA start seed=1002 profile=B routes=1024 N_bad=7 D_theta=120.237080 crossings=4395 hard_issues=0
+[2026-11-20T21:33:30] t=120.2s moves=1341 acc=0.081 worse_acc=30 N_bad=8 D=143.813 T=255.1 reheat=0 commit_fail=0 failed_props=259
+[2026-11-20T21:35:20] no legal proposal in last window (failed=594)
+[2026-11-20T21:35:30] budget exhausted after 2953 moves (240.0s); N_bad=8
+[2026-11-20T21:35:31] STOP {"M": 1000.0, "acceptance_rate": 0.061, "accepted": 180, "accepted_worse": 40, "best_key": [6, 114.648333, 4372, 157200.039], "best_move": 72, "cfg": {"M": 1000.0, "T0": 567.0, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1002, "theta": 45.0}, "commit_failures": 0, "crossings": 4409, "deficit": 143.813006, "elapsed_seconds": 241.291, "failed_proposals": 624, "generated_at": "2026-11-20T21:35:31", "hard_issues": 0, "lam": 1.0, "length_mm": 157350.56337, "move_stats": {"none": {"rejected": 624}, "single:body": {"accepted": 180, "attempted": 2329, "improving": 8, "rejected": 2149}}, "moves": 2953, "moves_per_second": 12.238, "n_bad": 8, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 2149, "schema": "g6_sa_summary_v1", "seed": 1002, "state_build_seconds": 3.665, "success": false, "theta_min_deg": 45.0, "total_accepted": 180, "total_attempted": 2329}
+[2026-11-20T21:35:35] G6 SA start seed=1002 profile=B routes=1024 N_bad=7 D_theta=120.237080 crossings=4395 hard_issues=0
+[2026-11-20T21:36:16] no legal proposal in last window (failed=50)
+[2026-11-20T21:36:59] no legal proposal in last window (failed=154)
+[2026-11-20T21:37:16] no legal proposal in last window (failed=189)
+[2026-11-20T21:37:35] t=120.1s moves=1452 acc=0.088 worse_acc=31 N_bad=7 D=125.200 T=242.1 reheat=0 commit_fail=0 failed_props=229
+[2026-11-20T21:39:30] no legal proposal in last window (failed=454)
+[2026-11-20T21:39:35] budget exhausted after 3087 moves (240.0s); N_bad=7
+[2026-11-20T21:39:37] STOP {"M": 1000.0, "acceptance_rate": 0.0726, "accepted": 224, "accepted_worse": 41, "best_key": [5, 104.721766, 4353, 157199.816], "best_move": 225, "cfg": {"M": 1000.0, "T0": 510.30000000000007, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1002, "theta": 45.0}, "commit_failures": 0, "crossings": 4354, "deficit": 125.19987, "elapsed_seconds": 241.48, "failed_proposals": 469, "generated_at": "2026-11-20T21:39:37", "hard_issues": 0, "lam": 1.0, "length_mm": 157265.157649, "move_stats": {"none": {"rejected": 469}, "single:body": {"accepted": 224, "attempted": 2618, "improving": 14, "rejected": 2394}}, "moves": 3087, "moves_per_second": 12.784, "n_bad": 7, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 2394, "schema": "g6_sa_summary_v1", "seed": 1002, "state_build_seconds": 3.335, "success": false, "theta_min_deg": 45.0, "total_accepted": 224, "total_attempted": 2618}
+[2026-11-20T21:39:40] G6 SA start seed=1002 profile=B routes=1024 N_bad=7 D_theta=120.237080 crossings=4395 hard_issues=0
+[2026-11-20T21:40:23] no legal proposal in last window (failed=50)
+[2026-11-20T21:40:54] no legal proposal in last window (failed=105)
+[2026-11-20T21:41:40] t=120.2s moves=1443 acc=0.073 worse_acc=25 N_bad=6 D=114.194 T=229.6 reheat=0 commit_fail=0 failed_props=204
+[2026-11-20T21:42:06] no legal proposal in last window (failed=261)
+[2026-11-20T21:42:34] no legal proposal in last window (failed=315)
+[2026-11-20T21:43:40] t=240.2s moves=3160 acc=0.056 worse_acc=26 N_bad=7 D=112.498 T=184.3 reheat=0 commit_fail=0 failed_props=452
+[2026-11-20T21:43:40] budget exhausted after 3160 moves (240.1s); N_bad=7
+[2026-11-20T21:43:42] STOP {"M": 1000.0, "acceptance_rate": 0.056, "accepted": 177, "accepted_worse": 26, "best_key": [5, 104.721766, 4353, 157199.816], "best_move": 225, "cfg": {"M": 1000.0, "T0": 459.27000000000004, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1002, "theta": 45.0}, "commit_failures": 0, "crossings": 4355, "deficit": 112.497832, "elapsed_seconds": 241.536, "failed_proposals": 452, "generated_at": "2026-11-20T21:43:42", "hard_issues": 0, "lam": 1.0, "length_mm": 157205.524476, "move_stats": {"none": {"rejected": 452}, "single:body": {"accepted": 177, "attempted": 2708, "improving": 11, "rejected": 2531}}, "moves": 3160, "moves_per_second": 13.083, "n_bad": 7, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 2531, "schema": "g6_sa_summary_v1", "seed": 1002, "state_build_seconds": 3.59, "success": false, "theta_min_deg": 45.0, "total_accepted": 177, "total_attempted": 2708}
+[2026-11-20T21:43:46] G6 SA start seed=1002 profile=B routes=1024 N_bad=7 D_theta=112.497832 crossings=4355 hard_issues=0
+[2026-11-20T21:44:40] no legal proposal in last window (failed=39)
+[2026-11-20T21:45:46] t=120.1s moves=1442 acc=0.089 worse_acc=37 N_bad=7 D=152.129 T=348.7 reheat=0 commit_fail=0 failed_props=64
+[2026-11-20T21:46:25] no legal proposal in last window (failed=120)
+[2026-11-20T21:47:46] budget exhausted after 3217 moves (240.0s); N_bad=7
+[2026-11-20T21:47:47] STOP {"M": 1000.0, "acceptance_rate": 0.0681, "accepted": 219, "accepted_worse": 50, "best_key": [6, 114.194139, 4362, 157216.896], "best_move": 134, "cfg": {"M": 1000.0, "T0": 413.3430000000001, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1002, "theta": 45.0}, "commit_failures": 0, "crossings": 4362, "deficit": 152.129381, "elapsed_seconds": 241.409, "failed_proposals": 172, "generated_at": "2026-11-20T21:47:47", "hard_issues": 0, "lam": 1.0, "length_mm": 157219.057372, "move_stats": {"none": {"rejected": 172}, "single:body": {"accepted": 219, "attempted": 3045, "improving": 23, "rejected": 2826}}, "moves": 3217, "moves_per_second": 13.326, "n_bad": 7, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 2826, "schema": "g6_sa_summary_v1", "seed": 1002, "state_build_seconds": 3.576, "success": false, "theta_min_deg": 45.0, "total_accepted": 219, "total_attempted": 3045}
+[2026-11-20T21:47:50] G6 SA start seed=1002 profile=B routes=1024 N_bad=7 D_theta=112.497832 crossings=4355 hard_issues=0
+[2026-11-20T21:49:34] no legal proposal in last window (failed=255)
+[2026-11-20T21:49:50] t=120.1s moves=1711 acc=0.082 worse_acc=23 N_bad=6 D=100.185 T=129.2 reheat=0 commit_fail=0 failed_props=328
+[2026-11-20T21:49:55] no legal proposal in last window (failed=347)
+[2026-11-20T21:50:36] no legal proposal in last window (failed=558)
+[2026-11-20T21:51:28] no legal proposal in last window (failed=793)
+[2026-11-20T21:51:50] t=240.1s moves=4025 acc=0.068 worse_acc=23 N_bad=6 D=100.185 T=45.0 reheat=0 commit_fail=0 failed_props=913
+[2026-11-20T21:51:50] budget exhausted after 4025 moves (240.0s); N_bad=6
+[2026-11-20T21:51:51] STOP {"M": 1000.0, "acceptance_rate": 0.0683, "accepted": 275, "accepted_worse": 23, "best_key": [5, 86.928777, 4363, 157210.826], "best_move": 423, "cfg": {"M": 1000.0, "T0": 372.00870000000003, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1002, "theta": 45.0}, "commit_failures": 0, "crossings": 4356, "deficit": 100.185458, "elapsed_seconds": 241.0, "failed_proposals": 913, "generated_at": "2026-11-20T21:51:51", "hard_issues": 0, "lam": 1.0, "length_mm": 157204.839049, "move_stats": {"none": {"rejected": 913}, "single:body": {"accepted": 275, "attempted": 3112, "improving": 10, "rejected": 2837}}, "moves": 4025, "moves_per_second": 16.701, "n_bad": 6, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 2837, "schema": "g6_sa_summary_v1", "seed": 1002, "state_build_seconds": 3.247, "success": false, "theta_min_deg": 45.0, "total_accepted": 275, "total_attempted": 3112}
+[2026-11-20T21:51:54] G6 SA start seed=1002 profile=B routes=1024 N_bad=6 D_theta=100.185458 crossings=4356 hard_issues=0
+[2026-11-20T21:52:10] no legal proposal in last window (failed=60)
+[2026-11-20T21:52:23] no legal proposal in last window (failed=154)
+[2026-11-20T21:52:35] no legal proposal in last window (failed=237)
+[2026-11-20T21:53:26] no legal proposal in last window (failed=571)
+[2026-11-20T21:53:39] no legal proposal in last window (failed=652)
+[2026-11-20T21:53:51] no legal proposal in last window (failed=718)
+[2026-11-20T21:53:54] t=120.1s moves=1859 acc=0.054 worse_acc=12 N_bad=6 D=107.381 T=122.6 reheat=0 commit_fail=0 failed_props=739
+[2026-11-20T21:54:15] no legal proposal in last window (failed=873)
+[2026-11-20T21:54:27] no legal proposal in last window (failed=950)
+[2026-11-20T21:54:38] no legal proposal in last window (failed=1023)
+[2026-11-20T21:55:12] no legal proposal in last window (failed=1250)
+[2026-11-20T21:55:49] no legal proposal in last window (failed=1497)
+[2026-11-20T21:55:54] t=240.1s moves=3877 acc=0.052 worse_acc=12 N_bad=6 D=107.381 T=45.0 reheat=0 commit_fail=0 failed_props=1523
+[2026-11-20T21:55:54] budget exhausted after 3877 moves (240.0s); N_bad=6
+[2026-11-20T21:55:55] STOP {"M": 1000.0, "acceptance_rate": 0.0516, "accepted": 200, "accepted_worse": 12, "best_key": [6, 96.825697, 4359, 157204.297], "best_move": 8, "cfg": {"M": 1000.0, "T0": 334.8078300000001, "T_end": 45.0, "best_min_interval": 15.0, "checkpoint_seconds": 300.0, "lam": 1.0, "log_seconds": 120.0, "profile": "B", "proposer": {"pool_build": 800, "pool_size": 28}, "reconcile_seconds": 420.0, "reheat_after_seconds": 240.0, "seed": 1002, "theta": 45.0}, "commit_failures": 0, "crossings": 4364, "deficit": 107.381219, "elapsed_seconds": 241.109, "failed_proposals": 1523, "generated_at": "2026-11-20T21:55:55", "hard_issues": 0, "lam": 1.0, "length_mm": 157233.638088, "move_stats": {"none": {"rejected": 1523}, "single:body": {"accepted": 200, "attempted": 2354, "improving": 5, "rejected": 2154}}, "moves": 3877, "moves_per_second": 16.08, "n_bad": 6, "profile": "B", "reconcile_count": 0, "reconcile_mismatch": 0, "reheat_count": 0, "rejected": 2154, "schema": "g6_sa_summary_v1", "seed": 1002, "state_build_seconds": 2.634, "success": false, "theta_min_deg": 45.0, "total_accepted": 200, "total_attempted": 2354}
+{
+  "schema": "g6_run_v1",
+  "seed": 1002,
+  "profile": "B",
+  "cycles": 8,
+  "cycle_seconds": 240.0,
+  "T0": 700.0,
+  "T0_decay": 0.9,
+  "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5\\routes_l3d.json",
+  "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\warm_B_v4\\seed_1002\\cycle_06",
+  "best_key": [
+    6,
+    100.185458,
+    4356,
+    157204.839
+  ],
+  "started": "2026-11-20T21:55:55",
+  "cycles_run": 8,
+  "summaries": [
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 1002,
+      "profile": "B",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 3365,
+      "accepted": 299,
+      "rejected": 2705,
+      "accepted_worse": 86,
+      "failed_proposals": 361,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 241.521,
+      "moves_per_second": 13.933,
+      "acceptance_rate": 0.0889,
+      "n_bad": 11,
+      "deficit": 220.74675,
+      "crossings": 4398,
+      "length_mm": 157216.816651,
+      "hard_issues": 0,
+      "best_key": [
+        10,
+        208.710712,
+        4386,
+        157182.731
+      ],
+      "best_move": 2648,
+      "success": false,
+      "move_stats": {
+        "single:body": {
+          "attempted": 3004,
+          "accepted": 299,
+          "improving": 54,
+          "rejected": 2705
+        },
+        "none": {
+          "rejected": 361
+        }
+      },
+      "total_attempted": 3004,
+      "total_accepted": 299,
+      "state_build_seconds": 2.218,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 1002,
+        "profile": "B",
+        "T0": 700.0,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 120.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T21:27:22"
+    },
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 1002,
+      "profile": "B",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 3265,
+      "accepted": 221,
+      "rejected": 2547,
+      "accepted_worse": 47,
+      "failed_proposals": 497,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 241.354,
+      "moves_per_second": 13.528,
+      "acceptance_rate": 0.0677,
+      "n_bad": 7,
+      "deficit": 120.23708,
+      "crossings": 4395,
+      "length_mm": 157243.504601,
+      "hard_issues": 0,
+      "best_key": [
+        7,
+        120.23708,
+        4376,
+        157185.433
+      ],
+      "best_move": 611,
+      "success": false,
+      "move_stats": {
+        "single:body": {
+          "attempted": 2768,
+          "accepted": 221,
+          "improving": 24,
+          "rejected": 2547
+        },
+        "none": {
+          "rejected": 497
+        }
+      },
+      "total_attempted": 2768,
+      "total_accepted": 221,
+      "state_build_seconds": 2.991,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 1002,
+        "profile": "B",
+        "T0": 630.0,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 120.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T21:31:26"
+    },
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 1002,
+      "profile": "B",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 2953,
+      "accepted": 180,
+      "rejected": 2149,
+      "accepted_worse": 40,
+      "failed_proposals": 624,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 241.291,
+      "moves_per_second": 12.238,
+      "acceptance_rate": 0.061,
+      "n_bad": 8,
+      "deficit": 143.813006,
+      "crossings": 4409,
+      "length_mm": 157350.56337,
+      "hard_issues": 0,
+      "best_key": [
+        6,
+        114.648333,
+        4372,
+        157200.039
+      ],
+      "best_move": 72,
+      "success": false,
+      "move_stats": {
+        "single:body": {
+          "attempted": 2329,
+          "accepted": 180,
+          "rejected": 2149,
+          "improving": 8
+        },
+        "none": {
+          "rejected": 624
+        }
+      },
+      "total_attempted": 2329,
+      "total_accepted": 180,
+      "state_build_seconds": 3.665,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 1002,
+        "profile": "B",
+        "T0": 567.0,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 120.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T21:35:31"
+    },
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 1002,
+      "profile": "B",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 3087,
+      "accepted": 224,
+      "rejected": 2394,
+      "accepted_worse": 41,
+      "failed_proposals": 469,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 241.48,
+      "moves_per_second": 12.784,
+      "acceptance_rate": 0.0726,
+      "n_bad": 7,
+      "deficit": 125.19987,
+      "crossings": 4354,
+      "length_mm": 157265.157649,
+      "hard_issues": 0,
+      "best_key": [
+        5,
+        104.721766,
+        4353,
+        157199.816
+      ],
+      "best_move": 225,
+      "success": false,
+      "move_stats": {
+        "single:body": {
+          "attempted": 2618,
+          "accepted": 224,
+          "rejected": 2394,
+          "improving": 14
+        },
+        "none": {
+          "rejected": 469
+        }
+      },
+      "total_attempted": 2618,
+      "total_accepted": 224,
+      "state_build_seconds": 3.335,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 1002,
+        "profile": "B",
+        "T0": 510.30000000000007,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 120.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T21:39:37"
+    },
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 1002,
+      "profile": "B",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 3160,
+      "accepted": 177,
+      "rejected": 2531,
+      "accepted_worse": 26,
+      "failed_proposals": 452,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 241.536,
+      "moves_per_second": 13.083,
+      "acceptance_rate": 0.056,
+      "n_bad": 7,
+      "deficit": 112.497832,
+      "crossings": 4355,
+      "length_mm": 157205.524476,
+      "hard_issues": 0,
+      "best_key": [
+        5,
+        104.721766,
+        4353,
+        157199.816
+      ],
+      "best_move": 225,
+      "success": false,
+      "move_stats": {
+        "single:body": {
+          "attempted": 2708,
+          "accepted": 177,
+          "rejected": 2531,
+          "improving": 11
+        },
+        "none": {
+          "rejected": 452
+        }
+      },
+      "total_attempted": 2708,
+      "total_accepted": 177,
+      "state_build_seconds": 3.59,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 1002,
+        "profile": "B",
+        "T0": 459.27000000000004,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 120.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T21:43:42"
+    },
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 1002,
+      "profile": "B",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 3217,
+      "accepted": 219,
+      "rejected": 2826,
+      "accepted_worse": 50,
+      "failed_proposals": 172,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 241.409,
+      "moves_per_second": 13.326,
+      "acceptance_rate": 0.0681,
+      "n_bad": 7,
+      "deficit": 152.129381,
+      "crossings": 4362,
+      "length_mm": 157219.057372,
+      "hard_issues": 0,
+      "best_key": [
+        6,
+        114.194139,
+        4362,
+        157216.896
+      ],
+      "best_move": 134,
+      "success": false,
+      "move_stats": {
+        "single:body": {
+          "attempted": 3045,
+          "rejected": 2826,
+          "accepted": 219,
+          "improving": 23
+        },
+        "none": {
+          "rejected": 172
+        }
+      },
+      "total_attempted": 3045,
+      "total_accepted": 219,
+      "state_build_seconds": 3.576,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 1002,
+        "profile": "B",
+        "T0": 413.3430000000001,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 120.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T21:47:47"
+    },
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 1002,
+      "profile": "B",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 4025,
+      "accepted": 275,
+      "rejected": 2837,
+      "accepted_worse": 23,
+      "failed_proposals": 913,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 241.0,
+      "moves_per_second": 16.701,
+      "acceptance_rate": 0.0683,
+      "n_bad": 6,
+      "deficit": 100.185458,
+      "crossings": 4356,
+      "length_mm": 157204.839049,
+      "hard_issues": 0,
+      "best_key": [
+        5,
+        86.928777,
+        4363,
+        157210.826
+      ],
+      "best_move": 423,
+      "success": false,
+      "move_stats": {
+        "single:body": {
+          "attempted": 3112,
+          "rejected": 2837,
+          "accepted": 275,
+          "improving": 10
+        },
+        "none": {
+          "rejected": 913
+        }
+      },
+      "total_attempted": 3112,
+      "total_accepted": 275,
+      "state_build_seconds": 3.247,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 1002,
+        "profile": "B",
+        "T0": 372.00870000000003,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 120.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T21:51:51"
+    },
+    {
+      "schema": "g6_sa_summary_v1",
+      "seed": 1002,
+      "profile": "B",
+      "theta_min_deg": 45.0,
+      "M": 1000.0,
+      "lam": 1.0,
+      "moves": 3877,
+      "accepted": 200,
+      "rejected": 2154,
+      "accepted_worse": 12,
+      "failed_proposals": 1523,
+      "commit_failures": 0,
+      "reheat_count": 0,
+      "reconcile_count": 0,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 241.109,
+      "moves_per_second": 16.08,
+      "acceptance_rate": 0.0516,
+      "n_bad": 6,
+      "deficit": 107.381219,
+      "crossings": 4364,
+      "length_mm": 157233.638088,
+      "hard_issues": 0,
+      "best_key": [
+        6,
+        96.825697,
+        4359,
+        157204.297
+      ],
+      "best_move": 8,
+      "success": false,
+      "move_stats": {
+        "single:body": {
+          "attempted": 2354,
+          "rejected": 2154,
+          "accepted": 200,
+          "improving": 5
+        },
+        "none": {
+          "rejected": 1523
+        }
+      },
+      "total_attempted": 2354,
+      "total_accepted": 200,
+      "state_build_seconds": 2.634,
+      "cfg": {
+        "theta": 45.0,
+        "M": 1000.0,
+        "lam": 1.0,
+        "seed": 1002,
+        "profile": "B",
+        "T0": 334.8078300000001,
+        "T_end": 45.0,
+        "reheat_after_seconds": 240.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 300.0,
+        "best_min_interval": 15.0,
+        "log_seconds": 120.0,
+        "proposer": {
+          "pool_size": 28,
+          "pool_build": 800
+        }
+      },
+      "generated_at": "2026-11-20T21:55:55"
+    }
+  ]
+}

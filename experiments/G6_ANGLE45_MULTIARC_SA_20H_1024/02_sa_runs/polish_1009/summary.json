@@ -1,0 +1,160 @@
+{
+ "schema": "g6_polish_v1",
+ "n_bad": 1,
+ "deficit": 30.164888,
+ "crossings": 4591,
+ "length_mm": 157536.22327,
+ "hard_issues": 0,
+ "events": [
+  {
+   "route_a": 457,
+   "route_b": 499,
+   "z": -0.075,
+   "x": 115.625,
+   "y": 131.427792,
+   "angle_deg": 14.835112,
+   "result": "repaired",
+   "kind": "single",
+   "delta_bad": -1,
+   "delta_deficit": -30.164888,
+   "label": "reheight:OPP_SHORT_S:z=-0.025|reheight",
+   "n_bad_after": 3,
+   "deficit_after": 41.617781
+  },
+  {
+   "route_a": 492,
+   "route_b": 498,
+   "z": -0.025,
+   "x": 63.8367,
+   "y": 68.875,
+   "angle_deg": 14.835112,
+   "result": "no_improving_move"
+  },
+  {
+   "route_a": 513,
+   "route_b": 833,
+   "z": 0.375,
+   "x": 134.011267,
+   "y": 24.125,
+   "angle_deg": 35.247507,
+   "result": "repaired",
+   "kind": "pair",
+   "delta_bad": -1,
+   "delta_deficit": -9.752493,
+   "label": "body:ADJ_L+reheight:ADJ_SHIFT_TURN:z=+0.425",
+   "n_bad_after": 2,
+   "deficit_after": 31.865288
+  },
+  {
+   "route_a": 492,
+   "route_b": 498,
+   "z": -0.025,
+   "x": 63.8367,
+   "y": 68.875,
+   "angle_deg": 14.835112,
+   "result": "no_improving_move"
+  },
+  {
+   "route_a": 542,
+   "route_b": 562,
+   "z": 0.425,
+   "x": 31.991875,
+   "y": 105.787606,
+   "angle_deg": 43.299601,
+   "result": "repaired",
+   "kind": "pair",
+   "delta_bad": -1,
+   "delta_deficit": -1.700399,
+   "label": "body:ADJ_L+reheight:ADJ_UP_LOOP:z=+0.325",
+   "n_bad_after": 1,
+   "deficit_after": 30.164888
+  },
+  {
+   "route_a": 492,
+   "route_b": 498,
+   "z": -0.025,
+   "x": 63.8367,
+   "y": 68.875,
+   "angle_deg": 14.835112,
+   "result": "no_improving_move"
+  }
+ ],
+ "history": [
+  {
+   "route_a": 457,
+   "route_b": 499,
+   "z": -0.075,
+   "x": 115.625,
+   "y": 131.427792,
+   "angle_deg": 14.835112,
+   "result": "repaired",
+   "kind": "single",
+   "delta_bad": -1,
+   "delta_deficit": -30.164888,
+   "label": "reheight:OPP_SHORT_S:z=-0.025|reheight",
+   "n_bad_after": 3,
+   "deficit_after": 41.617781
+  },
+  {
+   "route_a": 513,
+   "route_b": 833,
+   "z": 0.375,
+   "x": 134.011267,
+   "y": 24.125,
+   "angle_deg": 35.247507,
+   "result": "repaired",
+   "kind": "pair",
+   "delta_bad": -1,
+   "delta_deficit": -9.752493,
+   "label": "body:ADJ_L+reheight:ADJ_SHIFT_TURN:z=+0.425",
+   "n_bad_after": 2,
+   "deficit_after": 31.865288
+  },
+  {
+   "route_a": 542,
+   "route_b": 562,
+   "z": 0.425,
+   "x": 31.991875,
+   "y": 105.787606,
+   "angle_deg": 43.299601,
+   "result": "repaired",
+   "kind": "pair",
+   "delta_bad": -1,
+   "delta_deficit": -1.700399,
+   "label": "body:ADJ_L+reheight:ADJ_UP_LOOP:z=+0.325",
+   "n_bad_after": 1,
+   "deficit_after": 30.164888
+  }
+ ],
+ "stats": {
+  "body_candidates": 3418,
+  "pose_candidates": 8748,
+  "quick_evals": 19341,
+  "quick_hard_reject": 9319,
+  "quick_legal": 10022,
+  "batch_evals": 434,
+  "batch_hard_reject": 117,
+  "full_evals": 189,
+  "full_hard_reject": 70
+ },
+ "seconds_remaining": 1460.387,
+ "start": {
+  "n_bad": 4,
+  "deficit": 71.782669,
+  "crossings": 4500,
+  "length_mm": 157551.712953,
+  "hard_issues": 0
+ },
+ "started_at": "2026-11-20T21:56:40",
+ "elapsed_seconds": 40.91,
+ "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\best_snapshots\\seed_1009_sa_best.json",
+ "seed": 20261120,
+ "reaudit": {
+  "n_bad": 1,
+  "deficit": 30.164888,
+  "crossings": 4591,
+  "length_mm": 157536.22327,
+  "hard_issues": 0
+ },
+ "reaudit_matches": true
+}

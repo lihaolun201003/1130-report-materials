@@ -1,0 +1,395 @@
+{
+  "schema": "g6_sweep_v1",
+  "profile": "C",
+  "seeds": [
+    4001,
+    4002,
+    4003,
+    4004
+  ],
+  "seconds": 3600.0,
+  "started": "2026-11-20T22:00:36",
+  "wall_seconds": 145.306,
+  "summaries": [
+    {
+      "schema": "g6_run_v1",
+      "seed": 4002,
+      "profile": "C",
+      "cycles": 1,
+      "cycle_seconds": 3600.0,
+      "T0": 700.0,
+      "T0_decay": 0.75,
+      "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5\\routes_l3d.json",
+      "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_C\\seed_4002",
+      "best_key": [
+        10,
+        127.791004,
+        4395,
+        157172.868
+      ],
+      "started": "2026-11-20T22:00:15",
+      "cycles_run": 1,
+      "summaries": [
+        {
+          "schema": "g6_sa_summary_v1",
+          "seed": 4002,
+          "profile": "C",
+          "theta_min_deg": 45.0,
+          "M": 1000.0,
+          "lam": 1.0,
+          "moves": 1500,
+          "accepted": 349,
+          "rejected": 837,
+          "accepted_worse": 128,
+          "failed_proposals": 314,
+          "commit_failures": 0,
+          "reheat_count": 0,
+          "reconcile_count": 0,
+          "reconcile_mismatch": 0,
+          "elapsed_seconds": 122.778,
+          "moves_per_second": 12.217,
+          "acceptance_rate": 0.2327,
+          "n_bad": 10,
+          "deficit": 127.791004,
+          "crossings": 4395,
+          "length_mm": 157172.867902,
+          "hard_issues": 0,
+          "best_key": [
+            9,
+            130.166112,
+            4392,
+            157078.333
+          ],
+          "best_move": 1258,
+          "success": false,
+          "move_stats": {
+            "pair:joint": {
+              "attempted": 169,
+              "rejected": 163,
+              "accepted": 6,
+              "improving": 1
+            },
+            "single:body": {
+              "attempted": 1017,
+              "rejected": 674,
+              "accepted": 343,
+              "improving": 88
+            },
+            "none": {
+              "rejected": 314
+            }
+          },
+          "total_attempted": 1186,
+          "total_accepted": 349,
+          "state_build_seconds": 1.498,
+          "cfg": {
+            "theta": 45.0,
+            "M": 1000.0,
+            "lam": 1.0,
+            "seed": 4002,
+            "profile": "C",
+            "T0": 700.0,
+            "T_end": 45.0,
+            "reheat_after_seconds": 240.0,
+            "reconcile_seconds": 420.0,
+            "checkpoint_seconds": 300.0,
+            "best_min_interval": 15.0,
+            "log_seconds": 60.0,
+            "proposer": {
+              "pool_size": 28,
+              "pool_build": 800
+            }
+          },
+          "generated_at": "2026-11-20T22:00:15"
+        }
+      ]
+    },
+    {
+      "schema": "g6_run_v1",
+      "seed": 4003,
+      "profile": "C",
+      "cycles": 1,
+      "cycle_seconds": 3600.0,
+      "T0": 700.0,
+      "T0_decay": 0.75,
+      "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5\\routes_l3d.json",
+      "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_C\\seed_4003",
+      "best_key": [
+        18,
+        289.581235,
+        4537,
+        157389.798
+      ],
+      "started": "2026-11-20T22:00:14",
+      "cycles_run": 1,
+      "summaries": [
+        {
+          "schema": "g6_sa_summary_v1",
+          "seed": 4003,
+          "profile": "C",
+          "theta_min_deg": 45.0,
+          "M": 1000.0,
+          "lam": 1.0,
+          "moves": 1500,
+          "accepted": 293,
+          "rejected": 916,
+          "accepted_worse": 114,
+          "failed_proposals": 291,
+          "commit_failures": 0,
+          "reheat_count": 0,
+          "reconcile_count": 0,
+          "reconcile_mismatch": 0,
+          "elapsed_seconds": 121.56,
+          "moves_per_second": 12.34,
+          "acceptance_rate": 0.1953,
+          "n_bad": 18,
+          "deficit": 289.581235,
+          "crossings": 4537,
+          "length_mm": 157389.797813,
+          "hard_issues": 0,
+          "best_key": [
+            15,
+            163.609707,
+            4465,
+            157144.566
+          ],
+          "best_move": 628,
+          "success": false,
+          "move_stats": {
+            "none": {
+              "rejected": 291
+            },
+            "pair:joint": {
+              "attempted": 159,
+              "rejected": 157,
+              "accepted": 2,
+              "improving": 1
+            },
+            "single:body": {
+              "attempted": 1050,
+              "rejected": 759,
+              "accepted": 291,
+              "improving": 78
+            }
+          },
+          "total_attempted": 1209,
+          "total_accepted": 293,
+          "state_build_seconds": 1.518,
+          "cfg": {
+            "theta": 45.0,
+            "M": 1000.0,
+            "lam": 1.0,
+            "seed": 4003,
+            "profile": "C",
+            "T0": 700.0,
+            "T_end": 45.0,
+            "reheat_after_seconds": 240.0,
+            "reconcile_seconds": 420.0,
+            "checkpoint_seconds": 300.0,
+            "best_min_interval": 15.0,
+            "log_seconds": 60.0,
+            "proposer": {
+              "pool_size": 28,
+              "pool_build": 800
+            }
+          },
+          "generated_at": "2026-11-20T22:00:14"
+        }
+      ]
+    },
+    {
+      "schema": "g6_run_v1",
+      "seed": 4004,
+      "profile": "C",
+      "cycles": 1,
+      "cycle_seconds": 3600.0,
+      "T0": 700.0,
+      "T0_decay": 0.75,
+      "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5\\routes_l3d.json",
+      "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_C\\seed_4004",
+      "best_key": [
+        16,
+        207.981611,
+        4456,
+        157236.259
+      ],
+      "started": "2026-11-20T22:00:16",
+      "cycles_run": 1,
+      "summaries": [
+        {
+          "schema": "g6_sa_summary_v1",
+          "seed": 4004,
+          "profile": "C",
+          "theta_min_deg": 45.0,
+          "M": 1000.0,
+          "lam": 1.0,
+          "moves": 1500,
+          "accepted": 361,
+          "rejected": 903,
+          "accepted_worse": 139,
+          "failed_proposals": 236,
+          "commit_failures": 0,
+          "reheat_count": 0,
+          "reconcile_count": 0,
+          "reconcile_mismatch": 0,
+          "elapsed_seconds": 123.282,
+          "moves_per_second": 12.167,
+          "acceptance_rate": 0.2407,
+          "n_bad": 16,
+          "deficit": 207.981611,
+          "crossings": 4456,
+          "length_mm": 157236.259399,
+          "hard_issues": 0,
+          "best_key": [
+            16,
+            207.981611,
+            4456,
+            157236.259
+          ],
+          "best_move": 1499,
+          "success": false,
+          "move_stats": {
+            "single:body": {
+              "attempted": 1076,
+              "rejected": 724,
+              "accepted": 352,
+              "improving": 83
+            },
+            "none": {
+              "rejected": 236
+            },
+            "pair:joint": {
+              "attempted": 188,
+              "accepted": 9,
+              "improving": 2,
+              "rejected": 179
+            }
+          },
+          "total_attempted": 1264,
+          "total_accepted": 361,
+          "state_build_seconds": 1.477,
+          "cfg": {
+            "theta": 45.0,
+            "M": 1000.0,
+            "lam": 1.0,
+            "seed": 4004,
+            "profile": "C",
+            "T0": 700.0,
+            "T_end": 45.0,
+            "reheat_after_seconds": 240.0,
+            "reconcile_seconds": 420.0,
+            "checkpoint_seconds": 300.0,
+            "best_min_interval": 15.0,
+            "log_seconds": 60.0,
+            "proposer": {
+              "pool_size": 28,
+              "pool_build": 800
+            }
+          },
+          "generated_at": "2026-11-20T22:00:16"
+        }
+      ]
+    },
+    {
+      "schema": "g6_run_v1",
+      "seed": 4001,
+      "profile": "C",
+      "cycles": 1,
+      "cycle_seconds": 3600.0,
+      "T0": 700.0,
+      "T0_decay": 0.75,
+      "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5\\routes_l3d.json",
+      "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_C\\seed_4001",
+      "best_key": [
+        8,
+        121.797255,
+        4500,
+        157351.5
+      ],
+      "started": "2026-11-20T22:00:34",
+      "cycles_run": 1,
+      "summaries": [
+        {
+          "schema": "g6_sa_summary_v1",
+          "seed": 4001,
+          "profile": "C",
+          "theta_min_deg": 45.0,
+          "M": 1000.0,
+          "lam": 1.0,
+          "moves": 1500,
+          "accepted": 458,
+          "rejected": 757,
+          "accepted_worse": 189,
+          "failed_proposals": 285,
+          "commit_failures": 0,
+          "reheat_count": 0,
+          "reconcile_count": 0,
+          "reconcile_mismatch": 0,
+          "elapsed_seconds": 141.534,
+          "moves_per_second": 10.598,
+          "acceptance_rate": 0.3053,
+          "n_bad": 8,
+          "deficit": 121.797255,
+          "crossings": 4500,
+          "length_mm": 157351.500092,
+          "hard_issues": 0,
+          "best_key": [
+            7,
+            91.632366,
+            4519,
+            157425.405
+          ],
+          "best_move": 1379,
+          "success": false,
+          "move_stats": {
+            "single:body": {
+              "attempted": 1057,
+              "rejected": 609,
+              "accepted": 448,
+              "improving": 98
+            },
+            "none": {
+              "rejected": 285
+            },
+            "pair:joint": {
+              "attempted": 158,
+              "rejected": 148,
+              "accepted": 10,
+              "improving": 2
+            }
+          },
+          "total_attempted": 1215,
+          "total_accepted": 458,
+          "state_build_seconds": 1.509,
+          "cfg": {
+            "theta": 45.0,
+            "M": 1000.0,
+            "lam": 1.0,
+            "seed": 4001,
+            "profile": "C",
+            "T0": 700.0,
+            "T_end": 45.0,
+            "reheat_after_seconds": 240.0,
+            "reconcile_seconds": 420.0,
+            "checkpoint_seconds": 300.0,
+            "best_min_interval": 15.0,
+            "log_seconds": 60.0,
+            "proposer": {
+              "pool_size": 28,
+              "pool_build": 800
+            }
+          },
+          "generated_at": "2026-11-20T22:00:34"
+        }
+      ]
+    }
+  ],
+  "best_seed": 4001,
+  "best_key": [
+    8,
+    121.797255,
+    4500,
+    157351.5
+  ],
+  "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_C\\seed_4001"
+}

@@ -1,0 +1,232 @@
+{
+ "schema": "g6_algorithm_selftest_v1",
+ "routes": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\03_best_feasible\\routes_l3d.json",
+ "passed": 7,
+ "failed": 0,
+ "checks": [
+  {
+   "name": "S1_independent_validator_selftest",
+   "ok": true,
+   "detail": {
+    "passed": 28,
+    "failed": 0,
+    "checks": 28,
+    "elapsed_s": 0.012,
+    "status": "PASS"
+   }
+  },
+  {
+   "name": "S2_theta45_boundary_line_line_arc_arc",
+   "ok": true,
+   "detail": {
+    "line_line@44.9": {
+     "angle": 44.9,
+     "expected_bad": 1,
+     "measured_angle": 44.9,
+     "bad": 1
+    },
+    "line_line@44.999": {
+     "angle": 44.999,
+     "expected_bad": 1,
+     "measured_angle": 44.999,
+     "bad": 1
+    },
+    "line_line@45.0": {
+     "angle": 45.0,
+     "expected_bad": 0,
+     "measured_angle": 45.00000000000001,
+     "bad": 0
+    },
+    "line_line@45.001": {
+     "angle": 45.001,
+     "expected_bad": 0,
+     "measured_angle": 45.001000000000005,
+     "bad": 0
+    },
+    "line_line@90.0": {
+     "angle": 90.0,
+     "expected_bad": 0,
+     "measured_angle": 90.0,
+     "bad": 0
+    },
+    "line_arc@44.9": {
+     "angle": 44.9,
+     "expected_bad": 2,
+     "measured_angle": 44.89999999999999,
+     "bad": 2
+    },
+    "line_arc@44.999": {
+     "angle": 44.999,
+     "expected_bad": 2,
+     "measured_angle": 44.999,
+     "bad": 2
+    },
+    "line_arc@45.0": {
+     "angle": 45.0,
+     "expected_bad": 0,
+     "measured_angle": 44.99999999999999,
+     "bad": 0
+    },
+    "line_arc@45.001": {
+     "angle": 45.001,
+     "expected_bad": 0,
+     "measured_angle": 45.001000000000005,
+     "bad": 0
+    },
+    "line_arc@90.0": {
+     "angle": 90.0,
+     "expected_bad": 0,
+     "measured_angle": 90.0,
+     "bad": 0
+    },
+    "arc_arc@44.9": {
+     "angle": 44.9,
+     "expected_bad": 2,
+     "measured_angle": 44.89999999999999,
+     "bad": 2
+    },
+    "arc_arc@44.999": {
+     "angle": 44.999,
+     "expected_bad": 2,
+     "measured_angle": 44.999,
+     "bad": 2
+    },
+    "arc_arc@45.0": {
+     "angle": 45.0,
+     "expected_bad": 0,
+     "measured_angle": 44.99999999999999,
+     "bad": 0
+    },
+    "arc_arc@45.001": {
+     "angle": 45.001,
+     "expected_bad": 0,
+     "measured_angle": 45.001000000000005,
+     "bad": 0
+    },
+    "arc_arc@90.0": {
+     "angle": 90.0,
+     "expected_bad": 0,
+     "measured_angle": 90.0,
+     "bad": 0
+    }
+   }
+  },
+  {
+   "name": "S3_r15_continuity_transition_invariants",
+   "ok": true,
+   "detail": {
+    "routes": 1024,
+    "arcs": 1860,
+    "transitions": 1954,
+    "bad": [],
+    "bad_count": 0
+   }
+  },
+  {
+   "name": "S4_incremental_equals_full_audit",
+   "ok": true,
+   "detail": {
+    "applied": 3,
+    "cases": [
+     {
+      "route": 468,
+      "before": [
+       0,
+       0,
+       4578
+      ],
+      "tracked": [
+       6,
+       94.469955,
+       4590
+      ],
+      "full_audit": [
+       6,
+       94.469955,
+       4590
+      ],
+      "length_tracked": 157255.722861,
+      "length_audit": 157255.722861
+     },
+     {
+      "route": 16,
+      "before": [
+       6,
+       94.469955,
+       4590
+      ],
+      "tracked": [
+       12,
+       183.893973,
+       4590
+      ],
+      "full_audit": [
+       12,
+       183.893973,
+       4590
+      ],
+      "length_tracked": 157255.722861,
+      "length_audit": 157255.722861
+     },
+     {
+      "route": 683,
+      "before": [
+       12,
+       183.893973,
+       4590
+      ],
+      "tracked": [
+       17,
+       305.426122,
+       4626
+      ],
+      "full_audit": [
+       17,
+       305.426122,
+       4626
+      ],
+      "length_tracked": 157242.846751,
+      "length_audit": 157242.846751
+     }
+    ]
+   }
+  },
+  {
+   "name": "S5_batch_evaluation_no_side_effect",
+   "ok": true,
+   "detail": {
+    "routes": 1024
+   }
+  },
+  {
+   "name": "S6_annealing_rollback_exact",
+   "ok": true,
+   "detail": {
+    "route": 4,
+    "before": [
+     17,
+     305.426122,
+     4626,
+     157242.846751
+    ],
+    "after": [
+     17,
+     305.426122,
+     4626,
+     157242.846751
+    ]
+   }
+  },
+  {
+   "name": "S7_multiarc_regeneration_invariants",
+   "ok": true,
+   "detail": {
+    "checked": 12,
+    "families_seen": 1,
+    "failures": []
+   }
+  }
+ ],
+ "elapsed_seconds": 6.82,
+ "generated_at": "2026-11-20T22:08:55"
+}

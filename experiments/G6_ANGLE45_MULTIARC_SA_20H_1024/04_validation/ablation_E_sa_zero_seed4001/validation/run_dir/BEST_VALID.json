@@ -1,0 +1,28 @@
+{
+ "schema": "g6_best_payload_v1",
+ "label": "G6-ABL-E",
+ "routes_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\04_validation\\ablation_E_sa_zero_seed4001\\routes_l3d.json",
+ "routes_sha256": "49d1c0413eaa5544f6e9512e90f200b4f543e1af65f2a9355d6551b3e255d051",
+ "route_count": 1024,
+ "routed": 1024,
+ "failed": 0,
+ "source": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\02_sa_runs\\ablations\\arm_E\\seed_4001\\best_routes.json",
+ "missing_companions": [],
+ "created_at": "2026-11-20T22:06:56",
+ "g6": {
+  "schema": "g6_angle45_multiarc_sa_v1",
+  "theta_min_deg": 45.0,
+  "seed": 4001,
+  "profile": "E",
+  "moves": 923,
+  "accepted": 177,
+  "n_bad": 0,
+  "deficit": 0.0,
+  "crossings": 4786,
+  "length_mm": 157222.567237,
+  "M": 1000.0,
+  "lam": 1.0,
+  "elapsed_seconds": 120.719,
+  "generated_at": "2026-11-20T22:05:35"
+ }
+}

@@ -1,0 +1,58 @@
+==============================================================================
+[xyz] G1/G2/G3 independent validation: manual_policy=fully_optimizable
+==============================================================================
+[native3d] validating run_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\04_validation\ablation_E_sa_zero_seed4001\validation\run_dir
+[native3d] baseline_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative
+[native3d] out_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\04_validation\ablation_E_sa_zero_seed4001\validation\frozen
+[model] source=layer_planes.json planes=20 body=18 interface=2 min_pitch=0.050000
+[assignment] 1024 rows from run
+[routes] 1024 records (1024 routed, 0 failed); baseline 1024 records
+[model] violations=0
+[coverage] routed=1024 identity_mismatches=0 violations=0
+[structure] routes=1024 junctions=3928 max_pos_gap=4.91e-10 max_z_gap=0 max_tangent_gap=1.01e-15 violations=0
+[metadata] native=37 mid=90 excursions=45 violations=0
+[radius] flat_arcs=1872 transitions=1964 min_sampled=14.99999998 violations=0
+[glass] samples=1109932 min_margin=-0.0 violations=0
+[clearance] running independent minimum 3D clearance scan ...
+[clearance] min_3d=0.062212557 violations=2
+[ports] port_pairs=1024 violations=0
+[crossings] events=4785 pairs=3883 violations=2
+[manual_frozen] policy=fully_optimizable 368 manual routes, mismatches=0 violations=0
+[synthetic] running in-memory consistency tests ...
+[synthetic] duckout_L6_L7_L6_accepted                     PASS
+[synthetic] z_offset_49um_rejected                        PASS
+[synthetic] radius_14_rejected                            PASS
+[synthetic] position_discontinuity_1e-3_rejected          PASS
+[synthetic] flat_overlap_rejected                         PASS
+[synthetic] complete_native_route_accepted                PASS
+[synthetic] two_excursions_accepted                       PASS
+[synthetic] 7 tests, 0 failed
+
+Native 3D validation: FAIL
+  run_dir      : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\04_validation\ablation_E_sa_zero_seed4001\validation\run_dir
+  baseline_dir : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative
+  routes       : records=1024 routed=1024 failed=0 (native=37, baseline=987)
+  parts        : transitions=1964 mid=90 excursions=45 flat_arcs=1872
+  crossings    : events=4785 pairs=3883 violations=2 heights=20 min_non_crossing=0.093264413
+  vs E5 baseline: 3061 -> 4785 crossings (+1724), pairs 2705 -> 3883
+  clearance    : min_3d=0.062212557 (lower bound 0.05)
+  manual frozen: 368 routes, 0 mismatches
+  manual policy: fully_optimizable (0 contract violations)
+  [coverage       ] violations=0 offending_routes=0
+  [structure      ] violations=0 offending_routes=0
+  [native_metadata] violations=0 offending_routes=0
+  [radius         ] violations=0 offending_routes=0
+  [glass          ] violations=0 offending_routes=0
+  [clearance      ] violations=2 offending_routes=2
+  [ports          ] violations=0 offending_routes=0
+  [crossings      ] violations=2 offending_routes=2
+  [manual_frozen  ] violations=0 offending_routes=0
+  [model          ] violations=0 offending_routes=0
+  [synthetic      ] violations=0 offending_routes=0
+  violation_total=4 runtime=24.7s exit_code=1
+[native3d] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\04_validation\ablation_E_sa_zero_seed4001\validation\frozen\validation.json
+[native3d] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\04_validation\ablation_E_sa_zero_seed4001\validation\frozen\validator_consistency_tests.json
+
+[xyz] manual_policy=fully_optimizable contract_violations=0 validation_pass=False
+[xyz] summary: {"crossing_pairs": 3883, "crossings": 4785, "failed": 0, "mid_transitions": 90, "min_3d_clearance": 0.062212557, "policy": "fully_optimizable", "policy_violations": 0, "routed": 1024, "total_length": 157222.567237, "validation_pass": false, "violations": 4}
+[xyz] wrote C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\G6_ANGLE45_MULTIARC_SA_20H_1024\04_validation\ablation_E_sa_zero_seed4001\validation\frozen\validation.json
