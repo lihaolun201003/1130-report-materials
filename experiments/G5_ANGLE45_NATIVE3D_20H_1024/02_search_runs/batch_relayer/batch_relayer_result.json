@@ -1,0 +1,40 @@
+{
+ "schema": "g5_batch_relayer_v1",
+ "summary": {
+  "violations": 70,
+  "deficit": 1279.602774,
+  "max_deficit": 37.481379,
+  "crossings": 3894,
+  "pairs": 3221,
+  "min_angle": 7.518621,
+  "routes_with_violations": 86,
+  "length_mm": 156541.030913,
+  "hard_issues": 0
+ },
+ "history": [],
+ "best_violations": 70,
+ "moves": [
+  {
+   "label": "P4-comp",
+   "routes": 1,
+   "ids": [
+    6
+   ]
+  },
+  {
+   "label": "P4-comp",
+   "routes": 1,
+   "ids": [
+    433
+   ]
+  },
+  {
+   "label": "P4-comp",
+   "routes": 1,
+   "ids": [
+    482
+   ]
+  }
+ ],
+ "seconds": 61.0
+}

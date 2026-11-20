@@ -1,14 +1,14 @@
 {
  "schema": "g5_best_valid_v1",
- "label": "G5 re-layered v3: original constraints PASS, 71 residual sub-45 deg",
+ "label": "G5 r3: synchronized batch relocation, original constraints PASS, 51 residual sub-45 deg",
  "legal": false,
  "theta_min_deg": 45.0,
  "routed": 1024,
  "failed": 0,
- "crossings": 3884,
- "violations_below_45": 71,
- "min_angle_deg": 7.518621,
- "routes_sha256": "00f41f59c8961405ade9c370b2f385ab7248f0286a34bd28d3b6ccbec3c1b17a",
+ "crossings": 4136,
+ "violations_below_45": 51,
+ "min_angle_deg": 6.122694,
+ "routes_sha256": "8c06bb520b177b28be50dad04bd8582c59efa7c570bb6266a74b10bb0b271251",
  "acceptance_rule": "fully legal only: 1024/1024 routed, 0 failed, 0 crossings below 45 deg, R15, D56 and 3-D clearance unchanged, independent validators PASS",
- "source_routes": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v3\\routes_l3d.json"
+ "source_routes": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5\\routes_l3d.json"
 }

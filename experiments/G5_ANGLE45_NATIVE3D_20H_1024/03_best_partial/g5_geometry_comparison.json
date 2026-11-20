@@ -13,13 +13,13 @@
  },
  "g5": {
   "routes": 1024,
-  "crossings": 3884,
-  "pairs": 3212,
-  "violations": 71,
-  "min_angle_deg": 7.518621,
-  "deficit_deg": 1263.645392,
-  "max_deficit_deg": 37.481379,
-  "total_length_mm": 156540.977069,
+  "crossings": 4136,
+  "pairs": 3430,
+  "violations": 51,
+  "min_angle_deg": 6.122694,
+  "deficit_deg": 964.877334,
+  "max_deficit_deg": 38.877306,
+  "total_length_mm": 156549.189368,
   "max_route_crossings": 99
  },
  "per_layer": [
@@ -28,15 +28,15 @@
    "z_label": "L2",
    "g4_crossings": 2,
    "g4_violations": 0,
-   "g5_crossings": 469,
-   "g5_violations": 0
+   "g5_crossings": 541,
+   "g5_violations": 1
   },
   {
    "z_mm": -0.275,
    "z_label": "L3",
    "g4_crossings": 25,
    "g4_violations": 17,
-   "g5_crossings": 200,
+   "g5_crossings": 287,
    "g5_violations": 0
   },
   {
@@ -60,7 +60,7 @@
    "z_label": "L6",
    "g4_crossings": 102,
    "g4_violations": 28,
-   "g5_crossings": 59,
+   "g5_crossings": 104,
    "g5_violations": 1
   },
   {
@@ -68,16 +68,16 @@
    "z_label": "L7",
    "g4_crossings": 79,
    "g4_violations": 35,
-   "g5_crossings": 208,
-   "g5_violations": 12
+   "g5_crossings": 183,
+   "g5_violations": 3
   },
   {
    "z_mm": -0.025,
    "z_label": "L20",
    "g4_crossings": 73,
    "g4_violations": 24,
-   "g5_crossings": 323,
-   "g5_violations": 5
+   "g5_crossings": 300,
+   "g5_violations": 3
   },
   {
    "z_mm": 0.025,
@@ -92,15 +92,15 @@
    "z_label": "L8",
    "g4_crossings": 70,
    "g4_violations": 27,
-   "g5_crossings": 283,
-   "g5_violations": 7
+   "g5_crossings": 258,
+   "g5_violations": 1
   },
   {
    "z_mm": 0.125,
    "z_label": "L9",
    "g4_crossings": 97,
    "g4_violations": 0,
-   "g5_crossings": 266,
+   "g5_crossings": 314,
    "g5_violations": 0
   },
   {
@@ -108,23 +108,23 @@
    "z_label": "L10",
    "g4_crossings": 81,
    "g4_violations": 38,
-   "g5_crossings": 115,
-   "g5_violations": 5
+   "g5_crossings": 166,
+   "g5_violations": 7
   },
   {
    "z_mm": 0.225,
    "z_label": "L11",
    "g4_crossings": 81,
    "g4_violations": 41,
-   "g5_crossings": 116,
-   "g5_violations": 5
+   "g5_crossings": 99,
+   "g5_violations": 2
   },
   {
    "z_mm": 0.275,
    "z_label": "L12",
    "g4_crossings": 48,
    "g4_violations": 24,
-   "g5_crossings": 87,
+   "g5_crossings": 133,
    "g5_violations": 1
   },
   {
@@ -132,8 +132,8 @@
    "z_label": "L13",
    "g4_crossings": 45,
    "g4_violations": 17,
-   "g5_crossings": 163,
-   "g5_violations": 3
+   "g5_crossings": 156,
+   "g5_violations": 0
   },
   {
    "z_mm": 0.375,

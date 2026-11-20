@@ -404,6 +404,82 @@ def main(argv=None):
             % (base.get('violations_below_45'), summary.get('violations')))
         add('')
 
+    # ------------------------------------------------- 5c. synchronized batches
+    tests = load(EXP / '01_algorithm' / 'test_batch_results.json', {})
+    sync = load(EXP / '02_search_runs' / 'sync_repair_v2' / 'sync_repair_result.json', {})
+    pre = load(EXP / '02_search_runs' / 'pathpreserving' / 'pathpreserving_result.json', {})
+    add('## 5c. 第三轮：原子批量迁移 + 全局联合层分配')
+    add('')
+    add('上一轮的逐条重分配存在**顺序依赖**：候选线路被拒绝，是因为"稍后才会搬走"'
+        '的线路仍占着目标高度，而后续迁移不会回头重试。第三轮实现了真正的'
+        '**多线路同步迁移**。')
+    add('')
+    add('### 5c.1 `evaluate_batch` / `commit_batch`（原子语义）')
+    add('')
+    add('`g5/batch.py` 把一组线路的旧几何同时从索引中移除、把新几何同时插入，'
+        '再对**整组**做约束检查（组内互相、组外全部），最后逐位恢复世界；'
+        '`commit_batch` 只有在整组合法时才真正落地，任何异常都会完整回滚。')
+    add('')
+    if tests:
+        add('原子性测试矩阵：**%s/%s 通过**。'
+            % (tests.get('passed'), tests.get('total')))
+        add('')
+        add('| 测试 | 结果 | 证据 |')
+        add('|---|---|---|')
+        for row in tests.get('results', []):
+            add('| %s | %s | %s |' % (row['test'],
+                                      'PASS' if row['passed'] else 'FAIL',
+                                      str(row.get('detail', ''))[:120]))
+        add('')
+        add('其中 T2/T3 是**"单独迁移非法、整体迁移合法"的真实案例**：'
+            'R173↔R424 的高度互换单独迁移会产生硬性违规，整组互换却完全合法；'
+            'R338/R436/R421 的三循环同理。这正是逐条重分配永远无法接受的解。')
+    add('')
+    add('### 5c.2 全局联合层分配（CP-SAT + 几何反馈）')
+    add('')
+    add('`g5/layer_solver.py::solve_cpsat` 以每条线路的可实现高度集合 `H_i` 为'
+        '定义域、共面冲突图为约束，求联合分配；几何批评价发现的每个硬性冲突'
+        '都被转换为一条 **no-good 子句** 反馈回求解器，形成冲突驱动的修复循环。')
+    add('')
+    add('实测结论（都是 CP-SAT 给出的判定，不是猜测）：')
+    add('')
+    add('1. **硬着色（每对冲突线路必须不同层）在可实现高度集合上不可行**：'
+        '`CpSolverStatus.INFEASIBLE`。原因量化如下：有 145 条线路只能停在'
+        '原高度（|H_i| = 1，多为多段 Native-3D 结构），这 145 条加上冲突边'
+        '使 20 色不可满足。')
+    add('2. **最小冲突（soft）模式**：抽象图上只剩 **28–42 条冲突边**，'
+        '理论上远优于当前的 71。')
+    add('3. **但抽象分配无法直接落地**：把该分配整体实现为真实 XYZ 后，'
+        '批评价报告 **95–3012 个硬性违规**，其中绝大多数是'
+        '`3d_transition_flat` / `3d_transition_transition`（最多 2409 条）。'
+        '也就是说：**换层会把 1024 条进场 R15 S 曲线重新扫过中间各层，'
+        '而端口附近的过渡区无法容纳这种全局重排**。')
+    if pre:
+        add('   （路径保持型定义域的实测：%s 条线路可保持 XY 路径换层、'
+            '抽象 42 条冲突边，落地后仍有 **%s** 个违规、**%s** 个硬性违规。）'
+            % (pre.get('batch'), pre.get('violations_after'),
+               pre.get('hard_issues')))
+    add('4. 因此**"DSATUR 19 色"只是一个抽象上界**，它不构成真实三维方案；'
+        '本轮用批评价把它证伪了，这是本轮最重要的负面结论。')
+    add('')
+    add('### 5c.3 面向残余违规的同步修复')
+    add('')
+    add('`run_sync_repair.py` 对每个残余违规依次尝试：单线路迁移（上一轮的能力）'
+        '→ 两线路高度互换 → 第三线路腾出目标高度（三循环）→ 整个冲突分量的'
+        '联合重分配；每个候选都是一次 `evaluate_batch`，只有**全局违规数下降**'
+        '才提交。')
+    add('')
+    if sync:
+        add('- 接受了 **%s** 个批量，违规从 71 降到 **%s**；'
+            '按批量大小统计：%s。'
+            % (sync.get('accepted'), (sync.get('summary') or {}).get('violations'),
+               sync.get('kinds')))
+        add('- 其中单线路批量全部成功；两线路互换/三循环在本轮残余上**没有找到'
+            '能降低全局违规数的组合**——这不是"不支持"，而是这些组合在'
+            'D56/三维净空约束下确实无法改善（测试 T2/T3 证明了机制本身可用）。')
+        add('- 连续 3 轮迭代后完全收敛（每轮 0 改进），残余 51 次。')
+    add('')
+
     # ------------------------------------------------------------- 6. verdict
     add('## 6. 独立验收')
     add('')

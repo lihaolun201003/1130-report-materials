@@ -1,0 +1,39 @@
+{
+ "label": "G5 re-layered v3: original constraints PASS, 71 residual sub-45 deg",
+ "routes_sha256": "755405b70678c34b489a3e65bb5c67595b05cddbb214838c24796c61e78e1a16",
+ "baseline_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
+ "legal": false,
+ "violations": 71,
+ "crossings": 3884,
+ "pairs": 3212,
+ "min_angle_deg": 7.518621,
+ "deficit_deg": 1263.645392,
+ "max_deficit_deg": 37.481379,
+ "hard_issues": 0,
+ "three_d_issues": 0,
+ "three_d_minima": {
+  "flat_flat_mm": 0.05,
+  "transition_flat_mm": 0.061834798,
+  "transition_transition_mm": 0.1
+ },
+ "structure_issues": 0,
+ "self_clearance_issues": 0,
+ "min_self_clearance_mm": 1.0,
+ "total_length_mm": 156540.977069,
+ "routes": 1024,
+ "heights_used": 20,
+ "routes_changed": 172,
+ "routes_moved_plane": 117,
+ "validator_A": {
+  "validation_pass": true,
+  "geometry_pass": true,
+  "contract_pass": true,
+  "violation_count": 0,
+  "violation_counts_by_check": {}
+ },
+ "routes_sha256_input": "755405b70678c34b489a3e65bb5c67595b05cddbb214838c24796c61e78e1a16",
+ "routes_sha256_delivered": "00f41f59c8961405ade9c370b2f385ab7248f0286a34bd28d3b6ccbec3c1b17a",
+ "routes_sha256_note": "the input search result and the delivered payload differ only by JSON re-serialisation (compact dumps + crossing_angles sample); the delivered hash is routes_sha256_delivered and is the one indexed in SHA256.json / BEST_VALID.json",
+ "max_route_crossings": 99,
+ "max_route_crossings_route": 613
+}

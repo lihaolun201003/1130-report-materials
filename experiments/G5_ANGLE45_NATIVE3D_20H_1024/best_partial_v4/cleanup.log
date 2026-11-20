@@ -1,0 +1,5 @@
+[audit] {'crossings': 4136, 'violations': 51, 'min_angle_deg': 6.122694, 'deficit_deg': 964.877334, 'max_deficit_deg': 38.877306, 'hard_issues': 0}
+[round 0] validator passes=False violations=16 kinds={'native_metadata': 16} offending=8 | audit {'crossings': 4136, 'violations': 51, 'min_angle_deg': 6.122694, 'deficit_deg': 964.877334, 'max_deficit_deg': 38.877306, 'hard_issues': 0}
+[round 0] reverted 8 routes to the frozen geometry: [15, 216, 227, 410, 419, 427, 451, 535]
+[audit] {'crossings': 3952, 'violations': 70, 'min_angle_deg': 6.122694, 'deficit_deg': 1357.865364, 'max_deficit_deg': 38.877306, 'hard_issues': 0}
+[round 1] validator passes=True violations=0 kinds={} offending=0 | audit {'crossings': 3952, 'violations': 70, 'min_angle_deg': 6.122694, 'deficit_deg': 1357.865364, 'max_deficit_deg': 38.877306, 'hard_issues': 0}

@@ -1,0 +1,22 @@
+[start] {'violations': 71, 'deficit': 1263.645392, 'max_deficit': 37.481379, 'crossings': 3884, 'pairs': 3212, 'min_angle': 7.518621, 'routes_with_violations': 85, 'length_mm': 156540.977069, 'hard_issues': 0}
+[graph] edges=36904 nodes=1024
+[P1] domains 100/1024 (2s)
+[P1] domains 200/1024 (2s)
+[P1] domains 300/1024 (3s)
+[P1] domains 400/1024 (4s)
+[P1] domains 500/1024 (5s)
+[P1] domains 600/1024 (6s)
+[P1] domains 700/1024 (7s)
+[P1] domains 800/1024 (8s)
+[P1] domains 900/1024 (10s)
+[P1] domains 1000/1024 (11s)
+[P1] routes with an empty domain: 0 []
+[P2] solving joint layer assignment (round 0, 0 no-goods)
+[P2] CP-SAT found no assignment (status=CpSolverStatus.INFEASIBLE)
+[P4] component batch improvement (71 violations)
+[P4] 30 components, sizes [8, 7, 4, 4, 4, 3, 3, 3, 3, 3]
+[P4] component [6, 7, 28, 29] accepted: {'violations': 72, 'deficit': 1295.215017, 'max_deficit': 37.481379, 'crossings': 3890, 'pairs': 3217, 'min_angle': 7.518621, 'routes_with_violations': 87, 'length_mm': 156540.999949, 'hard_issues': 0}
+[P4] component [433, 451, 472] accepted: {'violations': 71, 'deficit': 1290.929165, 'max_deficit': 37.481379, 'crossings': 3890, 'pairs': 3217, 'min_angle': 7.518621, 'routes_with_violations': 88, 'length_mm': 156541.004511, 'hard_issues': 0}
+[P4] component [482, 494] accepted: {'violations': 70, 'deficit': 1279.602774, 'max_deficit': 37.481379, 'crossings': 3894, 'pairs': 3221, 'min_angle': 7.518621, 'routes_with_violations': 86, 'length_mm': 156541.030913, 'hard_issues': 0}
+[P4] accepted 3 component batches
+[done] {'violations': 70, 'deficit': 1279.602774, 'max_deficit': 37.481379, 'crossings': 3894, 'pairs': 3221, 'min_angle': 7.518621, 'routes_with_violations': 86, 'length_mm': 156541.030913, 'hard_issues': 0}

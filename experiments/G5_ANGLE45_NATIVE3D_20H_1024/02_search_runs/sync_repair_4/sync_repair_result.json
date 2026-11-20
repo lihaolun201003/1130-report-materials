@@ -1,0 +1,429 @@
+{
+ "schema": "g5_sync_repair_v1",
+ "summary": {
+  "violations": 51,
+  "deficit": 964.877334,
+  "max_deficit": 38.877306,
+  "crossings": 4136,
+  "pairs": 3430,
+  "min_angle": 6.122694,
+  "routes_with_violations": 66,
+  "length_mm": 156549.189368,
+  "hard_issues": 0
+ },
+ "accepted": 0,
+ "kinds": {
+  "none": 51
+ },
+ "rows": [
+  {
+   "pass_index": 0,
+   "route_a": 631,
+   "route_b": 755,
+   "angle": 6.122694424423152,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 425,
+   "route_b": 428,
+   "angle": 8.582273830790415,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 124,
+   "route_b": 130,
+   "angle": 10.161790617690183,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 148,
+   "route_b": 225,
+   "angle": 10.475313843229209,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 238,
+   "route_b": 427,
+   "angle": 10.47531384322939,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 30,
+   "route_b": 36,
+   "angle": 10.475313843229422,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 150,
+   "route_b": 153,
+   "angle": 10.475313843229431,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 417,
+   "route_b": 432,
+   "angle": 10.475313843229468,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 432,
+   "route_b": 435,
+   "angle": 10.475313843229616,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 225,
+   "route_b": 228,
+   "angle": 10.475313843229692,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 228,
+   "route_b": 411,
+   "angle": 10.475313843229863,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 616,
+   "route_b": 847,
+   "angle": 12.838568140984032,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 616,
+   "route_b": 737,
+   "angle": 12.838568140984037,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 616,
+   "route_b": 843,
+   "angle": 12.838568140984096,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 148,
+   "route_b": 414,
+   "angle": 14.835111581975685,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 171,
+   "route_b": 408,
+   "angle": 14.835111581975736,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 492,
+   "route_b": 498,
+   "angle": 14.835111581975736,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 493,
+   "route_b": 499,
+   "angle": 14.835111581975738,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 201,
+   "route_b": 219,
+   "angle": 17.874150579537755,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 441,
+   "route_b": 459,
+   "angle": 17.874150579537755,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 417,
+   "route_b": 435,
+   "angle": 17.87415057953778,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 148,
+   "route_b": 435,
+   "angle": 18.194872338766597,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 228,
+   "route_b": 432,
+   "angle": 21.038756329108487,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 687,
+   "route_b": 744,
+   "angle": 25.618868913217153,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 636,
+   "route_b": 738,
+   "angle": 28.062719493272755,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 132,
+   "route_b": 234,
+   "angle": 31.47562188092661,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 652,
+   "route_b": 847,
+   "angle": 31.78833061705166,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 104,
+   "route_b": 527,
+   "angle": 32.698293230095636,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 433,
+   "route_b": 472,
+   "angle": 33.19907226396796,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 425,
+   "route_b": 428,
+   "angle": 33.32209966409015,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 620,
+   "route_b": 847,
+   "angle": 33.55730976192107,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 652,
+   "route_b": 843,
+   "angle": 33.55730976192113,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 542,
+   "route_b": 562,
+   "angle": 34.22780044617606,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 150,
+   "route_b": 153,
+   "angle": 35.10309199808518,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 513,
+   "route_b": 833,
+   "angle": 35.24750699205257,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 620,
+   "route_b": 843,
+   "angle": 35.24750699205259,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 652,
+   "route_b": 839,
+   "angle": 35.24750699205261,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 239,
+   "route_b": 425,
+   "angle": 36.34321405443956,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 620,
+   "route_b": 839,
+   "angle": 36.86989764584407,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 591,
+   "route_b": 774,
+   "angle": 37.450427983411934,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 873,
+   "route_b": 973,
+   "angle": 37.68743220778165,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 715,
+   "route_b": 743,
+   "angle": 38.52482636629503,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 148,
+   "route_b": 432,
+   "angle": 38.964574629489036,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 478,
+   "route_b": 974,
+   "angle": 41.00723452687208,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 587,
+   "route_b": 743,
+   "angle": 41.995041450824694,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 616,
+   "route_b": 839,
+   "angle": 42.80288496925084,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 863,
+   "route_b": 947,
+   "angle": 43.373278454124936,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 228,
+   "route_b": 435,
+   "angle": 43.531152167372426,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 623,
+   "route_b": 691,
+   "angle": 43.9907655947503,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 228,
+   "route_b": 414,
+   "angle": 44.900527960688855,
+   "accepted": null,
+   "global_before": 51
+  },
+  {
+   "pass_index": 0,
+   "route_a": 631,
+   "route_b": 751,
+   "angle": 44.94686825598591,
+   "accepted": null,
+   "global_before": 51
+  }
+ ],
+ "seconds": 22.0
+}

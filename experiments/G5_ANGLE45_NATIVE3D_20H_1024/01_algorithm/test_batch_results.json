@@ -1,0 +1,59 @@
+{
+ "schema": "g5_batch_tests_v1",
+ "passed": 10,
+ "failed": 0,
+ "total": 10,
+ "seconds": 0.0,
+ "results": [
+  {
+   "test": "T1 identity batch",
+   "passed": true,
+   "detail": "issues=0 violations=0"
+  },
+  {
+   "test": "T1 world untouched",
+   "passed": true,
+   "detail": ""
+  },
+  {
+   "test": "T2 two-route swap: individually illegal, jointly legal",
+   "passed": true,
+   "detail": "pair=(173, 424) single_violations=0 single_issues=1"
+  },
+  {
+   "test": "T3 three-route cycle: individually illegal, jointly legal",
+   "passed": true,
+   "detail": "trio=(338, 436, 421)"
+  },
+  {
+   "test": "T4 chain migration legal as one batch",
+   "passed": true,
+   "detail": "chain=(27, 309, -0.225, -0.275)"
+  },
+  {
+   "test": "T5 batch D56 clearance conflict detected",
+   "passed": true,
+   "detail": "route=139 z=-0.075 kinds=['clearance']"
+  },
+  {
+   "test": "T6 batch R15 violation detected",
+   "passed": true,
+   "detail": "issues=2 kinds=['structure_arc_radius', 'structure_position_transition_flat']"
+  },
+  {
+   "test": "T7 batch 3-D clearance violation detected",
+   "passed": true,
+   "detail": "route/z/kinds=(1, -0.025, ['3d_flat_transition'])"
+  },
+  {
+   "test": "T8 rejected batch rolls back completely",
+   "passed": true,
+   "detail": "commit ok=False reverted=True"
+  },
+  {
+   "test": "T9 committed batch agrees with full re-audit",
+   "passed": true,
+   "detail": "audit violations=70 state=70 | audit crossings=3933 state=3933"
+  }
+ ]
+}

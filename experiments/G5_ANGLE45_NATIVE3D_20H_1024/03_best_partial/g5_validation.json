@@ -1,15 +1,15 @@
 {
  "summary": {
-  "label": "G5 re-layered v3: original constraints PASS, 71 residual sub-45 deg",
-  "routes_sha256": "755405b70678c34b489a3e65bb5c67595b05cddbb214838c24796c61e78e1a16",
+  "label": "G5 r3: synchronized batch relocation, original constraints PASS, 51 residual sub-45 deg",
+  "routes_sha256": "95f4d6bf1ca0942cb7e3f836f4c12d9141ca016a279a38d968a05d181a29a485",
   "baseline_sha256": "35d7ebed00339bee21fe0ca47075c9b34008120522a47933a099efacf0b90753",
   "legal": false,
-  "violations": 71,
-  "crossings": 3884,
-  "pairs": 3212,
-  "min_angle_deg": 7.518621,
-  "deficit_deg": 1263.645392,
-  "max_deficit_deg": 37.481379,
+  "violations": 51,
+  "crossings": 4136,
+  "pairs": 3430,
+  "min_angle_deg": 6.122694,
+  "deficit_deg": 964.877334,
+  "max_deficit_deg": 38.877306,
   "hard_issues": 0,
   "three_d_issues": 0,
   "three_d_minima": {
@@ -20,11 +20,11 @@
   "structure_issues": 0,
   "self_clearance_issues": 0,
   "min_self_clearance_mm": 1.0,
-  "total_length_mm": 156540.977069,
+  "total_length_mm": 156549.189368,
   "routes": 1024,
   "heights_used": 20,
-  "routes_changed": 172,
-  "routes_moved_plane": 117
+  "routes_changed": 180,
+  "routes_moved_plane": 130
  },
  "hard_issues": [],
  "three_d_issues": [],

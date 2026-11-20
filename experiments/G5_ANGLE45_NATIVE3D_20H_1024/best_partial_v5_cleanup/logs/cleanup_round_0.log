@@ -1,0 +1,58 @@
+==============================================================================
+[xyz] G1/G2/G3 independent validation: manual_policy=fully_optimizable
+==============================================================================
+[native3d] validating run_dir=experiments\G5_ANGLE45_NATIVE3D_20H_1024\best_partial_v5_cleanup\round_0
+[native3d] baseline_dir=C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative
+[native3d] out_dir=experiments\G5_ANGLE45_NATIVE3D_20H_1024\best_partial_v5_cleanup\validation_0
+[model] source=layer_planes.json planes=20 body=18 interface=2 min_pitch=0.050000
+[assignment] 1024 rows from run
+[routes] 1024 records (1024 routed, 0 failed); baseline 1024 records
+[model] violations=0
+[coverage] routed=1024 identity_mismatches=0 violations=0
+[structure] routes=1024 junctions=3908 max_pos_gap=4.91e-10 max_z_gap=0 max_tangent_gap=1.01e-15 violations=0
+[metadata] native=37 mid=90 excursions=45 violations=0
+[radius] flat_arcs=1844 transitions=1954 min_sampled=14.99999998 violations=0
+[glass] samples=1099850 min_margin=-0.0 violations=0
+[clearance] running independent minimum 3D clearance scan ...
+[clearance] min_3d=0.061835299 violations=0
+[ports] port_pairs=1024 violations=0
+[crossings] events=4136 pairs=3430 violations=0
+[manual_frozen] policy=fully_optimizable 368 manual routes, mismatches=0 violations=0
+[synthetic] running in-memory consistency tests ...
+[synthetic] duckout_L6_L7_L6_accepted                     PASS
+[synthetic] z_offset_49um_rejected                        PASS
+[synthetic] radius_14_rejected                            PASS
+[synthetic] position_discontinuity_1e-3_rejected          PASS
+[synthetic] flat_overlap_rejected                         PASS
+[synthetic] complete_native_route_accepted                PASS
+[synthetic] two_excursions_accepted                       PASS
+[synthetic] 7 tests, 0 failed
+
+Native 3D validation: PASS
+  run_dir      : experiments\G5_ANGLE45_NATIVE3D_20H_1024\best_partial_v5_cleanup\round_0
+  baseline_dir : C:\Users\lihao\Desktop\Graduation Project\OpticalWaveguideRouter2D\experiments\COLD_START_20_HEIGHT_1024\07_g123\run_xyz_joint_1024_20h\baseline_authoritative
+  routes       : records=1024 routed=1024 failed=0 (native=37, baseline=987)
+  parts        : transitions=1954 mid=90 excursions=45 flat_arcs=1844
+  crossings    : events=4136 pairs=3430 violations=0 heights=20 min_non_crossing=0.090483738
+  vs E5 baseline: 3061 -> 4136 crossings (+1075), pairs 2705 -> 3430
+  clearance    : min_3d=0.061835299 (lower bound 0.05)
+  manual frozen: 368 routes, 0 mismatches
+  manual policy: fully_optimizable (0 contract violations)
+  [coverage       ] violations=0 offending_routes=0
+  [structure      ] violations=0 offending_routes=0
+  [native_metadata] violations=0 offending_routes=0
+  [radius         ] violations=0 offending_routes=0
+  [glass          ] violations=0 offending_routes=0
+  [clearance      ] violations=0 offending_routes=0
+  [ports          ] violations=0 offending_routes=0
+  [crossings      ] violations=0 offending_routes=0
+  [manual_frozen  ] violations=0 offending_routes=0
+  [model          ] violations=0 offending_routes=0
+  [synthetic      ] violations=0 offending_routes=0
+  violation_total=0 runtime=22.8s exit_code=0
+[native3d] wrote experiments\G5_ANGLE45_NATIVE3D_20H_1024\best_partial_v5_cleanup\validation_0\validation.json
+[native3d] wrote experiments\G5_ANGLE45_NATIVE3D_20H_1024\best_partial_v5_cleanup\validation_0\validator_consistency_tests.json
+
+[xyz] manual_policy=fully_optimizable contract_violations=0 validation_pass=True
+[xyz] summary: {"crossing_pairs": 3430, "crossings": 4136, "failed": 0, "mid_transitions": 90, "min_3d_clearance": 0.061835299, "policy": "fully_optimizable", "policy_violations": 0, "routed": 1024, "total_length": 156549.189368, "validation_pass": true, "violations": 0}
+[xyz] wrote experiments\G5_ANGLE45_NATIVE3D_20H_1024\best_partial_v5_cleanup\validation_0\validation.json

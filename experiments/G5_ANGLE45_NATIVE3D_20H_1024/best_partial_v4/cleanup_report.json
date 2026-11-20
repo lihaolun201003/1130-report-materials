@@ -1,0 +1,79 @@
+{
+ "history": [
+  {
+   "round": 0,
+   "validator": {
+    "exit_code": 1,
+    "seconds": 26.6,
+    "violation_count": 16,
+    "validation_pass": false,
+    "geometry_pass": false,
+    "contract_pass": true,
+    "kinds": {
+     "native_metadata": 16
+    },
+    "offending": [
+     15,
+     216,
+     227,
+     410,
+     419,
+     427,
+     451,
+     535
+    ],
+    "report": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v4_cleanup\\validation_0\\validation.json"
+   },
+   "audit": {
+    "crossings": 4136,
+    "violations": 51,
+    "min_angle_deg": 6.122694,
+    "deficit_deg": 964.877334,
+    "max_deficit_deg": 38.877306,
+    "hard_issues": 0
+   },
+   "reverted_total": 0
+  },
+  {
+   "round": 1,
+   "validator": {
+    "exit_code": 0,
+    "seconds": 22.4,
+    "violation_count": 0,
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "kinds": {},
+    "offending": [],
+    "report": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v4_cleanup\\validation_1\\validation.json"
+   },
+   "audit": {
+    "crossings": 3952,
+    "violations": 70,
+    "min_angle_deg": 6.122694,
+    "deficit_deg": 1357.865364,
+    "max_deficit_deg": 38.877306,
+    "hard_issues": 0
+   },
+   "reverted_total": 8
+  }
+ ],
+ "reverted_routes": [
+  15,
+  216,
+  227,
+  410,
+  419,
+  427,
+  451,
+  535
+ ],
+ "final_audit": {
+  "crossings": 3952,
+  "violations": 70,
+  "min_angle_deg": 6.122694,
+  "deficit_deg": 1357.865364,
+  "max_deficit_deg": 38.877306,
+  "hard_issues": 0
+ }
+}

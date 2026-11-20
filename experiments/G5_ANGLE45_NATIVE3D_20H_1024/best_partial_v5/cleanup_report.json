@@ -1,0 +1,36 @@
+{
+ "history": [
+  {
+   "round": 0,
+   "validator": {
+    "exit_code": 0,
+    "seconds": 23.1,
+    "violation_count": 0,
+    "validation_pass": true,
+    "geometry_pass": true,
+    "contract_pass": true,
+    "kinds": {},
+    "offending": [],
+    "report": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\best_partial_v5_cleanup\\validation_0\\validation.json"
+   },
+   "audit": {
+    "crossings": 4136,
+    "violations": 51,
+    "min_angle_deg": 6.122694,
+    "deficit_deg": 964.877334,
+    "max_deficit_deg": 38.877306,
+    "hard_issues": 0
+   },
+   "reverted_total": 0
+  }
+ ],
+ "reverted_routes": [],
+ "final_audit": {
+  "crossings": 4136,
+  "violations": 51,
+  "min_angle_deg": 6.122694,
+  "deficit_deg": 964.877334,
+  "max_deficit_deg": 38.877306,
+  "hard_issues": 0
+ }
+}

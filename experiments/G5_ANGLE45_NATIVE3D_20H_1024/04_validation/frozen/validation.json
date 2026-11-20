@@ -1,14 +1,14 @@
 {
  "schema": "native3d_validation_v1",
  "validator": "four_side_1024.fanout1024.native3d.validate_native3d",
- "validated_at": "2026-11-20T01:14:15",
+ "validated_at": "2026-11-20T14:16:20",
  "mode": "native3d",
  "manual_policy": "fully_optimizable",
  "run_dir": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\04_validation\\run_dir",
  "baseline_dir": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative",
  "out_dir": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\04_validation\\frozen",
  "routes_file": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\04_validation\\run_dir\\routes_l3d.json",
- "routes_file_sha256": "00f41f59c8961405ade9c370b2f385ab7248f0286a34bd28d3b6ccbec3c1b17a",
+ "routes_file_sha256": "8c06bb520b177b28be50dad04bd8582c59efa7c570bb6266a74b10bb0b271251",
  "baseline_routes_file": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\COLD_START_20_HEIGHT_1024\\07_g123\\run_xyz_joint_1024_20h\\baseline_authoritative\\routes_l3d.json",
  "baseline_routes_file_sha256": "1498023dd4fe71d711131c6632620aaec2e98941f3682b2060d6a7f0b304f265",
  "assignment_file": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\04_validation\\run_dir\\assignment_1024.csv",
@@ -511,28 +511,28 @@
   },
   "direct_routes": 92,
   "non_direct_routes": 932,
-  "native_routes": 45,
-  "baseline_routes": 979,
-  "transitions": 1970,
-  "flat_arc_count": 1848,
-  "flat_arcs": 1848,
-  "mid_transitions": 106,
-  "excursions": 53,
-  "body_flats": 1130,
-  "total_length_mm": 156540.977069,
+  "native_routes": 37,
+  "baseline_routes": 987,
+  "transitions": 1954,
+  "flat_arc_count": 1844,
+  "flat_arcs": 1844,
+  "mid_transitions": 90,
+  "excursions": 45,
+  "body_flats": 1114,
+  "total_length_mm": 156549.189368,
   "max_route_length_mm": 282.321952,
-  "same_plane_crossings": 3884,
-  "same_plane_crossing_pairs": 3212,
+  "same_plane_crossings": 4136,
+  "same_plane_crossing_pairs": 3430,
   "same_plane_crossing_violations": 0,
   "audited_heights": 20,
   "min_non_crossing_centerline_mm": 0.090483738,
   "per_route_crossing_distribution": {
-   "routes": 990,
+   "routes": 998,
    "max": 99,
-   "p95": 24.55,
-   "mean": 7.846465,
+   "p95": 28.0,
+   "mean": 8.288577,
    "median": 5.0,
-   "routes_with_crossings": 990
+   "routes_with_crossings": 998
   },
   "manual_route_count": 368,
   "manual_geometry_mismatch_count": 0,
@@ -542,13 +542,13 @@
   "min_3d_clearance_lower_bound_mm": 0.05,
   "min_centerline_glass_margin_mm": -0.0,
   "min_edge_glass_margin_mm": -0.025,
-  "assignment_primary_mismatch_count": 117,
+  "assignment_primary_mismatch_count": 130,
   "min_route_layer_pitch_mm": 0.04999999999999993,
   "violation_total": 0,
   "baseline_same_plane_crossings": 3061,
   "baseline_same_plane_crossing_pairs": 2705,
-  "crossing_delta_vs_baseline": 823,
-  "crossing_pair_delta_vs_baseline": 507
+  "crossing_delta_vs_baseline": 1075,
+  "crossing_pair_delta_vs_baseline": 725
  },
  "checks": {
   "model": {
@@ -872,19 +872,19 @@
   "structure": {
    "check": "structure",
    "routes_checked": 1024,
-   "parts_total": 4964,
-   "flats_total": 2994,
-   "transitions_total": 1970,
-   "junctions_checked": 3940,
+   "parts_total": 4932,
+   "flats_total": 2978,
+   "transitions_total": 1954,
+   "junctions_checked": 3908,
    "max_position_gap_mm": 4.911555606668117e-10,
    "max_z_gap_mm": 0.0,
    "max_tangent_gap": 1.0106430996148606e-15,
    "world_structure_flagged": 0,
-   "tagged_parts": 2058,
-   "missing_tags": 2906,
+   "tagged_parts": 2036,
+   "missing_tags": 2896,
    "direct_routes": 92,
    "non_direct_routes": 932,
-   "native_routes": 45,
+   "native_routes": 37,
    "violations": 0,
    "violation_kinds": {},
    "offending_route_ids": [],
@@ -893,18 +893,20 @@
   "native_metadata": {
    "check": "native_metadata",
    "routes_checked": 1024,
-   "native_routes": 45,
-   "baseline_routes": 979,
-   "flat_parts": 2994,
-   "body_flats": 1130,
-   "native_body_flats": 151,
-   "mid_transitions": 106,
-   "excursions": 53,
-   "assignment_primary_mismatch": 117,
+   "native_routes": 37,
+   "baseline_routes": 987,
+   "flat_parts": 2978,
+   "body_flats": 1114,
+   "native_body_flats": 127,
+   "mid_transitions": 90,
+   "excursions": 45,
+   "assignment_primary_mismatch": 130,
    "assignment_primary_mismatch_ids": [
     5,
+    15,
     16,
     26,
+    28,
     31,
     32,
     40,
@@ -916,6 +918,7 @@
     81,
     82,
     88,
+    101,
     106,
     110,
     115,
@@ -931,10 +934,12 @@
     203,
     205,
     207,
+    216,
     220,
     221,
     224,
     226,
+    227,
     230,
     234,
     238,
@@ -952,11 +957,15 @@
     379,
     382,
     409,
+    410,
     413,
+    419,
     421,
     426,
+    427,
     442,
     443,
+    451,
     455,
     466,
     468,
@@ -967,15 +976,18 @@
     478,
     480,
     481,
+    482,
     484,
     497,
     500,
+    535,
     591,
     613,
     614,
     617,
     618,
     623,
+    631,
     633,
     640,
     645,
@@ -989,6 +1001,7 @@
     708,
     744,
     771,
+    774,
     775,
     777,
     779,
@@ -1022,7 +1035,6 @@
    ],
    "native_route_ids": [
     11,
-    15,
     35,
     36,
     99,
@@ -1039,22 +1051,16 @@
     158,
     163,
     167,
-    216,
     223,
-    227,
-    410,
     412,
     416,
-    419,
     422,
     423,
-    427,
     434,
     437,
     439,
     440,
     444,
-    451,
     454,
     458,
     461,
@@ -1064,18 +1070,11 @@
     492,
     493,
     494,
-    496,
-    535
+    496
    ],
    "mid_transition_counts": [
     {
      "route_id": 11,
-     "mid_transitions": 2,
-     "excursions": 1,
-     "body_flats": 3
-    },
-    {
-     "route_id": 15,
      "mid_transitions": 2,
      "excursions": 1,
      "body_flats": 3
@@ -1177,25 +1176,7 @@
      "body_flats": 3
     },
     {
-     "route_id": 216,
-     "mid_transitions": 2,
-     "excursions": 1,
-     "body_flats": 3
-    },
-    {
      "route_id": 223,
-     "mid_transitions": 2,
-     "excursions": 1,
-     "body_flats": 3
-    },
-    {
-     "route_id": 227,
-     "mid_transitions": 2,
-     "excursions": 1,
-     "body_flats": 3
-    },
-    {
-     "route_id": 410,
      "mid_transitions": 2,
      "excursions": 1,
      "body_flats": 3
@@ -1213,12 +1194,6 @@
      "body_flats": 3
     },
     {
-     "route_id": 419,
-     "mid_transitions": 2,
-     "excursions": 1,
-     "body_flats": 3
-    },
-    {
      "route_id": 422,
      "mid_transitions": 4,
      "excursions": 2,
@@ -1226,12 +1201,6 @@
     },
     {
      "route_id": 423,
-     "mid_transitions": 2,
-     "excursions": 1,
-     "body_flats": 3
-    },
-    {
-     "route_id": 427,
      "mid_transitions": 2,
      "excursions": 1,
      "body_flats": 3
@@ -1262,12 +1231,6 @@
     },
     {
      "route_id": 444,
-     "mid_transitions": 2,
-     "excursions": 1,
-     "body_flats": 3
-    },
-    {
-     "route_id": 451,
      "mid_transitions": 2,
      "excursions": 1,
      "body_flats": 3
@@ -1331,17 +1294,11 @@
      "mid_transitions": 4,
      "excursions": 2,
      "body_flats": 5
-    },
-    {
-     "route_id": 535,
-     "mid_transitions": 2,
-     "excursions": 1,
-     "body_flats": 3
     }
    ],
    "min_route_pitch_mm": 0.04999999999999993,
-   "distinct_heights": 1992,
-   "total_length_mm": 156540.977069,
+   "distinct_heights": 1987,
+   "total_length_mm": 156549.189368,
    "max_route_length_mm": 282.321952,
    "max_body_flats_per_route": 5,
    "violations": 0,
@@ -1352,15 +1309,15 @@
   "radius": {
    "check": "radius",
    "routes_checked": 1024,
-   "flat_arc_count": 1848,
+   "flat_arc_count": 1844,
    "flat_arc_radii": [
     15.0
    ],
-   "transition_count": 1970,
+   "transition_count": 1954,
    "transition_declared_radii": [
     15.0
    ],
-   "transition_samples_total": 621358,
+   "transition_samples_total": 621198,
    "transition_min_sampled_radius": 14.99999998,
    "r15_required_mm": 15.0,
    "transition_min_required_mm": 14.999999,
@@ -1374,7 +1331,7 @@
   "glass": {
    "check": "glass",
    "routes_checked": 1024,
-   "samples": 1100654,
+   "samples": 1099850,
    "min_centerline_margin_mm": -0.0,
    "min_edge_margin_mm": -0.025,
    "min_z_mm": -0.325,
@@ -1413,8 +1370,8 @@
    },
    "violation_kinds": {},
    "min_clearance_scan": {
-    "flat_segments": 1948988,
-    "transition_segments": 310860,
+    "flat_segments": 1947332,
+    "transition_segments": 310764,
     "query_radius_mm": 0.2,
     "transition_vs_flat": {
      "violations": 0,
@@ -1450,11 +1407,11 @@
     "violation_count": 0,
     "min_plane_gap_mm": 0.05,
     "min_3d_clearance_lower_bound_mm": 0.05,
-    "runtime_seconds": 2.21
+    "runtime_seconds": 2.5
    },
    "min_3d_clearance_mm": 0.061835299,
    "min_3d_clearance_lower_bound_mm": 0.05,
-   "runtime_seconds": 17.9,
+   "runtime_seconds": 19.88,
    "violations": 0,
    "offending_route_ids": [],
    "offending_route_count": 0
@@ -1492,25 +1449,25 @@
      "z_mm": -0.325,
      "kind": "body",
      "interface": null,
-     "routes": 51,
-     "parts": 246,
+     "routes": 53,
+     "parts": 254,
      "assigned_routes": 33,
      "direct_routes": 0,
-     "crossings": 469,
-     "crossing_pairs": 369,
+     "crossings": 541,
+     "crossing_pairs": 424,
      "min_non_crossing_centerline_mm": 0.321953536,
      "violations": 0,
      "route_crossing_distribution": {
-      "routes": 50,
-      "max": 48,
-      "p95": 44.55,
-      "mean": 18.76,
+      "routes": 52,
+      "max": 49,
+      "p95": 47.0,
+      "mean": 20.807692,
       "median": 16.0,
-      "routes_with_crossings": 50
+      "routes_with_crossings": 52
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.064
+     "runtime_seconds": 0.075
     },
     {
      "plane_id": 3,
@@ -1518,25 +1475,25 @@
      "z_mm": -0.275,
      "kind": "body",
      "interface": null,
-     "routes": 60,
-     "parts": 290,
+     "routes": 64,
+     "parts": 306,
      "assigned_routes": 50,
      "direct_routes": 0,
-     "crossings": 200,
-     "crossing_pairs": 170,
+     "crossings": 287,
+     "crossing_pairs": 250,
      "min_non_crossing_centerline_mm": 0.270768217,
      "violations": 0,
      "route_crossing_distribution": {
-      "routes": 59,
-      "max": 55,
-      "p95": 23.4,
-      "mean": 6.779661,
-      "median": 4.0,
-      "routes_with_crossings": 59
+      "routes": 63,
+      "max": 57,
+      "p95": 27.0,
+      "mean": 9.111111,
+      "median": 6.0,
+      "routes_with_crossings": 63
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.045
+     "runtime_seconds": 0.058
     },
     {
      "plane_id": 4,
@@ -1562,7 +1519,7 @@
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.069
+     "runtime_seconds": 0.075
     },
     {
      "plane_id": 5,
@@ -1588,7 +1545,7 @@
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.06
+     "runtime_seconds": 0.067
     },
     {
      "plane_id": 6,
@@ -1597,24 +1554,24 @@
      "kind": "body",
      "interface": null,
      "routes": 50,
-     "parts": 173,
+     "parts": 175,
      "assigned_routes": 45,
      "direct_routes": 0,
-     "crossings": 59,
-     "crossing_pairs": 59,
+     "crossings": 104,
+     "crossing_pairs": 104,
      "min_non_crossing_centerline_mm": 0.105024498,
      "violations": 0,
      "route_crossing_distribution": {
-      "routes": 38,
-      "max": 9,
-      "p95": 6.3,
-      "mean": 3.105263,
+      "routes": 47,
+      "max": 45,
+      "p95": 8.4,
+      "mean": 4.425532,
       "median": 3.0,
-      "routes_with_crossings": 38
+      "routes_with_crossings": 47
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.015
+     "runtime_seconds": 0.019
     },
     {
      "plane_id": 7,
@@ -1622,25 +1579,25 @@
      "z_mm": -0.075,
      "kind": "body",
      "interface": null,
-     "routes": 53,
-     "parts": 189,
-     "assigned_routes": 41,
+     "routes": 50,
+     "parts": 177,
+     "assigned_routes": 38,
      "direct_routes": 0,
-     "crossings": 208,
-     "crossing_pairs": 204,
+     "crossings": 183,
+     "crossing_pairs": 181,
      "min_non_crossing_centerline_mm": 0.090483738,
      "violations": 0,
      "route_crossing_distribution": {
-      "routes": 48,
-      "max": 41,
-      "p95": 40.65,
-      "mean": 8.666667,
-      "median": 6.0,
-      "routes_with_crossings": 48
+      "routes": 45,
+      "max": 38,
+      "p95": 37.8,
+      "mean": 8.133333,
+      "median": 5.0,
+      "routes_with_crossings": 45
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.024
+     "runtime_seconds": 0.02
     },
     {
      "plane_id": 20,
@@ -1648,25 +1605,25 @@
      "z_mm": -0.025,
      "kind": "body",
      "interface": null,
-     "routes": 53,
-     "parts": 219,
-     "assigned_routes": 33,
+     "routes": 51,
+     "parts": 210,
+     "assigned_routes": 31,
      "direct_routes": 0,
-     "crossings": 323,
-     "crossing_pairs": 272,
-     "min_non_crossing_centerline_mm": 0.105024497,
+     "crossings": 300,
+     "crossing_pairs": 252,
+     "min_non_crossing_centerline_mm": 0.251815139,
      "violations": 0,
      "route_crossing_distribution": {
-      "routes": 53,
-      "max": 42,
-      "p95": 32.6,
-      "mean": 12.188679,
+      "routes": 51,
+      "max": 40,
+      "p95": 33.0,
+      "mean": 11.764706,
       "median": 9.0,
-      "routes_with_crossings": 53
+      "routes_with_crossings": 51
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.039
+     "runtime_seconds": 0.038
     },
     {
      "plane_id": 1001,
@@ -1675,7 +1632,7 @@
      "kind": "interface_body",
      "interface": "z1",
      "routes": 512,
-     "parts": 1124,
+     "parts": 1121,
      "assigned_routes": 43,
      "direct_routes": 43,
      "crossings": 74,
@@ -1696,7 +1653,7 @@
       "direct_lead": 0,
       "lead_non_direct": 0
      },
-     "runtime_seconds": 0.339
+     "runtime_seconds": 0.416
     },
     {
      "plane_id": 8,
@@ -1704,25 +1661,25 @@
      "z_mm": 0.075,
      "kind": "body",
      "interface": null,
-     "routes": 46,
-     "parts": 181,
-     "assigned_routes": 35,
+     "routes": 42,
+     "parts": 164,
+     "assigned_routes": 31,
      "direct_routes": 0,
-     "crossings": 283,
-     "crossing_pairs": 271,
+     "crossings": 258,
+     "crossing_pairs": 245,
      "min_non_crossing_centerline_mm": 0.105024498,
      "violations": 0,
      "route_crossing_distribution": {
-      "routes": 44,
-      "max": 37,
-      "p95": 37.0,
-      "mean": 12.863636,
-      "median": 8.5,
-      "routes_with_crossings": 44
+      "routes": 41,
+      "max": 35,
+      "p95": 34.0,
+      "mean": 12.585366,
+      "median": 9.0,
+      "routes_with_crossings": 41
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.023
+     "runtime_seconds": 0.022
     },
     {
      "plane_id": 9,
@@ -1731,24 +1688,24 @@
      "kind": "body",
      "interface": null,
      "routes": 64,
-     "parts": 178,
+     "parts": 182,
      "assigned_routes": 49,
      "direct_routes": 0,
-     "crossings": 266,
-     "crossing_pairs": 229,
+     "crossings": 314,
+     "crossing_pairs": 277,
      "min_non_crossing_centerline_mm": 2.707696067,
      "violations": 0,
      "route_crossing_distribution": {
       "routes": 59,
-      "max": 52,
-      "p95": 23.4,
-      "mean": 9.016949,
-      "median": 7.0,
+      "max": 53,
+      "p95": 29.4,
+      "mean": 10.644068,
+      "median": 8.0,
       "routes_with_crossings": 59
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.043
+     "runtime_seconds": 0.048
     },
     {
      "plane_id": 10,
@@ -1757,24 +1714,24 @@
      "kind": "body",
      "interface": null,
      "routes": 34,
-     "parts": 180,
-     "assigned_routes": 27,
+     "parts": 187,
+     "assigned_routes": 26,
      "direct_routes": 0,
-     "crossings": 115,
-     "crossing_pairs": 90,
+     "crossings": 166,
+     "crossing_pairs": 131,
      "min_non_crossing_centerline_mm": 0.206150458,
      "violations": 0,
      "route_crossing_distribution": {
-      "routes": 32,
-      "max": 26,
-      "p95": 18.8,
-      "mean": 7.1875,
-      "median": 6.0,
-      "routes_with_crossings": 32
+      "routes": 33,
+      "max": 30,
+      "p95": 28.4,
+      "mean": 10.060606,
+      "median": 8.0,
+      "routes_with_crossings": 33
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.025
+     "runtime_seconds": 0.034
     },
     {
      "plane_id": 11,
@@ -1782,25 +1739,25 @@
      "z_mm": 0.225,
      "kind": "body",
      "interface": null,
-     "routes": 31,
-     "parts": 145,
-     "assigned_routes": 23,
+     "routes": 29,
+     "parts": 130,
+     "assigned_routes": 21,
      "direct_routes": 0,
-     "crossings": 116,
-     "crossing_pairs": 102,
+     "crossings": 99,
+     "crossing_pairs": 91,
      "min_non_crossing_centerline_mm": 0.21175268,
      "violations": 0,
      "route_crossing_distribution": {
-      "routes": 27,
-      "max": 24,
-      "p95": 21.6,
-      "mean": 8.592593,
-      "median": 6.0,
-      "routes_with_crossings": 27
+      "routes": 26,
+      "max": 21,
+      "p95": 19.5,
+      "mean": 7.615385,
+      "median": 6.5,
+      "routes_with_crossings": 26
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.016
+     "runtime_seconds": 0.014
     },
     {
      "plane_id": 12,
@@ -1808,25 +1765,25 @@
      "z_mm": 0.275,
      "kind": "body",
      "interface": null,
-     "routes": 41,
-     "parts": 214,
+     "routes": 42,
+     "parts": 221,
      "assigned_routes": 40,
      "direct_routes": 0,
-     "crossings": 87,
-     "crossing_pairs": 68,
+     "crossings": 133,
+     "crossing_pairs": 102,
      "min_non_crossing_centerline_mm": 0.252239391,
      "violations": 0,
      "route_crossing_distribution": {
-      "routes": 41,
-      "max": 57,
-      "p95": 8.0,
-      "mean": 4.243902,
-      "median": 2.0,
-      "routes_with_crossings": 41
+      "routes": 42,
+      "max": 58,
+      "p95": 10.0,
+      "mean": 6.333333,
+      "median": 3.0,
+      "routes_with_crossings": 42
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.025
+     "runtime_seconds": 0.033
     },
     {
      "plane_id": 13,
@@ -1834,25 +1791,25 @@
      "z_mm": 0.325,
      "kind": "body",
      "interface": null,
-     "routes": 49,
-     "parts": 246,
-     "assigned_routes": 46,
+     "routes": 48,
+     "parts": 239,
+     "assigned_routes": 45,
      "direct_routes": 0,
-     "crossings": 163,
-     "crossing_pairs": 107,
+     "crossings": 156,
+     "crossing_pairs": 102,
      "min_non_crossing_centerline_mm": 0.311036829,
      "violations": 0,
      "route_crossing_distribution": {
-      "routes": 45,
-      "max": 73,
-      "p95": 14.0,
-      "mean": 7.244444,
-      "median": 4.0,
-      "routes_with_crossings": 45
+      "routes": 44,
+      "max": 72,
+      "p95": 14.25,
+      "mean": 7.090909,
+      "median": 3.5,
+      "routes_with_crossings": 44
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.039
+     "runtime_seconds": 0.041
     },
     {
      "plane_id": 14,
@@ -1878,7 +1835,7 @@
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.027
+     "runtime_seconds": 0.031
     },
     {
      "plane_id": 15,
@@ -1904,7 +1861,7 @@
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.045
+     "runtime_seconds": 0.05
     },
     {
      "plane_id": 16,
@@ -1930,7 +1887,7 @@
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.02
+     "runtime_seconds": 0.023
     },
     {
      "plane_id": 1002,
@@ -1960,7 +1917,7 @@
       "direct_lead": 0,
       "lead_non_direct": 0
      },
-     "runtime_seconds": 0.505
+     "runtime_seconds": 0.572
     },
     {
      "plane_id": 17,
@@ -1986,7 +1943,7 @@
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.043
+     "runtime_seconds": 0.046
     },
     {
      "plane_id": 18,
@@ -2012,26 +1969,26 @@
      },
      "crossing_kinds": {},
      "interface_direct_crossings": null,
-     "runtime_seconds": 0.038
+     "runtime_seconds": 0.042
     }
    ],
    "totals": {
-    "crossings": 3884,
-    "crossing_pairs": 3212,
+    "crossings": 4136,
+    "crossing_pairs": 3430,
     "violations": 0
    },
    "min_non_crossing_centerline_mm": 0.090483738,
    "per_route_distribution": {
-    "routes": 990,
+    "routes": 998,
     "max": 99,
-    "p95": 24.55,
-    "mean": 7.846465,
+    "p95": 28.0,
+    "mean": 8.288577,
     "median": 5.0,
-    "routes_with_crossings": 990
+    "routes_with_crossings": 998
    },
    "audited_heights": 20,
    "missing_model_planes": [],
-   "runtime_seconds": 1.53,
+   "runtime_seconds": 1.75,
    "crossing_rule": "every flat part grouped by physical z (all heights, interface leads merged); fslw strict D56 audit per height; reused validate21.check_crossings",
    "violations": 0,
    "violation_kinds": {},
@@ -2451,7 +2408,7 @@
  "offending_route_count": 0,
  "synthetic_consistency": {
   "schema": "native3d_consistency_v1",
-  "generated_at": "2026-11-20T01:14:15",
+  "generated_at": "2026-11-20T14:16:20",
   "all_passed": true,
   "tests": [
    {
@@ -2866,7 +2823,7 @@
  },
  "validation_pass": true,
  "exit_code": 0,
- "runtime_seconds": 20.56,
+ "runtime_seconds": 22.93,
  "validation_file": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\04_validation\\frozen\\validation.json",
  "consistency_file": "experiments\\G5_ANGLE45_NATIVE3D_20H_1024\\04_validation\\frozen\\validator_consistency_tests.json",
  "xyz_validator": "four_side_1024.fanout1024.xyzrouter.validate_xyz"
