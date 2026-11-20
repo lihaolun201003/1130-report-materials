@@ -1,0 +1,95 @@
+{
+ "schema": "g7_experiment_info_v1",
+ "experiment": "G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024",
+ "generated_at": "2026-11-21T01:10:48",
+ "inheritance": {
+  "g6_validator_B": "PASS",
+  "g6_min_angle_deg": 45.10850000520097,
+  "g6_validator_A": "PASS",
+  "g6_crossings": 4578,
+  "g6_routes_sha256": "39a02c9ec9a598d95bb2a6ef6695ab18a849c037fa9ca24c2a76581c55bc57b2",
+  "g6_solution": "experiments/G6_ANGLE45_MULTIARC_SA_20H_1024/03_best_feasible/routes_l3d.json"
+ },
+ "contract": {
+  "note": "real per-route heights extracted from routes_l3d.json, never from the assignment CSV",
+  "modifiable_routes": 527,
+  "frozen_native": 37,
+  "fixed_layer": true,
+  "frozen_manual": 368,
+  "stale_assignment_rows_ignored": 134,
+  "frozen_direct": 92,
+  "frozen_manifest": "00_frozen_g6/frozen_manifest.json",
+  "fixed_transitions": true
+ },
+ "objective": "min N_cross subject to all crossing angles >= 45 deg and every frozen structure unchanged",
+ "energy": "E = N_cross (Metropolis acceptance, T0=1.0 -> T_end=0.05, reheating on 300 s stagnation)",
+ "seeds": {
+  "arm_C": [
+   7301,
+   7302,
+   7303,
+   7304,
+   7305,
+   7306
+  ],
+  "arm_A": [
+   7101,
+   7102,
+   7103,
+   7104,
+   7105,
+   7106,
+   7107,
+   7108,
+   7109,
+   7110
+  ],
+  "arm_B": [
+   7201,
+   7202,
+   7203,
+   7204,
+   7205,
+   7206
+  ]
+ },
+ "budgets": {
+  "arm_C": "6 seeds x 1800 s",
+  "arm_A": "10 seeds x 1800 s",
+  "arm_B": "6 seeds x 1800 s"
+ },
+ "machine": {
+  "logical_cpus": 32,
+  "ram_gb": 15.7,
+  "os": "Windows 10.0.26200",
+  "python": "3.10.11"
+ },
+ "final": {
+  "routes_sha256": "2fac046c06a3e6decf3fe2ee965a21482fb724c13751673b8475969aa488e696",
+  "crossings": 4353,
+  "baseline_crossings": 4578,
+  "reduction_pct": 4.915,
+  "unique_pairs": 3566,
+  "min_angle_deg": 45.00591671065905,
+  "sub45": 0,
+  "A_pass": true,
+  "B_pass": true,
+  "fixed_structure_pass": true,
+  "combined": "G7_FIXED_LAYER_VALID_PASS",
+  "final_deliverable": "03_best_valid/routes_l3d.json"
+ },
+ "implementation_note": {
+  "bug": "route_plane resolved to the exit interface plane for routes whose lead z differed from body z; fixed to the real body-flat height (manifest body_index) before the decisive phase",
+  "pilot_runs": "02_sa_runs/_pilot_wrong_plane (kept as defect record, not used as evidence)",
+  "clean_arms": [
+   "arm_A_plane",
+   "arm_B_plane",
+   "arm_C_plane"
+  ],
+  "final_phase": [
+   "final_sa",
+   "polish_fixed_plane"
+  ],
+  "verifier_hardening": "direct/manual/native routes are fully frozen (negative control rejects a 10 um shift of a direct route primitive; 04_validation/fixed_negative_control)"
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "schema": "g7_polish_v1",
+ "initial": {
+  "crossings": 4406,
+  "unique_pairs": 3590,
+  "min_angle_deg": 45.005916711,
+  "length_mm": 156946.98896
+ },
+ "initial_crossings": 4406,
+ "initial_pairs": 3590,
+ "initial_min_angle_deg": 45.005916711,
+ "initial_length_mm": 156946.98896,
+ "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\selected_best\\sa_best_routes.json",
+ "reference": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\00_frozen_g6\\routes_l3d.json",
+ "crossings": 4381,
+ "unique_pairs": 3576,
+ "min_angle_deg": 45.005916711,
+ "length_mm": 156932.156901,
+ "moves": 10,
+ "history": [
+  {
+   "kind": "single",
+   "route_id": 708,
+   "delta": -10,
+   "crossings": 4396
+  },
+  {
+   "kind": "single",
+   "route_id": 504,
+   "delta": -6,
+   "crossings": 4390
+  },
+  {
+   "kind": "single",
+   "route_id": 168,
+   "delta": -6,
+   "crossings": 4384
+  },
+  {
+   "kind": "single",
+   "route_id": 430,
+   "delta": -1,
+   "crossings": 4383
+  },
+  {
+   "kind": "single",
+   "route_id": 472,
+   "delta": -1,
+   "crossings": 4382
+  },
+  {
+   "kind": "single",
+   "route_id": 629,
+   "delta": -2,
+   "crossings": 4380
+  },
+  {
+   "kind": "single",
+   "route_id": 950,
+   "delta": -3,
+   "crossings": 4384
+  },
+  {
+   "kind": "single",
+   "route_id": 12,
+   "delta": -2,
+   "crossings": 4382
+  },
+  {
+   "kind": "single",
+   "route_id": 123,
+   "delta": -1,
+   "crossings": 4381
+  },
+  {
+   "kind": "single",
+   "route_id": 950,
+   "delta": -7,
+   "crossings": 4381
+  }
+ ],
+ "fixed_structure_pass": true,
+ "fixed_violation_count": 0,
+ "full_reaudit": {
+  "crossings": 4381,
+  "unique_pairs": 3576,
+  "min_angle": 45.00591671065905,
+  "violations": 0,
+  "seconds": 3.283,
+  "matches": true
+ },
+ "fixed_manifest_entries": 1024,
+ "elapsed_seconds": 1205.33,
+ "generated_at": "2026-11-21T00:41:10"
+}

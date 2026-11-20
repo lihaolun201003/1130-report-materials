@@ -1,0 +1,59 @@
+{
+ "schema": "g7_polish_v1",
+ "initial": {
+  "crossings": 4383,
+  "unique_pairs": 3576,
+  "min_angle_deg": 45.005916711,
+  "length_mm": 156941.64739
+ },
+ "initial_crossings": 4383,
+ "initial_pairs": 3576,
+ "initial_min_angle_deg": 45.005916711,
+ "initial_length_mm": 156941.64739,
+ "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\selected_best\\sa_best_routes.json",
+ "reference": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\00_frozen_g6\\routes_l3d.json",
+ "crossings": 4366,
+ "unique_pairs": 3574,
+ "min_angle_deg": 45.005916711,
+ "length_mm": 156953.620874,
+ "moves": 4,
+ "history": [
+  {
+   "kind": "single",
+   "route_id": 631,
+   "delta": -10,
+   "crossings": 4373
+  },
+  {
+   "kind": "single",
+   "route_id": 527,
+   "delta": -2,
+   "crossings": 4371
+  },
+  {
+   "kind": "single",
+   "route_id": 687,
+   "delta": -3,
+   "crossings": 4368
+  },
+  {
+   "kind": "single",
+   "route_id": 667,
+   "delta": -2,
+   "crossings": 4366
+  }
+ ],
+ "fixed_structure_pass": true,
+ "fixed_violation_count": 0,
+ "full_reaudit": {
+  "crossings": 4366,
+  "unique_pairs": 3574,
+  "min_angle": 45.00591671065905,
+  "violations": 0,
+  "seconds": 5.625,
+  "matches": true
+ },
+ "fixed_manifest_entries": 1024,
+ "elapsed_seconds": 607.97,
+ "generated_at": "2026-11-21T01:01:59"
+}

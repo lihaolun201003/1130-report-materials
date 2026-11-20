@@ -1,0 +1,19 @@
+{
+ "schema": "g7_g6_baseline_v1",
+ "routes_sha256": "39a02c9ec9a598d95bb2a6ef6695ab18a849c037fa9ca24c2a76581c55bc57b2",
+ "routed": 1024,
+ "heights": 20,
+ "crossings": 4578,
+ "unique_pairs": 3677,
+ "sub45": 0,
+ "min_angle_deg": 45.108500005,
+ "length_mm": 157162.472389,
+ "manifest_routes": 1024,
+ "modifiable": 527,
+ "frozen_direct": 92,
+ "frozen_manual": 368,
+ "frozen_native": 37,
+ "verify": true,
+ "stale_assignment_rows": 134,
+ "note": "real heights extracted from routes_l3d.json; the stale assignment CSV is NOT used"
+}

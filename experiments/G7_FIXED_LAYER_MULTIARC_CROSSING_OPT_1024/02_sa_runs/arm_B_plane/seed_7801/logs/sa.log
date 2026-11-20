@@ -1,0 +1,8 @@
+[2026-11-21T00:52:08] G7 SA start seed=7801 profile=B crossings=4578 pairs=3677 min_angle=45.108500005 C=157162.472389 movable=527
+[2026-11-21T00:54:12] t=121s moves=90 acc=0.344 crossings=4547 pairs=3662 min=45.108500005 T=0.4711 reheat=0 commit_fail=0 failed=28
+[2026-11-21T00:56:17] t=249s moves=243 acc=0.313 crossings=4511 pairs=3642 min=45.108500005 T=0.2115 reheat=0 commit_fail=0 failed=80
+[2026-11-21T00:57:15] REHEAT #1 T=0.4443 crossings=4510
+[2026-11-21T00:58:17] t=369s moves=428 acc=0.318 crossings=4500 pairs=3642 min=45.119510478 T=0.0997 reheat=1 commit_fail=0 failed=148
+[2026-11-21T00:59:17] reconcile ok crossings=4487 pairs=3640 min=45.044575134 (8.9s)
+[2026-11-21T01:00:09] budget exhausted after 636 moves (480.6s) crossings=4474
+[2026-11-21T01:00:10] STOP {"crossings": 4474, "unique_pairs": 3633, "min_angle_deg": 45.044575134, "moves": 636, "accepted": 200, "elapsed_seconds": 481.969}

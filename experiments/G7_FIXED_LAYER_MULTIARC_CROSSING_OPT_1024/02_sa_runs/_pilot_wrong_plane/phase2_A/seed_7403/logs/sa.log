@@ -1,0 +1,14 @@
+[2026-11-21T00:21:42] G7 SA start seed=7403 profile=A crossings=4406 pairs=3590 min_angle=45.005916711 C=156946.988960 movable=527
+[2026-11-21T00:23:43] t=120s moves=153 acc=0.327 crossings=4403 pairs=3588 min=45.005916711 T=0.5521 reheat=0 commit_fail=0 failed=50
+[2026-11-21T00:25:43] t=240s moves=328 acc=0.329 crossings=4402 pairs=3587 min=45.005916711 T=0.3820 reheat=0 commit_fail=0 failed=113
+[2026-11-21T00:26:43] REHEAT #1 T=0.9519 crossings=4402
+[2026-11-21T00:27:44] t=362s moves=537 acc=0.318 crossings=4396 pairs=3584 min=45.005916711 T=0.2626 reheat=1 commit_fail=0 failed=185
+[2026-11-21T00:28:48] reconcile ok crossings=4396 pairs=3584 min=45.005916711 (6.2s)
+[2026-11-21T00:29:48] t=484s moves=773 acc=0.307 crossings=4396 pairs=3584 min=45.005916711 T=0.1803 reheat=1 commit_fail=0 failed=260
+[2026-11-21T00:31:43] REHEAT #2 T=0.3806 crossings=4396
+[2026-11-21T00:31:48] t=606s moves=1038 acc=0.313 crossings=4396 pairs=3584 min=45.005916711 T=0.1237 reheat=2 commit_fail=0 failed=331
+[2026-11-21T00:33:49] t=725s moves=1343 acc=0.310 crossings=4392 pairs=3581 min=45.005916711 T=0.0857 reheat=2 commit_fail=0 failed=417
+[2026-11-21T00:35:53] t=850s moves=1632 acc=0.316 crossings=4390 pairs=3580 min=45.005916711 T=0.0584 reheat=2 commit_fail=0 failed=507
+[2026-11-21T00:36:00] reconcile ok crossings=4390 pairs=3580 min=45.005916711 (7.4s)
+[2026-11-21T00:36:43] budget exhausted after 1742 moves (901.3s) crossings=4390
+[2026-11-21T00:36:45] STOP {"crossings": 4390, "unique_pairs": 3580, "min_angle_deg": 45.005916711, "moves": 1742, "accepted": 545, "elapsed_seconds": 903.515}

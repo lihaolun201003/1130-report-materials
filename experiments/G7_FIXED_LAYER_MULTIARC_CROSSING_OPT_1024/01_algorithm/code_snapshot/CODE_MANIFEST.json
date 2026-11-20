@@ -1,0 +1,2546 @@
+{
+ "schema": "g7_code_snapshot_v1",
+ "project": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D",
+ "project_git_commit": null,
+ "created_at": "2026-11-21T01:10:59",
+ "files": [
+  {
+   "path": "experiments/G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024/01_algorithm/make_figures_g7.py",
+   "bytes": 3583,
+   "sha256": "f97e6bdaaa19bc4d2602cae06dbdeb136c310043e6dac220734c40e3bd99aeed"
+  },
+  {
+   "path": "experiments/G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024/01_algorithm/build_report_g7.py",
+   "bytes": 21996,
+   "sha256": "7155c0d2636480cb85ee28dec300160f255d8d8433813c39d2f0215b84bb6358"
+  },
+  {
+   "path": "experiments/G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024/01_algorithm/snapshot_code_g7.py",
+   "bytes": 3668,
+   "sha256": "17bd4c442cb27907dc04ec6acb71740a5f4a209ee06b1b166ae055d4f4ed38d3"
+  },
+  {
+   "path": "experiments/G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024/01_algorithm/publish_repo_g7.py",
+   "bytes": 4361,
+   "sha256": "2657be786298a5b4dc5bc1cb20d7ba2489f9b1d07447dacae3fabd50ed2d4710"
+  },
+  {
+   "path": "four_side_1024\\conflicts.py",
+   "bytes": 22158,
+   "sha256": "914943e1b6985b99a791fdd3bff5c67c76f622b86c6b207331c092cb70d75d08"
+  },
+  {
+   "path": "four_side_1024\\geometry.py",
+   "bytes": 19101,
+   "sha256": "b9b7dcca9e450348ee849b1678f62400d5d628ba8f85e4639df1606ce15dc345"
+  },
+  {
+   "path": "four_side_1024\\geometry_test.py",
+   "bytes": 5061,
+   "sha256": "60f742c7de581bac4ce136ece2e940d7ef861d581ec89f12a757adb518704f2c"
+  },
+  {
+   "path": "four_side_1024\\independent_audit.py",
+   "bytes": 17815,
+   "sha256": "48980ed972737a9e446cd79446bedc523b58be43846522265b43bd06c83be4f3"
+  },
+  {
+   "path": "four_side_1024\\inputs.py",
+   "bytes": 9133,
+   "sha256": "452b3dd8c4078a409ac78599f1d11f7284c1e6ee1cd3adaaf9aa75c6bac01a8d"
+  },
+  {
+   "path": "four_side_1024\\legacy_adapter.py",
+   "bytes": 13795,
+   "sha256": "91f58c6b95a5239c91fe8f2272fb830d00a9031c362cddd6094ab6414af8c6cb"
+  },
+  {
+   "path": "four_side_1024\\legacy_adapter_test.py",
+   "bytes": 9644,
+   "sha256": "e51980e3a9886906866308494e743b546c3c69f75411dfc736b4b47e1b9cec4a"
+  },
+  {
+   "path": "four_side_1024\\legacy_branches_test.py",
+   "bytes": 11569,
+   "sha256": "e83272a7738e44ca361c701274e640b1474dca8f798b727d5d744fdfb9b650dc"
+  },
+  {
+   "path": "four_side_1024\\legacy_geometry.py",
+   "bytes": 9025,
+   "sha256": "a652328b5d8f64c6b53ae4929ab9cc30e1e312119942b1750fb614bd5de842fa"
+  },
+  {
+   "path": "four_side_1024\\legacy_geometry_test.py",
+   "bytes": 6349,
+   "sha256": "5e018e7ed62f12b4f9109785587986fb49461514e38783b3b84a2e7bdd24622d"
+  },
+  {
+   "path": "four_side_1024\\legacy_outputs.py",
+   "bytes": 15614,
+   "sha256": "db13022a610a0d16a6dd87bb3dfe9b2f0458cceaf1200cc420f2b7c37dbc0ecb"
+  },
+  {
+   "path": "four_side_1024\\legacy_rules.py",
+   "bytes": 8293,
+   "sha256": "c22f7dfa76053a6da2c63d27ea639a95f24d304233df4e9d6cf52945927ba6fe"
+  },
+  {
+   "path": "four_side_1024\\outputs.py",
+   "bytes": 24099,
+   "sha256": "82008ecfdf559a86a2f23dfcc9240863fe576c80f35be4c62365947e4f04595e"
+  },
+  {
+   "path": "four_side_1024\\router.py",
+   "bytes": 10368,
+   "sha256": "6da7e233b9f439e4e580da845272022ed066976fc1a56ebf02eba44a775c7a51"
+  },
+  {
+   "path": "four_side_1024\\run.py",
+   "bytes": 3286,
+   "sha256": "283f9b2c5be9e8ca71535293f665ff6ec1d247b980d7c49900a5fb1faa5370d5"
+  },
+  {
+   "path": "four_side_1024\\test_acceptance.py",
+   "bytes": 11910,
+   "sha256": "5df3dd8ba7fd790d8c1b912c9b31b2d601883c6a1431ab5ae62fb68f10aa1b93"
+  },
+  {
+   "path": "four_side_1024\\__init__.py",
+   "bytes": 82,
+   "sha256": "f510cb0c348b4015296b0afb34a625c94306d4f848d180907bc77d3ed9d43703"
+  },
+  {
+   "path": "four_side_1024\\abcd\\audit_all.py",
+   "bytes": 5972,
+   "sha256": "db2514b144e03fde695153dc5cf885b289335e561bde0a7709fb7b7b5635232a"
+  },
+  {
+   "path": "four_side_1024\\abcd\\compare.py",
+   "bytes": 51214,
+   "sha256": "a48db7f93128fc727a7dec75db7ea8c60443f3710c7d2e906b8c0a3e85f621b3"
+  },
+  {
+   "path": "four_side_1024\\abcd\\connectivity.py",
+   "bytes": 86623,
+   "sha256": "0daaa63fd27272fa692e7df1cf4f1084000fa90aafafb98b1c431618318f365c"
+  },
+  {
+   "path": "four_side_1024\\abcd\\crosscheck_strict.py",
+   "bytes": 18224,
+   "sha256": "fa8bbe677b0b8ddd62bf168d7f4dca1f85336387d2e0733f951b03f8a70d28a8"
+  },
+  {
+   "path": "four_side_1024\\abcd\\d_lns.py",
+   "bytes": 29107,
+   "sha256": "3c9144db1ab8fb9302bcb9d71a8eee56f90ff1adf5edc13fbeae8a68692167e0"
+  },
+  {
+   "path": "four_side_1024\\abcd\\export.py",
+   "bytes": 14408,
+   "sha256": "e7d14b0b0724afce488b9c727e9bdeff6609cda2d2858398ed3c2fa92a228f0d"
+  },
+  {
+   "path": "four_side_1024\\abcd\\finalize_all.py",
+   "bytes": 3903,
+   "sha256": "d26eec2f7c286c5751195d81a8f205df3737c72c8d065550baf6d3836d822e1e"
+  },
+  {
+   "path": "four_side_1024\\abcd\\metrics.py",
+   "bytes": 89142,
+   "sha256": "f2008d7ee967fe9477ac4f5d2faf5283151f08547413b5993df59a8a6ee12bd4"
+  },
+  {
+   "path": "four_side_1024\\abcd\\plots.py",
+   "bytes": 13542,
+   "sha256": "64269abcebb0e1c1a14b7893dff1c3c6d85be00ff5a36b9913b5b20561408324"
+  },
+  {
+   "path": "four_side_1024\\abcd\\run.py",
+   "bytes": 16875,
+   "sha256": "79ea8d67d9c389b2ecae9a3facf07de5ab3ce6844ce517825699fbd3ebdf0127"
+  },
+  {
+   "path": "four_side_1024\\abcd\\strategies.py",
+   "bytes": 5725,
+   "sha256": "add41a3802c5c59683320ed1eaa8cd7e5716f17304572ac7288822c05f27828f"
+  },
+  {
+   "path": "four_side_1024\\abcd\\summarise.py",
+   "bytes": 8613,
+   "sha256": "3c0a1b156ac9afd2731a9230182e5080c2319a323408e1f45b9dd46cd3ec4615"
+  },
+  {
+   "path": "four_side_1024\\abcd\\__init__.py",
+   "bytes": 264,
+   "sha256": "95b5e7d75e77a1ff65c20ff4626a282cbaaf0af27cf7012395a8123b0bdcaca8"
+  },
+  {
+   "path": "four_side_1024\\abcd\\tests_abcd\\test_connectivity.py",
+   "bytes": 23648,
+   "sha256": "d1fa6093fa35f0df63b6181eba626e4ea9ab126cbea2c157d6a18088b9d276ec"
+  },
+  {
+   "path": "four_side_1024\\abcd\\tests_abcd\\test_metrics.py",
+   "bytes": 14388,
+   "sha256": "5b6a59ba25f046ff3dc39eb46a86a00805a1b3a8a1f984126ce95375ff47ae02"
+  },
+  {
+   "path": "four_side_1024\\abcd\\tests_abcd\\test_strategies.py",
+   "bytes": 4012,
+   "sha256": "93563b3b9ee91808188282e5d8afa0c38fdf3f24facc072879b8e16fdf4c59dc"
+  },
+  {
+   "path": "four_side_1024\\abcd\\tests_abcd\\test_strict_policy.py",
+   "bytes": 20217,
+   "sha256": "77b6bc62c6483d719f3133df7bbe409b5641c89d5e057f72d311d46e5abe0198"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\bundle_lift.py",
+   "bytes": 8057,
+   "sha256": "648b516541cd78c23631ee97cf501f485a4aefd676191c835bddf905949e65be"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\clustering.py",
+   "bytes": 12274,
+   "sha256": "b1847e3b582b7c5e9f96d3793c9fd77c9dc33e30b875bde5634bb47160d9cf7a"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\compatibility.py",
+   "bytes": 8367,
+   "sha256": "7825327cb2359d1dca1845ab8757c13888589dc47347836d130d7b29eb530aa0"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\corridors.py",
+   "bytes": 7081,
+   "sha256": "0224993b5d269e376e99e036f716d782a6ae5c5b2c59ecc1a5779aaa0be4bd2f"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\features.py",
+   "bytes": 7196,
+   "sha256": "bf04db90e4dd14133fb32d3aab574b608a80be2d93fc878f0f1838e9ca9e3460"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\native_search.py",
+   "bytes": 24175,
+   "sha256": "5d6d86163be7ca724b398c8014f1ea3e2788c7613081caef75b0b2b85045e799"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\orbits.py",
+   "bytes": 3635,
+   "sha256": "6e9d16d9bd41cdfac2e2e9b755e6e9e917aae2e651431e2f8b48441edfdcf260"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\reroute.py",
+   "bytes": 12177,
+   "sha256": "8ee8608915fdde317618048d2fee0ee1a308dadca504ef103ae889715425e712"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\validate_local.py",
+   "bytes": 1102,
+   "sha256": "e51369dcfa2da50475e44f1ade6c27ed36c68b96184e704a8c8a2b323ff77b78"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\visualize.py",
+   "bytes": 13085,
+   "sha256": "f401f524955c1992c3d49f11c2215160739316f6b1e188f0a74ffd39b25775f1"
+  },
+  {
+   "path": "four_side_1024\\bundle3d\\__init__.py",
+   "bytes": 673,
+   "sha256": "a5927adf58421379dc46c419734c139c7a87984a173f2a918200b61628301e52"
+  },
+  {
+   "path": "four_side_1024\\c4\\engine.py",
+   "bytes": 11282,
+   "sha256": "2a7d360b7b6fd18df81af78c498c1d06e5c3fa12871336676f152b724afcf2a1"
+  },
+  {
+   "path": "four_side_1024\\c4\\layers.py",
+   "bytes": 3651,
+   "sha256": "a61ca9258e852263123d934e2d8fe282ea557c8863cf0facaa36c6c4a86b0096"
+  },
+  {
+   "path": "four_side_1024\\c4\\optimize.py",
+   "bytes": 15627,
+   "sha256": "d9685d34e19b7adaf615943ca8d6fb24d93e464ec575fb476b6b5e6d31db29f7"
+  },
+  {
+   "path": "four_side_1024\\c4\\orbits.py",
+   "bytes": 15155,
+   "sha256": "742789a6890e14c3dd7566a50edd38682299c30ef19e0ceca90fdb30d01a8ef4"
+  },
+  {
+   "path": "four_side_1024\\c4\\plots.py",
+   "bytes": 76267,
+   "sha256": "4a604a0cd3cf74ccc0d2b64819e9a778e18f9f0305494790716b6c962d7c8d82"
+  },
+  {
+   "path": "four_side_1024\\c4\\report_c4.py",
+   "bytes": 23277,
+   "sha256": "231b50fc819e18b67a075769472866faadaa5bbcf2952d3d112869425ee9c598"
+  },
+  {
+   "path": "four_side_1024\\c4\\run_c4.py",
+   "bytes": 18575,
+   "sha256": "0ac6c13b2ad4867183fee590e3e20320ed91101875f8030e1a07e465878f587a"
+  },
+  {
+   "path": "four_side_1024\\c4\\validate.py",
+   "bytes": 52060,
+   "sha256": "0a924f6f14166595e39e8127ba9ea86d9a69439717d82d384c80921488cb4664"
+  },
+  {
+   "path": "four_side_1024\\c4\\__init__.py",
+   "bytes": 724,
+   "sha256": "e30133ff1295be711869c78c3d91ffaad6c87248eaab5e779fcefd02f79dfffc"
+  },
+  {
+   "path": "four_side_1024\\d56\\candidates.py",
+   "bytes": 17434,
+   "sha256": "4412259f1af50f0f96be917a8b54f8e4e0840f216aaf6abed17d38ce7e61eeec"
+  },
+  {
+   "path": "four_side_1024\\d56\\frames.py",
+   "bytes": 2961,
+   "sha256": "0d125a71a575d22c11438e7adfc8788b33ab3f91fe9b39c97b4f8c9a70497279"
+  },
+  {
+   "path": "four_side_1024\\d56\\index.py",
+   "bytes": 46798,
+   "sha256": "c65e1c28bf4b8ca064267537ca10bcdd0014f1987ddc886ab1c5968876a8b304"
+  },
+  {
+   "path": "four_side_1024\\d56\\outputs_d56.py",
+   "bytes": 89728,
+   "sha256": "ab4f50a6b551eef643ce9264993a115375a508a9f392a0e8dc05e4a3a3cf3071"
+  },
+  {
+   "path": "four_side_1024\\d56\\plots_d56.py",
+   "bytes": 23708,
+   "sha256": "f480cb03f633a3c16fc516ae5dfe1f6b311568e5015f3688c2c2d347ff0bdab3"
+  },
+  {
+   "path": "four_side_1024\\d56\\run.py",
+   "bytes": 12344,
+   "sha256": "5e6a7f35d8712c65d06696f6b4f7aec0a2efb672ab90f342381857dd704ae36c"
+  },
+  {
+   "path": "four_side_1024\\d56\\search.py",
+   "bytes": 18622,
+   "sha256": "2d569cbd100d7cf80ffd749dcebd42d633e13ba02b0ae3ec00c4945b41390e42"
+  },
+  {
+   "path": "four_side_1024\\d56\\validate_d56.py",
+   "bytes": 108077,
+   "sha256": "5934a2c901280cce5ef4589a55adb8599df6c5b9491679267ba220b4ef5a202b"
+  },
+  {
+   "path": "four_side_1024\\d56\\tests_d56\\conftest.py",
+   "bytes": 882,
+   "sha256": "4f48abac3f9eb4c0c506d4faada33b26b806ebc25207378d2d784e60181cea7e"
+  },
+  {
+   "path": "four_side_1024\\d56\\tests_d56\\d56_helpers.py",
+   "bytes": 11196,
+   "sha256": "573fcfee7959b8f9e08dbae49fe610fb87ae264862b8661c70bad72c8701728c"
+  },
+  {
+   "path": "four_side_1024\\d56\\tests_d56\\test_d56_cli.py",
+   "bytes": 9358,
+   "sha256": "6776c969e73244ce0f80d668bfb0c50a2b6b29f38a535519b4586a2e251dcd06"
+  },
+  {
+   "path": "four_side_1024\\d56\\tests_d56\\test_d56_historical.py",
+   "bytes": 6768,
+   "sha256": "2b280cb3f4adb36c4d99674f6d3d4adfa432d853604ed4275af63a3819123e62"
+  },
+  {
+   "path": "four_side_1024\\d56\\tests_d56\\test_d56_integration.py",
+   "bytes": 2679,
+   "sha256": "27e13a5af3be884257932ec74872861f451fb56d03dfc21f4d97687fb642a93f"
+  },
+  {
+   "path": "four_side_1024\\d56\\tests_d56\\test_d56_pair_audit.py",
+   "bytes": 12279,
+   "sha256": "c42929428c597d7eebc8f83b5b6aa69e67f8b1d239e34275fe50f9fbdc5a56bd"
+  },
+  {
+   "path": "four_side_1024\\d56\\tests_d56\\test_d56_performance.py",
+   "bytes": 2547,
+   "sha256": "8eebdeb5500a645ef3bb2fb627e2af3877ed2e34362d0d6713ef566ad5ba57ba"
+  },
+  {
+   "path": "four_side_1024\\d56\\tests_d56\\test_d56_real_run.py",
+   "bytes": 3695,
+   "sha256": "ecc9ecd6e07646189489d8614370a42091361bf3f15aaf0674190c8f0c7a0040"
+  },
+  {
+   "path": "four_side_1024\\d56\\tests_d56\\test_d56_short_s.py",
+   "bytes": 9297,
+   "sha256": "0a6140671c8fbdf6fef8cc6854d4e47de1722b86e1e009beffdfaa07f01979ba"
+  },
+  {
+   "path": "four_side_1024\\d56\\tests_d56\\test_d56_single_route.py",
+   "bytes": 13397,
+   "sha256": "c5267548f98e6a5b507578c33ea97a076635bd4fb88a8d2b502d5c4083833a18"
+  },
+  {
+   "path": "four_side_1024\\e1\\compare.py",
+   "bytes": 9528,
+   "sha256": "90170d4b06dd6a2d1b48102ff5bd489f7d6f3b0d8016665bfe41ab4f7e9afe58"
+  },
+  {
+   "path": "four_side_1024\\e1\\core.py",
+   "bytes": 32961,
+   "sha256": "5a4800b4996b2c161ac75f969f546e1d8899d40a18885152176390efe14dfae2"
+  },
+  {
+   "path": "four_side_1024\\e1\\finalize.py",
+   "bytes": 1517,
+   "sha256": "0e13d2d7ca7e43ee16b4e145eb53ebed1a31a9c2f1648f4a493dddcf49407617"
+  },
+  {
+   "path": "four_side_1024\\e1\\layering.py",
+   "bytes": 8395,
+   "sha256": "67cebf5e248632cbd8cfe7fbb02947a2e3c3e059c172994cbc5073ac0652d34e"
+  },
+  {
+   "path": "four_side_1024\\e1\\plots.py",
+   "bytes": 20689,
+   "sha256": "a9e250dc4c00da829e291687381020bc7d655109e7a959756e1bd495eb809afb"
+  },
+  {
+   "path": "four_side_1024\\e1\\prepare.py",
+   "bytes": 2251,
+   "sha256": "454c606a7396c9c2d26bd0f59f6c06e0dcd0623fa7482d965402707ec7192b16"
+  },
+  {
+   "path": "four_side_1024\\e1\\refine.py",
+   "bytes": 28465,
+   "sha256": "54cefdf42c25c0bf7d14fa587b1c07e9e581e92a0aa39cdbeb3ce6fb5c1843b9"
+  },
+  {
+   "path": "four_side_1024\\e1\\report.py",
+   "bytes": 26881,
+   "sha256": "fdf45ee089e2aac14845cdf05e10fd4a6ad83daea3b90e39e91a65ed8d4bfa5e"
+  },
+  {
+   "path": "four_side_1024\\e1\\run_e1a.py",
+   "bytes": 45016,
+   "sha256": "a029a7e13676ed9a486fb4966e6c75f24be2d4b0a6604a9f3482397e9be14dee"
+  },
+  {
+   "path": "four_side_1024\\e1\\run_e1b.py",
+   "bytes": 25725,
+   "sha256": "57bb54855e6ffd0336caf266a3f69101d175b2a1a30fb5e72804364eda581219"
+  },
+  {
+   "path": "four_side_1024\\e1\\run_e1c.py",
+   "bytes": 16076,
+   "sha256": "8ea7b48830bba2a76de715136ff1726da59bf3079219a557ba4b08a06cb4ada1"
+  },
+  {
+   "path": "four_side_1024\\e1\\run_e1d.py",
+   "bytes": 90409,
+   "sha256": "1868a7aa1f6d9ac5ada08db8f07a7dc44d8c8b9d298dd2fd8b2ae1976b32e078"
+  },
+  {
+   "path": "four_side_1024\\e1\\search.py",
+   "bytes": 16827,
+   "sha256": "c06df85d7f3f40f756249a110923a90f1f3849923211bc75834332d69a6ebc1b"
+  },
+  {
+   "path": "four_side_1024\\e1\\verify_artifacts.py",
+   "bytes": 2617,
+   "sha256": "a576193a1d486c0c53afc6bb61db3182b5a75e99a854e0e58c390a6bd2e46b15"
+  },
+  {
+   "path": "four_side_1024\\e1\\__init__.py",
+   "bytes": 54,
+   "sha256": "74861e7e4f7475af07958897b354b9e0d37a55d03752cee031cb5bf5686edfb3"
+  },
+  {
+   "path": "four_side_1024\\f123\\core.py",
+   "bytes": 25077,
+   "sha256": "458619af5183ef8c8971287128459456c8241eb793f80736408bddaeb833c503"
+  },
+  {
+   "path": "four_side_1024\\f123\\report_f123.py",
+   "bytes": 15218,
+   "sha256": "e0b3c8414732333cc3e251f9cc750c3f458f45230c0a9a9573941b809978380c"
+  },
+  {
+   "path": "four_side_1024\\f123\\run_f123.py",
+   "bytes": 13568,
+   "sha256": "0e575e76a6897d2197b7203c231910de2395001e8bcaa01ab9592f00521c4bb0"
+  },
+  {
+   "path": "four_side_1024\\f123\\savefigs.py",
+   "bytes": 12506,
+   "sha256": "1fe0e43fab77e02d32f6c31bc16c94ad2002f3a203923b6e8cb677d3f57c19ce"
+  },
+  {
+   "path": "four_side_1024\\f123\\__init__.py",
+   "bytes": 67,
+   "sha256": "8c108d54f670c4e3ca2b97770fca417f8d82e6e26be426e53eac9ddd940dced3"
+  },
+  {
+   "path": "four_side_1024\\f2fix\\finalize.py",
+   "bytes": 17538,
+   "sha256": "d99df3c7e48849d177c99f9ae64a14045b30e4b754c5b0b5ee7a248d101d2164"
+  },
+  {
+   "path": "four_side_1024\\f2fix\\finish_artifacts.py",
+   "bytes": 14770,
+   "sha256": "a004faf677374964b27cb66dff93e20a05a0776aa8096530b61dc0016ff5e79b"
+  },
+  {
+   "path": "four_side_1024\\f2fix\\run_f2.py",
+   "bytes": 20331,
+   "sha256": "54c8a23ea2140800bf650bd0481582c7861251e3f8f335aca68fdac90fbc9026"
+  },
+  {
+   "path": "four_side_1024\\f2fix\\__init__.py",
+   "bytes": 84,
+   "sha256": "a787234c0466a9e3117f06d45de0d8a4ce401078cafe7877e556b65b58a5f7e8"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\archive.py",
+   "bytes": 29349,
+   "sha256": "eb0bfc02657d0be91d584be18a861539125041872b045f6e47f3a7bcd4c59a9e"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\assemble.py",
+   "bytes": 13258,
+   "sha256": "9f65f06c56a8f696b5f107f6e0f10d4f178440282b4027a3cdf662fd37c41f49"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\assign.py",
+   "bytes": 60122,
+   "sha256": "4053c8adf74e3cfe5325e6c8b9d75dc595cde8f937ec5d35205b1a5482e0aee9"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\common.py",
+   "bytes": 13699,
+   "sha256": "18a08917fdf4ded9d05fdfeae62168b3ebbe3d332685523d762fab00ef2db70d"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\fanout.py",
+   "bytes": 96249,
+   "sha256": "e3156fe22be60beb63fa91abc3a0b38b97daa672e43b4011161b1065a6462465"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\layer2d.py",
+   "bytes": 99560,
+   "sha256": "3ab842b575ea1dce04e57241da5bb8a644e0cca2b262e3140ce7182a4cc952b4"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\patent_structures.py",
+   "bytes": 50711,
+   "sha256": "4403dc0548f6a46233526275fcaacaf9c24ad14410503a65ebe6751cde3a5274"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\plots.py",
+   "bytes": 30962,
+   "sha256": "00fb7674255d3d62c10b0772d044c87aeec9bb376b8704fbd431a0af4cb6f2ab"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\report.py",
+   "bytes": 102145,
+   "sha256": "2cd230425925963fd1a724e3f6f9180dc5f6ad6444f6b71652532883c1992b14"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\run_all.py",
+   "bytes": 74942,
+   "sha256": "c98ca4ac8341bb25c9e8fe411a3750585c93e256dc7b5b48d41d368258ee424e"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\tests_data.py",
+   "bytes": 25848,
+   "sha256": "92e09974b97b8aaad992756e1a9c76fb2094c47e14b6c7d484ed2116b4d76194"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\tests_fanout.py",
+   "bytes": 45656,
+   "sha256": "74b09d3e1a795f6520558d60d606e3828f8c3c517933e6d43c1ae0a16d4af767"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\tests_layer2d.py",
+   "bytes": 40880,
+   "sha256": "b62efae609938d8379787b1a8fa7f7c3e0f46902fc6b40380bd689432b9767cf"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\validate_final.py",
+   "bytes": 118953,
+   "sha256": "c71e82c138dd0ea69193b4d9a033ca7005a92290c81f0fa2a18a47f5d0cdfae8"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\verify.py",
+   "bytes": 77253,
+   "sha256": "3d118792ef508ead4e1e6877e05cc3c5fe0d6888b7bb128c90099a02905452b4"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\__init__.py",
+   "bytes": 844,
+   "sha256": "693e0558bc98cb9c4f10062632578742920c81bfc3ce32b9561c44a8ae6a5d88"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\bootstrap.py",
+   "bytes": 11539,
+   "sha256": "13400e727eb40eb1710307d5c4417d02249966152fc765cf12a8928a551a3a6a"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\build_final_report.py",
+   "bytes": 16525,
+   "sha256": "43acea55f9d5bb6d8cff674cc6118c2f48dbed3f6e552097c14ab4ead310de3d"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\collect_final.py",
+   "bytes": 14991,
+   "sha256": "06dab068a354181277a2990946a4f1b9449553265262080193f1adc534c94969"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\convert_multiarc20.py",
+   "bytes": 27674,
+   "sha256": "f6a7d4604068eb55663be357f5abc9e1dcfb9bf396400598377221c6be3acdd0"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\model20.py",
+   "bytes": 40124,
+   "sha256": "3afd35b193c32bf858f55f6897246bcd332b9fd74ea68c1db1e4a41bae6fe489"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\paths20.py",
+   "bytes": 3607,
+   "sha256": "6f82260be563ebe93931f76a240973576aafd2b33827010c0a9b8e7ff91282e6"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\plot_final.py",
+   "bytes": 114859,
+   "sha256": "6d1788e52ec45ffe75c958f5849092d1b6d23d8f94edb8cad0f8e54a3d724ebc"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\plot_layers20.py",
+   "bytes": 42076,
+   "sha256": "6409736c5f1dbf9b32945b1c85cb8504c0ffd9d42d5f5adbf334fe6bdd6b8639"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\profile_env.py",
+   "bytes": 2706,
+   "sha256": "a3f3b4a31269693861f39ecae0f13735a42439f741553df2fe3259d742438b75"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\run_g123.py",
+   "bytes": 62569,
+   "sha256": "61ea44f0289599b92c3ebb93677f89cf5eece6420ab35733fc255922871285fe"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\run_g4.py",
+   "bytes": 66013,
+   "sha256": "c407467acbc1e1dd1753c97cc692f1f3c445be8c3c366e621c411498a192871a"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\run_initial.py",
+   "bytes": 2663,
+   "sha256": "3b2a07232606112f62c072abf955df1f4f0855bdc6575cd6470399717bf62fd1"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\run_multiarc.py",
+   "bytes": 130743,
+   "sha256": "3a50210c7d54f7a98a95a679d4f58421ea1de26eb2fb15de98c39da06b5d9bac"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\run_native3d_phase1.py",
+   "bytes": 13768,
+   "sha256": "35d8184341ef5392d115763c0be6f9a5f653a1573e6cb33beee9fcd8688a480f"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\run_native3d_phase2.py",
+   "bytes": 32348,
+   "sha256": "664e2c9885e2e5c3431f64af149c0b7605b0e7b7206bba66ffff3594f73d9062"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\run_nonc4.py",
+   "bytes": 23964,
+   "sha256": "41b5308b74d3ebd6eee5c6db1f3bdf13b7fa1e53e5a35b0834b3cf1326d5db4c"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\run_validate.py",
+   "bytes": 3292,
+   "sha256": "84b6f676532368a1ef687321dfdbc9350c5e4658bb678099115df871dec09d7c"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\select_final.py",
+   "bytes": 10439,
+   "sha256": "798cdbb5088403c859f17044002a912d5148494aa08feb14559ec9f1c0182998"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\coldstart20\\__init__.py",
+   "bytes": 1455,
+   "sha256": "d1f10b1ba6c522aad16f8192ae5e8ed013215795ebf2d7e7faa917dfc7b98454"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\arc_crossing_analysis.py",
+   "bytes": 139061,
+   "sha256": "768a5d67d09162864c629febde91ae72722d0da345ecf8d32d779df65d571d3d"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\batch_avoid.py",
+   "bytes": 16757,
+   "sha256": "e97633a164dad984d216072a2207b2e71f2c27cd8954edc88f93a7c34b7204e4"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\blocker_analysis.py",
+   "bytes": 113708,
+   "sha256": "12fc8706453f2f34c99f325874c80df37ed1103a035d8236f38e1fb054a980ef"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\common.py",
+   "bytes": 11206,
+   "sha256": "07c862369a010a156246f58f91c68a93923ad9206a8bda7fa2dfe1e9243cb714"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\crossing_cache.py",
+   "bytes": 10881,
+   "sha256": "03f0e9dca61571cfaa7533568459331827c01a5a937c5b3712a4a953d75a6382"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\crossing_intervals.py",
+   "bytes": 123622,
+   "sha256": "c61d5cb67c10ae155ad6ae692a13b88fb63522fd28523e7089759709c5e5ef73"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\excursion2.py",
+   "bytes": 16061,
+   "sha256": "d465dac5435c561cfaf04105c3043ddd2d35a9abd6fb3c98735aecf881824fbc"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\finalize_phase2.py",
+   "bytes": 42882,
+   "sha256": "deecb491b2dfa954d4c10d7f5918c562712938204efa4a0a1c2a5fbf2e1da1bc"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\final_deliverables.py",
+   "bytes": 28494,
+   "sha256": "9f822a3ab70592bd6332a02b02884ffae25f84dd01a8072fcfeb63da83ea6af6"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\global_optimizer.py",
+   "bytes": 19014,
+   "sha256": "c75f3015fd5135f07a0346d532d0b3553f090e635447d588dac5da1816eb9871"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\guard.py",
+   "bytes": 7466,
+   "sha256": "b2fd9b29d0e9285c2c562567a06f37d621e5d6b62684f276a68db78147cb74e4"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\joint_reroute.py",
+   "bytes": 15324,
+   "sha256": "36def23fbe8b62b46c854c25da10cb3fbc7990b80032df1426ee58fa254c2d61"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\phase2.py",
+   "bytes": 16082,
+   "sha256": "6b6921e9e50dd743511f4593eb9a0c53cf66d6bbf6595fa3f0b882d2e988c7ed"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\route_model.py",
+   "bytes": 15340,
+   "sha256": "7e569e4b804e814ae74d3c7aa8d10cd4295a1e00e17325c971319abb51423cc5"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\run_a.py",
+   "bytes": 19224,
+   "sha256": "0eb036e08342f47a2a175c0ad77f8b4cbdf1abb7113ac6947f545cdcf46f7064"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\run_b.py",
+   "bytes": 9565,
+   "sha256": "a8ae5d145d77b777a1cd0dcec454a7d173f861822677b0ea0d8c267358a749a0"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\run_d.py",
+   "bytes": 11928,
+   "sha256": "9e95403c5be3ca3d8ff6e4f9f3ef0daff0fa2a99c1682471243e2b47dbf8921b"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\run_e.py",
+   "bytes": 19222,
+   "sha256": "0693beec830320d78526696dca35642bebcc9c9a297357d25872b49900dd12ec"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\run_f.py",
+   "bytes": 20432,
+   "sha256": "9f1fab6276d7076d235f4bc715be979f67c56f9e73a4b521dfdd00b279298ae4"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\run_f_nearmiss.py",
+   "bytes": 7697,
+   "sha256": "5d89f5382f0411a00a84caba3e88da1f9b87fad84d00833f7868a1d9f62beb3a"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\run_f_plus.py",
+   "bytes": 4809,
+   "sha256": "c3bc965c07fc29b148ef1199ffa72f80f05456adfdd269facea700d7d7d521db"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\single_route.py",
+   "bytes": 15690,
+   "sha256": "ea1c2fe4758266d6840a282d9ee86f905963b9e758f225c010a3629cd535e4f8"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\transition.py",
+   "bytes": 6824,
+   "sha256": "e0f9f798ebaed318ac52c451c2305ea60f1d5c1aac641eac7d306ebce1b2a36a"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\validate_native3d.py",
+   "bytes": 135646,
+   "sha256": "9cf153c56d7adf4eb1460f5c4081740a2ed20cfde438a0e081e7641d597462d7"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\visualize.py",
+   "bytes": 141432,
+   "sha256": "58d1e17322fbc6ba40560c9c60fd12560168293252b51e1d8ea94da8cce83a54"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\__init__.py",
+   "bytes": 808,
+   "sha256": "bf30587844f7c13820ddd8f54e5466ce4c1f17769302f65f7d2b16771a312f43"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\tests_native3d\\synthetic_native3d.py",
+   "bytes": 25003,
+   "sha256": "15d534e5990e85cf5eacbf285ddd76e22b7171e93ec1d90fa826b0949f33c2dc"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\tests_native3d\\test_synthetic.py",
+   "bytes": 247,
+   "sha256": "71565cf0ab36266416d1b59b6dca9250c42dec782fae595e7813980d8f6e2a6f"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\native3d\\tests_native3d\\__init__.py",
+   "bytes": 337,
+   "sha256": "27147a5fa3ed63a997512a7742a440ad5ded9126d78c5d64894eb8739401d09f"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\assign_nc.py",
+   "bytes": 21925,
+   "sha256": "4819f210a820ed5c98396696ded875ef5b9356c4a8771f0988a16410f87a3c36"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\assign_opt.py",
+   "bytes": 15218,
+   "sha256": "b166103eadaeb5154497bae0d0759f7096e62a3efa03281090d6f2de0fb7a182"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\crossings.py",
+   "bytes": 11494,
+   "sha256": "2b61877b601638248b309d6fa9f100073e99d5d97b3dac1ad295ecb5a824666a"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\cross_router.py",
+   "bytes": 47294,
+   "sha256": "c9a4ec69fe4c36cdf8397850845c875e8fade840de90ffc06be4618988a42bde"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\data.py",
+   "bytes": 9651,
+   "sha256": "57eb01660e8442674ca1e74dbcfe2d1b2282071161f48c0b75023fce4ccbb539"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\experiments.py",
+   "bytes": 9643,
+   "sha256": "8330f0982e12ef4f10527e2f38e5fe4c917736c5e96ed077dfb715bafda753a9"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\final_report.py",
+   "bytes": 36452,
+   "sha256": "d7071995f32b380421ee8bde97993e12576698525a8c169ad053ab8b9d1753a8"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\paths.py",
+   "bytes": 2661,
+   "sha256": "a210672252c2cf70444aaba63fe77e6f9b2edc6e6f4f33ee71613e9e03d74559"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\run_nc.py",
+   "bytes": 47139,
+   "sha256": "83b6154f484abbac91a9b1274e559416c998e5599c747767370743d1b4d38f95"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\search.py",
+   "bytes": 6757,
+   "sha256": "6aa4b9eae8a1fc132efec40bc5d9e67f0016acef6be1a5c17a3d698c1983d030"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\validate_nc.py",
+   "bytes": 10191,
+   "sha256": "2919da3c7b5728f22958cae34fb4a63555200131cd824494b785776187c1d859"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\nonc4\\__init__.py",
+   "bytes": 833,
+   "sha256": "acc6845cbf8c1b49437bb72e6e6052083b9e35a02850994bf5c0e1b15085f150"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\archive21.py",
+   "bytes": 23387,
+   "sha256": "ad34a1d66b69ed96b55382b6429f5f34837e169068bcbcbdc1e997710757596a"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\assign21.py",
+   "bytes": 73001,
+   "sha256": "a35e4b118ca67356b87c8e1c9eeac5ff3fca52a7f8eb559605de8e51be267097"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\model.py",
+   "bytes": 37190,
+   "sha256": "8a5c43f7454d7994702ba6cb9f307a4f4ba9f1674b2894d67cea28f74bbab7fa"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\plots21.py",
+   "bytes": 144146,
+   "sha256": "c1e1badebf98f2a568cc1382d623679e831d19e2e295944ffe44d47a5a3bdf52"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\report21.py",
+   "bytes": 97837,
+   "sha256": "eb40634e12f62860457a06016e7a10875bc0db240fbe0b1ed50ffa98b4c62d11"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\run21.py",
+   "bytes": 59278,
+   "sha256": "5ee92683e4c1d0d2974902a4fb5ad29aecbfe588ea7f64d00fdbc1e5ff78ab95"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\tests_assign21.py",
+   "bytes": 23632,
+   "sha256": "208511e204be941264d45f6260c29a6a10e808f9fdbe319f925e54faf207304c"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\tests_plots21.py",
+   "bytes": 34976,
+   "sha256": "efa45ed262a7c41164d31eea3b321031177bc700287a428587d69a373d066976"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\tests_validate21.py",
+   "bytes": 19690,
+   "sha256": "64ea4563605e1ffd98687561d6436b69976664773654e9904362e9f81b710fba"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\validate21.py",
+   "bytes": 154420,
+   "sha256": "3e66641260d78ac95e4f906ce69bec62873ab2034cf39761e639e03116898d35"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\reheight21\\__init__.py",
+   "bytes": 1201,
+   "sha256": "546932bbcb399a2d55f920b81551781e5b794165cdd597e85674363aa416ef85"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\corridor_search.py",
+   "bytes": 5196,
+   "sha256": "47c6ad8b8c510617ce3bc5705a7f49deb0952207a3ae26caad7c9e96fefeacd0"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\experiment.py",
+   "bytes": 4314,
+   "sha256": "349b8f55820acb967d2e529bc0624403e49d3ae1c80330ad661dfe85f0d05793"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\l7_audit_plots.py",
+   "bytes": 21260,
+   "sha256": "afb1da16acaef1bc2ad0f20ac24b2d87fd91a97682ce441ac5eefd50eac058fb"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\l7_geometry_audit.py",
+   "bytes": 52740,
+   "sha256": "3c2623bbd5f73d912307a952184df6ac443ba7b978cfc9ffa0cef0118fd7bc3f"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\local_reroute.py",
+   "bytes": 19256,
+   "sha256": "f386e537e533ac1db6dce2663424e60bab702d23998b7d85a14fb0f449144496"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\manual_reheight.py",
+   "bytes": 11065,
+   "sha256": "efab25a8e33061104a138004a821a36511d2c5ef62d7e262332447a4dc4fc9ed"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\motion_primitives.py",
+   "bytes": 5709,
+   "sha256": "cc13b4614db5074c89c01b6c3e7ae03aa4915148b33f61647d76982e3b8c8a8b"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\optimizer.py",
+   "bytes": 16697,
+   "sha256": "9a0f5d6f85012991b96bfccb00d2e440bf628b95c4aa36e31933e4f880822010"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\paths.py",
+   "bytes": 4671,
+   "sha256": "d71109b2cee52ddf1fc6f668e0aa14b541564f730319a745364d130559bc0570"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\preflight_audit.py",
+   "bytes": 124772,
+   "sha256": "9f810a08923d1c1d250c44b51c1af768bec909fef470853a625293de61d3e88b"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\report.py",
+   "bytes": 28564,
+   "sha256": "875f44a9de19eaf1cc9fabdf9fd3924447749541bdcff3b207410e19ade5e648"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\router_selfcheck.py",
+   "bytes": 5046,
+   "sha256": "86fa92230d83de85cd327ec01b280ad4d9c00dcee5804e765d30fa25783e5398"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\route_builder.py",
+   "bytes": 13386,
+   "sha256": "9a4e7a580f2c42e4b7ded2b79647bbd5a81716c05312a277028fee1ca5c48c9a"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\route_state.py",
+   "bytes": 3283,
+   "sha256": "c143eea0af4782abd7c5d18e802ab305eb3fe36cb1145bd7354ab02925c22d53"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\run_g1.py",
+   "bytes": 7120,
+   "sha256": "dc5614e3c73611a7e4adc2d46d22e48b2d102c536b8530d170d92487e799642f"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\run_g2.py",
+   "bytes": 11824,
+   "sha256": "c2128aedeaa9a5ae966f59e701ff3a79717cf9e8aa30c0ca0c2e256f1cdf312c"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\run_g3.py",
+   "bytes": 3133,
+   "sha256": "944005ed780e381985956ee0c105032915d628bc807fe1bdb26ee474e7769e86"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\run_reports.py",
+   "bytes": 9804,
+   "sha256": "9b608bbfd9fc0dbadd76d2e81cf7e2b96d146cb65a6d96952da3e74262c1fbde"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\run_router_validation.py",
+   "bytes": 130961,
+   "sha256": "174df4b61e60f9e32900abf3ad6747ea532f078518cc129991dae8327daffe37"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\run_warmstart_chain.py",
+   "bytes": 5832,
+   "sha256": "a59ad11b4e8760b21ffe01d772cb1ae9ac91fcbbfa33224ca7f84026d5cd4161"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\tests_validate_xyz.py",
+   "bytes": 69536,
+   "sha256": "ce03cb37cefeb665aaf05eb23983fcdf9daaa635149fbe7b8d3f29ac6f735084"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\validate_xyz.py",
+   "bytes": 16175,
+   "sha256": "fa1f24e7c1fe6c70284961a6e254396543689a9f3d91df0bfe2f68cef9af1e63"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\visualize.py",
+   "bytes": 155651,
+   "sha256": "f249a76ed767853043f4823ec070e82bb1487f4180368e48e9e9a09e97b8b9ed"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\world_adapter.py",
+   "bytes": 25426,
+   "sha256": "d73c265dfc1e6cd0fb146201e6d11e4d9754f5b58e98a7c0589781d869262334"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\xyz_search.py",
+   "bytes": 5921,
+   "sha256": "41e13b823d52d1a25dbc3b975d8988edb4c62a02d77cbd04c60af8fd3d74e654"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\__init__.py",
+   "bytes": 1263,
+   "sha256": "56b5b107000604f71155a0d0ad730c5bdaf94f7840484aeff82deb6a66738a47"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\alns.py",
+   "bytes": 53397,
+   "sha256": "c43dd040683791e2599f216f69c015c602733a612910eb881801f0557db8e1d0"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\archive_g4.py",
+   "bytes": 27409,
+   "sha256": "087ea887033ac80f4dd271d22c637e57ebb7e4038c471fe603743d8ac020b37c"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\arm_base.py",
+   "bytes": 11155,
+   "sha256": "959006aeece4dbf2db7340af5f07f1b0d6158581cf0bfaa9ff32708ec5fba51d"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\artifacts.py",
+   "bytes": 11330,
+   "sha256": "8129af054dc8ad8316967d791c7ef04de53897470bcfbecc163af2057a3c1f73"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\c0_continue.py",
+   "bytes": 43334,
+   "sha256": "066692947fd231a40c371471003c079fab21ff6e01f9cc216ad41c961619a99a"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\contract_audit.py",
+   "bytes": 42136,
+   "sha256": "66e727aa113cb4cca69541f0518683620ee3fa5a84f7232153a0e76dc6f7c5af"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\failure_analysis.py",
+   "bytes": 45321,
+   "sha256": "a52c87667863bc5cdc94cd2877893725caf11feef3c9147bd1da1a02925fdcaf"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\fair_runner.py",
+   "bytes": 60269,
+   "sha256": "7816d7fdc52eddbfff6f2a41b5bd8b9f1f68067ade99a5a070fb4f4ab5a5c10b"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\group_replan.py",
+   "bytes": 50970,
+   "sha256": "b0a7f94dd7377a16fcd86b710d309039b21b121f8e08c422e5faa02dec0367b6"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\independent_metrics.py",
+   "bytes": 100669,
+   "sha256": "a821d6afe3f9f6e7d1f9ba3b16e0ca464bfa6e99052e8f3e5326c390b21ca343"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\joint_world.py",
+   "bytes": 33274,
+   "sha256": "4a7e65430bef334341bd5e42e88624d7d77383805a462f29246b976f806b3491"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\ledger.py",
+   "bytes": 4465,
+   "sha256": "a235d7a08687272f97894e886a4b5dd9d848f22a6b0b4c74d1120d83383c867c"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\make_way.py",
+   "bytes": 27954,
+   "sha256": "b8388b84729b59109731b0fb1be3019e290f5cf58668a69eb39340b4d12aa4d2"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\metrics_collect.py",
+   "bytes": 90718,
+   "sha256": "92c79d29e378d37c849a36a4d3327bdfe648dc8283489b212eed33d1d7c5cd30"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\neighborhood.py",
+   "bytes": 19464,
+   "sha256": "ed382a00d463da090d50e5d8542330f7c63d95d6c40bd97fbfaa563a419529b5"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\paths.py",
+   "bytes": 17590,
+   "sha256": "ce4480eb69bbee230a033fc19d4ea594b2d6cd9f1626d25705eea1f677124961"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\plots_g4.py",
+   "bytes": 79456,
+   "sha256": "e681586ac406af47cc95aa76bb5e3435a0918238df99fa7c7beac79b0895cba5"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\report_g4.py",
+   "bytes": 154295,
+   "sha256": "7ece4b9e759fb352cc301a66e48c41939b939293d00af7f0aa3da30570a82b57"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4a.py",
+   "bytes": 34077,
+   "sha256": "756787ffe5f708833e720712e78832f47cb48429f5f25d1a8dcd36c33290f41f"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4b.py",
+   "bytes": 44008,
+   "sha256": "28a7c3dbf53b53db92d2fb8c7291cbf6cb15cdac3e8f498674901401ecbb7754"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4c.py",
+   "bytes": 7753,
+   "sha256": "c012653db960e2b1d4e9ab44f19e7050ad32585865da66c4faba9350a1ef53f6"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4d.py",
+   "bytes": 6948,
+   "sha256": "29e93493e19516364511bbd934bb1436f45a7f093d92d4a5e3ce2057f234f8ab"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\run_g4_engine.py",
+   "bytes": 3934,
+   "sha256": "8960c0e0f6b9aafec3b367798ad87ff68f4a78a49dfcd2379a3a60fef7a86a6c"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g4\\__init__.py",
+   "bytes": 606,
+   "sha256": "70f84ceae32d9ea52f5b1f90bfe1493b1e2cea34424d7fbd888cc2458253c28d"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g5\\batch.py",
+   "bytes": 9031,
+   "sha256": "9ea42df2a3a92b6fb4676d6524056171d29ceaecc9e1c8ca78cfcbb39b08defb"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g5\\candidates.py",
+   "bytes": 38794,
+   "sha256": "a4b37cbeb147bf3444fec5d86a3e3208727398acd226e512472b6b08fdc479b6"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g5\\engine.py",
+   "bytes": 20160,
+   "sha256": "4c3b36a45109a8194b402ee16c259674927301d0787582ea7f6c739307561716"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g5\\layer_solver.py",
+   "bytes": 14479,
+   "sha256": "73c63fe57ce4e0c27502ede0d283e6a530e98e6ce30e1453f6d056701c484a91"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g5\\model.py",
+   "bytes": 46619,
+   "sha256": "ba33967990760a70b82768c4f6063aa508a65b4e6944aa98174d6f8d66af3cd4"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g5\\search.py",
+   "bytes": 16728,
+   "sha256": "02d94611867d57a2db92c856890fb6b81b6ab7398db7b61575d555272a23334b"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g5\\validate_g5_angle.py",
+   "bytes": 83845,
+   "sha256": "cf61e34fc090c34c18c2d299d43b35f7ba655df54345f33226115fdb0587bf96"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g5\\__init__.py",
+   "bytes": 1022,
+   "sha256": "2ddd82482933b1637ee2ac86aa12d664dd5c3cfc48062c8b38997a2dbc1a0118"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\finalise.py",
+   "bytes": 7381,
+   "sha256": "e25216f614b3a7a8daf340c0ff30e13886b173bbb671d939b27f1d4c919e425c"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\geometry.py",
+   "bytes": 19784,
+   "sha256": "5e3eb4b30748c141cb339893b7b6f9d2519609be73820f91d1533cf43357a550"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\neighborhoods.py",
+   "bytes": 32507,
+   "sha256": "1c85bb3aaebfa7575654c502ed81c08d9224952d0cc70c30ca0a2885253e098f"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\plots.py",
+   "bytes": 14415,
+   "sha256": "55eb774227781e006486aa6325d96dc92a5d0f1b00358da824ace72216bfa67d"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\polish.py",
+   "bytes": 14799,
+   "sha256": "e4e2bfc1b88ba8e17286cf713c5043db9bef97fe7731f7567436918f9e6901aa"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\run_early.py",
+   "bytes": 5918,
+   "sha256": "eb907905a3a07fcf6718e7d45a0124a8ffa336588bc85c53441fc6866da0f69b"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\run_g6.py",
+   "bytes": 10282,
+   "sha256": "cb2a4dba6a4f7262845d01746e61b587663e9c628f00f0c4c783d21de0672aff"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\run_polish.py",
+   "bytes": 4802,
+   "sha256": "fb42507ded29df592ab4af8e867eb649f9748ed6ea1ae99ab2f3ed07cb06dbe5"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\sa.py",
+   "bytes": 25675,
+   "sha256": "247117f0cf3541cdfa6baa46b956f31afaf0a01c4a9b6130f1d59f193df6dcec"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\selftest.py",
+   "bytes": 19277,
+   "sha256": "1b4a7d7cbbc3494089de519b12487f23fe3de232974029aafc3716ab3fe91644"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\track_residual.py",
+   "bytes": 8752,
+   "sha256": "f8f61a69ca59610157478dd6424d47b4ea60e7b5e130d952ced8cd2f74eb490d"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g6\\__init__.py",
+   "bytes": 1132,
+   "sha256": "e2b76a52c8b085d56c3bfe0adfbe4857371a2a10ca9044d6d4e3f564aa62bd0e"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g7\\analysis.py",
+   "bytes": 11760,
+   "sha256": "fb6ca1c19d874ba9f273bdc8cce598cb8efe6b71d2f40be3edad4bf75b2b044f"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g7\\engine.py",
+   "bytes": 21106,
+   "sha256": "95e4d53b8dbabfb15c5f53e25e62741273e0ca3450e778916703cfabc2452846"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g7\\finalise_g7.py",
+   "bytes": 6179,
+   "sha256": "d605bacf19c1bb1eccaff8b661edbaab06b5a0ceb3fc697e8bab18deb04709ea"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g7\\frozen.py",
+   "bytes": 8689,
+   "sha256": "879df2be2d1eb61c10152515b2392de973362919c8c6d415fa2c9fb287ab7c1c"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g7\\plots_g7.py",
+   "bytes": 8603,
+   "sha256": "e04f7cdaf791c0d8ca96acee440c594553e0b98be1b1e200aac721ba3877d5f1"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g7\\run_g7.py",
+   "bytes": 10064,
+   "sha256": "3667e2baddfd78e05be244ee38d94690c65f03bc2588e6fbe969c2fa1142e573"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g7\\run_polish_g7.py",
+   "bytes": 8837,
+   "sha256": "d996eb9fe8efe925270767d0dc05b02992dad618c55866139ecce8a5fb3f2251"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g7\\sa.py",
+   "bytes": 39558,
+   "sha256": "8398e3513adb48240baf7d08d13bb5eca1492080d55b59a8aa762c90e4280926"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g7\\verify_fixed.py",
+   "bytes": 4396,
+   "sha256": "b7da51c3f74c91444e7a3b801f1788452a9f45823a5895a1f2829d9a9a31b98c"
+  },
+  {
+   "path": "four_side_1024\\fanout1024\\xyzrouter\\g7\\__init__.py",
+   "bytes": 1131,
+   "sha256": "be2f067c164dbeee9fec42d6fd8fe8e50934deff8972726a8ddc7b0d7aea9fa6"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\config25d.py",
+   "bytes": 3992,
+   "sha256": "0c299ffc48b8a2ccda7789f46ec9f126c6e93d850dcbe0ce78ad9cbf5ec8efe0"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\extra_metrics25d.py",
+   "bytes": 4230,
+   "sha256": "d9ff3109448274ad860858d5e23e1f36654225a14d8644c3d273ba88bc5f0b83"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\path3d.py",
+   "bytes": 19578,
+   "sha256": "6dc021dcc8e4f7cf15ad58601d2e7fe9afb46ed15de697541ef195a00f191b13"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\plots25d.py",
+   "bytes": 57580,
+   "sha256": "a9684a192a49a37e4234dc588f41a0300e63651d89f4117211efc396e9b9eef8"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\report_details.py",
+   "bytes": 2973,
+   "sha256": "2bfba26f665468ffd82b69f29ff005125151650f5d8b92bdd7587bf8b1359dfb"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\router25d.py",
+   "bytes": 22853,
+   "sha256": "40c27d7d90657ac133c3711b9faabaf09b02fef492b271829b4002f1986a8f10"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\run25d.py",
+   "bytes": 4811,
+   "sha256": "70a66042d05708d55d810f39aaadc29d51660b86c6d0fc1d42ba96e656b8a328"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\summarize25d.py",
+   "bytes": 120050,
+   "sha256": "1f5f058a12254a9d8fc96d1ff312ed6659d8ff83d6506d4e087acd06d6c4e6ea"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\validate25d.py",
+   "bytes": 99298,
+   "sha256": "1f90b6b4865aef11656cfa632a47b6281025776edcaffa09a8ac1f0177755d7b"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\world25d.py",
+   "bytes": 25344,
+   "sha256": "78b9454ecf685c51f76630228f1b452aa75e0ee7217634e14bfe782e3242c51c"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\__init__.py",
+   "bytes": 75,
+   "sha256": "48f91359b295078cd669533fb41b2c71566d3536c8951029bc1518bc9c382597"
+  },
+  {
+   "path": "four_side_1024\\fsd25d\\tests_25d\\test_validate25d.py",
+   "bytes": 13271,
+   "sha256": "5e05d2a38f7b91433c6c00a66a787242811867ceca2bcc954883be651791720e"
+  },
+  {
+   "path": "four_side_1024\\fslw\\candidates.py",
+   "bytes": 9317,
+   "sha256": "834ddec211106b4ce4fa40992ba5a0376003fa46f666a189784af78220380d97"
+  },
+  {
+   "path": "four_side_1024\\fslw\\combine.py",
+   "bytes": 18760,
+   "sha256": "4d983013f06a7bc9662618ad552886f1f4f2b923cac5cce29c696d321f3fac4a"
+  },
+  {
+   "path": "four_side_1024\\fslw\\compare.py",
+   "bytes": 52697,
+   "sha256": "a71e097f5d38db2ab7b0933ee78b715ce40ea6e70757bea4a0a93b96a4c7efef"
+  },
+  {
+   "path": "four_side_1024\\fslw\\config.py",
+   "bytes": 5460,
+   "sha256": "1a054f6c018d2291a794b1b904eaebe4b85d16d5ecb2c9e81fe5c6ab3d4f12f0"
+  },
+  {
+   "path": "four_side_1024\\fslw\\crosscheck_fslw.py",
+   "bytes": 24862,
+   "sha256": "05310d84067c948e8d8541ba9be7bb2b2e6e6508c2bf631f000ee24feb57fb4c"
+  },
+  {
+   "path": "four_side_1024\\fslw\\d_lns.py",
+   "bytes": 29566,
+   "sha256": "512737efc365b1e9a8d965537df375ec9446341f9a265804db12b14f79aa8df4"
+  },
+  {
+   "path": "four_side_1024\\fslw\\feasibility.py",
+   "bytes": 16612,
+   "sha256": "1cff88d1322b0ef29c8d72b72de93b59e1e5a610e8276928c6885256756d5600"
+  },
+  {
+   "path": "four_side_1024\\fslw\\geom.py",
+   "bytes": 10844,
+   "sha256": "66ee3cf8ecfc2a6b7d005a25efecea60f6af6f71dacaf0820e330f5678651827"
+  },
+  {
+   "path": "four_side_1024\\fslw\\metrics.py",
+   "bytes": 130387,
+   "sha256": "817d3ef43868eafc78b536bd525931ddfceef414fa1fc62755286d01458c93bd"
+  },
+  {
+   "path": "four_side_1024\\fslw\\plots.py",
+   "bytes": 41663,
+   "sha256": "32ba81f7028f3009c92be8244acc18f515215b46b245e36e9bea0b2d927d507c"
+  },
+  {
+   "path": "four_side_1024\\fslw\\ports.py",
+   "bytes": 12136,
+   "sha256": "d339901f427b8d87c31114ccbdf727fff45b18eeae147f4c7aa3316e44fd44b2"
+  },
+  {
+   "path": "four_side_1024\\fslw\\ports_audit.py",
+   "bytes": 87635,
+   "sha256": "de7cd1a26e81fafe4252f61a68e6505d7c0b240cbf811a8d1e90bcfd2c0d2adc"
+  },
+  {
+   "path": "four_side_1024\\fslw\\run.py",
+   "bytes": 16441,
+   "sha256": "9142a286b0528b8d5b7009ae9f5c40d7329fe257deccfae1e75430ce17e475ad"
+  },
+  {
+   "path": "four_side_1024\\fslw\\search.py",
+   "bytes": 10846,
+   "sha256": "06d6323c44bb12c25d6aa6f14beea7592b584e6236608514684807e7f4a9e9aa"
+  },
+  {
+   "path": "four_side_1024\\fslw\\validate_fslw.py",
+   "bytes": 139773,
+   "sha256": "176979026730a895849d45fb50efe90e213a63161987fbfd3e73d9b67043680d"
+  },
+  {
+   "path": "four_side_1024\\fslw\\__init__.py",
+   "bytes": 73,
+   "sha256": "1db6af052125a2edb4ec4cc339805b737a763530726d10ec817205ed518d3309"
+  },
+  {
+   "path": "four_side_1024\\fslw\\tests_fslw\\test_metrics_fslw.py",
+   "bytes": 28372,
+   "sha256": "beb97ff56774d29321864ef70decae3e2dd7f5fe2d708fd6e2c4c9ebd0fe74d4"
+  },
+  {
+   "path": "four_side_1024\\fslw\\tests_fslw\\test_ports_fslw.py",
+   "bytes": 18956,
+   "sha256": "93340a974a22d7fd49d7b51455f53cc22ff09135c52b1306bbba871c7c9d63df"
+  },
+  {
+   "path": "four_side_1024\\fslw\\tests_fslw\\test_validate_fslw.py",
+   "bytes": 19979,
+   "sha256": "501bedfde6c1513cf296ffc3bf5d58a0579f77cffd1a0d29ba66af306df8371e"
+  },
+  {
+   "path": "four_side_1024\\l3d\\baseline.py",
+   "bytes": 4009,
+   "sha256": "f4bc084a3352d61ac0adebbc662edd77e19e5b5e64838802e635ee212ad9056c"
+  },
+  {
+   "path": "four_side_1024\\l3d\\common.py",
+   "bytes": 7678,
+   "sha256": "bb70b140c41b8b70736dcb2dfed86e6f1f71f31ffe31b99568718cac244558dc"
+  },
+  {
+   "path": "four_side_1024\\l3d\\layers.py",
+   "bytes": 15773,
+   "sha256": "2c31076d301dde0d8ab5925b57090aabf26b21f36e18f2fd55056be247f3dc01"
+  },
+  {
+   "path": "four_side_1024\\l3d\\paths.py",
+   "bytes": 24818,
+   "sha256": "64acad71c225b1e5a92bbe31668e9cd73cc8c1ae93d9c762733b8aa7385ff702"
+  },
+  {
+   "path": "four_side_1024\\l3d\\plots_l3d.py",
+   "bytes": 87475,
+   "sha256": "3d39436475c87d8b61d1c6528a5c69bfdeb645426b3cb8df0b6c7b5dde65e82a"
+  },
+  {
+   "path": "four_side_1024\\l3d\\postpass.py",
+   "bytes": 10838,
+   "sha256": "fe1f1e443ad8382f2bde2e2ae826cf077925528c767b02e8398703a1a84a838d"
+  },
+  {
+   "path": "four_side_1024\\l3d\\router.py",
+   "bytes": 22098,
+   "sha256": "ff4f8ec4ef8e9b03a013d5cf13f34fc3c79f9596888c8084d50f478bb15d0c9b"
+  },
+  {
+   "path": "four_side_1024\\l3d\\run_l3d.py",
+   "bytes": 6187,
+   "sha256": "8207fabb3cba1087d2d5ef7f7ca41e0f718de72d6fe01e16305fd0cef6ab2fea"
+  },
+  {
+   "path": "four_side_1024\\l3d\\stats_l3d.py",
+   "bytes": 110942,
+   "sha256": "9c1a87cb05c2b7f58c5e40c6b5220a7a2b814733eccf9c2a39e421544e5618c5"
+  },
+  {
+   "path": "four_side_1024\\l3d\\validate_l3d.py",
+   "bytes": 141018,
+   "sha256": "3e04fa4dd0b3b7dc2dea9260d8c639dc599e2f2b6bf3b67afc29c364256248d8"
+  },
+  {
+   "path": "four_side_1024\\l3d\\validate_l3d_multi.py",
+   "bytes": 138113,
+   "sha256": "517b09b2d6e74b4b1533da203f9513d8cba2196c5b9c2ca89729ca577891ee26"
+  },
+  {
+   "path": "four_side_1024\\l3d\\world.py",
+   "bytes": 11002,
+   "sha256": "ec373419883f2ef522a5941dabb5c15aa69116a61899e26174e4d658c75691f8"
+  },
+  {
+   "path": "four_side_1024\\l3d\\__init__.py",
+   "bytes": 289,
+   "sha256": "3fcf7f3a7159ca0bbf2fb8dd18a099a492ef35996a2dc12ed58cb9d70856dc19"
+  },
+  {
+   "path": "four_side_1024\\l3d\\tests_l3d\\test_paths.py",
+   "bytes": 34204,
+   "sha256": "60dfd29b3c2f8fff0e4a9cb3f00f18c6f69b89f0620d46559cd086bf45f44297"
+  },
+  {
+   "path": "four_side_1024\\l3d\\tests_l3d\\test_validate_l3d.py",
+   "bytes": 38379,
+   "sha256": "29508332c950d908473e4a68d11652667bc49bdc217dadd74127b3a86d17a767"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\audit2d.py",
+   "bytes": 9111,
+   "sha256": "89a8930395919cfebec7876c0d70e6e5327d41cbc34d607f5cb43c23a600d966"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\auto_u_bundle_hybrid.py",
+   "bytes": 5032,
+   "sha256": "b6459981b6653b833a217832fedb4f74b08784de42c249ef8d47e55dd1922e1e"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\auto_u_bundle_plots.py",
+   "bytes": 9529,
+   "sha256": "9bb79d434d354544d6d26c633832bafa56fed2828720aae9f0184ad1d3bbde4a"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\auto_u_variant_plots.py",
+   "bytes": 7227,
+   "sha256": "864b4b4f0afcafd7ce0e1b0203301ea34d555580121a85d4d680a632daec9427"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\connectivity.py",
+   "bytes": 29844,
+   "sha256": "a8cbab24aa7c4b5df84dbcb018451b398ade978f42663f46c1cecf02bd2bc0bb"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\hybrid_c2_c4.py",
+   "bytes": 16626,
+   "sha256": "0f3020d08b581c8c3ec463ef0f562989cacf4eb7b787a285e8dbe4b684fa0006"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\hybrid_c2_c4_plots.py",
+   "bytes": 12903,
+   "sha256": "57c4897d80462421b010a345f8cd03424be286a9f9a9f1aa856f91c3bf4f63b8"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\hybrid_comparison.py",
+   "bytes": 8015,
+   "sha256": "83ff8ad31c255543becc2778484464d9429774c4bce2b9e1ca5c2314177054f8"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\plots2d.py",
+   "bytes": 8185,
+   "sha256": "eebea82e931a5384420b6c5218c14f754b28c37a0bfbb314221b8fa306ab7417"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\report.py",
+   "bytes": 11827,
+   "sha256": "7cda54a2e77edd23fd71952e2b76b3455536dc586272f1c174f78177eefcdd05"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\router.py",
+   "bytes": 13585,
+   "sha256": "179c671ac9bf8fe9a43e01173f877b8976794055f92a6f62c0a7df7b9da15761"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\run2d.py",
+   "bytes": 18068,
+   "sha256": "af18c71ef3e138b4eadeb4550aaefea689271aba1c4173c39949858b8da19eb7"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\run_auto_u_bundle_hybrid.py",
+   "bytes": 21601,
+   "sha256": "a02315183cc6b1d20e67e18dc5d6e4ea250a8ae9b59d74f997a957ed821d8d0b"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\run_hybrid_c2_c4.py",
+   "bytes": 8635,
+   "sha256": "ded5cdb8e88a533ca22587c0dffaa1eb2d4a1bb37be464d9e9f3966c020a340c"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\run_spatial_u_bundle.py",
+   "bytes": 22908,
+   "sha256": "504e92af636d66ee28ccac89feb1f337657debcbb24548bcf3aa2a66037f97e7"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\run_z1_multilayer_150um.py",
+   "bytes": 13272,
+   "sha256": "968e788affea393fc3b5c0c49d3f84bca681ac0b203241cff4e182e38949b8af"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\search_auto_u_assignments.py",
+   "bytes": 5641,
+   "sha256": "0693aaebcebddcdaab1244a9b4eae118641d1acde30293ea3953efd22162c102"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\spatial_u_bundle.py",
+   "bytes": 18859,
+   "sha256": "98bdf46fc02cbe2e27402b9c0b917b671133b0d921a9efa36727e239ff47754c"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\spatial_u_bundle_plots.py",
+   "bytes": 11402,
+   "sha256": "a5152ae263adbf1e038fbd9f0035a57164257df80670391ee994b4644206157c"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\state.py",
+   "bytes": 3249,
+   "sha256": "1fa4878ab31e744a349df7380ac403a3599495b21dbb9bdb7dd2934fe45270f0"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\structured_comparison.py",
+   "bytes": 6769,
+   "sha256": "01750dca4ededf5b3f32521fc1ff3a40d277e6215cde8d184cc9948c634ef807"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\structured_layer_plots.py",
+   "bytes": 14168,
+   "sha256": "00f9f902d7dc47b443a2c211f1172313820c2c7af839ec88dbe7a4490d91d3b5"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\structured_layer_routing.py",
+   "bytes": 50851,
+   "sha256": "23d4e6a0c3d5979f8d3ad4e0797393100356cb02a969e24bf79fddb497930c11"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\z1_edge_analysis.py",
+   "bytes": 11069,
+   "sha256": "a916b7c48b15c0761983cb5eaf217a3cd68cf2bf6c5c5fe66b9e4072c6bba7dd"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\z1_edge_optimizer.py",
+   "bytes": 5932,
+   "sha256": "c61686da92b2ea5e7d3a76ec5f26806e8600525be461586326c0839521c96b4b"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\z1_multilayer_150um.py",
+   "bytes": 22238,
+   "sha256": "ebfd075aa780588a8f53232eb2e4590c42f551b26e338db98299618165c68ddc"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\z1_multilayer_plots.py",
+   "bytes": 17105,
+   "sha256": "29439bbc9cae7aee3bb3bb00616cb6ae70135feea735eef4f5a1310c7da51980"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\z2_layer_plots.py",
+   "bytes": 13137,
+   "sha256": "59a8554fae977df1c0eef1465a141a9337cae98e58c66a418b3160e218f6ed3d"
+  },
+  {
+   "path": "four_side_1024\\manual_c4\\__init__.py",
+   "bytes": 561,
+   "sha256": "b2157cbddfebf6c69e23b8a2dbcdef53d7b550258e6e1325c37eff60d9f8e9aa"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_1mm_builder.py",
+   "bytes": 15289,
+   "sha256": "0a58a582fecdff2b52f2d40b6bd6c7302cb2237dba2024787214e4c87fcf1738"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_1mm_finalize.py",
+   "bytes": 11494,
+   "sha256": "73c54dfdf270ed354651074eed7f11b25ed030d26de7c275de8e179e386109d9"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_1mm_layer_assignment.py",
+   "bytes": 10685,
+   "sha256": "82ddb29a932da49f3e3370eb0bc8b92054ca20fd66a5dbaaea78598160d33271"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_1mm_metadata.py",
+   "bytes": 2190,
+   "sha256": "c0eb71faee523410026d96a98a451ad8bf9be56f02ebd6be8879558b78da73e8"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_1mm_plots.py",
+   "bytes": 16063,
+   "sha256": "fec9556aa04b0e8a833809eb7b0a559c72f5c49e1918ffdba60d2c0b5d8dae87"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_1mm_repair.py",
+   "bytes": 5040,
+   "sha256": "d39d591b40f930276e15613b2787637bf6994edaa4104ef36ae9a877435d14fe"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_50um_assignment.py",
+   "bytes": 8395,
+   "sha256": "c01caf3de455bb2985e8f6e0312da1959fb79f581c4483e611f7c08905a2ae28"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_50um_experiment_b.py",
+   "bytes": 4789,
+   "sha256": "b4862603125c3b2e4180a502f3be28fca478b3d5947b943367d2543618a86fa1"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_50um_experiment_c.py",
+   "bytes": 6029,
+   "sha256": "559c711f41eca5d66edf9bbc89fd893797d2c3ce5151defea75bef5358c9b2d1"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_50um_finalize.py",
+   "bytes": 7049,
+   "sha256": "64b4aa4a0c58f85330e5d223a70ba366db01506296e68af225820140aacd7366"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_50um_plots.py",
+   "bytes": 4452,
+   "sha256": "a392808f178585809750c40e3e85a1881a1bf3d496025bd08c610aff9fa19076"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_50um_tests.py",
+   "bytes": 3225,
+   "sha256": "6cdeba51bb6a50f2f7042a0a32213c88119b6c9d37e6fe09002689cc0cd28619"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_50um_validate.py",
+   "bytes": 6221,
+   "sha256": "8703fadcce4e3beea57936d0f99655d695a279fadf0599af624b49a15112fd91"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_round2_assignment.py",
+   "bytes": 8459,
+   "sha256": "3213199f56d16b2f97e86fda95caa670e67c64512437e16c58b8670a637b8f74"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_round2_experiment_a.py",
+   "bytes": 4634,
+   "sha256": "f2602f14d6a6bc0d726d345ced1e752b9e4c580613610b1bf9ace4a5883fd219"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_round2_finalize.py",
+   "bytes": 6555,
+   "sha256": "f5db607f64e5b70f41ffa57ea075cf3e690d9a32020f7bf4a2e5cf3f61d8da9a"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_round2_metadata.py",
+   "bytes": 5179,
+   "sha256": "b8266f795ed28f33f721b4e7c0533bc309bc1265c13105cbc5aad03f17b54236"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_round2_plots.py",
+   "bytes": 4675,
+   "sha256": "2683540094882c6adb96d3300ae60aa5544719403ccef9fe8d232ed06019ec8d"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_round2_recover.py",
+   "bytes": 6068,
+   "sha256": "2a13ab3a083c3feee3c8acc85873f5c7400ecd89a95537cd3d95b455e831b39f"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_round2_recover_a.py",
+   "bytes": 5758,
+   "sha256": "c804d9721156f0683c3360358314fa376ed4f8bfb91f66838397241fcfe49321"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_round2_validate.py",
+   "bytes": 5496,
+   "sha256": "8e3257f57d19363712f76e6a0a6faef68125851e571ab60e9ecc4fa2577aa891"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\bidirectional_round2_validate_c.py",
+   "bytes": 4771,
+   "sha256": "6024d65465a7a45b7236ced6e890e0209294e62426f8bb32e6ce1fa33de9023e"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\compare_15L.py",
+   "bytes": 69706,
+   "sha256": "9a7b5f6c9f4c832180c3e72be4d8003a6604fd915c6f04064b700ed26578a126"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\fanout_first_router.py",
+   "bytes": 23161,
+   "sha256": "bdad7cddf54a89b34361c5b600bc5196bab417fedcd57df4b2be12061f70d0a5"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\finalize_20l.py",
+   "bytes": 16008,
+   "sha256": "e5b98c1aa5a1b4008fb0398fe66771361b213c25d8b56ade74799cf1ec59590f"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\finalize_manual_first.py",
+   "bytes": 10011,
+   "sha256": "df7580a3cc4f80398e2acecf2878b32e8a0bd7ce7cfda5d98121bad01f48769b"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\final_stats.py",
+   "bytes": 4613,
+   "sha256": "4c9d99b733358bf7bac20e9a53391a032d0c5407977679a7b99a784800ab7bcc"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\fixed_layer_3d.py",
+   "bytes": 28892,
+   "sha256": "efbe22c2dafe34db7bc9daa4d27aac78bdeba42751c6457ebe639caf15668263"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\glass_1mm_process_rules.py",
+   "bytes": 2268,
+   "sha256": "d28315c70344e3acf3afb3a5b1f1a7259b40c7bba6790bfe152b0dc141d8d6dc"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\imports.py",
+   "bytes": 1838,
+   "sha256": "1a0d9abd09c7cd615a5270d3cb61685896c650d2e3e558c2f1bf22c6af6d19cc"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\inputs.py",
+   "bytes": 17013,
+   "sha256": "68b44f4d1c5f2939eb7d1612c74c24ff4dccd490923c0b04e71fe1e45c1cc8a4"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\make_all_layer_views.py",
+   "bytes": 4073,
+   "sha256": "d41023ef4b734b72cfa4587d96999dd8008c2996fdfdc0c1af617303518aa1f2"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\make_per_layer_views.py",
+   "bytes": 940,
+   "sha256": "22501dc48a38659b9726ed724202471687061f8ef2892a6862b01dcec246fc41"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\manual_20l_assignment.py",
+   "bytes": 19639,
+   "sha256": "a0cb5d0f579e812dd09e554ffb828f268f753f53ab9b2aa21046a1e25bafc4ca"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\manual_layer_assignment_20l.py",
+   "bytes": 6577,
+   "sha256": "8f89790afee0e010dddfa3b3d084d9eb4b80fedff95f72a0c0aa319bb444d44f"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\manual_u_geometry.py",
+   "bytes": 10822,
+   "sha256": "c7bdb8f23ae796e83f7e08200bb85ce929dceca56e1f9f98e2bc6ce219db4d1a"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\mapping.py",
+   "bytes": 18112,
+   "sha256": "6329ec64230be5d46542acdd121fdd0424aab3fcb7c0a1dca6d25356c23008ed"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\phase1_metrics.py",
+   "bytes": 3999,
+   "sha256": "bca3035f4e1aa8bfcdc229f8c0bab923db113023f0795e60117e58145b206952"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\plots_20l.py",
+   "bytes": 75556,
+   "sha256": "0df6534ce378625ca915028beecd02df0a67f0907a951a33c39ddfdd36ae557d"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\plot_20l_assignment.py",
+   "bytes": 2070,
+   "sha256": "4b7f07273907bbb2e7d321f5154b8419990201e452de33890bf7d49f72a63015"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\plot_full_layers.py",
+   "bytes": 2229,
+   "sha256": "02f2780708e688ff56c7e5fe82423c92f0e8feeb4b0aa375c0761ac1bc388b7a"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\plot_l1_nesting.py",
+   "bytes": 2571,
+   "sha256": "cdb4771db0846f7b9b76034ef5eedc4570f4ede5b1703c8f14185ebd8e1c0150"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\report_20l.py",
+   "bytes": 81808,
+   "sha256": "7c59f175ca376bcb51cde10bcdedd69d736c94969aecf9a50d4f94d6cff86887"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\run_full_campaign.py",
+   "bytes": 26734,
+   "sha256": "033677969d028dbb487f5678e96c63f11449af18688f7ae27e5e74bd419a3ad6"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\run_full_manual_first.py",
+   "bytes": 25645,
+   "sha256": "65bed9926cfa09ad69208b5611b276bb784ffa41904d230b86616ce86ead5044"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\run_manual_layers_20l.py",
+   "bytes": 19187,
+   "sha256": "baf1e118f56275b72e407c0502c9846a26f6e49f1bc7f42d2f23e3e552d16c38"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\run_mapping_check.py",
+   "bytes": 19551,
+   "sha256": "d7cbca7f05273cf0431238bab22426f7ca3c82c32e7e1e246e1a4ecdbd21a538"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\run_minimal_check.py",
+   "bytes": 13176,
+   "sha256": "f949b15a5b6c6253ba3dd02773b6a754f098052fc0f11eb99168a1c16c3beb7a"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\target_layer_router.py",
+   "bytes": 2870,
+   "sha256": "6dd176323a273a33ccf0f0c08b816affcf542246d9fae135da31a90bba10171b"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\u_depth_transition_optimizer.py",
+   "bytes": 48294,
+   "sha256": "f4e82e62f7803abdbb2214eadfa4349842ad4b66590273e02a27ce3f58b9de61"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\u_opt_extra.py",
+   "bytes": 3154,
+   "sha256": "3e1e0ea4b0cd27765bb767be261f2061411564854c1156bf8efcff32698383c0"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\u_opt_finalize.py",
+   "bytes": 10295,
+   "sha256": "fd2e6965325fa999ba46cc93a4fa4ca99185006dc01231076818bb96105ba1fa"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\u_opt_integration.py",
+   "bytes": 8956,
+   "sha256": "149c0a8e8d6a9798a51198a03093d6fb03332f6c784c5acf92241fdce90c3caf"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\u_opt_plots.py",
+   "bytes": 140743,
+   "sha256": "3ba7fb95f464e598b289bb818dfe4bd2976645441114443abe353fe0193dd5e6"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\u_opt_report.py",
+   "bytes": 43653,
+   "sha256": "94cdfc5e5e7cf1961323a24e7636289e66ca5c899c2aefa50ce2ee2a71aea56b"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\_u_opt_append_placeholder.py",
+   "bytes": 363,
+   "sha256": "eda95f94393d763ce05ce79284444987a1e8357345c12d566348095b898ed1bc"
+  },
+  {
+   "path": "four_side_1024\\manual_c4_adapt\\__init__.py",
+   "bytes": 682,
+   "sha256": "3820519838ca1a22befc99488ce371e1a0ef0788247990fbdb56303f5f96755a"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\assemble.py",
+   "bytes": 15657,
+   "sha256": "40926d1ac0d24df42461dd228e69023c1c1c066f7820bbb2c57704238e2b94b1"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\auto_routes.py",
+   "bytes": 38020,
+   "sha256": "1aca934eacb3642b28da45e7debf5aa6c6d6a64794457443fce53dfa63b22cdb"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\config.py",
+   "bytes": 5354,
+   "sha256": "61754b87cdb6fd6f2bc52e3facfe419f857c7065865acd638f200c0e81ee1ea9"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\export.py",
+   "bytes": 72412,
+   "sha256": "76bd635629866dddce3764cfa76b0249094e481b8a785cec1de5999e65fad8c6"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\inputs.py",
+   "bytes": 20123,
+   "sha256": "33715cf10a944333944c5eaeadd6be56893b5603120cecc4447d3d1b411ffb9e"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\paths2d.py",
+   "bytes": 10898,
+   "sha256": "b3d511ca3089629bc9e537eb13868df2edf81e56996a9aadd1976d17e4f35228"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\plots.py",
+   "bytes": 65397,
+   "sha256": "4b32f72881405a151e9299fa663866ad41f617c8528a6a788dfe89dd51c4ef30"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\run.py",
+   "bytes": 14162,
+   "sha256": "fb48fe429c524f42d4fb0ba6e8fa5de1ac2d3e8de60e0642c4743c01aec7cb3d"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\stack.py",
+   "bytes": 5658,
+   "sha256": "7cf80c262d718626beb837e2a79f3f308901dc4a61f98b6105d04a64c1614967"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\u_geometry.py",
+   "bytes": 33519,
+   "sha256": "be14046f20f1410da5e1d50d72ddb392569e13cbcf9e23c48b3be303309aedd7"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\u_routes.py",
+   "bytes": 37774,
+   "sha256": "f29ca3c225deb52e2283a728a349ab86ee43235199bd0230ccfed551630603d8"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\verify.py",
+   "bytes": 144434,
+   "sha256": "48500e73231be2b0416c87f85a01a6de7bc201a9fd50b270255f826d9e94a249"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\__init__.py",
+   "bytes": 108,
+   "sha256": "954791e7442ef135ef18b31b4484e0f926535e9217866a512a13caed45bb537d"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\tests\\conftest.py",
+   "bytes": 623,
+   "sha256": "66e522738e6ee24bf2330d1cbffc3c1f061ce1c560481ba9a592cb3e946f0d66"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\tests\\test_auto_routes.py",
+   "bytes": 4697,
+   "sha256": "57ad5c6dfd14880ca2748e15796e31324c48f0aed1ee63a43268d68428faa2ea"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\tests\\test_export.py",
+   "bytes": 5071,
+   "sha256": "92d2984e6e0d3808b4631f623b306f33b86076b61e78ab7d08bf57f211b3c5cc"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\tests\\test_inputs.py",
+   "bytes": 8394,
+   "sha256": "c376253ea76c069916fe4734c067b03e3b0cc69a3bde55175a3514b43fd22659"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\tests\\test_u_geometry.py",
+   "bytes": 5575,
+   "sha256": "e94df5b85966077fe932c4807bf7ff1c974307f7290fc13d18ae1d43f71b2729"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\tests\\test_verify.py",
+   "bytes": 10660,
+   "sha256": "a3636d8ace3c599fd4c98d0e5046f03835c0a5ba8d49779dbe202e64bdbf4cc5"
+  },
+  {
+   "path": "four_side_1024\\manual_u640\\tests\\_route_helpers.py",
+   "bytes": 7462,
+   "sha256": "3ea9c38de05e77da32564498b891f2bb5d98cdc0c447875bd6155b8cd9be1042"
+  },
+  {
+   "path": "four_side_1024\\r15\\plots_r15.py",
+   "bytes": 52060,
+   "sha256": "8b50bd152c56d7923190d2e3d9cba139da6ca39fee57d536e3166cd8e3f9a836"
+  },
+  {
+   "path": "four_side_1024\\r15\\profile_r15.py",
+   "bytes": 5934,
+   "sha256": "0b28eddf8a0cd07c46c8e35a021967d6a991c630ffd7738a7bf3270100ec4591"
+  },
+  {
+   "path": "four_side_1024\\r15\\run25d_r15.py",
+   "bytes": 3943,
+   "sha256": "db86e1c8639386fd8cafde09573db5a228ecde9362bb0395e4675d73ba776d70"
+  },
+  {
+   "path": "four_side_1024\\r15\\run2d_r15.py",
+   "bytes": 9353,
+   "sha256": "afcd3b075e8455f288c76eba7087d4a5c9b64c6c3ac2df1d8bead5d748f220a5"
+  },
+  {
+   "path": "four_side_1024\\r15\\run_r15_pipeline.py",
+   "bytes": 4437,
+   "sha256": "bbc51a4751f70abd3631cd2b450a6995b0bfad9a3039ae8912372cc5a623b757"
+  },
+  {
+   "path": "four_side_1024\\r15\\stats_r15.py",
+   "bytes": 100047,
+   "sha256": "1d14bdd07e110de1d2d857e7280f7e1e09a0433c031c5c314f2c3298f6206675"
+  },
+  {
+   "path": "four_side_1024\\r15\\u_geometry.py",
+   "bytes": 22123,
+   "sha256": "cfcc09671004a2df6802d26e47751c42e107040ff59068dc30e7d0de8b18769a"
+  },
+  {
+   "path": "four_side_1024\\r15\\validate_r15.py",
+   "bytes": 85539,
+   "sha256": "31c1ae6718a587ae6c9a40cadb9a0be9774e9f0259f608d2029e76de5ac8cfa4"
+  },
+  {
+   "path": "four_side_1024\\r15\\worker_boot.py",
+   "bytes": 1231,
+   "sha256": "4eeb8530c476f64923a86d6f2c361534f22cdee16d9028aeddb7a29002cfedb0"
+  },
+  {
+   "path": "four_side_1024\\r15\\__init__.py",
+   "bytes": 86,
+   "sha256": "0580f9ccd9ec935d9381bb6d83b046beddc40c8ac412273c0eba2715987cb43a"
+  },
+  {
+   "path": "four_side_1024\\r15\\tests_r15\\test_u_geometry.py",
+   "bytes": 18080,
+   "sha256": "2c70426f7303a3f4e455385bc0bab5456936c591d86a1c335bc5f51683ce8f01"
+  },
+  {
+   "path": "four_side_1024\\r15\\tests_r15\\test_validate_r15.py",
+   "bytes": 13735,
+   "sha256": "5d7e32ad987b1afc1cd6d639699ab78c31ddb5d5740928e8238cece2f71d2dec"
+  },
+  {
+   "path": "four_side_1024\\tests_manual_c4\\test_hybrid_c2_c4.py",
+   "bytes": 8631,
+   "sha256": "5a8325af3a0de4b7e177b0a975324285804bc521ae378708a602a6abfa0514ed"
+  },
+  {
+   "path": "four_side_1024\\tests_manual_c4\\test_manual_c4.py",
+   "bytes": 5375,
+   "sha256": "5f6e5350090943db76b40fc8c1b5231a11ee7f944d30ced7ff7779d4772911cf"
+  },
+  {
+   "path": "four_side_1024\\tests_manual_c4\\test_spatial_u_bundle.py",
+   "bytes": 7545,
+   "sha256": "9484a720ce4c7be3af3d211f51d032a9e1373b47bc7365750129627ad36b30e8"
+  },
+  {
+   "path": "four_side_1024\\tests_manual_c4\\test_structured_layer_routing.py",
+   "bytes": 6631,
+   "sha256": "6d56594cb05a73f4345621825d5b1b8c233be9b106ed4cbf16093e6d9b66cea9"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\audit_baseline.py",
+   "bytes": 75399,
+   "sha256": "5babe7df71e748cf73d1e1b1a648d3335edee66635410843394ba6e16fd6ffc6"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\candext.py",
+   "bytes": 22894,
+   "sha256": "4ad09f0c283dab5b7a25d824a9f0c67bb7e2959540c2f9beb59813f3901ba329"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\config.py",
+   "bytes": 2151,
+   "sha256": "8c490fd370232872d3cc897a0a180f803f9d1ab4937d6d4e28f4b1111f1571f2"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\core.py",
+   "bytes": 19658,
+   "sha256": "92367787fe8c78a0676afa1258971d3135c35f9d32c8ccfba72565a9b1361fee"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\coverage_ortho90.py",
+   "bytes": 4101,
+   "sha256": "616ecb01d0baf1e38086284631749712adecc74a4a34d1fdcfb29166757752ae"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\figures_final.py",
+   "bytes": 2361,
+   "sha256": "5d6f7ade224bb7591c2c51d7359be1ecbf44c4f843dacfdd408c95e589204578"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\finalize.py",
+   "bytes": 56431,
+   "sha256": "c9a0d8541ffec201d115b6c7972072c008cf739f3151fc98d0b770054529e173"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\order_sweep_ortho90.py",
+   "bytes": 3905,
+   "sha256": "6096300dd3a55124f933da3d1f7e6abeee6193fb44185586ca92c722df131dea"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\ortho90.py",
+   "bytes": 21909,
+   "sha256": "fa3e4ee053f2d27f4a1a1a6f8dadaac5e1237b854afb89fdb5351b702fc9eae9"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\ortho90_validate.py",
+   "bytes": 13096,
+   "sha256": "41ef7480902e9f278bd893b1dccffd6a7b63a4ce556b63cf61d09320c123c250"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\pipeline.py",
+   "bytes": 32177,
+   "sha256": "51995f9411778ff7cdf0562ea7223286b956f5db37f566ef3dc1c2b3e496c065"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\plots_geomtype.py",
+   "bytes": 5961,
+   "sha256": "1177d97406a244d0847083f29da54a6c5d69d4afd50e68ba1feda62f16186a40"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\plots_ortho90.py",
+   "bytes": 8109,
+   "sha256": "951d523566dd9eb7877a66d72f1f4f729668201f372df159b14df794f41d4f6a"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\reachability_probe.py",
+   "bytes": 69240,
+   "sha256": "169d6cbeeb59255e623df2aa1903fad231f284bd8e10ad0fdcf0c2c1fa7ea8f7"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\rr.py",
+   "bytes": 25265,
+   "sha256": "26e5346935959b2c130edb36b16bc2cf6c3ef8152990070c9c9a3f203bf786ad"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\rr_analysis.py",
+   "bytes": 70594,
+   "sha256": "9b915ac01b37fd80bfd1c7f730962559502ea4d4a3253f99d6797720cb13813a"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\search.py",
+   "bytes": 12351,
+   "sha256": "d86ba16fab1e81e84bf71bd976a7ac261088fb86cb3f35a64a56e2042145565a"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\select_best.py",
+   "bytes": 4730,
+   "sha256": "a3a6f90d1b0628702b786397985b1ac2c51bfd0956de17e9b4c407cba2c32605"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\summarize.py",
+   "bytes": 11749,
+   "sha256": "bbf65f81a7dc24e74033e09b95e3b45c4de1d4b4b2e155298ef9cafcd2f25809"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\sweep_analysis.py",
+   "bytes": 74284,
+   "sha256": "876b2bcb5237a8182c7e36150c6550f8f7e5c7157741775b735243ae41ad370a"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\z1_pure90_infeasibility.py",
+   "bytes": 7804,
+   "sha256": "29cc3b646ebb209f1e47d5ca11c66c4cb3a720b64cea55810f41e550eb507509"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\__init__.py",
+   "bytes": 834,
+   "sha256": "75742313e69abab15b72716517f37ac3b3f4481db138e7e20e091ba2ca8b7fa7"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\tests\\test_baseline_acceptance.py",
+   "bytes": 19180,
+   "sha256": "0bdb4beb15e491e96121f796455b6d1ead2159eb0670d4fff8d6fed1abdb04aa"
+  },
+  {
+   "path": "four_side_1024\\v2opt\\tests\\test_v2opt_regression.py",
+   "bytes": 29682,
+   "sha256": "124af2ec9cc6cd0ab3146375b60b43e84f2032fd4552638768b28efdd17c00b9"
+  },
+  {
+   "path": "four_side_1024\\v3\\candidates.py",
+   "bytes": 3082,
+   "sha256": "cf90d965dbb6089a6a027be6128dfbedbdd8a9156baab1f2f81c82cc9825efe5"
+  },
+  {
+   "path": "four_side_1024\\v3\\combine.py",
+   "bytes": 13768,
+   "sha256": "7f32ba1cb929d734b95e9e8c61b54db1adc20e42673b4da1e05cfb571a329157"
+  },
+  {
+   "path": "four_side_1024\\v3\\compare.py",
+   "bytes": 63802,
+   "sha256": "fc2e49f4ee9a6d7738bfa3cff1f29f3dc9e55a1a73f87e4f99e9cd32c54d4852"
+  },
+  {
+   "path": "four_side_1024\\v3\\config.py",
+   "bytes": 5516,
+   "sha256": "c08c26e86204e9b1280daf8220e3d2fea79d1c677e8ab8cf42fddefe35cccd5d"
+  },
+  {
+   "path": "four_side_1024\\v3\\crosscheck_v3.py",
+   "bytes": 25150,
+   "sha256": "346a8545190e56941a1a473051513e493d7a4f456e343d2755075e4a1d2958eb"
+  },
+  {
+   "path": "four_side_1024\\v3\\d_lns.py",
+   "bytes": 29637,
+   "sha256": "927004b8d323c25054bb4436328399136ff9ea5b2689701a02cc128e15532ce9"
+  },
+  {
+   "path": "four_side_1024\\v3\\feasibility.py",
+   "bytes": 21552,
+   "sha256": "3702a46fdb3249972f7cf89ef67a6bbd39cf6f56b69d119e6743dc774741525c"
+  },
+  {
+   "path": "four_side_1024\\v3\\frames.py",
+   "bytes": 3625,
+   "sha256": "5dc3e291863cbe1f458a850d29a248321343c4ebf54348c07cd659fb4e094d0a"
+  },
+  {
+   "path": "four_side_1024\\v3\\geom_same.py",
+   "bytes": 9808,
+   "sha256": "a86049edef69627d0a1ed40602fbcfc46dcdd5183746077178a5372181ff0236"
+  },
+  {
+   "path": "four_side_1024\\v3\\inputs.py",
+   "bytes": 13833,
+   "sha256": "0f2c3431d36117ee2a7aba242f3e0e7b037631742a23042f3c1fdf83775a265b"
+  },
+  {
+   "path": "four_side_1024\\v3\\metrics.py",
+   "bytes": 114582,
+   "sha256": "ece27400ba49037f86c994a86df6eeec649584f4782ded38e025f7a3f29f6715"
+  },
+  {
+   "path": "four_side_1024\\v3\\plots.py",
+   "bytes": 75968,
+   "sha256": "ac14dc293101e5806542bb4b49cffe64e0f81ac419ff1d7b73c120dfa09ad433"
+  },
+  {
+   "path": "four_side_1024\\v3\\ports.py",
+   "bytes": 6194,
+   "sha256": "82f91dceb848d561d0231712e3209521cb6fc3e56530f020bda77e12d5627868"
+  },
+  {
+   "path": "four_side_1024\\v3\\ports_audit_v3.py",
+   "bytes": 100029,
+   "sha256": "326e0969a6521f8bc2e72ebef166d0a870482e5ae3f30ce62cc7fce5013a1e27"
+  },
+  {
+   "path": "four_side_1024\\v3\\run.py",
+   "bytes": 17704,
+   "sha256": "051b7f6591e28faf8f09d36024dd5312e3689286f2d6810829b7d31aee530ac2"
+  },
+  {
+   "path": "four_side_1024\\v3\\same_side_capacity.py",
+   "bytes": 4729,
+   "sha256": "94fff936c06c7ad8107836ada8088c2cfbd18c4201aadcd114e7423325c09aaf"
+  },
+  {
+   "path": "four_side_1024\\v3\\search.py",
+   "bytes": 3588,
+   "sha256": "bcab62c81db1d22ec65ab42cceee09cc183d9c4cb14f0d5601bdc6340616ac76"
+  },
+  {
+   "path": "four_side_1024\\v3\\strategies.py",
+   "bytes": 5443,
+   "sha256": "9661e37daa9753785f12e65400bc08b93c93110ce0bec1f118e0f3b7b138ebfc"
+  },
+  {
+   "path": "four_side_1024\\v3\\validate_v3.py",
+   "bytes": 159224,
+   "sha256": "cf56bd33114707c3d0acf8414ef815d667ed2ef5d8f147894b7995c1da1dce56"
+  },
+  {
+   "path": "four_side_1024\\v3\\__init__.py",
+   "bytes": 82,
+   "sha256": "c7591f29aeece00e57247cc22676deb8d75800ad9c7aecc6d097d3e2257a8a6b"
+  },
+  {
+   "path": "four_side_1024\\v3\\tests_v3\\test_metrics_v3.py",
+   "bytes": 29243,
+   "sha256": "86fcaaa74af11ad3c8e44e58d293d63cebf40960fef1b33c406751ac42c7ba2d"
+  },
+  {
+   "path": "four_side_1024\\v3\\tests_v3\\test_ports_v3.py",
+   "bytes": 20365,
+   "sha256": "e9a49dd20910f7b41a65e887aba3181540d86c6584ef36ef64857cf4df56193d"
+  },
+  {
+   "path": "four_side_1024\\v3\\tests_v3\\test_v3_core.py",
+   "bytes": 6769,
+   "sha256": "fb5433767ec11036df8a3ffc3ee7654b1e0393186a9c7bd629836b5b3e24884e"
+  },
+  {
+   "path": "four_side_1024\\v3\\tests_v3\\test_validate_v3.py",
+   "bytes": 23447,
+   "sha256": "d799f35824e04465e6128ac0797b1ca582bdb3b8722c9d3e1392bc34390df443"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\ablation.py",
+   "bytes": 13760,
+   "sha256": "f788fc000d192b8b0ee884819793b252075fc2c8f7dd877577f72d9a969d738e"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\c4.py",
+   "bytes": 28201,
+   "sha256": "167f8a39c09491510fdc465cd3b995d979349248caed4fa4cb9c8e53315c9e97"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\combine.py",
+   "bytes": 17396,
+   "sha256": "b42275e655eb776acdabd97347d4bba15aafd12ae9ed48933b27906913c7b56d"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\dynamic_opt.py",
+   "bytes": 50331,
+   "sha256": "8e0f601bfd379b916a7d6bfe2200c1d19c1346ca44c21b9d8be3959b5df8ef2a"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\dynamic_run.py",
+   "bytes": 13289,
+   "sha256": "f972bc34a025c3f55dae372fe195eed0e97fc2a1ba82f2f0be21c68dfdc773f4"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\expanded.py",
+   "bytes": 5126,
+   "sha256": "204c582e14b83f74efa37d532510952aa9f8303d803bf906f7299a3291d7434a"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\free2d.py",
+   "bytes": 8590,
+   "sha256": "50c6403dc9d2ab93bc3a4f661fa744d61f3cf5266b910f9be96e346b8569f9ce"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\inputs.py",
+   "bytes": 11375,
+   "sha256": "f1a429510821bf1390db2a263fabdb90e56418d2d6b32e7de26f52f549aa6a3f"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\l3d.py",
+   "bytes": 32547,
+   "sha256": "3ecb0b359473a6b0cdd77ea8c5b20999367fb5ce5846c31557cb3b4d4d05c841"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\layer_only_plots.py",
+   "bytes": 8992,
+   "sha256": "fc29e03de74b6fbe282ace9456132bfa0add0b73d157e2bd393e3b9a9fed3abb"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\layout.py",
+   "bytes": 2166,
+   "sha256": "aaaf4b5b6ad136d607c2990f8c222bdec74ce2bb13db4231737cd938f7ece632"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\lift_cross.py",
+   "bytes": 52214,
+   "sha256": "62c03c217f1100241fec16af678f591e2e37a7e237e64c77f1b3ffb78e7625d9"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\lift_cross_run.py",
+   "bytes": 29544,
+   "sha256": "71da1d3de7f88d172664adc5b1a17eaf4c72dca880341d5432b3619cedb8952e"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\opt_baseline.py",
+   "bytes": 6656,
+   "sha256": "333b1415316435cf16b2ab6da28ee0557ec9a1f3e3aa6919a14c4f09e8d50906"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\opt_engine.py",
+   "bytes": 23024,
+   "sha256": "faecb06f32b506a605ff02d4443b71052d699fab96e4599c6dc7e5a260314844"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\plots_opt.py",
+   "bytes": 16142,
+   "sha256": "5b538fa209f6cec276fb76fa32dea8d20cf4c21d527f7148fd0aedb4f61457da"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\profile.py",
+   "bytes": 622,
+   "sha256": "c52f2c0a63e0c990caa19f2bea616f1b584ab76602b6f9c9d79ca19e81a8d690"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\rr.py",
+   "bytes": 12664,
+   "sha256": "cb6d70d2524e385a2e57cc8cc12bd4d2fc13f9bb68c62d2b99fa552742c736ea"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\v4_connectivity.py",
+   "bytes": 23693,
+   "sha256": "8619a40d44e4a2dfbaf78fe87f207f6ffb20b542a5947edf3cebca725f1f05f3"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\v4_route.py",
+   "bytes": 23194,
+   "sha256": "4672db8187bc1585eb1275065846768228ebab666e8927c87d25c752b6f6c8d9"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\v4_run.py",
+   "bytes": 23165,
+   "sha256": "b90b87de139d182ec5943b3acb720f30bfdfaf2f1b49fa260728757876a5f72f"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\validate2d.py",
+   "bytes": 9512,
+   "sha256": "67ba1105da1dd745b0c830d51935ef9e732af7fe770bc1ac18ce9897cc3b1191"
+  },
+  {
+   "path": "four_side_1024\\v3c4\\__init__.py",
+   "bytes": 500,
+   "sha256": "223985dabefad2db674512d9b1e227e36b68c61636120a26f7d36015f9b4bd07"
+  }
+ ],
+ "missing": [],
+ "g5_git_gap_fixed": {
+  "present": [
+   "four_side_1024/fanout1024/xyzrouter/g5/batch.py",
+   "four_side_1024/fanout1024/xyzrouter/g5/layer_solver.py"
+  ]
+ },
+ "note": "G6 + G7 sources are snapshotted together: the G7 fixed-layer engine reuses the G6 MultiArc geometry generator, the G5 exact model and the frozen fslw strict-D56 audit."
+}

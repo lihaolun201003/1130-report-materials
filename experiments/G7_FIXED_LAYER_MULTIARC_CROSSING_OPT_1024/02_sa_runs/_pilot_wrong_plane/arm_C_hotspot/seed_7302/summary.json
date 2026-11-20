@@ -1,0 +1,131 @@
+{
+ "schema": "g7_run_v1",
+ "seed": 7302,
+ "profile": "C",
+ "cycles": 1,
+ "cycle_seconds": 1800.0,
+ "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\03_best_feasible\\routes_l3d.json",
+ "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\arm_C_hotspot\\seed_7302",
+ "best_key": [
+  4444,
+  -45.048368,
+  3612,
+  156968.847
+ ],
+ "cycles_run": 1,
+ "started": "2026-11-21T00:16:36",
+ "summaries": [
+  {
+   "schema": "g7_sa_summary_v1",
+   "seed": 7302,
+   "profile": "C",
+   "crossings": 4444,
+   "unique_pairs": 3612,
+   "min_angle_deg": 45.04836781,
+   "length_mm": 156968.847016,
+   "moves": 4537,
+   "accepted": 893,
+   "rejected": 997,
+   "failed_proposals": 2647,
+   "commit_failures": 0,
+   "illegal_rollbacks": 0,
+   "reheat_count": 5,
+   "reconcile_count": 4,
+   "reconcile_mismatch": 0,
+   "elapsed_seconds": 1802.695,
+   "moves_per_second": 2.517,
+   "acceptance_rate": 0.1968,
+   "per_plane": {
+    "0.025": 102,
+    "-0.075": 177,
+    "-0.275": 286,
+    "-0.125": 104,
+    "0.175": 202,
+    "0.125": 314,
+    "-0.325": 539,
+    "0.225": 103,
+    "0.075": 244,
+    "-0.025": 377,
+    "-0.175": 269,
+    "-0.225": 198,
+    "0.425": 275,
+    "0.325": 254,
+    "0.525": 239,
+    "0.575": 160,
+    "0.625": 245,
+    "0.375": 158,
+    "0.475": 77,
+    "0.275": 121
+   },
+   "sub45": 0,
+   "hard_issues": 0,
+   "move_stats": {
+    "none": {
+     "rejected": 2647
+    },
+    "N1": {
+     "attempted": 1606,
+     "rejected": 850,
+     "accepted": 756,
+     "improving": 30
+    },
+    "N2": {
+     "attempted": 181,
+     "accepted": 84,
+     "rejected": 97,
+     "improving": 4
+    },
+    "N3": {
+     "attempted": 103,
+     "accepted": 53,
+     "rejected": 50,
+     "improving": 1
+    }
+   },
+   "pool_stats": {
+    "bodies": 124012,
+    "pools": 1087,
+    "candidates": 36264
+   },
+   "frozen_routes": 497,
+   "modifiable_routes": 527,
+   "best_key": [
+    4444,
+    -45.048368,
+    3612,
+    156968.847
+   ],
+   "best_move": 4537,
+   "cfg": {
+    "profile": "C",
+    "seed": 7302,
+    "T0": 1.0,
+    "T_end": 0.05,
+    "M": null,
+    "pool_build": 120,
+    "pool_size": 24,
+    "pool_cache": 420,
+    "n1_sample": 8,
+    "n1_trials": 2,
+    "pair_sample": 2,
+    "group_size": [
+     3,
+     5
+    ],
+    "group_sample": 2,
+    "n1_weight": 1.0,
+    "n2_weight": 0.0,
+    "n3_weight": 0.0,
+    "n5_weight": 0.0,
+    "hotspot_share": 0.0,
+    "length_tiebreak": 0.0001,
+    "reheat_after_seconds": 300.0,
+    "reconcile_seconds": 420.0,
+    "checkpoint_seconds": 180.0,
+    "best_min_interval": 8.0,
+    "log_seconds": 120.0
+   },
+   "generated_at": "2026-11-21T00:16:36"
+  }
+ ]
+}

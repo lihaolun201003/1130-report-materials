@@ -1,0 +1,119 @@
+{
+ "schema": "g7_run_v1",
+ "seed": 1,
+ "profile": "A",
+ "cycles": 1,
+ "cycle_seconds": 600.0,
+ "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\00_frozen_g6\\routes_l3d.json",
+ "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\smoke_fixed_plane",
+ "best_key": [
+  4458,
+  -45.090876,
+  3628,
+  157098.532
+ ],
+ "cycles_run": 1,
+ "started": "2026-11-21T00:51:09",
+ "summaries": [
+  {
+   "schema": "g7_sa_summary_v1",
+   "seed": 1,
+   "profile": "A",
+   "crossings": 4458,
+   "unique_pairs": 3628,
+   "min_angle_deg": 45.09087551,
+   "length_mm": 157098.531619,
+   "moves": 300,
+   "accepted": 135,
+   "rejected": 108,
+   "failed_proposals": 57,
+   "commit_failures": 0,
+   "illegal_rollbacks": 0,
+   "reheat_count": 0,
+   "reconcile_count": 0,
+   "reconcile_mismatch": 0,
+   "elapsed_seconds": 212.559,
+   "moves_per_second": 1.411,
+   "acceptance_rate": 0.45,
+   "per_plane": {
+    "0.025": 102,
+    "-0.075": 181,
+    "-0.275": 286,
+    "-0.125": 119,
+    "0.175": 178,
+    "0.125": 314,
+    "-0.325": 539,
+    "0.225": 103,
+    "0.075": 254,
+    "-0.025": 386,
+    "-0.175": 269,
+    "-0.225": 198,
+    "0.425": 275,
+    "0.325": 254,
+    "0.525": 235,
+    "0.575": 160,
+    "0.625": 255,
+    "0.375": 152,
+    "0.475": 77,
+    "0.275": 121
+   },
+   "sub45": 0,
+   "hard_issues": 0,
+   "move_stats": {
+    "N1": {
+     "attempted": 243,
+     "accepted": 135,
+     "rejected": 108,
+     "improving": 15
+    },
+    "none": {
+     "rejected": 57
+    }
+   },
+   "pool_stats": {
+    "bodies": 28825,
+    "pools": 185,
+    "candidates": 7180
+   },
+   "frozen_routes": 497,
+   "modifiable_routes": 527,
+   "best_key": [
+    4458,
+    -45.090876,
+    3628,
+    157098.532
+   ],
+   "best_move": 300,
+   "cfg": {
+    "profile": "A",
+    "seed": 1,
+    "T0": 1.2,
+    "T_end": 0.05,
+    "M": null,
+    "pool_build": 160,
+    "pool_size": 24,
+    "pool_cache": 420,
+    "n1_sample": 8,
+    "n1_trials": 2,
+    "pair_sample": 2,
+    "group_size": [
+     3,
+     5
+    ],
+    "group_sample": 2,
+    "n1_weight": 1.0,
+    "n2_weight": 0.0,
+    "n3_weight": 0.0,
+    "n5_weight": 0.0,
+    "hotspot_share": 0.0,
+    "length_tiebreak": 0.0001,
+    "reheat_after_seconds": 300.0,
+    "reconcile_seconds": 420.0,
+    "checkpoint_seconds": 180.0,
+    "best_min_interval": 8.0,
+    "log_seconds": 120.0
+   },
+   "generated_at": "2026-11-21T00:51:09"
+  }
+ ]
+}

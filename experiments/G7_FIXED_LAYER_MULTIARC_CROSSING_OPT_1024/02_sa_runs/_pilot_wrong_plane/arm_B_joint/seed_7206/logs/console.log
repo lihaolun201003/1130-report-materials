@@ -1,0 +1,157 @@
+[2026-11-20T23:46:34] G7 SA start seed=7206 profile=B crossings=4578 pairs=3677 min_angle=45.108500005 C=157162.472389 movable=527
+[2026-11-20T23:48:38] t=122s moves=92 acc=0.283 crossings=4540 pairs=3655 min=45.048367810 T=0.8156 reheat=0 commit_fail=0 failed=52
+[2026-11-20T23:50:41] t=245s moves=216 acc=0.255 crossings=4524 pairs=3647 min=45.048367810 T=0.6654 reheat=0 commit_fail=0 failed=120
+[2026-11-20T23:51:35] REHEAT #1 T=1.8191 crossings=4492
+[2026-11-20T23:52:45] t=368s moves=441 acc=0.231 crossings=4485 pairs=3635 min=45.048367810 T=0.5417 reheat=1 commit_fail=0 failed=238
+[2026-11-20T23:53:40] reconcile ok crossings=4472 pairs=3627 min=45.048367810 (5.8s)
+[2026-11-20T23:54:48] t=494s moves=691 acc=0.239 crossings=4464 pairs=3621 min=45.048367810 T=0.4391 reheat=1 commit_fail=0 failed=360
+[2026-11-20T23:56:35] REHEAT #2 T=1.1056 crossings=4448
+[2026-11-20T23:56:50] t=616s moves=1053 acc=0.230 crossings=4448 pairs=3614 min=45.048367810 T=0.3590 reheat=2 commit_fail=0 failed=558
+[2026-11-20T23:58:50] t=736s moves=1417 acc=0.231 crossings=4448 pairs=3613 min=45.048367810 T=0.2937 reheat=2 commit_fail=0 failed=742
+[2026-11-21T00:00:46] reconcile ok crossings=4429 pairs=3604 min=45.090875510 (5.3s)
+[2026-11-21T00:00:51] t=857s moves=1969 acc=0.224 crossings=4429 pairs=3604 min=45.048367810 T=0.2404 reheat=2 commit_fail=0 failed=1037
+[2026-11-21T00:01:36] REHEAT #3 T=0.6685 crossings=4429
+[2026-11-21T00:02:51] t=977s moves=2367 acc=0.237 crossings=4426 pairs=3602 min=45.090875510 T=0.1968 reheat=3 commit_fail=0 failed=1220
+[2026-11-21T00:04:53] t=1096s moves=2749 acc=0.231 crossings=4426 pairs=3602 min=45.090875510 T=0.1614 reheat=3 commit_fail=0 failed=1416
+[2026-11-21T00:06:36] REHEAT #4 T=0.4065 crossings=4420
+[2026-11-21T00:06:53] t=1218s moves=3020 acc=0.233 crossings=4420 pairs=3598 min=45.090875510 T=0.1316 reheat=4 commit_fail=0 failed=1545
+[2026-11-21T00:07:56] reconcile ok crossings=4418 pairs=3598 min=45.005916711 (7.7s)
+[2026-11-21T00:08:55] t=1341s moves=3317 acc=0.229 crossings=4418 pairs=3598 min=45.005916711 T=0.1073 reheat=4 commit_fail=0 failed=1713
+[2026-11-21T00:11:05] t=1468s moves=3686 acc=0.230 crossings=4416 pairs=3596 min=45.005916711 T=0.0869 reheat=4 commit_fail=0 failed=1901
+[2026-11-21T00:11:38] REHEAT #5 T=0.2454 crossings=4416
+[2026-11-21T00:13:06] t=1592s moves=3965 acc=0.232 crossings=4416 pairs=3596 min=45.005916711 T=0.0707 reheat=5 commit_fail=0 failed=2034
+[2026-11-21T00:15:05] reconcile ok crossings=4416 pairs=3595 min=45.005916711 (7.5s)
+[2026-11-21T00:15:08] t=1712s moves=4254 acc=0.232 crossings=4416 pairs=3595 min=45.005916711 T=0.0579 reheat=5 commit_fail=0 failed=2187
+[2026-11-21T00:16:36] budget exhausted after 4455 moves (1801.9s) crossings=4400
+[2026-11-21T00:16:38] STOP {"crossings": 4400, "unique_pairs": 3587, "min_angle_deg": 45.005916711, "moves": 4455, "accepted": 1028, "elapsed_seconds": 1804.208}
+{
+  "schema": "g7_run_v1",
+  "seed": 7206,
+  "profile": "B",
+  "cycles": 1,
+  "cycle_seconds": 1800.0,
+  "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G6_ANGLE45_MULTIARC_SA_20H_1024\\03_best_feasible\\routes_l3d.json",
+  "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\arm_B_joint\\seed_7206",
+  "best_key": [
+    4400,
+    -45.005917,
+    3587,
+    156957.734
+  ],
+  "cycles_run": 1,
+  "started": "2026-11-21T00:16:38",
+  "summaries": [
+    {
+      "schema": "g7_sa_summary_v1",
+      "seed": 7206,
+      "profile": "B",
+      "crossings": 4400,
+      "unique_pairs": 3587,
+      "min_angle_deg": 45.005916711,
+      "length_mm": 156957.733747,
+      "moves": 4455,
+      "accepted": 1028,
+      "rejected": 1143,
+      "failed_proposals": 2284,
+      "commit_failures": 0,
+      "illegal_rollbacks": 0,
+      "reheat_count": 5,
+      "reconcile_count": 4,
+      "reconcile_mismatch": 0,
+      "elapsed_seconds": 1804.208,
+      "moves_per_second": 2.469,
+      "acceptance_rate": 0.2308,
+      "per_plane": {
+        "0.025": 102,
+        "-0.075": 175,
+        "-0.275": 272,
+        "-0.125": 105,
+        "0.175": 202,
+        "0.125": 314,
+        "-0.325": 539,
+        "0.225": 103,
+        "0.075": 241,
+        "-0.025": 353,
+        "-0.175": 269,
+        "-0.225": 198,
+        "0.425": 275,
+        "0.325": 254,
+        "0.525": 239,
+        "0.575": 160,
+        "0.625": 245,
+        "0.375": 156,
+        "0.475": 77,
+        "0.275": 121
+      },
+      "sub45": 0,
+      "hard_issues": 0,
+      "move_stats": {
+        "none": {
+          "rejected": 2284
+        },
+        "N1": {
+          "attempted": 1931,
+          "rejected": 1016,
+          "accepted": 915,
+          "improving": 35
+        },
+        "N2": {
+          "attempted": 186,
+          "rejected": 98,
+          "accepted": 88,
+          "improving": 3
+        },
+        "N3": {
+          "attempted": 54,
+          "accepted": 25,
+          "improving": 2,
+          "rejected": 29
+        }
+      },
+      "pool_stats": {
+        "bodies": 123925,
+        "pools": 1089,
+        "candidates": 36001
+      },
+      "frozen_routes": 497,
+      "modifiable_routes": 527,
+      "best_key": [
+        4400,
+        -45.005917,
+        3587,
+        156957.734
+      ],
+      "best_move": 4455,
+      "cfg": {
+        "profile": "B",
+        "seed": 7206,
+        "T0": 1.0,
+        "T_end": 0.05,
+        "M": null,
+        "pool_build": 120,
+        "pool_size": 24,
+        "pool_cache": 420,
+        "n1_sample": 8,
+        "n1_trials": 2,
+        "pair_sample": 2,
+        "group_size": [
+          3,
+          5
+        ],
+        "group_sample": 2,
+        "n1_weight": 1.0,
+        "n2_weight": 0.0,
+        "n3_weight": 0.0,
+        "n5_weight": 0.0,
+        "hotspot_share": 0.0,
+        "length_tiebreak": 0.0001,
+        "reheat_after_seconds": 300.0,
+        "reconcile_seconds": 420.0,
+        "checkpoint_seconds": 180.0,
+        "best_min_interval": 8.0,
+        "log_seconds": 120.0
+      },
+      "generated_at": "2026-11-21T00:16:38"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[00:51:51] G7 SA start seed=0 profile=A crossings=4383 pairs=3576 min_angle=45.005916711 C=156941.647390 movable=527
+[00:51:51] polish start: crossings=4383 pairs=3576 min=45.005916711
+[00:52:30] single route 631: -10 -> crossings=4373
+[00:53:21] single route 527: -2 -> crossings=4371
+[00:53:24] single route 687: -3 -> crossings=4368
+[00:53:42] single route 667: -2 -> crossings=4366
+[01:01:52] time budget reached
+[01:01:52] pass 2: no single-route improvement
+[01:01:59] polish done: crossings=4366 pairs=3574 fixed_pass=True reaudit_match=True

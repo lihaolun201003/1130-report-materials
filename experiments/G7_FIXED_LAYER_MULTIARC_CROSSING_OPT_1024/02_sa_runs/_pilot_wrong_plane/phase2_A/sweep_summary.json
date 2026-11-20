@@ -1,0 +1,978 @@
+{
+ "schema": "g7_sweep_v1",
+ "profile": "A",
+ "seeds": [
+  7401,
+  7402,
+  7403,
+  7404,
+  7405,
+  7406,
+  7407,
+  7408
+ ],
+ "seconds": 900.0,
+ "wall_seconds": 911.445,
+ "summaries": [
+  {
+   "schema": "g7_run_v1",
+   "seed": 7401,
+   "profile": "A",
+   "cycles": 1,
+   "cycle_seconds": 900.0,
+   "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\selected_best\\sa_best_routes.json",
+   "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\phase2_A\\seed_7401",
+   "best_key": [
+    4388,
+    -45.005917,
+    3579,
+    156962.581
+   ],
+   "cycles_run": 1,
+   "started": "2026-11-21T00:36:44",
+   "summaries": [
+    {
+     "schema": "g7_sa_summary_v1",
+     "seed": 7401,
+     "profile": "A",
+     "crossings": 4388,
+     "unique_pairs": 3579,
+     "min_angle_deg": 45.005916711,
+     "length_mm": 156962.580625,
+     "moves": 1704,
+     "accepted": 537,
+     "rejected": 645,
+     "failed_proposals": 522,
+     "commit_failures": 0,
+     "illegal_rollbacks": 0,
+     "reheat_count": 2,
+     "reconcile_count": 2,
+     "reconcile_mismatch": 0,
+     "elapsed_seconds": 902.043,
+     "moves_per_second": 1.889,
+     "acceptance_rate": 0.3151,
+     "per_plane": {
+      "0.025": 102,
+      "-0.075": 174,
+      "-0.275": 286,
+      "-0.125": 102,
+      "0.175": 202,
+      "0.125": 314,
+      "-0.325": 537,
+      "0.225": 103,
+      "0.075": 241,
+      "-0.025": 337,
+      "-0.175": 269,
+      "-0.225": 198,
+      "0.425": 275,
+      "0.325": 254,
+      "0.525": 239,
+      "0.575": 160,
+      "0.625": 245,
+      "0.375": 152,
+      "0.475": 77,
+      "0.275": 121
+     },
+     "sub45": 0,
+     "hard_issues": 0,
+     "move_stats": {
+      "N1": {
+       "attempted": 1182,
+       "rejected": 645,
+       "accepted": 537,
+       "improving": 9
+      },
+      "none": {
+       "rejected": 522
+      }
+     },
+     "pool_stats": {
+      "bodies": 78733,
+      "pools": 511,
+      "candidates": 16282
+     },
+     "frozen_routes": 497,
+     "modifiable_routes": 527,
+     "best_key": [
+      4388,
+      -45.005917,
+      3579,
+      156962.581
+     ],
+     "best_move": 1505,
+     "cfg": {
+      "profile": "A",
+      "seed": 7401,
+      "T0": 0.8,
+      "T_end": 0.05,
+      "M": null,
+      "pool_build": 160,
+      "pool_size": 24,
+      "pool_cache": 420,
+      "n1_sample": 8,
+      "n1_trials": 2,
+      "pair_sample": 2,
+      "group_size": [
+       3,
+       5
+      ],
+      "group_sample": 2,
+      "n1_weight": 1.0,
+      "n2_weight": 0.0,
+      "n3_weight": 0.0,
+      "n5_weight": 0.0,
+      "hotspot_share": 0.0,
+      "length_tiebreak": 0.0001,
+      "reheat_after_seconds": 300.0,
+      "reconcile_seconds": 420.0,
+      "checkpoint_seconds": 180.0,
+      "best_min_interval": 8.0,
+      "log_seconds": 120.0
+     },
+     "generated_at": "2026-11-21T00:36:44"
+    }
+   ]
+  },
+  {
+   "schema": "g7_run_v1",
+   "seed": 7402,
+   "profile": "A",
+   "cycles": 1,
+   "cycle_seconds": 900.0,
+   "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\selected_best\\sa_best_routes.json",
+   "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\phase2_A\\seed_7402",
+   "best_key": [
+    4388,
+    -45.005917,
+    3579,
+    156963.819
+   ],
+   "cycles_run": 1,
+   "started": "2026-11-21T00:36:43",
+   "summaries": [
+    {
+     "schema": "g7_sa_summary_v1",
+     "seed": 7402,
+     "profile": "A",
+     "crossings": 4388,
+     "unique_pairs": 3579,
+     "min_angle_deg": 45.005916711,
+     "length_mm": 156963.819037,
+     "moves": 1758,
+     "accepted": 567,
+     "rejected": 628,
+     "failed_proposals": 563,
+     "commit_failures": 0,
+     "illegal_rollbacks": 0,
+     "reheat_count": 2,
+     "reconcile_count": 2,
+     "reconcile_mismatch": 0,
+     "elapsed_seconds": 900.96,
+     "moves_per_second": 1.951,
+     "acceptance_rate": 0.3225,
+     "per_plane": {
+      "0.025": 102,
+      "-0.075": 175,
+      "-0.275": 286,
+      "-0.125": 101,
+      "0.175": 202,
+      "0.125": 314,
+      "-0.325": 537,
+      "0.225": 103,
+      "0.075": 241,
+      "-0.025": 337,
+      "-0.175": 269,
+      "-0.225": 198,
+      "0.425": 275,
+      "0.325": 254,
+      "0.525": 239,
+      "0.575": 160,
+      "0.625": 245,
+      "0.375": 152,
+      "0.475": 77,
+      "0.275": 121
+     },
+     "sub45": 0,
+     "hard_issues": 0,
+     "move_stats": {
+      "none": {
+       "rejected": 563
+      },
+      "N1": {
+       "attempted": 1195,
+       "accepted": 567,
+       "rejected": 628,
+       "improving": 8
+      }
+     },
+     "pool_stats": {
+      "bodies": 75724,
+      "pools": 494,
+      "candidates": 15543
+     },
+     "frozen_routes": 497,
+     "modifiable_routes": 527,
+     "best_key": [
+      4388,
+      -45.005917,
+      3579,
+      156963.819
+     ],
+     "best_move": 1471,
+     "cfg": {
+      "profile": "A",
+      "seed": 7402,
+      "T0": 0.8,
+      "T_end": 0.05,
+      "M": null,
+      "pool_build": 160,
+      "pool_size": 24,
+      "pool_cache": 420,
+      "n1_sample": 8,
+      "n1_trials": 2,
+      "pair_sample": 2,
+      "group_size": [
+       3,
+       5
+      ],
+      "group_sample": 2,
+      "n1_weight": 1.0,
+      "n2_weight": 0.0,
+      "n3_weight": 0.0,
+      "n5_weight": 0.0,
+      "hotspot_share": 0.0,
+      "length_tiebreak": 0.0001,
+      "reheat_after_seconds": 300.0,
+      "reconcile_seconds": 420.0,
+      "checkpoint_seconds": 180.0,
+      "best_min_interval": 8.0,
+      "log_seconds": 120.0
+     },
+     "generated_at": "2026-11-21T00:36:43"
+    }
+   ]
+  },
+  {
+   "schema": "g7_run_v1",
+   "seed": 7403,
+   "profile": "A",
+   "cycles": 1,
+   "cycle_seconds": 900.0,
+   "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\selected_best\\sa_best_routes.json",
+   "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\phase2_A\\seed_7403",
+   "best_key": [
+    4390,
+    -45.005917,
+    3580,
+    156915.478
+   ],
+   "cycles_run": 1,
+   "started": "2026-11-21T00:36:45",
+   "summaries": [
+    {
+     "schema": "g7_sa_summary_v1",
+     "seed": 7403,
+     "profile": "A",
+     "crossings": 4390,
+     "unique_pairs": 3580,
+     "min_angle_deg": 45.005916711,
+     "length_mm": 156915.477809,
+     "moves": 1742,
+     "accepted": 545,
+     "rejected": 658,
+     "failed_proposals": 539,
+     "commit_failures": 0,
+     "illegal_rollbacks": 0,
+     "reheat_count": 2,
+     "reconcile_count": 2,
+     "reconcile_mismatch": 0,
+     "elapsed_seconds": 903.515,
+     "moves_per_second": 1.928,
+     "acceptance_rate": 0.3129,
+     "per_plane": {
+      "0.025": 102,
+      "-0.075": 175,
+      "-0.275": 286,
+      "-0.125": 101,
+      "0.175": 204,
+      "0.125": 314,
+      "-0.325": 537,
+      "0.225": 103,
+      "0.075": 241,
+      "-0.025": 337,
+      "-0.175": 269,
+      "-0.225": 198,
+      "0.425": 275,
+      "0.325": 254,
+      "0.525": 239,
+      "0.575": 160,
+      "0.625": 245,
+      "0.375": 152,
+      "0.475": 77,
+      "0.275": 121
+     },
+     "sub45": 0,
+     "hard_issues": 0,
+     "move_stats": {
+      "N1": {
+       "attempted": 1203,
+       "rejected": 658,
+       "accepted": 545,
+       "improving": 8
+      },
+      "none": {
+       "rejected": 539
+      }
+     },
+     "pool_stats": {
+      "bodies": 76168,
+      "pools": 493,
+      "candidates": 15337
+     },
+     "frozen_routes": 497,
+     "modifiable_routes": 527,
+     "best_key": [
+      4390,
+      -45.005917,
+      3580,
+      156915.478
+     ],
+     "best_move": 1742,
+     "cfg": {
+      "profile": "A",
+      "seed": 7403,
+      "T0": 0.8,
+      "T_end": 0.05,
+      "M": null,
+      "pool_build": 160,
+      "pool_size": 24,
+      "pool_cache": 420,
+      "n1_sample": 8,
+      "n1_trials": 2,
+      "pair_sample": 2,
+      "group_size": [
+       3,
+       5
+      ],
+      "group_sample": 2,
+      "n1_weight": 1.0,
+      "n2_weight": 0.0,
+      "n3_weight": 0.0,
+      "n5_weight": 0.0,
+      "hotspot_share": 0.0,
+      "length_tiebreak": 0.0001,
+      "reheat_after_seconds": 300.0,
+      "reconcile_seconds": 420.0,
+      "checkpoint_seconds": 180.0,
+      "best_min_interval": 8.0,
+      "log_seconds": 120.0
+     },
+     "generated_at": "2026-11-21T00:36:45"
+    }
+   ]
+  },
+  {
+   "schema": "g7_run_v1",
+   "seed": 7404,
+   "profile": "A",
+   "cycles": 1,
+   "cycle_seconds": 900.0,
+   "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\selected_best\\sa_best_routes.json",
+   "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\phase2_A\\seed_7404",
+   "best_key": [
+    4391,
+    -45.005917,
+    3581,
+    156946.971
+   ],
+   "cycles_run": 1,
+   "started": "2026-11-21T00:36:43",
+   "summaries": [
+    {
+     "schema": "g7_sa_summary_v1",
+     "seed": 7404,
+     "profile": "A",
+     "crossings": 4391,
+     "unique_pairs": 3581,
+     "min_angle_deg": 45.005916711,
+     "length_mm": 156946.970517,
+     "moves": 1722,
+     "accepted": 567,
+     "rejected": 621,
+     "failed_proposals": 534,
+     "commit_failures": 0,
+     "illegal_rollbacks": 0,
+     "reheat_count": 2,
+     "reconcile_count": 2,
+     "reconcile_mismatch": 0,
+     "elapsed_seconds": 901.001,
+     "moves_per_second": 1.911,
+     "acceptance_rate": 0.3293,
+     "per_plane": {
+      "0.025": 102,
+      "-0.075": 175,
+      "-0.275": 286,
+      "-0.125": 102,
+      "0.175": 204,
+      "0.125": 314,
+      "-0.325": 537,
+      "0.225": 103,
+      "0.075": 241,
+      "-0.025": 337,
+      "-0.175": 269,
+      "-0.225": 198,
+      "0.425": 275,
+      "0.325": 254,
+      "0.525": 239,
+      "0.575": 160,
+      "0.625": 245,
+      "0.375": 152,
+      "0.475": 77,
+      "0.275": 121
+     },
+     "sub45": 0,
+     "hard_issues": 0,
+     "move_stats": {
+      "N1": {
+       "attempted": 1188,
+       "accepted": 567,
+       "rejected": 621,
+       "improving": 6
+      },
+      "none": {
+       "rejected": 534
+      }
+     },
+     "pool_stats": {
+      "bodies": 79815,
+      "pools": 518,
+      "candidates": 15951
+     },
+     "frozen_routes": 497,
+     "modifiable_routes": 527,
+     "best_key": [
+      4391,
+      -45.005917,
+      3581,
+      156946.971
+     ],
+     "best_move": 1285,
+     "cfg": {
+      "profile": "A",
+      "seed": 7404,
+      "T0": 0.8,
+      "T_end": 0.05,
+      "M": null,
+      "pool_build": 160,
+      "pool_size": 24,
+      "pool_cache": 420,
+      "n1_sample": 8,
+      "n1_trials": 2,
+      "pair_sample": 2,
+      "group_size": [
+       3,
+       5
+      ],
+      "group_sample": 2,
+      "n1_weight": 1.0,
+      "n2_weight": 0.0,
+      "n3_weight": 0.0,
+      "n5_weight": 0.0,
+      "hotspot_share": 0.0,
+      "length_tiebreak": 0.0001,
+      "reheat_after_seconds": 300.0,
+      "reconcile_seconds": 420.0,
+      "checkpoint_seconds": 180.0,
+      "best_min_interval": 8.0,
+      "log_seconds": 120.0
+     },
+     "generated_at": "2026-11-21T00:36:43"
+    }
+   ]
+  },
+  {
+   "schema": "g7_run_v1",
+   "seed": 7405,
+   "profile": "A",
+   "cycles": 1,
+   "cycle_seconds": 900.0,
+   "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\selected_best\\sa_best_routes.json",
+   "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\phase2_A\\seed_7405",
+   "best_key": [
+    4386,
+    -45.005917,
+    3579,
+    156911.808
+   ],
+   "cycles_run": 1,
+   "started": "2026-11-21T00:36:44",
+   "summaries": [
+    {
+     "schema": "g7_sa_summary_v1",
+     "seed": 7405,
+     "profile": "A",
+     "crossings": 4386,
+     "unique_pairs": 3579,
+     "min_angle_deg": 45.005916711,
+     "length_mm": 156911.808481,
+     "moves": 1768,
+     "accepted": 557,
+     "rejected": 594,
+     "failed_proposals": 617,
+     "commit_failures": 0,
+     "illegal_rollbacks": 0,
+     "reheat_count": 2,
+     "reconcile_count": 2,
+     "reconcile_mismatch": 0,
+     "elapsed_seconds": 902.235,
+     "moves_per_second": 1.96,
+     "acceptance_rate": 0.315,
+     "per_plane": {
+      "0.025": 102,
+      "-0.075": 174,
+      "-0.275": 286,
+      "-0.125": 102,
+      "0.175": 204,
+      "0.125": 314,
+      "-0.325": 539,
+      "0.225": 103,
+      "0.075": 241,
+      "-0.025": 331,
+      "-0.175": 269,
+      "-0.225": 198,
+      "0.425": 275,
+      "0.325": 254,
+      "0.525": 239,
+      "0.575": 160,
+      "0.625": 245,
+      "0.375": 152,
+      "0.475": 77,
+      "0.275": 121
+     },
+     "sub45": 0,
+     "hard_issues": 0,
+     "move_stats": {
+      "none": {
+       "rejected": 617
+      },
+      "N1": {
+       "attempted": 1151,
+       "rejected": 594,
+       "accepted": 557,
+       "improving": 10
+      }
+     },
+     "pool_stats": {
+      "bodies": 77133,
+      "pools": 501,
+      "candidates": 15356
+     },
+     "frozen_routes": 497,
+     "modifiable_routes": 527,
+     "best_key": [
+      4386,
+      -45.005917,
+      3579,
+      156911.808
+     ],
+     "best_move": 1768,
+     "cfg": {
+      "profile": "A",
+      "seed": 7405,
+      "T0": 0.8,
+      "T_end": 0.05,
+      "M": null,
+      "pool_build": 160,
+      "pool_size": 24,
+      "pool_cache": 420,
+      "n1_sample": 8,
+      "n1_trials": 2,
+      "pair_sample": 2,
+      "group_size": [
+       3,
+       5
+      ],
+      "group_sample": 2,
+      "n1_weight": 1.0,
+      "n2_weight": 0.0,
+      "n3_weight": 0.0,
+      "n5_weight": 0.0,
+      "hotspot_share": 0.0,
+      "length_tiebreak": 0.0001,
+      "reheat_after_seconds": 300.0,
+      "reconcile_seconds": 420.0,
+      "checkpoint_seconds": 180.0,
+      "best_min_interval": 8.0,
+      "log_seconds": 120.0
+     },
+     "generated_at": "2026-11-21T00:36:44"
+    }
+   ]
+  },
+  {
+   "schema": "g7_run_v1",
+   "seed": 7406,
+   "profile": "A",
+   "cycles": 1,
+   "cycle_seconds": 900.0,
+   "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\selected_best\\sa_best_routes.json",
+   "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\phase2_A\\seed_7406",
+   "best_key": [
+    4391,
+    -45.005917,
+    3580,
+    156926.144
+   ],
+   "cycles_run": 1,
+   "started": "2026-11-21T00:36:44",
+   "summaries": [
+    {
+     "schema": "g7_sa_summary_v1",
+     "seed": 7406,
+     "profile": "A",
+     "crossings": 4391,
+     "unique_pairs": 3580,
+     "min_angle_deg": 45.005916711,
+     "length_mm": 156926.143655,
+     "moves": 1724,
+     "accepted": 545,
+     "rejected": 636,
+     "failed_proposals": 543,
+     "commit_failures": 0,
+     "illegal_rollbacks": 0,
+     "reheat_count": 2,
+     "reconcile_count": 2,
+     "reconcile_mismatch": 0,
+     "elapsed_seconds": 902.146,
+     "moves_per_second": 1.911,
+     "acceptance_rate": 0.3161,
+     "per_plane": {
+      "0.025": 102,
+      "-0.075": 174,
+      "-0.275": 286,
+      "-0.125": 101,
+      "0.175": 202,
+      "0.125": 314,
+      "-0.325": 537,
+      "0.225": 103,
+      "0.075": 241,
+      "-0.025": 337,
+      "-0.175": 269,
+      "-0.225": 198,
+      "0.425": 275,
+      "0.325": 254,
+      "0.525": 243,
+      "0.575": 160,
+      "0.625": 245,
+      "0.375": 152,
+      "0.475": 77,
+      "0.275": 121
+     },
+     "sub45": 0,
+     "hard_issues": 0,
+     "move_stats": {
+      "N1": {
+       "attempted": 1181,
+       "accepted": 545,
+       "rejected": 636,
+       "improving": 10
+      },
+      "none": {
+       "rejected": 543
+      }
+     },
+     "pool_stats": {
+      "bodies": 77730,
+      "pools": 505,
+      "candidates": 15788
+     },
+     "frozen_routes": 497,
+     "modifiable_routes": 527,
+     "best_key": [
+      4391,
+      -45.005917,
+      3580,
+      156926.144
+     ],
+     "best_move": 1544,
+     "cfg": {
+      "profile": "A",
+      "seed": 7406,
+      "T0": 0.8,
+      "T_end": 0.05,
+      "M": null,
+      "pool_build": 160,
+      "pool_size": 24,
+      "pool_cache": 420,
+      "n1_sample": 8,
+      "n1_trials": 2,
+      "pair_sample": 2,
+      "group_size": [
+       3,
+       5
+      ],
+      "group_sample": 2,
+      "n1_weight": 1.0,
+      "n2_weight": 0.0,
+      "n3_weight": 0.0,
+      "n5_weight": 0.0,
+      "hotspot_share": 0.0,
+      "length_tiebreak": 0.0001,
+      "reheat_after_seconds": 300.0,
+      "reconcile_seconds": 420.0,
+      "checkpoint_seconds": 180.0,
+      "best_min_interval": 8.0,
+      "log_seconds": 120.0
+     },
+     "generated_at": "2026-11-21T00:36:44"
+    }
+   ]
+  },
+  {
+   "schema": "g7_run_v1",
+   "seed": 7407,
+   "profile": "A",
+   "cycles": 1,
+   "cycle_seconds": 900.0,
+   "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\selected_best\\sa_best_routes.json",
+   "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\phase2_A\\seed_7407",
+   "best_key": [
+    4392,
+    -45.005917,
+    3581,
+    156897.051
+   ],
+   "cycles_run": 1,
+   "started": "2026-11-21T00:36:45",
+   "summaries": [
+    {
+     "schema": "g7_sa_summary_v1",
+     "seed": 7407,
+     "profile": "A",
+     "crossings": 4392,
+     "unique_pairs": 3581,
+     "min_angle_deg": 45.005916711,
+     "length_mm": 156897.051249,
+     "moves": 1824,
+     "accepted": 560,
+     "rejected": 688,
+     "failed_proposals": 576,
+     "commit_failures": 0,
+     "illegal_rollbacks": 0,
+     "reheat_count": 2,
+     "reconcile_count": 2,
+     "reconcile_mismatch": 0,
+     "elapsed_seconds": 902.515,
+     "moves_per_second": 2.021,
+     "acceptance_rate": 0.307,
+     "per_plane": {
+      "0.025": 102,
+      "-0.075": 174,
+      "-0.275": 286,
+      "-0.125": 100,
+      "0.175": 204,
+      "0.125": 314,
+      "-0.325": 539,
+      "0.225": 103,
+      "0.075": 241,
+      "-0.025": 343,
+      "-0.175": 269,
+      "-0.225": 198,
+      "0.425": 275,
+      "0.325": 254,
+      "0.525": 235,
+      "0.575": 160,
+      "0.625": 245,
+      "0.375": 152,
+      "0.475": 77,
+      "0.275": 121
+     },
+     "sub45": 0,
+     "hard_issues": 0,
+     "move_stats": {
+      "N1": {
+       "attempted": 1248,
+       "accepted": 560,
+       "rejected": 688,
+       "improving": 6
+      },
+      "none": {
+       "rejected": 576
+      }
+     },
+     "pool_stats": {
+      "bodies": 78183,
+      "pools": 511,
+      "candidates": 16181
+     },
+     "frozen_routes": 497,
+     "modifiable_routes": 527,
+     "best_key": [
+      4392,
+      -45.005917,
+      3581,
+      156897.051
+     ],
+     "best_move": 1701,
+     "cfg": {
+      "profile": "A",
+      "seed": 7407,
+      "T0": 0.8,
+      "T_end": 0.05,
+      "M": null,
+      "pool_build": 160,
+      "pool_size": 24,
+      "pool_cache": 420,
+      "n1_sample": 8,
+      "n1_trials": 2,
+      "pair_sample": 2,
+      "group_size": [
+       3,
+       5
+      ],
+      "group_sample": 2,
+      "n1_weight": 1.0,
+      "n2_weight": 0.0,
+      "n3_weight": 0.0,
+      "n5_weight": 0.0,
+      "hotspot_share": 0.0,
+      "length_tiebreak": 0.0001,
+      "reheat_after_seconds": 300.0,
+      "reconcile_seconds": 420.0,
+      "checkpoint_seconds": 180.0,
+      "best_min_interval": 8.0,
+      "log_seconds": 120.0
+     },
+     "generated_at": "2026-11-21T00:36:45"
+    }
+   ]
+  },
+  {
+   "schema": "g7_run_v1",
+   "seed": 7408,
+   "profile": "A",
+   "cycles": 1,
+   "cycle_seconds": 900.0,
+   "start": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\selected_best\\sa_best_routes.json",
+   "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\phase2_A\\seed_7408",
+   "best_key": [
+    4388,
+    -45.005917,
+    3578,
+    156940.216
+   ],
+   "cycles_run": 1,
+   "started": "2026-11-21T00:36:44",
+   "summaries": [
+    {
+     "schema": "g7_sa_summary_v1",
+     "seed": 7408,
+     "profile": "A",
+     "crossings": 4388,
+     "unique_pairs": 3578,
+     "min_angle_deg": 45.005916711,
+     "length_mm": 156940.216392,
+     "moves": 1867,
+     "accepted": 568,
+     "rejected": 687,
+     "failed_proposals": 612,
+     "commit_failures": 0,
+     "illegal_rollbacks": 0,
+     "reheat_count": 2,
+     "reconcile_count": 2,
+     "reconcile_mismatch": 0,
+     "elapsed_seconds": 901.48,
+     "moves_per_second": 2.071,
+     "acceptance_rate": 0.3042,
+     "per_plane": {
+      "0.025": 102,
+      "-0.075": 174,
+      "-0.275": 286,
+      "-0.125": 101,
+      "0.175": 204,
+      "0.125": 314,
+      "-0.325": 537,
+      "0.225": 103,
+      "0.075": 241,
+      "-0.025": 336,
+      "-0.175": 269,
+      "-0.225": 198,
+      "0.425": 275,
+      "0.325": 254,
+      "0.525": 239,
+      "0.575": 160,
+      "0.625": 245,
+      "0.375": 152,
+      "0.475": 77,
+      "0.275": 121
+     },
+     "sub45": 0,
+     "hard_issues": 0,
+     "move_stats": {
+      "N1": {
+       "attempted": 1255,
+       "rejected": 687,
+       "accepted": 568,
+       "improving": 10
+      },
+      "none": {
+       "rejected": 612
+      }
+     },
+     "pool_stats": {
+      "bodies": 77875,
+      "pools": 510,
+      "candidates": 15913
+     },
+     "frozen_routes": 497,
+     "modifiable_routes": 527,
+     "best_key": [
+      4388,
+      -45.005917,
+      3578,
+      156940.216
+     ],
+     "best_move": 1839,
+     "cfg": {
+      "profile": "A",
+      "seed": 7408,
+      "T0": 0.8,
+      "T_end": 0.05,
+      "M": null,
+      "pool_build": 160,
+      "pool_size": 24,
+      "pool_cache": 420,
+      "n1_sample": 8,
+      "n1_trials": 2,
+      "pair_sample": 2,
+      "group_size": [
+       3,
+       5
+      ],
+      "group_sample": 2,
+      "n1_weight": 1.0,
+      "n2_weight": 0.0,
+      "n3_weight": 0.0,
+      "n5_weight": 0.0,
+      "hotspot_share": 0.0,
+      "length_tiebreak": 0.0001,
+      "reheat_after_seconds": 300.0,
+      "reconcile_seconds": 420.0,
+      "checkpoint_seconds": 180.0,
+      "best_min_interval": 8.0,
+      "log_seconds": 120.0
+     },
+     "generated_at": "2026-11-21T00:36:44"
+    }
+   ]
+  }
+ ],
+ "best_seed": 7405,
+ "best_key": [
+  4386,
+  -45.005917,
+  3579,
+  156911.808
+ ],
+ "best_cycle": "C:\\Users\\lihao\\Desktop\\Graduation Project\\OpticalWaveguideRouter2D\\experiments\\G7_FIXED_LAYER_MULTIARC_CROSSING_OPT_1024\\02_sa_runs\\phase2_A\\seed_7405"
+}
