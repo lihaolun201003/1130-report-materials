@@ -431,9 +431,15 @@ def main(argv=None):
                                       'PASS' if row['passed'] else 'FAIL',
                                       str(row.get('detail', ''))[:120]))
         add('')
-        add('其中 T2/T3 是**"单独迁移非法、整体迁移合法"的真实案例**：'
-            'R173↔R424 的高度互换单独迁移会产生硬性违规，整组互换却完全合法；'
-            'R338/R436/R421 的三循环同理。这正是逐条重分配永远无法接受的解。')
+        t2 = next((row for row in tests.get('results', [])
+                   if row['test'].startswith('T2')), {})
+        t3 = next((row for row in tests.get('results', [])
+                   if row['test'].startswith('T3')), {})
+        add('其中 **%s** 与 **%s** 是**"单独迁移非法、整体迁移合法"的真实案例**：'
+            'T2 中两条线路的高度互换，单独迁移会产生硬性违规（%s），'
+            '整组互换却完全合法；T3 的三循环同理（%s）。'
+            '这正是逐条重分配永远无法接受的解。'
+            % ('T2', 'T3', t2.get('detail', ''), t3.get('detail', '')))
     add('')
     add('### 5c.2 全局联合层分配（CP-SAT + 几何反馈）')
     add('')

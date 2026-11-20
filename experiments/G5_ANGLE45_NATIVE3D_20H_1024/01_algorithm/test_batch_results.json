@@ -18,7 +18,7 @@
   {
    "test": "T2 two-route swap: individually illegal, jointly legal",
    "passed": true,
-   "detail": "pair=(173, 424) single_violations=0 single_issues=1"
+   "detail": "pair=(168, 58) single_violations=0 single_issues=2"
   },
   {
    "test": "T3 three-route cycle: individually illegal, jointly legal",
@@ -28,7 +28,7 @@
   {
    "test": "T4 chain migration legal as one batch",
    "passed": true,
-   "detail": "chain=(27, 309, -0.225, -0.275)"
+   "detail": "chain=(27, 309, -0.225, -0.175)"
   },
   {
    "test": "T5 batch D56 clearance conflict detected",
@@ -53,7 +53,7 @@
   {
    "test": "T9 committed batch agrees with full re-audit",
    "passed": true,
-   "detail": "audit violations=70 state=70 | audit crossings=3933 state=3933"
+   "detail": "audit violations=51 state=51 | audit crossings=4140 state=4140"
   }
  ]
 }

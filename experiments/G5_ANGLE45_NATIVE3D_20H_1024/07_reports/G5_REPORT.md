@@ -169,16 +169,16 @@
 |---|---|---|
 | T1 identity batch | PASS | issues=0 violations=0 |
 | T1 world untouched | PASS |  |
-| T2 two-route swap: individually illegal, jointly legal | PASS | pair=(173, 424) single_violations=0 single_issues=1 |
+| T2 two-route swap: individually illegal, jointly legal | PASS | pair=(168, 58) single_violations=0 single_issues=2 |
 | T3 three-route cycle: individually illegal, jointly legal | PASS | trio=(338, 436, 421) |
-| T4 chain migration legal as one batch | PASS | chain=(27, 309, -0.225, -0.275) |
+| T4 chain migration legal as one batch | PASS | chain=(27, 309, -0.225, -0.175) |
 | T5 batch D56 clearance conflict detected | PASS | route=139 z=-0.075 kinds=['clearance'] |
 | T6 batch R15 violation detected | PASS | issues=2 kinds=['structure_arc_radius', 'structure_position_transition_flat'] |
 | T7 batch 3-D clearance violation detected | PASS | route/z/kinds=(1, -0.025, ['3d_flat_transition']) |
 | T8 rejected batch rolls back completely | PASS | commit ok=False reverted=True |
-| T9 committed batch agrees with full re-audit | PASS | audit violations=70 state=70 | audit crossings=3933 state=3933 |
+| T9 committed batch agrees with full re-audit | PASS | audit violations=51 state=51 | audit crossings=4140 state=4140 |
 
-其中 T2/T3 是**"单独迁移非法、整体迁移合法"的真实案例**：R173↔R424 的高度互换单独迁移会产生硬性违规，整组互换却完全合法；R338/R436/R421 的三循环同理。这正是逐条重分配永远无法接受的解。
+其中 **T2** 与 **T3** 是**"单独迁移非法、整体迁移合法"的真实案例**：T2 中两条线路的高度互换，单独迁移会产生硬性违规（pair=(168, 58) single_violations=0 single_issues=2），整组互换却完全合法；T3 的三循环同理（trio=(338, 436, 421)）。这正是逐条重分配永远无法接受的解。
 
 ### 5c.2 全局联合层分配（CP-SAT + 几何反馈）
 

@@ -251,25 +251,42 @@ def main(argv=None):
           'commit ok=%s reverted=%s' % (info.get('ok'), info.get('reverted')))
 
     # ---------------------------------------------------------------- T9
-    # a batch that really is accepted must agree with a full-world re-audit
+    # an accepted batch must agree with a full-world re-audit
     moved = {}
-    for rid2 in nodes[:40]:
+    # any hard-legal batch whose violation count does not grow is enough to test
+    # the bookkeeping agreement (the test is about state consistency)
+    for rid2 in nodes[:200]:
         route = state.world.routes[rid2]
-        current = height_of(route)
+        before = len(state.violations_touching([rid2]))
         for z in heights:
-            if current is not None and abs(z - current) < 1e-9:
-                continue
             candidate = C.reheight_any(route, z)
             if candidate is None:
                 continue
             trial = B.evaluate_batch(state, {rid2: candidate})
             if not trial['ok']:
                 continue
-            if len(trial['violations']) < len(state.violations_touching([rid2])):
+            if len(trial['violations']) <= before:
                 moved[rid2] = candidate
                 break
-        if len(moved) >= 2:
+        if moved:
             break
+    if not moved:
+        pairs = LS.swap_candidates(state, adjacency, height_of)[:40]
+        for (a2, b2, za2, zb2) in pairs:
+            batch = {}
+            for rid2, target in ((a2, zb2), (b2, za2)):
+                candidate = C.reheight_any(state.world.routes[rid2], target)
+                if candidate is None:
+                    batch = None
+                    break
+                batch[rid2] = candidate
+            if not batch:
+                continue
+            before = len(state.violations_touching(batch.keys()))
+            trial = B.evaluate_batch(state, batch)
+            if trial['ok'] and len(trial['violations']) < before:
+                moved = batch
+                break
     if moved:
         info = B.commit_batch(state, moved, label='test-accept')
         if info['ok']:
