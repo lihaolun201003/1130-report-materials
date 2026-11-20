@@ -2,7 +2,7 @@
 
 **Angle-Aware MultiArc Simulated Annealing (G6)** — `theta_min = 45°` 作为硬几何约束，直接融入 MultiArc 几何构造与「高度 / 主体圆弧 / R15 过渡」联合模拟退火。
 
-Generated 2026-11-20 22:09:26 by `01_algorithm/build_report.py` from the delivered JSON artefacts.
+Generated 2026-11-20 22:10:21 by `01_algorithm/build_report.py` from the delivered JSON artefacts.
 
 ## 0. 结论摘要
 
@@ -215,6 +215,8 @@ experiments/G6_ANGLE45_MULTIARC_SA_20H_1024/
 
 复现命令见 `REPRODUCTION.md`；代码快照与 SHA256 见 `01_algorithm/code_snapshot/CODE_MANIFEST.json`。
 
+**GitHub 提交号：** `1582a9bdb8a48d165f25097858e4e4c8881ca183`
+
 ## 9. 关键结论（对应任务书十问）
 
 1. **早期 MultiArc 退火是否真正接入成功？** 是。`layer2d` 候选选择已改为角度感知（`G6_ANGLE_AWARE`，默认关闭保持冻结行为），在 5153 次路由选择中扫描 118577 个合法 MultiArc 候选，构造产物（N_bad）**1365 → 1166（−14.6%）**，且原 Validator A 仍 PASS。
@@ -226,4 +228,4 @@ experiments/G6_ANGLE45_MULTIARC_SA_20H_1024/
 7. **全部工程 Validator 是否 PASS？** 原工程 Validator A **PASS**、独立 45° Validator B **PASS**，综合 `G6_ANGLE45_VALID_PASS`。
 8. **哪种扰动机制贡献最大？** N1 单线路 MultiArc 重生成贡献绝大多数改进；最后残余靠 N2/N4 的原子联合移动 + 穷举收尾（逐事件记录见 polish 日志）。
 9. **最终数据和报告路径？** 见第 8 节；最终解 `03_best_feasible/`。
-10. **GitHub 提交号？** 见交付提交记录
+10. **GitHub 提交号？** `1582a9bdb8a48d165f25097858e4e4c8881ca183`
